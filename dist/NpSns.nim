@@ -1,34 +1,53 @@
-proc sceNpSnsFacebookAbortRequest*()
+proc sceNpSnsFacebookAbortRequest*() {.cdecl,
+                                       importc: "sceNpSnsFacebookAbortRequest",
+                                       header: "orbis/NpSns.h".}
   ##  Empty Comment
-proc sceNpSnsFacebookCreateRequest*()
+proc sceNpSnsFacebookCreateRequest*() {.cdecl, importc: "sceNpSnsFacebookCreateRequest",
+                                        header: "orbis/NpSns.h".}
   ##  Empty Comment
-proc sceNpSnsFacebookDeleteRequest*()
+proc sceNpSnsFacebookDeleteRequest*() {.cdecl, importc: "sceNpSnsFacebookDeleteRequest",
+                                        header: "orbis/NpSns.h".}
   ##  Empty Comment
-proc sceNpSnsFacebookGetAccessToken*()
+proc sceNpSnsFacebookGetAccessToken*() {.cdecl,
+    importc: "sceNpSnsFacebookGetAccessToken", header: "orbis/NpSns.h".}
   ##  Empty Comment
-proc sceNpSnsIntAbortRequest*()
+proc sceNpSnsIntAbortRequest*() {.cdecl, importc: "sceNpSnsIntAbortRequest",
+                                  header: "orbis/NpSns.h".}
   ##  Empty Comment
-proc sceNpSnsIntCheckServiceAvailability*()
+proc sceNpSnsIntCheckServiceAvailability*() {.cdecl,
+    importc: "sceNpSnsIntCheckServiceAvailability", header: "orbis/NpSns.h".}
   ##  Empty Comment
-proc sceNpSnsIntCreateRequest*()
+proc sceNpSnsIntCreateRequest*() {.cdecl, importc: "sceNpSnsIntCreateRequest",
+                                   header: "orbis/NpSns.h".}
   ##  Empty Comment
-proc sceNpSnsIntDeleteRequest*()
+proc sceNpSnsIntDeleteRequest*() {.cdecl, importc: "sceNpSnsIntDeleteRequest",
+                                   header: "orbis/NpSns.h".}
   ##  Empty Comment
-proc sceNpSnsIntFbGetGameAccessToken*()
+proc sceNpSnsIntFbGetGameAccessToken*() {.cdecl,
+    importc: "sceNpSnsIntFbGetGameAccessToken", header: "orbis/NpSns.h".}
   ##  Empty Comment
-proc sceNpSnsIntFbGetGameAccessTokenAllowed*()
+proc sceNpSnsIntFbGetGameAccessTokenAllowed*() {.cdecl,
+    importc: "sceNpSnsIntFbGetGameAccessTokenAllowed", header: "orbis/NpSns.h".}
   ##  Empty Comment
-proc sceNpSnsIntFbGetSystemAccessToken*()
+proc sceNpSnsIntFbGetSystemAccessToken*() {.cdecl,
+    importc: "sceNpSnsIntFbGetSystemAccessToken", header: "orbis/NpSns.h".}
   ##  Empty Comment
-proc sceNpSnsIntFbGetTitleInfo*()
+proc sceNpSnsIntFbGetTitleInfo*() {.cdecl, importc: "sceNpSnsIntFbGetTitleInfo",
+                                    header: "orbis/NpSns.h".}
   ##  Empty Comment
-proc sceNpSnsIntLinkedStatus*()
+proc sceNpSnsIntLinkedStatus*() {.cdecl, importc: "sceNpSnsIntLinkedStatus",
+                                  header: "orbis/NpSns.h".}
   ##  Empty Comment
-proc sceNpSnsIntTest*()
+proc sceNpSnsIntTest*() {.cdecl, importc: "sceNpSnsIntTest",
+                          header: "orbis/NpSns.h".}
   ##  Empty Comment
-proc sceNpSnsIntTwGetSystemAccessToken*()
+proc sceNpSnsIntTwGetSystemAccessToken*() {.cdecl,
+    importc: "sceNpSnsIntTwGetSystemAccessToken", header: "orbis/NpSns.h".}
   ##  Empty Comment
-proc sceNpSnsIntYtGetAccessToken*()
+proc sceNpSnsIntYtGetAccessToken*() {.cdecl,
+                                      importc: "sceNpSnsIntYtGetAccessToken",
+                                      header: "orbis/NpSns.h".}
   ##  Empty Comment
-proc sceNpSnsIntYtRefreshMasterToken*()
+proc sceNpSnsIntYtRefreshMasterToken*() {.cdecl,
+    importc: "sceNpSnsIntYtRefreshMasterToken", header: "orbis/NpSns.h".}
   ##  Empty Comment

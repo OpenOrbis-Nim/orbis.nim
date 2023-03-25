@@ -1,96 +1,159 @@
-proc _sceApplicationGetAppId*()
+proc _sceApplicationGetAppId*() {.cdecl, importc: "_sceApplicationGetAppId",
+                                  header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationAddProcess2*()
+proc sceApplicationAddProcess2*() {.cdecl, importc: "sceApplicationAddProcess2",
+                                    header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationBlockingKill2*()
+proc sceApplicationBlockingKill2*() {.cdecl,
+                                      importc: "sceApplicationBlockingKill2",
+                                      header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationContinue*()
+proc sceApplicationContinue*() {.cdecl, importc: "sceApplicationContinue",
+                                 header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationCrashSyscore*()
+proc sceApplicationCrashSyscore*() {.cdecl,
+                                     importc: "sceApplicationCrashSyscore",
+                                     header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationExitSpawn*()
+proc sceApplicationExitSpawn*() {.cdecl, importc: "sceApplicationExitSpawn",
+                                  header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationExitSpawn2*()
+proc sceApplicationExitSpawn2*() {.cdecl, importc: "sceApplicationExitSpawn2",
+                                   header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationFinalize*()
+proc sceApplicationFinalize*() {.cdecl, importc: "sceApplicationFinalize",
+                                 header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationGetAppInfoByAppId*(appId: cint; info: ptr OrbisAppInfo): cint
+proc sceApplicationGetAppInfoByAppId*(appId: cint; info: ptr OrbisAppInfo): cint {.
+    cdecl, importc: "sceApplicationGetAppInfoByAppId", header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationGetCoredumpDirAndFileName*()
+proc sceApplicationGetCoredumpDirAndFileName*() {.cdecl,
+    importc: "sceApplicationGetCoredumpDirAndFileName",
+    header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationGetCoredumpState*()
+proc sceApplicationGetCoredumpState*() {.cdecl,
+    importc: "sceApplicationGetCoredumpState", header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationGetProcs*()
+proc sceApplicationGetProcs*() {.cdecl, importc: "sceApplicationGetProcs",
+                                 header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationGetShellCoreAppId*()
+proc sceApplicationGetShellCoreAppId*() {.cdecl,
+    importc: "sceApplicationGetShellCoreAppId", header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationInitialize*()
+proc sceApplicationInitialize*() {.cdecl, importc: "sceApplicationInitialize",
+                                   header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationInitializeForShellCore*()
+proc sceApplicationInitializeForShellCore*() {.cdecl,
+    importc: "sceApplicationInitializeForShellCore", header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationIsPrimaryProcess*()
+proc sceApplicationIsPrimaryProcess*() {.cdecl,
+    importc: "sceApplicationIsPrimaryProcess", header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationIsResumable*()
+proc sceApplicationIsResumable*() {.cdecl, importc: "sceApplicationIsResumable",
+                                    header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationKickCoredump*()
+proc sceApplicationKickCoredump*() {.cdecl,
+                                     importc: "sceApplicationKickCoredump",
+                                     header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationKickCoredump2*()
+proc sceApplicationKickCoredump2*() {.cdecl,
+                                      importc: "sceApplicationKickCoredump2",
+                                      header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationLocalProcessKill*()
+proc sceApplicationLocalProcessKill*() {.cdecl,
+    importc: "sceApplicationLocalProcessKill", header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationLocalProcessKill2*()
+proc sceApplicationLocalProcessKill2*() {.cdecl,
+    importc: "sceApplicationLocalProcessKill2", header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationLocalProcessResume*()
+proc sceApplicationLocalProcessResume*() {.cdecl,
+    importc: "sceApplicationLocalProcessResume", header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationLocalProcessSuspend*()
+proc sceApplicationLocalProcessSuspend*() {.cdecl,
+    importc: "sceApplicationLocalProcessSuspend", header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationNotifyCoredumpRequestEnd*()
+proc sceApplicationNotifyCoredumpRequestEnd*() {.cdecl,
+    importc: "sceApplicationNotifyCoredumpRequestEnd", header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationNotifyCoredumpRequestProgress*()
+proc sceApplicationNotifyCoredumpRequestProgress*() {.cdecl,
+    importc: "sceApplicationNotifyCoredumpRequestProgress",
+    header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationNotifyVshMainOnStandby*()
+proc sceApplicationNotifyVshMainOnStandby*() {.cdecl,
+    importc: "sceApplicationNotifyVshMainOnStandby", header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationNotifyVshReady*()
+proc sceApplicationNotifyVshReady*() {.cdecl,
+                                       importc: "sceApplicationNotifyVshReady",
+                                       header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationRaiseException*()
+proc sceApplicationRaiseException*() {.cdecl,
+                                       importc: "sceApplicationRaiseException",
+                                       header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationRaiseExceptionToLocalPid*()
+proc sceApplicationRaiseExceptionToLocalPid*() {.cdecl,
+    importc: "sceApplicationRaiseExceptionToLocalPid", header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationResume*()
+proc sceApplicationResume*() {.cdecl, importc: "sceApplicationResume",
+                               header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationSendDebugSpawnResult2*()
+proc sceApplicationSendDebugSpawnResult2*() {.cdecl,
+    importc: "sceApplicationSendDebugSpawnResult2", header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationSendResultOfDebuggerKillRequest*()
+proc sceApplicationSendResultOfDebuggerKillRequest*() {.cdecl,
+    importc: "sceApplicationSendResultOfDebuggerKillRequest",
+    header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationSendResultOfDebuggerResumeRequest*()
+proc sceApplicationSendResultOfDebuggerResumeRequest*() {.cdecl,
+    importc: "sceApplicationSendResultOfDebuggerResumeRequest",
+    header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationSendResultOfDebuggerSuspendRequest*()
+proc sceApplicationSendResultOfDebuggerSuspendRequest*() {.cdecl,
+    importc: "sceApplicationSendResultOfDebuggerSuspendRequest",
+    header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationSendResultOfDebuggerTitleIdLaunchRequest*()
+proc sceApplicationSendResultOfDebuggerTitleIdLaunchRequest*() {.cdecl,
+    importc: "sceApplicationSendResultOfDebuggerTitleIdLaunchRequest",
+    header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationSetApplicationFocus*()
+proc sceApplicationSetApplicationFocus*() {.cdecl,
+    importc: "sceApplicationSetApplicationFocus", header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationSetControllerFocus*()
+proc sceApplicationSetControllerFocus*() {.cdecl,
+    importc: "sceApplicationSetControllerFocus", header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationSetControllerFocusPermissionToSubProcess*()
+proc sceApplicationSetControllerFocusPermissionToSubProcess*() {.cdecl,
+    importc: "sceApplicationSetControllerFocusPermissionToSubProcess",
+    header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationSetMemoryPstate*()
+proc sceApplicationSetMemoryPstate*() {.cdecl, importc: "sceApplicationSetMemoryPstate",
+                                        header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationSignalShellCoreHeartBeat*()
+proc sceApplicationSignalShellCoreHeartBeat*() {.cdecl,
+    importc: "sceApplicationSignalShellCoreHeartBeat", header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationSuspend*()
+proc sceApplicationSuspend*() {.cdecl, importc: "sceApplicationSuspend",
+                                header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationSwitchToBaseMode*()
+proc sceApplicationSwitchToBaseMode*() {.cdecl,
+    importc: "sceApplicationSwitchToBaseMode", header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationSwitchToNeoMode*()
+proc sceApplicationSwitchToNeoMode*() {.cdecl, importc: "sceApplicationSwitchToNeoMode",
+                                        header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationSwitchToNeoMode2*()
+proc sceApplicationSwitchToNeoMode2*() {.cdecl,
+    importc: "sceApplicationSwitchToNeoMode2", header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationSystemReboot*()
+proc sceApplicationSystemReboot*() {.cdecl,
+                                     importc: "sceApplicationSystemReboot",
+                                     header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationSystemShutdown2*()
+proc sceApplicationSystemShutdown2*() {.cdecl, importc: "sceApplicationSystemShutdown2",
+                                        header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceApplicationSystemSuspend*()
+proc sceApplicationSystemSuspend*() {.cdecl,
+                                      importc: "sceApplicationSystemSuspend",
+                                      header: "orbis/SysCore.h".}
   ##  Empty Comment
-proc sceSysCoreReceiveEvent*()
+proc sceSysCoreReceiveEvent*() {.cdecl, importc: "sceSysCoreReceiveEvent",
+                                 header: "orbis/SysCore.h".}
   ##  Empty Comment

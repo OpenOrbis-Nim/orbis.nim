@@ -1,242 +1,392 @@
-proc sceGnmAddEqEvent*()
+import "_types/gnm"
+proc sceGnmAddEqEvent*() {.cdecl, importc: "sceGnmAddEqEvent",
+                           header: "orbis/GnmDriver.h".}
+proc sceGnmAreSubmitsAllowed*() {.cdecl, importc: "sceGnmAreSubmitsAllowed",
+                                  header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmAreSubmitsAllowed*()
+proc sceGnmBeginWorkload*() {.cdecl, importc: "sceGnmBeginWorkload",
+                              header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmBeginWorkload*()
+proc sceGnmCreateWorkloadStream*() {.cdecl,
+                                     importc: "sceGnmCreateWorkloadStream",
+                                     header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmCreateWorkloadStream*()
+proc sceGnmDebugHardwareStatus*() {.cdecl, importc: "sceGnmDebugHardwareStatus",
+                                    header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmDebugHardwareStatus*()
+proc sceGnmDeleteEqEvent*() {.cdecl, importc: "sceGnmDeleteEqEvent",
+                              header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmDeleteEqEvent*()
+proc sceGnmDestroyWorkloadStream*() {.cdecl,
+                                      importc: "sceGnmDestroyWorkloadStream",
+                                      header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmDestroyWorkloadStream*()
+proc sceGnmDingDong*() {.cdecl, importc: "sceGnmDingDong",
+                         header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmDingDong*()
+proc sceGnmDingDongForWorkload*() {.cdecl, importc: "sceGnmDingDongForWorkload",
+                                    header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmDingDongForWorkload*()
+proc sceGnmDisableMipStatsReport*() {.cdecl,
+                                      importc: "sceGnmDisableMipStatsReport",
+                                      header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmDisableMipStatsReport*()
+proc sceGnmDispatchDirect*() {.cdecl, importc: "sceGnmDispatchDirect",
+                               header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmDispatchDirect*()
+proc sceGnmDispatchIndirect*() {.cdecl, importc: "sceGnmDispatchIndirect",
+                                 header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmDispatchIndirect*()
+proc sceGnmDispatchIndirectOnMec*() {.cdecl,
+                                      importc: "sceGnmDispatchIndirectOnMec",
+                                      header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmDispatchIndirectOnMec*()
-  ##  Empty Comment
-proc sceGnmDispatchInitDefaultHardwareState*()
+proc sceGnmDispatchInitDefaultHardwareState*() {.cdecl,
+    importc: "sceGnmDispatchInitDefaultHardwareState",
+    header: "orbis/GnmDriver.h".}
   ##  Empty Comment
 proc sceGnmDrawIndex*(cmd: ptr uint32; numdwords: uint32; indexcount: uint32;
-                      indexaddr: pointer; flags: OrbisGnmDrawIndexFlags): int32
+                      indexaddr: pointer; flags: OrbisGnmDrawIndexFlags): int32 {.
+    cdecl, importc: "sceGnmDrawIndex", header: "orbis/GnmDriver.h".}
   ##  Queue a draw indexed instruction into the command buffer.
-proc sceGnmDrawIndexAuto*()
+proc sceGnmDrawIndexAuto*() {.cdecl, importc: "sceGnmDrawIndexAuto",
+                              header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmDrawIndexIndirect*()
+proc sceGnmDrawIndexIndirect*() {.cdecl, importc: "sceGnmDrawIndexIndirect",
+                                  header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmDrawIndexIndirectMulti*()
+proc sceGnmDrawIndexIndirectMulti*() {.cdecl,
+                                       importc: "sceGnmDrawIndexIndirectMulti",
+                                       header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmDrawIndexMultiInstanced*()
+proc sceGnmDrawIndexMultiInstanced*() {.cdecl, importc: "sceGnmDrawIndexMultiInstanced",
+                                        header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmDrawIndexOffset*()
+proc sceGnmDrawIndexOffset*() {.cdecl, importc: "sceGnmDrawIndexOffset",
+                                header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmDrawIndirect*()
+proc sceGnmDrawIndirect*() {.cdecl, importc: "sceGnmDrawIndirect",
+                             header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmDrawIndirectMulti*()
+proc sceGnmDrawIndirectMulti*() {.cdecl, importc: "sceGnmDrawIndirectMulti",
+                                  header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmDrawInitDefaultHardwareState*()
+proc sceGnmDrawInitDefaultHardwareState*() {.cdecl,
+    importc: "sceGnmDrawInitDefaultHardwareState", header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmDrawInitDefaultHardwareState175*()
+proc sceGnmDrawInitDefaultHardwareState175*() {.cdecl,
+    importc: "sceGnmDrawInitDefaultHardwareState175",
+    header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmDrawInitDefaultHardwareState200*()
+proc sceGnmDrawInitDefaultHardwareState200*() {.cdecl,
+    importc: "sceGnmDrawInitDefaultHardwareState200",
+    header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmDrawInitDefaultHardwareState350*()
+proc sceGnmDrawInitDefaultHardwareState350*() {.cdecl,
+    importc: "sceGnmDrawInitDefaultHardwareState350",
+    header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmDrawInitToDefaultContextState*()
+proc sceGnmDrawInitToDefaultContextState*() {.cdecl,
+    importc: "sceGnmDrawInitToDefaultContextState", header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmDrawOpaqueAuto*()
+proc sceGnmDrawOpaqueAuto*() {.cdecl, importc: "sceGnmDrawOpaqueAuto",
+                               header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmDriverCaptureInProgress*()
+proc sceGnmDriverCaptureInProgress*() {.cdecl, importc: "sceGnmDriverCaptureInProgress",
+                                        header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmDriverTraceInProgress*()
+proc sceGnmDriverTraceInProgress*() {.cdecl,
+                                      importc: "sceGnmDriverTraceInProgress",
+                                      header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmDriverTriggerCapture*()
+proc sceGnmDriverTriggerCapture*() {.cdecl,
+                                     importc: "sceGnmDriverTriggerCapture",
+                                     header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmEndWorkload*()
+proc sceGnmEndWorkload*() {.cdecl, importc: "sceGnmEndWorkload",
+                            header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmFindResourcesPublic*()
+proc sceGnmFindResourcesPublic*() {.cdecl, importc: "sceGnmFindResourcesPublic",
+                                    header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmFlushGarlic*()
+proc sceGnmFlushGarlic*() {.cdecl, importc: "sceGnmFlushGarlic",
+                            header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmGetEqEventType*()
+proc sceGnmGetEqEventType*() {.cdecl, importc: "sceGnmGetEqEventType",
+                               header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmGetEqTimeStamp*()
+proc sceGnmGetEqTimeStamp*() {.cdecl, importc: "sceGnmGetEqTimeStamp",
+                               header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmGetGpuBlockStatus*()
+proc sceGnmGetGpuBlockStatus*() {.cdecl, importc: "sceGnmGetGpuBlockStatus",
+                                  header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmGetGpuInfoStatus*()
+proc sceGnmGetGpuInfoStatus*() {.cdecl, importc: "sceGnmGetGpuInfoStatus",
+                                 header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmGetLastWaitedAddress*()
+proc sceGnmGetLastWaitedAddress*() {.cdecl,
+                                     importc: "sceGnmGetLastWaitedAddress",
+                                     header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmGetNumTcaUnits*()
+proc sceGnmGetNumTcaUnits*() {.cdecl, importc: "sceGnmGetNumTcaUnits",
+                               header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmGetOwnerName*()
+proc sceGnmGetOwnerName*() {.cdecl, importc: "sceGnmGetOwnerName",
+                             header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmGetProtectionFaultTimeStamp*()
+proc sceGnmGetProtectionFaultTimeStamp*() {.cdecl,
+    importc: "sceGnmGetProtectionFaultTimeStamp", header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmGetResourceBaseAddressAndSizeInBytes*()
+proc sceGnmGetResourceBaseAddressAndSizeInBytes*() {.cdecl,
+    importc: "sceGnmGetResourceBaseAddressAndSizeInBytes",
+    header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmGetResourceName*()
+proc sceGnmGetResourceName*() {.cdecl, importc: "sceGnmGetResourceName",
+                                header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmGetResourceShaderGuid*()
+proc sceGnmGetResourceShaderGuid*() {.cdecl,
+                                      importc: "sceGnmGetResourceShaderGuid",
+                                      header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmGetResourceType*()
+proc sceGnmGetResourceType*() {.cdecl, importc: "sceGnmGetResourceType",
+                                header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmGetResourceUserData*()
+proc sceGnmGetResourceUserData*() {.cdecl, importc: "sceGnmGetResourceUserData",
+                                    header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmGetShaderProgramBaseAddress*()
+proc sceGnmGetShaderProgramBaseAddress*() {.cdecl,
+    importc: "sceGnmGetShaderProgramBaseAddress", header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmGetShaderStatus*()
+proc sceGnmGetShaderStatus*() {.cdecl, importc: "sceGnmGetShaderStatus",
+                                header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmGetTheTessellationFactorRingBufferBaseAddress*()
+proc sceGnmGetTheTessellationFactorRingBufferBaseAddress*() {.cdecl,
+    importc: "sceGnmGetTheTessellationFactorRingBufferBaseAddress",
+    header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmInsertPopMarker*()
+proc sceGnmInsertPopMarker*() {.cdecl, importc: "sceGnmInsertPopMarker",
+                                header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmInsertPushColorMarker*()
+proc sceGnmInsertPushColorMarker*() {.cdecl,
+                                      importc: "sceGnmInsertPushColorMarker",
+                                      header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmInsertPushMarker*()
+proc sceGnmInsertPushMarker*() {.cdecl, importc: "sceGnmInsertPushMarker",
+                                 header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmInsertSetColorMarker*()
+proc sceGnmInsertSetColorMarker*() {.cdecl,
+                                     importc: "sceGnmInsertSetColorMarker",
+                                     header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmInsertSetMarker*()
+proc sceGnmInsertSetMarker*() {.cdecl, importc: "sceGnmInsertSetMarker",
+                                header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmInsertThreadTraceMarker*()
+proc sceGnmInsertThreadTraceMarker*() {.cdecl, importc: "sceGnmInsertThreadTraceMarker",
+                                        header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmInsertWaitFlipDone*()
+proc sceGnmInsertWaitFlipDone*() {.cdecl, importc: "sceGnmInsertWaitFlipDone",
+                                   header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmIsUserPaEnabled*()
+proc sceGnmIsUserPaEnabled*() {.cdecl, importc: "sceGnmIsUserPaEnabled",
+                                header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmLogicalCuIndexToPhysicalCuIndex*()
+proc sceGnmLogicalCuIndexToPhysicalCuIndex*() {.cdecl,
+    importc: "sceGnmLogicalCuIndexToPhysicalCuIndex",
+    header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmLogicalCuMaskToPhysicalCuMask*()
+proc sceGnmLogicalCuMaskToPhysicalCuMask*() {.cdecl,
+    importc: "sceGnmLogicalCuMaskToPhysicalCuMask", header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmMapComputeQueue*()
+proc sceGnmMapComputeQueue*() {.cdecl, importc: "sceGnmMapComputeQueue",
+                                header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmMapComputeQueueWithPriority*()
+proc sceGnmMapComputeQueueWithPriority*() {.cdecl,
+    importc: "sceGnmMapComputeQueueWithPriority", header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmQueryResourceRegistrationUserMemoryRequirements*()
+proc sceGnmQueryResourceRegistrationUserMemoryRequirements*() {.cdecl,
+    importc: "sceGnmQueryResourceRegistrationUserMemoryRequirements",
+    header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmRegisterGdsResource*()
+proc sceGnmRegisterGdsResource*() {.cdecl, importc: "sceGnmRegisterGdsResource",
+                                    header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmRegisterGnmLiveCallbackConfig*()
+proc sceGnmRegisterGnmLiveCallbackConfig*() {.cdecl,
+    importc: "sceGnmRegisterGnmLiveCallbackConfig", header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmRegisterOwner*()
+proc sceGnmRegisterOwner*() {.cdecl, importc: "sceGnmRegisterOwner",
+                              header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmRegisterResource*()
+proc sceGnmRegisterResource*() {.cdecl, importc: "sceGnmRegisterResource",
+                                 header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmRequestFlipAndSubmitDone*()
+proc sceGnmRequestFlipAndSubmitDone*() {.cdecl,
+    importc: "sceGnmRequestFlipAndSubmitDone", header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmRequestFlipAndSubmitDoneForWorkload*()
+proc sceGnmRequestFlipAndSubmitDoneForWorkload*() {.cdecl,
+    importc: "sceGnmRequestFlipAndSubmitDoneForWorkload",
+    header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmRequestMipStatsReportAndReset*()
+proc sceGnmRequestMipStatsReportAndReset*() {.cdecl,
+    importc: "sceGnmRequestMipStatsReportAndReset", header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmResetVgtControl*()
+proc sceGnmResetVgtControl*() {.cdecl, importc: "sceGnmResetVgtControl",
+                                header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmSetCsShader*()
+proc sceGnmSetCsShader*() {.cdecl, importc: "sceGnmSetCsShader",
+                            header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmSetCsShaderWithModifier*()
+proc sceGnmSetCsShaderWithModifier*() {.cdecl, importc: "sceGnmSetCsShaderWithModifier",
+                                        header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmSetEmbeddedPsShader*()
+proc sceGnmSetEmbeddedPsShader*() {.cdecl, importc: "sceGnmSetEmbeddedPsShader",
+                                    header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmSetEmbeddedVsShader*()
+proc sceGnmSetEmbeddedVsShader*() {.cdecl, importc: "sceGnmSetEmbeddedVsShader",
+                                    header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmSetEsShader*()
+proc sceGnmSetEsShader*() {.cdecl, importc: "sceGnmSetEsShader",
+                            header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmSetGsRingSizes*()
+proc sceGnmSetGsRingSizes*() {.cdecl, importc: "sceGnmSetGsRingSizes",
+                               header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmSetGsShader*()
+proc sceGnmSetGsShader*() {.cdecl, importc: "sceGnmSetGsShader",
+                            header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmSetHsShader*()
+proc sceGnmSetHsShader*() {.cdecl, importc: "sceGnmSetHsShader",
+                            header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmSetLsShader*()
+proc sceGnmSetLsShader*() {.cdecl, importc: "sceGnmSetLsShader",
+                            header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmSetPsShader*(cmd: ptr uint32; numdwords: uint32; psregs: pointer): int32
+proc sceGnmSetPsShader*(cmd: ptr uint32; numdwords: uint32; psregs: pointer): int32 {.
+    cdecl, importc: "sceGnmSetPsShader", header: "orbis/GnmDriver.h".}
   ##  Set the pixel shader to be used in the command buffer.
-proc sceGnmSetPsShader350*(cmd: ptr uint32; numdwords: uint32; psregs: pointer): int32
+proc sceGnmSetPsShader350*(cmd: ptr uint32; numdwords: uint32; psregs: pointer): int32 {.
+    cdecl, importc: "sceGnmSetPsShader350", header: "orbis/GnmDriver.h".}
   ##  Set the pixel shader to be used in the command buffer.
-proc sceGnmSetResourceRegistrationUserMemory*()
+proc sceGnmSetResourceRegistrationUserMemory*() {.cdecl,
+    importc: "sceGnmSetResourceRegistrationUserMemory",
+    header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmSetResourceUserData*()
+proc sceGnmSetResourceUserData*() {.cdecl, importc: "sceGnmSetResourceUserData",
+                                    header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmSetSpiEnableSqCounters*()
+proc sceGnmSetSpiEnableSqCounters*() {.cdecl,
+                                       importc: "sceGnmSetSpiEnableSqCounters",
+                                       header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmSetSpiEnableSqCountersForUnitInstance*()
+proc sceGnmSetSpiEnableSqCountersForUnitInstance*() {.cdecl,
+    importc: "sceGnmSetSpiEnableSqCountersForUnitInstance",
+    header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmSetupMipStatsReport*()
+proc sceGnmSetupMipStatsReport*() {.cdecl, importc: "sceGnmSetupMipStatsReport",
+                                    header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmSetVgtControl*()
+proc sceGnmSetVgtControl*() {.cdecl, importc: "sceGnmSetVgtControl",
+                              header: "orbis/GnmDriver.h".}
   ##  Empty Comment
 proc sceGnmSetVsShader*(cmd: ptr uint32; numdwords: uint32; vsregs: pointer;
-                        shadermodifier: uint32): int32
+                        shadermodifier: uint32): int32 {.cdecl,
+    importc: "sceGnmSetVsShader", header: "orbis/GnmDriver.h".}
   ##  Set the vertex shader to be used in the command buffer.
-proc sceGnmSetWaveLimitMultipliers*()
+proc sceGnmSetWaveLimitMultipliers*() {.cdecl, importc: "sceGnmSetWaveLimitMultipliers",
+                                        header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmSubmitAndFlipCommandBuffers*()
+proc sceGnmSubmitAndFlipCommandBuffers*() {.cdecl,
+    importc: "sceGnmSubmitAndFlipCommandBuffers", header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmSubmitAndFlipCommandBuffersForWorkload*()
+proc sceGnmSubmitAndFlipCommandBuffersForWorkload*() {.cdecl,
+    importc: "sceGnmSubmitAndFlipCommandBuffersForWorkload",
+    header: "orbis/GnmDriver.h".}
   ##  Empty Comment
 proc sceGnmSubmitCommandBuffers*(count: uint32; dcbaddrs: ptr pointer;
                                  dcbbytesizes: ptr uint32;
-                                 ccbaddrs: ptr pointer; ccbbytesizes: ptr uint32): int32
+                                 ccbaddrs: ptr pointer; ccbbytesizes: ptr uint32): int32 {.
+    cdecl, importc: "sceGnmSubmitCommandBuffers", header: "orbis/GnmDriver.h".}
   ##  Submit one or more draw command buffer, and optionally one or more compute command buffers.
-proc sceGnmSubmitCommandBuffersForWorkload*()
+proc sceGnmSubmitCommandBuffersForWorkload*() {.cdecl,
+    importc: "sceGnmSubmitCommandBuffersForWorkload",
+    header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmSubmitDone*(): int32
+proc sceGnmSubmitDone*(): int32 {.cdecl, importc: "sceGnmSubmitDone",
+                                  header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmUnmapComputeQueue*()
+proc sceGnmUnmapComputeQueue*() {.cdecl, importc: "sceGnmUnmapComputeQueue",
+                                  header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmUnregisterAllResourcesForOwner*()
+proc sceGnmUnregisterAllResourcesForOwner*() {.cdecl,
+    importc: "sceGnmUnregisterAllResourcesForOwner", header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmUnregisterOwnerAndResources*()
+proc sceGnmUnregisterOwnerAndResources*() {.cdecl,
+    importc: "sceGnmUnregisterOwnerAndResources", header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmUnregisterResource*()
+proc sceGnmUnregisterResource*() {.cdecl, importc: "sceGnmUnregisterResource",
+                                   header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmUpdateGsShader*()
+proc sceGnmUpdateGsShader*() {.cdecl, importc: "sceGnmUpdateGsShader",
+                               header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmUpdateHsShader*()
+proc sceGnmUpdateHsShader*() {.cdecl, importc: "sceGnmUpdateHsShader",
+                               header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmUpdatePsShader*()
+proc sceGnmUpdatePsShader*() {.cdecl, importc: "sceGnmUpdatePsShader",
+                               header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmUpdatePsShader350*()
+proc sceGnmUpdatePsShader350*() {.cdecl, importc: "sceGnmUpdatePsShader350",
+                                  header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmUpdateVsShader*()
+proc sceGnmUpdateVsShader*() {.cdecl, importc: "sceGnmUpdateVsShader",
+                               header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmValidateCommandBuffers*()
+proc sceGnmValidateCommandBuffers*() {.cdecl,
+                                       importc: "sceGnmValidateCommandBuffers",
+                                       header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmValidateDisableDiagnostics*()
+proc sceGnmValidateDisableDiagnostics*() {.cdecl,
+    importc: "sceGnmValidateDisableDiagnostics", header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmValidateDispatchCommandBuffers*()
+proc sceGnmValidateDispatchCommandBuffers*() {.cdecl,
+    importc: "sceGnmValidateDispatchCommandBuffers", header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmValidateDrawCommandBuffers*()
+proc sceGnmValidateDrawCommandBuffers*() {.cdecl,
+    importc: "sceGnmValidateDrawCommandBuffers", header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmValidateGetDiagnosticInfo*()
+proc sceGnmValidateGetDiagnosticInfo*() {.cdecl,
+    importc: "sceGnmValidateGetDiagnosticInfo", header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmValidateGetDiagnostics*()
+proc sceGnmValidateGetDiagnostics*() {.cdecl,
+                                       importc: "sceGnmValidateGetDiagnostics",
+                                       header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmValidateGetVersion*()
+proc sceGnmValidateGetVersion*() {.cdecl, importc: "sceGnmValidateGetVersion",
+                                   header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmValidateOnSubmitEnabled*()
+proc sceGnmValidateOnSubmitEnabled*() {.cdecl, importc: "sceGnmValidateOnSubmitEnabled",
+                                        header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmValidateResetState*()
+proc sceGnmValidateResetState*() {.cdecl, importc: "sceGnmValidateResetState",
+                                   header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceGnmValidationRegisterMemoryCheckCallback*()
+proc sceGnmValidationRegisterMemoryCheckCallback*() {.cdecl,
+    importc: "sceGnmValidationRegisterMemoryCheckCallback",
+    header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceRazorCaptureCommandBuffersOnlyImmediate*()
+proc sceRazorCaptureCommandBuffersOnlyImmediate*() {.cdecl,
+    importc: "sceRazorCaptureCommandBuffersOnlyImmediate",
+    header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceRazorCaptureCommandBuffersOnlySinceLastFlip*()
+proc sceRazorCaptureCommandBuffersOnlySinceLastFlip*() {.cdecl,
+    importc: "sceRazorCaptureCommandBuffersOnlySinceLastFlip",
+    header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceRazorCaptureImmediate*()
+proc sceRazorCaptureImmediate*() {.cdecl, importc: "sceRazorCaptureImmediate",
+                                   header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceRazorCaptureSinceLastFlip*()
+proc sceRazorCaptureSinceLastFlip*() {.cdecl,
+                                       importc: "sceRazorCaptureSinceLastFlip",
+                                       header: "orbis/GnmDriver.h".}
   ##  Empty Comment
-proc sceRazorIsLoaded*()
+proc sceRazorIsLoaded*() {.cdecl, importc: "sceRazorIsLoaded",
+                           header: "orbis/GnmDriver.h".}
   ##  Empty Comment

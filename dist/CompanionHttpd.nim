@@ -1,34 +1,64 @@
-proc sceCompanionHttpdAddHeader*()
+proc sceCompanionHttpdAddHeader*() {.cdecl,
+                                     importc: "sceCompanionHttpdAddHeader",
+                                     header: "orbis/CompanionHttpd.h".}
   ##  Empty Comment
-proc sceCompanionHttpdGet2ndScreenStatus*()
+proc sceCompanionHttpdGet2ndScreenStatus*() {.cdecl,
+    importc: "sceCompanionHttpdGet2ndScreenStatus",
+    header: "orbis/CompanionHttpd.h".}
   ##  Empty Comment
-proc sceCompanionHttpdGetEvent*()
+proc sceCompanionHttpdGetEvent*() {.cdecl, importc: "sceCompanionHttpdGetEvent",
+                                    header: "orbis/CompanionHttpd.h".}
   ##  Empty Comment
-proc sceCompanionHttpdGetUserId*()
+proc sceCompanionHttpdGetUserId*() {.cdecl,
+                                     importc: "sceCompanionHttpdGetUserId",
+                                     header: "orbis/CompanionHttpd.h".}
   ##  Empty Comment
-proc sceCompanionHttpdInitialize*()
+proc sceCompanionHttpdInitialize*() {.cdecl,
+                                      importc: "sceCompanionHttpdInitialize",
+                                      header: "orbis/CompanionHttpd.h".}
   ##  Empty Comment
-proc sceCompanionHttpdInitialize2*()
+proc sceCompanionHttpdInitialize2*() {.cdecl,
+                                       importc: "sceCompanionHttpdInitialize2",
+                                       header: "orbis/CompanionHttpd.h".}
   ##  Empty Comment
-proc sceCompanionHttpdOptParamInitialize*()
+proc sceCompanionHttpdOptParamInitialize*() {.cdecl,
+    importc: "sceCompanionHttpdOptParamInitialize",
+    header: "orbis/CompanionHttpd.h".}
   ##  Empty Comment
-proc sceCompanionHttpdRegisterRequestBodyReceptionCallback*()
+proc sceCompanionHttpdRegisterRequestBodyReceptionCallback*() {.cdecl,
+    importc: "sceCompanionHttpdRegisterRequestBodyReceptionCallback",
+    header: "orbis/CompanionHttpd.h".}
   ##  Empty Comment
-proc sceCompanionHttpdRegisterRequestCallback*()
+proc sceCompanionHttpdRegisterRequestCallback*() {.cdecl,
+    importc: "sceCompanionHttpdRegisterRequestCallback",
+    header: "orbis/CompanionHttpd.h".}
   ##  Empty Comment
-proc sceCompanionHttpdRegisterRequestCallback2*()
+proc sceCompanionHttpdRegisterRequestCallback2*() {.cdecl,
+    importc: "sceCompanionHttpdRegisterRequestCallback2",
+    header: "orbis/CompanionHttpd.h".}
   ##  Empty Comment
-proc sceCompanionHttpdSetBody*()
+proc sceCompanionHttpdSetBody*() {.cdecl, importc: "sceCompanionHttpdSetBody",
+                                   header: "orbis/CompanionHttpd.h".}
   ##  Empty Comment
-proc sceCompanionHttpdSetStatus*()
+proc sceCompanionHttpdSetStatus*() {.cdecl,
+                                     importc: "sceCompanionHttpdSetStatus",
+                                     header: "orbis/CompanionHttpd.h".}
   ##  Empty Comment
-proc sceCompanionHttpdStart*()
+proc sceCompanionHttpdStart*() {.cdecl, importc: "sceCompanionHttpdStart",
+                                 header: "orbis/CompanionHttpd.h".}
   ##  Empty Comment
-proc sceCompanionHttpdStop*()
+proc sceCompanionHttpdStop*() {.cdecl, importc: "sceCompanionHttpdStop",
+                                header: "orbis/CompanionHttpd.h".}
   ##  Empty Comment
-proc sceCompanionHttpdTerminate*()
+proc sceCompanionHttpdTerminate*() {.cdecl,
+                                     importc: "sceCompanionHttpdTerminate",
+                                     header: "orbis/CompanionHttpd.h".}
   ##  Empty Comment
-proc sceCompanionHttpdUnregisterRequestBodyReceptionCallback*()
+proc sceCompanionHttpdUnregisterRequestBodyReceptionCallback*() {.cdecl,
+    importc: "sceCompanionHttpdUnregisterRequestBodyReceptionCallback",
+    header: "orbis/CompanionHttpd.h".}
   ##  Empty Comment
-proc sceCompanionHttpdUnregisterRequestCallback*()
+proc sceCompanionHttpdUnregisterRequestCallback*() {.cdecl,
+    importc: "sceCompanionHttpdUnregisterRequestCallback",
+    header: "orbis/CompanionHttpd.h".}
   ##  Empty Comment

@@ -1,62 +1,69 @@
 type
   OrbisJpegEncHandle* = pointer
   OrbisJpegDecHandle* = pointer
-  OrbisJpegEncCreateParam* {.bycopy.} = object
-    size*: uint32
-    attr*: uint32
+  OrbisJpegEncCreateParam* {.importc: "OrbisJpegEncCreateParam",
+                             header: "orbis/_types/jpeg.h", bycopy.} = object
+    size* {.importc: "size".}: uint32
+    attr* {.importc: "attr".}: uint32
 
-  OrbisJpegDecCreateParam* {.bycopy.} = object
-    size*: uint32
-    attr*: uint32
-    maxWidth*: uint32
+  OrbisJpegDecCreateParam* {.importc: "OrbisJpegDecCreateParam",
+                             header: "orbis/_types/jpeg.h", bycopy.} = object
+    size* {.importc: "size".}: uint32
+    attr* {.importc: "attr".}: uint32
+    maxWidth* {.importc: "maxWidth".}: uint32
 
-  OrbisJpegEncEncodeParam* {.bycopy.} = object
-    imgAddr*: pointer
-    jpegAddr*: pointer
-    imgSize*: uint32
-    jpegSize*: uint32
-    imgWidth*: uint32
-    imgHeight*: uint32
-    imgPitch*: uint32
-    unk8*: uint16
-    unk9*: uint16
-    unk10*: uint16
-    unk11*: uint8
-    unk12*: uint8
-    unk13*: int32
+  OrbisJpegEncEncodeParam* {.importc: "OrbisJpegEncEncodeParam",
+                             header: "orbis/_types/jpeg.h", bycopy.} = object
+    imgAddr* {.importc: "imgAddr".}: pointer
+    jpegAddr* {.importc: "jpegAddr".}: pointer
+    imgSize* {.importc: "imgSize".}: uint32
+    jpegSize* {.importc: "jpegSize".}: uint32
+    imgWidth* {.importc: "imgWidth".}: uint32
+    imgHeight* {.importc: "imgHeight".}: uint32
+    imgPitch* {.importc: "imgPitch".}: uint32
+    unk8* {.importc: "unk8".}: uint16
+    unk9* {.importc: "unk9".}: uint16
+    unk10* {.importc: "unk10".}: uint16
+    unk11* {.importc: "unk11".}: uint8
+    unk12* {.importc: "unk12".}: uint8
+    unk13* {.importc: "unk13".}: int32
 
-  OrbisJpegDecDecodeParam* {.bycopy.} = object
-    jpegAddr*: pointer
-    imgAddr*: pointer
-    unk3*: pointer
-    unk4*: uint32
-    unk5*: uint32
-    unk6*: uint32
-    unk7*: uint16
-    unk8*: uint16
-    unk9*: uint16
-    alpha*: uint16
-    unk11*: uint32
+  OrbisJpegDecDecodeParam* {.importc: "OrbisJpegDecDecodeParam",
+                             header: "orbis/_types/jpeg.h", bycopy.} = object
+    jpegAddr* {.importc: "jpegAddr".}: pointer
+    imgAddr* {.importc: "imgAddr".}: pointer
+    unk3* {.importc: "unk3".}: pointer
+    unk4* {.importc: "unk4".}: uint32
+    unk5* {.importc: "unk5".}: uint32
+    unk6* {.importc: "unk6".}: uint32
+    unk7* {.importc: "unk7".}: uint16
+    unk8* {.importc: "unk8".}: uint16
+    unk9* {.importc: "unk9".}: uint16
+    alpha* {.importc: "alpha".}: uint16
+    unk11* {.importc: "unk11".}: uint32
 
-  OrbisJpegEncOutputInfo* {.bycopy.} = object
-    imageSize*: uint32
-    imageHeight*: uint32
+  OrbisJpegEncOutputInfo* {.importc: "OrbisJpegEncOutputInfo",
+                            header: "orbis/_types/jpeg.h", bycopy.} = object
+    imageSize* {.importc: "imageSize".}: uint32
+    imageHeight* {.importc: "imageHeight".}: uint32
 
-  OrbisJpegDecImageInfo* {.bycopy.} = object
-    imgWidth*: uint32
-    imgHeight*: uint32
-    unk3*: uint16
-    unk4*: uint16
-    unk5*: array[4, uint8]
-    unk6*: array[4, uint8]
-    unk7*: uint32
-    unk8*: uint32
-    outImgWidth*: uint32
-    outImgHeight*: uint32
+  OrbisJpegDecImageInfo* {.importc: "OrbisJpegDecImageInfo",
+                           header: "orbis/_types/jpeg.h", bycopy.} = object
+    imgWidth* {.importc: "imgWidth".}: uint32
+    imgHeight* {.importc: "imgHeight".}: uint32
+    unk3* {.importc: "unk3".}: uint16
+    unk4* {.importc: "unk4".}: uint16
+    unk5* {.importc: "unk5".}: array[4, uint8]
+    unk6* {.importc: "unk6".}: array[4, uint8]
+    unk7* {.importc: "unk7".}: uint32
+    unk8* {.importc: "unk8".}: uint32
+    outImgWidth* {.importc: "outImgWidth".}: uint32
+    outImgHeight* {.importc: "outImgHeight".}: uint32
 
-  OrbisJpegDecParseParam* {.bycopy.} = object
-    unk1*: pointer
-    unk2*: uint32
-    unk3*: uint16
-    unk4*: uint16
+  OrbisJpegDecParseParam* {.importc: "OrbisJpegDecParseParam",
+                            header: "orbis/_types/jpeg.h", bycopy.} = object
+    unk1* {.importc: "unk1".}: pointer
+    unk2* {.importc: "unk2".}: uint32
+    unk3* {.importc: "unk3".}: uint16
+    unk4* {.importc: "unk4".}: uint16
 

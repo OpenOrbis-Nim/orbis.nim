@@ -1,36 +1,57 @@
-proc sceVrTrackerCpuProcess*()
+proc sceVrTrackerCpuProcess*() {.cdecl, importc: "sceVrTrackerCpuProcess",
+                                 header: "orbis/VrTracker.h".}
   ##  Empty Comment
-proc sceVrTrackerGetPlayAreaWarningInfo*()
+proc sceVrTrackerGetPlayAreaWarningInfo*() {.cdecl,
+    importc: "sceVrTrackerGetPlayAreaWarningInfo", header: "orbis/VrTracker.h".}
   ##  Empty Comment
-proc sceVrTrackerGetResult*()
+proc sceVrTrackerGetResult*() {.cdecl, importc: "sceVrTrackerGetResult",
+                                header: "orbis/VrTracker.h".}
   ##  Empty Comment
-proc sceVrTrackerGetTime*()
+proc sceVrTrackerGetTime*() {.cdecl, importc: "sceVrTrackerGetTime",
+                              header: "orbis/VrTracker.h".}
   ##  Empty Comment
-proc sceVrTrackerGpuSubmit*()
+proc sceVrTrackerGpuSubmit*() {.cdecl, importc: "sceVrTrackerGpuSubmit",
+                                header: "orbis/VrTracker.h".}
   ##  Empty Comment
-proc sceVrTrackerGpuWait*()
+proc sceVrTrackerGpuWait*() {.cdecl, importc: "sceVrTrackerGpuWait",
+                              header: "orbis/VrTracker.h".}
   ##  Empty Comment
-proc sceVrTrackerGpuWaitAndCpuProcess*()
+proc sceVrTrackerGpuWaitAndCpuProcess*() {.cdecl,
+    importc: "sceVrTrackerGpuWaitAndCpuProcess", header: "orbis/VrTracker.h".}
   ##  Empty Comment
-proc sceVrTrackerInit*()
+proc sceVrTrackerInit*() {.cdecl, importc: "sceVrTrackerInit",
+                           header: "orbis/VrTracker.h".}
   ##  Empty Comment
-proc sceVrTrackerNotifyEndOfCpuProcess*()
+proc sceVrTrackerNotifyEndOfCpuProcess*() {.cdecl,
+    importc: "sceVrTrackerNotifyEndOfCpuProcess", header: "orbis/VrTracker.h".}
   ##  Empty Comment
-proc sceVrTrackerQueryMemory*()
+proc sceVrTrackerQueryMemory*() {.cdecl, importc: "sceVrTrackerQueryMemory",
+                                  header: "orbis/VrTracker.h".}
   ##  Empty Comment
-proc sceVrTrackerRecalibrate*()
+proc sceVrTrackerRecalibrate*() {.cdecl, importc: "sceVrTrackerRecalibrate",
+                                  header: "orbis/VrTracker.h".}
   ##  Empty Comment
-proc sceVrTrackerRegisterDevice*()
+proc sceVrTrackerRegisterDevice*() {.cdecl,
+                                     importc: "sceVrTrackerRegisterDevice",
+                                     header: "orbis/VrTracker.h".}
   ##  Empty Comment
-proc sceVrTrackerRegisterDeviceInternal*()
+proc sceVrTrackerRegisterDeviceInternal*() {.cdecl,
+    importc: "sceVrTrackerRegisterDeviceInternal", header: "orbis/VrTracker.h".}
   ##  Empty Comment
-proc sceVrTrackerResetOrientationRelative*()
+proc sceVrTrackerResetOrientationRelative*() {.cdecl,
+    importc: "sceVrTrackerResetOrientationRelative", header: "orbis/VrTracker.h".}
   ##  Empty Comment
-proc sceVrTrackerSetDurationUntilStatusNotTracking*()
+proc sceVrTrackerSetDurationUntilStatusNotTracking*() {.cdecl,
+    importc: "sceVrTrackerSetDurationUntilStatusNotTracking",
+    header: "orbis/VrTracker.h".}
   ##  Empty Comment
-proc sceVrTrackerTerm*()
+proc sceVrTrackerTerm*() {.cdecl, importc: "sceVrTrackerTerm",
+                           header: "orbis/VrTracker.h".}
   ##  Empty Comment
-proc sceVrTrackerUnregisterDevice*()
+proc sceVrTrackerUnregisterDevice*() {.cdecl,
+                                       importc: "sceVrTrackerUnregisterDevice",
+                                       header: "orbis/VrTracker.h".}
   ##  Empty Comment
-proc sceVrTrackerUpdateMotionSensorData*()
+proc sceVrTrackerUpdateMotionSensorData*() {.cdecl,
+    importc: "sceVrTrackerUpdateMotionSensorData", header: "orbis/VrTracker.h".}
   ##  Empty Comment

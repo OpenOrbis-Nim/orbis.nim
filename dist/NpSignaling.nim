@@ -1,48 +1,81 @@
-proc sceNpSignalingActivateConnection*()
+proc sceNpSignalingActivateConnection*() {.cdecl,
+    importc: "sceNpSignalingActivateConnection", header: "orbis/NpSignaling.h".}
   ##  Empty Comment
-proc sceNpSignalingActivateConnectionA*()
+proc sceNpSignalingActivateConnectionA*() {.cdecl,
+    importc: "sceNpSignalingActivateConnectionA", header: "orbis/NpSignaling.h".}
   ##  Empty Comment
-proc sceNpSignalingCancelPeerNetInfo*()
+proc sceNpSignalingCancelPeerNetInfo*() {.cdecl,
+    importc: "sceNpSignalingCancelPeerNetInfo", header: "orbis/NpSignaling.h".}
   ##  Empty Comment
-proc sceNpSignalingCreateContext*()
+proc sceNpSignalingCreateContext*() {.cdecl,
+                                      importc: "sceNpSignalingCreateContext",
+                                      header: "orbis/NpSignaling.h".}
   ##  Empty Comment
-proc sceNpSignalingCreateContextA*()
+proc sceNpSignalingCreateContextA*() {.cdecl,
+                                       importc: "sceNpSignalingCreateContextA",
+                                       header: "orbis/NpSignaling.h".}
   ##  Empty Comment
-proc sceNpSignalingDeactivateConnection*()
+proc sceNpSignalingDeactivateConnection*() {.cdecl,
+    importc: "sceNpSignalingDeactivateConnection", header: "orbis/NpSignaling.h".}
   ##  Empty Comment
-proc sceNpSignalingDeleteContext*()
+proc sceNpSignalingDeleteContext*() {.cdecl,
+                                      importc: "sceNpSignalingDeleteContext",
+                                      header: "orbis/NpSignaling.h".}
   ##  Empty Comment
-proc sceNpSignalingGetConnectionFromNpId*()
+proc sceNpSignalingGetConnectionFromNpId*() {.cdecl,
+    importc: "sceNpSignalingGetConnectionFromNpId",
+    header: "orbis/NpSignaling.h".}
   ##  Empty Comment
-proc sceNpSignalingGetConnectionFromPeerAddress*()
+proc sceNpSignalingGetConnectionFromPeerAddress*() {.cdecl,
+    importc: "sceNpSignalingGetConnectionFromPeerAddress",
+    header: "orbis/NpSignaling.h".}
   ##  Empty Comment
-proc sceNpSignalingGetConnectionFromPeerAddressA*()
+proc sceNpSignalingGetConnectionFromPeerAddressA*() {.cdecl,
+    importc: "sceNpSignalingGetConnectionFromPeerAddressA",
+    header: "orbis/NpSignaling.h".}
   ##  Empty Comment
-proc sceNpSignalingGetConnectionInfo*()
+proc sceNpSignalingGetConnectionInfo*() {.cdecl,
+    importc: "sceNpSignalingGetConnectionInfo", header: "orbis/NpSignaling.h".}
   ##  Empty Comment
-proc sceNpSignalingGetConnectionInfoA*()
+proc sceNpSignalingGetConnectionInfoA*() {.cdecl,
+    importc: "sceNpSignalingGetConnectionInfoA", header: "orbis/NpSignaling.h".}
   ##  Empty Comment
-proc sceNpSignalingGetConnectionStatistics*()
+proc sceNpSignalingGetConnectionStatistics*() {.cdecl,
+    importc: "sceNpSignalingGetConnectionStatistics",
+    header: "orbis/NpSignaling.h".}
   ##  Empty Comment
-proc sceNpSignalingGetConnectionStatus*()
+proc sceNpSignalingGetConnectionStatus*() {.cdecl,
+    importc: "sceNpSignalingGetConnectionStatus", header: "orbis/NpSignaling.h".}
   ##  Empty Comment
-proc sceNpSignalingGetContextOption*()
+proc sceNpSignalingGetContextOption*() {.cdecl,
+    importc: "sceNpSignalingGetContextOption", header: "orbis/NpSignaling.h".}
   ##  Empty Comment
-proc sceNpSignalingGetLocalNetInfo*()
+proc sceNpSignalingGetLocalNetInfo*() {.cdecl, importc: "sceNpSignalingGetLocalNetInfo",
+                                        header: "orbis/NpSignaling.h".}
   ##  Empty Comment
-proc sceNpSignalingGetMemoryInfo*()
+proc sceNpSignalingGetMemoryInfo*() {.cdecl,
+                                      importc: "sceNpSignalingGetMemoryInfo",
+                                      header: "orbis/NpSignaling.h".}
   ##  Empty Comment
-proc sceNpSignalingGetPeerNetInfo*()
+proc sceNpSignalingGetPeerNetInfo*() {.cdecl,
+                                       importc: "sceNpSignalingGetPeerNetInfo",
+                                       header: "orbis/NpSignaling.h".}
   ##  Empty Comment
-proc sceNpSignalingGetPeerNetInfoA*()
+proc sceNpSignalingGetPeerNetInfoA*() {.cdecl, importc: "sceNpSignalingGetPeerNetInfoA",
+                                        header: "orbis/NpSignaling.h".}
   ##  Empty Comment
-proc sceNpSignalingGetPeerNetInfoResult*()
+proc sceNpSignalingGetPeerNetInfoResult*() {.cdecl,
+    importc: "sceNpSignalingGetPeerNetInfoResult", header: "orbis/NpSignaling.h".}
   ##  Empty Comment
-proc sceNpSignalingInitialize*()
+proc sceNpSignalingInitialize*() {.cdecl, importc: "sceNpSignalingInitialize",
+                                   header: "orbis/NpSignaling.h".}
   ##  Empty Comment
-proc sceNpSignalingSetContextOption*()
+proc sceNpSignalingSetContextOption*() {.cdecl,
+    importc: "sceNpSignalingSetContextOption", header: "orbis/NpSignaling.h".}
   ##  Empty Comment
-proc sceNpSignalingTerminate*()
+proc sceNpSignalingTerminate*() {.cdecl, importc: "sceNpSignalingTerminate",
+                                  header: "orbis/NpSignaling.h".}
   ##  Empty Comment
-proc sceNpSignalingTerminateConnection*()
+proc sceNpSignalingTerminateConnection*() {.cdecl,
+    importc: "sceNpSignalingTerminateConnection", header: "orbis/NpSignaling.h".}
   ##  Empty Comment

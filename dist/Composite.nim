@@ -1,72 +1,119 @@
-proc sceCompositorCheckCrash*()
+proc sceCompositorCheckCrash*() {.cdecl, importc: "sceCompositorCheckCrash",
+                                  header: "orbis/Composite.h".}
   ##  Empty Comment
-proc sceCompositorCommandGpuPerfBegin*()
+proc sceCompositorCommandGpuPerfBegin*() {.cdecl,
+    importc: "sceCompositorCommandGpuPerfBegin", header: "orbis/Composite.h".}
   ##  Empty Comment
-proc sceCompositorCommandGpuPerfEnd*()
+proc sceCompositorCommandGpuPerfEnd*() {.cdecl,
+    importc: "sceCompositorCommandGpuPerfEnd", header: "orbis/Composite.h".}
   ##  Empty Comment
-proc sceCompositorFlush*()
+proc sceCompositorFlush*() {.cdecl, importc: "sceCompositorFlush",
+                             header: "orbis/Composite.h".}
   ##  Empty Comment
-proc sceCompositorFlushWithRepeat*()
+proc sceCompositorFlushWithRepeat*() {.cdecl,
+                                       importc: "sceCompositorFlushWithRepeat",
+                                       header: "orbis/Composite.h".}
   ##  Empty Comment
-proc sceCompositorGetCanvasHandle*()
+proc sceCompositorGetCanvasHandle*() {.cdecl,
+                                       importc: "sceCompositorGetCanvasHandle",
+                                       header: "orbis/Composite.h".}
   ##  Empty Comment
-proc sceCompositorGetRemainedCommandNum*()
+proc sceCompositorGetRemainedCommandNum*() {.cdecl,
+    importc: "sceCompositorGetRemainedCommandNum", header: "orbis/Composite.h".}
   ##  Empty Comment
-proc sceCompositorInit*()
+proc sceCompositorInit*() {.cdecl, importc: "sceCompositorInit",
+                            header: "orbis/Composite.h".}
   ##  Empty Comment
-proc sceCompositorMakeCanvasHandle*()
+proc sceCompositorMakeCanvasHandle*() {.cdecl, importc: "sceCompositorMakeCanvasHandle",
+                                        header: "orbis/Composite.h".}
   ##  Empty Comment
-proc sceCompositorMapAnotherProcess*()
+proc sceCompositorMapAnotherProcess*() {.cdecl,
+    importc: "sceCompositorMapAnotherProcess", header: "orbis/Composite.h".}
   ##  Empty Comment
-proc sceCompositorReleaseLocalStall*()
+proc sceCompositorReleaseLocalStall*() {.cdecl,
+    importc: "sceCompositorReleaseLocalStall", header: "orbis/Composite.h".}
   ##  Empty Comment
-proc sceCompositorResetZoomCommand*()
+proc sceCompositorResetZoomCommand*() {.cdecl, importc: "sceCompositorResetZoomCommand",
+                                        header: "orbis/Composite.h".}
   ##  Empty Comment
-proc sceCompositorSetCompositeCanvasCommandInC*()
+proc sceCompositorSetCompositeCanvasCommandInC*() {.cdecl,
+    importc: "sceCompositorSetCompositeCanvasCommandInC",
+    header: "orbis/Composite.h".}
   ##  Empty Comment
-proc sceCompositorSetCursorImageAddress*()
+proc sceCompositorSetCursorImageAddress*() {.cdecl,
+    importc: "sceCompositorSetCursorImageAddress", header: "orbis/Composite.h".}
   ##  Empty Comment
-proc sceCompositorSetDebugPositionCommand*()
+proc sceCompositorSetDebugPositionCommand*() {.cdecl,
+    importc: "sceCompositorSetDebugPositionCommand", header: "orbis/Composite.h".}
   ##  Empty Comment
-proc sceCompositorSetEndOfFrameCommand*()
+proc sceCompositorSetEndOfFrameCommand*() {.cdecl,
+    importc: "sceCompositorSetEndOfFrameCommand", header: "orbis/Composite.h".}
   ##  Empty Comment
-proc sceCompositorSetEventCommand*()
+proc sceCompositorSetEventCommand*() {.cdecl,
+                                       importc: "sceCompositorSetEventCommand",
+                                       header: "orbis/Composite.h".}
   ##  Empty Comment
-proc sceCompositorSetFlipCommand*()
+proc sceCompositorSetFlipCommand*() {.cdecl,
+                                      importc: "sceCompositorSetFlipCommand",
+                                      header: "orbis/Composite.h".}
   ##  Empty Comment
-proc sceCompositorSetGameSufaceControlCommand*()
+proc sceCompositorSetGameSufaceControlCommand*() {.cdecl,
+    importc: "sceCompositorSetGameSufaceControlCommand",
+    header: "orbis/Composite.h".}
   ##  Empty Comment
-proc sceCompositorSetGnmContextCommand*()
+proc sceCompositorSetGnmContextCommand*() {.cdecl,
+    importc: "sceCompositorSetGnmContextCommand", header: "orbis/Composite.h".}
   ##  Empty Comment
-proc sceCompositorSetIndirectCompositionCommand*()
+proc sceCompositorSetIndirectCompositionCommand*() {.cdecl,
+    importc: "sceCompositorSetIndirectCompositionCommand",
+    header: "orbis/Composite.h".}
   ##  Empty Comment
-proc sceCompositorSetIndirectRenderTargetConfigCommand*()
+proc sceCompositorSetIndirectRenderTargetConfigCommand*() {.cdecl,
+    importc: "sceCompositorSetIndirectRenderTargetConfigCommand",
+    header: "orbis/Composite.h".}
   ##  Empty Comment
-proc sceCompositorSetInvisibleCanvasCommand*()
+proc sceCompositorSetInvisibleCanvasCommand*() {.cdecl,
+    importc: "sceCompositorSetInvisibleCanvasCommand",
+    header: "orbis/Composite.h".}
   ##  Empty Comment
-proc sceCompositorSetLocalStallCommand*()
+proc sceCompositorSetLocalStallCommand*() {.cdecl,
+    importc: "sceCompositorSetLocalStallCommand", header: "orbis/Composite.h".}
   ##  Empty Comment
-proc sceCompositorSetMemoryCommand*()
+proc sceCompositorSetMemoryCommand*() {.cdecl, importc: "sceCompositorSetMemoryCommand",
+                                        header: "orbis/Composite.h".}
   ##  Empty Comment
-proc sceCompositorSetMorpheusState*()
+proc sceCompositorSetMorpheusState*() {.cdecl, importc: "sceCompositorSetMorpheusState",
+                                        header: "orbis/Composite.h".}
   ##  Empty Comment
-proc sceCompositorSetPostEventCommand*()
+proc sceCompositorSetPostEventCommand*() {.cdecl,
+    importc: "sceCompositorSetPostEventCommand", header: "orbis/Composite.h".}
   ##  Empty Comment
-proc sceCompositorSetRepeatCommand*()
+proc sceCompositorSetRepeatCommand*() {.cdecl, importc: "sceCompositorSetRepeatCommand",
+                                        header: "orbis/Composite.h".}
   ##  Empty Comment
-proc sceCompositorSetResolutionCommand*()
+proc sceCompositorSetResolutionCommand*() {.cdecl,
+    importc: "sceCompositorSetResolutionCommand", header: "orbis/Composite.h".}
   ##  Empty Comment
-proc sceCompositorSetZoomCommand*()
+proc sceCompositorSetZoomCommand*() {.cdecl,
+                                      importc: "sceCompositorSetZoomCommand",
+                                      header: "orbis/Composite.h".}
   ##  Empty Comment
-proc sceCompositorSystemConfig*()
+proc sceCompositorSystemConfig*() {.cdecl, importc: "sceCompositorSystemConfig",
+                                    header: "orbis/Composite.h".}
   ##  Empty Comment
-proc sceCompositorWaitEndOfRendering*()
+proc sceCompositorWaitEndOfRendering*() {.cdecl,
+    importc: "sceCompositorWaitEndOfRendering", header: "orbis/Composite.h".}
   ##  Empty Comment
-proc sceCompositorWaitEvent*()
+proc sceCompositorWaitEvent*() {.cdecl, importc: "sceCompositorWaitEvent",
+                                 header: "orbis/Composite.h".}
   ##  Empty Comment
-proc sceCompositorWaitPostEvent*()
+proc sceCompositorWaitPostEvent*() {.cdecl,
+                                     importc: "sceCompositorWaitPostEvent",
+                                     header: "orbis/Composite.h".}
   ##  Empty Comment
-proc sceCompsoitorGetGpuClock*()
+proc sceCompsoitorGetGpuClock*() {.cdecl, importc: "sceCompsoitorGetGpuClock",
+                                   header: "orbis/Composite.h".}
   ##  Empty Comment
-proc sceCompsoitorGetRenderingTime*()
+proc sceCompsoitorGetRenderingTime*() {.cdecl, importc: "sceCompsoitorGetRenderingTime",
+                                        header: "orbis/Composite.h".}
   ##  Empty Comment

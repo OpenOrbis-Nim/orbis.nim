@@ -1,56 +1,81 @@
-proc sceVoiceConnectIPortToOPort*()
+proc sceVoiceConnectIPortToOPort*() {.cdecl,
+                                      importc: "sceVoiceConnectIPortToOPort",
+                                      header: "orbis/Voice.h".}
   ##  Empty Comment
-proc sceVoiceCreatePort*()
+proc sceVoiceCreatePort*() {.cdecl, importc: "sceVoiceCreatePort",
+                             header: "orbis/Voice.h".}
   ##  Empty Comment
-proc sceVoiceDeletePort*()
+proc sceVoiceDeletePort*() {.cdecl, importc: "sceVoiceDeletePort",
+                             header: "orbis/Voice.h".}
   ##  Empty Comment
-proc sceVoiceDisconnectIPortFromOPort*()
+proc sceVoiceDisconnectIPortFromOPort*() {.cdecl,
+    importc: "sceVoiceDisconnectIPortFromOPort", header: "orbis/Voice.h".}
   ##  Empty Comment
-proc sceVoiceEnd*()
+proc sceVoiceEnd*() {.cdecl, importc: "sceVoiceEnd", header: "orbis/Voice.h".}
   ##  Empty Comment
-proc sceVoiceGetBitRate*()
+proc sceVoiceGetBitRate*() {.cdecl, importc: "sceVoiceGetBitRate",
+                             header: "orbis/Voice.h".}
   ##  Empty Comment
-proc sceVoiceGetMuteFlag*()
+proc sceVoiceGetMuteFlag*() {.cdecl, importc: "sceVoiceGetMuteFlag",
+                              header: "orbis/Voice.h".}
   ##  Empty Comment
-proc sceVoiceGetPortAttr*()
+proc sceVoiceGetPortAttr*() {.cdecl, importc: "sceVoiceGetPortAttr",
+                              header: "orbis/Voice.h".}
   ##  Empty Comment
-proc sceVoiceGetPortInfo*()
+proc sceVoiceGetPortInfo*() {.cdecl, importc: "sceVoiceGetPortInfo",
+                              header: "orbis/Voice.h".}
   ##  Empty Comment
-proc sceVoiceGetResourceInfo*()
+proc sceVoiceGetResourceInfo*() {.cdecl, importc: "sceVoiceGetResourceInfo",
+                                  header: "orbis/Voice.h".}
   ##  Empty Comment
-proc sceVoiceGetVolume*()
+proc sceVoiceGetVolume*() {.cdecl, importc: "sceVoiceGetVolume",
+                            header: "orbis/Voice.h".}
   ##  Empty Comment
-proc sceVoiceInit*()
+proc sceVoiceInit*() {.cdecl, importc: "sceVoiceInit", header: "orbis/Voice.h".}
   ##  Empty Comment
-proc sceVoicePausePort*()
+proc sceVoicePausePort*() {.cdecl, importc: "sceVoicePausePort",
+                            header: "orbis/Voice.h".}
   ##  Empty Comment
-proc sceVoicePausePortAll*()
+proc sceVoicePausePortAll*() {.cdecl, importc: "sceVoicePausePortAll",
+                               header: "orbis/Voice.h".}
   ##  Empty Comment
-proc sceVoiceReadFromOPort*()
+proc sceVoiceReadFromOPort*() {.cdecl, importc: "sceVoiceReadFromOPort",
+                                header: "orbis/Voice.h".}
   ##  Empty Comment
-proc sceVoiceResetPort*()
+proc sceVoiceResetPort*() {.cdecl, importc: "sceVoiceResetPort",
+                            header: "orbis/Voice.h".}
   ##  Empty Comment
-proc sceVoiceResumePort*()
+proc sceVoiceResumePort*() {.cdecl, importc: "sceVoiceResumePort",
+                             header: "orbis/Voice.h".}
   ##  Empty Comment
-proc sceVoiceResumePortAll*()
+proc sceVoiceResumePortAll*() {.cdecl, importc: "sceVoiceResumePortAll",
+                                header: "orbis/Voice.h".}
   ##  Empty Comment
-proc sceVoiceSetBitRate*()
+proc sceVoiceSetBitRate*() {.cdecl, importc: "sceVoiceSetBitRate",
+                             header: "orbis/Voice.h".}
   ##  Empty Comment
-proc sceVoiceSetMuteFlag*()
+proc sceVoiceSetMuteFlag*() {.cdecl, importc: "sceVoiceSetMuteFlag",
+                              header: "orbis/Voice.h".}
   ##  Empty Comment
-proc sceVoiceSetMuteFlagAll*()
+proc sceVoiceSetMuteFlagAll*() {.cdecl, importc: "sceVoiceSetMuteFlagAll",
+                                 header: "orbis/Voice.h".}
   ##  Empty Comment
-proc sceVoiceSetThreadsParams*()
+proc sceVoiceSetThreadsParams*() {.cdecl, importc: "sceVoiceSetThreadsParams",
+                                   header: "orbis/Voice.h".}
   ##  Empty Comment
-proc sceVoiceSetVolume*()
+proc sceVoiceSetVolume*() {.cdecl, importc: "sceVoiceSetVolume",
+                            header: "orbis/Voice.h".}
   ##  Empty Comment
-proc sceVoiceStart*()
+proc sceVoiceStart*() {.cdecl, importc: "sceVoiceStart", header: "orbis/Voice.h".}
   ##  Empty Comment
-proc sceVoiceStop*()
+proc sceVoiceStop*() {.cdecl, importc: "sceVoiceStop", header: "orbis/Voice.h".}
   ##  Empty Comment
-proc sceVoiceUpdatePort*()
+proc sceVoiceUpdatePort*() {.cdecl, importc: "sceVoiceUpdatePort",
+                             header: "orbis/Voice.h".}
   ##  Empty Comment
-proc sceVoiceVADAdjustment*()
+proc sceVoiceVADAdjustment*() {.cdecl, importc: "sceVoiceVADAdjustment",
+                                header: "orbis/Voice.h".}
   ##  Empty Comment
-proc sceVoiceWriteToIPort*()
+proc sceVoiceWriteToIPort*() {.cdecl, importc: "sceVoiceWriteToIPort",
+                               header: "orbis/Voice.h".}
   ##  Empty Comment

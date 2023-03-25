@@ -1,34 +1,56 @@
-proc sceDepthGetCalibrationData*()
+proc sceDepthGetCalibrationData*() {.cdecl,
+                                     importc: "sceDepthGetCalibrationData",
+                                     header: "orbis/Depth.h".}
   ##  Empty Comment
-proc sceDepthGetImage*()
+proc sceDepthGetImage*() {.cdecl, importc: "sceDepthGetImage",
+                           header: "orbis/Depth.h".}
   ##  Empty Comment
-proc sceDepthHandCandidateTrackerGetResult*()
+proc sceDepthHandCandidateTrackerGetResult*() {.cdecl,
+    importc: "sceDepthHandCandidateTrackerGetResult", header: "orbis/Depth.h".}
   ##  Empty Comment
-proc sceDepthHasCalibrationData*()
+proc sceDepthHasCalibrationData*() {.cdecl,
+                                     importc: "sceDepthHasCalibrationData",
+                                     header: "orbis/Depth.h".}
   ##  Empty Comment
-proc sceDepthHeadCandidateTrackerGetResult*()
+proc sceDepthHeadCandidateTrackerGetResult*() {.cdecl,
+    importc: "sceDepthHeadCandidateTrackerGetResult", header: "orbis/Depth.h".}
   ##  Empty Comment
-proc sceDepthHeadCandidateTrackerSetValidationInformation*()
+proc sceDepthHeadCandidateTrackerSetValidationInformation*() {.cdecl,
+    importc: "sceDepthHeadCandidateTrackerSetValidationInformation",
+    header: "orbis/Depth.h".}
   ##  Empty Comment
-proc sceDepthInitialize*()
+proc sceDepthInitialize*() {.cdecl, importc: "sceDepthInitialize",
+                             header: "orbis/Depth.h".}
   ##  Empty Comment
-proc sceDepthLoadCalibrationData*()
+proc sceDepthLoadCalibrationData*() {.cdecl,
+                                      importc: "sceDepthLoadCalibrationData",
+                                      header: "orbis/Depth.h".}
   ##  Empty Comment
-proc sceDepthQueryMemory*()
+proc sceDepthQueryMemory*() {.cdecl, importc: "sceDepthQueryMemory",
+                              header: "orbis/Depth.h".}
   ##  Empty Comment
-proc sceDepthSetCalibrationData*()
+proc sceDepthSetCalibrationData*() {.cdecl,
+                                     importc: "sceDepthSetCalibrationData",
+                                     header: "orbis/Depth.h".}
   ##  Empty Comment
-proc sceDepthSetCommands*()
+proc sceDepthSetCommands*() {.cdecl, importc: "sceDepthSetCommands",
+                              header: "orbis/Depth.h".}
   ##  Empty Comment
-proc sceDepthSetRoi*()
+proc sceDepthSetRoi*() {.cdecl, importc: "sceDepthSetRoi",
+                         header: "orbis/Depth.h".}
   ##  Empty Comment
-proc sceDepthSubmit*()
+proc sceDepthSubmit*() {.cdecl, importc: "sceDepthSubmit",
+                         header: "orbis/Depth.h".}
   ##  Empty Comment
-proc sceDepthTerminate*()
+proc sceDepthTerminate*() {.cdecl, importc: "sceDepthTerminate",
+                            header: "orbis/Depth.h".}
   ##  Empty Comment
-proc sceDepthUpdate*()
+proc sceDepthUpdate*() {.cdecl, importc: "sceDepthUpdate",
+                         header: "orbis/Depth.h".}
   ##  Empty Comment
-proc sceDepthValidateCurrentCalibrationData*()
+proc sceDepthValidateCurrentCalibrationData*() {.cdecl,
+    importc: "sceDepthValidateCurrentCalibrationData", header: "orbis/Depth.h".}
   ##  Empty Comment
-proc sceDepthWaitAndExecutePostProcess*()
+proc sceDepthWaitAndExecutePostProcess*() {.cdecl,
+    importc: "sceDepthWaitAndExecutePostProcess", header: "orbis/Depth.h".}
   ##  Empty Comment

@@ -18,26 +18,31 @@ const
   ORBIS_KERNEL_PRIO_FIFO_HIGHEST* = 0x100
 
 type                        ##  Login event
-  OrbisUserServiceInitializeParams* {.bycopy.} = object
-    priority*: uint32
+  OrbisUserServiceInitializeParams* {.importc: "OrbisUserServiceInitializeParams",
+                                      header: "orbis/_types/user.h", bycopy.} = object
+    priority* {.importc: "priority".}: uint32
 
-  OrbisUserServiceLoginUserIdList* {.bycopy.} = object
-    userId*: array[4, OrbisUserServiceUserId] ## Maximum number of users that can be logged in at once
+  OrbisUserServiceLoginUserIdList* {.importc: "OrbisUserServiceLoginUserIdList",
+                                     header: "orbis/_types/user.h", bycopy.} = object
+    userId* {.importc: "userId".}: array[4, OrbisUserServiceUserId] ## Maximum number of users that can be logged in at once
 
-  OrbisUserServiceRegisteredUserIdList* {.bycopy.} = object
-    userId*: array[16, OrbisUserServiceUserId] ## Maximum number of users that can be registered in the system
+  OrbisUserServiceRegisteredUserIdList* {.
+      importc: "OrbisUserServiceRegisteredUserIdList",
+      header: "orbis/_types/user.h", bycopy.} = object
+    userId* {.importc: "userId".}: array[16, OrbisUserServiceUserId] ## Maximum number of users that can be registered in the system
 
-  OrbisUserServiceUserColor* = enum
+  OrbisUserServiceUserColor* {.size: sizeof(cint).} = enum
     ORBIS_USER_SERVICE_USER_COLOR_BLUE = 0,
     ORBIS_USER_SERVICE_USER_COLOR_RED = 1,
     ORBIS_USER_SERVICE_USER_COLOR_GREEN = 2,
     ORBIS_USER_SERVICE_USER_COLOR_PINK = 3
-  OrbisUserServiceEventType* = enum
+  OrbisUserServiceEventType* {.size: sizeof(cint).} = enum
     SCE_USER_SERVICE_EVENT_TYPE_LOGIN = 0, ##  Logout event
     SCE_USER_SERVICE_EVENT_TYPE_LOGOUT = 1
-  OrbisUserServiceEvent* {.bycopy.} = object
-    event*: OrbisUserServiceEventType
-    userId*: OrbisUserServiceUserId
+  OrbisUserServiceEvent* {.importc: "OrbisUserServiceEvent",
+                           header: "orbis/_types/user.h", bycopy.} = object
+    event* {.importc: "event".}: OrbisUserServiceEventType
+    userId* {.importc: "userId".}: OrbisUserServiceUserId
 
 
 

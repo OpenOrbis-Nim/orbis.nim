@@ -1,102 +1,172 @@
-proc sceNpWebApiAbortHandle*()
+proc sceNpWebApiAbortHandle*() {.cdecl, importc: "sceNpWebApiAbortHandle",
+                                 header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiAbortRequest*()
+proc sceNpWebApiAbortRequest*() {.cdecl, importc: "sceNpWebApiAbortRequest",
+                                  header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiAddHttpRequestHeader*()
+proc sceNpWebApiAddHttpRequestHeader*() {.cdecl,
+    importc: "sceNpWebApiAddHttpRequestHeader", header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiAddMultipartPart*()
+proc sceNpWebApiAddMultipartPart*() {.cdecl,
+                                      importc: "sceNpWebApiAddMultipartPart",
+                                      header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiCheckTimeout*()
+proc sceNpWebApiCheckTimeout*() {.cdecl, importc: "sceNpWebApiCheckTimeout",
+                                  header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiClearAllUnusedConnection*()
+proc sceNpWebApiClearAllUnusedConnection*() {.cdecl,
+    importc: "sceNpWebApiClearAllUnusedConnection", header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiClearUnusedConnection*()
+proc sceNpWebApiClearUnusedConnection*() {.cdecl,
+    importc: "sceNpWebApiClearUnusedConnection", header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiCreateContext*()
+proc sceNpWebApiCreateContext*() {.cdecl, importc: "sceNpWebApiCreateContext",
+                                   header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiCreateContextA*()
+proc sceNpWebApiCreateContextA*() {.cdecl, importc: "sceNpWebApiCreateContextA",
+                                    header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiCreateExtdPushEventFilter*()
+proc sceNpWebApiCreateExtdPushEventFilter*() {.cdecl,
+    importc: "sceNpWebApiCreateExtdPushEventFilter", header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiCreateHandle*()
+proc sceNpWebApiCreateHandle*() {.cdecl, importc: "sceNpWebApiCreateHandle",
+                                  header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiCreateMultipartRequest*()
+proc sceNpWebApiCreateMultipartRequest*() {.cdecl,
+    importc: "sceNpWebApiCreateMultipartRequest", header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiCreatePushEventFilter*()
+proc sceNpWebApiCreatePushEventFilter*() {.cdecl,
+    importc: "sceNpWebApiCreatePushEventFilter", header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiCreateRequest*()
+proc sceNpWebApiCreateRequest*() {.cdecl, importc: "sceNpWebApiCreateRequest",
+                                   header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiCreateServicePushEventFilter*()
+proc sceNpWebApiCreateServicePushEventFilter*() {.cdecl,
+    importc: "sceNpWebApiCreateServicePushEventFilter",
+    header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiDeleteContext*()
+proc sceNpWebApiDeleteContext*() {.cdecl, importc: "sceNpWebApiDeleteContext",
+                                   header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiDeleteExtdPushEventFilter*()
+proc sceNpWebApiDeleteExtdPushEventFilter*() {.cdecl,
+    importc: "sceNpWebApiDeleteExtdPushEventFilter", header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiDeleteHandle*()
+proc sceNpWebApiDeleteHandle*() {.cdecl, importc: "sceNpWebApiDeleteHandle",
+                                  header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiDeletePushEventFilter*()
+proc sceNpWebApiDeletePushEventFilter*() {.cdecl,
+    importc: "sceNpWebApiDeletePushEventFilter", header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiDeleteRequest*()
+proc sceNpWebApiDeleteRequest*() {.cdecl, importc: "sceNpWebApiDeleteRequest",
+                                   header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiDeleteServicePushEventFilter*()
+proc sceNpWebApiDeleteServicePushEventFilter*() {.cdecl,
+    importc: "sceNpWebApiDeleteServicePushEventFilter",
+    header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiGetConnectionStats*()
+proc sceNpWebApiGetConnectionStats*() {.cdecl, importc: "sceNpWebApiGetConnectionStats",
+                                        header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiGetErrorCode*()
+proc sceNpWebApiGetErrorCode*() {.cdecl, importc: "sceNpWebApiGetErrorCode",
+                                  header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiGetHttpResponseHeaderValue*()
+proc sceNpWebApiGetHttpResponseHeaderValue*() {.cdecl,
+    importc: "sceNpWebApiGetHttpResponseHeaderValue", header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiGetHttpResponseHeaderValueLength*()
+proc sceNpWebApiGetHttpResponseHeaderValueLength*() {.cdecl,
+    importc: "sceNpWebApiGetHttpResponseHeaderValueLength",
+    header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiGetHttpStatusCode*()
+proc sceNpWebApiGetHttpStatusCode*() {.cdecl,
+                                       importc: "sceNpWebApiGetHttpStatusCode",
+                                       header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiGetMemoryPoolStats*()
+proc sceNpWebApiGetMemoryPoolStats*() {.cdecl, importc: "sceNpWebApiGetMemoryPoolStats",
+                                        header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiInitialize*()
+proc sceNpWebApiInitialize*() {.cdecl, importc: "sceNpWebApiInitialize",
+                                header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiIntCreateCtxIndExtdPushEventFilter*()
+proc sceNpWebApiIntCreateCtxIndExtdPushEventFilter*() {.cdecl,
+    importc: "sceNpWebApiIntCreateCtxIndExtdPushEventFilter",
+    header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiIntCreateServicePushEventFilter*()
+proc sceNpWebApiIntCreateServicePushEventFilter*() {.cdecl,
+    importc: "sceNpWebApiIntCreateServicePushEventFilter",
+    header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiIntInitialize*()
+proc sceNpWebApiIntInitialize*() {.cdecl, importc: "sceNpWebApiIntInitialize",
+                                   header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiReadData*()
+proc sceNpWebApiReadData*() {.cdecl, importc: "sceNpWebApiReadData",
+                              header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiRegisterExtdPushEventCallback*()
+proc sceNpWebApiRegisterExtdPushEventCallback*() {.cdecl,
+    importc: "sceNpWebApiRegisterExtdPushEventCallback",
+    header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiRegisterExtdPushEventCallbackA*()
+proc sceNpWebApiRegisterExtdPushEventCallbackA*() {.cdecl,
+    importc: "sceNpWebApiRegisterExtdPushEventCallbackA",
+    header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiRegisterNotificationCallback*()
+proc sceNpWebApiRegisterNotificationCallback*() {.cdecl,
+    importc: "sceNpWebApiRegisterNotificationCallback",
+    header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiRegisterPushEventCallback*()
+proc sceNpWebApiRegisterPushEventCallback*() {.cdecl,
+    importc: "sceNpWebApiRegisterPushEventCallback", header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiRegisterServicePushEventCallback*()
+proc sceNpWebApiRegisterServicePushEventCallback*() {.cdecl,
+    importc: "sceNpWebApiRegisterServicePushEventCallback",
+    header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiSendMultipartRequest*()
+proc sceNpWebApiSendMultipartRequest*() {.cdecl,
+    importc: "sceNpWebApiSendMultipartRequest", header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiSendMultipartRequest2*()
+proc sceNpWebApiSendMultipartRequest2*() {.cdecl,
+    importc: "sceNpWebApiSendMultipartRequest2", header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiSendRequest*()
+proc sceNpWebApiSendRequest*() {.cdecl, importc: "sceNpWebApiSendRequest",
+                                 header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiSendRequest2*()
+proc sceNpWebApiSendRequest2*() {.cdecl, importc: "sceNpWebApiSendRequest2",
+                                  header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiSetHandleTimeout*()
+proc sceNpWebApiSetHandleTimeout*() {.cdecl,
+                                      importc: "sceNpWebApiSetHandleTimeout",
+                                      header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiSetMaxConnection*()
+proc sceNpWebApiSetMaxConnection*() {.cdecl,
+                                      importc: "sceNpWebApiSetMaxConnection",
+                                      header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiSetMultipartContentType*()
+proc sceNpWebApiSetMultipartContentType*() {.cdecl,
+    importc: "sceNpWebApiSetMultipartContentType", header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiSetRequestTimeout*()
+proc sceNpWebApiSetRequestTimeout*() {.cdecl,
+                                       importc: "sceNpWebApiSetRequestTimeout",
+                                       header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiTerminate*()
+proc sceNpWebApiTerminate*() {.cdecl, importc: "sceNpWebApiTerminate",
+                               header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiUnregisterExtdPushEventCallback*()
+proc sceNpWebApiUnregisterExtdPushEventCallback*() {.cdecl,
+    importc: "sceNpWebApiUnregisterExtdPushEventCallback",
+    header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiUnregisterNotificationCallback*()
+proc sceNpWebApiUnregisterNotificationCallback*() {.cdecl,
+    importc: "sceNpWebApiUnregisterNotificationCallback",
+    header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiUnregisterPushEventCallback*()
+proc sceNpWebApiUnregisterPushEventCallback*() {.cdecl,
+    importc: "sceNpWebApiUnregisterPushEventCallback",
+    header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiUnregisterServicePushEventCallback*()
+proc sceNpWebApiUnregisterServicePushEventCallback*() {.cdecl,
+    importc: "sceNpWebApiUnregisterServicePushEventCallback",
+    header: "orbis/NpWebApi.h".}
   ##  Empty Comment
-proc sceNpWebApiUtilityParseNpId*()
+proc sceNpWebApiUtilityParseNpId*() {.cdecl,
+                                      importc: "sceNpWebApiUtilityParseNpId",
+                                      header: "orbis/NpWebApi.h".}
   ##  Empty Comment

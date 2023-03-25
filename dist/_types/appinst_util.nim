@@ -1,5 +1,5 @@
 type
-  OrbisAppInstUtilDelete* = enum
+  OrbisAppInstUtilDelete* {.size: sizeof(cint).} = enum
     ORBIS_APP_INST_UTIL_DELETE_PATCH = (1'u shl 0),
     ORBIS_APP_INST_UTIL_DELETE_ADDCONT_EXTRA_DATA = (1'u shl 1),
     ORBIS_APP_INST_UTIL_DELETE_TEMP_DATA = (1'u shl 2),

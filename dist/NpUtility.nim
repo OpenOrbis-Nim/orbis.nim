@@ -1,114 +1,191 @@
-proc sceNpAppInfoIntAbortRequest*()
+proc sceNpAppInfoIntAbortRequest*() {.cdecl,
+                                      importc: "sceNpAppInfoIntAbortRequest",
+                                      header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpAppInfoIntCheckAvailability*()
+proc sceNpAppInfoIntCheckAvailability*() {.cdecl,
+    importc: "sceNpAppInfoIntCheckAvailability", header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpAppInfoIntCheckAvailabilityAll*()
+proc sceNpAppInfoIntCheckAvailabilityAll*() {.cdecl,
+    importc: "sceNpAppInfoIntCheckAvailabilityAll", header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpAppInfoIntCheckServiceAvailability*()
+proc sceNpAppInfoIntCheckServiceAvailability*() {.cdecl,
+    importc: "sceNpAppInfoIntCheckServiceAvailability",
+    header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpAppInfoIntCheckServiceAvailabilityAll*()
+proc sceNpAppInfoIntCheckServiceAvailabilityAll*() {.cdecl,
+    importc: "sceNpAppInfoIntCheckServiceAvailabilityAll",
+    header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpAppInfoIntCreateRequest*()
+proc sceNpAppInfoIntCreateRequest*() {.cdecl,
+                                       importc: "sceNpAppInfoIntCreateRequest",
+                                       header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpAppInfoIntDestroyRequest*()
+proc sceNpAppInfoIntDestroyRequest*() {.cdecl, importc: "sceNpAppInfoIntDestroyRequest",
+                                        header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpAppLaunchLinkIntAbortRequest*()
+proc sceNpAppLaunchLinkIntAbortRequest*() {.cdecl,
+    importc: "sceNpAppLaunchLinkIntAbortRequest", header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpAppLaunchLinkIntCreateRequest*()
+proc sceNpAppLaunchLinkIntCreateRequest*() {.cdecl,
+    importc: "sceNpAppLaunchLinkIntCreateRequest", header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpAppLaunchLinkIntDestroyRequest*()
+proc sceNpAppLaunchLinkIntDestroyRequest*() {.cdecl,
+    importc: "sceNpAppLaunchLinkIntDestroyRequest", header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpAppLaunchLinkIntGetCompatibleTitleIdList*()
+proc sceNpAppLaunchLinkIntGetCompatibleTitleIdList*() {.cdecl,
+    importc: "sceNpAppLaunchLinkIntGetCompatibleTitleIdList",
+    header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpAppLaunchLinkIntGetCompatibleTitleIdNum*()
+proc sceNpAppLaunchLinkIntGetCompatibleTitleIdNum*() {.cdecl,
+    importc: "sceNpAppLaunchLinkIntGetCompatibleTitleIdNum",
+    header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpBandwidthTestAbort*()
+proc sceNpBandwidthTestAbort*() {.cdecl, importc: "sceNpBandwidthTestAbort",
+                                  header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpBandwidthTestGetStatus*()
+proc sceNpBandwidthTestGetStatus*() {.cdecl,
+                                      importc: "sceNpBandwidthTestGetStatus",
+                                      header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpBandwidthTestInitStart*()
+proc sceNpBandwidthTestInitStart*() {.cdecl,
+                                      importc: "sceNpBandwidthTestInitStart",
+                                      header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpBandwidthTestShutdown*()
+proc sceNpBandwidthTestShutdown*() {.cdecl,
+                                     importc: "sceNpBandwidthTestShutdown",
+                                     header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpBandwidthTestShutdownInt*()
+proc sceNpBandwidthTestShutdownInt*() {.cdecl, importc: "sceNpBandwidthTestShutdownInt",
+                                        header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpLookupAbortRequest*()
+proc sceNpLookupAbortRequest*() {.cdecl, importc: "sceNpLookupAbortRequest",
+                                  header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpLookupCreateAsyncRequest*()
+proc sceNpLookupCreateAsyncRequest*() {.cdecl, importc: "sceNpLookupCreateAsyncRequest",
+                                        header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpLookupCreateRequest*()
+proc sceNpLookupCreateRequest*() {.cdecl, importc: "sceNpLookupCreateRequest",
+                                   header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpLookupCreateTitleCtx*()
+proc sceNpLookupCreateTitleCtx*() {.cdecl, importc: "sceNpLookupCreateTitleCtx",
+                                    header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpLookupCreateTitleCtxA*()
+proc sceNpLookupCreateTitleCtxA*() {.cdecl,
+                                     importc: "sceNpLookupCreateTitleCtxA",
+                                     header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpLookupDeleteRequest*()
+proc sceNpLookupDeleteRequest*() {.cdecl, importc: "sceNpLookupDeleteRequest",
+                                   header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpLookupDeleteTitleCtx*()
+proc sceNpLookupDeleteTitleCtx*() {.cdecl, importc: "sceNpLookupDeleteTitleCtx",
+                                    header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpLookupNpId*()
+proc sceNpLookupNpId*() {.cdecl, importc: "sceNpLookupNpId",
+                          header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpLookupPollAsync*()
+proc sceNpLookupPollAsync*() {.cdecl, importc: "sceNpLookupPollAsync",
+                               header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpLookupSetTimeout*()
+proc sceNpLookupSetTimeout*() {.cdecl, importc: "sceNpLookupSetTimeout",
+                                header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpLookupWaitAsync*()
+proc sceNpLookupWaitAsync*() {.cdecl, importc: "sceNpLookupWaitAsync",
+                               header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpServiceChecker2IntAbortRequest*()
+proc sceNpServiceChecker2IntAbortRequest*() {.cdecl,
+    importc: "sceNpServiceChecker2IntAbortRequest", header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpServiceChecker2IntCreateRequest*()
+proc sceNpServiceChecker2IntCreateRequest*() {.cdecl,
+    importc: "sceNpServiceChecker2IntCreateRequest", header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpServiceChecker2IntDestroyRequest*()
+proc sceNpServiceChecker2IntDestroyRequest*() {.cdecl,
+    importc: "sceNpServiceChecker2IntDestroyRequest",
+    header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpServiceChecker2IntGetServiceAvailability*()
+proc sceNpServiceChecker2IntGetServiceAvailability*() {.cdecl,
+    importc: "sceNpServiceChecker2IntGetServiceAvailability",
+    header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpServiceChecker2IntIsSetServiceType*()
+proc sceNpServiceChecker2IntIsSetServiceType*() {.cdecl,
+    importc: "sceNpServiceChecker2IntIsSetServiceType",
+    header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpServiceCheckerIntAbortRequest*()
+proc sceNpServiceCheckerIntAbortRequest*() {.cdecl,
+    importc: "sceNpServiceCheckerIntAbortRequest", header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpServiceCheckerIntCreateRequest*()
+proc sceNpServiceCheckerIntCreateRequest*() {.cdecl,
+    importc: "sceNpServiceCheckerIntCreateRequest", header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpServiceCheckerIntDestroyRequest*()
+proc sceNpServiceCheckerIntDestroyRequest*() {.cdecl,
+    importc: "sceNpServiceCheckerIntDestroyRequest", header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpServiceCheckerIntGetAvailability*()
+proc sceNpServiceCheckerIntGetAvailability*() {.cdecl,
+    importc: "sceNpServiceCheckerIntGetAvailability",
+    header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpServiceCheckerIntGetAvailabilityList*()
+proc sceNpServiceCheckerIntGetAvailabilityList*() {.cdecl,
+    importc: "sceNpServiceCheckerIntGetAvailabilityList",
+    header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpServiceCheckerIntIsCached*()
+proc sceNpServiceCheckerIntIsCached*() {.cdecl,
+    importc: "sceNpServiceCheckerIntIsCached", header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpTitleMetadataIntAbortRequest*()
+proc sceNpTitleMetadataIntAbortRequest*() {.cdecl,
+    importc: "sceNpTitleMetadataIntAbortRequest", header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpTitleMetadataIntCreateRequest*()
+proc sceNpTitleMetadataIntCreateRequest*() {.cdecl,
+    importc: "sceNpTitleMetadataIntCreateRequest", header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpTitleMetadataIntDeleteRequest*()
+proc sceNpTitleMetadataIntDeleteRequest*() {.cdecl,
+    importc: "sceNpTitleMetadataIntDeleteRequest", header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpTitleMetadataIntGetInfo*()
+proc sceNpTitleMetadataIntGetInfo*() {.cdecl,
+                                       importc: "sceNpTitleMetadataIntGetInfo",
+                                       header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpUtilityInit*()
+proc sceNpUtilityInit*() {.cdecl, importc: "sceNpUtilityInit",
+                           header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpUtilityTerm*()
+proc sceNpUtilityTerm*() {.cdecl, importc: "sceNpUtilityTerm",
+                           header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpWordFilterAbortRequest*()
+proc sceNpWordFilterAbortRequest*() {.cdecl,
+                                      importc: "sceNpWordFilterAbortRequest",
+                                      header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpWordFilterCensorComment*()
+proc sceNpWordFilterCensorComment*() {.cdecl,
+                                       importc: "sceNpWordFilterCensorComment",
+                                       header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpWordFilterCreateAsyncRequest*()
+proc sceNpWordFilterCreateAsyncRequest*() {.cdecl,
+    importc: "sceNpWordFilterCreateAsyncRequest", header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpWordFilterCreateRequest*()
+proc sceNpWordFilterCreateRequest*() {.cdecl,
+                                       importc: "sceNpWordFilterCreateRequest",
+                                       header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpWordFilterCreateTitleCtx*()
+proc sceNpWordFilterCreateTitleCtx*() {.cdecl, importc: "sceNpWordFilterCreateTitleCtx",
+                                        header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpWordFilterCreateTitleCtxA*()
+proc sceNpWordFilterCreateTitleCtxA*() {.cdecl,
+    importc: "sceNpWordFilterCreateTitleCtxA", header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpWordFilterDeleteRequest*()
+proc sceNpWordFilterDeleteRequest*() {.cdecl,
+                                       importc: "sceNpWordFilterDeleteRequest",
+                                       header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpWordFilterDeleteTitleCtx*()
+proc sceNpWordFilterDeleteTitleCtx*() {.cdecl, importc: "sceNpWordFilterDeleteTitleCtx",
+                                        header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpWordFilterPollAsync*()
+proc sceNpWordFilterPollAsync*() {.cdecl, importc: "sceNpWordFilterPollAsync",
+                                   header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpWordFilterSanitizeComment*()
+proc sceNpWordFilterSanitizeComment*() {.cdecl,
+    importc: "sceNpWordFilterSanitizeComment", header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpWordFilterSetTimeout*()
+proc sceNpWordFilterSetTimeout*() {.cdecl, importc: "sceNpWordFilterSetTimeout",
+                                    header: "orbis/NpUtility.h".}
   ##  Empty Comment
-proc sceNpWordFilterWaitAsync*()
+proc sceNpWordFilterWaitAsync*() {.cdecl, importc: "sceNpWordFilterWaitAsync",
+                                   header: "orbis/NpUtility.h".}
   ##  Empty Comment

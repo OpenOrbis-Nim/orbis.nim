@@ -1,4 +1,7 @@
-proc sceDbgPlayGoRequestNextChunk*()
+proc sceDbgPlayGoRequestNextChunk*() {.cdecl,
+                                       importc: "sceDbgPlayGoRequestNextChunk",
+                                       header: "orbis/DbgPlayGo.h".}
   ##  Empty Comment
-proc sceDbgPlayGoSnapshot*()
+proc sceDbgPlayGoSnapshot*() {.cdecl, importc: "sceDbgPlayGoSnapshot",
+                               header: "orbis/DbgPlayGo.h".}
   ##  Empty Comment

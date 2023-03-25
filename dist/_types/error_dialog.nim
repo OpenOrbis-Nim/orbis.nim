@@ -1,11 +1,12 @@
 type
-  OrbisErrorDialogParam* {.bycopy.} = object
-    size*: int32
-    errorcode*: int32
-    userId*: int32
-    reserved*: int32
+  OrbisErrorDialogParam* {.importc: "OrbisErrorDialogParam",
+                           header: "orbis/_types/error_dialog.h", bycopy.} = object
+    size* {.importc: "size".}: int32
+    errorcode* {.importc: "errorcode".}: int32
+    userId* {.importc: "userId".}: int32
+    reserved* {.importc: "reserved".}: int32
 
-  OrbisErrorDialogStatus* = enum
+  OrbisErrorDialogStatus* {.size: sizeof(cint).} = enum
     ORBIS_ERROR_DIALOG_STATUS_NONE = 0,
     ORBIS_ERROR_DIALOG_STATUS_INITIALIZED = 1,
     ORBIS_ERROR_DIALOG_STATUS_RUNNING = 2,

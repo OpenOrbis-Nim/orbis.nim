@@ -1,58 +1,115 @@
-proc sceGameLiveStreamingApplySocialFeedbackMessageFilter*()
+proc sceGameLiveStreamingApplySocialFeedbackMessageFilter*() {.cdecl,
+    importc: "sceGameLiveStreamingApplySocialFeedbackMessageFilter",
+    header: "orbis/GameLiveStreaming.h".}
   ##  Empty Comment
-proc sceGameLiveStreamingClearPresetSocialFeedbackCommands*()
+proc sceGameLiveStreamingClearPresetSocialFeedbackCommands*() {.cdecl,
+    importc: "sceGameLiveStreamingClearPresetSocialFeedbackCommands",
+    header: "orbis/GameLiveStreaming.h".}
   ##  Empty Comment
-proc sceGameLiveStreamingClearSocialFeedbackMessages*()
+proc sceGameLiveStreamingClearSocialFeedbackMessages*() {.cdecl,
+    importc: "sceGameLiveStreamingClearSocialFeedbackMessages",
+    header: "orbis/GameLiveStreaming.h".}
   ##  Empty Comment
-proc sceGameLiveStreamingClearSpoilerTag*()
+proc sceGameLiveStreamingClearSpoilerTag*() {.cdecl,
+    importc: "sceGameLiveStreamingClearSpoilerTag",
+    header: "orbis/GameLiveStreaming.h".}
   ##  Empty Comment
-proc sceGameLiveStreamingEnableLiveStreaming*()
+proc sceGameLiveStreamingEnableLiveStreaming*() {.cdecl,
+    importc: "sceGameLiveStreamingEnableLiveStreaming",
+    header: "orbis/GameLiveStreaming.h".}
   ##  Empty Comment
-proc sceGameLiveStreamingEnableSocialFeedback*()
+proc sceGameLiveStreamingEnableSocialFeedback*() {.cdecl,
+    importc: "sceGameLiveStreamingEnableSocialFeedback",
+    header: "orbis/GameLiveStreaming.h".}
   ##  Empty Comment
-proc sceGameLiveStreamingGetCurrentBroadcastScreenLayout*()
+proc sceGameLiveStreamingGetCurrentBroadcastScreenLayout*() {.cdecl,
+    importc: "sceGameLiveStreamingGetCurrentBroadcastScreenLayout",
+    header: "orbis/GameLiveStreaming.h".}
   ##  Empty Comment
-proc sceGameLiveStreamingGetCurrentStatus*()
+proc sceGameLiveStreamingGetCurrentStatus*() {.cdecl,
+    importc: "sceGameLiveStreamingGetCurrentStatus",
+    header: "orbis/GameLiveStreaming.h".}
   ##  Empty Comment
-proc sceGameLiveStreamingGetCurrentStatus2*()
+proc sceGameLiveStreamingGetCurrentStatus2*() {.cdecl,
+    importc: "sceGameLiveStreamingGetCurrentStatus2",
+    header: "orbis/GameLiveStreaming.h".}
   ##  Empty Comment
-proc sceGameLiveStreamingGetProgramInfo*()
+proc sceGameLiveStreamingGetProgramInfo*() {.cdecl,
+    importc: "sceGameLiveStreamingGetProgramInfo",
+    header: "orbis/GameLiveStreaming.h".}
   ##  Empty Comment
-proc sceGameLiveStreamingGetSocialFeedbackMessages*()
+proc sceGameLiveStreamingGetSocialFeedbackMessages*() {.cdecl,
+    importc: "sceGameLiveStreamingGetSocialFeedbackMessages",
+    header: "orbis/GameLiveStreaming.h".}
   ##  Empty Comment
-proc sceGameLiveStreamingGetSocialFeedbackMessagesCount*()
+proc sceGameLiveStreamingGetSocialFeedbackMessagesCount*() {.cdecl,
+    importc: "sceGameLiveStreamingGetSocialFeedbackMessagesCount",
+    header: "orbis/GameLiveStreaming.h".}
   ##  Empty Comment
-proc sceGameLiveStreamingInitialize*()
+proc sceGameLiveStreamingInitialize*() {.cdecl,
+    importc: "sceGameLiveStreamingInitialize",
+    header: "orbis/GameLiveStreaming.h".}
   ##  Empty Comment
-proc sceGameLiveStreamingPermitLiveStreaming*()
+proc sceGameLiveStreamingPermitLiveStreaming*() {.cdecl,
+    importc: "sceGameLiveStreamingPermitLiveStreaming",
+    header: "orbis/GameLiveStreaming.h".}
   ##  Empty Comment
-proc sceGameLiveStreamingPermitServerSideRecording*()
+proc sceGameLiveStreamingPermitServerSideRecording*() {.cdecl,
+    importc: "sceGameLiveStreamingPermitServerSideRecording",
+    header: "orbis/GameLiveStreaming.h".}
   ##  Empty Comment
-proc sceGameLiveStreamingPostSocialMessage*()
+proc sceGameLiveStreamingPostSocialMessage*() {.cdecl,
+    importc: "sceGameLiveStreamingPostSocialMessage",
+    header: "orbis/GameLiveStreaming.h".}
   ##  Empty Comment
-proc sceGameLiveStreamingSetCameraFrameSetting*()
+proc sceGameLiveStreamingSetCameraFrameSetting*() {.cdecl,
+    importc: "sceGameLiveStreamingSetCameraFrameSetting",
+    header: "orbis/GameLiveStreaming.h".}
   ##  Empty Comment
-proc sceGameLiveStreamingSetGuardAreas*()
+proc sceGameLiveStreamingSetGuardAreas*() {.cdecl,
+    importc: "sceGameLiveStreamingSetGuardAreas",
+    header: "orbis/GameLiveStreaming.h".}
   ##  Empty Comment
-proc sceGameLiveStreamingSetInvitationSessionId*()
+proc sceGameLiveStreamingSetInvitationSessionId*() {.cdecl,
+    importc: "sceGameLiveStreamingSetInvitationSessionId",
+    header: "orbis/GameLiveStreaming.h".}
   ##  Empty Comment
-proc sceGameLiveStreamingSetLinkCommentPreset*()
+proc sceGameLiveStreamingSetLinkCommentPreset*() {.cdecl,
+    importc: "sceGameLiveStreamingSetLinkCommentPreset",
+    header: "orbis/GameLiveStreaming.h".}
   ##  Empty Comment
-proc sceGameLiveStreamingSetMaxBitrate*()
+proc sceGameLiveStreamingSetMaxBitrate*() {.cdecl,
+    importc: "sceGameLiveStreamingSetMaxBitrate",
+    header: "orbis/GameLiveStreaming.h".}
   ##  Empty Comment
-proc sceGameLiveStreamingSetMetadata*()
+proc sceGameLiveStreamingSetMetadata*() {.cdecl,
+    importc: "sceGameLiveStreamingSetMetadata",
+    header: "orbis/GameLiveStreaming.h".}
   ##  Empty Comment
-proc sceGameLiveStreamingSetPresetSocialFeedbackCommands*()
+proc sceGameLiveStreamingSetPresetSocialFeedbackCommands*() {.cdecl,
+    importc: "sceGameLiveStreamingSetPresetSocialFeedbackCommands",
+    header: "orbis/GameLiveStreaming.h".}
   ##  Empty Comment
-proc sceGameLiveStreamingSetPresetSocialFeedbackCommandsDescription*()
+proc sceGameLiveStreamingSetPresetSocialFeedbackCommandsDescription*() {.cdecl,
+    importc: "sceGameLiveStreamingSetPresetSocialFeedbackCommandsDescription",
+    header: "orbis/GameLiveStreaming.h".}
   ##  Empty Comment
-proc sceGameLiveStreamingSetSpoilerTag*()
+proc sceGameLiveStreamingSetSpoilerTag*() {.cdecl,
+    importc: "sceGameLiveStreamingSetSpoilerTag",
+    header: "orbis/GameLiveStreaming.h".}
   ##  Empty Comment
-proc sceGameLiveStreamingSetStandbyScreenResource*()
+proc sceGameLiveStreamingSetStandbyScreenResource*() {.cdecl,
+    importc: "sceGameLiveStreamingSetStandbyScreenResource",
+    header: "orbis/GameLiveStreaming.h".}
   ##  Empty Comment
-proc sceGameLiveStreamingStartSocialFeedbackMessageFiltering*()
+proc sceGameLiveStreamingStartSocialFeedbackMessageFiltering*() {.cdecl,
+    importc: "sceGameLiveStreamingStartSocialFeedbackMessageFiltering",
+    header: "orbis/GameLiveStreaming.h".}
   ##  Empty Comment
-proc sceGameLiveStreamingStopSocialFeedbackMessageFiltering*()
+proc sceGameLiveStreamingStopSocialFeedbackMessageFiltering*() {.cdecl,
+    importc: "sceGameLiveStreamingStopSocialFeedbackMessageFiltering",
+    header: "orbis/GameLiveStreaming.h".}
   ##  Empty Comment
-proc sceGameLiveStreamingTerminate*()
+proc sceGameLiveStreamingTerminate*() {.cdecl, importc: "sceGameLiveStreamingTerminate",
+                                        header: "orbis/GameLiveStreaming.h".}
   ##  Empty Comment

@@ -1,128 +1,197 @@
-proc _sceUltConditionVariableCreate*()
+proc _sceUltConditionVariableCreate*() {.cdecl,
+    importc: "_sceUltConditionVariableCreate", header: "orbis/Ult.h".}
   ##  Empty Comment
-proc _sceUltConditionVariableOptParamInitialize*()
+proc _sceUltConditionVariableOptParamInitialize*() {.cdecl,
+    importc: "_sceUltConditionVariableOptParamInitialize", header: "orbis/Ult.h".}
   ##  Empty Comment
-proc _sceUltMutexCreate*()
+proc _sceUltMutexCreate*() {.cdecl, importc: "_sceUltMutexCreate",
+                             header: "orbis/Ult.h".}
   ##  Empty Comment
-proc _sceUltMutexOptParamInitialize*()
+proc _sceUltMutexOptParamInitialize*() {.cdecl,
+    importc: "_sceUltMutexOptParamInitialize", header: "orbis/Ult.h".}
   ##  Empty Comment
-proc _sceUltQueueCreate*()
+proc _sceUltQueueCreate*() {.cdecl, importc: "_sceUltQueueCreate",
+                             header: "orbis/Ult.h".}
   ##  Empty Comment
-proc _sceUltQueueDataResourcePoolCreate*()
+proc _sceUltQueueDataResourcePoolCreate*() {.cdecl,
+    importc: "_sceUltQueueDataResourcePoolCreate", header: "orbis/Ult.h".}
   ##  Empty Comment
-proc _sceUltQueueDataResourcePoolOptParamInitialize*()
+proc _sceUltQueueDataResourcePoolOptParamInitialize*() {.cdecl,
+    importc: "_sceUltQueueDataResourcePoolOptParamInitialize",
+    header: "orbis/Ult.h".}
   ##  Empty Comment
-proc _sceUltQueueOptParamInitialize*()
+proc _sceUltQueueOptParamInitialize*() {.cdecl,
+    importc: "_sceUltQueueOptParamInitialize", header: "orbis/Ult.h".}
   ##  Empty Comment
-proc _sceUltReaderWriterLockCreate*()
+proc _sceUltReaderWriterLockCreate*() {.cdecl, importc: "_sceUltReaderWriterLockCreate",
+                                        header: "orbis/Ult.h".}
   ##  Empty Comment
-proc _sceUltReaderWriterLockOptParamInitialize*()
+proc _sceUltReaderWriterLockOptParamInitialize*() {.cdecl,
+    importc: "_sceUltReaderWriterLockOptParamInitialize", header: "orbis/Ult.h".}
   ##  Empty Comment
-proc _sceUltSemaphoreCreate*()
+proc _sceUltSemaphoreCreate*() {.cdecl, importc: "_sceUltSemaphoreCreate",
+                                 header: "orbis/Ult.h".}
   ##  Empty Comment
-proc _sceUltSemaphoreOptParamInitialize*()
+proc _sceUltSemaphoreOptParamInitialize*() {.cdecl,
+    importc: "_sceUltSemaphoreOptParamInitialize", header: "orbis/Ult.h".}
   ##  Empty Comment
-proc _sceUltUlthreadCreate*()
+proc _sceUltUlthreadCreate*() {.cdecl, importc: "_sceUltUlthreadCreate",
+                                header: "orbis/Ult.h".}
   ##  Empty Comment
-proc _sceUltUlthreadOptParamInitialize*()
+proc _sceUltUlthreadOptParamInitialize*() {.cdecl,
+    importc: "_sceUltUlthreadOptParamInitialize", header: "orbis/Ult.h".}
   ##  Empty Comment
-proc _sceUltUlthreadRuntimeCreate*()
+proc _sceUltUlthreadRuntimeCreate*() {.cdecl,
+                                       importc: "_sceUltUlthreadRuntimeCreate",
+                                       header: "orbis/Ult.h".}
   ##  Empty Comment
-proc _sceUltUlthreadRuntimeOptParamInitialize*()
+proc _sceUltUlthreadRuntimeOptParamInitialize*() {.cdecl,
+    importc: "_sceUltUlthreadRuntimeOptParamInitialize", header: "orbis/Ult.h".}
   ##  Empty Comment
-proc _sceUltWaitingQueueResourcePoolCreate*()
+proc _sceUltWaitingQueueResourcePoolCreate*() {.cdecl,
+    importc: "_sceUltWaitingQueueResourcePoolCreate", header: "orbis/Ult.h".}
   ##  Empty Comment
-proc _sceUltWaitingQueueResourcePoolOptParamInitialize*()
+proc _sceUltWaitingQueueResourcePoolOptParamInitialize*() {.cdecl,
+    importc: "_sceUltWaitingQueueResourcePoolOptParamInitialize",
+    header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltConditionVariableDestroy*()
+proc sceUltConditionVariableDestroy*() {.cdecl,
+    importc: "sceUltConditionVariableDestroy", header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltConditionVariableSignal*()
+proc sceUltConditionVariableSignal*() {.cdecl, importc: "sceUltConditionVariableSignal",
+                                        header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltConditionVariableSignalAll*()
+proc sceUltConditionVariableSignalAll*() {.cdecl,
+    importc: "sceUltConditionVariableSignalAll", header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltConditionVariableWait*()
+proc sceUltConditionVariableWait*() {.cdecl,
+                                      importc: "sceUltConditionVariableWait",
+                                      header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltFinalize*()
+proc sceUltFinalize*() {.cdecl, importc: "sceUltFinalize", header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltGetConditionVariableInfo*()
+proc sceUltGetConditionVariableInfo*() {.cdecl,
+    importc: "sceUltGetConditionVariableInfo", header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltGetMutexInfo*()
+proc sceUltGetMutexInfo*() {.cdecl, importc: "sceUltGetMutexInfo",
+                             header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltGetQueueDataResourcePoolInfo*()
+proc sceUltGetQueueDataResourcePoolInfo*() {.cdecl,
+    importc: "sceUltGetQueueDataResourcePoolInfo", header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltGetQueueInfo*()
+proc sceUltGetQueueInfo*() {.cdecl, importc: "sceUltGetQueueInfo",
+                             header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltGetReaderWriterLockInfo*()
+proc sceUltGetReaderWriterLockInfo*() {.cdecl, importc: "sceUltGetReaderWriterLockInfo",
+                                        header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltGetSemaphoreInfo*()
+proc sceUltGetSemaphoreInfo*() {.cdecl, importc: "sceUltGetSemaphoreInfo",
+                                 header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltGetUlthreadInfo*()
+proc sceUltGetUlthreadInfo*() {.cdecl, importc: "sceUltGetUlthreadInfo",
+                                header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltGetUlthreadRuntimeInfo*()
+proc sceUltGetUlthreadRuntimeInfo*() {.cdecl,
+                                       importc: "sceUltGetUlthreadRuntimeInfo",
+                                       header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltGetWaitingQueueResourcePoolInfo*()
+proc sceUltGetWaitingQueueResourcePoolInfo*() {.cdecl,
+    importc: "sceUltGetWaitingQueueResourcePoolInfo", header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltInitialize*()
+proc sceUltInitialize*() {.cdecl, importc: "sceUltInitialize",
+                           header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltMutexDestroy*()
+proc sceUltMutexDestroy*() {.cdecl, importc: "sceUltMutexDestroy",
+                             header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltMutexLock*()
+proc sceUltMutexLock*() {.cdecl, importc: "sceUltMutexLock",
+                          header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltMutexTryLock*()
+proc sceUltMutexTryLock*() {.cdecl, importc: "sceUltMutexTryLock",
+                             header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltMutexUnlock*()
+proc sceUltMutexUnlock*() {.cdecl, importc: "sceUltMutexUnlock",
+                            header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltQueueDataResourcePoolDestroy*()
+proc sceUltQueueDataResourcePoolDestroy*() {.cdecl,
+    importc: "sceUltQueueDataResourcePoolDestroy", header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltQueueDataResourcePoolGetWorkAreaSize*()
+proc sceUltQueueDataResourcePoolGetWorkAreaSize*() {.cdecl,
+    importc: "sceUltQueueDataResourcePoolGetWorkAreaSize", header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltQueueDestroy*()
+proc sceUltQueueDestroy*() {.cdecl, importc: "sceUltQueueDestroy",
+                             header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltQueuePop*()
+proc sceUltQueuePop*() {.cdecl, importc: "sceUltQueuePop", header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltQueuePush*()
+proc sceUltQueuePush*() {.cdecl, importc: "sceUltQueuePush",
+                          header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltQueueTryPop*()
+proc sceUltQueueTryPop*() {.cdecl, importc: "sceUltQueueTryPop",
+                            header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltQueueTryPush*()
+proc sceUltQueueTryPush*() {.cdecl, importc: "sceUltQueueTryPush",
+                             header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltReaderWriterLockDestroy*()
+proc sceUltReaderWriterLockDestroy*() {.cdecl, importc: "sceUltReaderWriterLockDestroy",
+                                        header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltReaderWriterLockLockRead*()
+proc sceUltReaderWriterLockLockRead*() {.cdecl,
+    importc: "sceUltReaderWriterLockLockRead", header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltReaderWriterLockLockWrite*()
+proc sceUltReaderWriterLockLockWrite*() {.cdecl,
+    importc: "sceUltReaderWriterLockLockWrite", header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltReaderWriterLockTryLockRead*()
+proc sceUltReaderWriterLockTryLockRead*() {.cdecl,
+    importc: "sceUltReaderWriterLockTryLockRead", header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltReaderWriterLockTryLockWrite*()
+proc sceUltReaderWriterLockTryLockWrite*() {.cdecl,
+    importc: "sceUltReaderWriterLockTryLockWrite", header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltReaderWriterLockUnlockRead*()
+proc sceUltReaderWriterLockUnlockRead*() {.cdecl,
+    importc: "sceUltReaderWriterLockUnlockRead", header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltReaderWriterLockUnlockWrite*()
+proc sceUltReaderWriterLockUnlockWrite*() {.cdecl,
+    importc: "sceUltReaderWriterLockUnlockWrite", header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltSemaphoreAcquire*()
+proc sceUltSemaphoreAcquire*() {.cdecl, importc: "sceUltSemaphoreAcquire",
+                                 header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltSemaphoreDestroy*()
+proc sceUltSemaphoreDestroy*() {.cdecl, importc: "sceUltSemaphoreDestroy",
+                                 header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltSemaphoreRelease*()
+proc sceUltSemaphoreRelease*() {.cdecl, importc: "sceUltSemaphoreRelease",
+                                 header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltSemaphoreTryAcquire*()
+proc sceUltSemaphoreTryAcquire*() {.cdecl, importc: "sceUltSemaphoreTryAcquire",
+                                    header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltUlthreadExit*()
+proc sceUltUlthreadExit*() {.cdecl, importc: "sceUltUlthreadExit",
+                             header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltUlthreadGetSelf*()
+proc sceUltUlthreadGetSelf*() {.cdecl, importc: "sceUltUlthreadGetSelf",
+                                header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltUlthreadJoin*()
+proc sceUltUlthreadJoin*() {.cdecl, importc: "sceUltUlthreadJoin",
+                             header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltUlthreadRuntimeDestroy*()
+proc sceUltUlthreadRuntimeDestroy*() {.cdecl,
+                                       importc: "sceUltUlthreadRuntimeDestroy",
+                                       header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltUlthreadRuntimeGetWorkAreaSize*()
+proc sceUltUlthreadRuntimeGetWorkAreaSize*() {.cdecl,
+    importc: "sceUltUlthreadRuntimeGetWorkAreaSize", header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltUlthreadTryJoin*()
+proc sceUltUlthreadTryJoin*() {.cdecl, importc: "sceUltUlthreadTryJoin",
+                                header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltUlthreadYield*()
+proc sceUltUlthreadYield*() {.cdecl, importc: "sceUltUlthreadYield",
+                              header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltWaitingQueueResourcePoolDestroy*()
+proc sceUltWaitingQueueResourcePoolDestroy*() {.cdecl,
+    importc: "sceUltWaitingQueueResourcePoolDestroy", header: "orbis/Ult.h".}
   ##  Empty Comment
-proc sceUltWaitingQueueResourcePoolGetWorkAreaSize*()
+proc sceUltWaitingQueueResourcePoolGetWorkAreaSize*() {.cdecl,
+    importc: "sceUltWaitingQueueResourcePoolGetWorkAreaSize",
+    header: "orbis/Ult.h".}
   ##  Empty Comment

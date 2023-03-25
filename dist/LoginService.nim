@@ -1,6 +1,9 @@
-proc sceLoginServiceInitialize*()
+proc sceLoginServiceInitialize*() {.cdecl, importc: "sceLoginServiceInitialize",
+                                    header: "orbis/LoginService.h".}
   ##  Empty Comment
-proc sceLoginServiceRequestDevices*()
+proc sceLoginServiceRequestDevices*() {.cdecl, importc: "sceLoginServiceRequestDevices",
+                                        header: "orbis/LoginService.h".}
   ##  Empty Comment
-proc sceLoginServiceTerminate*()
+proc sceLoginServiceTerminate*() {.cdecl, importc: "sceLoginServiceTerminate",
+                                   header: "orbis/LoginService.h".}
   ##  Empty Comment

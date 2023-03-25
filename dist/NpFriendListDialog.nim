@@ -1,18 +1,35 @@
-proc sceNpFriendListDialogClose*()
+proc sceNpFriendListDialogClose*() {.cdecl,
+                                     importc: "sceNpFriendListDialogClose",
+                                     header: "orbis/NpFriendListDialog.h".}
   ##  Empty Comment
-proc sceNpFriendListDialogGetResult*()
+proc sceNpFriendListDialogGetResult*() {.cdecl,
+    importc: "sceNpFriendListDialogGetResult",
+    header: "orbis/NpFriendListDialog.h".}
   ##  Empty Comment
-proc sceNpFriendListDialogGetResultA*()
+proc sceNpFriendListDialogGetResultA*() {.cdecl,
+    importc: "sceNpFriendListDialogGetResultA",
+    header: "orbis/NpFriendListDialog.h".}
   ##  Empty Comment
-proc sceNpFriendListDialogGetStatus*()
+proc sceNpFriendListDialogGetStatus*() {.cdecl,
+    importc: "sceNpFriendListDialogGetStatus",
+    header: "orbis/NpFriendListDialog.h".}
   ##  Empty Comment
-proc sceNpFriendListDialogInitialize*()
+proc sceNpFriendListDialogInitialize*() {.cdecl,
+    importc: "sceNpFriendListDialogInitialize",
+    header: "orbis/NpFriendListDialog.h".}
   ##  Empty Comment
-proc sceNpFriendListDialogOpen*()
+proc sceNpFriendListDialogOpen*() {.cdecl, importc: "sceNpFriendListDialogOpen",
+                                    header: "orbis/NpFriendListDialog.h".}
   ##  Empty Comment
-proc sceNpFriendListDialogOpenA*()
+proc sceNpFriendListDialogOpenA*() {.cdecl,
+                                     importc: "sceNpFriendListDialogOpenA",
+                                     header: "orbis/NpFriendListDialog.h".}
   ##  Empty Comment
-proc sceNpFriendListDialogTerminate*()
+proc sceNpFriendListDialogTerminate*() {.cdecl,
+    importc: "sceNpFriendListDialogTerminate",
+    header: "orbis/NpFriendListDialog.h".}
   ##  Empty Comment
-proc sceNpFriendListDialogUpdateStatus*()
+proc sceNpFriendListDialogUpdateStatus*() {.cdecl,
+    importc: "sceNpFriendListDialogUpdateStatus",
+    header: "orbis/NpFriendListDialog.h".}
   ##  Empty Comment

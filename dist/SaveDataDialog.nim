@@ -1,20 +1,36 @@
-proc sceSaveDataDialogClose*()
+proc sceSaveDataDialogClose*() {.cdecl, importc: "sceSaveDataDialogClose",
+                                 header: "orbis/SaveDataDialog.h".}
   ##  Empty Comment
-proc sceSaveDataDialogGetResult*()
+proc sceSaveDataDialogGetResult*() {.cdecl,
+                                     importc: "sceSaveDataDialogGetResult",
+                                     header: "orbis/SaveDataDialog.h".}
   ##  Empty Comment
-proc sceSaveDataDialogGetStatus*()
+proc sceSaveDataDialogGetStatus*() {.cdecl,
+                                     importc: "sceSaveDataDialogGetStatus",
+                                     header: "orbis/SaveDataDialog.h".}
   ##  Empty Comment
-proc sceSaveDataDialogInitialize*()
+proc sceSaveDataDialogInitialize*() {.cdecl,
+                                      importc: "sceSaveDataDialogInitialize",
+                                      header: "orbis/SaveDataDialog.h".}
   ##  Empty Comment
-proc sceSaveDataDialogIsReadyToDisplay*()
+proc sceSaveDataDialogIsReadyToDisplay*() {.cdecl,
+    importc: "sceSaveDataDialogIsReadyToDisplay",
+    header: "orbis/SaveDataDialog.h".}
   ##  Empty Comment
-proc sceSaveDataDialogOpen*()
+proc sceSaveDataDialogOpen*() {.cdecl, importc: "sceSaveDataDialogOpen",
+                                header: "orbis/SaveDataDialog.h".}
   ##  Empty Comment
-proc sceSaveDataDialogProgressBarInc*()
+proc sceSaveDataDialogProgressBarInc*() {.cdecl,
+    importc: "sceSaveDataDialogProgressBarInc", header: "orbis/SaveDataDialog.h".}
   ##  Empty Comment
-proc sceSaveDataDialogProgressBarSetValue*()
+proc sceSaveDataDialogProgressBarSetValue*() {.cdecl,
+    importc: "sceSaveDataDialogProgressBarSetValue",
+    header: "orbis/SaveDataDialog.h".}
   ##  Empty Comment
-proc sceSaveDataDialogTerminate*()
+proc sceSaveDataDialogTerminate*() {.cdecl,
+                                     importc: "sceSaveDataDialogTerminate",
+                                     header: "orbis/SaveDataDialog.h".}
   ##  Empty Comment
-proc sceSaveDataDialogUpdateStatus*()
+proc sceSaveDataDialogUpdateStatus*() {.cdecl, importc: "sceSaveDataDialogUpdateStatus",
+                                        header: "orbis/SaveDataDialog.h".}
   ##  Empty Comment

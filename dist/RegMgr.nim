@@ -1,88 +1,133 @@
-proc sceRegMgrBackupNeedMem*()
+proc sceRegMgrBackupNeedMem*() {.cdecl, importc: "sceRegMgrBackupNeedMem",
+                                 header: "orbis/RegMgr.h".}
   ##  Empty Comment
-proc sceRegMgrBackupPullData*()
+proc sceRegMgrBackupPullData*() {.cdecl, importc: "sceRegMgrBackupPullData",
+                                  header: "orbis/RegMgr.h".}
   ##  Empty Comment
-proc sceRegMgrBackupPushData*()
+proc sceRegMgrBackupPushData*() {.cdecl, importc: "sceRegMgrBackupPushData",
+                                  header: "orbis/RegMgr.h".}
   ##  Empty Comment
-proc sceRegMgrCheckError*()
+proc sceRegMgrCheckError*() {.cdecl, importc: "sceRegMgrCheckError",
+                              header: "orbis/RegMgr.h".}
   ##  Empty Comment
-proc sceRegMgrDrvDataCheckGet*()
+proc sceRegMgrDrvDataCheckGet*() {.cdecl, importc: "sceRegMgrDrvDataCheckGet",
+                                   header: "orbis/RegMgr.h".}
   ##  Empty Comment
-proc sceRegMgrDrvDataClose*()
+proc sceRegMgrDrvDataClose*() {.cdecl, importc: "sceRegMgrDrvDataClose",
+                                header: "orbis/RegMgr.h".}
   ##  Empty Comment
-proc sceRegMgrDrvDataOpen*()
+proc sceRegMgrDrvDataOpen*() {.cdecl, importc: "sceRegMgrDrvDataOpen",
+                               header: "orbis/RegMgr.h".}
   ##  Empty Comment
-proc sceRegMgrDrvGetEntCnt*()
+proc sceRegMgrDrvGetEntCnt*() {.cdecl, importc: "sceRegMgrDrvGetEntCnt",
+                                header: "orbis/RegMgr.h".}
   ##  Empty Comment
-proc sceRegMgrDrvGetUpdateCnt*()
+proc sceRegMgrDrvGetUpdateCnt*() {.cdecl, importc: "sceRegMgrDrvGetUpdateCnt",
+                                   header: "orbis/RegMgr.h".}
   ##  Empty Comment
-proc sceRegMgrEvtGetCnt*()
+proc sceRegMgrEvtGetCnt*() {.cdecl, importc: "sceRegMgrEvtGetCnt",
+                             header: "orbis/RegMgr.h".}
   ##  Empty Comment
-proc sceRegMgrEvtGetRegId*()
+proc sceRegMgrEvtGetRegId*() {.cdecl, importc: "sceRegMgrEvtGetRegId",
+                               header: "orbis/RegMgr.h".}
   ##  Empty Comment
-proc sceRegMgrGetBin*(optionId: cint; outData: pointer; dataLength: csize_t): cint
+proc sceRegMgrGetBin*(optionId: cint; outData: pointer; dataLength: csize_t): cint {.
+    cdecl, importc: "sceRegMgrGetBin", header: "orbis/RegMgr.h".}
   ##  Empty Comment
-proc sceRegMgrGetBinInitVal*()
+proc sceRegMgrGetBinInitVal*() {.cdecl, importc: "sceRegMgrGetBinInitVal",
+                                 header: "orbis/RegMgr.h".}
   ##  Empty Comment
-proc sceRegMgrGetInt*(optionId: cint; outInt: ptr cint): cint
+proc sceRegMgrGetInt*(optionId: cint; outInt: ptr cint): cint {.cdecl,
+    importc: "sceRegMgrGetInt", header: "orbis/RegMgr.h".}
   ##  Empty Comment
-proc sceRegMgrGetIntInitVal*()
+proc sceRegMgrGetIntInitVal*() {.cdecl, importc: "sceRegMgrGetIntInitVal",
+                                 header: "orbis/RegMgr.h".}
   ##  Empty Comment
-proc sceRegMgrGetStr*(optionId: cint; outString: cstring; stringLength: csize_t): cint
+proc sceRegMgrGetStr*(optionId: cint; outString: cstring; stringLength: csize_t): cint {.
+    cdecl, importc: "sceRegMgrGetStr", header: "orbis/RegMgr.h".}
   ##  Empty Comment
-proc sceRegMgrGetStrInitVal*()
+proc sceRegMgrGetStrInitVal*() {.cdecl, importc: "sceRegMgrGetStrInitVal",
+                                 header: "orbis/RegMgr.h".}
   ##  Empty Comment
-proc sceRegMgrGetVersion*()
+proc sceRegMgrGetVersion*() {.cdecl, importc: "sceRegMgrGetVersion",
+                              header: "orbis/RegMgr.h".}
   ##  Empty Comment
-proc sceRegMgrIsChange*()
+proc sceRegMgrIsChange*() {.cdecl, importc: "sceRegMgrIsChange",
+                            header: "orbis/RegMgr.h".}
   ##  Empty Comment
-proc sceRegMgrIsInitOK*()
+proc sceRegMgrIsInitOK*() {.cdecl, importc: "sceRegMgrIsInitOK",
+                            header: "orbis/RegMgr.h".}
   ##  Empty Comment
-proc sceRegMgrLogPull*()
+proc sceRegMgrLogPull*() {.cdecl, importc: "sceRegMgrLogPull",
+                           header: "orbis/RegMgr.h".}
   ##  Empty Comment
-proc sceRegMgrLogStart*()
+proc sceRegMgrLogStart*() {.cdecl, importc: "sceRegMgrLogStart",
+                            header: "orbis/RegMgr.h".}
   ##  Empty Comment
-proc sceRegMgrNonSysCheckError*()
+proc sceRegMgrNonSysCheckError*() {.cdecl, importc: "sceRegMgrNonSysCheckError",
+                                    header: "orbis/RegMgr.h".}
   ##  Empty Comment
-proc sceRegMgrNonSysGetBin*()
+proc sceRegMgrNonSysGetBin*() {.cdecl, importc: "sceRegMgrNonSysGetBin",
+                                header: "orbis/RegMgr.h".}
   ##  Empty Comment
-proc sceRegMgrNonSysGetInt*()
+proc sceRegMgrNonSysGetInt*() {.cdecl, importc: "sceRegMgrNonSysGetInt",
+                                header: "orbis/RegMgr.h".}
   ##  Empty Comment
-proc sceRegMgrNonSysGetStr*()
+proc sceRegMgrNonSysGetStr*() {.cdecl, importc: "sceRegMgrNonSysGetStr",
+                                header: "orbis/RegMgr.h".}
   ##  Empty Comment
-proc sceRegMgrNonSysSetBin*()
+proc sceRegMgrNonSysSetBin*() {.cdecl, importc: "sceRegMgrNonSysSetBin",
+                                header: "orbis/RegMgr.h".}
   ##  Empty Comment
-proc sceRegMgrNonSysSetInt*()
+proc sceRegMgrNonSysSetInt*() {.cdecl, importc: "sceRegMgrNonSysSetInt",
+                                header: "orbis/RegMgr.h".}
   ##  Empty Comment
-proc sceRegMgrNonSysSetStr*()
+proc sceRegMgrNonSysSetStr*() {.cdecl, importc: "sceRegMgrNonSysSetStr",
+                                header: "orbis/RegMgr.h".}
   ##  Empty Comment
-proc sceRegMgrResetVal*()
+proc sceRegMgrResetVal*() {.cdecl, importc: "sceRegMgrResetVal",
+                            header: "orbis/RegMgr.h".}
   ##  Empty Comment
-proc sceRegMgrSetBin*(optionId: cint; inData: pointer; dataLength: csize_t): cint
+proc sceRegMgrSetBin*(optionId: cint; inData: pointer; dataLength: csize_t): cint {.
+    cdecl, importc: "sceRegMgrSetBin", header: "orbis/RegMgr.h".}
   ##  Empty Comment
-proc sceRegMgrSetInitLevel*()
+proc sceRegMgrSetInitLevel*() {.cdecl, importc: "sceRegMgrSetInitLevel",
+                                header: "orbis/RegMgr.h".}
   ##  Empty Comment
-proc sceRegMgrSetInt*(optionId: cint; inInt: cint): cint
+proc sceRegMgrSetInt*(optionId: cint; inInt: cint): cint {.cdecl,
+    importc: "sceRegMgrSetInt", header: "orbis/RegMgr.h".}
   ##  Empty Comment
-proc sceRegMgrSetStr*(optionId: cint; inStirng: cstring; stringLength: csize_t): cint
+proc sceRegMgrSetStr*(optionId: cint; inStirng: cstring; stringLength: csize_t): cint {.
+    cdecl, importc: "sceRegMgrSetStr", header: "orbis/RegMgr.h".}
   ##  Empty Comment
-proc sceRegMgrSrvCnvRegionInt*()
+proc sceRegMgrSrvCnvRegionInt*() {.cdecl, importc: "sceRegMgrSrvCnvRegionInt",
+                                   header: "orbis/RegMgr.h".}
   ##  Empty Comment
-proc sceRegMgrSrvCnvRegionStr*()
+proc sceRegMgrSrvCnvRegionStr*() {.cdecl, importc: "sceRegMgrSrvCnvRegionStr",
+                                   header: "orbis/RegMgr.h".}
   ##  Empty Comment
-proc sceRegMgrSrvGetMachineType*()
+proc sceRegMgrSrvGetMachineType*() {.cdecl,
+                                     importc: "sceRegMgrSrvGetMachineType",
+                                     header: "orbis/RegMgr.h".}
   ##  Empty Comment
-proc sceRegMgrSrvGetQAFforReg*()
+proc sceRegMgrSrvGetQAFforReg*() {.cdecl, importc: "sceRegMgrSrvGetQAFforReg",
+                                   header: "orbis/RegMgr.h".}
   ##  Empty Comment
-proc sceRegMgrSrvGetRealMachineType*()
+proc sceRegMgrSrvGetRealMachineType*() {.cdecl,
+    importc: "sceRegMgrSrvGetRealMachineType", header: "orbis/RegMgr.h".}
   ##  Empty Comment
-proc sceRegMgrSrvGetRegion*()
+proc sceRegMgrSrvGetRegion*() {.cdecl, importc: "sceRegMgrSrvGetRegion",
+                                header: "orbis/RegMgr.h".}
   ##  Empty Comment
-proc sceRegMgrSrvGetRegionStr*()
+proc sceRegMgrSrvGetRegionStr*() {.cdecl, importc: "sceRegMgrSrvGetRegionStr",
+                                   header: "orbis/RegMgr.h".}
   ##  Empty Comment
-proc sceRegMgrToolDataCheckGet*()
+proc sceRegMgrToolDataCheckGet*() {.cdecl, importc: "sceRegMgrToolDataCheckGet",
+                                    header: "orbis/RegMgr.h".}
   ##  Empty Comment
-proc sceRegMgrToolGetEntryCnt*()
+proc sceRegMgrToolGetEntryCnt*() {.cdecl, importc: "sceRegMgrToolGetEntryCnt",
+                                   header: "orbis/RegMgr.h".}
   ##  Empty Comment
-proc sceRegMgrToolGetUpdateCnt*()
+proc sceRegMgrToolGetUpdateCnt*() {.cdecl, importc: "sceRegMgrToolGetUpdateCnt",
+                                    header: "orbis/RegMgr.h".}
   ##  Empty Comment

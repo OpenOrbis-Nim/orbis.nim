@@ -1,200 +1,314 @@
-proc sceNpTssCreateNpTitleCtx*()
+proc sceNpTssCreateNpTitleCtx*() {.cdecl, importc: "sceNpTssCreateNpTitleCtx",
+                                   header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTssCreateNpTitleCtxA*()
+proc sceNpTssCreateNpTitleCtxA*() {.cdecl, importc: "sceNpTssCreateNpTitleCtxA",
+                                    header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTssGetData*()
+proc sceNpTssGetData*() {.cdecl, importc: "sceNpTssGetData",
+                          header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTssGetDataAsync*()
+proc sceNpTssGetDataAsync*() {.cdecl, importc: "sceNpTssGetDataAsync",
+                               header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTssGetSmallStorage*()
+proc sceNpTssGetSmallStorage*() {.cdecl, importc: "sceNpTssGetSmallStorage",
+                                  header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTssGetSmallStorageAsync*()
+proc sceNpTssGetSmallStorageAsync*() {.cdecl,
+                                       importc: "sceNpTssGetSmallStorageAsync",
+                                       header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTssGetStorage*()
+proc sceNpTssGetStorage*() {.cdecl, importc: "sceNpTssGetStorage",
+                             header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTssGetStorageAsync*()
+proc sceNpTssGetStorageAsync*() {.cdecl, importc: "sceNpTssGetStorageAsync",
+                                  header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusAbortRequest*()
+proc sceNpTusAbortRequest*() {.cdecl, importc: "sceNpTusAbortRequest",
+                               header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusAddAndGetVariable*()
+proc sceNpTusAddAndGetVariable*() {.cdecl, importc: "sceNpTusAddAndGetVariable",
+                                    header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusAddAndGetVariableA*()
+proc sceNpTusAddAndGetVariableA*() {.cdecl,
+                                     importc: "sceNpTusAddAndGetVariableA",
+                                     header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusAddAndGetVariableAAsync*()
+proc sceNpTusAddAndGetVariableAAsync*() {.cdecl,
+    importc: "sceNpTusAddAndGetVariableAAsync", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusAddAndGetVariableAsync*()
+proc sceNpTusAddAndGetVariableAsync*() {.cdecl,
+    importc: "sceNpTusAddAndGetVariableAsync", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusAddAndGetVariableAVUser*()
+proc sceNpTusAddAndGetVariableAVUser*() {.cdecl,
+    importc: "sceNpTusAddAndGetVariableAVUser", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusAddAndGetVariableAVUserAsync*()
+proc sceNpTusAddAndGetVariableAVUserAsync*() {.cdecl,
+    importc: "sceNpTusAddAndGetVariableAVUserAsync", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusAddAndGetVariableVUser*()
+proc sceNpTusAddAndGetVariableVUser*() {.cdecl,
+    importc: "sceNpTusAddAndGetVariableVUser", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusAddAndGetVariableVUserAsync*()
+proc sceNpTusAddAndGetVariableVUserAsync*() {.cdecl,
+    importc: "sceNpTusAddAndGetVariableVUserAsync", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusChangeModeForOtherSaveDataOwners*()
+proc sceNpTusChangeModeForOtherSaveDataOwners*() {.cdecl,
+    importc: "sceNpTusChangeModeForOtherSaveDataOwners", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusCreateNpTitleCtx*()
+proc sceNpTusCreateNpTitleCtx*() {.cdecl, importc: "sceNpTusCreateNpTitleCtx",
+                                   header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusCreateNpTitleCtxA*()
+proc sceNpTusCreateNpTitleCtxA*() {.cdecl, importc: "sceNpTusCreateNpTitleCtxA",
+                                    header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusCreateRequest*()
+proc sceNpTusCreateRequest*() {.cdecl, importc: "sceNpTusCreateRequest",
+                                header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusCreateTitleCtx*()
+proc sceNpTusCreateTitleCtx*() {.cdecl, importc: "sceNpTusCreateTitleCtx",
+                                 header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusDeleteMultiSlotData*()
+proc sceNpTusDeleteMultiSlotData*() {.cdecl,
+                                      importc: "sceNpTusDeleteMultiSlotData",
+                                      header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusDeleteMultiSlotDataA*()
+proc sceNpTusDeleteMultiSlotDataA*() {.cdecl,
+                                       importc: "sceNpTusDeleteMultiSlotDataA",
+                                       header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusDeleteMultiSlotDataAAsync*()
+proc sceNpTusDeleteMultiSlotDataAAsync*() {.cdecl,
+    importc: "sceNpTusDeleteMultiSlotDataAAsync", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusDeleteMultiSlotDataAsync*()
+proc sceNpTusDeleteMultiSlotDataAsync*() {.cdecl,
+    importc: "sceNpTusDeleteMultiSlotDataAsync", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusDeleteMultiSlotDataVUser*()
+proc sceNpTusDeleteMultiSlotDataVUser*() {.cdecl,
+    importc: "sceNpTusDeleteMultiSlotDataVUser", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusDeleteMultiSlotDataVUserAsync*()
+proc sceNpTusDeleteMultiSlotDataVUserAsync*() {.cdecl,
+    importc: "sceNpTusDeleteMultiSlotDataVUserAsync", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusDeleteMultiSlotVariable*()
+proc sceNpTusDeleteMultiSlotVariable*() {.cdecl,
+    importc: "sceNpTusDeleteMultiSlotVariable", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusDeleteMultiSlotVariableA*()
+proc sceNpTusDeleteMultiSlotVariableA*() {.cdecl,
+    importc: "sceNpTusDeleteMultiSlotVariableA", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusDeleteMultiSlotVariableAAsync*()
+proc sceNpTusDeleteMultiSlotVariableAAsync*() {.cdecl,
+    importc: "sceNpTusDeleteMultiSlotVariableAAsync", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusDeleteMultiSlotVariableAsync*()
+proc sceNpTusDeleteMultiSlotVariableAsync*() {.cdecl,
+    importc: "sceNpTusDeleteMultiSlotVariableAsync", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusDeleteMultiSlotVariableVUser*()
+proc sceNpTusDeleteMultiSlotVariableVUser*() {.cdecl,
+    importc: "sceNpTusDeleteMultiSlotVariableVUser", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusDeleteMultiSlotVariableVUserAsync*()
+proc sceNpTusDeleteMultiSlotVariableVUserAsync*() {.cdecl,
+    importc: "sceNpTusDeleteMultiSlotVariableVUserAsync",
+    header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusDeleteNpTitleCtx*()
+proc sceNpTusDeleteNpTitleCtx*() {.cdecl, importc: "sceNpTusDeleteNpTitleCtx",
+                                   header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusDeleteRequest*()
+proc sceNpTusDeleteRequest*() {.cdecl, importc: "sceNpTusDeleteRequest",
+                                header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusGetData*()
+proc sceNpTusGetData*() {.cdecl, importc: "sceNpTusGetData",
+                          header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusGetDataA*()
+proc sceNpTusGetDataA*() {.cdecl, importc: "sceNpTusGetDataA",
+                           header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusGetDataAAsync*()
+proc sceNpTusGetDataAAsync*() {.cdecl, importc: "sceNpTusGetDataAAsync",
+                                header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusGetDataAsync*()
+proc sceNpTusGetDataAsync*() {.cdecl, importc: "sceNpTusGetDataAsync",
+                               header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusGetDataAVUserAsync*()
+proc sceNpTusGetDataAVUserAsync*() {.cdecl,
+                                     importc: "sceNpTusGetDataAVUserAsync",
+                                     header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusGetDataVUser*()
+proc sceNpTusGetDataVUser*() {.cdecl, importc: "sceNpTusGetDataVUser",
+                               header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusGetDataVUserAsync*()
+proc sceNpTusGetDataVUserAsync*() {.cdecl, importc: "sceNpTusGetDataVUserAsync",
+                                    header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusGetFriendsDataStatus*()
+proc sceNpTusGetFriendsDataStatus*() {.cdecl,
+                                       importc: "sceNpTusGetFriendsDataStatus",
+                                       header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusGetFriendsDataStatusA*()
+proc sceNpTusGetFriendsDataStatusA*() {.cdecl, importc: "sceNpTusGetFriendsDataStatusA",
+                                        header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusGetFriendsDataStatusAAsync*()
+proc sceNpTusGetFriendsDataStatusAAsync*() {.cdecl,
+    importc: "sceNpTusGetFriendsDataStatusAAsync", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusGetFriendsDataStatusAsync*()
+proc sceNpTusGetFriendsDataStatusAsync*() {.cdecl,
+    importc: "sceNpTusGetFriendsDataStatusAsync", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusGetFriendsVariable*()
+proc sceNpTusGetFriendsVariable*() {.cdecl,
+                                     importc: "sceNpTusGetFriendsVariable",
+                                     header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusGetFriendsVariableA*()
+proc sceNpTusGetFriendsVariableA*() {.cdecl,
+                                      importc: "sceNpTusGetFriendsVariableA",
+                                      header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusGetFriendsVariableAAsync*()
+proc sceNpTusGetFriendsVariableAAsync*() {.cdecl,
+    importc: "sceNpTusGetFriendsVariableAAsync", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusGetFriendsVariableAsync*()
+proc sceNpTusGetFriendsVariableAsync*() {.cdecl,
+    importc: "sceNpTusGetFriendsVariableAsync", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusGetMultiSlotDataStatus*()
+proc sceNpTusGetMultiSlotDataStatus*() {.cdecl,
+    importc: "sceNpTusGetMultiSlotDataStatus", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusGetMultiSlotDataStatusA*()
+proc sceNpTusGetMultiSlotDataStatusA*() {.cdecl,
+    importc: "sceNpTusGetMultiSlotDataStatusA", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusGetMultiSlotDataStatusAAsync*()
+proc sceNpTusGetMultiSlotDataStatusAAsync*() {.cdecl,
+    importc: "sceNpTusGetMultiSlotDataStatusAAsync", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusGetMultiSlotDataStatusAsync*()
+proc sceNpTusGetMultiSlotDataStatusAsync*() {.cdecl,
+    importc: "sceNpTusGetMultiSlotDataStatusAsync", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusGetMultiSlotDataStatusVUser*()
+proc sceNpTusGetMultiSlotDataStatusVUser*() {.cdecl,
+    importc: "sceNpTusGetMultiSlotDataStatusVUser", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusGetMultiSlotDataStatusVUserAsync*()
+proc sceNpTusGetMultiSlotDataStatusVUserAsync*() {.cdecl,
+    importc: "sceNpTusGetMultiSlotDataStatusVUserAsync", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusGetMultiSlotVariable*()
+proc sceNpTusGetMultiSlotVariable*() {.cdecl,
+                                       importc: "sceNpTusGetMultiSlotVariable",
+                                       header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusGetMultiSlotVariableA*()
+proc sceNpTusGetMultiSlotVariableA*() {.cdecl, importc: "sceNpTusGetMultiSlotVariableA",
+                                        header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusGetMultiSlotVariableAAsync*()
+proc sceNpTusGetMultiSlotVariableAAsync*() {.cdecl,
+    importc: "sceNpTusGetMultiSlotVariableAAsync", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusGetMultiSlotVariableAsync*()
+proc sceNpTusGetMultiSlotVariableAsync*() {.cdecl,
+    importc: "sceNpTusGetMultiSlotVariableAsync", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusGetMultiSlotVariableVUser*()
+proc sceNpTusGetMultiSlotVariableVUser*() {.cdecl,
+    importc: "sceNpTusGetMultiSlotVariableVUser", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusGetMultiSlotVariableVUserAsync*()
+proc sceNpTusGetMultiSlotVariableVUserAsync*() {.cdecl,
+    importc: "sceNpTusGetMultiSlotVariableVUserAsync", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusGetMultiUserDataStatus*()
+proc sceNpTusGetMultiUserDataStatus*() {.cdecl,
+    importc: "sceNpTusGetMultiUserDataStatus", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusGetMultiUserDataStatusA*()
+proc sceNpTusGetMultiUserDataStatusA*() {.cdecl,
+    importc: "sceNpTusGetMultiUserDataStatusA", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusGetMultiUserDataStatusAAsync*()
+proc sceNpTusGetMultiUserDataStatusAAsync*() {.cdecl,
+    importc: "sceNpTusGetMultiUserDataStatusAAsync", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusGetMultiUserDataStatusAsync*()
+proc sceNpTusGetMultiUserDataStatusAsync*() {.cdecl,
+    importc: "sceNpTusGetMultiUserDataStatusAsync", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusGetMultiUserDataStatusVUser*()
+proc sceNpTusGetMultiUserDataStatusVUser*() {.cdecl,
+    importc: "sceNpTusGetMultiUserDataStatusVUser", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusGetMultiUserDataStatusVUserAsync*()
+proc sceNpTusGetMultiUserDataStatusVUserAsync*() {.cdecl,
+    importc: "sceNpTusGetMultiUserDataStatusVUserAsync", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusGetMultiUserVariable*()
+proc sceNpTusGetMultiUserVariable*() {.cdecl,
+                                       importc: "sceNpTusGetMultiUserVariable",
+                                       header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusGetMultiUserVariableA*()
+proc sceNpTusGetMultiUserVariableA*() {.cdecl, importc: "sceNpTusGetMultiUserVariableA",
+                                        header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusGetMultiUserVariableAAsync*()
+proc sceNpTusGetMultiUserVariableAAsync*() {.cdecl,
+    importc: "sceNpTusGetMultiUserVariableAAsync", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusGetMultiUserVariableAsync*()
+proc sceNpTusGetMultiUserVariableAsync*() {.cdecl,
+    importc: "sceNpTusGetMultiUserVariableAsync", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusGetMultiUserVariableVUser*()
+proc sceNpTusGetMultiUserVariableVUser*() {.cdecl,
+    importc: "sceNpTusGetMultiUserVariableVUser", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusGetMultiUserVariableVUserAsync*()
+proc sceNpTusGetMultiUserVariableVUserAsync*() {.cdecl,
+    importc: "sceNpTusGetMultiUserVariableVUserAsync", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusPollAsync*()
+proc sceNpTusPollAsync*() {.cdecl, importc: "sceNpTusPollAsync",
+                            header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusSetData*()
+proc sceNpTusSetData*() {.cdecl, importc: "sceNpTusSetData",
+                          header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusSetDataA*()
+proc sceNpTusSetDataA*() {.cdecl, importc: "sceNpTusSetDataA",
+                           header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusSetDataAAsync*()
+proc sceNpTusSetDataAAsync*() {.cdecl, importc: "sceNpTusSetDataAAsync",
+                                header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusSetDataAsync*()
+proc sceNpTusSetDataAsync*() {.cdecl, importc: "sceNpTusSetDataAsync",
+                               header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusSetDataAVUser*()
+proc sceNpTusSetDataAVUser*() {.cdecl, importc: "sceNpTusSetDataAVUser",
+                                header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusSetDataAVUserAsync*()
+proc sceNpTusSetDataAVUserAsync*() {.cdecl,
+                                     importc: "sceNpTusSetDataAVUserAsync",
+                                     header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusSetDataVUser*()
+proc sceNpTusSetDataVUser*() {.cdecl, importc: "sceNpTusSetDataVUser",
+                               header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusSetDataVUserAsync*()
+proc sceNpTusSetDataVUserAsync*() {.cdecl, importc: "sceNpTusSetDataVUserAsync",
+                                    header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusSetMultiSlotVariable*()
+proc sceNpTusSetMultiSlotVariable*() {.cdecl,
+                                       importc: "sceNpTusSetMultiSlotVariable",
+                                       header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusSetMultiSlotVariableA*()
+proc sceNpTusSetMultiSlotVariableA*() {.cdecl, importc: "sceNpTusSetMultiSlotVariableA",
+                                        header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusSetMultiSlotVariableAAsync*()
+proc sceNpTusSetMultiSlotVariableAAsync*() {.cdecl,
+    importc: "sceNpTusSetMultiSlotVariableAAsync", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusSetMultiSlotVariableAsync*()
+proc sceNpTusSetMultiSlotVariableAsync*() {.cdecl,
+    importc: "sceNpTusSetMultiSlotVariableAsync", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusSetMultiSlotVariableVUser*()
+proc sceNpTusSetMultiSlotVariableVUser*() {.cdecl,
+    importc: "sceNpTusSetMultiSlotVariableVUser", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusSetMultiSlotVariableVUserAsync*()
+proc sceNpTusSetMultiSlotVariableVUserAsync*() {.cdecl,
+    importc: "sceNpTusSetMultiSlotVariableVUserAsync", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusSetTimeout*()
+proc sceNpTusSetTimeout*() {.cdecl, importc: "sceNpTusSetTimeout",
+                             header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusTryAndSetVariable*()
+proc sceNpTusTryAndSetVariable*() {.cdecl, importc: "sceNpTusTryAndSetVariable",
+                                    header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusTryAndSetVariableA*()
+proc sceNpTusTryAndSetVariableA*() {.cdecl,
+                                     importc: "sceNpTusTryAndSetVariableA",
+                                     header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusTryAndSetVariableAAsync*()
+proc sceNpTusTryAndSetVariableAAsync*() {.cdecl,
+    importc: "sceNpTusTryAndSetVariableAAsync", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusTryAndSetVariableAsync*()
+proc sceNpTusTryAndSetVariableAsync*() {.cdecl,
+    importc: "sceNpTusTryAndSetVariableAsync", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusTryAndSetVariableAVUser*()
+proc sceNpTusTryAndSetVariableAVUser*() {.cdecl,
+    importc: "sceNpTusTryAndSetVariableAVUser", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusTryAndSetVariableAVUserAsync*()
+proc sceNpTusTryAndSetVariableAVUserAsync*() {.cdecl,
+    importc: "sceNpTusTryAndSetVariableAVUserAsync", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusTryAndSetVariableVUser*()
+proc sceNpTusTryAndSetVariableVUser*() {.cdecl,
+    importc: "sceNpTusTryAndSetVariableVUser", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusTryAndSetVariableVUserAsync*()
+proc sceNpTusTryAndSetVariableVUserAsync*() {.cdecl,
+    importc: "sceNpTusTryAndSetVariableVUserAsync", header: "orbis/NpTus.h".}
   ##  Empty Comment
-proc sceNpTusWaitAsync*()
+proc sceNpTusWaitAsync*() {.cdecl, importc: "sceNpTusWaitAsync",
+                            header: "orbis/NpTus.h".}
   ##  Empty Comment

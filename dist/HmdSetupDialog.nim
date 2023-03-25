@@ -1,14 +1,25 @@
-proc sceHmdSetupDialogClose*()
+proc sceHmdSetupDialogClose*() {.cdecl, importc: "sceHmdSetupDialogClose",
+                                 header: "orbis/HmdSetupDialog.h".}
   ##  Empty Comment
-proc sceHmdSetupDialogGetResult*()
+proc sceHmdSetupDialogGetResult*() {.cdecl,
+                                     importc: "sceHmdSetupDialogGetResult",
+                                     header: "orbis/HmdSetupDialog.h".}
   ##  Empty Comment
-proc sceHmdSetupDialogGetStatus*()
+proc sceHmdSetupDialogGetStatus*() {.cdecl,
+                                     importc: "sceHmdSetupDialogGetStatus",
+                                     header: "orbis/HmdSetupDialog.h".}
   ##  Empty Comment
-proc sceHmdSetupDialogInitialize*()
+proc sceHmdSetupDialogInitialize*() {.cdecl,
+                                      importc: "sceHmdSetupDialogInitialize",
+                                      header: "orbis/HmdSetupDialog.h".}
   ##  Empty Comment
-proc sceHmdSetupDialogOpen*()
+proc sceHmdSetupDialogOpen*() {.cdecl, importc: "sceHmdSetupDialogOpen",
+                                header: "orbis/HmdSetupDialog.h".}
   ##  Empty Comment
-proc sceHmdSetupDialogTerminate*()
+proc sceHmdSetupDialogTerminate*() {.cdecl,
+                                     importc: "sceHmdSetupDialogTerminate",
+                                     header: "orbis/HmdSetupDialog.h".}
   ##  Empty Comment
-proc sceHmdSetupDialogUpdateStatus*()
+proc sceHmdSetupDialogUpdateStatus*() {.cdecl, importc: "sceHmdSetupDialogUpdateStatus",
+                                        header: "orbis/HmdSetupDialog.h".}
   ##  Empty Comment

@@ -1,44 +1,66 @@
-proc sceAjmBatchCancel*()
+proc sceAjmBatchCancel*() {.cdecl, importc: "sceAjmBatchCancel",
+                            header: "orbis/Ajm.h".}
   ##  Empty Comment
-proc sceAjmBatchErrorDump*()
+proc sceAjmBatchErrorDump*() {.cdecl, importc: "sceAjmBatchErrorDump",
+                               header: "orbis/Ajm.h".}
   ##  Empty Comment
-proc sceAjmBatchJobControlBufferRa*()
+proc sceAjmBatchJobControlBufferRa*() {.cdecl, importc: "sceAjmBatchJobControlBufferRa",
+                                        header: "orbis/Ajm.h".}
   ##  Empty Comment
-proc sceAjmBatchJobInlineBuffer*()
+proc sceAjmBatchJobInlineBuffer*() {.cdecl,
+                                     importc: "sceAjmBatchJobInlineBuffer",
+                                     header: "orbis/Ajm.h".}
   ##  Empty Comment
-proc sceAjmBatchJobRunBufferRa*()
+proc sceAjmBatchJobRunBufferRa*() {.cdecl, importc: "sceAjmBatchJobRunBufferRa",
+                                    header: "orbis/Ajm.h".}
   ##  Empty Comment
-proc sceAjmBatchJobRunSplitBufferRa*()
+proc sceAjmBatchJobRunSplitBufferRa*() {.cdecl,
+    importc: "sceAjmBatchJobRunSplitBufferRa", header: "orbis/Ajm.h".}
   ##  Empty Comment
-proc sceAjmBatchStartBuffer*()
+proc sceAjmBatchStartBuffer*() {.cdecl, importc: "sceAjmBatchStartBuffer",
+                                 header: "orbis/Ajm.h".}
   ##  Empty Comment
-proc sceAjmBatchWait*()
+proc sceAjmBatchWait*() {.cdecl, importc: "sceAjmBatchWait",
+                          header: "orbis/Ajm.h".}
   ##  Empty Comment
-proc sceAjmDecAt9ParseConfigData*()
+proc sceAjmDecAt9ParseConfigData*() {.cdecl,
+                                      importc: "sceAjmDecAt9ParseConfigData",
+                                      header: "orbis/Ajm.h".}
   ##  Empty Comment
-proc sceAjmDecMp3ParseFrame*()
+proc sceAjmDecMp3ParseFrame*() {.cdecl, importc: "sceAjmDecMp3ParseFrame",
+                                 header: "orbis/Ajm.h".}
   ##  Empty Comment
-proc sceAjmFinalize*()
+proc sceAjmFinalize*() {.cdecl, importc: "sceAjmFinalize", header: "orbis/Ajm.h".}
   ##  Empty Comment
-proc sceAjmInitialize*()
+proc sceAjmInitialize*() {.cdecl, importc: "sceAjmInitialize",
+                           header: "orbis/Ajm.h".}
   ##  Empty Comment
-proc sceAjmInstanceCodecType*()
+proc sceAjmInstanceCodecType*() {.cdecl, importc: "sceAjmInstanceCodecType",
+                                  header: "orbis/Ajm.h".}
   ##  Empty Comment
-proc sceAjmInstanceCreate*()
+proc sceAjmInstanceCreate*() {.cdecl, importc: "sceAjmInstanceCreate",
+                               header: "orbis/Ajm.h".}
   ##  Empty Comment
-proc sceAjmInstanceDestroy*()
+proc sceAjmInstanceDestroy*() {.cdecl, importc: "sceAjmInstanceDestroy",
+                                header: "orbis/Ajm.h".}
   ##  Empty Comment
-proc sceAjmInstanceExtend*()
+proc sceAjmInstanceExtend*() {.cdecl, importc: "sceAjmInstanceExtend",
+                               header: "orbis/Ajm.h".}
   ##  Empty Comment
-proc sceAjmInstanceSwitch*()
+proc sceAjmInstanceSwitch*() {.cdecl, importc: "sceAjmInstanceSwitch",
+                               header: "orbis/Ajm.h".}
   ##  Empty Comment
-proc sceAjmMemoryRegister*()
+proc sceAjmMemoryRegister*() {.cdecl, importc: "sceAjmMemoryRegister",
+                               header: "orbis/Ajm.h".}
   ##  Empty Comment
-proc sceAjmMemoryUnregister*()
+proc sceAjmMemoryUnregister*() {.cdecl, importc: "sceAjmMemoryUnregister",
+                                 header: "orbis/Ajm.h".}
   ##  Empty Comment
-proc sceAjmModuleRegister*()
+proc sceAjmModuleRegister*() {.cdecl, importc: "sceAjmModuleRegister",
+                               header: "orbis/Ajm.h".}
   ##  Empty Comment
-proc sceAjmModuleUnregister*()
+proc sceAjmModuleUnregister*() {.cdecl, importc: "sceAjmModuleUnregister",
+                                 header: "orbis/Ajm.h".}
   ##  Empty Comment
-proc sceAjmStrError*()
+proc sceAjmStrError*() {.cdecl, importc: "sceAjmStrError", header: "orbis/Ajm.h".}
   ##  Empty Comment

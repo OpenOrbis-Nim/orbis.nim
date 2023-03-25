@@ -1,34 +1,64 @@
-proc sceShareUtilityAdvanceFromFileWithContentIdList*()
+proc sceShareUtilityAdvanceFromFileWithContentIdList*() {.cdecl,
+    importc: "sceShareUtilityAdvanceFromFileWithContentIdList",
+    header: "orbis/ShareUtility.h".}
   ##  Empty Comment
-proc sceShareUtilityAdvanceFromFileWithTitleIdList*()
+proc sceShareUtilityAdvanceFromFileWithTitleIdList*() {.cdecl,
+    importc: "sceShareUtilityAdvanceFromFileWithTitleIdList",
+    header: "orbis/ShareUtility.h".}
   ##  Empty Comment
-proc sceShareUtilityAdvanceGetServiceInfo*()
+proc sceShareUtilityAdvanceGetServiceInfo*() {.cdecl,
+    importc: "sceShareUtilityAdvanceGetServiceInfo",
+    header: "orbis/ShareUtility.h".}
   ##  Empty Comment
-proc sceShareUtilityAdvanceInitialize*()
+proc sceShareUtilityAdvanceInitialize*() {.cdecl,
+    importc: "sceShareUtilityAdvanceInitialize", header: "orbis/ShareUtility.h".}
   ##  Empty Comment
-proc sceShareUtilityAdvanceSetUploadContentData*()
+proc sceShareUtilityAdvanceSetUploadContentData*() {.cdecl,
+    importc: "sceShareUtilityAdvanceSetUploadContentData",
+    header: "orbis/ShareUtility.h".}
   ##  Empty Comment
-proc sceShareUtilityAdvanceTerminate*()
+proc sceShareUtilityAdvanceTerminate*() {.cdecl,
+    importc: "sceShareUtilityAdvanceTerminate", header: "orbis/ShareUtility.h".}
   ##  Empty Comment
-proc sceShareUtilityAdvanceValidateContents*()
+proc sceShareUtilityAdvanceValidateContents*() {.cdecl,
+    importc: "sceShareUtilityAdvanceValidateContents",
+    header: "orbis/ShareUtility.h".}
   ##  Empty Comment
-proc sceShareUtilityAdvanceWakeUpShareMenu*()
+proc sceShareUtilityAdvanceWakeUpShareMenu*() {.cdecl,
+    importc: "sceShareUtilityAdvanceWakeUpShareMenu",
+    header: "orbis/ShareUtility.h".}
   ##  Empty Comment
-proc sceShareUtilityAdvanceWakeUpShareMenuBroadcast*()
+proc sceShareUtilityAdvanceWakeUpShareMenuBroadcast*() {.cdecl,
+    importc: "sceShareUtilityAdvanceWakeUpShareMenuBroadcast",
+    header: "orbis/ShareUtility.h".}
   ##  Empty Comment
-proc sceShareUtilityAdvanceWakeUpShareMenuDefault*()
+proc sceShareUtilityAdvanceWakeUpShareMenuDefault*() {.cdecl,
+    importc: "sceShareUtilityAdvanceWakeUpShareMenuDefault",
+    header: "orbis/ShareUtility.h".}
   ##  Empty Comment
-proc sceShareUtilityInitialize*()
+proc sceShareUtilityInitialize*() {.cdecl, importc: "sceShareUtilityInitialize",
+                                    header: "orbis/ShareUtility.h".}
   ##  Empty Comment
-proc sceShareUtilityInitializeEx2*()
+proc sceShareUtilityInitializeEx2*() {.cdecl,
+                                       importc: "sceShareUtilityInitializeEx2",
+                                       header: "orbis/ShareUtility.h".}
   ##  Empty Comment
-proc sceShareUtilityOpenShareMenu*()
+proc sceShareUtilityOpenShareMenu*() {.cdecl,
+                                       importc: "sceShareUtilityOpenShareMenu",
+                                       header: "orbis/ShareUtility.h".}
   ##  Empty Comment
-proc sceShareUtilityOpenShareMenuBroadcast*()
+proc sceShareUtilityOpenShareMenuBroadcast*() {.cdecl,
+    importc: "sceShareUtilityOpenShareMenuBroadcast",
+    header: "orbis/ShareUtility.h".}
   ##  Empty Comment
-proc sceShareUtilityOpenShareMenuDefault*()
+proc sceShareUtilityOpenShareMenuDefault*() {.cdecl,
+    importc: "sceShareUtilityOpenShareMenuDefault",
+    header: "orbis/ShareUtility.h".}
   ##  Empty Comment
-proc sceShareUtilityOpenShareMenuForShareContent*()
+proc sceShareUtilityOpenShareMenuForShareContent*() {.cdecl,
+    importc: "sceShareUtilityOpenShareMenuForShareContent",
+    header: "orbis/ShareUtility.h".}
   ##  Empty Comment
-proc sceShareUtilityTerminate*()
+proc sceShareUtilityTerminate*() {.cdecl, importc: "sceShareUtilityTerminate",
+                                   header: "orbis/ShareUtility.h".}
   ##  Empty Comment

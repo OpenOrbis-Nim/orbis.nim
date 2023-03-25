@@ -86,71 +86,82 @@ const
   ORBIS_SAVE_DATA_DETAIL_MAXSIZE* = 1024 ## Maximum size for save data detailed information (NULL-terminated, UTF-8)
 
 type
-  OrbisSaveDataFingerprint* {.bycopy.} = object
-    data*: array[65, char]   ## Fingerprint size
-    padding*: array[15, char]
+  OrbisSaveDataFingerprint* {.importc: "OrbisSaveDataFingerprint",
+                              header: "orbis/_types/save_data.h", bycopy.} = object
+    data* {.importc: "data".}: array[65, char] ## Fingerprint size
+    padding* {.importc: "padding".}: array[15, char]
 
-  OrbisSaveDataDirName* {.bycopy.} = object
-    data*: array[32, char]   ## Maximum size for a save data directory name
+  OrbisSaveDataDirName* {.importc: "OrbisSaveDataDirName",
+                          header: "orbis/_types/save_data.h", bycopy.} = object
+    data* {.importc: "data".}: array[32, char] ## Maximum size for a save data directory name
 
-  OrbisSaveDataTitleId* {.bycopy.} = object
-    data*: array[10, char]   ## Save data title ID size
-    padding*: array[6, char]
+  OrbisSaveDataTitleId* {.importc: "OrbisSaveDataTitleId",
+                          header: "orbis/_types/save_data.h", bycopy.} = object
+    data* {.importc: "data".}: array[10, char] ## Save data title ID size
+    padding* {.importc: "padding".}: array[6, char]
 
-  OrbisSaveDataMountPoint* {.bycopy.} = object
-    data*: array[16, char]   ## Maximum size for a mount point name
+  OrbisSaveDataMountPoint* {.importc: "OrbisSaveDataMountPoint",
+                             header: "orbis/_types/save_data.h", bycopy.} = object
+    data* {.importc: "data".}: array[16, char] ## Maximum size for a mount point name
 
-  OrbisSaveDataMountInfo* {.bycopy.} = object
-    blocks*: uint64
-    freeBlocks*: uint64
-    reserved*: array[32, uint8]
+  OrbisSaveDataMountInfo* {.importc: "OrbisSaveDataMountInfo",
+                            header: "orbis/_types/save_data.h", bycopy.} = object
+    blocks* {.importc: "blocks".}: uint64
+    freeBlocks* {.importc: "freeBlocks".}: uint64
+    reserved* {.importc: "reserved".}: array[32, uint8]
 
-  OrbisSaveDataMount* {.bycopy.} = object
-    userId*: int32
-    unknown1*: int32
-    titleId*: cstring
-    dirName*: cstring
-    fingerprint*: cstring
-    blocks*: uint64
-    mountMode*: uint32
-    reserved*: array[36, uint8]
+  OrbisSaveDataMount* {.importc: "OrbisSaveDataMount",
+                        header: "orbis/_types/save_data.h", bycopy.} = object
+    userId* {.importc: "userId".}: int32
+    unknown1* {.importc: "unknown1".}: int32
+    titleId* {.importc: "titleId".}: cstring
+    dirName* {.importc: "dirName".}: cstring
+    fingerprint* {.importc: "fingerprint".}: cstring
+    blocks* {.importc: "blocks".}: uint64
+    mountMode* {.importc: "mountMode".}: uint32
+    reserved* {.importc: "reserved".}: array[36, uint8]
 
-  OrbisSaveDataMountResult* {.bycopy.} = object
-    mountPathName*: array[16, char] ## Maximum size for a mount point name
-    requiredBlocks*: uint64
-    progress*: uint32
-    reserved*: array[32, uint8]
+  OrbisSaveDataMountResult* {.importc: "OrbisSaveDataMountResult",
+                              header: "orbis/_types/save_data.h", bycopy.} = object
+    mountPathName* {.importc: "mountPathName".}: array[16, char] ## Maximum size for a mount point name
+    requiredBlocks* {.importc: "requiredBlocks".}: uint64
+    progress* {.importc: "progress".}: uint32
+    reserved* {.importc: "reserved".}: array[32, uint8]
 
-  OrbisSaveDataDelete* {.bycopy.} = object
-    userId*: int32
-    unknown1*: int32
-    titleId*: ptr OrbisSaveDataTitleId
-    dirName*: ptr OrbisSaveDataDirName
-    unused*: uint32
-    reserved*: array[32, uint8]
-    unknown2*: int32
+  OrbisSaveDataDelete* {.importc: "OrbisSaveDataDelete",
+                         header: "orbis/_types/save_data.h", bycopy.} = object
+    userId* {.importc: "userId".}: int32
+    unknown1* {.importc: "unknown1".}: int32
+    titleId* {.importc: "titleId".}: ptr OrbisSaveDataTitleId
+    dirName* {.importc: "dirName".}: ptr OrbisSaveDataDirName
+    unused* {.importc: "unused".}: uint32
+    reserved* {.importc: "reserved".}: array[32, uint8]
+    unknown2* {.importc: "unknown2".}: int32
 
-  OrbisSaveDataParam* {.bycopy.} = object
-    title*: array[128, char] ## Maximum size for a save data title name (NULL-terminated, UTF-8)
-    subtitle*: array[128, char] ## Maximum size for a save data subtitle name (NULL-terminated, UTF-8)
-    details*: array[1024, char] ## Maximum size for save data detailed information (NULL-terminated, UTF-8)
-    userParam*: uint32
-    unknown1*: uint32
-    mtime*: time_t
-    unknown2*: array[0x20, char]
+  OrbisSaveDataParam* {.importc: "OrbisSaveDataParam",
+                        header: "orbis/_types/save_data.h", bycopy.} = object
+    title* {.importc: "title".}: array[128, char] ## Maximum size for a save data title name (NULL-terminated, UTF-8)
+    subtitle* {.importc: "subtitle".}: array[128, char] ## Maximum size for a save data subtitle name (NULL-terminated, UTF-8)
+    details* {.importc: "details".}: array[1024, char] ## Maximum size for save data detailed information (NULL-terminated, UTF-8)
+    userParam* {.importc: "userParam".}: uint32
+    unknown1* {.importc: "unknown1".}: uint32
+    mtime* {.importc: "mtime".}: time_t
+    unknown2* {.importc: "unknown2".}: array[0x20, char]
 
-  OrbisSaveDataMount2* {.bycopy.} = object
-    userId*: int32
-    unk1*: uint32
-    dirName*: ptr OrbisSaveDataDirName
-    blocks*: uint64
-    mountMode*: uint32
-    reserved*: array[32, uint8]
-    unk2*: uint32
+  OrbisSaveDataMount2* {.importc: "OrbisSaveDataMount2",
+                         header: "orbis/_types/save_data.h", bycopy.} = object
+    userId* {.importc: "userId".}: int32
+    unk1* {.importc: "unk1".}: uint32
+    dirName* {.importc: "dirName".}: ptr OrbisSaveDataDirName
+    blocks* {.importc: "blocks".}: uint64
+    mountMode* {.importc: "mountMode".}: uint32
+    reserved* {.importc: "reserved".}: array[32, uint8]
+    unk2* {.importc: "unk2".}: uint32
 
-  OrbisSaveDataIcon* {.bycopy.} = object
-    buf*: pointer
-    bufSize*: csize_t
-    dataSize*: csize_t
-    reserved*: array[32, uint8]
+  OrbisSaveDataIcon* {.importc: "OrbisSaveDataIcon",
+                       header: "orbis/_types/save_data.h", bycopy.} = object
+    buf* {.importc: "buf".}: pointer
+    bufSize* {.importc: "bufSize".}: csize_t
+    dataSize* {.importc: "dataSize".}: csize_t
+    reserved* {.importc: "reserved".}: array[32, uint8]
 

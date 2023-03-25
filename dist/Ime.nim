@@ -1,88 +1,129 @@
-proc sceImeClose*()
+proc sceImeClose*() {.cdecl, importc: "sceImeClose", header: "orbis/Ime.h".}
   ##  Empty Comment
-proc sceImeConfigGet*()
+proc sceImeConfigGet*() {.cdecl, importc: "sceImeConfigGet",
+                          header: "orbis/Ime.h".}
   ##  Empty Comment
-proc sceImeConfigSet*()
+proc sceImeConfigSet*() {.cdecl, importc: "sceImeConfigSet",
+                          header: "orbis/Ime.h".}
   ##  Empty Comment
-proc sceImeConfirmCandidate*()
+proc sceImeConfirmCandidate*() {.cdecl, importc: "sceImeConfirmCandidate",
+                                 header: "orbis/Ime.h".}
   ##  Empty Comment
-proc sceImeDicAddWord*()
+proc sceImeDicAddWord*() {.cdecl, importc: "sceImeDicAddWord",
+                           header: "orbis/Ime.h".}
   ##  Empty Comment
-proc sceImeDicDeleteLearnDics*()
+proc sceImeDicDeleteLearnDics*() {.cdecl, importc: "sceImeDicDeleteLearnDics",
+                                   header: "orbis/Ime.h".}
   ##  Empty Comment
-proc sceImeDicDeleteUserDics*()
+proc sceImeDicDeleteUserDics*() {.cdecl, importc: "sceImeDicDeleteUserDics",
+                                  header: "orbis/Ime.h".}
   ##  Empty Comment
-proc sceImeDicDeleteWord*()
+proc sceImeDicDeleteWord*() {.cdecl, importc: "sceImeDicDeleteWord",
+                              header: "orbis/Ime.h".}
   ##  Empty Comment
-proc sceImeDicGetWords*()
+proc sceImeDicGetWords*() {.cdecl, importc: "sceImeDicGetWords",
+                            header: "orbis/Ime.h".}
   ##  Empty Comment
-proc sceImeDicReplaceWord*()
+proc sceImeDicReplaceWord*() {.cdecl, importc: "sceImeDicReplaceWord",
+                               header: "orbis/Ime.h".}
   ##  Empty Comment
-proc sceImeDisableController*()
+proc sceImeDisableController*() {.cdecl, importc: "sceImeDisableController",
+                                  header: "orbis/Ime.h".}
   ##  Empty Comment
-proc sceImeGetPanelPositionAndForm*()
+proc sceImeGetPanelPositionAndForm*() {.cdecl, importc: "sceImeGetPanelPositionAndForm",
+                                        header: "orbis/Ime.h".}
   ##  Empty Comment
-proc sceImeGetPanelSize*()
+proc sceImeGetPanelSize*() {.cdecl, importc: "sceImeGetPanelSize",
+                             header: "orbis/Ime.h".}
   ##  Empty Comment
-proc sceImeKeyboardClose*()
+proc sceImeKeyboardClose*() {.cdecl, importc: "sceImeKeyboardClose",
+                              header: "orbis/Ime.h".}
   ##  Empty Comment
-proc sceImeKeyboardGetInfo*()
+proc sceImeKeyboardGetInfo*() {.cdecl, importc: "sceImeKeyboardGetInfo",
+                                header: "orbis/Ime.h".}
   ##  Empty Comment
-proc sceImeKeyboardGetResourceId*()
+proc sceImeKeyboardGetResourceId*() {.cdecl,
+                                      importc: "sceImeKeyboardGetResourceId",
+                                      header: "orbis/Ime.h".}
   ##  Empty Comment
-proc sceImeKeyboardOpen*()
+proc sceImeKeyboardOpen*() {.cdecl, importc: "sceImeKeyboardOpen",
+                             header: "orbis/Ime.h".}
   ##  Empty Comment
-proc sceImeKeyboardOpenInternal*()
+proc sceImeKeyboardOpenInternal*() {.cdecl,
+                                     importc: "sceImeKeyboardOpenInternal",
+                                     header: "orbis/Ime.h".}
   ##  Empty Comment
-proc sceImeKeyboardSetMode*()
+proc sceImeKeyboardSetMode*() {.cdecl, importc: "sceImeKeyboardSetMode",
+                                header: "orbis/Ime.h".}
   ##  Empty Comment
-proc sceImeKeyboardUpdate*()
+proc sceImeKeyboardUpdate*() {.cdecl, importc: "sceImeKeyboardUpdate",
+                               header: "orbis/Ime.h".}
   ##  Empty Comment
-proc sceImeOpen*()
+proc sceImeOpen*() {.cdecl, importc: "sceImeOpen", header: "orbis/Ime.h".}
   ##  Empty Comment
-proc sceImeOpenInternal*()
+proc sceImeOpenInternal*() {.cdecl, importc: "sceImeOpenInternal",
+                             header: "orbis/Ime.h".}
   ##  Empty Comment
-proc sceImeParamInit*()
+proc sceImeParamInit*() {.cdecl, importc: "sceImeParamInit",
+                          header: "orbis/Ime.h".}
   ##  Empty Comment
-proc sceImeSetCandidateIndex*()
+proc sceImeSetCandidateIndex*() {.cdecl, importc: "sceImeSetCandidateIndex",
+                                  header: "orbis/Ime.h".}
   ##  Empty Comment
-proc sceImeSetCaret*()
+proc sceImeSetCaret*() {.cdecl, importc: "sceImeSetCaret", header: "orbis/Ime.h".}
   ##  Empty Comment
-proc sceImeSetText*()
+proc sceImeSetText*() {.cdecl, importc: "sceImeSetText", header: "orbis/Ime.h".}
   ##  Empty Comment
-proc sceImeSetTextGeometry*()
+proc sceImeSetTextGeometry*() {.cdecl, importc: "sceImeSetTextGeometry",
+                                header: "orbis/Ime.h".}
   ##  Empty Comment
-proc sceImeUpdate*()
+proc sceImeUpdate*() {.cdecl, importc: "sceImeUpdate", header: "orbis/Ime.h".}
   ##  Empty Comment
-proc sceImeVshClearPreedit*()
+proc sceImeVshClearPreedit*() {.cdecl, importc: "sceImeVshClearPreedit",
+                                header: "orbis/Ime.h".}
   ##  Empty Comment
-proc sceImeVshClose*()
+proc sceImeVshClose*() {.cdecl, importc: "sceImeVshClose", header: "orbis/Ime.h".}
   ##  Empty Comment
-proc sceImeVshConfirmPreedit*()
+proc sceImeVshConfirmPreedit*() {.cdecl, importc: "sceImeVshConfirmPreedit",
+                                  header: "orbis/Ime.h".}
   ##  Empty Comment
-proc sceImeVshGetPanelPositionAndForm*()
+proc sceImeVshGetPanelPositionAndForm*() {.cdecl,
+    importc: "sceImeVshGetPanelPositionAndForm", header: "orbis/Ime.h".}
   ##  Empty Comment
-proc sceImeVshInformConfirmdString*()
+proc sceImeVshInformConfirmdString*() {.cdecl, importc: "sceImeVshInformConfirmdString",
+                                        header: "orbis/Ime.h".}
   ##  Empty Comment
-proc sceImeVshOpen*()
+proc sceImeVshOpen*() {.cdecl, importc: "sceImeVshOpen", header: "orbis/Ime.h".}
   ##  Empty Comment
-proc sceImeVshSetCaretGeometry*()
+proc sceImeVshSetCaretGeometry*() {.cdecl, importc: "sceImeVshSetCaretGeometry",
+                                    header: "orbis/Ime.h".}
   ##  Empty Comment
-proc sceImeVshSetCaretIndexInPreedit*()
+proc sceImeVshSetCaretIndexInPreedit*() {.cdecl,
+    importc: "sceImeVshSetCaretIndexInPreedit", header: "orbis/Ime.h".}
   ##  Empty Comment
-proc sceImeVshSetPanelPosition*()
+proc sceImeVshSetPanelPosition*() {.cdecl, importc: "sceImeVshSetPanelPosition",
+                                    header: "orbis/Ime.h".}
   ##  Empty Comment
-proc sceImeVshSetParam*()
+proc sceImeVshSetParam*() {.cdecl, importc: "sceImeVshSetParam",
+                            header: "orbis/Ime.h".}
   ##  Empty Comment
-proc sceImeVshSetPreeditGeometry*()
+proc sceImeVshSetPreeditGeometry*() {.cdecl,
+                                      importc: "sceImeVshSetPreeditGeometry",
+                                      header: "orbis/Ime.h".}
   ##  Empty Comment
-proc sceImeVshSetSelectGeometry*()
+proc sceImeVshSetSelectGeometry*() {.cdecl,
+                                     importc: "sceImeVshSetSelectGeometry",
+                                     header: "orbis/Ime.h".}
   ##  Empty Comment
-proc sceImeVshSetSelectionText*()
+proc sceImeVshSetSelectionText*() {.cdecl, importc: "sceImeVshSetSelectionText",
+                                    header: "orbis/Ime.h".}
   ##  Empty Comment
-proc sceImeVshUpdate*()
+proc sceImeVshUpdate*() {.cdecl, importc: "sceImeVshUpdate",
+                          header: "orbis/Ime.h".}
   ##  Empty Comment
-proc sceImeVshUpdateContext*()
+proc sceImeVshUpdateContext*() {.cdecl, importc: "sceImeVshUpdateContext",
+                                 header: "orbis/Ime.h".}
   ##  Empty Comment
-proc sceImeVshUpdateContext2*()
+proc sceImeVshUpdateContext2*() {.cdecl, importc: "sceImeVshUpdateContext2",
+                                  header: "orbis/Ime.h".}
   ##  Empty Comment

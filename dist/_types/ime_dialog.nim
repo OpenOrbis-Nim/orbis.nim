@@ -1,22 +1,22 @@
 type
-  OrbisDialogResultStatus* = enum
+  OrbisDialogResultStatus* {.size: sizeof(cint).} = enum
     ORBIS_DIALOG_OK = 0, ORBIS_DIALOG_CANCEL = 1, ORBIS_DIALOG_ABORD = 2
-  OrbisVAlignment* = enum
+  OrbisVAlignment* {.size: sizeof(cint).} = enum
     ORBIS_V_TOP = 0, ORBIS_V_CENTER = 1, ORBIS_V_VALIGN_BOTTOM = 2
-  OrbisHAlignment* = enum
+  OrbisHAlignment* {.size: sizeof(cint).} = enum
     ORBIS_H_LEFT = 0, ORBIS_H_CENTER = 1, ORBIS_H_RIGHT = 2
-  OrbisInput* = enum
+  OrbisInput* {.size: sizeof(cint).} = enum
     ORBIS__DEFAULT = 0
-  OrbisImeType* = enum
+  OrbisImeType* {.size: sizeof(cint).} = enum
     ORBIS_TYPE_DEFAULT = 0, ORBIS_TYPE_BASIC_LATIN = 1, ORBIS_TYPE_TYPE_URL = 2,
     ORBIS_TYPE_MAIL = 3, ORBIS_TYPE_NUMBER = 4
-  OrbisButtonLabel* = enum
+  OrbisButtonLabel* {.size: sizeof(cint).} = enum
     ORBIS_BUTTON_LABEL_DEFAULT = 0, ORBIS_BUTTON_LABEL_SEND = 1,
     ORBIS_BUTTON_LABEL_SEARCH = 2, ORBIS_BUTTON_LABEL_GO = 3
-  OrbisDialogStatus* = enum
+  OrbisDialogStatus* {.size: sizeof(cint).} = enum
     ORBIS_DIALOG_STATUS_NONE = 0, ORBIS_DIALOG_STATUS_RUNNING = 1,
     ORBIS_DIALOG_STATUS_STOPPED = 2
-  OrbisImeKeyboardType* = enum
+  OrbisImeKeyboardType* {.size: sizeof(cint).} = enum
     ORBIS_IME_KEYBOARD_TYPE_NONE = 0, ORBIS_IME_KEYBOARD_TYPE_DANISH = 1,
     ORBIS_IME_KEYBOARD_TYPE_GERMAN = 2, ORBIS_IME_KEYBOARD_TYPE_GERMAN_SW = 3,
     ORBIS_IME_KEYBOARD_TYPE_ENGLISH_US = 4,
@@ -40,86 +40,94 @@ type
     ORBIS_IME_KEYBOARD_TYPE_TR_CHINESE_PY_TW = 28,
     ORBIS_IME_KEYBOARD_TYPE_TR_CHINESE_CG = 29,
     ORBIS_IME_KEYBOARD_TYPE_ARABIC_AR = 30
-  OrbisImePanelPriority* = enum
+  OrbisImePanelPriority* {.size: sizeof(cint).} = enum
     ORBIS_IME_PANEL_PRIORITY_DEFAULT = 0, ORBIS_IME_PANEL_PRIORITY_ALPHABET = 1,
     ORBIS_IME_PANEL_PRIORITY_SYMBOL = 2, ORBIS_IME_PANEL_PRIORITY_ACCENT = 3
-  OrbisImeKeycode* {.bycopy.} = object
-    keycode*: uint16
-    character*: wchar_t
-    status*: uint32
-    `type`*: OrbisImeKeyboardType
-    userId*: int32
-    resourceId*: uint32
-    timestamp*: OrbisRtcTick
+  OrbisImeKeycode* {.importc: "OrbisImeKeycode",
+                     header: "orbis/_types/ime_dialog.h", bycopy.} = object
+    keycode* {.importc: "keycode".}: uint16
+    character* {.importc: "character".}: wchar_t
+    status* {.importc: "status".}: uint32
+    `type`* {.importc: "type".}: OrbisImeKeyboardType
+    userId* {.importc: "userId".}: int32
+    resourceId* {.importc: "resourceId".}: uint32
+    timestamp* {.importc: "timestamp".}: OrbisRtcTick
 
-  OrbisImeColor* {.bycopy.} = object
-    r*: uint8
-    g*: uint8
-    b*: uint8
-    a*: uint8
+  OrbisImeColor* {.importc: "OrbisImeColor",
+                   header: "orbis/_types/ime_dialog.h", bycopy.} = object
+    r* {.importc: "r".}: uint8
+    g* {.importc: "g".}: uint8
+    b* {.importc: "b".}: uint8
+    a* {.importc: "a".}: uint8
 
   OrbisTextFilter* = proc (outText: ptr wchar_t; outTextLength: ptr uint32;
-                           srcText: ptr wchar_t; srcTextLength: uint32): cint
+                           srcText: ptr wchar_t; srcTextLength: uint32): cint {.
+      cdecl.}
   OrbisImeExtendedKeyboardFilter* = proc (srcKeycode: ptr OrbisImeKeycode;
-      outKeycode: ptr uint16; outStatus: ptr uint32; reserved: pointer): cint
-  OrbisDialogResult* {.bycopy.} = object
-    endstatus*: OrbisDialogResultStatus
-    reserved*: array[12, int8]
+      outKeycode: ptr uint16; outStatus: ptr uint32; reserved: pointer): cint {.
+      cdecl.}
+  OrbisDialogResult* {.importc: "OrbisDialogResult",
+                       header: "orbis/_types/ime_dialog.h", bycopy.} = object
+    endstatus* {.importc: "endstatus".}: OrbisDialogResultStatus
+    reserved* {.importc: "reserved".}: array[12, int8]
 
-  OrbisImeSetting* {.bycopy.} = object
-    userId*: int32
-    `type`*: OrbisImeType
-    supportedLanguages*: uint64
-    enterLabel*: OrbisButtonLabel
-    inputMethod*: OrbisInput
-    filter*: OrbisTextFilter
-    option*: uint32
-    maxTextLength*: uint32
-    inputTextBuffer*: ptr wchar_t
-    posx*: cfloat
-    posy*: cfloat
-    horizontalAlignment*: OrbisHAlignment
-    verticalAlignment*: OrbisVAlignment
-    work*: pointer
-    arg*: pointer
-    eventfunc*: pointer
-    reserved*: array[8, int8]
+  OrbisImeSetting* {.importc: "OrbisImeSetting",
+                     header: "orbis/_types/ime_dialog.h", bycopy.} = object
+    userId* {.importc: "userId".}: int32
+    `type`* {.importc: "type".}: OrbisImeType
+    supportedLanguages* {.importc: "supportedLanguages".}: uint64
+    enterLabel* {.importc: "enterLabel".}: OrbisButtonLabel
+    inputMethod* {.importc: "inputMethod".}: OrbisInput
+    filter* {.importc: "filter".}: OrbisTextFilter
+    option* {.importc: "option".}: uint32
+    maxTextLength* {.importc: "maxTextLength".}: uint32
+    inputTextBuffer* {.importc: "inputTextBuffer".}: ptr wchar_t
+    posx* {.importc: "posx".}: cfloat
+    posy* {.importc: "posy".}: cfloat
+    horizontalAlignment* {.importc: "horizontalAlignment".}: OrbisHAlignment
+    verticalAlignment* {.importc: "verticalAlignment".}: OrbisVAlignment
+    work* {.importc: "work".}: pointer
+    arg* {.importc: "arg".}: pointer
+    eventfunc* {.importc: "eventfunc".}: pointer
+    reserved* {.importc: "reserved".}: array[8, int8]
 
-  OrbisImeSettingsExtended* {.bycopy.} = object
-    option*: uint32
-    colorBase*: OrbisImeColor
-    colorLine*: OrbisImeColor
-    colorTextField*: OrbisImeColor
-    colorPreedit*: OrbisImeColor
-    colorButtonDefault*: OrbisImeColor
-    colorButtonFunction*: OrbisImeColor
-    colorButtonSymbol*: OrbisImeColor
-    colorText*: OrbisImeColor
-    colorSpecial*: OrbisImeColor
-    priority*: OrbisImePanelPriority
-    additionalDictionaryPath*: cstring
-    extKeyboardFilter*: OrbisImeExtendedKeyboardFilter
-    disableDevice*: uint32
-    extKeyboardMode*: uint32
-    reserved*: array[60, int8]
+  OrbisImeSettingsExtended* {.importc: "OrbisImeSettingsExtended",
+                              header: "orbis/_types/ime_dialog.h", bycopy.} = object
+    option* {.importc: "option".}: uint32
+    colorBase* {.importc: "colorBase".}: OrbisImeColor
+    colorLine* {.importc: "colorLine".}: OrbisImeColor
+    colorTextField* {.importc: "colorTextField".}: OrbisImeColor
+    colorPreedit* {.importc: "colorPreedit".}: OrbisImeColor
+    colorButtonDefault* {.importc: "colorButtonDefault".}: OrbisImeColor
+    colorButtonFunction* {.importc: "colorButtonFunction".}: OrbisImeColor
+    colorButtonSymbol* {.importc: "colorButtonSymbol".}: OrbisImeColor
+    colorText* {.importc: "colorText".}: OrbisImeColor
+    colorSpecial* {.importc: "colorSpecial".}: OrbisImeColor
+    priority* {.importc: "priority".}: OrbisImePanelPriority
+    additionalDictionaryPath* {.importc: "additionalDictionaryPath".}: cstring
+    extKeyboardFilter* {.importc: "extKeyboardFilter".}: OrbisImeExtendedKeyboardFilter
+    disableDevice* {.importc: "disableDevice".}: uint32
+    extKeyboardMode* {.importc: "extKeyboardMode".}: uint32
+    reserved* {.importc: "reserved".}: array[60, int8]
 
-  OrbisImeDialogSetting* {.bycopy.} = object
-    userId*: uint32
-    `type`*: OrbisImeType
-    supportedLanguages*: uint64
-    enterLabel*: OrbisButtonLabel
-    inputMethod*: OrbisInput
-    filter*: OrbisTextFilter
-    option*: uint32
-    maxTextLength*: uint32
-    inputTextBuffer*: ptr wchar_t
-    posx*: cfloat
-    posy*: cfloat
-    horizontalAlignment*: OrbisHAlignment
-    verticalAlignment*: OrbisVAlignment
-    placeholder*: ptr wchar_t
-    title*: ptr wchar_t
-    reserved*: array[16, int8]
+  OrbisImeDialogSetting* {.importc: "OrbisImeDialogSetting",
+                           header: "orbis/_types/ime_dialog.h", bycopy.} = object
+    userId* {.importc: "userId".}: uint32
+    `type`* {.importc: "type".}: OrbisImeType
+    supportedLanguages* {.importc: "supportedLanguages".}: uint64
+    enterLabel* {.importc: "enterLabel".}: OrbisButtonLabel
+    inputMethod* {.importc: "inputMethod".}: OrbisInput
+    filter* {.importc: "filter".}: OrbisTextFilter
+    option* {.importc: "option".}: uint32
+    maxTextLength* {.importc: "maxTextLength".}: uint32
+    inputTextBuffer* {.importc: "inputTextBuffer".}: ptr wchar_t
+    posx* {.importc: "posx".}: cfloat
+    posy* {.importc: "posy".}: cfloat
+    horizontalAlignment* {.importc: "horizontalAlignment".}: OrbisHAlignment
+    verticalAlignment* {.importc: "verticalAlignment".}: OrbisVAlignment
+    placeholder* {.importc: "placeholder".}: ptr wchar_t
+    title* {.importc: "title".}: ptr wchar_t
+    reserved* {.importc: "reserved".}: array[16, int8]
 
 
 

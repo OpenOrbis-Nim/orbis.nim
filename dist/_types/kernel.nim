@@ -44,28 +44,32 @@ const
   ORBIS_KERNEL_PROT_GPU_ALL* = ORBIS_KERNEL_PROT_GPU_RW
 
 type
-  kevent* {.bycopy.} = object
-    ident*: uintptr_t        ##  identifier for this event
-    filter*: cshort          ##  filter for event
-    flags*: uint16
-    fflags*: uint32
-    data*: intptr_t
-    udata*: pointer          ##  opaque user data identifier
+  kevent* {.importc: "kevent", header: "orbis/_types/kernel.h", bycopy.} = object
+    ident* {.importc: "ident".}: uintptr_t ##  identifier for this event
+    filter* {.importc: "filter".}: cshort ##  filter for event
+    flags* {.importc: "flags".}: uint16
+    fflags* {.importc: "fflags".}: uint32
+    data* {.importc: "data".}: intptr_t
+    udata* {.importc: "udata".}: pointer ##  opaque user data identifier
 
-  OrbisKernelModuleSegmentInfo* {.bycopy.} = object
-    address*: pointer
-    size*: uint32
-    prot*: int32
+  OrbisKernelModuleSegmentInfo* {.importc: "OrbisKernelModuleSegmentInfo",
+                                  header: "orbis/_types/kernel.h", bycopy.} = object
+    address* {.importc: "address".}: pointer
+    size* {.importc: "size".}: uint32
+    prot* {.importc: "prot".}: int32
 
-  OrbisKernelModuleInfo* {.bycopy.} = object
-    size*: csize_t
-    name*: array[256, char]
-    segmentInfo*: array[4, OrbisKernelModuleSegmentInfo]
-    segmentCount*: uint32
-    fingerprint*: array[20, uint8]
+  OrbisKernelModuleInfo* {.importc: "OrbisKernelModuleInfo",
+                           header: "orbis/_types/kernel.h", bycopy.} = object
+    size* {.importc: "size".}: csize_t
+    name* {.importc: "name".}: array[256, char]
+    segmentInfo* {.importc: "segmentInfo".}: array[4,
+        OrbisKernelModuleSegmentInfo]
+    segmentCount* {.importc: "segmentCount".}: uint32
+    fingerprint* {.importc: "fingerprint".}: array[20, uint8]
 
-  OrbisKernelEventFlagOptParam* {.bycopy.} = object
-    sz*: csize_t
+  OrbisKernelEventFlagOptParam* {.importc: "OrbisKernelEventFlagOptParam",
+                                  header: "orbis/_types/kernel.h", bycopy.} = object
+    sz* {.importc: "sz".}: csize_t
 
   OrbisKernelTimeval* = timeval
   OrbisKernelUseconds* = cuint
@@ -73,47 +77,52 @@ type
   OrbisKernelEqueue* = uint64
   OrbisKernelEvent* = kevent
   OrbisKernelEventFlag* = ptr _OrbisKernelEventFlag
-  OrbisKernelSemaOptParam* {.bycopy.} = object
-    sz*: csize_t
+  OrbisKernelSemaOptParam* {.importc: "OrbisKernelSemaOptParam",
+                             header: "orbis/_types/kernel.h", bycopy.} = object
+    sz* {.importc: "sz".}: csize_t
 
   OrbisKernelSema* = ptr _OrbisKernelSema
-  OrbisKernelUuid* {.bycopy.} = object
-    unk01*: uint32
-    unk02*: uint16
-    unk03*: uint16
-    unk04*: uint8
-    unk05*: uint8
-    unk06*: array[6, uint8]
+  OrbisKernelUuid* {.importc: "OrbisKernelUuid",
+                     header: "orbis/_types/kernel.h", bycopy.} = object
+    unk01* {.importc: "unk01".}: uint32
+    unk02* {.importc: "unk02".}: uint16
+    unk03* {.importc: "unk03".}: uint16
+    unk04* {.importc: "unk04".}: uint8
+    unk05* {.importc: "unk05".}: uint8
+    unk06* {.importc: "unk06".}: array[6, uint8]
 
   OrbisKernelMode* = mode_t
   OrbisKernelStat* = stat
   OrbisKernelTimespec* = timespec
-  OrbisKernelIovec* {.bycopy.} = object
-    base*: pointer
-    len*: csize_t
+  OrbisKernelIovec* {.importc: "OrbisKernelIovec",
+                      header: "orbis/_types/kernel.h", bycopy.} = object
+    base* {.importc: "base".}: pointer
+    len* {.importc: "len".}: csize_t
 
-  OrbisKernelVirtualQueryInfo* {.bycopy.} = object
-    unk01*: pointer
-    unk02*: pointer
-    offset*: off_t
-    unk04*: cint
-    unk05*: cint
-    isFlexibleMemory* {.bitsize: 1.}: cuint
-    isDirectMemory* {.bitsize: 1.}: cuint
-    isStack* {.bitsize: 1.}: cuint
-    isPooledMemory* {.bitsize: 1.}: cuint
-    isCommitted* {.bitsize: 1.}: cuint
-    name*: array[32, char]
+  OrbisKernelVirtualQueryInfo* {.importc: "OrbisKernelVirtualQueryInfo",
+                                 header: "orbis/_types/kernel.h", bycopy.} = object
+    unk01* {.importc: "unk01".}: pointer
+    unk02* {.importc: "unk02".}: pointer
+    offset* {.importc: "offset".}: off_t
+    unk04* {.importc: "unk04".}: cint
+    unk05* {.importc: "unk05".}: cint
+    isFlexibleMemory* {.importc: "isFlexibleMemory", bitsize: 1.}: cuint
+    isDirectMemory* {.importc: "isDirectMemory", bitsize: 1.}: cuint
+    isStack* {.importc: "isStack", bitsize: 1.}: cuint
+    isPooledMemory* {.importc: "isPooledMemory", bitsize: 1.}: cuint
+    isCommitted* {.importc: "isCommitted", bitsize: 1.}: cuint
+    name* {.importc: "name".}: array[32, char]
 
-  OrbisKernelSwVersion* {.bycopy.} = object
-    Size*: csize_t           ##  0x0
-    VersionString*: array[0x1C, char] ##  0xe.g. 0x06720001
-    Version*: uint32
+  OrbisKernelSwVersion* {.importc: "OrbisKernelSwVersion",
+                          header: "orbis/_types/kernel.h", bycopy.} = object
+    Size* {.importc: "Size".}: csize_t ##  0x0
+    VersionString* {.importc: "VersionString".}: array[0x1C, char] ##  0xe.g. 0x06720001
+    Version* {.importc: "Version".}: uint32
 
 
 type
-  OrbisNotificationRequestType* = enum ##  size = 0x28
-                                        ##  Enum Credits - OSM-Made
+  OrbisNotificationRequestType* {.size: sizeof(cint).} = enum ##  size = 0x28
+                                                               ##  Enum Credits - OSM-Made
     NotificationRequest = 0, SystemNotification = 1,
     SystemNotificationWithUserId = 2, SystemNotificationWithDeviceId = 3,
     SystemNotificationWithDeviceIdRelatedToUser = 4,
@@ -134,28 +143,30 @@ const
   UNK_2 = NpDebugNotificationRequest
 
 type
-  OrbisNotificationRequest* {.bycopy.} = object ##  Struct Credits - OSM-Made
-    `type`*: OrbisNotificationRequestType
-    reqId*: cint
-    priority*: cint
-    msgId*: cint
-    targetId*: cint
-    userId*: cint
-    unk1*: cint
-    unk2*: cint
-    appId*: cint
-    errorNum*: cint
-    unk3*: cint
-    useIconImageUri*: cuchar
-    message*: array[1024, char]
-    iconUri*: array[1024, char]
-    unk*: array[1024, char]
+  OrbisNotificationRequest* {.importc: "OrbisNotificationRequest",
+                              header: "orbis/_types/kernel.h", bycopy.} = object ##  Struct Credits - OSM-Made
+    `type`* {.importc: "type".}: OrbisNotificationRequestType
+    reqId* {.importc: "reqId".}: cint
+    priority* {.importc: "priority".}: cint
+    msgId* {.importc: "msgId".}: cint
+    targetId* {.importc: "targetId".}: cint
+    userId* {.importc: "userId".}: cint
+    unk1* {.importc: "unk1".}: cint
+    unk2* {.importc: "unk2".}: cint
+    appId* {.importc: "appId".}: cint
+    errorNum* {.importc: "errorNum".}: cint
+    unk3* {.importc: "unk3".}: cint
+    useIconImageUri* {.importc: "useIconImageUri".}: cuchar
+    message* {.importc: "message".}: array[1024, char]
+    iconUri* {.importc: "iconUri".}: array[1024, char]
+    unk* {.importc: "unk".}: array[1024, char]
 
-  OrbisAppInfo* {.bycopy.} = object
-    AppId*: cint
-    Unk*: cint
-    unk0x8*: array[0x4, char]
-    AppType*: cint
-    TitleId*: array[10, char]
-    unk0x1A*: array[0x2E, char]
+  OrbisAppInfo* {.importc: "OrbisAppInfo", header: "orbis/_types/kernel.h",
+                  bycopy.} = object
+    AppId* {.importc: "AppId".}: cint
+    Unk* {.importc: "Unk".}: cint
+    unk0x8* {.importc: "unk0x8".}: array[0x4, char]
+    AppType* {.importc: "AppType".}: cint
+    TitleId* {.importc: "TitleId".}: array[10, char]
+    unk0x1A* {.importc: "unk0x1A".}: array[0x2E, char]
 

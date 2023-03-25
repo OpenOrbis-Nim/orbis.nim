@@ -1,16 +1,27 @@
-proc sceSharePlayGetCurrentConnectionInfo*()
+proc sceSharePlayGetCurrentConnectionInfo*() {.cdecl,
+    importc: "sceSharePlayGetCurrentConnectionInfo", header: "orbis/SharePlay.h".}
   ##  Empty Comment
-proc sceSharePlayGetCurrentConnectionInfoA*()
+proc sceSharePlayGetCurrentConnectionInfoA*() {.cdecl,
+    importc: "sceSharePlayGetCurrentConnectionInfoA",
+    header: "orbis/SharePlay.h".}
   ##  Empty Comment
-proc sceSharePlayGetEvent*()
+proc sceSharePlayGetEvent*() {.cdecl, importc: "sceSharePlayGetEvent",
+                               header: "orbis/SharePlay.h".}
   ##  Empty Comment
-proc sceSharePlayInitialize*()
+proc sceSharePlayInitialize*() {.cdecl, importc: "sceSharePlayInitialize",
+                                 header: "orbis/SharePlay.h".}
   ##  Empty Comment
-proc sceSharePlaySetProhibition*()
+proc sceSharePlaySetProhibition*() {.cdecl,
+                                     importc: "sceSharePlaySetProhibition",
+                                     header: "orbis/SharePlay.h".}
   ##  Empty Comment
-proc sceSharePlayStartStreaming*()
+proc sceSharePlayStartStreaming*() {.cdecl,
+                                     importc: "sceSharePlayStartStreaming",
+                                     header: "orbis/SharePlay.h".}
   ##  Empty Comment
-proc sceSharePlayStopStandby*()
+proc sceSharePlayStopStandby*() {.cdecl, importc: "sceSharePlayStopStandby",
+                                  header: "orbis/SharePlay.h".}
   ##  Empty Comment
-proc sceSharePlayTerminate*()
+proc sceSharePlayTerminate*() {.cdecl, importc: "sceSharePlayTerminate",
+                                header: "orbis/SharePlay.h".}
   ##  Empty Comment

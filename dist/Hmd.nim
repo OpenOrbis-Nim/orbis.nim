@@ -1,136 +1,212 @@
-proc sceHmdClose*()
+proc sceHmdClose*() {.cdecl, importc: "sceHmdClose", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdGet2DEyeOffset*()
+proc sceHmdGet2DEyeOffset*() {.cdecl, importc: "sceHmdGet2DEyeOffset",
+                               header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdGetDeviceInformation*()
+proc sceHmdGetDeviceInformation*() {.cdecl,
+                                     importc: "sceHmdGetDeviceInformation",
+                                     header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdGetDeviceInformationByHandle*()
+proc sceHmdGetDeviceInformationByHandle*() {.cdecl,
+    importc: "sceHmdGetDeviceInformationByHandle", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdGetFieldOfView*()
+proc sceHmdGetFieldOfView*() {.cdecl, importc: "sceHmdGetFieldOfView",
+                               header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdInitialize*()
+proc sceHmdInitialize*() {.cdecl, importc: "sceHmdInitialize",
+                           header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdInternal3dAudioOpen*()
+proc sceHmdInternal3dAudioOpen*() {.cdecl, importc: "sceHmdInternal3dAudioOpen",
+                                    header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdInternalAnotherScreenClose*()
+proc sceHmdInternalAnotherScreenClose*() {.cdecl,
+    importc: "sceHmdInternalAnotherScreenClose", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdInternalAnotherScreenGetAudioStatus*()
+proc sceHmdInternalAnotherScreenGetAudioStatus*() {.cdecl,
+    importc: "sceHmdInternalAnotherScreenGetAudioStatus", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdInternalAnotherScreenGetFadeState*()
+proc sceHmdInternalAnotherScreenGetFadeState*() {.cdecl,
+    importc: "sceHmdInternalAnotherScreenGetFadeState", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdInternalAnotherScreenGetVideoStatus*()
+proc sceHmdInternalAnotherScreenGetVideoStatus*() {.cdecl,
+    importc: "sceHmdInternalAnotherScreenGetVideoStatus", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdInternalAnotherScreenOpen*()
+proc sceHmdInternalAnotherScreenOpen*() {.cdecl,
+    importc: "sceHmdInternalAnotherScreenOpen", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdInternalAnotherScreenSendAudio*()
+proc sceHmdInternalAnotherScreenSendAudio*() {.cdecl,
+    importc: "sceHmdInternalAnotherScreenSendAudio", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdInternalAnotherScreenSendVideo*()
+proc sceHmdInternalAnotherScreenSendVideo*() {.cdecl,
+    importc: "sceHmdInternalAnotherScreenSendVideo", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdInternalAnotherScreenSetFadeAndSwitch*()
+proc sceHmdInternalAnotherScreenSetFadeAndSwitch*() {.cdecl,
+    importc: "sceHmdInternalAnotherScreenSetFadeAndSwitch",
+    header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdInternalBindDeviceWithUserId*()
+proc sceHmdInternalBindDeviceWithUserId*() {.cdecl,
+    importc: "sceHmdInternalBindDeviceWithUserId", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdInternalDfuCheckAfterPvt*()
+proc sceHmdInternalDfuCheckAfterPvt*() {.cdecl,
+    importc: "sceHmdInternalDfuCheckAfterPvt", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdInternalDfuCheckPartialUpdateAvailable*()
+proc sceHmdInternalDfuCheckPartialUpdateAvailable*() {.cdecl,
+    importc: "sceHmdInternalDfuCheckPartialUpdateAvailable",
+    header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdInternalDfuGetStatus*()
+proc sceHmdInternalDfuGetStatus*() {.cdecl,
+                                     importc: "sceHmdInternalDfuGetStatus",
+                                     header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdInternalDfuOpen*()
+proc sceHmdInternalDfuOpen*() {.cdecl, importc: "sceHmdInternalDfuOpen",
+                                header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdInternalDfuSetMode*()
+proc sceHmdInternalDfuSetMode*() {.cdecl, importc: "sceHmdInternalDfuSetMode",
+                                   header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdInternalGetHmuSerialNumber*()
+proc sceHmdInternalGetHmuSerialNumber*() {.cdecl,
+    importc: "sceHmdInternalGetHmuSerialNumber", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdInternalGetPUSerialNumber*()
+proc sceHmdInternalGetPUSerialNumber*() {.cdecl,
+    importc: "sceHmdInternalGetPUSerialNumber", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdInternalGetPUVersion*()
+proc sceHmdInternalGetPUVersion*() {.cdecl,
+                                     importc: "sceHmdInternalGetPUVersion",
+                                     header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdInternalGetStatusReport*()
+proc sceHmdInternalGetStatusReport*() {.cdecl, importc: "sceHmdInternalGetStatusReport",
+                                        header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdInternalMirroringModeSetAspect*()
+proc sceHmdInternalMirroringModeSetAspect*() {.cdecl,
+    importc: "sceHmdInternalMirroringModeSetAspect", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdInternalSeparateModeClose*()
+proc sceHmdInternalSeparateModeClose*() {.cdecl,
+    importc: "sceHmdInternalSeparateModeClose", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdInternalSeparateModeGetAudioStatus*()
+proc sceHmdInternalSeparateModeGetAudioStatus*() {.cdecl,
+    importc: "sceHmdInternalSeparateModeGetAudioStatus", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdInternalSeparateModeGetVideoStatus*()
+proc sceHmdInternalSeparateModeGetVideoStatus*() {.cdecl,
+    importc: "sceHmdInternalSeparateModeGetVideoStatus", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdInternalSeparateModeOpen*()
+proc sceHmdInternalSeparateModeOpen*() {.cdecl,
+    importc: "sceHmdInternalSeparateModeOpen", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdInternalSeparateModeSendAudio*()
+proc sceHmdInternalSeparateModeSendAudio*() {.cdecl,
+    importc: "sceHmdInternalSeparateModeSendAudio", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdInternalSeparateModeSendVideo*()
+proc sceHmdInternalSeparateModeSendVideo*() {.cdecl,
+    importc: "sceHmdInternalSeparateModeSendVideo", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdInternalSetBrightness*()
+proc sceHmdInternalSetBrightness*() {.cdecl,
+                                      importc: "sceHmdInternalSetBrightness",
+                                      header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdInternalSetDeviceConnection*()
+proc sceHmdInternalSetDeviceConnection*() {.cdecl,
+    importc: "sceHmdInternalSetDeviceConnection", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdInternalSetHmuPowerControl*()
+proc sceHmdInternalSetHmuPowerControl*() {.cdecl,
+    importc: "sceHmdInternalSetHmuPowerControl", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdInternalSetIPD*()
+proc sceHmdInternalSetIPD*() {.cdecl, importc: "sceHmdInternalSetIPD",
+                               header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdInternalSetPortConnection*()
+proc sceHmdInternalSetPortConnection*() {.cdecl,
+    importc: "sceHmdInternalSetPortConnection", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdInternalSetPortStatus*()
+proc sceHmdInternalSetPortStatus*() {.cdecl,
+                                      importc: "sceHmdInternalSetPortStatus",
+                                      header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdInternalSocialScreenGetFadeState*()
+proc sceHmdInternalSocialScreenGetFadeState*() {.cdecl,
+    importc: "sceHmdInternalSocialScreenGetFadeState", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdInternalSocialScreenSetFadeAndSwitch*()
+proc sceHmdInternalSocialScreenSetFadeAndSwitch*() {.cdecl,
+    importc: "sceHmdInternalSocialScreenSetFadeAndSwitch", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdInternalSocialScreenSetOutput*()
+proc sceHmdInternalSocialScreenSetOutput*() {.cdecl,
+    importc: "sceHmdInternalSocialScreenSetOutput", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdOpen*()
+proc sceHmdOpen*() {.cdecl, importc: "sceHmdOpen", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdReprojectionAddDisplayBuffer*()
+proc sceHmdReprojectionAddDisplayBuffer*() {.cdecl,
+    importc: "sceHmdReprojectionAddDisplayBuffer", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdReprojectionClearUserEventEnd*()
+proc sceHmdReprojectionClearUserEventEnd*() {.cdecl,
+    importc: "sceHmdReprojectionClearUserEventEnd", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdReprojectionClearUserEventStart*()
+proc sceHmdReprojectionClearUserEventStart*() {.cdecl,
+    importc: "sceHmdReprojectionClearUserEventStart", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdReprojectionDebugGetLastInfo*()
+proc sceHmdReprojectionDebugGetLastInfo*() {.cdecl,
+    importc: "sceHmdReprojectionDebugGetLastInfo", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdReprojectionFinalize*()
+proc sceHmdReprojectionFinalize*() {.cdecl,
+                                     importc: "sceHmdReprojectionFinalize",
+                                     header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdReprojectionInitialize*()
+proc sceHmdReprojectionInitialize*() {.cdecl,
+                                       importc: "sceHmdReprojectionInitialize",
+                                       header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdReprojectionQueryGarlicBuffAlign*()
+proc sceHmdReprojectionQueryGarlicBuffAlign*() {.cdecl,
+    importc: "sceHmdReprojectionQueryGarlicBuffAlign", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdReprojectionQueryGarlicBuffSize*()
+proc sceHmdReprojectionQueryGarlicBuffSize*() {.cdecl,
+    importc: "sceHmdReprojectionQueryGarlicBuffSize", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdReprojectionQueryOnionBuffAlign*()
+proc sceHmdReprojectionQueryOnionBuffAlign*() {.cdecl,
+    importc: "sceHmdReprojectionQueryOnionBuffAlign", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdReprojectionQueryOnionBuffSize*()
+proc sceHmdReprojectionQueryOnionBuffSize*() {.cdecl,
+    importc: "sceHmdReprojectionQueryOnionBuffSize", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdReprojectionSetCallback*()
+proc sceHmdReprojectionSetCallback*() {.cdecl, importc: "sceHmdReprojectionSetCallback",
+                                        header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdReprojectionSetDisplayBuffers*()
+proc sceHmdReprojectionSetDisplayBuffers*() {.cdecl,
+    importc: "sceHmdReprojectionSetDisplayBuffers", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdReprojectionSetOutputMinColor*()
+proc sceHmdReprojectionSetOutputMinColor*() {.cdecl,
+    importc: "sceHmdReprojectionSetOutputMinColor", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdReprojectionSetUserEventEnd*()
+proc sceHmdReprojectionSetUserEventEnd*() {.cdecl,
+    importc: "sceHmdReprojectionSetUserEventEnd", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdReprojectionSetUserEventStart*()
+proc sceHmdReprojectionSetUserEventStart*() {.cdecl,
+    importc: "sceHmdReprojectionSetUserEventStart", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdReprojectionStart*()
+proc sceHmdReprojectionStart*() {.cdecl, importc: "sceHmdReprojectionStart",
+                                  header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdReprojectionStart2dVr*()
+proc sceHmdReprojectionStart2dVr*() {.cdecl,
+                                      importc: "sceHmdReprojectionStart2dVr",
+                                      header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdReprojectionStartMultilayer*()
+proc sceHmdReprojectionStartMultilayer*() {.cdecl,
+    importc: "sceHmdReprojectionStartMultilayer", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdReprojectionStartMultilayer2*()
+proc sceHmdReprojectionStartMultilayer2*() {.cdecl,
+    importc: "sceHmdReprojectionStartMultilayer2", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdReprojectionStartWideNear*()
+proc sceHmdReprojectionStartWideNear*() {.cdecl,
+    importc: "sceHmdReprojectionStartWideNear", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdReprojectionStartWideNearWithOverlay*()
+proc sceHmdReprojectionStartWideNearWithOverlay*() {.cdecl,
+    importc: "sceHmdReprojectionStartWideNearWithOverlay", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdReprojectionStartWithOverlay*()
+proc sceHmdReprojectionStartWithOverlay*() {.cdecl,
+    importc: "sceHmdReprojectionStartWithOverlay", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdReprojectionStop*()
+proc sceHmdReprojectionStop*() {.cdecl, importc: "sceHmdReprojectionStop",
+                                 header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdReprojectionUnsetCallback*()
+proc sceHmdReprojectionUnsetCallback*() {.cdecl,
+    importc: "sceHmdReprojectionUnsetCallback", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdReprojectionUnsetDisplayBuffers*()
+proc sceHmdReprojectionUnsetDisplayBuffers*() {.cdecl,
+    importc: "sceHmdReprojectionUnsetDisplayBuffers", header: "orbis/Hmd.h".}
   ##  Empty Comment
-proc sceHmdTerminate*()
+proc sceHmdTerminate*() {.cdecl, importc: "sceHmdTerminate",
+                          header: "orbis/Hmd.h".}
   ##  Empty Comment

@@ -1,22 +1,34 @@
-proc sceRemoteplayApprove*()
+proc sceRemoteplayApprove*() {.cdecl, importc: "sceRemoteplayApprove",
+                               header: "orbis/Remoteplay.h".}
   ##  Empty Comment
-proc sceRemoteplayClearConnectHistory*()
+proc sceRemoteplayClearConnectHistory*() {.cdecl,
+    importc: "sceRemoteplayClearConnectHistory", header: "orbis/Remoteplay.h".}
   ##  Empty Comment
-proc sceRemoteplayGetConnectHistory*()
+proc sceRemoteplayGetConnectHistory*() {.cdecl,
+    importc: "sceRemoteplayGetConnectHistory", header: "orbis/Remoteplay.h".}
   ##  Empty Comment
-proc sceRemoteplayGetConnectionStatus*()
+proc sceRemoteplayGetConnectionStatus*() {.cdecl,
+    importc: "sceRemoteplayGetConnectionStatus", header: "orbis/Remoteplay.h".}
   ##  Empty Comment
-proc sceRemoteplayGetMbusDeviceInfo*()
+proc sceRemoteplayGetMbusDeviceInfo*() {.cdecl,
+    importc: "sceRemoteplayGetMbusDeviceInfo", header: "orbis/Remoteplay.h".}
   ##  Empty Comment
-proc sceRemoteplayInitialize*()
+proc sceRemoteplayInitialize*() {.cdecl, importc: "sceRemoteplayInitialize",
+                                  header: "orbis/Remoteplay.h".}
   ##  Empty Comment
-proc sceRemoteplayNotifyNpPushWakeup*()
+proc sceRemoteplayNotifyNpPushWakeup*() {.cdecl,
+    importc: "sceRemoteplayNotifyNpPushWakeup", header: "orbis/Remoteplay.h".}
   ##  Empty Comment
-proc sceRemoteplayProhibit*()
+proc sceRemoteplayProhibit*() {.cdecl, importc: "sceRemoteplayProhibit",
+                                header: "orbis/Remoteplay.h".}
   ##  Empty Comment
-proc sceRemoteplayProhibitStreaming*()
+proc sceRemoteplayProhibitStreaming*() {.cdecl,
+    importc: "sceRemoteplayProhibitStreaming", header: "orbis/Remoteplay.h".}
   ##  Empty Comment
-proc sceRemoteplaySetProhibition*()
+proc sceRemoteplaySetProhibition*() {.cdecl,
+                                      importc: "sceRemoteplaySetProhibition",
+                                      header: "orbis/Remoteplay.h".}
   ##  Empty Comment
-proc sceRemoteplayTerminate*()
+proc sceRemoteplayTerminate*() {.cdecl, importc: "sceRemoteplayTerminate",
+                                 header: "orbis/Remoteplay.h".}
   ##  Empty Comment

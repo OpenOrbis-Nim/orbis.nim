@@ -1,20 +1,31 @@
-proc sceNpAuthAbortRequest*()
+proc sceNpAuthAbortRequest*() {.cdecl, importc: "sceNpAuthAbortRequest",
+                                header: "orbis/NpAuth.h".}
   ##  Empty Comment
-proc sceNpAuthCreateAsyncRequest*()
+proc sceNpAuthCreateAsyncRequest*() {.cdecl,
+                                      importc: "sceNpAuthCreateAsyncRequest",
+                                      header: "orbis/NpAuth.h".}
   ##  Empty Comment
-proc sceNpAuthCreateRequest*()
+proc sceNpAuthCreateRequest*() {.cdecl, importc: "sceNpAuthCreateRequest",
+                                 header: "orbis/NpAuth.h".}
   ##  Empty Comment
-proc sceNpAuthDeleteRequest*()
+proc sceNpAuthDeleteRequest*() {.cdecl, importc: "sceNpAuthDeleteRequest",
+                                 header: "orbis/NpAuth.h".}
   ##  Empty Comment
-proc sceNpAuthGetAuthorizationCode*()
+proc sceNpAuthGetAuthorizationCode*() {.cdecl, importc: "sceNpAuthGetAuthorizationCode",
+                                        header: "orbis/NpAuth.h".}
   ##  Empty Comment
-proc sceNpAuthGetAuthorizationCodeA*()
+proc sceNpAuthGetAuthorizationCodeA*() {.cdecl,
+    importc: "sceNpAuthGetAuthorizationCodeA", header: "orbis/NpAuth.h".}
   ##  Empty Comment
-proc sceNpAuthGetIdTokenA*()
+proc sceNpAuthGetIdTokenA*() {.cdecl, importc: "sceNpAuthGetIdTokenA",
+                               header: "orbis/NpAuth.h".}
   ##  Empty Comment
-proc sceNpAuthPollAsync*()
+proc sceNpAuthPollAsync*() {.cdecl, importc: "sceNpAuthPollAsync",
+                             header: "orbis/NpAuth.h".}
   ##  Empty Comment
-proc sceNpAuthSetTimeout*()
+proc sceNpAuthSetTimeout*() {.cdecl, importc: "sceNpAuthSetTimeout",
+                              header: "orbis/NpAuth.h".}
   ##  Empty Comment
-proc sceNpAuthWaitAsync*()
+proc sceNpAuthWaitAsync*() {.cdecl, importc: "sceNpAuthWaitAsync",
+                             header: "orbis/NpAuth.h".}
   ##  Empty Comment

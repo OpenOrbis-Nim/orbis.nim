@@ -1,25 +1,38 @@
-proc _Z5dummyv*()
+proc _Z5dummyv*() {.cdecl, importc: "_Z5dummyv", header: "orbis/ScreenShot.h".}
   ##  Empty Comment
-proc sceScreenShotCapture*()
+proc sceScreenShotCapture*() {.cdecl, importc: "sceScreenShotCapture",
+                               header: "orbis/ScreenShot.h".}
   ##  Empty Comment
-proc sceScreenShotDisable*(): cint
+proc sceScreenShotDisable*(): cint {.cdecl, importc: "sceScreenShotDisable",
+                                     header: "orbis/ScreenShot.h".}
   ##  Empty Comment
-proc sceScreenShotDisableNotification*(): cint
+proc sceScreenShotDisableNotification*(): cint {.cdecl,
+    importc: "sceScreenShotDisableNotification", header: "orbis/ScreenShot.h".}
   ##  Empty Comment
-proc sceScreenShotEnable*(): cint
+proc sceScreenShotEnable*(): cint {.cdecl, importc: "sceScreenShotEnable",
+                                    header: "orbis/ScreenShot.h".}
   ##  Empty Comment
-proc sceScreenShotEnableNotification*(): cint
+proc sceScreenShotEnableNotification*(): cint {.cdecl,
+    importc: "sceScreenShotEnableNotification", header: "orbis/ScreenShot.h".}
   ##  Empty Comment
-proc sceScreenShotGetAppInfo*()
+proc sceScreenShotGetAppInfo*() {.cdecl, importc: "sceScreenShotGetAppInfo",
+                                  header: "orbis/ScreenShot.h".}
   ##  Empty Comment
-proc sceScreenShotIsDisabled*(): cint
+proc sceScreenShotIsDisabled*(): cint {.cdecl,
+                                        importc: "sceScreenShotIsDisabled",
+                                        header: "orbis/ScreenShot.h".}
   ##  Empty Comment
-proc sceScreenShotIsVshScreenCaptureDisabled*(): cint
+proc sceScreenShotIsVshScreenCaptureDisabled*(): cint {.cdecl,
+    importc: "sceScreenShotIsVshScreenCaptureDisabled",
+    header: "orbis/ScreenShot.h".}
   ##  Empty Comment
-proc sceScreenShotSetOverlayImage*(path: cstring; x: cint; y: cint): cint
+proc sceScreenShotSetOverlayImage*(path: cstring; x: cint; y: cint): cint {.
+    cdecl, importc: "sceScreenShotSetOverlayImage", header: "orbis/ScreenShot.h".}
   ##  Sets overlay image with manual positioning
 proc sceScreenShotSetOverlayImageWithOrigin*(path: cstring; x: cint; y: cint;
-    a4: cint): cint
+    a4: cint): cint {.cdecl, importc: "sceScreenShotSetOverlayImageWithOrigin",
+                      header: "orbis/ScreenShot.h".}
   ##  Sets overlay image with specified positioning
-proc sceScreenShotSetParam*()
+proc sceScreenShotSetParam*() {.cdecl, importc: "sceScreenShotSetParam",
+                                header: "orbis/ScreenShot.h".}
   ##  Empty Comment

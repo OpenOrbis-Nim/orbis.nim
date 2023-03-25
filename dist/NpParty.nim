@@ -1,42 +1,67 @@
-proc sceNpPartyCheckCallback*()
+proc sceNpPartyCheckCallback*() {.cdecl, importc: "sceNpPartyCheckCallback",
+                                  header: "orbis/NpParty.h".}
   ##  Empty Comment
-proc sceNpPartyCreate*()
+proc sceNpPartyCreate*() {.cdecl, importc: "sceNpPartyCreate",
+                           header: "orbis/NpParty.h".}
   ##  Empty Comment
-proc sceNpPartyCreateA*()
+proc sceNpPartyCreateA*() {.cdecl, importc: "sceNpPartyCreateA",
+                            header: "orbis/NpParty.h".}
   ##  Empty Comment
-proc sceNpPartyGetId*()
+proc sceNpPartyGetId*() {.cdecl, importc: "sceNpPartyGetId",
+                          header: "orbis/NpParty.h".}
   ##  Empty Comment
-proc sceNpPartyGetMemberInfo*()
+proc sceNpPartyGetMemberInfo*() {.cdecl, importc: "sceNpPartyGetMemberInfo",
+                                  header: "orbis/NpParty.h".}
   ##  Empty Comment
-proc sceNpPartyGetMemberInfoA*()
+proc sceNpPartyGetMemberInfoA*() {.cdecl, importc: "sceNpPartyGetMemberInfoA",
+                                   header: "orbis/NpParty.h".}
   ##  Empty Comment
-proc sceNpPartyGetMembers*()
+proc sceNpPartyGetMembers*() {.cdecl, importc: "sceNpPartyGetMembers",
+                               header: "orbis/NpParty.h".}
   ##  Empty Comment
-proc sceNpPartyGetMembersA*()
+proc sceNpPartyGetMembersA*() {.cdecl, importc: "sceNpPartyGetMembersA",
+                                header: "orbis/NpParty.h".}
   ##  Empty Comment
-proc sceNpPartyGetMemberSessionInfo*()
+proc sceNpPartyGetMemberSessionInfo*() {.cdecl,
+    importc: "sceNpPartyGetMemberSessionInfo", header: "orbis/NpParty.h".}
   ##  Empty Comment
-proc sceNpPartyGetMemberVoiceInfo*()
+proc sceNpPartyGetMemberVoiceInfo*() {.cdecl,
+                                       importc: "sceNpPartyGetMemberVoiceInfo",
+                                       header: "orbis/NpParty.h".}
   ##  Empty Comment
-proc sceNpPartyGetState*()
+proc sceNpPartyGetState*() {.cdecl, importc: "sceNpPartyGetState",
+                             header: "orbis/NpParty.h".}
   ##  Empty Comment
-proc sceNpPartyGetStateAsUser*()
+proc sceNpPartyGetStateAsUser*() {.cdecl, importc: "sceNpPartyGetStateAsUser",
+                                   header: "orbis/NpParty.h".}
   ##  Empty Comment
-proc sceNpPartyGetStateAsUserA*()
+proc sceNpPartyGetStateAsUserA*() {.cdecl, importc: "sceNpPartyGetStateAsUserA",
+                                    header: "orbis/NpParty.h".}
   ##  Empty Comment
-proc sceNpPartyInitialize*()
+proc sceNpPartyInitialize*() {.cdecl, importc: "sceNpPartyInitialize",
+                               header: "orbis/NpParty.h".}
   ##  Empty Comment
-proc sceNpPartyLeave*()
+proc sceNpPartyLeave*() {.cdecl, importc: "sceNpPartyLeave",
+                          header: "orbis/NpParty.h".}
   ##  Empty Comment
-proc sceNpPartyRegisterHandler*()
+proc sceNpPartyRegisterHandler*() {.cdecl, importc: "sceNpPartyRegisterHandler",
+                                    header: "orbis/NpParty.h".}
   ##  Empty Comment
-proc sceNpPartyRegisterHandlerA*()
+proc sceNpPartyRegisterHandlerA*() {.cdecl,
+                                     importc: "sceNpPartyRegisterHandlerA",
+                                     header: "orbis/NpParty.h".}
   ##  Empty Comment
-proc sceNpPartySendBinaryMessage*()
+proc sceNpPartySendBinaryMessage*() {.cdecl,
+                                      importc: "sceNpPartySendBinaryMessage",
+                                      header: "orbis/NpParty.h".}
   ##  Empty Comment
-proc sceNpPartyShowInvitationList*()
+proc sceNpPartyShowInvitationList*() {.cdecl,
+                                       importc: "sceNpPartyShowInvitationList",
+                                       header: "orbis/NpParty.h".}
   ##  Empty Comment
-proc sceNpPartyShowInvitationListA*()
+proc sceNpPartyShowInvitationListA*() {.cdecl, importc: "sceNpPartyShowInvitationListA",
+                                        header: "orbis/NpParty.h".}
   ##  Empty Comment
-proc sceNpPartyTerminate*()
+proc sceNpPartyTerminate*() {.cdecl, importc: "sceNpPartyTerminate",
+                              header: "orbis/NpParty.h".}
   ##  Empty Comment

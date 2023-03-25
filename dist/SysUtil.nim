@@ -1,42 +1,82 @@
-proc sceSysUtilSendAddressingSystemNotification*()
+proc sceSysUtilSendAddressingSystemNotification*() {.cdecl,
+    importc: "sceSysUtilSendAddressingSystemNotification",
+    header: "orbis/SysUtil.h".}
   ##  Empty Comment
-proc sceSysUtilSendAddressingSystemNotificationWithDeviceId*()
+proc sceSysUtilSendAddressingSystemNotificationWithDeviceId*() {.cdecl,
+    importc: "sceSysUtilSendAddressingSystemNotificationWithDeviceId",
+    header: "orbis/SysUtil.h".}
   ##  Empty Comment
-proc sceSysUtilSendAddressingSystemNotificationWithUserId*()
+proc sceSysUtilSendAddressingSystemNotificationWithUserId*() {.cdecl,
+    importc: "sceSysUtilSendAddressingSystemNotificationWithUserId",
+    header: "orbis/SysUtil.h".}
   ##  Empty Comment
-proc sceSysUtilSendAddressingSystemNotificationWithUserName*()
+proc sceSysUtilSendAddressingSystemNotificationWithUserName*() {.cdecl,
+    importc: "sceSysUtilSendAddressingSystemNotificationWithUserName",
+    header: "orbis/SysUtil.h".}
   ##  Empty Comment
-proc sceSysUtilSendNotificationRequest*()
+proc sceSysUtilSendNotificationRequest*() {.cdecl,
+    importc: "sceSysUtilSendNotificationRequest", header: "orbis/SysUtil.h".}
   ##  Empty Comment
-proc sceSysUtilSendNpDebugNotificationRequest*()
+proc sceSysUtilSendNpDebugNotificationRequest*() {.cdecl,
+    importc: "sceSysUtilSendNpDebugNotificationRequest",
+    header: "orbis/SysUtil.h".}
   ##  Empty Comment
-proc sceSysUtilSendSystemNotification*()
+proc sceSysUtilSendSystemNotification*() {.cdecl,
+    importc: "sceSysUtilSendSystemNotification", header: "orbis/SysUtil.h".}
   ##  Empty Comment
-proc sceSysUtilSendSystemNotificationWithAppId*()
+proc sceSysUtilSendSystemNotificationWithAppId*() {.cdecl,
+    importc: "sceSysUtilSendSystemNotificationWithAppId",
+    header: "orbis/SysUtil.h".}
   ##  Empty Comment
-proc sceSysUtilSendSystemNotificationWithAppInfo*()
+proc sceSysUtilSendSystemNotificationWithAppInfo*() {.cdecl,
+    importc: "sceSysUtilSendSystemNotificationWithAppInfo",
+    header: "orbis/SysUtil.h".}
   ##  Empty Comment
-proc sceSysUtilSendSystemNotificationWithAppName*()
+proc sceSysUtilSendSystemNotificationWithAppName*() {.cdecl,
+    importc: "sceSysUtilSendSystemNotificationWithAppName",
+    header: "orbis/SysUtil.h".}
   ##  Empty Comment
-proc sceSysUtilSendSystemNotificationWithAppNameRelatedToUser*()
+proc sceSysUtilSendSystemNotificationWithAppNameRelatedToUser*() {.cdecl,
+    importc: "sceSysUtilSendSystemNotificationWithAppNameRelatedToUser",
+    header: "orbis/SysUtil.h".}
   ##  Empty Comment
-proc sceSysUtilSendSystemNotificationWithDeviceId*()
+proc sceSysUtilSendSystemNotificationWithDeviceId*() {.cdecl,
+    importc: "sceSysUtilSendSystemNotificationWithDeviceId",
+    header: "orbis/SysUtil.h".}
   ##  Empty Comment
-proc sceSysUtilSendSystemNotificationWithDeviceIdRelatedToUser*()
+proc sceSysUtilSendSystemNotificationWithDeviceIdRelatedToUser*() {.cdecl,
+    importc: "sceSysUtilSendSystemNotificationWithDeviceIdRelatedToUser",
+    header: "orbis/SysUtil.h".}
   ##  Empty Comment
-proc sceSysUtilSendSystemNotificationWithErrorCode*()
+proc sceSysUtilSendSystemNotificationWithErrorCode*() {.cdecl,
+    importc: "sceSysUtilSendSystemNotificationWithErrorCode",
+    header: "orbis/SysUtil.h".}
   ##  Empty Comment
-proc sceSysUtilSendSystemNotificationWithParams*()
+proc sceSysUtilSendSystemNotificationWithParams*() {.cdecl,
+    importc: "sceSysUtilSendSystemNotificationWithParams",
+    header: "orbis/SysUtil.h".}
   ##  Empty Comment
-proc sceSysUtilSendSystemNotificationWithText*()
+proc sceSysUtilSendSystemNotificationWithText*() {.cdecl,
+    importc: "sceSysUtilSendSystemNotificationWithText",
+    header: "orbis/SysUtil.h".}
   ##  Empty Comment
-proc sceSysUtilSendSystemNotificationWithTextRelatedToUser*()
+proc sceSysUtilSendSystemNotificationWithTextRelatedToUser*() {.cdecl,
+    importc: "sceSysUtilSendSystemNotificationWithTextRelatedToUser",
+    header: "orbis/SysUtil.h".}
   ##  Empty Comment
-proc sceSysUtilSendSystemNotificationWithUserId*()
+proc sceSysUtilSendSystemNotificationWithUserId*() {.cdecl,
+    importc: "sceSysUtilSendSystemNotificationWithUserId",
+    header: "orbis/SysUtil.h".}
   ##  Empty Comment
-proc sceSysUtilSendSystemNotificationWithUserName*()
+proc sceSysUtilSendSystemNotificationWithUserName*() {.cdecl,
+    importc: "sceSysUtilSendSystemNotificationWithUserName",
+    header: "orbis/SysUtil.h".}
   ##  Empty Comment
-proc sceSysUtilSendSystemNotificationWithUserNameInfo*()
+proc sceSysUtilSendSystemNotificationWithUserNameInfo*() {.cdecl,
+    importc: "sceSysUtilSendSystemNotificationWithUserNameInfo",
+    header: "orbis/SysUtil.h".}
   ##  Empty Comment
-proc sceSysUtilSendTrcCheckNotificationRequest*()
+proc sceSysUtilSendTrcCheckNotificationRequest*() {.cdecl,
+    importc: "sceSysUtilSendTrcCheckNotificationRequest",
+    header: "orbis/SysUtil.h".}
   ##  Empty Comment

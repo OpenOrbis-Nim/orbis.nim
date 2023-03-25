@@ -1,38 +1,63 @@
-proc _Z5dummyv*()
+proc _Z5dummyv*() {.cdecl, importc: "_Z5dummyv", header: "orbis/AppContent.h".}
   ##  Empty Comment
-proc sceAppContentAddcontDelete*()
+proc sceAppContentAddcontDelete*() {.cdecl,
+                                     importc: "sceAppContentAddcontDelete",
+                                     header: "orbis/AppContent.h".}
   ##  Empty Comment
-proc sceAppContentAddcontEnqueueDownload*()
+proc sceAppContentAddcontEnqueueDownload*() {.cdecl,
+    importc: "sceAppContentAddcontEnqueueDownload", header: "orbis/AppContent.h".}
   ##  Empty Comment
-proc sceAppContentAddcontMount*()
+proc sceAppContentAddcontMount*() {.cdecl, importc: "sceAppContentAddcontMount",
+                                    header: "orbis/AppContent.h".}
   ##  Empty Comment
-proc sceAppContentAddcontUnmount*()
+proc sceAppContentAddcontUnmount*() {.cdecl,
+                                      importc: "sceAppContentAddcontUnmount",
+                                      header: "orbis/AppContent.h".}
   ##  Empty Comment
-proc sceAppContentAppParamGetInt*()
+proc sceAppContentAppParamGetInt*() {.cdecl,
+                                      importc: "sceAppContentAppParamGetInt",
+                                      header: "orbis/AppContent.h".}
   ##  Empty Comment
-proc sceAppContentAppParamGetString*()
+proc sceAppContentAppParamGetString*() {.cdecl,
+    importc: "sceAppContentAppParamGetString", header: "orbis/AppContent.h".}
   ##  Empty Comment
-proc sceAppContentDownloadDataFormat*()
+proc sceAppContentDownloadDataFormat*() {.cdecl,
+    importc: "sceAppContentDownloadDataFormat", header: "orbis/AppContent.h".}
   ##  Empty Comment
-proc sceAppContentDownloadDataGetAvailableSpaceKb*()
+proc sceAppContentDownloadDataGetAvailableSpaceKb*() {.cdecl,
+    importc: "sceAppContentDownloadDataGetAvailableSpaceKb",
+    header: "orbis/AppContent.h".}
   ##  Empty Comment
-proc sceAppContentGetAddcontDownloadProgress*()
+proc sceAppContentGetAddcontDownloadProgress*() {.cdecl,
+    importc: "sceAppContentGetAddcontDownloadProgress",
+    header: "orbis/AppContent.h".}
   ##  Empty Comment
-proc sceAppContentGetAddcontInfo*()
+proc sceAppContentGetAddcontInfo*() {.cdecl,
+                                      importc: "sceAppContentGetAddcontInfo",
+                                      header: "orbis/AppContent.h".}
   ##  Empty Comment
-proc sceAppContentGetAddcontInfoList*()
+proc sceAppContentGetAddcontInfoList*() {.cdecl,
+    importc: "sceAppContentGetAddcontInfoList", header: "orbis/AppContent.h".}
   ##  Empty Comment
-proc sceAppContentGetEntitlementKey*()
+proc sceAppContentGetEntitlementKey*() {.cdecl,
+    importc: "sceAppContentGetEntitlementKey", header: "orbis/AppContent.h".}
   ##  Empty Comment
-proc sceAppContentInitialize*()
+proc sceAppContentInitialize*() {.cdecl, importc: "sceAppContentInitialize",
+                                  header: "orbis/AppContent.h".}
   ##  Empty Comment
-proc sceAppContentTemporaryDataFormat*()
+proc sceAppContentTemporaryDataFormat*() {.cdecl,
+    importc: "sceAppContentTemporaryDataFormat", header: "orbis/AppContent.h".}
   ##  Empty Comment
-proc sceAppContentTemporaryDataGetAvailableSpaceKb*()
+proc sceAppContentTemporaryDataGetAvailableSpaceKb*() {.cdecl,
+    importc: "sceAppContentTemporaryDataGetAvailableSpaceKb",
+    header: "orbis/AppContent.h".}
   ##  Empty Comment
-proc sceAppContentTemporaryDataMount*()
+proc sceAppContentTemporaryDataMount*() {.cdecl,
+    importc: "sceAppContentTemporaryDataMount", header: "orbis/AppContent.h".}
   ##  Empty Comment
-proc sceAppContentTemporaryDataMount2*()
+proc sceAppContentTemporaryDataMount2*() {.cdecl,
+    importc: "sceAppContentTemporaryDataMount2", header: "orbis/AppContent.h".}
   ##  Empty Comment
-proc sceAppContentTemporaryDataUnmount*()
+proc sceAppContentTemporaryDataUnmount*() {.cdecl,
+    importc: "sceAppContentTemporaryDataUnmount", header: "orbis/AppContent.h".}
   ##  Empty Comment

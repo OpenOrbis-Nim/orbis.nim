@@ -1,24 +1,33 @@
-proc sceMoveClose*()
+proc sceMoveClose*() {.cdecl, importc: "sceMoveClose", header: "orbis/Move.h".}
   ##  Empty Comment
-proc sceMoveGetDeviceInfo*()
+proc sceMoveGetDeviceInfo*() {.cdecl, importc: "sceMoveGetDeviceInfo",
+                               header: "orbis/Move.h".}
   ##  Empty Comment
-proc sceMoveGetExtensionPortInfo*()
+proc sceMoveGetExtensionPortInfo*() {.cdecl,
+                                      importc: "sceMoveGetExtensionPortInfo",
+                                      header: "orbis/Move.h".}
   ##  Empty Comment
-proc sceMoveInit*()
+proc sceMoveInit*() {.cdecl, importc: "sceMoveInit", header: "orbis/Move.h".}
   ##  Empty Comment
-proc sceMoveOpen*()
+proc sceMoveOpen*() {.cdecl, importc: "sceMoveOpen", header: "orbis/Move.h".}
   ##  Empty Comment
-proc sceMoveReadStateLatest*()
+proc sceMoveReadStateLatest*() {.cdecl, importc: "sceMoveReadStateLatest",
+                                 header: "orbis/Move.h".}
   ##  Empty Comment
-proc sceMoveReadStateRecent*()
+proc sceMoveReadStateRecent*() {.cdecl, importc: "sceMoveReadStateRecent",
+                                 header: "orbis/Move.h".}
   ##  Empty Comment
-proc sceMoveResetLightSphere*()
+proc sceMoveResetLightSphere*() {.cdecl, importc: "sceMoveResetLightSphere",
+                                  header: "orbis/Move.h".}
   ##  Empty Comment
-proc sceMoveSetExtensionPortOutput*()
+proc sceMoveSetExtensionPortOutput*() {.cdecl, importc: "sceMoveSetExtensionPortOutput",
+                                        header: "orbis/Move.h".}
   ##  Empty Comment
-proc sceMoveSetLightSphere*()
+proc sceMoveSetLightSphere*() {.cdecl, importc: "sceMoveSetLightSphere",
+                                header: "orbis/Move.h".}
   ##  Empty Comment
-proc sceMoveSetVibration*()
+proc sceMoveSetVibration*() {.cdecl, importc: "sceMoveSetVibration",
+                              header: "orbis/Move.h".}
   ##  Empty Comment
-proc sceMoveTerm*()
+proc sceMoveTerm*() {.cdecl, importc: "sceMoveTerm", header: "orbis/Move.h".}
   ##  Empty Comment

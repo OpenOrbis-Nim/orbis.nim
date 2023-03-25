@@ -1,18 +1,31 @@
-proc sceInvitationDialogClose*()
+proc sceInvitationDialogClose*() {.cdecl, importc: "sceInvitationDialogClose",
+                                   header: "orbis/InvitationDialog.h".}
   ##  Empty Comment
-proc sceInvitationDialogGetResult*()
+proc sceInvitationDialogGetResult*() {.cdecl,
+                                       importc: "sceInvitationDialogGetResult",
+                                       header: "orbis/InvitationDialog.h".}
   ##  Empty Comment
-proc sceInvitationDialogGetResultA*()
+proc sceInvitationDialogGetResultA*() {.cdecl, importc: "sceInvitationDialogGetResultA",
+                                        header: "orbis/InvitationDialog.h".}
   ##  Empty Comment
-proc sceInvitationDialogGetStatus*()
+proc sceInvitationDialogGetStatus*() {.cdecl,
+                                       importc: "sceInvitationDialogGetStatus",
+                                       header: "orbis/InvitationDialog.h".}
   ##  Empty Comment
-proc sceInvitationDialogInitialize*()
+proc sceInvitationDialogInitialize*() {.cdecl, importc: "sceInvitationDialogInitialize",
+                                        header: "orbis/InvitationDialog.h".}
   ##  Empty Comment
-proc sceInvitationDialogOpen*()
+proc sceInvitationDialogOpen*() {.cdecl, importc: "sceInvitationDialogOpen",
+                                  header: "orbis/InvitationDialog.h".}
   ##  Empty Comment
-proc sceInvitationDialogOpenA*()
+proc sceInvitationDialogOpenA*() {.cdecl, importc: "sceInvitationDialogOpenA",
+                                   header: "orbis/InvitationDialog.h".}
   ##  Empty Comment
-proc sceInvitationDialogTerminate*()
+proc sceInvitationDialogTerminate*() {.cdecl,
+                                       importc: "sceInvitationDialogTerminate",
+                                       header: "orbis/InvitationDialog.h".}
   ##  Empty Comment
-proc sceInvitationDialogUpdateStatus*()
+proc sceInvitationDialogUpdateStatus*() {.cdecl,
+    importc: "sceInvitationDialogUpdateStatus",
+    header: "orbis/InvitationDialog.h".}
   ##  Empty Comment

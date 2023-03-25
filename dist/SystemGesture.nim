@@ -1,44 +1,85 @@
-proc sceSystemGestureAppendTouchRecognizer*()
+proc sceSystemGestureAppendTouchRecognizer*() {.cdecl,
+    importc: "sceSystemGestureAppendTouchRecognizer",
+    header: "orbis/SystemGesture.h".}
   ##  Empty Comment
-proc sceSystemGestureClose*()
+proc sceSystemGestureClose*() {.cdecl, importc: "sceSystemGestureClose",
+                                header: "orbis/SystemGesture.h".}
   ##  Empty Comment
-proc sceSystemGestureCreateTouchRecognizer*()
+proc sceSystemGestureCreateTouchRecognizer*() {.cdecl,
+    importc: "sceSystemGestureCreateTouchRecognizer",
+    header: "orbis/SystemGesture.h".}
   ##  Empty Comment
-proc sceSystemGestureFinalizePrimitiveTouchRecognizer*()
+proc sceSystemGestureFinalizePrimitiveTouchRecognizer*() {.cdecl,
+    importc: "sceSystemGestureFinalizePrimitiveTouchRecognizer",
+    header: "orbis/SystemGesture.h".}
   ##  Empty Comment
-proc sceSystemGestureGetPrimitiveTouchEventByIndex*()
+proc sceSystemGestureGetPrimitiveTouchEventByIndex*() {.cdecl,
+    importc: "sceSystemGestureGetPrimitiveTouchEventByIndex",
+    header: "orbis/SystemGesture.h".}
   ##  Empty Comment
-proc sceSystemGestureGetPrimitiveTouchEventByPrimitiveID*()
+proc sceSystemGestureGetPrimitiveTouchEventByPrimitiveID*() {.cdecl,
+    importc: "sceSystemGestureGetPrimitiveTouchEventByPrimitiveID",
+    header: "orbis/SystemGesture.h".}
   ##  Empty Comment
-proc sceSystemGestureGetPrimitiveTouchEvents*()
+proc sceSystemGestureGetPrimitiveTouchEvents*() {.cdecl,
+    importc: "sceSystemGestureGetPrimitiveTouchEvents",
+    header: "orbis/SystemGesture.h".}
   ##  Empty Comment
-proc sceSystemGestureGetPrimitiveTouchEventsCount*()
+proc sceSystemGestureGetPrimitiveTouchEventsCount*() {.cdecl,
+    importc: "sceSystemGestureGetPrimitiveTouchEventsCount",
+    header: "orbis/SystemGesture.h".}
   ##  Empty Comment
-proc sceSystemGestureGetTouchEventByEventID*()
+proc sceSystemGestureGetTouchEventByEventID*() {.cdecl,
+    importc: "sceSystemGestureGetTouchEventByEventID",
+    header: "orbis/SystemGesture.h".}
   ##  Empty Comment
-proc sceSystemGestureGetTouchEventByIndex*()
+proc sceSystemGestureGetTouchEventByIndex*() {.cdecl,
+    importc: "sceSystemGestureGetTouchEventByIndex",
+    header: "orbis/SystemGesture.h".}
   ##  Empty Comment
-proc sceSystemGestureGetTouchEvents*()
+proc sceSystemGestureGetTouchEvents*() {.cdecl,
+    importc: "sceSystemGestureGetTouchEvents", header: "orbis/SystemGesture.h".}
   ##  Empty Comment
-proc sceSystemGestureGetTouchEventsCount*()
+proc sceSystemGestureGetTouchEventsCount*() {.cdecl,
+    importc: "sceSystemGestureGetTouchEventsCount",
+    header: "orbis/SystemGesture.h".}
   ##  Empty Comment
-proc sceSystemGestureGetTouchRecognizerInformation*()
+proc sceSystemGestureGetTouchRecognizerInformation*() {.cdecl,
+    importc: "sceSystemGestureGetTouchRecognizerInformation",
+    header: "orbis/SystemGesture.h".}
   ##  Empty Comment
-proc sceSystemGestureInitializePrimitiveTouchRecognizer*()
+proc sceSystemGestureInitializePrimitiveTouchRecognizer*() {.cdecl,
+    importc: "sceSystemGestureInitializePrimitiveTouchRecognizer",
+    header: "orbis/SystemGesture.h".}
   ##  Empty Comment
-proc sceSystemGestureOpen*()
+proc sceSystemGestureOpen*() {.cdecl, importc: "sceSystemGestureOpen",
+                               header: "orbis/SystemGesture.h".}
   ##  Empty Comment
-proc sceSystemGestureRemoveTouchRecognizer*()
+proc sceSystemGestureRemoveTouchRecognizer*() {.cdecl,
+    importc: "sceSystemGestureRemoveTouchRecognizer",
+    header: "orbis/SystemGesture.h".}
   ##  Empty Comment
-proc sceSystemGestureResetPrimitiveTouchRecognizer*()
+proc sceSystemGestureResetPrimitiveTouchRecognizer*() {.cdecl,
+    importc: "sceSystemGestureResetPrimitiveTouchRecognizer",
+    header: "orbis/SystemGesture.h".}
   ##  Empty Comment
-proc sceSystemGestureResetTouchRecognizer*()
+proc sceSystemGestureResetTouchRecognizer*() {.cdecl,
+    importc: "sceSystemGestureResetTouchRecognizer",
+    header: "orbis/SystemGesture.h".}
   ##  Empty Comment
-proc sceSystemGestureUpdateAllTouchRecognizer*()
+proc sceSystemGestureUpdateAllTouchRecognizer*() {.cdecl,
+    importc: "sceSystemGestureUpdateAllTouchRecognizer",
+    header: "orbis/SystemGesture.h".}
   ##  Empty Comment
-proc sceSystemGestureUpdatePrimitiveTouchRecognizer*()
+proc sceSystemGestureUpdatePrimitiveTouchRecognizer*() {.cdecl,
+    importc: "sceSystemGestureUpdatePrimitiveTouchRecognizer",
+    header: "orbis/SystemGesture.h".}
   ##  Empty Comment
-proc sceSystemGestureUpdateTouchRecognizer*()
+proc sceSystemGestureUpdateTouchRecognizer*() {.cdecl,
+    importc: "sceSystemGestureUpdateTouchRecognizer",
+    header: "orbis/SystemGesture.h".}
   ##  Empty Comment
-proc sceSystemGestureUpdateTouchRecognizerRectangle*()
+proc sceSystemGestureUpdateTouchRecognizerRectangle*() {.cdecl,
+    importc: "sceSystemGestureUpdateTouchRecognizerRectangle",
+    header: "orbis/SystemGesture.h".}
   ##  Empty Comment

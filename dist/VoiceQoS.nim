@@ -1,40 +1,62 @@
-proc sceVoiceQoSConnect*()
+proc sceVoiceQoSConnect*() {.cdecl, importc: "sceVoiceQoSConnect",
+                             header: "orbis/VoiceQoS.h".}
   ##  Empty Comment
-proc sceVoiceQoSCreateLocalEndpoint*()
+proc sceVoiceQoSCreateLocalEndpoint*() {.cdecl,
+    importc: "sceVoiceQoSCreateLocalEndpoint", header: "orbis/VoiceQoS.h".}
   ##  Empty Comment
-proc sceVoiceQoSCreateRemoteEndpoint*()
+proc sceVoiceQoSCreateRemoteEndpoint*() {.cdecl,
+    importc: "sceVoiceQoSCreateRemoteEndpoint", header: "orbis/VoiceQoS.h".}
   ##  Empty Comment
-proc sceVoiceQoSDebugGetStatus*()
+proc sceVoiceQoSDebugGetStatus*() {.cdecl, importc: "sceVoiceQoSDebugGetStatus",
+                                    header: "orbis/VoiceQoS.h".}
   ##  Empty Comment
-proc sceVoiceQoSDeleteLocalEndpoint*()
+proc sceVoiceQoSDeleteLocalEndpoint*() {.cdecl,
+    importc: "sceVoiceQoSDeleteLocalEndpoint", header: "orbis/VoiceQoS.h".}
   ##  Empty Comment
-proc sceVoiceQoSDeleteRemoteEndpoint*()
+proc sceVoiceQoSDeleteRemoteEndpoint*() {.cdecl,
+    importc: "sceVoiceQoSDeleteRemoteEndpoint", header: "orbis/VoiceQoS.h".}
   ##  Empty Comment
-proc sceVoiceQoSDisconnect*()
+proc sceVoiceQoSDisconnect*() {.cdecl, importc: "sceVoiceQoSDisconnect",
+                                header: "orbis/VoiceQoS.h".}
   ##  Empty Comment
-proc sceVoiceQoSEnd*()
+proc sceVoiceQoSEnd*() {.cdecl, importc: "sceVoiceQoSEnd",
+                         header: "orbis/VoiceQoS.h".}
   ##  Empty Comment
-proc sceVoiceQoSGetConnectionAttribute*()
+proc sceVoiceQoSGetConnectionAttribute*() {.cdecl,
+    importc: "sceVoiceQoSGetConnectionAttribute", header: "orbis/VoiceQoS.h".}
   ##  Empty Comment
-proc sceVoiceQoSGetLocalEndpoint*()
+proc sceVoiceQoSGetLocalEndpoint*() {.cdecl,
+                                      importc: "sceVoiceQoSGetLocalEndpoint",
+                                      header: "orbis/VoiceQoS.h".}
   ##  Empty Comment
-proc sceVoiceQoSGetLocalEndpointAttribute*()
+proc sceVoiceQoSGetLocalEndpointAttribute*() {.cdecl,
+    importc: "sceVoiceQoSGetLocalEndpointAttribute", header: "orbis/VoiceQoS.h".}
   ##  Empty Comment
-proc sceVoiceQoSGetRemoteEndpoint*()
+proc sceVoiceQoSGetRemoteEndpoint*() {.cdecl,
+                                       importc: "sceVoiceQoSGetRemoteEndpoint",
+                                       header: "orbis/VoiceQoS.h".}
   ##  Empty Comment
-proc sceVoiceQoSGetRemoteEndpointAttribute*()
+proc sceVoiceQoSGetRemoteEndpointAttribute*() {.cdecl,
+    importc: "sceVoiceQoSGetRemoteEndpointAttribute", header: "orbis/VoiceQoS.h".}
   ##  Empty Comment
-proc sceVoiceQoSGetStatus*()
+proc sceVoiceQoSGetStatus*() {.cdecl, importc: "sceVoiceQoSGetStatus",
+                               header: "orbis/VoiceQoS.h".}
   ##  Empty Comment
-proc sceVoiceQoSInit*()
+proc sceVoiceQoSInit*() {.cdecl, importc: "sceVoiceQoSInit",
+                          header: "orbis/VoiceQoS.h".}
   ##  Empty Comment
-proc sceVoiceQoSReadPacket*()
+proc sceVoiceQoSReadPacket*() {.cdecl, importc: "sceVoiceQoSReadPacket",
+                                header: "orbis/VoiceQoS.h".}
   ##  Empty Comment
-proc sceVoiceQoSSetConnectionAttribute*()
+proc sceVoiceQoSSetConnectionAttribute*() {.cdecl,
+    importc: "sceVoiceQoSSetConnectionAttribute", header: "orbis/VoiceQoS.h".}
   ##  Empty Comment
-proc sceVoiceQoSSetLocalEndpointAttribute*()
+proc sceVoiceQoSSetLocalEndpointAttribute*() {.cdecl,
+    importc: "sceVoiceQoSSetLocalEndpointAttribute", header: "orbis/VoiceQoS.h".}
   ##  Empty Comment
-proc sceVoiceQoSSetRemoteEndpointAttribute*()
+proc sceVoiceQoSSetRemoteEndpointAttribute*() {.cdecl,
+    importc: "sceVoiceQoSSetRemoteEndpointAttribute", header: "orbis/VoiceQoS.h".}
   ##  Empty Comment
-proc sceVoiceQoSWritePacket*()
+proc sceVoiceQoSWritePacket*() {.cdecl, importc: "sceVoiceQoSWritePacket",
+                                 header: "orbis/VoiceQoS.h".}
   ##  Empty Comment

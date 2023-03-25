@@ -1,4 +1,6 @@
-proc sceUpsrvInitialize*()
+proc sceUpsrvInitialize*() {.cdecl, importc: "sceUpsrvInitialize",
+                             header: "orbis/UpdateService.h".}
   ##  Empty Comment
-proc sceUpsrvTerminate*()
+proc sceUpsrvTerminate*() {.cdecl, importc: "sceUpsrvTerminate",
+                            header: "orbis/UpdateService.h".}
   ##  Empty Comment

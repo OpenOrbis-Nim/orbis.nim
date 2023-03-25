@@ -1,14 +1,25 @@
-proc sceVrServiceDialogClose*()
+proc sceVrServiceDialogClose*() {.cdecl, importc: "sceVrServiceDialogClose",
+                                  header: "orbis/VrServiceDialog.h".}
   ##  Empty Comment
-proc sceVrServiceDialogGetResult*()
+proc sceVrServiceDialogGetResult*() {.cdecl,
+                                      importc: "sceVrServiceDialogGetResult",
+                                      header: "orbis/VrServiceDialog.h".}
   ##  Empty Comment
-proc sceVrServiceDialogGetStatus*()
+proc sceVrServiceDialogGetStatus*() {.cdecl,
+                                      importc: "sceVrServiceDialogGetStatus",
+                                      header: "orbis/VrServiceDialog.h".}
   ##  Empty Comment
-proc sceVrServiceDialogInitialize*()
+proc sceVrServiceDialogInitialize*() {.cdecl,
+                                       importc: "sceVrServiceDialogInitialize",
+                                       header: "orbis/VrServiceDialog.h".}
   ##  Empty Comment
-proc sceVrServiceDialogOpen*()
+proc sceVrServiceDialogOpen*() {.cdecl, importc: "sceVrServiceDialogOpen",
+                                 header: "orbis/VrServiceDialog.h".}
   ##  Empty Comment
-proc sceVrServiceDialogTerminate*()
+proc sceVrServiceDialogTerminate*() {.cdecl,
+                                      importc: "sceVrServiceDialogTerminate",
+                                      header: "orbis/VrServiceDialog.h".}
   ##  Empty Comment
-proc sceVrServiceDialogUpdateStatus*()
+proc sceVrServiceDialogUpdateStatus*() {.cdecl,
+    importc: "sceVrServiceDialogUpdateStatus", header: "orbis/VrServiceDialog.h".}
   ##  Empty Comment

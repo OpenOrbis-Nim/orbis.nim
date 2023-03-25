@@ -1,30 +1,48 @@
-proc _sceFiberAttachContextAndRun*()
+proc _sceFiberAttachContextAndRun*() {.cdecl,
+                                       importc: "_sceFiberAttachContextAndRun",
+                                       header: "orbis/Fiber.h".}
   ##  Empty Comment
-proc _sceFiberAttachContextAndSwitch*()
+proc _sceFiberAttachContextAndSwitch*() {.cdecl,
+    importc: "_sceFiberAttachContextAndSwitch", header: "orbis/Fiber.h".}
   ##  Empty Comment
-proc _sceFiberGetThreadFramePointerAddress*()
+proc _sceFiberGetThreadFramePointerAddress*() {.cdecl,
+    importc: "_sceFiberGetThreadFramePointerAddress", header: "orbis/Fiber.h".}
   ##  Empty Comment
-proc _sceFiberInitializeImpl*()
+proc _sceFiberInitializeImpl*() {.cdecl, importc: "_sceFiberInitializeImpl",
+                                  header: "orbis/Fiber.h".}
   ##  Empty Comment
-proc _sceFiberInitializeWithInternalOptionImpl*()
+proc _sceFiberInitializeWithInternalOptionImpl*() {.cdecl,
+    importc: "_sceFiberInitializeWithInternalOptionImpl",
+    header: "orbis/Fiber.h".}
   ##  Empty Comment
-proc sceFiberFinalize*()
+proc sceFiberFinalize*() {.cdecl, importc: "sceFiberFinalize",
+                           header: "orbis/Fiber.h".}
   ##  Empty Comment
-proc sceFiberGetInfo*()
+proc sceFiberGetInfo*() {.cdecl, importc: "sceFiberGetInfo",
+                          header: "orbis/Fiber.h".}
   ##  Empty Comment
-proc sceFiberGetSelf*()
+proc sceFiberGetSelf*() {.cdecl, importc: "sceFiberGetSelf",
+                          header: "orbis/Fiber.h".}
   ##  Empty Comment
-proc sceFiberOptParamInitialize*()
+proc sceFiberOptParamInitialize*() {.cdecl,
+                                     importc: "sceFiberOptParamInitialize",
+                                     header: "orbis/Fiber.h".}
   ##  Empty Comment
-proc sceFiberRename*()
+proc sceFiberRename*() {.cdecl, importc: "sceFiberRename",
+                         header: "orbis/Fiber.h".}
   ##  Empty Comment
-proc sceFiberReturnToThread*()
+proc sceFiberReturnToThread*() {.cdecl, importc: "sceFiberReturnToThread",
+                                 header: "orbis/Fiber.h".}
   ##  Empty Comment
-proc sceFiberRun*()
+proc sceFiberRun*() {.cdecl, importc: "sceFiberRun", header: "orbis/Fiber.h".}
   ##  Empty Comment
-proc sceFiberStartContextSizeCheck*()
+proc sceFiberStartContextSizeCheck*() {.cdecl, importc: "sceFiberStartContextSizeCheck",
+                                        header: "orbis/Fiber.h".}
   ##  Empty Comment
-proc sceFiberStopContextSizeCheck*()
+proc sceFiberStopContextSizeCheck*() {.cdecl,
+                                       importc: "sceFiberStopContextSizeCheck",
+                                       header: "orbis/Fiber.h".}
   ##  Empty Comment
-proc sceFiberSwitch*()
+proc sceFiberSwitch*() {.cdecl, importc: "sceFiberSwitch",
+                         header: "orbis/Fiber.h".}
   ##  Empty Comment

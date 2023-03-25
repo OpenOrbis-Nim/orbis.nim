@@ -1,22 +1,39 @@
-proc sceNpCommerceDialogClose*()
+proc sceNpCommerceDialogClose*() {.cdecl, importc: "sceNpCommerceDialogClose",
+                                   header: "orbis/NpCommerce.h".}
   ##  Empty Comment
-proc sceNpCommerceDialogGetResult*()
+proc sceNpCommerceDialogGetResult*() {.cdecl,
+                                       importc: "sceNpCommerceDialogGetResult",
+                                       header: "orbis/NpCommerce.h".}
   ##  Empty Comment
-proc sceNpCommerceDialogGetStatus*()
+proc sceNpCommerceDialogGetStatus*() {.cdecl,
+                                       importc: "sceNpCommerceDialogGetStatus",
+                                       header: "orbis/NpCommerce.h".}
   ##  Empty Comment
-proc sceNpCommerceDialogInitialize*()
+proc sceNpCommerceDialogInitialize*() {.cdecl, importc: "sceNpCommerceDialogInitialize",
+                                        header: "orbis/NpCommerce.h".}
   ##  Empty Comment
-proc sceNpCommerceDialogInitializeInternal*()
+proc sceNpCommerceDialogInitializeInternal*() {.cdecl,
+    importc: "sceNpCommerceDialogInitializeInternal",
+    header: "orbis/NpCommerce.h".}
   ##  Empty Comment
-proc sceNpCommerceDialogOpen*()
+proc sceNpCommerceDialogOpen*() {.cdecl, importc: "sceNpCommerceDialogOpen",
+                                  header: "orbis/NpCommerce.h".}
   ##  Empty Comment
-proc sceNpCommerceDialogTerminate*()
+proc sceNpCommerceDialogTerminate*() {.cdecl,
+                                       importc: "sceNpCommerceDialogTerminate",
+                                       header: "orbis/NpCommerce.h".}
   ##  Empty Comment
-proc sceNpCommerceDialogUpdateStatus*()
+proc sceNpCommerceDialogUpdateStatus*() {.cdecl,
+    importc: "sceNpCommerceDialogUpdateStatus", header: "orbis/NpCommerce.h".}
   ##  Empty Comment
-proc sceNpCommerceHidePsStoreIcon*()
+proc sceNpCommerceHidePsStoreIcon*() {.cdecl,
+                                       importc: "sceNpCommerceHidePsStoreIcon",
+                                       header: "orbis/NpCommerce.h".}
   ##  Empty Comment
-proc sceNpCommerceSetPsStoreIconLayout*()
+proc sceNpCommerceSetPsStoreIconLayout*() {.cdecl,
+    importc: "sceNpCommerceSetPsStoreIconLayout", header: "orbis/NpCommerce.h".}
   ##  Empty Comment
-proc sceNpCommerceShowPsStoreIcon*()
+proc sceNpCommerceShowPsStoreIcon*() {.cdecl,
+                                       importc: "sceNpCommerceShowPsStoreIcon",
+                                       header: "orbis/NpCommerce.h".}
   ##  Empty Comment

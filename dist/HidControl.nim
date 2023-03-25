@@ -1,14 +1,26 @@
-proc sceHidControlDisconnectPort*()
+proc sceHidControlDisconnectPort*() {.cdecl,
+                                      importc: "sceHidControlDisconnectPort",
+                                      header: "orbis/HidControl.h".}
   ##  Empty Comment
-proc sceHidControlGetBatteryState*()
+proc sceHidControlGetBatteryState*() {.cdecl,
+                                       importc: "sceHidControlGetBatteryState",
+                                       header: "orbis/HidControl.h".}
   ##  Empty Comment
-proc sceHidControlGetDeviceInfo*()
+proc sceHidControlGetDeviceInfo*() {.cdecl,
+                                     importc: "sceHidControlGetDeviceInfo",
+                                     header: "orbis/HidControl.h".}
   ##  Empty Comment
-proc sceHidControlGetDeviceName*()
+proc sceHidControlGetDeviceName*() {.cdecl,
+                                     importc: "sceHidControlGetDeviceName",
+                                     header: "orbis/HidControl.h".}
   ##  Empty Comment
-proc sceHidControlGetSparkState*()
+proc sceHidControlGetSparkState*() {.cdecl,
+                                     importc: "sceHidControlGetSparkState",
+                                     header: "orbis/HidControl.h".}
   ##  Empty Comment
-proc sceHidControlSetApplicationFocus*()
+proc sceHidControlSetApplicationFocus*() {.cdecl,
+    importc: "sceHidControlSetApplicationFocus", header: "orbis/HidControl.h".}
   ##  Empty Comment
-proc sceHidControlSetUserColor*()
+proc sceHidControlSetUserColor*() {.cdecl, importc: "sceHidControlSetUserColor",
+                                    header: "orbis/HidControl.h".}
   ##  Empty Comment

@@ -1,16 +1,28 @@
-proc sceNpProfileDialogClose*()
+proc sceNpProfileDialogClose*() {.cdecl, importc: "sceNpProfileDialogClose",
+                                  header: "orbis/NpProfileDialog.h".}
   ##  Empty Comment
-proc sceNpProfileDialogGetResult*()
+proc sceNpProfileDialogGetResult*() {.cdecl,
+                                      importc: "sceNpProfileDialogGetResult",
+                                      header: "orbis/NpProfileDialog.h".}
   ##  Empty Comment
-proc sceNpProfileDialogGetStatus*()
+proc sceNpProfileDialogGetStatus*() {.cdecl,
+                                      importc: "sceNpProfileDialogGetStatus",
+                                      header: "orbis/NpProfileDialog.h".}
   ##  Empty Comment
-proc sceNpProfileDialogInitialize*()
+proc sceNpProfileDialogInitialize*() {.cdecl,
+                                       importc: "sceNpProfileDialogInitialize",
+                                       header: "orbis/NpProfileDialog.h".}
   ##  Empty Comment
-proc sceNpProfileDialogOpen*()
+proc sceNpProfileDialogOpen*() {.cdecl, importc: "sceNpProfileDialogOpen",
+                                 header: "orbis/NpProfileDialog.h".}
   ##  Empty Comment
-proc sceNpProfileDialogOpenA*()
+proc sceNpProfileDialogOpenA*() {.cdecl, importc: "sceNpProfileDialogOpenA",
+                                  header: "orbis/NpProfileDialog.h".}
   ##  Empty Comment
-proc sceNpProfileDialogTerminate*()
+proc sceNpProfileDialogTerminate*() {.cdecl,
+                                      importc: "sceNpProfileDialogTerminate",
+                                      header: "orbis/NpProfileDialog.h".}
   ##  Empty Comment
-proc sceNpProfileDialogUpdateStatus*()
+proc sceNpProfileDialogUpdateStatus*() {.cdecl,
+    importc: "sceNpProfileDialogUpdateStatus", header: "orbis/NpProfileDialog.h".}
   ##  Empty Comment

@@ -1,414 +1,624 @@
 type
-  SslPem* {.bycopy.} = object
-    `ptr`*: cstring
-    size*: csize_t
+  SslPem* {.importc: "SslPem", header: "orbis/Ssl.h", bycopy.} = object
+    `ptr`* {.importc: "ptr".}: cstring
+    size* {.importc: "size".}: csize_t
 
 
-proc CA_MGMT_allocCertDistinguishedName*()
+proc CA_MGMT_allocCertDistinguishedName*() {.cdecl,
+    importc: "CA_MGMT_allocCertDistinguishedName", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CA_MGMT_certDistinguishedNameCompare*()
+proc CA_MGMT_certDistinguishedNameCompare*() {.cdecl,
+    importc: "CA_MGMT_certDistinguishedNameCompare", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CA_MGMT_convertKeyBlobToPKCS8Key*()
+proc CA_MGMT_convertKeyBlobToPKCS8Key*() {.cdecl,
+    importc: "CA_MGMT_convertKeyBlobToPKCS8Key", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CA_MGMT_convertKeyDER*()
+proc CA_MGMT_convertKeyDER*() {.cdecl, importc: "CA_MGMT_convertKeyDER",
+                                header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CA_MGMT_convertKeyPEM*()
+proc CA_MGMT_convertKeyPEM*() {.cdecl, importc: "CA_MGMT_convertKeyPEM",
+                                header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CA_MGMT_convertPKCS8KeyToKeyBlob*()
+proc CA_MGMT_convertPKCS8KeyToKeyBlob*() {.cdecl,
+    importc: "CA_MGMT_convertPKCS8KeyToKeyBlob", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CA_MGMT_convertProtectedPKCS8KeyToKeyBlob*()
+proc CA_MGMT_convertProtectedPKCS8KeyToKeyBlob*() {.cdecl,
+    importc: "CA_MGMT_convertProtectedPKCS8KeyToKeyBlob", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CA_MGMT_decodeCertificate*()
+proc CA_MGMT_decodeCertificate*() {.cdecl, importc: "CA_MGMT_decodeCertificate",
+                                    header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CA_MGMT_enumAltName*()
+proc CA_MGMT_enumAltName*() {.cdecl, importc: "CA_MGMT_enumAltName",
+                              header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CA_MGMT_enumCrl*()
+proc CA_MGMT_enumCrl*() {.cdecl, importc: "CA_MGMT_enumCrl",
+                          header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CA_MGMT_extractAllCertDistinguishedName*()
+proc CA_MGMT_extractAllCertDistinguishedName*() {.cdecl,
+    importc: "CA_MGMT_extractAllCertDistinguishedName", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CA_MGMT_extractBasicConstraint*()
+proc CA_MGMT_extractBasicConstraint*() {.cdecl,
+    importc: "CA_MGMT_extractBasicConstraint", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CA_MGMT_extractCertASN1Name*()
+proc CA_MGMT_extractCertASN1Name*() {.cdecl,
+                                      importc: "CA_MGMT_extractCertASN1Name",
+                                      header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CA_MGMT_extractCertTimes*()
+proc CA_MGMT_extractCertTimes*() {.cdecl, importc: "CA_MGMT_extractCertTimes",
+                                   header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CA_MGMT_extractKeyBlobEx*()
+proc CA_MGMT_extractKeyBlobEx*() {.cdecl, importc: "CA_MGMT_extractKeyBlobEx",
+                                   header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CA_MGMT_extractKeyBlobTypeEx*()
+proc CA_MGMT_extractKeyBlobTypeEx*() {.cdecl,
+                                       importc: "CA_MGMT_extractKeyBlobTypeEx",
+                                       header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CA_MGMT_extractPublicKeyInfo*()
+proc CA_MGMT_extractPublicKeyInfo*() {.cdecl,
+                                       importc: "CA_MGMT_extractPublicKeyInfo",
+                                       header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CA_MGMT_extractSerialNum*()
+proc CA_MGMT_extractSerialNum*() {.cdecl, importc: "CA_MGMT_extractSerialNum",
+                                   header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CA_MGMT_extractSignature*()
+proc CA_MGMT_extractSignature*() {.cdecl, importc: "CA_MGMT_extractSignature",
+                                   header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CA_MGMT_free*()
+proc CA_MGMT_free*() {.cdecl, importc: "CA_MGMT_free", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CA_MGMT_freeCertDistinguishedName*()
+proc CA_MGMT_freeCertDistinguishedName*() {.cdecl,
+    importc: "CA_MGMT_freeCertDistinguishedName", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CA_MGMT_freeCertDistinguishedNameOnStack*()
+proc CA_MGMT_freeCertDistinguishedNameOnStack*() {.cdecl,
+    importc: "CA_MGMT_freeCertDistinguishedNameOnStack", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CA_MGMT_freeCertificate*()
+proc CA_MGMT_freeCertificate*() {.cdecl, importc: "CA_MGMT_freeCertificate",
+                                  header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CA_MGMT_freeKeyBlob*()
+proc CA_MGMT_freeKeyBlob*() {.cdecl, importc: "CA_MGMT_freeKeyBlob",
+                              header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CA_MGMT_freeSearchDetails*()
+proc CA_MGMT_freeSearchDetails*() {.cdecl, importc: "CA_MGMT_freeSearchDetails",
+                                    header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CA_MGMT_getCertSignAlgoType*()
+proc CA_MGMT_getCertSignAlgoType*() {.cdecl,
+                                      importc: "CA_MGMT_getCertSignAlgoType",
+                                      header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CA_MGMT_keyBlobToDER*()
+proc CA_MGMT_keyBlobToDER*() {.cdecl, importc: "CA_MGMT_keyBlobToDER",
+                               header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CA_MGMT_keyBlobToPEM*()
+proc CA_MGMT_keyBlobToPEM*() {.cdecl, importc: "CA_MGMT_keyBlobToPEM",
+                               header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CA_MGMT_makeKeyBlobEx*()
+proc CA_MGMT_makeKeyBlobEx*() {.cdecl, importc: "CA_MGMT_makeKeyBlobEx",
+                                header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CA_MGMT_rawVerifyOID*()
+proc CA_MGMT_rawVerifyOID*() {.cdecl, importc: "CA_MGMT_rawVerifyOID",
+                               header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CA_MGMT_reorderChain*()
+proc CA_MGMT_reorderChain*() {.cdecl, importc: "CA_MGMT_reorderChain",
+                               header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CA_MGMT_returnCertificatePrints*()
+proc CA_MGMT_returnCertificatePrints*() {.cdecl,
+    importc: "CA_MGMT_returnCertificatePrints", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CA_MGMT_verifyCertWithKeyBlob*()
+proc CA_MGMT_verifyCertWithKeyBlob*() {.cdecl, importc: "CA_MGMT_verifyCertWithKeyBlob",
+                                        header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CA_MGMT_verifySignature*()
+proc CA_MGMT_verifySignature*() {.cdecl, importc: "CA_MGMT_verifySignature",
+                                  header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_checkCertificateIssuer*()
+proc CERT_checkCertificateIssuer*() {.cdecl,
+                                      importc: "CERT_checkCertificateIssuer",
+                                      header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_checkCertificateIssuer2*()
+proc CERT_checkCertificateIssuer2*() {.cdecl,
+                                       importc: "CERT_checkCertificateIssuer2",
+                                       header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_checkCertificateIssuerSerialNumber*()
+proc CERT_checkCertificateIssuerSerialNumber*() {.cdecl,
+    importc: "CERT_checkCertificateIssuerSerialNumber", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_CompSubjectAltNames*()
+proc CERT_CompSubjectAltNames*() {.cdecl, importc: "CERT_CompSubjectAltNames",
+                                   header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_CompSubjectAltNames2*()
+proc CERT_CompSubjectAltNames2*() {.cdecl, importc: "CERT_CompSubjectAltNames2",
+                                    header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_CompSubjectAltNamesExact*()
+proc CERT_CompSubjectAltNamesExact*() {.cdecl, importc: "CERT_CompSubjectAltNamesExact",
+                                        header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_CompSubjectCommonName*()
+proc CERT_CompSubjectCommonName*() {.cdecl,
+                                     importc: "CERT_CompSubjectCommonName",
+                                     header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_CompSubjectCommonName2*()
+proc CERT_CompSubjectCommonName2*() {.cdecl,
+                                      importc: "CERT_CompSubjectCommonName2",
+                                      header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_ComputeBufferHash*()
+proc CERT_ComputeBufferHash*() {.cdecl, importc: "CERT_ComputeBufferHash",
+                                 header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_decryptRSASignature*()
+proc CERT_decryptRSASignature*() {.cdecl, importc: "CERT_decryptRSASignature",
+                                   header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_decryptRSASignatureBuffer*()
+proc CERT_decryptRSASignatureBuffer*() {.cdecl,
+    importc: "CERT_decryptRSASignatureBuffer", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_enumerateAltName*()
+proc CERT_enumerateAltName*() {.cdecl, importc: "CERT_enumerateAltName",
+                                header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_enumerateAltName2*()
+proc CERT_enumerateAltName2*() {.cdecl, importc: "CERT_enumerateAltName2",
+                                 header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_enumerateCRL*()
+proc CERT_enumerateCRL*() {.cdecl, importc: "CERT_enumerateCRL",
+                            header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_enumerateCRL2*()
+proc CERT_enumerateCRL2*() {.cdecl, importc: "CERT_enumerateCRL2",
+                             header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_enumerateCRLAux*()
+proc CERT_enumerateCRLAux*() {.cdecl, importc: "CERT_enumerateCRLAux",
+                               header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_extractAllDistinguishedNames*()
+proc CERT_extractAllDistinguishedNames*() {.cdecl,
+    importc: "CERT_extractAllDistinguishedNames", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_extractDistinguishedNames*()
+proc CERT_extractDistinguishedNames*() {.cdecl,
+    importc: "CERT_extractDistinguishedNames", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_extractDistinguishedNames2*()
+proc CERT_extractDistinguishedNames2*() {.cdecl,
+    importc: "CERT_extractDistinguishedNames2", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_extractDistinguishedNamesFromName*()
+proc CERT_extractDistinguishedNamesFromName*() {.cdecl,
+    importc: "CERT_extractDistinguishedNamesFromName", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_extractRSAKey*()
+proc CERT_extractRSAKey*() {.cdecl, importc: "CERT_extractRSAKey",
+                             header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_extractSerialNum*()
+proc CERT_extractSerialNum*() {.cdecl, importc: "CERT_extractSerialNum",
+                                header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_extractSerialNum2*()
+proc CERT_extractSerialNum2*() {.cdecl, importc: "CERT_extractSerialNum2",
+                                 header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_extractValidityTime*()
+proc CERT_extractValidityTime*() {.cdecl, importc: "CERT_extractValidityTime",
+                                   header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_extractValidityTime2*()
+proc CERT_extractValidityTime2*() {.cdecl, importc: "CERT_extractValidityTime2",
+                                    header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_getCertExtension*()
+proc CERT_getCertExtension*() {.cdecl, importc: "CERT_getCertExtension",
+                                header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_getCertificateExtensions*()
+proc CERT_getCertificateExtensions*() {.cdecl, importc: "CERT_getCertificateExtensions",
+                                        header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_getCertificateExtensions2*()
+proc CERT_getCertificateExtensions2*() {.cdecl,
+    importc: "CERT_getCertificateExtensions2", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_getCertificateIssuerSerialNumber*()
+proc CERT_getCertificateIssuerSerialNumber*() {.cdecl,
+    importc: "CERT_getCertificateIssuerSerialNumber", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_getCertificateIssuerSerialNumber2*()
+proc CERT_getCertificateIssuerSerialNumber2*() {.cdecl,
+    importc: "CERT_getCertificateIssuerSerialNumber2", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_getCertificateKeyUsage*()
+proc CERT_getCertificateKeyUsage*() {.cdecl,
+                                      importc: "CERT_getCertificateKeyUsage",
+                                      header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_getCertificateKeyUsage2*()
+proc CERT_getCertificateKeyUsage2*() {.cdecl,
+                                       importc: "CERT_getCertificateKeyUsage2",
+                                       header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_getCertificateSubject*()
+proc CERT_getCertificateSubject*() {.cdecl,
+                                     importc: "CERT_getCertificateSubject",
+                                     header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_getCertificateSubject2*()
+proc CERT_getCertificateSubject2*() {.cdecl,
+                                      importc: "CERT_getCertificateSubject2",
+                                      header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_getCertSignAlgoType*()
+proc CERT_getCertSignAlgoType*() {.cdecl, importc: "CERT_getCertSignAlgoType",
+                                   header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_GetCertTime*()
+proc CERT_GetCertTime*() {.cdecl, importc: "CERT_GetCertTime",
+                           header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_getNumberOfChild*()
+proc CERT_getNumberOfChild*() {.cdecl, importc: "CERT_getNumberOfChild",
+                                header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_getRSASignatureAlgo*()
+proc CERT_getRSASignatureAlgo*() {.cdecl, importc: "CERT_getRSASignatureAlgo",
+                                   header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_getSignatureItem*()
+proc CERT_getSignatureItem*() {.cdecl, importc: "CERT_getSignatureItem",
+                                header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_getSubjectCommonName*()
+proc CERT_getSubjectCommonName*() {.cdecl, importc: "CERT_getSubjectCommonName",
+                                    header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_getSubjectCommonName2*()
+proc CERT_getSubjectCommonName2*() {.cdecl,
+                                     importc: "CERT_getSubjectCommonName2",
+                                     header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_isRootCertificate*()
+proc CERT_isRootCertificate*() {.cdecl, importc: "CERT_isRootCertificate",
+                                 header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_isRootCertificate2*()
+proc CERT_isRootCertificate2*() {.cdecl, importc: "CERT_isRootCertificate2",
+                                  header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_rawVerifyOID*()
+proc CERT_rawVerifyOID*() {.cdecl, importc: "CERT_rawVerifyOID",
+                            header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_rawVerifyOID2*()
+proc CERT_rawVerifyOID2*() {.cdecl, importc: "CERT_rawVerifyOID2",
+                             header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_setKeyFromSubjectPublicKeyInfo*()
+proc CERT_setKeyFromSubjectPublicKeyInfo*() {.cdecl,
+    importc: "CERT_setKeyFromSubjectPublicKeyInfo", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_setKeyFromSubjectPublicKeyInfoCert*()
+proc CERT_setKeyFromSubjectPublicKeyInfoCert*() {.cdecl,
+    importc: "CERT_setKeyFromSubjectPublicKeyInfoCert", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_STORE_addCertAuthority*()
+proc CERT_STORE_addCertAuthority*() {.cdecl,
+                                      importc: "CERT_STORE_addCertAuthority",
+                                      header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_STORE_addIdentity*()
+proc CERT_STORE_addIdentity*() {.cdecl, importc: "CERT_STORE_addIdentity",
+                                 header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_STORE_addIdentityNakedKey*()
+proc CERT_STORE_addIdentityNakedKey*() {.cdecl,
+    importc: "CERT_STORE_addIdentityNakedKey", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_STORE_addIdentityPSK*()
+proc CERT_STORE_addIdentityPSK*() {.cdecl, importc: "CERT_STORE_addIdentityPSK",
+                                    header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_STORE_addIdentityWithCertificateChain*()
+proc CERT_STORE_addIdentityWithCertificateChain*() {.cdecl,
+    importc: "CERT_STORE_addIdentityWithCertificateChain", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_STORE_addTrustPoint*()
+proc CERT_STORE_addTrustPoint*() {.cdecl, importc: "CERT_STORE_addTrustPoint",
+                                   header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_STORE_createStore*()
+proc CERT_STORE_createStore*() {.cdecl, importc: "CERT_STORE_createStore",
+                                 header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_STORE_findCertBySubject*()
+proc CERT_STORE_findCertBySubject*() {.cdecl,
+                                       importc: "CERT_STORE_findCertBySubject",
+                                       header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_STORE_findIdentityByTypeFirst*()
+proc CERT_STORE_findIdentityByTypeFirst*() {.cdecl,
+    importc: "CERT_STORE_findIdentityByTypeFirst", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_STORE_findIdentityByTypeNext*()
+proc CERT_STORE_findIdentityByTypeNext*() {.cdecl,
+    importc: "CERT_STORE_findIdentityByTypeNext", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_STORE_findIdentityCertChainFirst*()
+proc CERT_STORE_findIdentityCertChainFirst*() {.cdecl,
+    importc: "CERT_STORE_findIdentityCertChainFirst", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_STORE_findIdentityCertChainNext*()
+proc CERT_STORE_findIdentityCertChainNext*() {.cdecl,
+    importc: "CERT_STORE_findIdentityCertChainNext", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_STORE_findPskByIdentity*()
+proc CERT_STORE_findPskByIdentity*() {.cdecl,
+                                       importc: "CERT_STORE_findPskByIdentity",
+                                       header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_STORE_releaseStore*()
+proc CERT_STORE_releaseStore*() {.cdecl, importc: "CERT_STORE_releaseStore",
+                                  header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_STORE_traversePskListHead*()
+proc CERT_STORE_traversePskListHead*() {.cdecl,
+    importc: "CERT_STORE_traversePskListHead", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_STORE_traversePskListNext*()
+proc CERT_STORE_traversePskListNext*() {.cdecl,
+    importc: "CERT_STORE_traversePskListNext", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_validateCertificate*()
+proc CERT_validateCertificate*() {.cdecl, importc: "CERT_validateCertificate",
+                                   header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_validateCertificateWithConf*()
+proc CERT_validateCertificateWithConf*() {.cdecl,
+    importc: "CERT_validateCertificateWithConf", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_VerifyCertificatePolicies*()
+proc CERT_VerifyCertificatePolicies*() {.cdecl,
+    importc: "CERT_VerifyCertificatePolicies", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_VerifyCertificatePolicies2*()
+proc CERT_VerifyCertificatePolicies2*() {.cdecl,
+    importc: "CERT_VerifyCertificatePolicies2", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_verifySignature*()
+proc CERT_verifySignature*() {.cdecl, importc: "CERT_verifySignature",
+                               header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_VerifyValidityTime*()
+proc CERT_VerifyValidityTime*() {.cdecl, importc: "CERT_VerifyValidityTime",
+                                  header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_VerifyValidityTime2*()
+proc CERT_VerifyValidityTime2*() {.cdecl, importc: "CERT_VerifyValidityTime2",
+                                   header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CERT_VerifyValidityTimeWithConf*()
+proc CERT_VerifyValidityTimeWithConf*() {.cdecl,
+    importc: "CERT_VerifyValidityTimeWithConf", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CRYPTO_initAsymmetricKey*()
+proc CRYPTO_initAsymmetricKey*() {.cdecl, importc: "CRYPTO_initAsymmetricKey",
+                                   header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc CRYPTO_uninitAsymmetricKey*()
+proc CRYPTO_uninitAsymmetricKey*() {.cdecl,
+                                     importc: "CRYPTO_uninitAsymmetricKey",
+                                     header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc GC_createInstanceIDs*()
+proc GC_createInstanceIDs*() {.cdecl, importc: "GC_createInstanceIDs",
+                               header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc getCertSigAlgo*()
+proc getCertSigAlgo*() {.cdecl, importc: "getCertSigAlgo", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc MOCANA_freeMocana*()
+proc MOCANA_freeMocana*() {.cdecl, importc: "MOCANA_freeMocana",
+                            header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc MOCANA_initMocana*()
+proc MOCANA_initMocana*() {.cdecl, importc: "MOCANA_initMocana",
+                            header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc RSA_verifySignature*()
+proc RSA_verifySignature*() {.cdecl, importc: "RSA_verifySignature",
+                              header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc sceSslClose*()
+proc sceSslClose*() {.cdecl, importc: "sceSslClose", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc sceSslConnect*()
+proc sceSslConnect*() {.cdecl, importc: "sceSslConnect", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc sceSslCreateSslConnection*()
+proc sceSslCreateSslConnection*() {.cdecl, importc: "sceSslCreateSslConnection",
+                                    header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc sceSslDeleteSslConnection*()
+proc sceSslDeleteSslConnection*() {.cdecl, importc: "sceSslDeleteSslConnection",
+                                    header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc sceSslDisableOption*()
+proc sceSslDisableOption*() {.cdecl, importc: "sceSslDisableOption",
+                              header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc sceSslDisableOptionInternal*()
+proc sceSslDisableOptionInternal*() {.cdecl,
+                                      importc: "sceSslDisableOptionInternal",
+                                      header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc sceSslDisableOptionInternalInsecure*()
+proc sceSslDisableOptionInternalInsecure*() {.cdecl,
+    importc: "sceSslDisableOptionInternalInsecure", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc sceSslEnableOption*()
+proc sceSslEnableOption*() {.cdecl, importc: "sceSslEnableOption",
+                             header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc sceSslEnableOptionInternal*()
+proc sceSslEnableOptionInternal*() {.cdecl,
+                                     importc: "sceSslEnableOptionInternal",
+                                     header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc sceSslFreeCaCerts*()
+proc sceSslFreeCaCerts*() {.cdecl, importc: "sceSslFreeCaCerts",
+                            header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc sceSslFreeCaList*()
+proc sceSslFreeCaList*() {.cdecl, importc: "sceSslFreeCaList",
+                           header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc sceSslFreeSslCertName*()
+proc sceSslFreeSslCertName*() {.cdecl, importc: "sceSslFreeSslCertName",
+                                header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc sceSslGetCaCerts*()
+proc sceSslGetCaCerts*() {.cdecl, importc: "sceSslGetCaCerts",
+                           header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc sceSslGetCaList*()
+proc sceSslGetCaList*() {.cdecl, importc: "sceSslGetCaList",
+                          header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc sceSslGetIssuerName*()
+proc sceSslGetIssuerName*() {.cdecl, importc: "sceSslGetIssuerName",
+                              header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc sceSslGetMemoryPoolStats*()
+proc sceSslGetMemoryPoolStats*() {.cdecl, importc: "sceSslGetMemoryPoolStats",
+                                   header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc sceSslGetNameEntryCount*()
+proc sceSslGetNameEntryCount*() {.cdecl, importc: "sceSslGetNameEntryCount",
+                                  header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc sceSslGetNameEntryInfo*()
+proc sceSslGetNameEntryInfo*() {.cdecl, importc: "sceSslGetNameEntryInfo",
+                                 header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc sceSslGetNanoSSLModuleId*()
+proc sceSslGetNanoSSLModuleId*() {.cdecl, importc: "sceSslGetNanoSSLModuleId",
+                                   header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc sceSslGetNotAfter*()
+proc sceSslGetNotAfter*() {.cdecl, importc: "sceSslGetNotAfter",
+                            header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc sceSslGetNotBefore*()
+proc sceSslGetNotBefore*() {.cdecl, importc: "sceSslGetNotBefore",
+                             header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc sceSslGetSerialNumber*()
+proc sceSslGetSerialNumber*() {.cdecl, importc: "sceSslGetSerialNumber",
+                                header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc sceSslGetSslError*()
+proc sceSslGetSslError*() {.cdecl, importc: "sceSslGetSslError",
+                            header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc sceSslGetSubjectName*()
+proc sceSslGetSubjectName*() {.cdecl, importc: "sceSslGetSubjectName",
+                               header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc sceSslInit*(poolSize: csize_t): cint
+proc sceSslInit*(poolSize: csize_t): cint {.cdecl, importc: "sceSslInit",
+    header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc sceSslLoadCert*()
+proc sceSslLoadCert*() {.cdecl, importc: "sceSslLoadCert", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc sceSslLoadRootCACert*()
+proc sceSslLoadRootCACert*() {.cdecl, importc: "sceSslLoadRootCACert",
+                               header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc sceSslRecv*()
+proc sceSslRecv*() {.cdecl, importc: "sceSslRecv", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc sceSslSend*()
+proc sceSslSend*() {.cdecl, importc: "sceSslSend", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc sceSslSetSslVersion*()
+proc sceSslSetSslVersion*() {.cdecl, importc: "sceSslSetSslVersion",
+                              header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc sceSslSetVerifyCallback*()
+proc sceSslSetVerifyCallback*() {.cdecl, importc: "sceSslSetVerifyCallback",
+                                  header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc sceSslShowMemoryStat*()
+proc sceSslShowMemoryStat*() {.cdecl, importc: "sceSslShowMemoryStat",
+                               header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc sceSslTerm*()
+proc sceSslTerm*() {.cdecl, importc: "sceSslTerm", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc sceSslUnloadCert*()
+proc sceSslUnloadCert*() {.cdecl, importc: "sceSslUnloadCert",
+                           header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_acceptConnection*()
+proc SSL_acceptConnection*() {.cdecl, importc: "SSL_acceptConnection",
+                               header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_acceptConnectionCommon*()
+proc SSL_acceptConnectionCommon*() {.cdecl,
+                                     importc: "SSL_acceptConnectionCommon",
+                                     header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_assignCertificateStore*()
+proc SSL_assignCertificateStore*() {.cdecl,
+                                     importc: "SSL_assignCertificateStore",
+                                     header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_ASYNC_acceptConnection*()
+proc SSL_ASYNC_acceptConnection*() {.cdecl,
+                                     importc: "SSL_ASYNC_acceptConnection",
+                                     header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_ASYNC_closeConnection*()
+proc SSL_ASYNC_closeConnection*() {.cdecl, importc: "SSL_ASYNC_closeConnection",
+                                    header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_ASYNC_connect*()
+proc SSL_ASYNC_connect*() {.cdecl, importc: "SSL_ASYNC_connect",
+                            header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_ASYNC_connectCommon*()
+proc SSL_ASYNC_connectCommon*() {.cdecl, importc: "SSL_ASYNC_connectCommon",
+                                  header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_ASYNC_getRecvBuffer*()
+proc SSL_ASYNC_getRecvBuffer*() {.cdecl, importc: "SSL_ASYNC_getRecvBuffer",
+                                  header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_ASYNC_getSendBuffer*()
+proc SSL_ASYNC_getSendBuffer*() {.cdecl, importc: "SSL_ASYNC_getSendBuffer",
+                                  header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_ASYNC_init*()
+proc SSL_ASYNC_init*() {.cdecl, importc: "SSL_ASYNC_init", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_ASYNC_initServer*()
+proc SSL_ASYNC_initServer*() {.cdecl, importc: "SSL_ASYNC_initServer",
+                               header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_ASYNC_recvMessage*()
+proc SSL_ASYNC_recvMessage*() {.cdecl, importc: "SSL_ASYNC_recvMessage",
+                                header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_ASYNC_recvMessage2*()
+proc SSL_ASYNC_recvMessage2*() {.cdecl, importc: "SSL_ASYNC_recvMessage2",
+                                 header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_ASYNC_sendMessage*()
+proc SSL_ASYNC_sendMessage*() {.cdecl, importc: "SSL_ASYNC_sendMessage",
+                                header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_ASYNC_sendMessagePending*()
+proc SSL_ASYNC_sendMessagePending*() {.cdecl,
+                                       importc: "SSL_ASYNC_sendMessagePending",
+                                       header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_ASYNC_start*()
+proc SSL_ASYNC_start*() {.cdecl, importc: "SSL_ASYNC_start",
+                          header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_closeConnection*()
+proc SSL_closeConnection*() {.cdecl, importc: "SSL_closeConnection",
+                              header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_connect*()
+proc SSL_connect*() {.cdecl, importc: "SSL_connect", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_connectWithCfgParam*()
+proc SSL_connectWithCfgParam*() {.cdecl, importc: "SSL_connectWithCfgParam",
+                                  header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_enableCiphers*()
+proc SSL_enableCiphers*() {.cdecl, importc: "SSL_enableCiphers",
+                            header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_findConnectionInstance*()
+proc SSL_findConnectionInstance*() {.cdecl,
+                                     importc: "SSL_findConnectionInstance",
+                                     header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_getCipherInfo*()
+proc SSL_getCipherInfo*() {.cdecl, importc: "SSL_getCipherInfo",
+                            header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_getClientRandom*()
+proc SSL_getClientRandom*() {.cdecl, importc: "SSL_getClientRandom",
+                              header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_getClientSessionInfo*()
+proc SSL_getClientSessionInfo*() {.cdecl, importc: "SSL_getClientSessionInfo",
+                                   header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_getCookie*()
+proc SSL_getCookie*() {.cdecl, importc: "SSL_getCookie", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_getInstanceFromSocket*()
+proc SSL_getInstanceFromSocket*() {.cdecl, importc: "SSL_getInstanceFromSocket",
+                                    header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_getNextSessionId*()
+proc SSL_getNextSessionId*() {.cdecl, importc: "SSL_getNextSessionId",
+                               header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_getServerRandom*()
+proc SSL_getServerRandom*() {.cdecl, importc: "SSL_getServerRandom",
+                              header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_getSessionCache*()
+proc SSL_getSessionCache*() {.cdecl, importc: "SSL_getSessionCache",
+                              header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_getSessionFlags*()
+proc SSL_getSessionFlags*() {.cdecl, importc: "SSL_getSessionFlags",
+                              header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_getSessionInfo*()
+proc SSL_getSessionInfo*() {.cdecl, importc: "SSL_getSessionInfo",
+                             header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_getSessionStatus*()
+proc SSL_getSessionStatus*() {.cdecl, importc: "SSL_getSessionStatus",
+                               header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_getSocketId*()
+proc SSL_getSocketId*() {.cdecl, importc: "SSL_getSocketId",
+                          header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_getSSLTLSVersion*()
+proc SSL_getSSLTLSVersion*() {.cdecl, importc: "SSL_getSSLTLSVersion",
+                               header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_init*()
+proc SSL_init*() {.cdecl, importc: "SSL_init", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_initiateRehandshake*()
+proc SSL_initiateRehandshake*() {.cdecl, importc: "SSL_initiateRehandshake",
+                                  header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_initServerCert*()
+proc SSL_initServerCert*() {.cdecl, importc: "SSL_initServerCert",
+                             header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_ioctl*()
+proc SSL_ioctl*() {.cdecl, importc: "SSL_ioctl", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_isSessionSSL*()
+proc SSL_isSessionSSL*() {.cdecl, importc: "SSL_isSessionSSL",
+                           header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_lockSessionCacheMutex*()
+proc SSL_lockSessionCacheMutex*() {.cdecl, importc: "SSL_lockSessionCacheMutex",
+                                    header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_lookupAlert*()
+proc SSL_lookupAlert*() {.cdecl, importc: "SSL_lookupAlert",
+                          header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_negotiateConnection*()
+proc SSL_negotiateConnection*() {.cdecl, importc: "SSL_negotiateConnection",
+                                  header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_recv*()
+proc SSL_recv*() {.cdecl, importc: "SSL_recv", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_recvPending*()
+proc SSL_recvPending*() {.cdecl, importc: "SSL_recvPending",
+                          header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_releaseTables*()
+proc SSL_releaseTables*() {.cdecl, importc: "SSL_releaseTables",
+                            header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_retrieveServerNameList*()
+proc SSL_retrieveServerNameList*() {.cdecl,
+                                     importc: "SSL_retrieveServerNameList",
+                                     header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_rngFun*()
+proc SSL_rngFun*() {.cdecl, importc: "SSL_rngFun", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_send*()
+proc SSL_send*() {.cdecl, importc: "SSL_send", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_sendAlert*()
+proc SSL_sendAlert*() {.cdecl, importc: "SSL_sendAlert", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_sendPending*()
+proc SSL_sendPending*() {.cdecl, importc: "SSL_sendPending",
+                          header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_setCookie*()
+proc SSL_setCookie*() {.cdecl, importc: "SSL_setCookie", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_setServerCert*()
+proc SSL_setServerCert*() {.cdecl, importc: "SSL_setServerCert",
+                            header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_setServerNameList*()
+proc SSL_setServerNameList*() {.cdecl, importc: "SSL_setServerNameList",
+                                header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_setSessionFlags*()
+proc SSL_setSessionFlags*() {.cdecl, importc: "SSL_setSessionFlags",
+                              header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_shutdown*()
+proc SSL_shutdown*() {.cdecl, importc: "SSL_shutdown", header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_sslSettings*()
+proc SSL_sslSettings*() {.cdecl, importc: "SSL_sslSettings",
+                          header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc SSL_validateCertParam*()
+proc SSL_validateCertParam*() {.cdecl, importc: "SSL_validateCertParam",
+                                header: "orbis/Ssl.h".}
   ##  Empty Comment
-proc VLONG_freeVlongQueue*()
+proc VLONG_freeVlongQueue*() {.cdecl, importc: "VLONG_freeVlongQueue",
+                               header: "orbis/Ssl.h".}
   ##  Empty Comment

@@ -1,12 +1,18 @@
-proc scePadTrackerCalibrate*()
+proc scePadTrackerCalibrate*() {.cdecl, importc: "scePadTrackerCalibrate",
+                                 header: "orbis/PadTracker.h".}
   ##  Empty Comment
-proc scePadTrackerGetWorkingMemorySize*()
+proc scePadTrackerGetWorkingMemorySize*() {.cdecl,
+    importc: "scePadTrackerGetWorkingMemorySize", header: "orbis/PadTracker.h".}
   ##  Empty Comment
-proc scePadTrackerInit*()
+proc scePadTrackerInit*() {.cdecl, importc: "scePadTrackerInit",
+                            header: "orbis/PadTracker.h".}
   ##  Empty Comment
-proc scePadTrackerReadState*()
+proc scePadTrackerReadState*() {.cdecl, importc: "scePadTrackerReadState",
+                                 header: "orbis/PadTracker.h".}
   ##  Empty Comment
-proc scePadTrackerTerm*()
+proc scePadTrackerTerm*() {.cdecl, importc: "scePadTrackerTerm",
+                            header: "orbis/PadTracker.h".}
   ##  Empty Comment
-proc scePadTrackerUpdate*()
+proc scePadTrackerUpdate*() {.cdecl, importc: "scePadTrackerUpdate",
+                              header: "orbis/PadTracker.h".}
   ##  Empty Comment

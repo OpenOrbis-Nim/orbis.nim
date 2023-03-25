@@ -1,18 +1,29 @@
-proc sceUsbStorageGetDeviceInfo*()
+proc sceUsbStorageGetDeviceInfo*() {.cdecl,
+                                     importc: "sceUsbStorageGetDeviceInfo",
+                                     header: "orbis/UsbStorage.h".}
   ##  Empty Comment
-proc sceUsbStorageGetDeviceList*()
+proc sceUsbStorageGetDeviceList*() {.cdecl,
+                                     importc: "sceUsbStorageGetDeviceList",
+                                     header: "orbis/UsbStorage.h".}
   ##  Empty Comment
-proc sceUsbStorageInit*()
+proc sceUsbStorageInit*() {.cdecl, importc: "sceUsbStorageInit",
+                            header: "orbis/UsbStorage.h".}
   ##  Empty Comment
-proc sceUsbStorageIsExist*()
+proc sceUsbStorageIsExist*() {.cdecl, importc: "sceUsbStorageIsExist",
+                               header: "orbis/UsbStorage.h".}
   ##  Empty Comment
-proc sceUsbStorageRegisterCallback*()
+proc sceUsbStorageRegisterCallback*() {.cdecl, importc: "sceUsbStorageRegisterCallback",
+                                        header: "orbis/UsbStorage.h".}
   ##  Empty Comment
-proc sceUsbStorageRequestMap*()
+proc sceUsbStorageRequestMap*() {.cdecl, importc: "sceUsbStorageRequestMap",
+                                  header: "orbis/UsbStorage.h".}
   ##  Empty Comment
-proc sceUsbStorageRequestUnmap*()
+proc sceUsbStorageRequestUnmap*() {.cdecl, importc: "sceUsbStorageRequestUnmap",
+                                    header: "orbis/UsbStorage.h".}
   ##  Empty Comment
-proc sceUsbStorageTerm*()
+proc sceUsbStorageTerm*() {.cdecl, importc: "sceUsbStorageTerm",
+                            header: "orbis/UsbStorage.h".}
   ##  Empty Comment
-proc sceUsbStorageUnregisterCallback*()
+proc sceUsbStorageUnregisterCallback*() {.cdecl,
+    importc: "sceUsbStorageUnregisterCallback", header: "orbis/UsbStorage.h".}
   ##  Empty Comment

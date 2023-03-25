@@ -57,18 +57,20 @@ const
   ORBIS_KEYBOARD_CHAR_RETURN* = '\n'
 
 type
-  OrbisKeyboardData* {.bycopy.} = object
-    timestamp*: cuint        ##  microseconds XXX: is it 64-bit?
-    padding*: array[12, uint8]
-    unk1*: cint              ##  always 1
-    nkeys*: cint
-    locks*: uint32           ##  num lock, caps lock, scroll lock
-    mods*: uint32
-    keycodes*: array[32, uint16]
+  OrbisKeyboardData* {.importc: "OrbisKeyboardData",
+                       header: "orbis/_types/keyboard.h", bycopy.} = object
+    timestamp* {.importc: "timestamp".}: cuint ##  microseconds XXX: is it 64-bit?
+    padding* {.importc: "padding".}: array[12, uint8]
+    unk1* {.importc: "unk1".}: cint ##  always 1
+    nkeys* {.importc: "nkeys".}: cint
+    locks* {.importc: "locks".}: uint32 ##  num lock, caps lock, scroll lock
+    mods* {.importc: "mods".}: uint32
+    keycodes* {.importc: "keycodes".}: array[32, uint16]
 
-  OrbisKeyboardKey2Char* {.bycopy.} = object
-    ok*: cint
-    ok2*: cint               ## wtf it is
-    keycode*: cint
-    unk*: array[8, char]     ## zeros
+  OrbisKeyboardKey2Char* {.importc: "OrbisKeyboardKey2Char",
+                           header: "orbis/_types/keyboard.h", bycopy.} = object
+    ok* {.importc: "ok".}: cint
+    ok2* {.importc: "ok2".}: cint ## wtf it is
+    keycode* {.importc: "keycode".}: cint
+    unk* {.importc: "unk".}: array[8, char] ## zeros
 

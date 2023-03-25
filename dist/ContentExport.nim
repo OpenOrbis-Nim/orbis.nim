@@ -1,20 +1,33 @@
-proc sceContentExportCancel*()
+proc sceContentExportCancel*() {.cdecl, importc: "sceContentExportCancel",
+                                 header: "orbis/ContentExport.h".}
   ##  Empty Comment
-proc sceContentExportFinish*()
+proc sceContentExportFinish*() {.cdecl, importc: "sceContentExportFinish",
+                                 header: "orbis/ContentExport.h".}
   ##  Empty Comment
-proc sceContentExportFromData*()
+proc sceContentExportFromData*() {.cdecl, importc: "sceContentExportFromData",
+                                   header: "orbis/ContentExport.h".}
   ##  Empty Comment
-proc sceContentExportFromDataWithThumbnail*()
+proc sceContentExportFromDataWithThumbnail*() {.cdecl,
+    importc: "sceContentExportFromDataWithThumbnail",
+    header: "orbis/ContentExport.h".}
   ##  Empty Comment
-proc sceContentExportFromFile*()
+proc sceContentExportFromFile*() {.cdecl, importc: "sceContentExportFromFile",
+                                   header: "orbis/ContentExport.h".}
   ##  Empty Comment
-proc sceContentExportFromFileWithThumbnail*()
+proc sceContentExportFromFileWithThumbnail*() {.cdecl,
+    importc: "sceContentExportFromFileWithThumbnail",
+    header: "orbis/ContentExport.h".}
   ##  Empty Comment
-proc sceContentExportGetProgress*()
+proc sceContentExportGetProgress*() {.cdecl,
+                                      importc: "sceContentExportGetProgress",
+                                      header: "orbis/ContentExport.h".}
   ##  Empty Comment
-proc sceContentExportInit*()
+proc sceContentExportInit*() {.cdecl, importc: "sceContentExportInit",
+                               header: "orbis/ContentExport.h".}
   ##  Empty Comment
-proc sceContentExportStart*()
+proc sceContentExportStart*() {.cdecl, importc: "sceContentExportStart",
+                                header: "orbis/ContentExport.h".}
   ##  Empty Comment
-proc sceContentExportTerm*()
+proc sceContentExportTerm*() {.cdecl, importc: "sceContentExportTerm",
+                               header: "orbis/ContentExport.h".}
   ##  Empty Comment

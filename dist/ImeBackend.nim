@@ -1,22 +1,37 @@
-proc sceImeBackendAllConfirm*()
+proc sceImeBackendAllConfirm*() {.cdecl, importc: "sceImeBackendAllConfirm",
+                                  header: "orbis/ImeBackend.h".}
   ##  Empty Comment
-proc sceImeBackendClose*()
+proc sceImeBackendClose*() {.cdecl, importc: "sceImeBackendClose",
+                             header: "orbis/ImeBackend.h".}
   ##  Empty Comment
-proc sceImeBackendConvertBackward*()
+proc sceImeBackendConvertBackward*() {.cdecl,
+                                       importc: "sceImeBackendConvertBackward",
+                                       header: "orbis/ImeBackend.h".}
   ##  Empty Comment
-proc sceImeBackendDeleteCharacter*()
+proc sceImeBackendDeleteCharacter*() {.cdecl,
+                                       importc: "sceImeBackendDeleteCharacter",
+                                       header: "orbis/ImeBackend.h".}
   ##  Empty Comment
-proc sceImeBackendEnterCharacter*()
+proc sceImeBackendEnterCharacter*() {.cdecl,
+                                      importc: "sceImeBackendEnterCharacter",
+                                      header: "orbis/ImeBackend.h".}
   ##  Empty Comment
-proc sceImeBackendGetCandidateList*()
+proc sceImeBackendGetCandidateList*() {.cdecl, importc: "sceImeBackendGetCandidateList",
+                                        header: "orbis/ImeBackend.h".}
   ##  Empty Comment
-proc sceImeBackendGetCaretIndex*()
+proc sceImeBackendGetCaretIndex*() {.cdecl,
+                                     importc: "sceImeBackendGetCaretIndex",
+                                     header: "orbis/ImeBackend.h".}
   ##  Empty Comment
-proc sceImeBackendGetConfirmString*()
+proc sceImeBackendGetConfirmString*() {.cdecl, importc: "sceImeBackendGetConfirmString",
+                                        header: "orbis/ImeBackend.h".}
   ##  Empty Comment
-proc sceImeBackendGetConvertString*()
+proc sceImeBackendGetConvertString*() {.cdecl, importc: "sceImeBackendGetConvertString",
+                                        header: "orbis/ImeBackend.h".}
   ##  Empty Comment
-proc sceImeBackendGetString*()
+proc sceImeBackendGetString*() {.cdecl, importc: "sceImeBackendGetString",
+                                 header: "orbis/ImeBackend.h".}
   ##  Empty Comment
-proc sceImeBackendPartConfirm*()
+proc sceImeBackendPartConfirm*() {.cdecl, importc: "sceImeBackendPartConfirm",
+                                   header: "orbis/ImeBackend.h".}
   ##  Empty Comment

@@ -1,16 +1,25 @@
-proc scePsmUtilFinalize*()
+proc scePsmUtilFinalize*() {.cdecl, importc: "scePsmUtilFinalize",
+                             header: "orbis/PsmUtil.h".}
   ##  Empty Comment
-proc scePsmUtilGetDebugAssetManagerSize*()
+proc scePsmUtilGetDebugAssetManagerSize*() {.cdecl,
+    importc: "scePsmUtilGetDebugAssetManagerSize", header: "orbis/PsmUtil.h".}
   ##  Empty Comment
-proc scePsmUtilGetEmojiAssetManagerSize*()
+proc scePsmUtilGetEmojiAssetManagerSize*() {.cdecl,
+    importc: "scePsmUtilGetEmojiAssetManagerSize", header: "orbis/PsmUtil.h".}
   ##  Empty Comment
-proc scePsmUtilGetHighResoImageAssetManagerSize*()
+proc scePsmUtilGetHighResoImageAssetManagerSize*() {.cdecl,
+    importc: "scePsmUtilGetHighResoImageAssetManagerSize",
+    header: "orbis/PsmUtil.h".}
   ##  Empty Comment
-proc scePsmUtilGetLabelAssetManagerSize*()
+proc scePsmUtilGetLabelAssetManagerSize*() {.cdecl,
+    importc: "scePsmUtilGetLabelAssetManagerSize", header: "orbis/PsmUtil.h".}
   ##  Empty Comment
-proc scePsmUtilGetOffscreenAssetManagerSize*()
+proc scePsmUtilGetOffscreenAssetManagerSize*() {.cdecl,
+    importc: "scePsmUtilGetOffscreenAssetManagerSize", header: "orbis/PsmUtil.h".}
   ##  Empty Comment
-proc scePsmUtilGetSystemAssetManagerSize*()
+proc scePsmUtilGetSystemAssetManagerSize*() {.cdecl,
+    importc: "scePsmUtilGetSystemAssetManagerSize", header: "orbis/PsmUtil.h".}
   ##  Empty Comment
-proc scePsmUtilInitialize*()
+proc scePsmUtilInitialize*() {.cdecl, importc: "scePsmUtilInitialize",
+                               header: "orbis/PsmUtil.h".}
   ##  Empty Comment

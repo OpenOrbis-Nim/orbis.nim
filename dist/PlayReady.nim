@@ -1,60 +1,98 @@
-proc scePlayReadyApiStart*()
+proc scePlayReadyApiStart*() {.cdecl, importc: "scePlayReadyApiStart",
+                               header: "orbis/PlayReady.h".}
   ##  Empty Comment
-proc scePlayReadyApiStop*()
+proc scePlayReadyApiStop*() {.cdecl, importc: "scePlayReadyApiStop",
+                              header: "orbis/PlayReady.h".}
   ##  Empty Comment
-proc scePlayReadyBufferFree*()
+proc scePlayReadyBufferFree*() {.cdecl, importc: "scePlayReadyBufferFree",
+                                 header: "orbis/PlayReady.h".}
   ##  Empty Comment
-proc scePlayReadyBufferMalloc*()
+proc scePlayReadyBufferMalloc*() {.cdecl, importc: "scePlayReadyBufferMalloc",
+                                   header: "orbis/PlayReady.h".}
   ##  Empty Comment
-proc scePlayReadyContentGetProperty*()
+proc scePlayReadyContentGetProperty*() {.cdecl,
+    importc: "scePlayReadyContentGetProperty", header: "orbis/PlayReady.h".}
   ##  Empty Comment
-proc scePlayReadyContentSetProperty*()
+proc scePlayReadyContentSetProperty*() {.cdecl,
+    importc: "scePlayReadyContentSetProperty", header: "orbis/PlayReady.h".}
   ##  Empty Comment
-proc scePlayReadyDomainCertEnumInit*()
+proc scePlayReadyDomainCertEnumInit*() {.cdecl,
+    importc: "scePlayReadyDomainCertEnumInit", header: "orbis/PlayReady.h".}
   ##  Empty Comment
-proc scePlayReadyDomainCertEnumNext*()
+proc scePlayReadyDomainCertEnumNext*() {.cdecl,
+    importc: "scePlayReadyDomainCertEnumNext", header: "orbis/PlayReady.h".}
   ##  Empty Comment
-proc scePlayReadyDomainJoinGenerateChallenge*()
+proc scePlayReadyDomainJoinGenerateChallenge*() {.cdecl,
+    importc: "scePlayReadyDomainJoinGenerateChallenge",
+    header: "orbis/PlayReady.h".}
   ##  Empty Comment
-proc scePlayReadyDomainJoinProcessResponse*()
+proc scePlayReadyDomainJoinProcessResponse*() {.cdecl,
+    importc: "scePlayReadyDomainJoinProcessResponse",
+    header: "orbis/PlayReady.h".}
   ##  Empty Comment
-proc scePlayReadyDomainLeaveGenerateChallenge*()
+proc scePlayReadyDomainLeaveGenerateChallenge*() {.cdecl,
+    importc: "scePlayReadyDomainLeaveGenerateChallenge",
+    header: "orbis/PlayReady.h".}
   ##  Empty Comment
-proc scePlayReadyDomainLeaveProcessResponse*()
+proc scePlayReadyDomainLeaveProcessResponse*() {.cdecl,
+    importc: "scePlayReadyDomainLeaveProcessResponse",
+    header: "orbis/PlayReady.h".}
   ##  Empty Comment
-proc scePlayReadyFinalize*()
+proc scePlayReadyFinalize*() {.cdecl, importc: "scePlayReadyFinalize",
+                               header: "orbis/PlayReady.h".}
   ##  Empty Comment
-proc scePlayReadyFreeDecryptContext*()
+proc scePlayReadyFreeDecryptContext*() {.cdecl,
+    importc: "scePlayReadyFreeDecryptContext", header: "orbis/PlayReady.h".}
   ##  Empty Comment
-proc scePlayReadyInitialize*()
+proc scePlayReadyInitialize*() {.cdecl, importc: "scePlayReadyInitialize",
+                                 header: "orbis/PlayReady.h".}
   ##  Empty Comment
-proc scePlayReadyInitializeInitParams*()
+proc scePlayReadyInitializeInitParams*() {.cdecl,
+    importc: "scePlayReadyInitializeInitParams", header: "orbis/PlayReady.h".}
   ##  Empty Comment
-proc scePlayReadyLicenseAcqGenerateAck*()
+proc scePlayReadyLicenseAcqGenerateAck*() {.cdecl,
+    importc: "scePlayReadyLicenseAcqGenerateAck", header: "orbis/PlayReady.h".}
   ##  Empty Comment
-proc scePlayReadyLicenseAcqGenerateChallenge*()
+proc scePlayReadyLicenseAcqGenerateChallenge*() {.cdecl,
+    importc: "scePlayReadyLicenseAcqGenerateChallenge",
+    header: "orbis/PlayReady.h".}
   ##  Empty Comment
-proc scePlayReadyLicenseAcqGetAdditionalResponseData*()
+proc scePlayReadyLicenseAcqGetAdditionalResponseData*() {.cdecl,
+    importc: "scePlayReadyLicenseAcqGetAdditionalResponseData",
+    header: "orbis/PlayReady.h".}
   ##  Empty Comment
-proc scePlayReadyLicenseAcqProcessAckResponse*()
+proc scePlayReadyLicenseAcqProcessAckResponse*() {.cdecl,
+    importc: "scePlayReadyLicenseAcqProcessAckResponse",
+    header: "orbis/PlayReady.h".}
   ##  Empty Comment
-proc scePlayReadyLicenseAcqProcessResponse*()
+proc scePlayReadyLicenseAcqProcessResponse*() {.cdecl,
+    importc: "scePlayReadyLicenseAcqProcessResponse",
+    header: "orbis/PlayReady.h".}
   ##  Empty Comment
-proc scePlayReadyMemAlloc*()
+proc scePlayReadyMemAlloc*() {.cdecl, importc: "scePlayReadyMemAlloc",
+                               header: "orbis/PlayReady.h".}
   ##  Empty Comment
-proc scePlayReadyMemFree*()
+proc scePlayReadyMemFree*() {.cdecl, importc: "scePlayReadyMemFree",
+                              header: "orbis/PlayReady.h".}
   ##  Empty Comment
-proc scePlayReadyMemRealloc*()
+proc scePlayReadyMemRealloc*() {.cdecl, importc: "scePlayReadyMemRealloc",
+                                 header: "orbis/PlayReady.h".}
   ##  Empty Comment
-proc scePlayReadyNewDecryptContext*()
+proc scePlayReadyNewDecryptContext*() {.cdecl, importc: "scePlayReadyNewDecryptContext",
+                                        header: "orbis/PlayReady.h".}
   ##  Empty Comment
-proc scePlayReadyReaderBind*()
+proc scePlayReadyReaderBind*() {.cdecl, importc: "scePlayReadyReaderBind",
+                                 header: "orbis/PlayReady.h".}
   ##  Empty Comment
-proc scePlayReadyReaderCommit*()
+proc scePlayReadyReaderCommit*() {.cdecl, importc: "scePlayReadyReaderCommit",
+                                   header: "orbis/PlayReady.h".}
   ##  Empty Comment
-proc scePlayReadyReaderDecrypt*()
+proc scePlayReadyReaderDecrypt*() {.cdecl, importc: "scePlayReadyReaderDecrypt",
+                                    header: "orbis/PlayReady.h".}
   ##  Empty Comment
-proc scePlayReadyReset*()
+proc scePlayReadyReset*() {.cdecl, importc: "scePlayReadyReset",
+                            header: "orbis/PlayReady.h".}
   ##  Empty Comment
-proc scePlayReadyStoreCleanup*()
+proc scePlayReadyStoreCleanup*() {.cdecl, importc: "scePlayReadyStoreCleanup",
+                                   header: "orbis/PlayReady.h".}
   ##  Empty Comment

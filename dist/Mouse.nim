@@ -1,10 +1,11 @@
-proc sceMouseClose*()
+proc sceMouseClose*() {.cdecl, importc: "sceMouseClose", header: "orbis/Mouse.h".}
   ##  Empty Comment
-proc sceMouseInit*()
+proc sceMouseInit*() {.cdecl, importc: "sceMouseInit", header: "orbis/Mouse.h".}
   ##  Empty Comment
-proc sceMouseOpen*()
+proc sceMouseOpen*() {.cdecl, importc: "sceMouseOpen", header: "orbis/Mouse.h".}
   ##  Empty Comment
-proc sceMouseRead*()
+proc sceMouseRead*() {.cdecl, importc: "sceMouseRead", header: "orbis/Mouse.h".}
   ##  Empty Comment
-proc sceMouseSetPointerSpeed*()
+proc sceMouseSetPointerSpeed*() {.cdecl, importc: "sceMouseSetPointerSpeed",
+                                  header: "orbis/Mouse.h".}
   ##  Empty Comment

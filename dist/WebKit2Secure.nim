@@ -1,2042 +1,3539 @@
-proc cairo_create*()
+proc cairo_create*() {.cdecl, importc: "cairo_create",
+                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc cairo_destroy*()
+proc cairo_destroy*() {.cdecl, importc: "cairo_destroy",
+                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc cairo_fill*()
+proc cairo_fill*() {.cdecl, importc: "cairo_fill",
+                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc cairo_format_stride_for_width*()
+proc cairo_format_stride_for_width*() {.cdecl, importc: "cairo_format_stride_for_width",
+                                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc cairo_image_surface_create_for_data*()
+proc cairo_image_surface_create_for_data*() {.cdecl,
+    importc: "cairo_image_surface_create_for_data",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc cairo_rectangle*()
+proc cairo_rectangle*() {.cdecl, importc: "cairo_rectangle",
+                          header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc cairo_set_source_rgba*()
+proc cairo_set_source_rgba*() {.cdecl, importc: "cairo_set_source_rgba",
+                                header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc cairo_surface_destroy*()
+proc cairo_surface_destroy*() {.cdecl, importc: "cairo_surface_destroy",
+                                header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSCheckScriptSyntax*()
+proc JSCheckScriptSyntax*() {.cdecl, importc: "JSCheckScriptSyntax",
+                              header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSClassCreate*()
+proc JSClassCreate*() {.cdecl, importc: "JSClassCreate",
+                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSClassRelease*()
+proc JSClassRelease*() {.cdecl, importc: "JSClassRelease",
+                         header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSClassRetain*()
+proc JSClassRetain*() {.cdecl, importc: "JSClassRetain",
+                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSContextCreateBacktrace*()
+proc JSContextCreateBacktrace*() {.cdecl, importc: "JSContextCreateBacktrace",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSContextGetGlobalContext*()
+proc JSContextGetGlobalContext*() {.cdecl, importc: "JSContextGetGlobalContext",
+                                    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSContextGetGlobalObject*()
+proc JSContextGetGlobalObject*() {.cdecl, importc: "JSContextGetGlobalObject",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSContextGetGroup*()
+proc JSContextGetGroup*() {.cdecl, importc: "JSContextGetGroup",
+                            header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSContextGroupCreate*()
+proc JSContextGroupCreate*() {.cdecl, importc: "JSContextGroupCreate",
+                               header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSContextGroupRelease*()
+proc JSContextGroupRelease*() {.cdecl, importc: "JSContextGroupRelease",
+                                header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSContextGroupRetain*()
+proc JSContextGroupRetain*() {.cdecl, importc: "JSContextGroupRetain",
+                               header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSEndProfiling*()
+proc JSEndProfiling*() {.cdecl, importc: "JSEndProfiling",
+                         header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSEvaluateScript*()
+proc JSEvaluateScript*() {.cdecl, importc: "JSEvaluateScript",
+                           header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSGarbageCollect*()
+proc JSGarbageCollect*() {.cdecl, importc: "JSGarbageCollect",
+                           header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSGlobalContextCreate*()
+proc JSGlobalContextCreate*() {.cdecl, importc: "JSGlobalContextCreate",
+                                header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSGlobalContextCreateInGroup*()
+proc JSGlobalContextCreateInGroup*() {.cdecl,
+                                       importc: "JSGlobalContextCreateInGroup",
+                                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSGlobalContextRelease*()
+proc JSGlobalContextRelease*() {.cdecl, importc: "JSGlobalContextRelease",
+                                 header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSGlobalContextRetain*()
+proc JSGlobalContextRetain*() {.cdecl, importc: "JSGlobalContextRetain",
+                                header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSMemoryStatsQuerySCE*()
+proc JSMemoryStatsQuerySCE*() {.cdecl, importc: "JSMemoryStatsQuerySCE",
+                                header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSObjectCallAsConstructor*()
+proc JSObjectCallAsConstructor*() {.cdecl, importc: "JSObjectCallAsConstructor",
+                                    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSObjectCallAsFunction*()
+proc JSObjectCallAsFunction*() {.cdecl, importc: "JSObjectCallAsFunction",
+                                 header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSObjectCopyPropertyNames*()
+proc JSObjectCopyPropertyNames*() {.cdecl, importc: "JSObjectCopyPropertyNames",
+                                    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSObjectDeletePrivateProperty*()
+proc JSObjectDeletePrivateProperty*() {.cdecl, importc: "JSObjectDeletePrivateProperty",
+                                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSObjectDeleteProperty*()
+proc JSObjectDeleteProperty*() {.cdecl, importc: "JSObjectDeleteProperty",
+                                 header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSObjectGetPrivate*()
+proc JSObjectGetPrivate*() {.cdecl, importc: "JSObjectGetPrivate",
+                             header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSObjectGetPrivateProperty*()
+proc JSObjectGetPrivateProperty*() {.cdecl,
+                                     importc: "JSObjectGetPrivateProperty",
+                                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSObjectGetProperty*()
+proc JSObjectGetProperty*() {.cdecl, importc: "JSObjectGetProperty",
+                              header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSObjectGetPropertyAtIndex*()
+proc JSObjectGetPropertyAtIndex*() {.cdecl,
+                                     importc: "JSObjectGetPropertyAtIndex",
+                                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSObjectGetPrototype*()
+proc JSObjectGetPrototype*() {.cdecl, importc: "JSObjectGetPrototype",
+                               header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSObjectHasProperty*()
+proc JSObjectHasProperty*() {.cdecl, importc: "JSObjectHasProperty",
+                              header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSObjectIsConstructor*()
+proc JSObjectIsConstructor*() {.cdecl, importc: "JSObjectIsConstructor",
+                                header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSObjectIsFunction*()
+proc JSObjectIsFunction*() {.cdecl, importc: "JSObjectIsFunction",
+                             header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSObjectMake*()
+proc JSObjectMake*() {.cdecl, importc: "JSObjectMake",
+                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSObjectMakeArray*()
+proc JSObjectMakeArray*() {.cdecl, importc: "JSObjectMakeArray",
+                            header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSObjectMakeConstructor*()
+proc JSObjectMakeConstructor*() {.cdecl, importc: "JSObjectMakeConstructor",
+                                  header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSObjectMakeDate*()
+proc JSObjectMakeDate*() {.cdecl, importc: "JSObjectMakeDate",
+                           header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSObjectMakeError*()
+proc JSObjectMakeError*() {.cdecl, importc: "JSObjectMakeError",
+                            header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSObjectMakeFunction*()
+proc JSObjectMakeFunction*() {.cdecl, importc: "JSObjectMakeFunction",
+                               header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSObjectMakeFunctionWithCallback*()
+proc JSObjectMakeFunctionWithCallback*() {.cdecl,
+    importc: "JSObjectMakeFunctionWithCallback", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSObjectMakeRegExp*()
+proc JSObjectMakeRegExp*() {.cdecl, importc: "JSObjectMakeRegExp",
+                             header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSObjectSetPrivate*()
+proc JSObjectSetPrivate*() {.cdecl, importc: "JSObjectSetPrivate",
+                             header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSObjectSetPrivateProperty*()
+proc JSObjectSetPrivateProperty*() {.cdecl,
+                                     importc: "JSObjectSetPrivateProperty",
+                                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSObjectSetProperty*()
+proc JSObjectSetProperty*() {.cdecl, importc: "JSObjectSetProperty",
+                              header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSObjectSetPropertyAtIndex*()
+proc JSObjectSetPropertyAtIndex*() {.cdecl,
+                                     importc: "JSObjectSetPropertyAtIndex",
+                                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSObjectSetPrototype*()
+proc JSObjectSetPrototype*() {.cdecl, importc: "JSObjectSetPrototype",
+                               header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSPropertyNameAccumulatorAddName*()
+proc JSPropertyNameAccumulatorAddName*() {.cdecl,
+    importc: "JSPropertyNameAccumulatorAddName", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSPropertyNameArrayGetCount*()
+proc JSPropertyNameArrayGetCount*() {.cdecl,
+                                      importc: "JSPropertyNameArrayGetCount",
+                                      header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSPropertyNameArrayGetNameAtIndex*()
+proc JSPropertyNameArrayGetNameAtIndex*() {.cdecl,
+    importc: "JSPropertyNameArrayGetNameAtIndex",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSPropertyNameArrayRelease*()
+proc JSPropertyNameArrayRelease*() {.cdecl,
+                                     importc: "JSPropertyNameArrayRelease",
+                                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSPropertyNameArrayRetain*()
+proc JSPropertyNameArrayRetain*() {.cdecl, importc: "JSPropertyNameArrayRetain",
+                                    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSReportExtraMemoryCost*()
+proc JSReportExtraMemoryCost*() {.cdecl, importc: "JSReportExtraMemoryCost",
+                                  header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSStartProfiling*()
+proc JSStartProfiling*() {.cdecl, importc: "JSStartProfiling",
+                           header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSStringCreateWithCharacters*()
+proc JSStringCreateWithCharacters*() {.cdecl,
+                                       importc: "JSStringCreateWithCharacters",
+                                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSStringCreateWithUTF8CString*()
+proc JSStringCreateWithUTF8CString*() {.cdecl, importc: "JSStringCreateWithUTF8CString",
+                                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSStringGetCharactersPtr*()
+proc JSStringGetCharactersPtr*() {.cdecl, importc: "JSStringGetCharactersPtr",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSStringGetLength*()
+proc JSStringGetLength*() {.cdecl, importc: "JSStringGetLength",
+                            header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSStringGetMaximumUTF8CStringSize*()
+proc JSStringGetMaximumUTF8CStringSize*() {.cdecl,
+    importc: "JSStringGetMaximumUTF8CStringSize",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSStringGetUTF8CString*()
+proc JSStringGetUTF8CString*() {.cdecl, importc: "JSStringGetUTF8CString",
+                                 header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSStringIsEqual*()
+proc JSStringIsEqual*() {.cdecl, importc: "JSStringIsEqual",
+                          header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSStringIsEqualToUTF8CString*()
+proc JSStringIsEqualToUTF8CString*() {.cdecl,
+                                       importc: "JSStringIsEqualToUTF8CString",
+                                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSStringRelease*()
+proc JSStringRelease*() {.cdecl, importc: "JSStringRelease",
+                          header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSStringRetain*()
+proc JSStringRetain*() {.cdecl, importc: "JSStringRetain",
+                         header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSValueCreateJSONString*()
+proc JSValueCreateJSONString*() {.cdecl, importc: "JSValueCreateJSONString",
+                                  header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSValueGetType*()
+proc JSValueGetType*() {.cdecl, importc: "JSValueGetType",
+                         header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSValueIsBoolean*()
+proc JSValueIsBoolean*() {.cdecl, importc: "JSValueIsBoolean",
+                           header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSValueIsEqual*()
+proc JSValueIsEqual*() {.cdecl, importc: "JSValueIsEqual",
+                         header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSValueIsInstanceOfConstructor*()
+proc JSValueIsInstanceOfConstructor*() {.cdecl,
+    importc: "JSValueIsInstanceOfConstructor", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSValueIsNull*()
+proc JSValueIsNull*() {.cdecl, importc: "JSValueIsNull",
+                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSValueIsNumber*()
+proc JSValueIsNumber*() {.cdecl, importc: "JSValueIsNumber",
+                          header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSValueIsObject*()
+proc JSValueIsObject*() {.cdecl, importc: "JSValueIsObject",
+                          header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSValueIsObjectOfClass*()
+proc JSValueIsObjectOfClass*() {.cdecl, importc: "JSValueIsObjectOfClass",
+                                 header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSValueIsStrictEqual*()
+proc JSValueIsStrictEqual*() {.cdecl, importc: "JSValueIsStrictEqual",
+                               header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSValueIsString*()
+proc JSValueIsString*() {.cdecl, importc: "JSValueIsString",
+                          header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSValueIsUndefined*()
+proc JSValueIsUndefined*() {.cdecl, importc: "JSValueIsUndefined",
+                             header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSValueMakeBoolean*()
+proc JSValueMakeBoolean*() {.cdecl, importc: "JSValueMakeBoolean",
+                             header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSValueMakeFromJSONString*()
+proc JSValueMakeFromJSONString*() {.cdecl, importc: "JSValueMakeFromJSONString",
+                                    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSValueMakeNull*()
+proc JSValueMakeNull*() {.cdecl, importc: "JSValueMakeNull",
+                          header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSValueMakeNumber*()
+proc JSValueMakeNumber*() {.cdecl, importc: "JSValueMakeNumber",
+                            header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSValueMakeString*()
+proc JSValueMakeString*() {.cdecl, importc: "JSValueMakeString",
+                            header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSValueMakeUndefined*()
+proc JSValueMakeUndefined*() {.cdecl, importc: "JSValueMakeUndefined",
+                               header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSValueProtect*()
+proc JSValueProtect*() {.cdecl, importc: "JSValueProtect",
+                         header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSValueToBoolean*()
+proc JSValueToBoolean*() {.cdecl, importc: "JSValueToBoolean",
+                           header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSValueToNumber*()
+proc JSValueToNumber*() {.cdecl, importc: "JSValueToNumber",
+                          header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSValueToObject*()
+proc JSValueToObject*() {.cdecl, importc: "JSValueToObject",
+                          header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSValueToStringCopy*()
+proc JSValueToStringCopy*() {.cdecl, importc: "JSValueToStringCopy",
+                              header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSValueUnprotect*()
+proc JSValueUnprotect*() {.cdecl, importc: "JSValueUnprotect",
+                           header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSWeakObjectMapClear*()
+proc JSWeakObjectMapClear*() {.cdecl, importc: "JSWeakObjectMapClear",
+                               header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSWeakObjectMapCreate*()
+proc JSWeakObjectMapCreate*() {.cdecl, importc: "JSWeakObjectMapCreate",
+                                header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSWeakObjectMapGet*()
+proc JSWeakObjectMapGet*() {.cdecl, importc: "JSWeakObjectMapGet",
+                             header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSWeakObjectMapRemove*()
+proc JSWeakObjectMapRemove*() {.cdecl, importc: "JSWeakObjectMapRemove",
+                                header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc JSWeakObjectMapSet*()
+proc JSWeakObjectMapSet*() {.cdecl, importc: "JSWeakObjectMapSet",
+                             header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WebProcessMainManx*()
+proc WebProcessMainManx*() {.cdecl, importc: "WebProcessMainManx",
+                             header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKAccessibilityFocusedObject*()
+proc WKAccessibilityFocusedObject*() {.cdecl,
+                                       importc: "WKAccessibilityFocusedObject",
+                                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKAccessibilityRootObject*()
+proc WKAccessibilityRootObject*() {.cdecl, importc: "WKAccessibilityRootObject",
+                                    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKApplicationCacheManagerDeleteAllEntries*()
+proc WKApplicationCacheManagerDeleteAllEntries*() {.cdecl,
+    importc: "WKApplicationCacheManagerDeleteAllEntries",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKApplicationCacheManagerDeleteEntriesForOrigin*()
+proc WKApplicationCacheManagerDeleteEntriesForOrigin*() {.cdecl,
+    importc: "WKApplicationCacheManagerDeleteEntriesForOrigin",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKApplicationCacheManagerGetApplicationCacheOrigins*()
+proc WKApplicationCacheManagerGetApplicationCacheOrigins*() {.cdecl,
+    importc: "WKApplicationCacheManagerGetApplicationCacheOrigins",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKApplicationCacheManagerGetTypeID*()
+proc WKApplicationCacheManagerGetTypeID*() {.cdecl,
+    importc: "WKApplicationCacheManagerGetTypeID",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKArrayAppendItem*()
+proc WKArrayAppendItem*() {.cdecl, importc: "WKArrayAppendItem",
+                            header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKArrayCreate*()
+proc WKArrayCreate*() {.cdecl, importc: "WKArrayCreate",
+                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKArrayGetItemAtIndex*()
+proc WKArrayGetItemAtIndex*() {.cdecl, importc: "WKArrayGetItemAtIndex",
+                                header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKArrayGetSize*()
+proc WKArrayGetSize*() {.cdecl, importc: "WKArrayGetSize",
+                         header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKArrayGetTypeID*()
+proc WKArrayGetTypeID*() {.cdecl, importc: "WKArrayGetTypeID",
+                           header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKArrayIsMutable*()
+proc WKArrayIsMutable*() {.cdecl, importc: "WKArrayIsMutable",
+                           header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKArrayRemoveItemAtIndex*()
+proc WKArrayRemoveItemAtIndex*() {.cdecl, importc: "WKArrayRemoveItemAtIndex",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKAuthenticationChallengeGetDecisionListener*()
+proc WKAuthenticationChallengeGetDecisionListener*() {.cdecl,
+    importc: "WKAuthenticationChallengeGetDecisionListener",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKAuthenticationChallengeGetPreviousFailureCount*()
+proc WKAuthenticationChallengeGetPreviousFailureCount*() {.cdecl,
+    importc: "WKAuthenticationChallengeGetPreviousFailureCount",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKAuthenticationChallengeGetProposedCredential*()
+proc WKAuthenticationChallengeGetProposedCredential*() {.cdecl,
+    importc: "WKAuthenticationChallengeGetProposedCredential",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKAuthenticationChallengeGetProtectionSpace*()
+proc WKAuthenticationChallengeGetProtectionSpace*() {.cdecl,
+    importc: "WKAuthenticationChallengeGetProtectionSpace",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKAuthenticationChallengeGetTypeID*()
+proc WKAuthenticationChallengeGetTypeID*() {.cdecl,
+    importc: "WKAuthenticationChallengeGetTypeID",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKAuthenticationDecisionListenerCancel*()
+proc WKAuthenticationDecisionListenerCancel*() {.cdecl,
+    importc: "WKAuthenticationDecisionListenerCancel",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKAuthenticationDecisionListenerGetTypeID*()
+proc WKAuthenticationDecisionListenerGetTypeID*() {.cdecl,
+    importc: "WKAuthenticationDecisionListenerGetTypeID",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKAuthenticationDecisionListenerUseCredential*()
+proc WKAuthenticationDecisionListenerUseCredential*() {.cdecl,
+    importc: "WKAuthenticationDecisionListenerUseCredential",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKAXObjectButtonState*()
+proc WKAXObjectButtonState*() {.cdecl, importc: "WKAXObjectButtonState",
+                                header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKAXObjectDescription*()
+proc WKAXObjectDescription*() {.cdecl, importc: "WKAXObjectDescription",
+                                header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKAXObjectFrame*()
+proc WKAXObjectFrame*() {.cdecl, importc: "WKAXObjectFrame",
+                          header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKAXObjectGetTypeID*()
+proc WKAXObjectGetTypeID*() {.cdecl, importc: "WKAXObjectGetTypeID",
+                              header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKAXObjectHelpText*()
+proc WKAXObjectHelpText*() {.cdecl, importc: "WKAXObjectHelpText",
+                             header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKAXObjectPage*()
+proc WKAXObjectPage*() {.cdecl, importc: "WKAXObjectPage",
+                         header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKAXObjectRole*()
+proc WKAXObjectRole*() {.cdecl, importc: "WKAXObjectRole",
+                         header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKAXObjectTitle*()
+proc WKAXObjectTitle*() {.cdecl, importc: "WKAXObjectTitle",
+                          header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKAXObjectURL*()
+proc WKAXObjectURL*() {.cdecl, importc: "WKAXObjectURL",
+                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBackForwardListCopyBackListWithLimit*()
+proc WKBackForwardListCopyBackListWithLimit*() {.cdecl,
+    importc: "WKBackForwardListCopyBackListWithLimit",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBackForwardListCopyForwardListWithLimit*()
+proc WKBackForwardListCopyForwardListWithLimit*() {.cdecl,
+    importc: "WKBackForwardListCopyForwardListWithLimit",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBackForwardListGetBackItem*()
+proc WKBackForwardListGetBackItem*() {.cdecl,
+                                       importc: "WKBackForwardListGetBackItem",
+                                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBackForwardListGetBackListCount*()
+proc WKBackForwardListGetBackListCount*() {.cdecl,
+    importc: "WKBackForwardListGetBackListCount",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBackForwardListGetCurrentItem*()
+proc WKBackForwardListGetCurrentItem*() {.cdecl,
+    importc: "WKBackForwardListGetCurrentItem", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBackForwardListGetForwardItem*()
+proc WKBackForwardListGetForwardItem*() {.cdecl,
+    importc: "WKBackForwardListGetForwardItem", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBackForwardListGetForwardListCount*()
+proc WKBackForwardListGetForwardListCount*() {.cdecl,
+    importc: "WKBackForwardListGetForwardListCount",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBackForwardListGetItemAtIndex*()
+proc WKBackForwardListGetItemAtIndex*() {.cdecl,
+    importc: "WKBackForwardListGetItemAtIndex", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBackForwardListGetTypeID*()
+proc WKBackForwardListGetTypeID*() {.cdecl,
+                                     importc: "WKBackForwardListGetTypeID",
+                                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBackForwardListItemCopyOriginalURL*()
+proc WKBackForwardListItemCopyOriginalURL*() {.cdecl,
+    importc: "WKBackForwardListItemCopyOriginalURL",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBackForwardListItemCopyTitle*()
+proc WKBackForwardListItemCopyTitle*() {.cdecl,
+    importc: "WKBackForwardListItemCopyTitle", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBackForwardListItemCopyURL*()
+proc WKBackForwardListItemCopyURL*() {.cdecl,
+                                       importc: "WKBackForwardListItemCopyURL",
+                                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBackForwardListItemGetTypeID*()
+proc WKBackForwardListItemGetTypeID*() {.cdecl,
+    importc: "WKBackForwardListItemGetTypeID", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBooleanCreate*()
+proc WKBooleanCreate*() {.cdecl, importc: "WKBooleanCreate",
+                          header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBooleanGetTypeID*()
+proc WKBooleanGetTypeID*() {.cdecl, importc: "WKBooleanGetTypeID",
+                             header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBooleanGetValue*()
+proc WKBooleanGetValue*() {.cdecl, importc: "WKBooleanGetValue",
+                            header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleActivateMacFontAscentHack*()
+proc WKBundleActivateMacFontAscentHack*() {.cdecl,
+    importc: "WKBundleActivateMacFontAscentHack",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleAddOriginAccessWhitelistEntry*()
+proc WKBundleAddOriginAccessWhitelistEntry*() {.cdecl,
+    importc: "WKBundleAddOriginAccessWhitelistEntry",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleAddUserScript*()
+proc WKBundleAddUserScript*() {.cdecl, importc: "WKBundleAddUserScript",
+                                header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleAddUserStyleSheet*()
+proc WKBundleAddUserStyleSheet*() {.cdecl, importc: "WKBundleAddUserStyleSheet",
+                                    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleBackForwardListClear*()
+proc WKBundleBackForwardListClear*() {.cdecl,
+                                       importc: "WKBundleBackForwardListClear",
+                                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleBackForwardListCopyItemAtIndex*()
+proc WKBundleBackForwardListCopyItemAtIndex*() {.cdecl,
+    importc: "WKBundleBackForwardListCopyItemAtIndex",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleBackForwardListGetBackListCount*()
+proc WKBundleBackForwardListGetBackListCount*() {.cdecl,
+    importc: "WKBundleBackForwardListGetBackListCount",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleBackForwardListGetForwardListCount*()
+proc WKBundleBackForwardListGetForwardListCount*() {.cdecl,
+    importc: "WKBundleBackForwardListGetForwardListCount",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleBackForwardListGetTypeID*()
+proc WKBundleBackForwardListGetTypeID*() {.cdecl,
+    importc: "WKBundleBackForwardListGetTypeID", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleBackForwardListItemCopyChildren*()
+proc WKBundleBackForwardListItemCopyChildren*() {.cdecl,
+    importc: "WKBundleBackForwardListItemCopyChildren",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleBackForwardListItemCopyOriginalURL*()
+proc WKBundleBackForwardListItemCopyOriginalURL*() {.cdecl,
+    importc: "WKBundleBackForwardListItemCopyOriginalURL",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleBackForwardListItemCopyTarget*()
+proc WKBundleBackForwardListItemCopyTarget*() {.cdecl,
+    importc: "WKBundleBackForwardListItemCopyTarget",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleBackForwardListItemCopyTitle*()
+proc WKBundleBackForwardListItemCopyTitle*() {.cdecl,
+    importc: "WKBundleBackForwardListItemCopyTitle",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleBackForwardListItemCopyURL*()
+proc WKBundleBackForwardListItemCopyURL*() {.cdecl,
+    importc: "WKBundleBackForwardListItemCopyURL",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleBackForwardListItemGetTypeID*()
+proc WKBundleBackForwardListItemGetTypeID*() {.cdecl,
+    importc: "WKBundleBackForwardListItemGetTypeID",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleBackForwardListItemIsInPageCache*()
+proc WKBundleBackForwardListItemIsInPageCache*() {.cdecl,
+    importc: "WKBundleBackForwardListItemIsInPageCache",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleBackForwardListItemIsSame*()
+proc WKBundleBackForwardListItemIsSame*() {.cdecl,
+    importc: "WKBundleBackForwardListItemIsSame",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleBackForwardListItemIsTargetItem*()
+proc WKBundleBackForwardListItemIsTargetItem*() {.cdecl,
+    importc: "WKBundleBackForwardListItemIsTargetItem",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleClearAllDatabases*()
+proc WKBundleClearAllDatabases*() {.cdecl, importc: "WKBundleClearAllDatabases",
+                                    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleClearAllDiskcaches*()
+proc WKBundleClearAllDiskcaches*() {.cdecl,
+                                     importc: "WKBundleClearAllDiskcaches",
+                                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleClearApplicationCache*()
+proc WKBundleClearApplicationCache*() {.cdecl, importc: "WKBundleClearApplicationCache",
+                                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleDOMWindowExtensionCreate*()
+proc WKBundleDOMWindowExtensionCreate*() {.cdecl,
+    importc: "WKBundleDOMWindowExtensionCreate", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleDOMWindowExtensionGetFrame*()
+proc WKBundleDOMWindowExtensionGetFrame*() {.cdecl,
+    importc: "WKBundleDOMWindowExtensionGetFrame",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleDOMWindowExtensionGetScriptWorld*()
+proc WKBundleDOMWindowExtensionGetScriptWorld*() {.cdecl,
+    importc: "WKBundleDOMWindowExtensionGetScriptWorld",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleDOMWindowExtensionGetTypeID*()
+proc WKBundleDOMWindowExtensionGetTypeID*() {.cdecl,
+    importc: "WKBundleDOMWindowExtensionGetTypeID",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleFrameAllowsFollowingLink*()
+proc WKBundleFrameAllowsFollowingLink*() {.cdecl,
+    importc: "WKBundleFrameAllowsFollowingLink", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleFrameClearOpener*()
+proc WKBundleFrameClearOpener*() {.cdecl, importc: "WKBundleFrameClearOpener",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleFrameContainsAnyFormElements*()
+proc WKBundleFrameContainsAnyFormElements*() {.cdecl,
+    importc: "WKBundleFrameContainsAnyFormElements",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleFrameConvertMonotonicTimeToDocumentTime*()
+proc WKBundleFrameConvertMonotonicTimeToDocumentTime*() {.cdecl,
+    importc: "WKBundleFrameConvertMonotonicTimeToDocumentTime",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleFrameCopyCertificateInfo*()
+proc WKBundleFrameCopyCertificateInfo*() {.cdecl,
+    importc: "WKBundleFrameCopyCertificateInfo", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleFrameCopyChildFrames*()
+proc WKBundleFrameCopyChildFrames*() {.cdecl,
+                                       importc: "WKBundleFrameCopyChildFrames",
+                                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleFrameCopyCounterValue*()
+proc WKBundleFrameCopyCounterValue*() {.cdecl, importc: "WKBundleFrameCopyCounterValue",
+                                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleFrameCopyInnerText*()
+proc WKBundleFrameCopyInnerText*() {.cdecl,
+                                     importc: "WKBundleFrameCopyInnerText",
+                                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleFrameCopyLayerTreeAsText*()
+proc WKBundleFrameCopyLayerTreeAsText*() {.cdecl,
+    importc: "WKBundleFrameCopyLayerTreeAsText", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleFrameCopyMIMETypeForResourceWithURL*()
+proc WKBundleFrameCopyMIMETypeForResourceWithURL*() {.cdecl,
+    importc: "WKBundleFrameCopyMIMETypeForResourceWithURL",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleFrameCopyName*()
+proc WKBundleFrameCopyName*() {.cdecl, importc: "WKBundleFrameCopyName",
+                                header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleFrameCopyProvisionalURL*()
+proc WKBundleFrameCopyProvisionalURL*() {.cdecl,
+    importc: "WKBundleFrameCopyProvisionalURL", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleFrameCopySuggestedFilenameForResourceWithURL*()
+proc WKBundleFrameCopySuggestedFilenameForResourceWithURL*() {.cdecl,
+    importc: "WKBundleFrameCopySuggestedFilenameForResourceWithURL",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleFrameCopyURL*()
+proc WKBundleFrameCopyURL*() {.cdecl, importc: "WKBundleFrameCopyURL",
+                               header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleFrameCopyWebArchive*()
+proc WKBundleFrameCopyWebArchive*() {.cdecl,
+                                      importc: "WKBundleFrameCopyWebArchive",
+                                      header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleFrameCopyWebArchiveFilteringSubframes*()
+proc WKBundleFrameCopyWebArchiveFilteringSubframes*() {.cdecl,
+    importc: "WKBundleFrameCopyWebArchiveFilteringSubframes",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleFrameEnableHTMLTile*()
+proc WKBundleFrameEnableHTMLTile*() {.cdecl,
+                                      importc: "WKBundleFrameEnableHTMLTile",
+                                      header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleFrameForJavaScriptContext*()
+proc WKBundleFrameForJavaScriptContext*() {.cdecl,
+    importc: "WKBundleFrameForJavaScriptContext",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleFrameGetACMemoryInfo*()
+proc WKBundleFrameGetACMemoryInfo*() {.cdecl,
+                                       importc: "WKBundleFrameGetACMemoryInfo",
+                                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleFrameGetContentBounds*()
+proc WKBundleFrameGetContentBounds*() {.cdecl, importc: "WKBundleFrameGetContentBounds",
+                                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleFrameGetDocumentBackgroundColor*()
+proc WKBundleFrameGetDocumentBackgroundColor*() {.cdecl,
+    importc: "WKBundleFrameGetDocumentBackgroundColor",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleFrameGetFrameLoadState*()
+proc WKBundleFrameGetFrameLoadState*() {.cdecl,
+    importc: "WKBundleFrameGetFrameLoadState", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleFrameGetJavaScriptContext*()
+proc WKBundleFrameGetJavaScriptContext*() {.cdecl,
+    importc: "WKBundleFrameGetJavaScriptContext",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleFrameGetJavaScriptContextForWorld*()
+proc WKBundleFrameGetJavaScriptContextForWorld*() {.cdecl,
+    importc: "WKBundleFrameGetJavaScriptContextForWorld",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleFrameGetJavaScriptWrapperForNodeForWorld*()
+proc WKBundleFrameGetJavaScriptWrapperForNodeForWorld*() {.cdecl,
+    importc: "WKBundleFrameGetJavaScriptWrapperForNodeForWorld",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleFrameGetJavaScriptWrapperForRangeForWorld*()
+proc WKBundleFrameGetJavaScriptWrapperForRangeForWorld*() {.cdecl,
+    importc: "WKBundleFrameGetJavaScriptWrapperForRangeForWorld",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleFrameGetPage*()
+proc WKBundleFrameGetPage*() {.cdecl, importc: "WKBundleFrameGetPage",
+                               header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleFrameGetParentFrame*()
+proc WKBundleFrameGetParentFrame*() {.cdecl,
+                                      importc: "WKBundleFrameGetParentFrame",
+                                      header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleFrameGetPendingUnloadCount*()
+proc WKBundleFrameGetPendingUnloadCount*() {.cdecl,
+    importc: "WKBundleFrameGetPendingUnloadCount",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleFrameGetScrollOffset*()
+proc WKBundleFrameGetScrollOffset*() {.cdecl,
+                                       importc: "WKBundleFrameGetScrollOffset",
+                                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleFrameGetTypeID*()
+proc WKBundleFrameGetTypeID*() {.cdecl, importc: "WKBundleFrameGetTypeID",
+                                 header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleFrameGetVisibleContentBounds*()
+proc WKBundleFrameGetVisibleContentBounds*() {.cdecl,
+    importc: "WKBundleFrameGetVisibleContentBounds",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleFrameGetVisibleContentBoundsExcludingScrollbars*()
+proc WKBundleFrameGetVisibleContentBoundsExcludingScrollbars*() {.cdecl,
+    importc: "WKBundleFrameGetVisibleContentBoundsExcludingScrollbars",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleFrameHasHorizontalScrollbar*()
+proc WKBundleFrameHasHorizontalScrollbar*() {.cdecl,
+    importc: "WKBundleFrameHasHorizontalScrollbar",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleFrameHasVerticalScrollbar*()
+proc WKBundleFrameHasVerticalScrollbar*() {.cdecl,
+    importc: "WKBundleFrameHasVerticalScrollbar",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleFrameIsMainFrame*()
+proc WKBundleFrameIsMainFrame*() {.cdecl, importc: "WKBundleFrameIsMainFrame",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleFrameRegisterAsyncImageDecoder*()
+proc WKBundleFrameRegisterAsyncImageDecoder*() {.cdecl,
+    importc: "WKBundleFrameRegisterAsyncImageDecoder",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleFrameSetTextDirection*()
+proc WKBundleFrameSetTextDirection*() {.cdecl, importc: "WKBundleFrameSetTextDirection",
+                                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleGarbageCollectJavaScriptObjects*()
+proc WKBundleGarbageCollectJavaScriptObjects*() {.cdecl,
+    importc: "WKBundleGarbageCollectJavaScriptObjects",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleGarbageCollectJavaScriptObjectsOnAlternateThreadForDebugging*()
+proc WKBundleGarbageCollectJavaScriptObjectsOnAlternateThreadForDebugging*() {.
+    cdecl, importc: "WKBundleGarbageCollectJavaScriptObjectsOnAlternateThreadForDebugging",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleGetApplicationConnection*()
+proc WKBundleGetApplicationConnection*() {.cdecl,
+    importc: "WKBundleGetApplicationConnection", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleGetFastMallocStatistics*()
+proc WKBundleGetFastMallocStatistics*() {.cdecl,
+    importc: "WKBundleGetFastMallocStatistics", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleGetJavaScriptHeapStatistics*()
+proc WKBundleGetJavaScriptHeapStatistics*() {.cdecl,
+    importc: "WKBundleGetJavaScriptHeapStatistics",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleGetJavaScriptObjectsCount*()
+proc WKBundleGetJavaScriptObjectsCount*() {.cdecl,
+    importc: "WKBundleGetJavaScriptObjectsCount",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleGetTypeID*()
+proc WKBundleGetTypeID*() {.cdecl, importc: "WKBundleGetTypeID",
+                            header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleHitTestResultCopyAbsoluteImageURL*()
+proc WKBundleHitTestResultCopyAbsoluteImageURL*() {.cdecl,
+    importc: "WKBundleHitTestResultCopyAbsoluteImageURL",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleHitTestResultCopyAbsoluteLinkURL*()
+proc WKBundleHitTestResultCopyAbsoluteLinkURL*() {.cdecl,
+    importc: "WKBundleHitTestResultCopyAbsoluteLinkURL",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleHitTestResultCopyAbsoluteMediaURL*()
+proc WKBundleHitTestResultCopyAbsoluteMediaURL*() {.cdecl,
+    importc: "WKBundleHitTestResultCopyAbsoluteMediaURL",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleHitTestResultCopyAbsolutePDFURL*()
+proc WKBundleHitTestResultCopyAbsolutePDFURL*() {.cdecl,
+    importc: "WKBundleHitTestResultCopyAbsolutePDFURL",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleHitTestResultCopyLinkLabel*()
+proc WKBundleHitTestResultCopyLinkLabel*() {.cdecl,
+    importc: "WKBundleHitTestResultCopyLinkLabel",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleHitTestResultCopyLinkTitle*()
+proc WKBundleHitTestResultCopyLinkTitle*() {.cdecl,
+    importc: "WKBundleHitTestResultCopyLinkTitle",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleHitTestResultCopyNodeHandle*()
+proc WKBundleHitTestResultCopyNodeHandle*() {.cdecl,
+    importc: "WKBundleHitTestResultCopyNodeHandle",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleHitTestResultGetFrame*()
+proc WKBundleHitTestResultGetFrame*() {.cdecl, importc: "WKBundleHitTestResultGetFrame",
+                                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleHitTestResultGetImageRect*()
+proc WKBundleHitTestResultGetImageRect*() {.cdecl,
+    importc: "WKBundleHitTestResultGetImageRect",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleHitTestResultGetIsSelected*()
+proc WKBundleHitTestResultGetIsSelected*() {.cdecl,
+    importc: "WKBundleHitTestResultGetIsSelected",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleHitTestResultGetTargetFrame*()
+proc WKBundleHitTestResultGetTargetFrame*() {.cdecl,
+    importc: "WKBundleHitTestResultGetTargetFrame",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleHitTestResultGetTypeID*()
+proc WKBundleHitTestResultGetTypeID*() {.cdecl,
+    importc: "WKBundleHitTestResultGetTypeID", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleInspectorClose*()
+proc WKBundleInspectorClose*() {.cdecl, importc: "WKBundleInspectorClose",
+                                 header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleInspectorEvaluateScriptForTest*()
+proc WKBundleInspectorEvaluateScriptForTest*() {.cdecl,
+    importc: "WKBundleInspectorEvaluateScriptForTest",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleInspectorGetTypeID*()
+proc WKBundleInspectorGetTypeID*() {.cdecl,
+                                     importc: "WKBundleInspectorGetTypeID",
+                                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleInspectorSetPageProfilingEnabled*()
+proc WKBundleInspectorSetPageProfilingEnabled*() {.cdecl,
+    importc: "WKBundleInspectorSetPageProfilingEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleInspectorShow*()
+proc WKBundleInspectorShow*() {.cdecl, importc: "WKBundleInspectorShow",
+                                header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleIsPageBoxVisible*()
+proc WKBundleIsPageBoxVisible*() {.cdecl, importc: "WKBundleIsPageBoxVisible",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleIsProcessingUserGesture*()
+proc WKBundleIsProcessingUserGesture*() {.cdecl,
+    importc: "WKBundleIsProcessingUserGesture", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleNavigationActionCopyFormElement*()
+proc WKBundleNavigationActionCopyFormElement*() {.cdecl,
+    importc: "WKBundleNavigationActionCopyFormElement",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleNavigationActionCopyHitTestResult*()
+proc WKBundleNavigationActionCopyHitTestResult*() {.cdecl,
+    importc: "WKBundleNavigationActionCopyHitTestResult",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleNavigationActionGetEventModifiers*()
+proc WKBundleNavigationActionGetEventModifiers*() {.cdecl,
+    importc: "WKBundleNavigationActionGetEventModifiers",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleNavigationActionGetEventMouseButton*()
+proc WKBundleNavigationActionGetEventMouseButton*() {.cdecl,
+    importc: "WKBundleNavigationActionGetEventMouseButton",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleNavigationActionGetNavigationType*()
+proc WKBundleNavigationActionGetNavigationType*() {.cdecl,
+    importc: "WKBundleNavigationActionGetNavigationType",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleNavigationActionGetTypeID*()
+proc WKBundleNavigationActionGetTypeID*() {.cdecl,
+    importc: "WKBundleNavigationActionGetTypeID",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleNodeHandleCopyDocument*()
+proc WKBundleNodeHandleCopyDocument*() {.cdecl,
+    importc: "WKBundleNodeHandleCopyDocument", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleNodeHandleCopyDocumentFrame*()
+proc WKBundleNodeHandleCopyDocumentFrame*() {.cdecl,
+    importc: "WKBundleNodeHandleCopyDocumentFrame",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleNodeHandleCopyHTMLFrameElementContentFrame*()
+proc WKBundleNodeHandleCopyHTMLFrameElementContentFrame*() {.cdecl,
+    importc: "WKBundleNodeHandleCopyHTMLFrameElementContentFrame",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleNodeHandleCopyHTMLIFrameElementContentFrame*()
+proc WKBundleNodeHandleCopyHTMLIFrameElementContentFrame*() {.cdecl,
+    importc: "WKBundleNodeHandleCopyHTMLIFrameElementContentFrame",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleNodeHandleCopyHTMLTableCellElementCellAbove*()
+proc WKBundleNodeHandleCopyHTMLTableCellElementCellAbove*() {.cdecl,
+    importc: "WKBundleNodeHandleCopyHTMLTableCellElementCellAbove",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleNodeHandleCreate*()
+proc WKBundleNodeHandleCreate*() {.cdecl, importc: "WKBundleNodeHandleCreate",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleNodeHandleGetElementBounds*()
+proc WKBundleNodeHandleGetElementBounds*() {.cdecl,
+    importc: "WKBundleNodeHandleGetElementBounds",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleNodeHandleGetHTMLInputElementAutofilled*()
+proc WKBundleNodeHandleGetHTMLInputElementAutofilled*() {.cdecl,
+    importc: "WKBundleNodeHandleGetHTMLInputElementAutofilled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleNodeHandleGetHTMLInputElementLastChangeWasUserEdit*()
+proc WKBundleNodeHandleGetHTMLInputElementLastChangeWasUserEdit*() {.cdecl,
+    importc: "WKBundleNodeHandleGetHTMLInputElementLastChangeWasUserEdit",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleNodeHandleGetHTMLTextAreaElementLastChangeWasUserEdit*()
+proc WKBundleNodeHandleGetHTMLTextAreaElementLastChangeWasUserEdit*() {.cdecl,
+    importc: "WKBundleNodeHandleGetHTMLTextAreaElementLastChangeWasUserEdit",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleNodeHandleGetRenderRect*()
+proc WKBundleNodeHandleGetRenderRect*() {.cdecl,
+    importc: "WKBundleNodeHandleGetRenderRect", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleNodeHandleGetTypeID*()
+proc WKBundleNodeHandleGetTypeID*() {.cdecl,
+                                      importc: "WKBundleNodeHandleGetTypeID",
+                                      header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleNodeHandleSetHTMLInputElementAutofilled*()
+proc WKBundleNodeHandleSetHTMLInputElementAutofilled*() {.cdecl,
+    importc: "WKBundleNodeHandleSetHTMLInputElementAutofilled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleNodeHandleSetHTMLInputElementValueForUser*()
+proc WKBundleNodeHandleSetHTMLInputElementValueForUser*() {.cdecl,
+    importc: "WKBundleNodeHandleSetHTMLInputElementValueForUser",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleNumberOfPages*()
+proc WKBundleNumberOfPages*() {.cdecl, importc: "WKBundleNumberOfPages",
+                                header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleOverrideBoolPreferenceForTestRunner*()
+proc WKBundleOverrideBoolPreferenceForTestRunner*() {.cdecl,
+    importc: "WKBundleOverrideBoolPreferenceForTestRunner",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageCanHandleRequest*()
+proc WKBundlePageCanHandleRequest*() {.cdecl,
+                                       importc: "WKBundlePageCanHandleRequest",
+                                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageClearMainFrameName*()
+proc WKBundlePageClearMainFrameName*() {.cdecl,
+    importc: "WKBundlePageClearMainFrameName", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageClose*()
+proc WKBundlePageClose*() {.cdecl, importc: "WKBundlePageClose",
+                            header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageConfirmComposition*()
+proc WKBundlePageConfirmComposition*() {.cdecl,
+    importc: "WKBundlePageConfirmComposition", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageConfirmCompositionWithText*()
+proc WKBundlePageConfirmCompositionWithText*() {.cdecl,
+    importc: "WKBundlePageConfirmCompositionWithText",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageCopyRenderLayerTree*()
+proc WKBundlePageCopyRenderLayerTree*() {.cdecl,
+    importc: "WKBundlePageCopyRenderLayerTree", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageCopyRenderTree*()
+proc WKBundlePageCopyRenderTree*() {.cdecl,
+                                     importc: "WKBundlePageCopyRenderTree",
+                                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageCopyRenderTreeExternalRepresentation*()
+proc WKBundlePageCopyRenderTreeExternalRepresentation*() {.cdecl,
+    importc: "WKBundlePageCopyRenderTreeExternalRepresentation",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageCopyTrackedRepaintRects*()
+proc WKBundlePageCopyTrackedRepaintRects*() {.cdecl,
+    importc: "WKBundlePageCopyTrackedRepaintRects",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageCreateScaledSnapshotInDocumentCoordinates*()
+proc WKBundlePageCreateScaledSnapshotInDocumentCoordinates*() {.cdecl,
+    importc: "WKBundlePageCreateScaledSnapshotInDocumentCoordinates",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageCreateSnapshotInDocumentCoordinates*()
+proc WKBundlePageCreateSnapshotInDocumentCoordinates*() {.cdecl,
+    importc: "WKBundlePageCreateSnapshotInDocumentCoordinates",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageCreateSnapshotInViewCoordinates*()
+proc WKBundlePageCreateSnapshotInViewCoordinates*() {.cdecl,
+    importc: "WKBundlePageCreateSnapshotInViewCoordinates",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageDidEnterFullScreen*()
+proc WKBundlePageDidEnterFullScreen*() {.cdecl,
+    importc: "WKBundlePageDidEnterFullScreen", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageDidExitFullScreen*()
+proc WKBundlePageDidExitFullScreen*() {.cdecl, importc: "WKBundlePageDidExitFullScreen",
+                                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageExecuteEditingCommand*()
+proc WKBundlePageExecuteEditingCommand*() {.cdecl,
+    importc: "WKBundlePageExecuteEditingCommand",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageFindString*()
+proc WKBundlePageFindString*() {.cdecl, importc: "WKBundlePageFindString",
+                                 header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageForceRepaint*()
+proc WKBundlePageForceRepaint*() {.cdecl, importc: "WKBundlePageForceRepaint",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageGetBackForwardList*()
+proc WKBundlePageGetBackForwardList*() {.cdecl,
+    importc: "WKBundlePageGetBackForwardList", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageGetBackingScaleFactor*()
+proc WKBundlePageGetBackingScaleFactor*() {.cdecl,
+    importc: "WKBundlePageGetBackingScaleFactor",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageGetInspector*()
+proc WKBundlePageGetInspector*() {.cdecl, importc: "WKBundlePageGetInspector",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageGetMainFrame*()
+proc WKBundlePageGetMainFrame*() {.cdecl, importc: "WKBundlePageGetMainFrame",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageGetPageGroup*()
+proc WKBundlePageGetPageGroup*() {.cdecl, importc: "WKBundlePageGetPageGroup",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageGetPageZoomFactor*()
+proc WKBundlePageGetPageZoomFactor*() {.cdecl, importc: "WKBundlePageGetPageZoomFactor",
+                                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageGetRenderTreeSize*()
+proc WKBundlePageGetRenderTreeSize*() {.cdecl, importc: "WKBundlePageGetRenderTreeSize",
+                                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageGetTextZoomFactor*()
+proc WKBundlePageGetTextZoomFactor*() {.cdecl, importc: "WKBundlePageGetTextZoomFactor",
+                                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageGetTypeID*()
+proc WKBundlePageGetTypeID*() {.cdecl, importc: "WKBundlePageGetTypeID",
+                                header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageGroupCopyIdentifier*()
+proc WKBundlePageGroupCopyIdentifier*() {.cdecl,
+    importc: "WKBundlePageGroupCopyIdentifier", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageGroupGetTypeID*()
+proc WKBundlePageGroupGetTypeID*() {.cdecl,
+                                     importc: "WKBundlePageGroupGetTypeID",
+                                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageHasComposition*()
+proc WKBundlePageHasComposition*() {.cdecl,
+                                     importc: "WKBundlePageHasComposition",
+                                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageHasLocalDataForURL*()
+proc WKBundlePageHasLocalDataForURL*() {.cdecl,
+    importc: "WKBundlePageHasLocalDataForURL", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageInstallPageOverlay*()
+proc WKBundlePageInstallPageOverlay*() {.cdecl,
+    importc: "WKBundlePageInstallPageOverlay", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageIsEditingCommandEnabled*()
+proc WKBundlePageIsEditingCommandEnabled*() {.cdecl,
+    importc: "WKBundlePageIsEditingCommandEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageIsTrackingRepaints*()
+proc WKBundlePageIsTrackingRepaints*() {.cdecl,
+    importc: "WKBundlePageIsTrackingRepaints", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageNumberForElementById*()
+proc WKBundlePageNumberForElementById*() {.cdecl,
+    importc: "WKBundlePageNumberForElementById", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageOverlayCreate*()
+proc WKBundlePageOverlayCreate*() {.cdecl, importc: "WKBundlePageOverlayCreate",
+                                    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageOverlayFractionFadedIn*()
+proc WKBundlePageOverlayFractionFadedIn*() {.cdecl,
+    importc: "WKBundlePageOverlayFractionFadedIn",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageOverlayGetTypeID*()
+proc WKBundlePageOverlayGetTypeID*() {.cdecl,
+                                       importc: "WKBundlePageOverlayGetTypeID",
+                                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageOverlaySetNeedsDisplay*()
+proc WKBundlePageOverlaySetNeedsDisplay*() {.cdecl,
+    importc: "WKBundlePageOverlaySetNeedsDisplay",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageResetTrackedRepaints*()
+proc WKBundlePageResetTrackedRepaints*() {.cdecl,
+    importc: "WKBundlePageResetTrackedRepaints", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageSetComposition*()
+proc WKBundlePageSetComposition*() {.cdecl,
+                                     importc: "WKBundlePageSetComposition",
+                                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageSetContextMenuClient*()
+proc WKBundlePageSetContextMenuClient*() {.cdecl,
+    importc: "WKBundlePageSetContextMenuClient", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageSetDefersLoading*()
+proc WKBundlePageSetDefersLoading*() {.cdecl,
+                                       importc: "WKBundlePageSetDefersLoading",
+                                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageSetEditorClient*()
+proc WKBundlePageSetEditorClient*() {.cdecl,
+                                      importc: "WKBundlePageSetEditorClient",
+                                      header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageSetFormClient*()
+proc WKBundlePageSetFormClient*() {.cdecl, importc: "WKBundlePageSetFormClient",
+                                    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageSetFullScreenClient*()
+proc WKBundlePageSetFullScreenClient*() {.cdecl,
+    importc: "WKBundlePageSetFullScreenClient", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageSetPageLoaderClient*()
+proc WKBundlePageSetPageLoaderClient*() {.cdecl,
+    importc: "WKBundlePageSetPageLoaderClient", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageSetPageZoomFactor*()
+proc WKBundlePageSetPageZoomFactor*() {.cdecl, importc: "WKBundlePageSetPageZoomFactor",
+                                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageSetPaintedObjectsCounterThreshold*()
+proc WKBundlePageSetPaintedObjectsCounterThreshold*() {.cdecl,
+    importc: "WKBundlePageSetPaintedObjectsCounterThreshold",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageSetPolicyClient*()
+proc WKBundlePageSetPolicyClient*() {.cdecl,
+                                      importc: "WKBundlePageSetPolicyClient",
+                                      header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageSetResourceLoadClient*()
+proc WKBundlePageSetResourceLoadClient*() {.cdecl,
+    importc: "WKBundlePageSetResourceLoadClient",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageSetScaleAtOrigin*()
+proc WKBundlePageSetScaleAtOrigin*() {.cdecl,
+                                       importc: "WKBundlePageSetScaleAtOrigin",
+                                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageSetTextZoomFactor*()
+proc WKBundlePageSetTextZoomFactor*() {.cdecl, importc: "WKBundlePageSetTextZoomFactor",
+                                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageSetTracksRepaints*()
+proc WKBundlePageSetTracksRepaints*() {.cdecl, importc: "WKBundlePageSetTracksRepaints",
+                                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageSetUIClient*()
+proc WKBundlePageSetUIClient*() {.cdecl, importc: "WKBundlePageSetUIClient",
+                                  header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageSetUnderlayPage*()
+proc WKBundlePageSetUnderlayPage*() {.cdecl,
+                                      importc: "WKBundlePageSetUnderlayPage",
+                                      header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageSimulateMouseDown*()
+proc WKBundlePageSimulateMouseDown*() {.cdecl, importc: "WKBundlePageSimulateMouseDown",
+                                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageSimulateMouseMotion*()
+proc WKBundlePageSimulateMouseMotion*() {.cdecl,
+    importc: "WKBundlePageSimulateMouseMotion", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageSimulateMouseUp*()
+proc WKBundlePageSimulateMouseUp*() {.cdecl,
+                                      importc: "WKBundlePageSimulateMouseUp",
+                                      header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageSizeAndMarginsInPixels*()
+proc WKBundlePageSizeAndMarginsInPixels*() {.cdecl,
+    importc: "WKBundlePageSizeAndMarginsInPixels",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageStopLoading*()
+proc WKBundlePageStopLoading*() {.cdecl, importc: "WKBundlePageStopLoading",
+                                  header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageUninstallPageOverlay*()
+proc WKBundlePageUninstallPageOverlay*() {.cdecl,
+    importc: "WKBundlePageUninstallPageOverlay", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageWillEnterFullScreen*()
+proc WKBundlePageWillEnterFullScreen*() {.cdecl,
+    importc: "WKBundlePageWillEnterFullScreen", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePageWillExitFullScreen*()
+proc WKBundlePageWillExitFullScreen*() {.cdecl,
+    importc: "WKBundlePageWillExitFullScreen", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePostMessage*()
+proc WKBundlePostMessage*() {.cdecl, importc: "WKBundlePostMessage",
+                              header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundlePostSynchronousMessage*()
+proc WKBundlePostSynchronousMessage*() {.cdecl,
+    importc: "WKBundlePostSynchronousMessage", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleRangeHandleGetTypeID*()
+proc WKBundleRangeHandleGetTypeID*() {.cdecl,
+                                       importc: "WKBundleRangeHandleGetTypeID",
+                                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleRemoveAllUserContent*()
+proc WKBundleRemoveAllUserContent*() {.cdecl,
+                                       importc: "WKBundleRemoveAllUserContent",
+                                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleRemoveAllVisitedLinks*()
+proc WKBundleRemoveAllVisitedLinks*() {.cdecl, importc: "WKBundleRemoveAllVisitedLinks",
+                                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleRemoveOriginAccessWhitelistEntry*()
+proc WKBundleRemoveOriginAccessWhitelistEntry*() {.cdecl,
+    importc: "WKBundleRemoveOriginAccessWhitelistEntry",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleRemoveUserScript*()
+proc WKBundleRemoveUserScript*() {.cdecl, importc: "WKBundleRemoveUserScript",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleRemoveUserScripts*()
+proc WKBundleRemoveUserScripts*() {.cdecl, importc: "WKBundleRemoveUserScripts",
+                                    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleRemoveUserStyleSheet*()
+proc WKBundleRemoveUserStyleSheet*() {.cdecl,
+                                       importc: "WKBundleRemoveUserStyleSheet",
+                                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleRemoveUserStyleSheets*()
+proc WKBundleRemoveUserStyleSheets*() {.cdecl, importc: "WKBundleRemoveUserStyleSheets",
+                                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleReportException*()
+proc WKBundleReportException*() {.cdecl, importc: "WKBundleReportException",
+                                  header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleResetOriginAccessWhitelists*()
+proc WKBundleResetOriginAccessWhitelists*() {.cdecl,
+    importc: "WKBundleResetOriginAccessWhitelists",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleScriptWorldClearWrappers*()
+proc WKBundleScriptWorldClearWrappers*() {.cdecl,
+    importc: "WKBundleScriptWorldClearWrappers", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleScriptWorldCreateWorld*()
+proc WKBundleScriptWorldCreateWorld*() {.cdecl,
+    importc: "WKBundleScriptWorldCreateWorld", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleScriptWorldGetTypeID*()
+proc WKBundleScriptWorldGetTypeID*() {.cdecl,
+                                       importc: "WKBundleScriptWorldGetTypeID",
+                                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleScriptWorldNormalWorld*()
+proc WKBundleScriptWorldNormalWorld*() {.cdecl,
+    importc: "WKBundleScriptWorldNormalWorld", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleSetAllowFileAccessFromFileURLs*()
+proc WKBundleSetAllowFileAccessFromFileURLs*() {.cdecl,
+    importc: "WKBundleSetAllowFileAccessFromFileURLs",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleSetAllowUniversalAccessFromFileURLs*()
+proc WKBundleSetAllowUniversalAccessFromFileURLs*() {.cdecl,
+    importc: "WKBundleSetAllowUniversalAccessFromFileURLs",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleSetAppCacheMaximumSize*()
+proc WKBundleSetAppCacheMaximumSize*() {.cdecl,
+    importc: "WKBundleSetAppCacheMaximumSize", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleSetAuthorAndUserStylesEnabled*()
+proc WKBundleSetAuthorAndUserStylesEnabled*() {.cdecl,
+    importc: "WKBundleSetAuthorAndUserStylesEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleSetClient*()
+proc WKBundleSetClient*() {.cdecl, importc: "WKBundleSetClient",
+                            header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleSetDatabaseQuota*()
+proc WKBundleSetDatabaseQuota*() {.cdecl, importc: "WKBundleSetDatabaseQuota",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleSetFrameFlatteningEnabled*()
+proc WKBundleSetFrameFlatteningEnabled*() {.cdecl,
+    importc: "WKBundleSetFrameFlatteningEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleSetGarbageCollectClient*()
+proc WKBundleSetGarbageCollectClient*() {.cdecl,
+    importc: "WKBundleSetGarbageCollectClient", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleSetJavaScriptCanAccessClipboard*()
+proc WKBundleSetJavaScriptCanAccessClipboard*() {.cdecl,
+    importc: "WKBundleSetJavaScriptCanAccessClipboard",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleSetPopupBlockingEnabled*()
+proc WKBundleSetPopupBlockingEnabled*() {.cdecl,
+    importc: "WKBundleSetPopupBlockingEnabled", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleSetPrivateBrowsingEnabled*()
+proc WKBundleSetPrivateBrowsingEnabled*() {.cdecl,
+    importc: "WKBundleSetPrivateBrowsingEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleSetShouldTrackVisitedLinks*()
+proc WKBundleSetShouldTrackVisitedLinks*() {.cdecl,
+    importc: "WKBundleSetShouldTrackVisitedLinks",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleShutdownProcess*()
+proc WKBundleShutdownProcess*() {.cdecl, importc: "WKBundleShutdownProcess",
+                                  header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKBundleSwitchNetworkLoaderToNewTestingSession*()
+proc WKBundleSwitchNetworkLoaderToNewTestingSession*() {.cdecl,
+    importc: "WKBundleSwitchNetworkLoaderToNewTestingSession",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKCertificateInfoGetTypeID*()
+proc WKCertificateInfoGetTypeID*() {.cdecl,
+                                     importc: "WKCertificateInfoGetTypeID",
+                                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKConnectionGetTypeID*()
+proc WKConnectionGetTypeID*() {.cdecl, importc: "WKConnectionGetTypeID",
+                                header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKConnectionPostMessage*()
+proc WKConnectionPostMessage*() {.cdecl, importc: "WKConnectionPostMessage",
+                                  header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKConnectionSetConnectionClient*()
+proc WKConnectionSetConnectionClient*() {.cdecl,
+    importc: "WKConnectionSetConnectionClient", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextAccessibilityEnabled*()
+proc WKContextAccessibilityEnabled*() {.cdecl, importc: "WKContextAccessibilityEnabled",
+                                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextAddVisitedLink*()
+proc WKContextAddVisitedLink*() {.cdecl, importc: "WKContextAddVisitedLink",
+                                  header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextCreate*()
+proc WKContextCreate*() {.cdecl, importc: "WKContextCreate",
+                          header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextCreateWithInjectedBundlePath*()
+proc WKContextCreateWithInjectedBundlePath*() {.cdecl,
+    importc: "WKContextCreateWithInjectedBundlePath",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextDisableProcessTermination*()
+proc WKContextDisableProcessTermination*() {.cdecl,
+    importc: "WKContextDisableProcessTermination",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextDownloadURLRequest*()
+proc WKContextDownloadURLRequest*() {.cdecl,
+                                      importc: "WKContextDownloadURLRequest",
+                                      header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextEnableAccessibility*()
+proc WKContextEnableAccessibility*() {.cdecl,
+                                       importc: "WKContextEnableAccessibility",
+                                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextEnableProcessTermination*()
+proc WKContextEnableProcessTermination*() {.cdecl,
+    importc: "WKContextEnableProcessTermination",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextGarbageCollectJavaScriptObjects*()
+proc WKContextGarbageCollectJavaScriptObjects*() {.cdecl,
+    importc: "WKContextGarbageCollectJavaScriptObjects",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextGetApplicationCacheManager*()
+proc WKContextGetApplicationCacheManager*() {.cdecl,
+    importc: "WKContextGetApplicationCacheManager",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextGetCacheModel*()
+proc WKContextGetCacheModel*() {.cdecl, importc: "WKContextGetCacheModel",
+                                 header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextGetCookieManager*()
+proc WKContextGetCookieManager*() {.cdecl, importc: "WKContextGetCookieManager",
+                                    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextGetDatabaseManager*()
+proc WKContextGetDatabaseManager*() {.cdecl,
+                                      importc: "WKContextGetDatabaseManager",
+                                      header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextGetGeolocationManager*()
+proc WKContextGetGeolocationManager*() {.cdecl,
+    importc: "WKContextGetGeolocationManager", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextGetGlobalStatistics*()
+proc WKContextGetGlobalStatistics*() {.cdecl,
+                                       importc: "WKContextGetGlobalStatistics",
+                                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextGetIconDatabase*()
+proc WKContextGetIconDatabase*() {.cdecl, importc: "WKContextGetIconDatabase",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextGetKeyValueStorageManager*()
+proc WKContextGetKeyValueStorageManager*() {.cdecl,
+    importc: "WKContextGetKeyValueStorageManager",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextGetMediaCacheManager*()
+proc WKContextGetMediaCacheManager*() {.cdecl, importc: "WKContextGetMediaCacheManager",
+                                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextGetNotificationManager*()
+proc WKContextGetNotificationManager*() {.cdecl,
+    importc: "WKContextGetNotificationManager", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextGetPluginSiteDataManager*()
+proc WKContextGetPluginSiteDataManager*() {.cdecl,
+    importc: "WKContextGetPluginSiteDataManager",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextGetResourceCacheManager*()
+proc WKContextGetResourceCacheManager*() {.cdecl,
+    importc: "WKContextGetResourceCacheManager", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextGetStatistics*()
+proc WKContextGetStatistics*() {.cdecl, importc: "WKContextGetStatistics",
+                                 header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextGetTypeID*()
+proc WKContextGetTypeID*() {.cdecl, importc: "WKContextGetTypeID",
+                             header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextMenuCopySubmenuItems*()
+proc WKContextMenuCopySubmenuItems*() {.cdecl, importc: "WKContextMenuCopySubmenuItems",
+                                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextMenuItemCopyTitle*()
+proc WKContextMenuItemCopyTitle*() {.cdecl,
+                                     importc: "WKContextMenuItemCopyTitle",
+                                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextMenuItemCreateAsAction*()
+proc WKContextMenuItemCreateAsAction*() {.cdecl,
+    importc: "WKContextMenuItemCreateAsAction", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextMenuItemCreateAsCheckableAction*()
+proc WKContextMenuItemCreateAsCheckableAction*() {.cdecl,
+    importc: "WKContextMenuItemCreateAsCheckableAction",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextMenuItemCreateAsSubmenu*()
+proc WKContextMenuItemCreateAsSubmenu*() {.cdecl,
+    importc: "WKContextMenuItemCreateAsSubmenu", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextMenuItemGetChecked*()
+proc WKContextMenuItemGetChecked*() {.cdecl,
+                                      importc: "WKContextMenuItemGetChecked",
+                                      header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextMenuItemGetEnabled*()
+proc WKContextMenuItemGetEnabled*() {.cdecl,
+                                      importc: "WKContextMenuItemGetEnabled",
+                                      header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextMenuItemGetTag*()
+proc WKContextMenuItemGetTag*() {.cdecl, importc: "WKContextMenuItemGetTag",
+                                  header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextMenuItemGetType*()
+proc WKContextMenuItemGetType*() {.cdecl, importc: "WKContextMenuItemGetType",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextMenuItemGetTypeID*()
+proc WKContextMenuItemGetTypeID*() {.cdecl,
+                                     importc: "WKContextMenuItemGetTypeID",
+                                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextMenuItemGetUserData*()
+proc WKContextMenuItemGetUserData*() {.cdecl,
+                                       importc: "WKContextMenuItemGetUserData",
+                                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextMenuItemSeparatorItem*()
+proc WKContextMenuItemSeparatorItem*() {.cdecl,
+    importc: "WKContextMenuItemSeparatorItem", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextMenuItemSetUserData*()
+proc WKContextMenuItemSetUserData*() {.cdecl,
+                                       importc: "WKContextMenuItemSetUserData",
+                                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextPauseHTMLTiles*()
+proc WKContextPauseHTMLTiles*() {.cdecl, importc: "WKContextPauseHTMLTiles",
+                                  header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextPostMessageToInjectedBundle*()
+proc WKContextPostMessageToInjectedBundle*() {.cdecl,
+    importc: "WKContextPostMessageToInjectedBundle",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextRegisterURLSchemeAsEmptyDocument*()
+proc WKContextRegisterURLSchemeAsEmptyDocument*() {.cdecl,
+    importc: "WKContextRegisterURLSchemeAsEmptyDocument",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextRegisterURLSchemeAsSecure*()
+proc WKContextRegisterURLSchemeAsSecure*() {.cdecl,
+    importc: "WKContextRegisterURLSchemeAsSecure",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextResumeHTMLTiles*()
+proc WKContextResumeHTMLTiles*() {.cdecl, importc: "WKContextResumeHTMLTiles",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextSetAdditionalPluginsDirectory*()
+proc WKContextSetAdditionalPluginsDirectory*() {.cdecl,
+    importc: "WKContextSetAdditionalPluginsDirectory",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextSetAlwaysUsesComplexTextCodePath*()
+proc WKContextSetAlwaysUsesComplexTextCodePath*() {.cdecl,
+    importc: "WKContextSetAlwaysUsesComplexTextCodePath",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextSetCacheModel*()
+proc WKContextSetCacheModel*() {.cdecl, importc: "WKContextSetCacheModel",
+                                 header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextSetConnectionClient*()
+proc WKContextSetConnectionClient*() {.cdecl,
+                                       importc: "WKContextSetConnectionClient",
+                                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextSetCookieMode*()
+proc WKContextSetCookieMode*() {.cdecl, importc: "WKContextSetCookieMode",
+                                 header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextSetCookieStorageDirectory*()
+proc WKContextSetCookieStorageDirectory*() {.cdecl,
+    importc: "WKContextSetCookieStorageDirectory",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextSetDatabaseDirectory*()
+proc WKContextSetDatabaseDirectory*() {.cdecl, importc: "WKContextSetDatabaseDirectory",
+                                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextSetDomainRelaxationForbiddenForURLScheme*()
+proc WKContextSetDomainRelaxationForbiddenForURLScheme*() {.cdecl,
+    importc: "WKContextSetDomainRelaxationForbiddenForURLScheme",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextSetDownloadClient*()
+proc WKContextSetDownloadClient*() {.cdecl,
+                                     importc: "WKContextSetDownloadClient",
+                                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextSetHistoryClient*()
+proc WKContextSetHistoryClient*() {.cdecl, importc: "WKContextSetHistoryClient",
+                                    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextSetHTTPPipeliningEnabled*()
+proc WKContextSetHTTPPipeliningEnabled*() {.cdecl,
+    importc: "WKContextSetHTTPPipeliningEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextSetHTTPProxy*()
+proc WKContextSetHTTPProxy*() {.cdecl, importc: "WKContextSetHTTPProxy",
+                                header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextSetIconDatabasePath*()
+proc WKContextSetIconDatabasePath*() {.cdecl,
+                                       importc: "WKContextSetIconDatabasePath",
+                                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextSetIFilterHTTPProxy*()
+proc WKContextSetIFilterHTTPProxy*() {.cdecl,
+                                       importc: "WKContextSetIFilterHTTPProxy",
+                                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextSetInitializationUserDataForInjectedBundle*()
+proc WKContextSetInitializationUserDataForInjectedBundle*() {.cdecl,
+    importc: "WKContextSetInitializationUserDataForInjectedBundle",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextSetInjectedBundleClient*()
+proc WKContextSetInjectedBundleClient*() {.cdecl,
+    importc: "WKContextSetInjectedBundleClient", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextSetLocalStorageDirectory*()
+proc WKContextSetLocalStorageDirectory*() {.cdecl,
+    importc: "WKContextSetLocalStorageDirectory",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextSetPrivilegedNetworkBandwidth*()
+proc WKContextSetPrivilegedNetworkBandwidth*() {.cdecl,
+    importc: "WKContextSetPrivilegedNetworkBandwidth",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextSetShouldUseFontSmoothing*()
+proc WKContextSetShouldUseFontSmoothing*() {.cdecl,
+    importc: "WKContextSetShouldUseFontSmoothing",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextSetSystemStorageDirectory*()
+proc WKContextSetSystemStorageDirectory*() {.cdecl,
+    importc: "WKContextSetSystemStorageDirectory",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextSetUserID*()
+proc WKContextSetUserID*() {.cdecl, importc: "WKContextSetUserID",
+                             header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextSetUserStorageDirectory*()
+proc WKContextSetUserStorageDirectory*() {.cdecl,
+    importc: "WKContextSetUserStorageDirectory", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextSetWebProcessPath*()
+proc WKContextSetWebProcessPath*() {.cdecl,
+                                     importc: "WKContextSetWebProcessPath",
+                                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextSetWebSecurityFilter*()
+proc WKContextSetWebSecurityFilter*() {.cdecl, importc: "WKContextSetWebSecurityFilter",
+                                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextStartMemorySampler*()
+proc WKContextStartMemorySampler*() {.cdecl,
+                                      importc: "WKContextStartMemorySampler",
+                                      header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextStopMemorySampler*()
+proc WKContextStopMemorySampler*() {.cdecl,
+                                     importc: "WKContextStopMemorySampler",
+                                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKContextWarmInitialProcess*()
+proc WKContextWarmInitialProcess*() {.cdecl,
+                                      importc: "WKContextWarmInitialProcess",
+                                      header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKCookieManagerDeleteAllCookies*()
+proc WKCookieManagerDeleteAllCookies*() {.cdecl,
+    importc: "WKCookieManagerDeleteAllCookies", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKCookieManagerDeleteCookiesForHostname*()
+proc WKCookieManagerDeleteCookiesForHostname*() {.cdecl,
+    importc: "WKCookieManagerDeleteCookiesForHostname",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKCookieManagerGetHostnamesWithCookies*()
+proc WKCookieManagerGetHostnamesWithCookies*() {.cdecl,
+    importc: "WKCookieManagerGetHostnamesWithCookies",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKCookieManagerGetHTTPCookieAcceptPolicy*()
+proc WKCookieManagerGetHTTPCookieAcceptPolicy*() {.cdecl,
+    importc: "WKCookieManagerGetHTTPCookieAcceptPolicy",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKCookieManagerGetTypeID*()
+proc WKCookieManagerGetTypeID*() {.cdecl, importc: "WKCookieManagerGetTypeID",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKCookieManagerSetClient*()
+proc WKCookieManagerSetClient*() {.cdecl, importc: "WKCookieManagerSetClient",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKCookieManagerSetCookieForHostname*()
+proc WKCookieManagerSetCookieForHostname*() {.cdecl,
+    importc: "WKCookieManagerSetCookieForHostname",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKCookieManagerSetHTTPCookieAcceptPolicy*()
+proc WKCookieManagerSetHTTPCookieAcceptPolicy*() {.cdecl,
+    importc: "WKCookieManagerSetHTTPCookieAcceptPolicy",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKCookieManagerStartObservingCookieChanges*()
+proc WKCookieManagerStartObservingCookieChanges*() {.cdecl,
+    importc: "WKCookieManagerStartObservingCookieChanges",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKCookieManagerStopObservingCookieChanges*()
+proc WKCookieManagerStopObservingCookieChanges*() {.cdecl,
+    importc: "WKCookieManagerStopObservingCookieChanges",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKCredentialCopyUser*()
+proc WKCredentialCopyUser*() {.cdecl, importc: "WKCredentialCopyUser",
+                               header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKCredentialCreate*()
+proc WKCredentialCreate*() {.cdecl, importc: "WKCredentialCreate",
+                             header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKCredentialCreateWithCertificateInfo*()
+proc WKCredentialCreateWithCertificateInfo*() {.cdecl,
+    importc: "WKCredentialCreateWithCertificateInfo",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKCredentialGetTypeID*()
+proc WKCredentialGetTypeID*() {.cdecl, importc: "WKCredentialGetTypeID",
+                                header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKDatabaseManagerDeleteAllDatabases*()
+proc WKDatabaseManagerDeleteAllDatabases*() {.cdecl,
+    importc: "WKDatabaseManagerDeleteAllDatabases",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKDatabaseManagerDeleteDatabasesForOrigin*()
+proc WKDatabaseManagerDeleteDatabasesForOrigin*() {.cdecl,
+    importc: "WKDatabaseManagerDeleteDatabasesForOrigin",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKDatabaseManagerDeleteDatabasesWithNameForOrigin*()
+proc WKDatabaseManagerDeleteDatabasesWithNameForOrigin*() {.cdecl,
+    importc: "WKDatabaseManagerDeleteDatabasesWithNameForOrigin",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKDatabaseManagerGetDatabaseDetailsCurrentUsageKey*()
+proc WKDatabaseManagerGetDatabaseDetailsCurrentUsageKey*() {.cdecl,
+    importc: "WKDatabaseManagerGetDatabaseDetailsCurrentUsageKey",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKDatabaseManagerGetDatabaseDetailsDisplayNameKey*()
+proc WKDatabaseManagerGetDatabaseDetailsDisplayNameKey*() {.cdecl,
+    importc: "WKDatabaseManagerGetDatabaseDetailsDisplayNameKey",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKDatabaseManagerGetDatabaseDetailsExpectedUsageKey*()
+proc WKDatabaseManagerGetDatabaseDetailsExpectedUsageKey*() {.cdecl,
+    importc: "WKDatabaseManagerGetDatabaseDetailsExpectedUsageKey",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKDatabaseManagerGetDatabaseDetailsKey*()
+proc WKDatabaseManagerGetDatabaseDetailsKey*() {.cdecl,
+    importc: "WKDatabaseManagerGetDatabaseDetailsKey",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKDatabaseManagerGetDatabaseDetailsNameKey*()
+proc WKDatabaseManagerGetDatabaseDetailsNameKey*() {.cdecl,
+    importc: "WKDatabaseManagerGetDatabaseDetailsNameKey",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKDatabaseManagerGetDatabaseOrigins*()
+proc WKDatabaseManagerGetDatabaseOrigins*() {.cdecl,
+    importc: "WKDatabaseManagerGetDatabaseOrigins",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKDatabaseManagerGetDatabasesByOrigin*()
+proc WKDatabaseManagerGetDatabasesByOrigin*() {.cdecl,
+    importc: "WKDatabaseManagerGetDatabasesByOrigin",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKDatabaseManagerGetOriginKey*()
+proc WKDatabaseManagerGetOriginKey*() {.cdecl, importc: "WKDatabaseManagerGetOriginKey",
+                                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKDatabaseManagerGetOriginQuotaKey*()
+proc WKDatabaseManagerGetOriginQuotaKey*() {.cdecl,
+    importc: "WKDatabaseManagerGetOriginQuotaKey",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKDatabaseManagerGetOriginUsageKey*()
+proc WKDatabaseManagerGetOriginUsageKey*() {.cdecl,
+    importc: "WKDatabaseManagerGetOriginUsageKey",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKDatabaseManagerGetTypeID*()
+proc WKDatabaseManagerGetTypeID*() {.cdecl,
+                                     importc: "WKDatabaseManagerGetTypeID",
+                                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKDatabaseManagerSetClient*()
+proc WKDatabaseManagerSetClient*() {.cdecl,
+                                     importc: "WKDatabaseManagerSetClient",
+                                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKDatabaseManagerSetQuotaForOrigin*()
+proc WKDatabaseManagerSetQuotaForOrigin*() {.cdecl,
+    importc: "WKDatabaseManagerSetQuotaForOrigin",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKDataCreate*()
+proc WKDataCreate*() {.cdecl, importc: "WKDataCreate",
+                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKDataGetBytes*()
+proc WKDataGetBytes*() {.cdecl, importc: "WKDataGetBytes",
+                         header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKDataGetSize*()
+proc WKDataGetSize*() {.cdecl, importc: "WKDataGetSize",
+                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKDataGetTypeID*()
+proc WKDataGetTypeID*() {.cdecl, importc: "WKDataGetTypeID",
+                          header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKDictionaryAddItem*()
+proc WKDictionaryAddItem*() {.cdecl, importc: "WKDictionaryAddItem",
+                              header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKDictionaryCopyKeys*()
+proc WKDictionaryCopyKeys*() {.cdecl, importc: "WKDictionaryCopyKeys",
+                               header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKDictionaryGetItemForKey*()
+proc WKDictionaryGetItemForKey*() {.cdecl, importc: "WKDictionaryGetItemForKey",
+                                    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKDictionaryGetSize*()
+proc WKDictionaryGetSize*() {.cdecl, importc: "WKDictionaryGetSize",
+                              header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKDictionaryGetTypeID*()
+proc WKDictionaryGetTypeID*() {.cdecl, importc: "WKDictionaryGetTypeID",
+                                header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKDictionaryIsMutable*()
+proc WKDictionaryIsMutable*() {.cdecl, importc: "WKDictionaryIsMutable",
+                                header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKDictionaryRemoveItem*()
+proc WKDictionaryRemoveItem*() {.cdecl, importc: "WKDictionaryRemoveItem",
+                                 header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKDictionarySetItem*()
+proc WKDictionarySetItem*() {.cdecl, importc: "WKDictionarySetItem",
+                              header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKDoubleCreate*()
+proc WKDoubleCreate*() {.cdecl, importc: "WKDoubleCreate",
+                         header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKDoubleGetTypeID*()
+proc WKDoubleGetTypeID*() {.cdecl, importc: "WKDoubleGetTypeID",
+                            header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKDoubleGetValue*()
+proc WKDoubleGetValue*() {.cdecl, importc: "WKDoubleGetValue",
+                           header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKDownloadCancel*()
+proc WKDownloadCancel*() {.cdecl, importc: "WKDownloadCancel",
+                           header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKDownloadCopyRequest*()
+proc WKDownloadCopyRequest*() {.cdecl, importc: "WKDownloadCopyRequest",
+                                header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKDownloadGetResumeData*()
+proc WKDownloadGetResumeData*() {.cdecl, importc: "WKDownloadGetResumeData",
+                                  header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKDownloadGetTypeID*()
+proc WKDownloadGetTypeID*() {.cdecl, importc: "WKDownloadGetTypeID",
+                              header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKErrorCopyDomain*()
+proc WKErrorCopyDomain*() {.cdecl, importc: "WKErrorCopyDomain",
+                            header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKErrorCopyFailingURL*()
+proc WKErrorCopyFailingURL*() {.cdecl, importc: "WKErrorCopyFailingURL",
+                                header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKErrorCopyLocalizedDescription*()
+proc WKErrorCopyLocalizedDescription*() {.cdecl,
+    importc: "WKErrorCopyLocalizedDescription", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKErrorCopySslVerificationResultString*()
+proc WKErrorCopySslVerificationResultString*() {.cdecl,
+    importc: "WKErrorCopySslVerificationResultString",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKErrorCopyWKErrorDomain*()
+proc WKErrorCopyWKErrorDomain*() {.cdecl, importc: "WKErrorCopyWKErrorDomain",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKErrorGetErrorCode*()
+proc WKErrorGetErrorCode*() {.cdecl, importc: "WKErrorGetErrorCode",
+                              header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKErrorGetSslVerificationResult*()
+proc WKErrorGetSslVerificationResult*() {.cdecl,
+    importc: "WKErrorGetSslVerificationResult", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKErrorGetTypeID*()
+proc WKErrorGetTypeID*() {.cdecl, importc: "WKErrorGetTypeID",
+                           header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKFormSubmissionListenerContinue*()
+proc WKFormSubmissionListenerContinue*() {.cdecl,
+    importc: "WKFormSubmissionListenerContinue", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKFormSubmissionListenerGetTypeID*()
+proc WKFormSubmissionListenerGetTypeID*() {.cdecl,
+    importc: "WKFormSubmissionListenerGetTypeID",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKFrameCanProvideSource*()
+proc WKFrameCanProvideSource*() {.cdecl, importc: "WKFrameCanProvideSource",
+                                  header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKFrameCanShowMIMEType*()
+proc WKFrameCanShowMIMEType*() {.cdecl, importc: "WKFrameCanShowMIMEType",
+                                 header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKFrameCopyChildFrames*()
+proc WKFrameCopyChildFrames*() {.cdecl, importc: "WKFrameCopyChildFrames",
+                                 header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKFrameCopyMIMEType*()
+proc WKFrameCopyMIMEType*() {.cdecl, importc: "WKFrameCopyMIMEType",
+                              header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKFrameCopyProvisionalURL*()
+proc WKFrameCopyProvisionalURL*() {.cdecl, importc: "WKFrameCopyProvisionalURL",
+                                    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKFrameCopyTitle*()
+proc WKFrameCopyTitle*() {.cdecl, importc: "WKFrameCopyTitle",
+                           header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKFrameCopyUnreachableURL*()
+proc WKFrameCopyUnreachableURL*() {.cdecl, importc: "WKFrameCopyUnreachableURL",
+                                    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKFrameCopyURL*()
+proc WKFrameCopyURL*() {.cdecl, importc: "WKFrameCopyURL",
+                         header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKFrameGetCertificateInfo*()
+proc WKFrameGetCertificateInfo*() {.cdecl, importc: "WKFrameGetCertificateInfo",
+                                    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKFrameGetFrameLoadState*()
+proc WKFrameGetFrameLoadState*() {.cdecl, importc: "WKFrameGetFrameLoadState",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKFrameGetMainResourceData*()
+proc WKFrameGetMainResourceData*() {.cdecl,
+                                     importc: "WKFrameGetMainResourceData",
+                                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKFrameGetPage*()
+proc WKFrameGetPage*() {.cdecl, importc: "WKFrameGetPage",
+                         header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKFrameGetParentFrame*()
+proc WKFrameGetParentFrame*() {.cdecl, importc: "WKFrameGetParentFrame",
+                                header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKFrameGetResourceData*()
+proc WKFrameGetResourceData*() {.cdecl, importc: "WKFrameGetResourceData",
+                                 header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKFrameGetTypeID*()
+proc WKFrameGetTypeID*() {.cdecl, importc: "WKFrameGetTypeID",
+                           header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKFrameGetWebArchive*()
+proc WKFrameGetWebArchive*() {.cdecl, importc: "WKFrameGetWebArchive",
+                               header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKFrameIsDisplayingMarkupDocument*()
+proc WKFrameIsDisplayingMarkupDocument*() {.cdecl,
+    importc: "WKFrameIsDisplayingMarkupDocument",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKFrameIsDisplayingStandaloneImageDocument*()
+proc WKFrameIsDisplayingStandaloneImageDocument*() {.cdecl,
+    importc: "WKFrameIsDisplayingStandaloneImageDocument",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKFrameIsFrameSet*()
+proc WKFrameIsFrameSet*() {.cdecl, importc: "WKFrameIsFrameSet",
+                            header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKFrameIsMainFrame*()
+proc WKFrameIsMainFrame*() {.cdecl, importc: "WKFrameIsMainFrame",
+                             header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKFramePolicyListenerDownload*()
+proc WKFramePolicyListenerDownload*() {.cdecl, importc: "WKFramePolicyListenerDownload",
+                                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKFramePolicyListenerGetTypeID*()
+proc WKFramePolicyListenerGetTypeID*() {.cdecl,
+    importc: "WKFramePolicyListenerGetTypeID", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKFramePolicyListenerIgnore*()
+proc WKFramePolicyListenerIgnore*() {.cdecl,
+                                      importc: "WKFramePolicyListenerIgnore",
+                                      header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKFramePolicyListenerUse*()
+proc WKFramePolicyListenerUse*() {.cdecl, importc: "WKFramePolicyListenerUse",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKFrameStopLoading*()
+proc WKFrameStopLoading*() {.cdecl, importc: "WKFrameStopLoading",
+                             header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKGeolocationManagerGetTypeID*()
+proc WKGeolocationManagerGetTypeID*() {.cdecl, importc: "WKGeolocationManagerGetTypeID",
+                                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKGeolocationManagerProviderDidChangePosition*()
+proc WKGeolocationManagerProviderDidChangePosition*() {.cdecl,
+    importc: "WKGeolocationManagerProviderDidChangePosition",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKGeolocationManagerProviderDidFailToDeterminePosition*()
+proc WKGeolocationManagerProviderDidFailToDeterminePosition*() {.cdecl,
+    importc: "WKGeolocationManagerProviderDidFailToDeterminePosition",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKGeolocationManagerSetProvider*()
+proc WKGeolocationManagerSetProvider*() {.cdecl,
+    importc: "WKGeolocationManagerSetProvider", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKGeolocationPermissionRequestAllow*()
+proc WKGeolocationPermissionRequestAllow*() {.cdecl,
+    importc: "WKGeolocationPermissionRequestAllow",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKGeolocationPermissionRequestDeny*()
+proc WKGeolocationPermissionRequestDeny*() {.cdecl,
+    importc: "WKGeolocationPermissionRequestDeny",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKGeolocationPermissionRequestGetTypeID*()
+proc WKGeolocationPermissionRequestGetTypeID*() {.cdecl,
+    importc: "WKGeolocationPermissionRequestGetTypeID",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKGeolocationPositionCreate*()
+proc WKGeolocationPositionCreate*() {.cdecl,
+                                      importc: "WKGeolocationPositionCreate",
+                                      header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKGeolocationPositionGetTypeID*()
+proc WKGeolocationPositionGetTypeID*() {.cdecl,
+    importc: "WKGeolocationPositionGetTypeID", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKGetTypeID*()
+proc WKGetTypeID*() {.cdecl, importc: "WKGetTypeID",
+                      header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKGrammarDetailCopyGuesses*()
+proc WKGrammarDetailCopyGuesses*() {.cdecl,
+                                     importc: "WKGrammarDetailCopyGuesses",
+                                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKGrammarDetailCopyUserDescription*()
+proc WKGrammarDetailCopyUserDescription*() {.cdecl,
+    importc: "WKGrammarDetailCopyUserDescription",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKGrammarDetailCreate*()
+proc WKGrammarDetailCreate*() {.cdecl, importc: "WKGrammarDetailCreate",
+                                header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKGrammarDetailGetLength*()
+proc WKGrammarDetailGetLength*() {.cdecl, importc: "WKGrammarDetailGetLength",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKGrammarDetailGetLocation*()
+proc WKGrammarDetailGetLocation*() {.cdecl,
+                                     importc: "WKGrammarDetailGetLocation",
+                                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKGrammarDetailGetTypeID*()
+proc WKGrammarDetailGetTypeID*() {.cdecl, importc: "WKGrammarDetailGetTypeID",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKGraphicsContextGetTypeID*()
+proc WKGraphicsContextGetTypeID*() {.cdecl,
+                                     importc: "WKGraphicsContextGetTypeID",
+                                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKHitTestResultCopyAbsoluteImageURL*()
+proc WKHitTestResultCopyAbsoluteImageURL*() {.cdecl,
+    importc: "WKHitTestResultCopyAbsoluteImageURL",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKHitTestResultCopyAbsoluteLinkURL*()
+proc WKHitTestResultCopyAbsoluteLinkURL*() {.cdecl,
+    importc: "WKHitTestResultCopyAbsoluteLinkURL",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKHitTestResultCopyAbsoluteMediaURL*()
+proc WKHitTestResultCopyAbsoluteMediaURL*() {.cdecl,
+    importc: "WKHitTestResultCopyAbsoluteMediaURL",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKHitTestResultCopyAbsolutePDFURL*()
+proc WKHitTestResultCopyAbsolutePDFURL*() {.cdecl,
+    importc: "WKHitTestResultCopyAbsolutePDFURL",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKHitTestResultCopyLinkLabel*()
+proc WKHitTestResultCopyLinkLabel*() {.cdecl,
+                                       importc: "WKHitTestResultCopyLinkLabel",
+                                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKHitTestResultCopyLinkTitle*()
+proc WKHitTestResultCopyLinkTitle*() {.cdecl,
+                                       importc: "WKHitTestResultCopyLinkTitle",
+                                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKHitTestResultGetTypeID*()
+proc WKHitTestResultGetTypeID*() {.cdecl, importc: "WKHitTestResultGetTypeID",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKIconDatabaseCheckIntegrityBeforeOpening*()
+proc WKIconDatabaseCheckIntegrityBeforeOpening*() {.cdecl,
+    importc: "WKIconDatabaseCheckIntegrityBeforeOpening",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKIconDatabaseClose*()
+proc WKIconDatabaseClose*() {.cdecl, importc: "WKIconDatabaseClose",
+                              header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKIconDatabaseEnableDatabaseCleanup*()
+proc WKIconDatabaseEnableDatabaseCleanup*() {.cdecl,
+    importc: "WKIconDatabaseEnableDatabaseCleanup",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKIconDatabaseGetTypeID*()
+proc WKIconDatabaseGetTypeID*() {.cdecl, importc: "WKIconDatabaseGetTypeID",
+                                  header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKIconDatabaseReleaseIconForURL*()
+proc WKIconDatabaseReleaseIconForURL*() {.cdecl,
+    importc: "WKIconDatabaseReleaseIconForURL", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKIconDatabaseRemoveAllIcons*()
+proc WKIconDatabaseRemoveAllIcons*() {.cdecl,
+                                       importc: "WKIconDatabaseRemoveAllIcons",
+                                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKIconDatabaseRetainIconForURL*()
+proc WKIconDatabaseRetainIconForURL*() {.cdecl,
+    importc: "WKIconDatabaseRetainIconForURL", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKIconDatabaseSetIconDatabaseClient*()
+proc WKIconDatabaseSetIconDatabaseClient*() {.cdecl,
+    importc: "WKIconDatabaseSetIconDatabaseClient",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKImageCreate*()
+proc WKImageCreate*() {.cdecl, importc: "WKImageCreate",
+                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKImageCreateCairoSurface*()
+proc WKImageCreateCairoSurface*() {.cdecl, importc: "WKImageCreateCairoSurface",
+                                    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKImageGetSize*()
+proc WKImageGetSize*() {.cdecl, importc: "WKImageGetSize",
+                         header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKImageGetTypeID*()
+proc WKImageGetTypeID*() {.cdecl, importc: "WKImageGetTypeID",
+                           header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKInspectorAttach*()
+proc WKInspectorAttach*() {.cdecl, importc: "WKInspectorAttach",
+                            header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKInspectorClose*()
+proc WKInspectorClose*() {.cdecl, importc: "WKInspectorClose",
+                           header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKInspectorDetach*()
+proc WKInspectorDetach*() {.cdecl, importc: "WKInspectorDetach",
+                            header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKInspectorGetPage*()
+proc WKInspectorGetPage*() {.cdecl, importc: "WKInspectorGetPage",
+                             header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKInspectorGetTypeID*()
+proc WKInspectorGetTypeID*() {.cdecl, importc: "WKInspectorGetTypeID",
+                               header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKInspectorIsAttached*()
+proc WKInspectorIsAttached*() {.cdecl, importc: "WKInspectorIsAttached",
+                                header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKInspectorIsDebuggingJavaScript*()
+proc WKInspectorIsDebuggingJavaScript*() {.cdecl,
+    importc: "WKInspectorIsDebuggingJavaScript", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKInspectorIsFront*()
+proc WKInspectorIsFront*() {.cdecl, importc: "WKInspectorIsFront",
+                             header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKInspectorIsProfilingJavaScript*()
+proc WKInspectorIsProfilingJavaScript*() {.cdecl,
+    importc: "WKInspectorIsProfilingJavaScript", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKInspectorIsProfilingPage*()
+proc WKInspectorIsProfilingPage*() {.cdecl,
+                                     importc: "WKInspectorIsProfilingPage",
+                                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKInspectorIsVisible*()
+proc WKInspectorIsVisible*() {.cdecl, importc: "WKInspectorIsVisible",
+                               header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKInspectorShow*()
+proc WKInspectorShow*() {.cdecl, importc: "WKInspectorShow",
+                          header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKInspectorShowConsole*()
+proc WKInspectorShowConsole*() {.cdecl, importc: "WKInspectorShowConsole",
+                                 header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKInspectorShowMainResourceForFrame*()
+proc WKInspectorShowMainResourceForFrame*() {.cdecl,
+    importc: "WKInspectorShowMainResourceForFrame",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKInspectorShowResources*()
+proc WKInspectorShowResources*() {.cdecl, importc: "WKInspectorShowResources",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKInspectorToggleJavaScriptDebugging*()
+proc WKInspectorToggleJavaScriptDebugging*() {.cdecl,
+    importc: "WKInspectorToggleJavaScriptDebugging",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKInspectorToggleJavaScriptProfiling*()
+proc WKInspectorToggleJavaScriptProfiling*() {.cdecl,
+    importc: "WKInspectorToggleJavaScriptProfiling",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKInspectorTogglePageProfiling*()
+proc WKInspectorTogglePageProfiling*() {.cdecl,
+    importc: "WKInspectorTogglePageProfiling", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKKeyValueStorageManagerDeleteAllEntries*()
+proc WKKeyValueStorageManagerDeleteAllEntries*() {.cdecl,
+    importc: "WKKeyValueStorageManagerDeleteAllEntries",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKKeyValueStorageManagerDeleteEntriesForOrigin*()
+proc WKKeyValueStorageManagerDeleteEntriesForOrigin*() {.cdecl,
+    importc: "WKKeyValueStorageManagerDeleteEntriesForOrigin",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKKeyValueStorageManagerGetKeyValueStorageOrigins*()
+proc WKKeyValueStorageManagerGetKeyValueStorageOrigins*() {.cdecl,
+    importc: "WKKeyValueStorageManagerGetKeyValueStorageOrigins",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKKeyValueStorageManagerGetTypeID*()
+proc WKKeyValueStorageManagerGetTypeID*() {.cdecl,
+    importc: "WKKeyValueStorageManagerGetTypeID",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKMediaCacheManagerClearCacheForAllHostnames*()
+proc WKMediaCacheManagerClearCacheForAllHostnames*() {.cdecl,
+    importc: "WKMediaCacheManagerClearCacheForAllHostnames",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKMediaCacheManagerClearCacheForHostname*()
+proc WKMediaCacheManagerClearCacheForHostname*() {.cdecl,
+    importc: "WKMediaCacheManagerClearCacheForHostname",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKMediaCacheManagerGetHostnamesWithMediaCache*()
+proc WKMediaCacheManagerGetHostnamesWithMediaCache*() {.cdecl,
+    importc: "WKMediaCacheManagerGetHostnamesWithMediaCache",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKMediaCacheManagerGetTypeID*()
+proc WKMediaCacheManagerGetTypeID*() {.cdecl,
+                                       importc: "WKMediaCacheManagerGetTypeID",
+                                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKMutableArrayCreate*()
+proc WKMutableArrayCreate*() {.cdecl, importc: "WKMutableArrayCreate",
+                               header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKMutableDictionaryCreate*()
+proc WKMutableDictionaryCreate*() {.cdecl, importc: "WKMutableDictionaryCreate",
+                                    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKNavigationDataCopyOriginalRequest*()
+proc WKNavigationDataCopyOriginalRequest*() {.cdecl,
+    importc: "WKNavigationDataCopyOriginalRequest",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKNavigationDataCopyTitle*()
+proc WKNavigationDataCopyTitle*() {.cdecl, importc: "WKNavigationDataCopyTitle",
+                                    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKNavigationDataCopyURL*()
+proc WKNavigationDataCopyURL*() {.cdecl, importc: "WKNavigationDataCopyURL",
+                                  header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKNavigationDataGetTypeID*()
+proc WKNavigationDataGetTypeID*() {.cdecl, importc: "WKNavigationDataGetTypeID",
+                                    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKNotificationCopyBody*()
+proc WKNotificationCopyBody*() {.cdecl, importc: "WKNotificationCopyBody",
+                                 header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKNotificationCopyIconURL*()
+proc WKNotificationCopyIconURL*() {.cdecl, importc: "WKNotificationCopyIconURL",
+                                    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKNotificationCopyTag*()
+proc WKNotificationCopyTag*() {.cdecl, importc: "WKNotificationCopyTag",
+                                header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKNotificationCopyTitle*()
+proc WKNotificationCopyTitle*() {.cdecl, importc: "WKNotificationCopyTitle",
+                                  header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKNotificationGetID*()
+proc WKNotificationGetID*() {.cdecl, importc: "WKNotificationGetID",
+                              header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKNotificationGetSecurityOrigin*()
+proc WKNotificationGetSecurityOrigin*() {.cdecl,
+    importc: "WKNotificationGetSecurityOrigin", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKNotificationGetTypeID*()
+proc WKNotificationGetTypeID*() {.cdecl, importc: "WKNotificationGetTypeID",
+                                  header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKNotificationManagerGetTypeID*()
+proc WKNotificationManagerGetTypeID*() {.cdecl,
+    importc: "WKNotificationManagerGetTypeID", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKNotificationManagerProviderDidClickNotification*()
+proc WKNotificationManagerProviderDidClickNotification*() {.cdecl,
+    importc: "WKNotificationManagerProviderDidClickNotification",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKNotificationManagerProviderDidCloseNotifications*()
+proc WKNotificationManagerProviderDidCloseNotifications*() {.cdecl,
+    importc: "WKNotificationManagerProviderDidCloseNotifications",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKNotificationManagerProviderDidRemoveNotificationPolicies*()
+proc WKNotificationManagerProviderDidRemoveNotificationPolicies*() {.cdecl,
+    importc: "WKNotificationManagerProviderDidRemoveNotificationPolicies",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKNotificationManagerProviderDidShowNotification*()
+proc WKNotificationManagerProviderDidShowNotification*() {.cdecl,
+    importc: "WKNotificationManagerProviderDidShowNotification",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKNotificationManagerProviderDidUpdateNotificationPolicy*()
+proc WKNotificationManagerProviderDidUpdateNotificationPolicy*() {.cdecl,
+    importc: "WKNotificationManagerProviderDidUpdateNotificationPolicy",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKNotificationManagerSetProvider*()
+proc WKNotificationManagerSetProvider*() {.cdecl,
+    importc: "WKNotificationManagerSetProvider", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKNotificationPermissionRequestAllow*()
+proc WKNotificationPermissionRequestAllow*() {.cdecl,
+    importc: "WKNotificationPermissionRequestAllow",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKNotificationPermissionRequestDeny*()
+proc WKNotificationPermissionRequestDeny*() {.cdecl,
+    importc: "WKNotificationPermissionRequestDeny",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKNotificationPermissionRequestGetTypeID*()
+proc WKNotificationPermissionRequestGetTypeID*() {.cdecl,
+    importc: "WKNotificationPermissionRequestGetTypeID",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKOpenPanelParametersCopyAcceptedMIMETypes*()
+proc WKOpenPanelParametersCopyAcceptedMIMETypes*() {.cdecl,
+    importc: "WKOpenPanelParametersCopyAcceptedMIMETypes",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKOpenPanelParametersGetAllowsMultipleFiles*()
+proc WKOpenPanelParametersGetAllowsMultipleFiles*() {.cdecl,
+    importc: "WKOpenPanelParametersGetAllowsMultipleFiles",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKOpenPanelParametersGetTypeID*()
+proc WKOpenPanelParametersGetTypeID*() {.cdecl,
+    importc: "WKOpenPanelParametersGetTypeID", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKOpenPanelResultListenerCancel*()
+proc WKOpenPanelResultListenerCancel*() {.cdecl,
+    importc: "WKOpenPanelResultListenerCancel", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKOpenPanelResultListenerChooseFiles*()
+proc WKOpenPanelResultListenerChooseFiles*() {.cdecl,
+    importc: "WKOpenPanelResultListenerChooseFiles",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKOpenPanelResultListenerGetTypeID*()
+proc WKOpenPanelResultListenerGetTypeID*() {.cdecl,
+    importc: "WKOpenPanelResultListenerGetTypeID",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageBlurFocusedNode*()
+proc WKPageBlurFocusedNode*() {.cdecl, importc: "WKPageBlurFocusedNode",
+                                header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageCanDelete*()
+proc WKPageCanDelete*() {.cdecl, importc: "WKPageCanDelete",
+                          header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageCanGoBack*()
+proc WKPageCanGoBack*() {.cdecl, importc: "WKPageCanGoBack",
+                          header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageCanGoForward*()
+proc WKPageCanGoForward*() {.cdecl, importc: "WKPageCanGoForward",
+                             header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageCenterSelectionInVisibleArea*()
+proc WKPageCenterSelectionInVisibleArea*() {.cdecl,
+    importc: "WKPageCenterSelectionInVisibleArea",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageClose*()
+proc WKPageClose*() {.cdecl, importc: "WKPageClose",
+                      header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageCopyActiveURL*()
+proc WKPageCopyActiveURL*() {.cdecl, importc: "WKPageCopyActiveURL",
+                              header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageCopyApplicationNameForUserAgent*()
+proc WKPageCopyApplicationNameForUserAgent*() {.cdecl,
+    importc: "WKPageCopyApplicationNameForUserAgent",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageCopyCommittedURL*()
+proc WKPageCopyCommittedURL*() {.cdecl, importc: "WKPageCopyCommittedURL",
+                                 header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageCopyCustomTextEncodingName*()
+proc WKPageCopyCustomTextEncodingName*() {.cdecl,
+    importc: "WKPageCopyCustomTextEncodingName", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageCopyCustomUserAgent*()
+proc WKPageCopyCustomUserAgent*() {.cdecl, importc: "WKPageCopyCustomUserAgent",
+                                    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageCopyPendingAPIRequestURL*()
+proc WKPageCopyPendingAPIRequestURL*() {.cdecl,
+    importc: "WKPageCopyPendingAPIRequestURL", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageCopyProvisionalURL*()
+proc WKPageCopyProvisionalURL*() {.cdecl, importc: "WKPageCopyProvisionalURL",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageCopySessionState*()
+proc WKPageCopySessionState*() {.cdecl, importc: "WKPageCopySessionState",
+                                 header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageCopyStandardUserAgentWithApplicationName*()
+proc WKPageCopyStandardUserAgentWithApplicationName*() {.cdecl,
+    importc: "WKPageCopyStandardUserAgentWithApplicationName",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageCopyTitle*()
+proc WKPageCopyTitle*() {.cdecl, importc: "WKPageCopyTitle",
+                          header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageCopyUserAgent*()
+proc WKPageCopyUserAgent*() {.cdecl, importc: "WKPageCopyUserAgent",
+                              header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageCountStringMatches*()
+proc WKPageCountStringMatches*() {.cdecl, importc: "WKPageCountStringMatches",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageCreateSnapshotOfVisibleContent*()
+proc WKPageCreateSnapshotOfVisibleContent*() {.cdecl,
+    importc: "WKPageCreateSnapshotOfVisibleContent",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageExecuteCommand*()
+proc WKPageExecuteCommand*() {.cdecl, importc: "WKPageExecuteCommand",
+                               header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageFindString*()
+proc WKPageFindString*() {.cdecl, importc: "WKPageFindString",
+                           header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageFixedLayoutSize*()
+proc WKPageFixedLayoutSize*() {.cdecl, importc: "WKPageFixedLayoutSize",
+                                header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageForceRepaint*()
+proc WKPageForceRepaint*() {.cdecl, importc: "WKPageForceRepaint",
+                             header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageGetAcceleratedCompositingBackgroundColor*()
+proc WKPageGetAcceleratedCompositingBackgroundColor*() {.cdecl,
+    importc: "WKPageGetAcceleratedCompositingBackgroundColor",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageGetBackForwardList*()
+proc WKPageGetBackForwardList*() {.cdecl, importc: "WKPageGetBackForwardList",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageGetBackingScaleFactor*()
+proc WKPageGetBackingScaleFactor*() {.cdecl,
+                                      importc: "WKPageGetBackingScaleFactor",
+                                      header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageGetContentsAsString*()
+proc WKPageGetContentsAsString*() {.cdecl, importc: "WKPageGetContentsAsString",
+                                    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageGetContext*()
+proc WKPageGetContext*() {.cdecl, importc: "WKPageGetContext",
+                           header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageGetDebugPaintFlags*()
+proc WKPageGetDebugPaintFlags*() {.cdecl, importc: "WKPageGetDebugPaintFlags",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageGetEstimatedProgress*()
+proc WKPageGetEstimatedProgress*() {.cdecl,
+                                     importc: "WKPageGetEstimatedProgress",
+                                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageGetFocusedFrame*()
+proc WKPageGetFocusedFrame*() {.cdecl, importc: "WKPageGetFocusedFrame",
+                                header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageGetFrameSetLargestFrame*()
+proc WKPageGetFrameSetLargestFrame*() {.cdecl, importc: "WKPageGetFrameSetLargestFrame",
+                                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageGetGapBetweenPages*()
+proc WKPageGetGapBetweenPages*() {.cdecl, importc: "WKPageGetGapBetweenPages",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageGetInspector*()
+proc WKPageGetInspector*() {.cdecl, importc: "WKPageGetInspector",
+                             header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageGetMainFrame*()
+proc WKPageGetMainFrame*() {.cdecl, importc: "WKPageGetMainFrame",
+                             header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageGetPageCount*()
+proc WKPageGetPageCount*() {.cdecl, importc: "WKPageGetPageCount",
+                             header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageGetPageGroup*()
+proc WKPageGetPageGroup*() {.cdecl, importc: "WKPageGetPageGroup",
+                             header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageGetPageLength*()
+proc WKPageGetPageLength*() {.cdecl, importc: "WKPageGetPageLength",
+                              header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageGetPageZoomFactor*()
+proc WKPageGetPageZoomFactor*() {.cdecl, importc: "WKPageGetPageZoomFactor",
+                                  header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageGetPaginationBehavesLikeColumns*()
+proc WKPageGetPaginationBehavesLikeColumns*() {.cdecl,
+    importc: "WKPageGetPaginationBehavesLikeColumns",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageGetPaginationMode*()
+proc WKPageGetPaginationMode*() {.cdecl, importc: "WKPageGetPaginationMode",
+                                  header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageGetProcessIdentifier*()
+proc WKPageGetProcessIdentifier*() {.cdecl,
+                                     importc: "WKPageGetProcessIdentifier",
+                                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageGetRenderTreeSize*()
+proc WKPageGetRenderTreeSize*() {.cdecl, importc: "WKPageGetRenderTreeSize",
+                                  header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageGetScaleFactor*()
+proc WKPageGetScaleFactor*() {.cdecl, importc: "WKPageGetScaleFactor",
+                               header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageGetSessionHistoryURLValueType*()
+proc WKPageGetSessionHistoryURLValueType*() {.cdecl,
+    importc: "WKPageGetSessionHistoryURLValueType",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageGetSourceForFrame*()
+proc WKPageGetSourceForFrame*() {.cdecl, importc: "WKPageGetSourceForFrame",
+                                  header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageGetTextZoomFactor*()
+proc WKPageGetTextZoomFactor*() {.cdecl, importc: "WKPageGetTextZoomFactor",
+                                  header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageGetTypeID*()
+proc WKPageGetTypeID*() {.cdecl, importc: "WKPageGetTypeID",
+                          header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageGoBack*()
+proc WKPageGoBack*() {.cdecl, importc: "WKPageGoBack",
+                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageGoForward*()
+proc WKPageGoForward*() {.cdecl, importc: "WKPageGoForward",
+                          header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageGoToBackForwardListItem*()
+proc WKPageGoToBackForwardListItem*() {.cdecl, importc: "WKPageGoToBackForwardListItem",
+                                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageGroupCopyIdentifier*()
+proc WKPageGroupCopyIdentifier*() {.cdecl, importc: "WKPageGroupCopyIdentifier",
+                                    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageGroupCreateWithIdentifier*()
+proc WKPageGroupCreateWithIdentifier*() {.cdecl,
+    importc: "WKPageGroupCreateWithIdentifier", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageGroupGetPreferences*()
+proc WKPageGroupGetPreferences*() {.cdecl, importc: "WKPageGroupGetPreferences",
+                                    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageGroupGetTypeID*()
+proc WKPageGroupGetTypeID*() {.cdecl, importc: "WKPageGroupGetTypeID",
+                               header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageGroupSetPreferences*()
+proc WKPageGroupSetPreferences*() {.cdecl, importc: "WKPageGroupSetPreferences",
+                                    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageHasHorizontalScrollbar*()
+proc WKPageHasHorizontalScrollbar*() {.cdecl,
+                                       importc: "WKPageHasHorizontalScrollbar",
+                                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageHasSelectedRange*()
+proc WKPageHasSelectedRange*() {.cdecl, importc: "WKPageHasSelectedRange",
+                                 header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageHasVerticalScrollbar*()
+proc WKPageHasVerticalScrollbar*() {.cdecl,
+                                     importc: "WKPageHasVerticalScrollbar",
+                                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageHideFindUI*()
+proc WKPageHideFindUI*() {.cdecl, importc: "WKPageHideFindUI",
+                           header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageIsClosed*()
+proc WKPageIsClosed*() {.cdecl, importc: "WKPageIsClosed",
+                         header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageIsContentEditable*()
+proc WKPageIsContentEditable*() {.cdecl, importc: "WKPageIsContentEditable",
+                                  header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageIsPinnedToLeftSide*()
+proc WKPageIsPinnedToLeftSide*() {.cdecl, importc: "WKPageIsPinnedToLeftSide",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageIsPinnedToRightSide*()
+proc WKPageIsPinnedToRightSide*() {.cdecl, importc: "WKPageIsPinnedToRightSide",
+                                    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageLoadAlternateHTMLString*()
+proc WKPageLoadAlternateHTMLString*() {.cdecl, importc: "WKPageLoadAlternateHTMLString",
+                                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageLoadData*()
+proc WKPageLoadData*() {.cdecl, importc: "WKPageLoadData",
+                         header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageLoadHTMLString*()
+proc WKPageLoadHTMLString*() {.cdecl, importc: "WKPageLoadHTMLString",
+                               header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageLoadPlainTextString*()
+proc WKPageLoadPlainTextString*() {.cdecl, importc: "WKPageLoadPlainTextString",
+                                    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageLoadURL*()
+proc WKPageLoadURL*() {.cdecl, importc: "WKPageLoadURL",
+                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageLoadURLRequest*()
+proc WKPageLoadURLRequest*() {.cdecl, importc: "WKPageLoadURLRequest",
+                               header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageLoadWebArchiveData*()
+proc WKPageLoadWebArchiveData*() {.cdecl, importc: "WKPageLoadWebArchiveData",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageReload*()
+proc WKPageReload*() {.cdecl, importc: "WKPageReload",
+                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageReloadFromOrigin*()
+proc WKPageReloadFromOrigin*() {.cdecl, importc: "WKPageReloadFromOrigin",
+                                 header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageRenderTreeExternalRepresentation*()
+proc WKPageRenderTreeExternalRepresentation*() {.cdecl,
+    importc: "WKPageRenderTreeExternalRepresentation",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageRestoreFromSessionState*()
+proc WKPageRestoreFromSessionState*() {.cdecl, importc: "WKPageRestoreFromSessionState",
+                                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageResumeActiveDOMObjectsAndAnimations*()
+proc WKPageResumeActiveDOMObjectsAndAnimations*() {.cdecl,
+    importc: "WKPageResumeActiveDOMObjectsAndAnimations",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageRunJavaScriptInMainFrame*()
+proc WKPageRunJavaScriptInMainFrame*() {.cdecl,
+    importc: "WKPageRunJavaScriptInMainFrame", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageRunJavaScriptInMainFrameAndReturnString*()
+proc WKPageRunJavaScriptInMainFrameAndReturnString*() {.cdecl,
+    importc: "WKPageRunJavaScriptInMainFrameAndReturnString",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageSetApplicationNameForUserAgent*()
+proc WKPageSetApplicationNameForUserAgent*() {.cdecl,
+    importc: "WKPageSetApplicationNameForUserAgent",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageSetCaretVisible*()
+proc WKPageSetCaretVisible*() {.cdecl, importc: "WKPageSetCaretVisible",
+                                header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageSetCustomBackingScaleFactor*()
+proc WKPageSetCustomBackingScaleFactor*() {.cdecl,
+    importc: "WKPageSetCustomBackingScaleFactor",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageSetCustomTextEncodingName*()
+proc WKPageSetCustomTextEncodingName*() {.cdecl,
+    importc: "WKPageSetCustomTextEncodingName", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageSetCustomUserAgent*()
+proc WKPageSetCustomUserAgent*() {.cdecl, importc: "WKPageSetCustomUserAgent",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageSetDebugPaintFlags*()
+proc WKPageSetDebugPaintFlags*() {.cdecl, importc: "WKPageSetDebugPaintFlags",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageSetFixedLayoutSize*()
+proc WKPageSetFixedLayoutSize*() {.cdecl, importc: "WKPageSetFixedLayoutSize",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageSetGapBetweenPages*()
+proc WKPageSetGapBetweenPages*() {.cdecl, importc: "WKPageSetGapBetweenPages",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageSetMaintainsInactiveSelection*()
+proc WKPageSetMaintainsInactiveSelection*() {.cdecl,
+    importc: "WKPageSetMaintainsInactiveSelection",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageSetMediaVolume*()
+proc WKPageSetMediaVolume*() {.cdecl, importc: "WKPageSetMediaVolume",
+                               header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageSetMemoryCacheClientCallsEnabled*()
+proc WKPageSetMemoryCacheClientCallsEnabled*() {.cdecl,
+    importc: "WKPageSetMemoryCacheClientCallsEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageSetPageAndTextZoomFactors*()
+proc WKPageSetPageAndTextZoomFactors*() {.cdecl,
+    importc: "WKPageSetPageAndTextZoomFactors", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageSetPageContextMenuClient*()
+proc WKPageSetPageContextMenuClient*() {.cdecl,
+    importc: "WKPageSetPageContextMenuClient", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageSetPageFindClient*()
+proc WKPageSetPageFindClient*() {.cdecl, importc: "WKPageSetPageFindClient",
+                                  header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageSetPageFormClient*()
+proc WKPageSetPageFormClient*() {.cdecl, importc: "WKPageSetPageFormClient",
+                                  header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageSetPageLength*()
+proc WKPageSetPageLength*() {.cdecl, importc: "WKPageSetPageLength",
+                              header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageSetPageLoaderClient*()
+proc WKPageSetPageLoaderClient*() {.cdecl, importc: "WKPageSetPageLoaderClient",
+                                    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageSetPagePolicyClient*()
+proc WKPageSetPagePolicyClient*() {.cdecl, importc: "WKPageSetPagePolicyClient",
+                                    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageSetPageUIClient*()
+proc WKPageSetPageUIClient*() {.cdecl, importc: "WKPageSetPageUIClient",
+                                header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageSetPageZoomFactor*()
+proc WKPageSetPageZoomFactor*() {.cdecl, importc: "WKPageSetPageZoomFactor",
+                                  header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageSetPaginationBehavesLikeColumns*()
+proc WKPageSetPaginationBehavesLikeColumns*() {.cdecl,
+    importc: "WKPageSetPaginationBehavesLikeColumns",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageSetPaginationMode*()
+proc WKPageSetPaginationMode*() {.cdecl, importc: "WKPageSetPaginationMode",
+                                  header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageSetScaleFactor*()
+proc WKPageSetScaleFactor*() {.cdecl, importc: "WKPageSetScaleFactor",
+                               header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageSetScaleFactorKeepingScrollOffset*()
+proc WKPageSetScaleFactorKeepingScrollOffset*() {.cdecl,
+    importc: "WKPageSetScaleFactorKeepingScrollOffset",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageSetShouldSendEventsSynchronously*()
+proc WKPageSetShouldSendEventsSynchronously*() {.cdecl,
+    importc: "WKPageSetShouldSendEventsSynchronously",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageSetTextZoomFactor*()
+proc WKPageSetTextZoomFactor*() {.cdecl, importc: "WKPageSetTextZoomFactor",
+                                  header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageSetUseFixedLayout*()
+proc WKPageSetUseFixedLayout*() {.cdecl, importc: "WKPageSetUseFixedLayout",
+                                  header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageStopLoading*()
+proc WKPageStopLoading*() {.cdecl, importc: "WKPageStopLoading",
+                            header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageSupportsTextEncoding*()
+proc WKPageSupportsTextEncoding*() {.cdecl,
+                                     importc: "WKPageSupportsTextEncoding",
+                                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageSupportsTextZoom*()
+proc WKPageSupportsTextZoom*() {.cdecl, importc: "WKPageSupportsTextZoom",
+                                 header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageSuspendActiveDOMObjectsAndAnimations*()
+proc WKPageSuspendActiveDOMObjectsAndAnimations*() {.cdecl,
+    importc: "WKPageSuspendActiveDOMObjectsAndAnimations",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageTerminate*()
+proc WKPageTerminate*() {.cdecl, importc: "WKPageTerminate",
+                          header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageTryClose*()
+proc WKPageTryClose*() {.cdecl, importc: "WKPageTryClose",
+                         header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageTryRestoreScrollPosition*()
+proc WKPageTryRestoreScrollPosition*() {.cdecl,
+    importc: "WKPageTryRestoreScrollPosition", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageUseFixedLayout*()
+proc WKPageUseFixedLayout*() {.cdecl, importc: "WKPageUseFixedLayout",
+                               header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageValidateCommand*()
+proc WKPageValidateCommand*() {.cdecl, importc: "WKPageValidateCommand",
+                                header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPageWillHandleHorizontalScrollEvents*()
+proc WKPageWillHandleHorizontalScrollEvents*() {.cdecl,
+    importc: "WKPageWillHandleHorizontalScrollEvents",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPluginSiteDataManagerClearAllSiteData*()
+proc WKPluginSiteDataManagerClearAllSiteData*() {.cdecl,
+    importc: "WKPluginSiteDataManagerClearAllSiteData",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPluginSiteDataManagerClearSiteData*()
+proc WKPluginSiteDataManagerClearSiteData*() {.cdecl,
+    importc: "WKPluginSiteDataManagerClearSiteData",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPluginSiteDataManagerGetSitesWithData*()
+proc WKPluginSiteDataManagerGetSitesWithData*() {.cdecl,
+    importc: "WKPluginSiteDataManagerGetSitesWithData",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPluginSiteDataManagerGetTypeID*()
+proc WKPluginSiteDataManagerGetTypeID*() {.cdecl,
+    importc: "WKPluginSiteDataManagerGetTypeID", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPointCreate*()
+proc WKPointCreate*() {.cdecl, importc: "WKPointCreate",
+                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPointGetTypeID*()
+proc WKPointGetTypeID*() {.cdecl, importc: "WKPointGetTypeID",
+                           header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPointGetValue*()
+proc WKPointGetValue*() {.cdecl, importc: "WKPointGetValue",
+                          header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPopupMenuItemCopyText*()
+proc WKPopupMenuItemCopyText*() {.cdecl, importc: "WKPopupMenuItemCopyText",
+                                  header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPopupMenuItemGetTypeID*()
+proc WKPopupMenuItemGetTypeID*() {.cdecl, importc: "WKPopupMenuItemGetTypeID",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPopupMenuItemIsEnabled*()
+proc WKPopupMenuItemIsEnabled*() {.cdecl, importc: "WKPopupMenuItemIsEnabled",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPopupMenuItemIsItem*()
+proc WKPopupMenuItemIsItem*() {.cdecl, importc: "WKPopupMenuItemIsItem",
+                                header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPopupMenuItemIsSeparator*()
+proc WKPopupMenuItemIsSeparator*() {.cdecl,
+                                     importc: "WKPopupMenuItemIsSeparator",
+                                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesCopyCursiveFontFamily*()
+proc WKPreferencesCopyCursiveFontFamily*() {.cdecl,
+    importc: "WKPreferencesCopyCursiveFontFamily",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesCopyDefaultTextEncodingName*()
+proc WKPreferencesCopyDefaultTextEncodingName*() {.cdecl,
+    importc: "WKPreferencesCopyDefaultTextEncodingName",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesCopyFantasyFontFamily*()
+proc WKPreferencesCopyFantasyFontFamily*() {.cdecl,
+    importc: "WKPreferencesCopyFantasyFontFamily",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesCopyFixedFontFamily*()
+proc WKPreferencesCopyFixedFontFamily*() {.cdecl,
+    importc: "WKPreferencesCopyFixedFontFamily", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesCopyFTPDirectoryTemplatePath*()
+proc WKPreferencesCopyFTPDirectoryTemplatePath*() {.cdecl,
+    importc: "WKPreferencesCopyFTPDirectoryTemplatePath",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesCopyPictographFontFamily*()
+proc WKPreferencesCopyPictographFontFamily*() {.cdecl,
+    importc: "WKPreferencesCopyPictographFontFamily",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesCopySansSerifFontFamily*()
+proc WKPreferencesCopySansSerifFontFamily*() {.cdecl,
+    importc: "WKPreferencesCopySansSerifFontFamily",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesCopySerifFontFamily*()
+proc WKPreferencesCopySerifFontFamily*() {.cdecl,
+    importc: "WKPreferencesCopySerifFontFamily", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesCopyStandardFontFamily*()
+proc WKPreferencesCopyStandardFontFamily*() {.cdecl,
+    importc: "WKPreferencesCopyStandardFontFamily",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesCreate*()
+proc WKPreferencesCreate*() {.cdecl, importc: "WKPreferencesCreate",
+                              header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesCreateCopy*()
+proc WKPreferencesCreateCopy*() {.cdecl, importc: "WKPreferencesCreateCopy",
+                                  header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesCreateWithIdentifier*()
+proc WKPreferencesCreateWithIdentifier*() {.cdecl,
+    importc: "WKPreferencesCreateWithIdentifier",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetAcceleratedCompositingEnabled*()
+proc WKPreferencesGetAcceleratedCompositingEnabled*() {.cdecl,
+    importc: "WKPreferencesGetAcceleratedCompositingEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetAcceleratedDrawingEnabled*()
+proc WKPreferencesGetAcceleratedDrawingEnabled*() {.cdecl,
+    importc: "WKPreferencesGetAcceleratedDrawingEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetApplicationChromeModeEnabled*()
+proc WKPreferencesGetApplicationChromeModeEnabled*() {.cdecl,
+    importc: "WKPreferencesGetApplicationChromeModeEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetAuthorAndUserStylesEnabled*()
+proc WKPreferencesGetAuthorAndUserStylesEnabled*() {.cdecl,
+    importc: "WKPreferencesGetAuthorAndUserStylesEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetAVFoundationEnabled*()
+proc WKPreferencesGetAVFoundationEnabled*() {.cdecl,
+    importc: "WKPreferencesGetAVFoundationEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetBackspaceKeyNavigationEnabled*()
+proc WKPreferencesGetBackspaceKeyNavigationEnabled*() {.cdecl,
+    importc: "WKPreferencesGetBackspaceKeyNavigationEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetCanvasUsesAcceleratedDrawing*()
+proc WKPreferencesGetCanvasUsesAcceleratedDrawing*() {.cdecl,
+    importc: "WKPreferencesGetCanvasUsesAcceleratedDrawing",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetCaretBrowsingEnabled*()
+proc WKPreferencesGetCaretBrowsingEnabled*() {.cdecl,
+    importc: "WKPreferencesGetCaretBrowsingEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetCompositingBordersVisible*()
+proc WKPreferencesGetCompositingBordersVisible*() {.cdecl,
+    importc: "WKPreferencesGetCompositingBordersVisible",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetCompositingRepaintCountersVisible*()
+proc WKPreferencesGetCompositingRepaintCountersVisible*() {.cdecl,
+    importc: "WKPreferencesGetCompositingRepaintCountersVisible",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetCookieEnabled*()
+proc WKPreferencesGetCookieEnabled*() {.cdecl, importc: "WKPreferencesGetCookieEnabled",
+                                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetCoverAreaMultiplier*()
+proc WKPreferencesGetCoverAreaMultiplier*() {.cdecl,
+    importc: "WKPreferencesGetCoverAreaMultiplier",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetCSSCustomFilterEnabled*()
+proc WKPreferencesGetCSSCustomFilterEnabled*() {.cdecl,
+    importc: "WKPreferencesGetCSSCustomFilterEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetCSSRegionsEnabled*()
+proc WKPreferencesGetCSSRegionsEnabled*() {.cdecl,
+    importc: "WKPreferencesGetCSSRegionsEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetDatabasesEnabled*()
+proc WKPreferencesGetDatabasesEnabled*() {.cdecl,
+    importc: "WKPreferencesGetDatabasesEnabled", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetDefaultFixedFontSize*()
+proc WKPreferencesGetDefaultFixedFontSize*() {.cdecl,
+    importc: "WKPreferencesGetDefaultFixedFontSize",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetDefaultFontSize*()
+proc WKPreferencesGetDefaultFontSize*() {.cdecl,
+    importc: "WKPreferencesGetDefaultFontSize", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetDeveloperExtrasEnabled*()
+proc WKPreferencesGetDeveloperExtrasEnabled*() {.cdecl,
+    importc: "WKPreferencesGetDeveloperExtrasEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetDNSPrefetchingEnabled*()
+proc WKPreferencesGetDNSPrefetchingEnabled*() {.cdecl,
+    importc: "WKPreferencesGetDNSPrefetchingEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetDOMPasteAllowed*()
+proc WKPreferencesGetDOMPasteAllowed*() {.cdecl,
+    importc: "WKPreferencesGetDOMPasteAllowed", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetDoNotTrack*()
+proc WKPreferencesGetDoNotTrack*() {.cdecl,
+                                     importc: "WKPreferencesGetDoNotTrack",
+                                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetEditableLinkBehavior*()
+proc WKPreferencesGetEditableLinkBehavior*() {.cdecl,
+    importc: "WKPreferencesGetEditableLinkBehavior",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetEncodingDetectorEnabled*()
+proc WKPreferencesGetEncodingDetectorEnabled*() {.cdecl,
+    importc: "WKPreferencesGetEncodingDetectorEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetFileAccessFromFileURLsAllowed*()
+proc WKPreferencesGetFileAccessFromFileURLsAllowed*() {.cdecl,
+    importc: "WKPreferencesGetFileAccessFromFileURLsAllowed",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetFontSmoothingLevel*()
+proc WKPreferencesGetFontSmoothingLevel*() {.cdecl,
+    importc: "WKPreferencesGetFontSmoothingLevel",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetForceEnableVideo*()
+proc WKPreferencesGetForceEnableVideo*() {.cdecl,
+    importc: "WKPreferencesGetForceEnableVideo", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetForceFTPDirectoryListings*()
+proc WKPreferencesGetForceFTPDirectoryListings*() {.cdecl,
+    importc: "WKPreferencesGetForceFTPDirectoryListings",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetFrameFlatteningEnabled*()
+proc WKPreferencesGetFrameFlatteningEnabled*() {.cdecl,
+    importc: "WKPreferencesGetFrameFlatteningEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetFullScreenEnabled*()
+proc WKPreferencesGetFullScreenEnabled*() {.cdecl,
+    importc: "WKPreferencesGetFullScreenEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetHixie76WebSocketProtocolEnabled*()
+proc WKPreferencesGetHixie76WebSocketProtocolEnabled*() {.cdecl,
+    importc: "WKPreferencesGetHixie76WebSocketProtocolEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetHyperlinkAuditingEnabled*()
+proc WKPreferencesGetHyperlinkAuditingEnabled*() {.cdecl,
+    importc: "WKPreferencesGetHyperlinkAuditingEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetInspectorUsesWebKitUserInterface*()
+proc WKPreferencesGetInspectorUsesWebKitUserInterface*() {.cdecl,
+    importc: "WKPreferencesGetInspectorUsesWebKitUserInterface",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetJavaEnabled*()
+proc WKPreferencesGetJavaEnabled*() {.cdecl,
+                                      importc: "WKPreferencesGetJavaEnabled",
+                                      header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetJavaEnabledForLocalFiles*()
+proc WKPreferencesGetJavaEnabledForLocalFiles*() {.cdecl,
+    importc: "WKPreferencesGetJavaEnabledForLocalFiles",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetJavaScriptCanAccessClipboard*()
+proc WKPreferencesGetJavaScriptCanAccessClipboard*() {.cdecl,
+    importc: "WKPreferencesGetJavaScriptCanAccessClipboard",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetJavaScriptCanOpenWindowsAutomatically*()
+proc WKPreferencesGetJavaScriptCanOpenWindowsAutomatically*() {.cdecl,
+    importc: "WKPreferencesGetJavaScriptCanOpenWindowsAutomatically",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetJavaScriptEnabled*()
+proc WKPreferencesGetJavaScriptEnabled*() {.cdecl,
+    importc: "WKPreferencesGetJavaScriptEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetLoadsImagesAutomatically*()
+proc WKPreferencesGetLoadsImagesAutomatically*() {.cdecl,
+    importc: "WKPreferencesGetLoadsImagesAutomatically",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetLoadsSiteIconsIgnoringImageLoadingPreference*()
+proc WKPreferencesGetLoadsSiteIconsIgnoringImageLoadingPreference*() {.cdecl,
+    importc: "WKPreferencesGetLoadsSiteIconsIgnoringImageLoadingPreference",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetLocalFileContentSniffingEnabled*()
+proc WKPreferencesGetLocalFileContentSniffingEnabled*() {.cdecl,
+    importc: "WKPreferencesGetLocalFileContentSniffingEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetLocalStorageEnabled*()
+proc WKPreferencesGetLocalStorageEnabled*() {.cdecl,
+    importc: "WKPreferencesGetLocalStorageEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetMediaPlaybackAllowsInline*()
+proc WKPreferencesGetMediaPlaybackAllowsInline*() {.cdecl,
+    importc: "WKPreferencesGetMediaPlaybackAllowsInline",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetMediaPlaybackRequiresUserGesture*()
+proc WKPreferencesGetMediaPlaybackRequiresUserGesture*() {.cdecl,
+    importc: "WKPreferencesGetMediaPlaybackRequiresUserGesture",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetMinimumFontSize*()
+proc WKPreferencesGetMinimumFontSize*() {.cdecl,
+    importc: "WKPreferencesGetMinimumFontSize", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetMockScrollbarsEnabled*()
+proc WKPreferencesGetMockScrollbarsEnabled*() {.cdecl,
+    importc: "WKPreferencesGetMockScrollbarsEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetNeedsSiteSpecificQuirks*()
+proc WKPreferencesGetNeedsSiteSpecificQuirks*() {.cdecl,
+    importc: "WKPreferencesGetNeedsSiteSpecificQuirks",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetNotificationsEnabled*()
+proc WKPreferencesGetNotificationsEnabled*() {.cdecl,
+    importc: "WKPreferencesGetNotificationsEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetOfflineWebApplicationCacheEnabled*()
+proc WKPreferencesGetOfflineWebApplicationCacheEnabled*() {.cdecl,
+    importc: "WKPreferencesGetOfflineWebApplicationCacheEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetPageCacheEnabled*()
+proc WKPreferencesGetPageCacheEnabled*() {.cdecl,
+    importc: "WKPreferencesGetPageCacheEnabled", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetPageCacheSupportsPlugins*()
+proc WKPreferencesGetPageCacheSupportsPlugins*() {.cdecl,
+    importc: "WKPreferencesGetPageCacheSupportsPlugins",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetPaginateDuringLayoutEnabled*()
+proc WKPreferencesGetPaginateDuringLayoutEnabled*() {.cdecl,
+    importc: "WKPreferencesGetPaginateDuringLayoutEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetPluginsEnabled*()
+proc WKPreferencesGetPluginsEnabled*() {.cdecl,
+    importc: "WKPreferencesGetPluginsEnabled", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetPrivateBrowsingEnabled*()
+proc WKPreferencesGetPrivateBrowsingEnabled*() {.cdecl,
+    importc: "WKPreferencesGetPrivateBrowsingEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetRegionBasedColumnsEnabled*()
+proc WKPreferencesGetRegionBasedColumnsEnabled*() {.cdecl,
+    importc: "WKPreferencesGetRegionBasedColumnsEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetShouldDisplayCaptions*()
+proc WKPreferencesGetShouldDisplayCaptions*() {.cdecl,
+    importc: "WKPreferencesGetShouldDisplayCaptions",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetShouldDisplaySubtitles*()
+proc WKPreferencesGetShouldDisplaySubtitles*() {.cdecl,
+    importc: "WKPreferencesGetShouldDisplaySubtitles",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetShouldDisplayTextDescriptions*()
+proc WKPreferencesGetShouldDisplayTextDescriptions*() {.cdecl,
+    importc: "WKPreferencesGetShouldDisplayTextDescriptions",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetShouldPrintBackgrounds*()
+proc WKPreferencesGetShouldPrintBackgrounds*() {.cdecl,
+    importc: "WKPreferencesGetShouldPrintBackgrounds",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetShouldRespectImageOrientation*()
+proc WKPreferencesGetShouldRespectImageOrientation*() {.cdecl,
+    importc: "WKPreferencesGetShouldRespectImageOrientation",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetShowsToolTipOverTruncatedText*()
+proc WKPreferencesGetShowsToolTipOverTruncatedText*() {.cdecl,
+    importc: "WKPreferencesGetShowsToolTipOverTruncatedText",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetSuppressesIncrementalRendering*()
+proc WKPreferencesGetSuppressesIncrementalRendering*() {.cdecl,
+    importc: "WKPreferencesGetSuppressesIncrementalRendering",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetTabsToLinks*()
+proc WKPreferencesGetTabsToLinks*() {.cdecl,
+                                      importc: "WKPreferencesGetTabsToLinks",
+                                      header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetTextAreasAreResizable*()
+proc WKPreferencesGetTextAreasAreResizable*() {.cdecl,
+    importc: "WKPreferencesGetTextAreasAreResizable",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetTypeID*()
+proc WKPreferencesGetTypeID*() {.cdecl, importc: "WKPreferencesGetTypeID",
+                                 header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetUniversalAccessFromFileURLsAllowed*()
+proc WKPreferencesGetUniversalAccessFromFileURLsAllowed*() {.cdecl,
+    importc: "WKPreferencesGetUniversalAccessFromFileURLsAllowed",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetWebArchiveDebugModeEnabled*()
+proc WKPreferencesGetWebArchiveDebugModeEnabled*() {.cdecl,
+    importc: "WKPreferencesGetWebArchiveDebugModeEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetWebAudioEnabled*()
+proc WKPreferencesGetWebAudioEnabled*() {.cdecl,
+    importc: "WKPreferencesGetWebAudioEnabled", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetWebGLEnabled*()
+proc WKPreferencesGetWebGLEnabled*() {.cdecl,
+                                       importc: "WKPreferencesGetWebGLEnabled",
+                                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetWebSecurityEnabled*()
+proc WKPreferencesGetWebSecurityEnabled*() {.cdecl,
+    importc: "WKPreferencesGetWebSecurityEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesGetXSSAuditorEnabled*()
+proc WKPreferencesGetXSSAuditorEnabled*() {.cdecl,
+    importc: "WKPreferencesGetXSSAuditorEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesResetTestRunnerOverrides*()
+proc WKPreferencesResetTestRunnerOverrides*() {.cdecl,
+    importc: "WKPreferencesResetTestRunnerOverrides",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetAcceleratedCompositingEnabled*()
+proc WKPreferencesSetAcceleratedCompositingEnabled*() {.cdecl,
+    importc: "WKPreferencesSetAcceleratedCompositingEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetAcceleratedDrawingEnabled*()
+proc WKPreferencesSetAcceleratedDrawingEnabled*() {.cdecl,
+    importc: "WKPreferencesSetAcceleratedDrawingEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetApplicationChromeModeEnabled*()
+proc WKPreferencesSetApplicationChromeModeEnabled*() {.cdecl,
+    importc: "WKPreferencesSetApplicationChromeModeEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetAuthorAndUserStylesEnabled*()
+proc WKPreferencesSetAuthorAndUserStylesEnabled*() {.cdecl,
+    importc: "WKPreferencesSetAuthorAndUserStylesEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetAVFoundationEnabled*()
+proc WKPreferencesSetAVFoundationEnabled*() {.cdecl,
+    importc: "WKPreferencesSetAVFoundationEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetBackspaceKeyNavigationEnabled*()
+proc WKPreferencesSetBackspaceKeyNavigationEnabled*() {.cdecl,
+    importc: "WKPreferencesSetBackspaceKeyNavigationEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetCanvasUsesAcceleratedDrawing*()
+proc WKPreferencesSetCanvasUsesAcceleratedDrawing*() {.cdecl,
+    importc: "WKPreferencesSetCanvasUsesAcceleratedDrawing",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetCaretBrowsingEnabled*()
+proc WKPreferencesSetCaretBrowsingEnabled*() {.cdecl,
+    importc: "WKPreferencesSetCaretBrowsingEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetCompositingBordersVisible*()
+proc WKPreferencesSetCompositingBordersVisible*() {.cdecl,
+    importc: "WKPreferencesSetCompositingBordersVisible",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetCompositingRepaintCountersVisible*()
+proc WKPreferencesSetCompositingRepaintCountersVisible*() {.cdecl,
+    importc: "WKPreferencesSetCompositingRepaintCountersVisible",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetCookieEnabled*()
+proc WKPreferencesSetCookieEnabled*() {.cdecl, importc: "WKPreferencesSetCookieEnabled",
+                                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetCoverAreaMultiplier*()
+proc WKPreferencesSetCoverAreaMultiplier*() {.cdecl,
+    importc: "WKPreferencesSetCoverAreaMultiplier",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetCSSCustomFilterEnabled*()
+proc WKPreferencesSetCSSCustomFilterEnabled*() {.cdecl,
+    importc: "WKPreferencesSetCSSCustomFilterEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetCSSRegionsEnabled*()
+proc WKPreferencesSetCSSRegionsEnabled*() {.cdecl,
+    importc: "WKPreferencesSetCSSRegionsEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetCursiveFontFamily*()
+proc WKPreferencesSetCursiveFontFamily*() {.cdecl,
+    importc: "WKPreferencesSetCursiveFontFamily",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetDatabasesEnabled*()
+proc WKPreferencesSetDatabasesEnabled*() {.cdecl,
+    importc: "WKPreferencesSetDatabasesEnabled", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetDefaultFixedFontSize*()
+proc WKPreferencesSetDefaultFixedFontSize*() {.cdecl,
+    importc: "WKPreferencesSetDefaultFixedFontSize",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetDefaultFontSize*()
+proc WKPreferencesSetDefaultFontSize*() {.cdecl,
+    importc: "WKPreferencesSetDefaultFontSize", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetDefaultTextEncodingName*()
+proc WKPreferencesSetDefaultTextEncodingName*() {.cdecl,
+    importc: "WKPreferencesSetDefaultTextEncodingName",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetDeveloperExtrasEnabled*()
+proc WKPreferencesSetDeveloperExtrasEnabled*() {.cdecl,
+    importc: "WKPreferencesSetDeveloperExtrasEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetDNSPrefetchingEnabled*()
+proc WKPreferencesSetDNSPrefetchingEnabled*() {.cdecl,
+    importc: "WKPreferencesSetDNSPrefetchingEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetDOMPasteAllowed*()
+proc WKPreferencesSetDOMPasteAllowed*() {.cdecl,
+    importc: "WKPreferencesSetDOMPasteAllowed", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetDoNotTrack*()
+proc WKPreferencesSetDoNotTrack*() {.cdecl,
+                                     importc: "WKPreferencesSetDoNotTrack",
+                                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetEditableLinkBehavior*()
+proc WKPreferencesSetEditableLinkBehavior*() {.cdecl,
+    importc: "WKPreferencesSetEditableLinkBehavior",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetEncodingDetectorEnabled*()
+proc WKPreferencesSetEncodingDetectorEnabled*() {.cdecl,
+    importc: "WKPreferencesSetEncodingDetectorEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetFantasyFontFamily*()
+proc WKPreferencesSetFantasyFontFamily*() {.cdecl,
+    importc: "WKPreferencesSetFantasyFontFamily",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetFileAccessFromFileURLsAllowed*()
+proc WKPreferencesSetFileAccessFromFileURLsAllowed*() {.cdecl,
+    importc: "WKPreferencesSetFileAccessFromFileURLsAllowed",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetFixedFontFamily*()
+proc WKPreferencesSetFixedFontFamily*() {.cdecl,
+    importc: "WKPreferencesSetFixedFontFamily", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetFontSmoothingLevel*()
+proc WKPreferencesSetFontSmoothingLevel*() {.cdecl,
+    importc: "WKPreferencesSetFontSmoothingLevel",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetForceEnableVideo*()
+proc WKPreferencesSetForceEnableVideo*() {.cdecl,
+    importc: "WKPreferencesSetForceEnableVideo", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetForceFTPDirectoryListings*()
+proc WKPreferencesSetForceFTPDirectoryListings*() {.cdecl,
+    importc: "WKPreferencesSetForceFTPDirectoryListings",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetFrameFlatteningEnabled*()
+proc WKPreferencesSetFrameFlatteningEnabled*() {.cdecl,
+    importc: "WKPreferencesSetFrameFlatteningEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetFTPDirectoryTemplatePath*()
+proc WKPreferencesSetFTPDirectoryTemplatePath*() {.cdecl,
+    importc: "WKPreferencesSetFTPDirectoryTemplatePath",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetFullScreenEnabled*()
+proc WKPreferencesSetFullScreenEnabled*() {.cdecl,
+    importc: "WKPreferencesSetFullScreenEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetHixie76WebSocketProtocolEnabled*()
+proc WKPreferencesSetHixie76WebSocketProtocolEnabled*() {.cdecl,
+    importc: "WKPreferencesSetHixie76WebSocketProtocolEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetHyperlinkAuditingEnabled*()
+proc WKPreferencesSetHyperlinkAuditingEnabled*() {.cdecl,
+    importc: "WKPreferencesSetHyperlinkAuditingEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetInspectorUsesWebKitUserInterface*()
+proc WKPreferencesSetInspectorUsesWebKitUserInterface*() {.cdecl,
+    importc: "WKPreferencesSetInspectorUsesWebKitUserInterface",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetJavaEnabled*()
+proc WKPreferencesSetJavaEnabled*() {.cdecl,
+                                      importc: "WKPreferencesSetJavaEnabled",
+                                      header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetJavaEnabledForLocalFiles*()
+proc WKPreferencesSetJavaEnabledForLocalFiles*() {.cdecl,
+    importc: "WKPreferencesSetJavaEnabledForLocalFiles",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetJavaScriptCanAccessClipboard*()
+proc WKPreferencesSetJavaScriptCanAccessClipboard*() {.cdecl,
+    importc: "WKPreferencesSetJavaScriptCanAccessClipboard",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetJavaScriptCanOpenWindowsAutomatically*()
+proc WKPreferencesSetJavaScriptCanOpenWindowsAutomatically*() {.cdecl,
+    importc: "WKPreferencesSetJavaScriptCanOpenWindowsAutomatically",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetJavaScriptEnabled*()
+proc WKPreferencesSetJavaScriptEnabled*() {.cdecl,
+    importc: "WKPreferencesSetJavaScriptEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetLoadsImagesAutomatically*()
+proc WKPreferencesSetLoadsImagesAutomatically*() {.cdecl,
+    importc: "WKPreferencesSetLoadsImagesAutomatically",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetLoadsSiteIconsIgnoringImageLoadingPreference*()
+proc WKPreferencesSetLoadsSiteIconsIgnoringImageLoadingPreference*() {.cdecl,
+    importc: "WKPreferencesSetLoadsSiteIconsIgnoringImageLoadingPreference",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetLocalFileContentSniffingEnabled*()
+proc WKPreferencesSetLocalFileContentSniffingEnabled*() {.cdecl,
+    importc: "WKPreferencesSetLocalFileContentSniffingEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetLocalStorageEnabled*()
+proc WKPreferencesSetLocalStorageEnabled*() {.cdecl,
+    importc: "WKPreferencesSetLocalStorageEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetMediaPlaybackAllowsInline*()
+proc WKPreferencesSetMediaPlaybackAllowsInline*() {.cdecl,
+    importc: "WKPreferencesSetMediaPlaybackAllowsInline",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetMediaPlaybackRequiresUserGesture*()
+proc WKPreferencesSetMediaPlaybackRequiresUserGesture*() {.cdecl,
+    importc: "WKPreferencesSetMediaPlaybackRequiresUserGesture",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetMinimumFontSize*()
+proc WKPreferencesSetMinimumFontSize*() {.cdecl,
+    importc: "WKPreferencesSetMinimumFontSize", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetMockScrollbarsEnabled*()
+proc WKPreferencesSetMockScrollbarsEnabled*() {.cdecl,
+    importc: "WKPreferencesSetMockScrollbarsEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetNeedsSiteSpecificQuirks*()
+proc WKPreferencesSetNeedsSiteSpecificQuirks*() {.cdecl,
+    importc: "WKPreferencesSetNeedsSiteSpecificQuirks",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetNotificationsEnabled*()
+proc WKPreferencesSetNotificationsEnabled*() {.cdecl,
+    importc: "WKPreferencesSetNotificationsEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetOfflineWebApplicationCacheEnabled*()
+proc WKPreferencesSetOfflineWebApplicationCacheEnabled*() {.cdecl,
+    importc: "WKPreferencesSetOfflineWebApplicationCacheEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetPageCacheEnabled*()
+proc WKPreferencesSetPageCacheEnabled*() {.cdecl,
+    importc: "WKPreferencesSetPageCacheEnabled", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetPageCacheSupportsPlugins*()
+proc WKPreferencesSetPageCacheSupportsPlugins*() {.cdecl,
+    importc: "WKPreferencesSetPageCacheSupportsPlugins",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetPaginateDuringLayoutEnabled*()
+proc WKPreferencesSetPaginateDuringLayoutEnabled*() {.cdecl,
+    importc: "WKPreferencesSetPaginateDuringLayoutEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetPictographFontFamily*()
+proc WKPreferencesSetPictographFontFamily*() {.cdecl,
+    importc: "WKPreferencesSetPictographFontFamily",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetPluginsEnabled*()
+proc WKPreferencesSetPluginsEnabled*() {.cdecl,
+    importc: "WKPreferencesSetPluginsEnabled", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetPrivateBrowsingEnabled*()
+proc WKPreferencesSetPrivateBrowsingEnabled*() {.cdecl,
+    importc: "WKPreferencesSetPrivateBrowsingEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetRegionBasedColumnsEnabled*()
+proc WKPreferencesSetRegionBasedColumnsEnabled*() {.cdecl,
+    importc: "WKPreferencesSetRegionBasedColumnsEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetSansSerifFontFamily*()
+proc WKPreferencesSetSansSerifFontFamily*() {.cdecl,
+    importc: "WKPreferencesSetSansSerifFontFamily",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetSerifFontFamily*()
+proc WKPreferencesSetSerifFontFamily*() {.cdecl,
+    importc: "WKPreferencesSetSerifFontFamily", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetShouldDisplayCaptions*()
+proc WKPreferencesSetShouldDisplayCaptions*() {.cdecl,
+    importc: "WKPreferencesSetShouldDisplayCaptions",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetShouldDisplaySubtitles*()
+proc WKPreferencesSetShouldDisplaySubtitles*() {.cdecl,
+    importc: "WKPreferencesSetShouldDisplaySubtitles",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetShouldDisplayTextDescriptions*()
+proc WKPreferencesSetShouldDisplayTextDescriptions*() {.cdecl,
+    importc: "WKPreferencesSetShouldDisplayTextDescriptions",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetShouldPrintBackgrounds*()
+proc WKPreferencesSetShouldPrintBackgrounds*() {.cdecl,
+    importc: "WKPreferencesSetShouldPrintBackgrounds",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetShouldRespectImageOrientation*()
+proc WKPreferencesSetShouldRespectImageOrientation*() {.cdecl,
+    importc: "WKPreferencesSetShouldRespectImageOrientation",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetShowsToolTipOverTruncatedText*()
+proc WKPreferencesSetShowsToolTipOverTruncatedText*() {.cdecl,
+    importc: "WKPreferencesSetShowsToolTipOverTruncatedText",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetStandardFontFamily*()
+proc WKPreferencesSetStandardFontFamily*() {.cdecl,
+    importc: "WKPreferencesSetStandardFontFamily",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetSuppressesIncrementalRendering*()
+proc WKPreferencesSetSuppressesIncrementalRendering*() {.cdecl,
+    importc: "WKPreferencesSetSuppressesIncrementalRendering",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetTabsToLinks*()
+proc WKPreferencesSetTabsToLinks*() {.cdecl,
+                                      importc: "WKPreferencesSetTabsToLinks",
+                                      header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetTextAreasAreResizable*()
+proc WKPreferencesSetTextAreasAreResizable*() {.cdecl,
+    importc: "WKPreferencesSetTextAreasAreResizable",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetUniversalAccessFromFileURLsAllowed*()
+proc WKPreferencesSetUniversalAccessFromFileURLsAllowed*() {.cdecl,
+    importc: "WKPreferencesSetUniversalAccessFromFileURLsAllowed",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetWebArchiveDebugModeEnabled*()
+proc WKPreferencesSetWebArchiveDebugModeEnabled*() {.cdecl,
+    importc: "WKPreferencesSetWebArchiveDebugModeEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetWebAudioEnabled*()
+proc WKPreferencesSetWebAudioEnabled*() {.cdecl,
+    importc: "WKPreferencesSetWebAudioEnabled", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetWebGLEnabled*()
+proc WKPreferencesSetWebGLEnabled*() {.cdecl,
+                                       importc: "WKPreferencesSetWebGLEnabled",
+                                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetWebSecurityEnabled*()
+proc WKPreferencesSetWebSecurityEnabled*() {.cdecl,
+    importc: "WKPreferencesSetWebSecurityEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKPreferencesSetXSSAuditorEnabled*()
+proc WKPreferencesSetXSSAuditorEnabled*() {.cdecl,
+    importc: "WKPreferencesSetXSSAuditorEnabled",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKProtectionSpaceCopyHost*()
+proc WKProtectionSpaceCopyHost*() {.cdecl, importc: "WKProtectionSpaceCopyHost",
+                                    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKProtectionSpaceCopyRealm*()
+proc WKProtectionSpaceCopyRealm*() {.cdecl,
+                                     importc: "WKProtectionSpaceCopyRealm",
+                                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKProtectionSpaceGetAuthenticationScheme*()
+proc WKProtectionSpaceGetAuthenticationScheme*() {.cdecl,
+    importc: "WKProtectionSpaceGetAuthenticationScheme",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKProtectionSpaceGetIsProxy*()
+proc WKProtectionSpaceGetIsProxy*() {.cdecl,
+                                      importc: "WKProtectionSpaceGetIsProxy",
+                                      header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKProtectionSpaceGetPort*()
+proc WKProtectionSpaceGetPort*() {.cdecl, importc: "WKProtectionSpaceGetPort",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKProtectionSpaceGetReceivesCredentialSecurely*()
+proc WKProtectionSpaceGetReceivesCredentialSecurely*() {.cdecl,
+    importc: "WKProtectionSpaceGetReceivesCredentialSecurely",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKProtectionSpaceGetServerType*()
+proc WKProtectionSpaceGetServerType*() {.cdecl,
+    importc: "WKProtectionSpaceGetServerType", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKProtectionSpaceGetTypeID*()
+proc WKProtectionSpaceGetTypeID*() {.cdecl,
+                                     importc: "WKProtectionSpaceGetTypeID",
+                                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKRectCreate*()
+proc WKRectCreate*() {.cdecl, importc: "WKRectCreate",
+                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKRectGetTypeID*()
+proc WKRectGetTypeID*() {.cdecl, importc: "WKRectGetTypeID",
+                          header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKRectGetValue*()
+proc WKRectGetValue*() {.cdecl, importc: "WKRectGetValue",
+                         header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKRelease*()
+proc WKRelease*() {.cdecl, importc: "WKRelease", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKRenderLayerCopyElementID*()
+proc WKRenderLayerCopyElementID*() {.cdecl,
+                                     importc: "WKRenderLayerCopyElementID",
+                                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKRenderLayerCopyElementTagName*()
+proc WKRenderLayerCopyElementTagName*() {.cdecl,
+    importc: "WKRenderLayerCopyElementTagName", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKRenderLayerCopyRendererName*()
+proc WKRenderLayerCopyRendererName*() {.cdecl, importc: "WKRenderLayerCopyRendererName",
+                                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKRenderLayerGetAbsoluteBounds*()
+proc WKRenderLayerGetAbsoluteBounds*() {.cdecl,
+    importc: "WKRenderLayerGetAbsoluteBounds", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKRenderLayerGetCompositingLayerType*()
+proc WKRenderLayerGetCompositingLayerType*() {.cdecl,
+    importc: "WKRenderLayerGetCompositingLayerType",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKRenderLayerGetElementClassNames*()
+proc WKRenderLayerGetElementClassNames*() {.cdecl,
+    importc: "WKRenderLayerGetElementClassNames",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKRenderLayerGetNegativeZOrderList*()
+proc WKRenderLayerGetNegativeZOrderList*() {.cdecl,
+    importc: "WKRenderLayerGetNegativeZOrderList",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKRenderLayerGetNormalFlowList*()
+proc WKRenderLayerGetNormalFlowList*() {.cdecl,
+    importc: "WKRenderLayerGetNormalFlowList", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKRenderLayerGetPositiveZOrderList*()
+proc WKRenderLayerGetPositiveZOrderList*() {.cdecl,
+    importc: "WKRenderLayerGetPositiveZOrderList",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKRenderLayerGetTypeID*()
+proc WKRenderLayerGetTypeID*() {.cdecl, importc: "WKRenderLayerGetTypeID",
+                                 header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKRenderLayerIsClipped*()
+proc WKRenderLayerIsClipped*() {.cdecl, importc: "WKRenderLayerIsClipped",
+                                 header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKRenderLayerIsClipping*()
+proc WKRenderLayerIsClipping*() {.cdecl, importc: "WKRenderLayerIsClipping",
+                                  header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKRenderLayerIsReflection*()
+proc WKRenderLayerIsReflection*() {.cdecl, importc: "WKRenderLayerIsReflection",
+                                    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKRenderObjectCopyName*()
+proc WKRenderObjectCopyName*() {.cdecl, importc: "WKRenderObjectCopyName",
+                                 header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKRenderObjectGetAbsolutePosition*()
+proc WKRenderObjectGetAbsolutePosition*() {.cdecl,
+    importc: "WKRenderObjectGetAbsolutePosition",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKRenderObjectGetChildren*()
+proc WKRenderObjectGetChildren*() {.cdecl, importc: "WKRenderObjectGetChildren",
+                                    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKRenderObjectGetFrameRect*()
+proc WKRenderObjectGetFrameRect*() {.cdecl,
+                                     importc: "WKRenderObjectGetFrameRect",
+                                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKRenderObjectGetTypeID*()
+proc WKRenderObjectGetTypeID*() {.cdecl, importc: "WKRenderObjectGetTypeID",
+                                  header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKResourceCacheManagerClearCacheForAllOrigins*()
+proc WKResourceCacheManagerClearCacheForAllOrigins*() {.cdecl,
+    importc: "WKResourceCacheManagerClearCacheForAllOrigins",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKResourceCacheManagerClearCacheForOrigin*()
+proc WKResourceCacheManagerClearCacheForOrigin*() {.cdecl,
+    importc: "WKResourceCacheManagerClearCacheForOrigin",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKResourceCacheManagerGetCacheOrigins*()
+proc WKResourceCacheManagerGetCacheOrigins*() {.cdecl,
+    importc: "WKResourceCacheManagerGetCacheOrigins",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKResourceCacheManagerGetTypeID*()
+proc WKResourceCacheManagerGetTypeID*() {.cdecl,
+    importc: "WKResourceCacheManagerGetTypeID", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKRetain*()
+proc WKRetain*() {.cdecl, importc: "WKRetain", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKSecurityOriginCopyDatabaseIdentifier*()
+proc WKSecurityOriginCopyDatabaseIdentifier*() {.cdecl,
+    importc: "WKSecurityOriginCopyDatabaseIdentifier",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKSecurityOriginCopyHost*()
+proc WKSecurityOriginCopyHost*() {.cdecl, importc: "WKSecurityOriginCopyHost",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKSecurityOriginCopyProtocol*()
+proc WKSecurityOriginCopyProtocol*() {.cdecl,
+                                       importc: "WKSecurityOriginCopyProtocol",
+                                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKSecurityOriginCopyToString*()
+proc WKSecurityOriginCopyToString*() {.cdecl,
+                                       importc: "WKSecurityOriginCopyToString",
+                                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKSecurityOriginCreate*()
+proc WKSecurityOriginCreate*() {.cdecl, importc: "WKSecurityOriginCreate",
+                                 header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKSecurityOriginCreateFromDatabaseIdentifier*()
+proc WKSecurityOriginCreateFromDatabaseIdentifier*() {.cdecl,
+    importc: "WKSecurityOriginCreateFromDatabaseIdentifier",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKSecurityOriginCreateFromString*()
+proc WKSecurityOriginCreateFromString*() {.cdecl,
+    importc: "WKSecurityOriginCreateFromString", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKSecurityOriginGetHost*()
+proc WKSecurityOriginGetHost*() {.cdecl, importc: "WKSecurityOriginGetHost",
+                                  header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKSecurityOriginGetPort*()
+proc WKSecurityOriginGetPort*() {.cdecl, importc: "WKSecurityOriginGetPort",
+                                  header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKSecurityOriginGetProtocol*()
+proc WKSecurityOriginGetProtocol*() {.cdecl,
+                                      importc: "WKSecurityOriginGetProtocol",
+                                      header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKSecurityOriginGetTypeID*()
+proc WKSecurityOriginGetTypeID*() {.cdecl, importc: "WKSecurityOriginGetTypeID",
+                                    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKSerializedScriptValueCreate*()
+proc WKSerializedScriptValueCreate*() {.cdecl, importc: "WKSerializedScriptValueCreate",
+                                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKSerializedScriptValueCreateWithInternalRepresentation*()
+proc WKSerializedScriptValueCreateWithInternalRepresentation*() {.cdecl,
+    importc: "WKSerializedScriptValueCreateWithInternalRepresentation",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKSerializedScriptValueDeserialize*()
+proc WKSerializedScriptValueDeserialize*() {.cdecl,
+    importc: "WKSerializedScriptValueDeserialize",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKSerializedScriptValueGetInternalRepresentation*()
+proc WKSerializedScriptValueGetInternalRepresentation*() {.cdecl,
+    importc: "WKSerializedScriptValueGetInternalRepresentation",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKSerializedScriptValueGetTypeID*()
+proc WKSerializedScriptValueGetTypeID*() {.cdecl,
+    importc: "WKSerializedScriptValueGetTypeID", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKSizeCreate*()
+proc WKSizeCreate*() {.cdecl, importc: "WKSizeCreate",
+                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKSizeGetTypeID*()
+proc WKSizeGetTypeID*() {.cdecl, importc: "WKSizeGetTypeID",
+                          header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKSizeGetValue*()
+proc WKSizeGetValue*() {.cdecl, importc: "WKSizeGetValue",
+                         header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKStringCopyJSString*()
+proc WKStringCopyJSString*() {.cdecl, importc: "WKStringCopyJSString",
+                               header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKStringCreateWithJSString*()
+proc WKStringCreateWithJSString*() {.cdecl,
+                                     importc: "WKStringCreateWithJSString",
+                                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKStringCreateWithUTF8CString*()
+proc WKStringCreateWithUTF8CString*() {.cdecl, importc: "WKStringCreateWithUTF8CString",
+                                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKStringGetCharacters*()
+proc WKStringGetCharacters*() {.cdecl, importc: "WKStringGetCharacters",
+                                header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKStringGetLength*()
+proc WKStringGetLength*() {.cdecl, importc: "WKStringGetLength",
+                            header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKStringGetMaximumUTF8CStringSize*()
+proc WKStringGetMaximumUTF8CStringSize*() {.cdecl,
+    importc: "WKStringGetMaximumUTF8CStringSize",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKStringGetTypeID*()
+proc WKStringGetTypeID*() {.cdecl, importc: "WKStringGetTypeID",
+                            header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKStringGetUTF8CString*()
+proc WKStringGetUTF8CString*() {.cdecl, importc: "WKStringGetUTF8CString",
+                                 header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKStringIsEmpty*()
+proc WKStringIsEmpty*() {.cdecl, importc: "WKStringIsEmpty",
+                          header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKStringIsEqual*()
+proc WKStringIsEqual*() {.cdecl, importc: "WKStringIsEqual",
+                          header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKStringIsEqualToUTF8CString*()
+proc WKStringIsEqualToUTF8CString*() {.cdecl,
+                                       importc: "WKStringIsEqualToUTF8CString",
+                                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKStringIsEqualToUTF8CStringIgnoringCase*()
+proc WKStringIsEqualToUTF8CStringIgnoringCase*() {.cdecl,
+    importc: "WKStringIsEqualToUTF8CStringIgnoringCase",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKTextCheckerChangeSpellingToWord*()
+proc WKTextCheckerChangeSpellingToWord*() {.cdecl,
+    importc: "WKTextCheckerChangeSpellingToWord",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKTextCheckerCheckSpelling*()
+proc WKTextCheckerCheckSpelling*() {.cdecl,
+                                     importc: "WKTextCheckerCheckSpelling",
+                                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKTextCheckerContinuousSpellCheckingEnabledStateChanged*()
+proc WKTextCheckerContinuousSpellCheckingEnabledStateChanged*() {.cdecl,
+    importc: "WKTextCheckerContinuousSpellCheckingEnabledStateChanged",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKTextCheckerGrammarCheckingEnabledStateChanged*()
+proc WKTextCheckerGrammarCheckingEnabledStateChanged*() {.cdecl,
+    importc: "WKTextCheckerGrammarCheckingEnabledStateChanged",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKTextCheckerSetClient*()
+proc WKTextCheckerSetClient*() {.cdecl, importc: "WKTextCheckerSetClient",
+                                 header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKUInt64Create*()
+proc WKUInt64Create*() {.cdecl, importc: "WKUInt64Create",
+                         header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKUInt64GetTypeID*()
+proc WKUInt64GetTypeID*() {.cdecl, importc: "WKUInt64GetTypeID",
+                            header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKUInt64GetValue*()
+proc WKUInt64GetValue*() {.cdecl, importc: "WKUInt64GetValue",
+                           header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKURLCopyHostName*()
+proc WKURLCopyHostName*() {.cdecl, importc: "WKURLCopyHostName",
+                            header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKURLCopyScheme*()
+proc WKURLCopyScheme*() {.cdecl, importc: "WKURLCopyScheme",
+                          header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKURLCopyString*()
+proc WKURLCopyString*() {.cdecl, importc: "WKURLCopyString",
+                          header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKURLCreateWithUTF8CString*()
+proc WKURLCreateWithUTF8CString*() {.cdecl,
+                                     importc: "WKURLCreateWithUTF8CString",
+                                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKURLGetTypeID*()
+proc WKURLGetTypeID*() {.cdecl, importc: "WKURLGetTypeID",
+                         header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKURLIsEqual*()
+proc WKURLIsEqual*() {.cdecl, importc: "WKURLIsEqual",
+                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKURLRequestCopyURL*()
+proc WKURLRequestCopyURL*() {.cdecl, importc: "WKURLRequestCopyURL",
+                              header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKURLRequestCreateWithWKURL*()
+proc WKURLRequestCreateWithWKURL*() {.cdecl,
+                                      importc: "WKURLRequestCreateWithWKURL",
+                                      header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKURLRequestGetTypeID*()
+proc WKURLRequestGetTypeID*() {.cdecl, importc: "WKURLRequestGetTypeID",
+                                header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKURLRequestSetDefaultTimeoutInterval*()
+proc WKURLRequestSetDefaultTimeoutInterval*() {.cdecl,
+    importc: "WKURLRequestSetDefaultTimeoutInterval",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKURLResponseCopyMimeType*()
+proc WKURLResponseCopyMimeType*() {.cdecl, importc: "WKURLResponseCopyMimeType",
+                                    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKURLResponseCopyURL*()
+proc WKURLResponseCopyURL*() {.cdecl, importc: "WKURLResponseCopyURL",
+                               header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKURLResponseGetHttpStatusCode*()
+proc WKURLResponseGetHttpStatusCode*() {.cdecl,
+    importc: "WKURLResponseGetHttpStatusCode", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKURLResponseGetTypeID*()
+proc WKURLResponseGetTypeID*() {.cdecl, importc: "WKURLResponseGetTypeID",
+                                 header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKUserContentURLPatternCopyHost*()
+proc WKUserContentURLPatternCopyHost*() {.cdecl,
+    importc: "WKUserContentURLPatternCopyHost", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKUserContentURLPatternCopyScheme*()
+proc WKUserContentURLPatternCopyScheme*() {.cdecl,
+    importc: "WKUserContentURLPatternCopyScheme",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKUserContentURLPatternCreate*()
+proc WKUserContentURLPatternCreate*() {.cdecl, importc: "WKUserContentURLPatternCreate",
+                                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKUserContentURLPatternGetTypeID*()
+proc WKUserContentURLPatternGetTypeID*() {.cdecl,
+    importc: "WKUserContentURLPatternGetTypeID", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKUserContentURLPatternIsValid*()
+proc WKUserContentURLPatternIsValid*() {.cdecl,
+    importc: "WKUserContentURLPatternIsValid", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKUserContentURLPatternMatchesSubdomains*()
+proc WKUserContentURLPatternMatchesSubdomains*() {.cdecl,
+    importc: "WKUserContentURLPatternMatchesSubdomains",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKUserContentURLPatternMatchesURL*()
+proc WKUserContentURLPatternMatchesURL*() {.cdecl,
+    importc: "WKUserContentURLPatternMatchesURL",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKViewAccessibilityFocusedObject*()
+proc WKViewAccessibilityFocusedObject*() {.cdecl,
+    importc: "WKViewAccessibilityFocusedObject", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKViewAccessibilityHitTest*()
+proc WKViewAccessibilityHitTest*() {.cdecl,
+                                     importc: "WKViewAccessibilityHitTest",
+                                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKViewAccessibilityRootObject*()
+proc WKViewAccessibilityRootObject*() {.cdecl, importc: "WKViewAccessibilityRootObject",
+                                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKViewClearBackingStores*()
+proc WKViewClearBackingStores*() {.cdecl, importc: "WKViewClearBackingStores",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKViewClearSelection*()
+proc WKViewClearSelection*() {.cdecl, importc: "WKViewClearSelection",
+                               header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKViewContextMenuItemSelected*()
+proc WKViewContextMenuItemSelected*() {.cdecl, importc: "WKViewContextMenuItemSelected",
+                                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKViewCreate*()
+proc WKViewCreate*() {.cdecl, importc: "WKViewCreate",
+                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKViewDidEnterFullScreen*()
+proc WKViewDidEnterFullScreen*() {.cdecl, importc: "WKViewDidEnterFullScreen",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKViewDidExitFullScreen*()
+proc WKViewDidExitFullScreen*() {.cdecl, importc: "WKViewDidExitFullScreen",
+                                  header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKViewGetCanvasHole*()
+proc WKViewGetCanvasHole*() {.cdecl, importc: "WKViewGetCanvasHole",
+                              header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKViewGetPage*()
+proc WKViewGetPage*() {.cdecl, importc: "WKViewGetPage",
+                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKViewHandleImeEvent*()
+proc WKViewHandleImeEvent*() {.cdecl, importc: "WKViewHandleImeEvent",
+                               header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKViewHandleKeyboardEvent*()
+proc WKViewHandleKeyboardEvent*() {.cdecl, importc: "WKViewHandleKeyboardEvent",
+                                    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKViewHandleMouseEvent*()
+proc WKViewHandleMouseEvent*() {.cdecl, importc: "WKViewHandleMouseEvent",
+                                 header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKViewHandleWheelEvent*()
+proc WKViewHandleWheelEvent*() {.cdecl, importc: "WKViewHandleWheelEvent",
+                                 header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKViewIsFullScreen*()
+proc WKViewIsFullScreen*() {.cdecl, importc: "WKViewIsFullScreen",
+                             header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKViewPaint*()
+proc WKViewPaint*() {.cdecl, importc: "WKViewPaint",
+                      header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKViewPaintToCurrentGLContext*()
+proc WKViewPaintToCurrentGLContext*() {.cdecl, importc: "WKViewPaintToCurrentGLContext",
+                                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKViewReplyAuthenticationChallenge*()
+proc WKViewReplyAuthenticationChallenge*() {.cdecl,
+    importc: "WKViewReplyAuthenticationChallenge",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKViewReplyCertificateVerification*()
+proc WKViewReplyCertificateVerification*() {.cdecl,
+    importc: "WKViewReplyCertificateVerification",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKViewReplyCreateNewPage*()
+proc WKViewReplyCreateNewPage*() {.cdecl, importc: "WKViewReplyCreateNewPage",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKViewReplyJavaScriptAlert*()
+proc WKViewReplyJavaScriptAlert*() {.cdecl,
+                                     importc: "WKViewReplyJavaScriptAlert",
+                                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKViewReplyJavaScriptConfirm*()
+proc WKViewReplyJavaScriptConfirm*() {.cdecl,
+                                       importc: "WKViewReplyJavaScriptConfirm",
+                                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKViewReplyJavaScriptPrompt*()
+proc WKViewReplyJavaScriptPrompt*() {.cdecl,
+                                      importc: "WKViewReplyJavaScriptPrompt",
+                                      header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKViewRequestExitFullScreen*()
+proc WKViewRequestExitFullScreen*() {.cdecl,
+                                      importc: "WKViewRequestExitFullScreen",
+                                      header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKViewRestoreBackingStores*()
+proc WKViewRestoreBackingStores*() {.cdecl,
+                                     importc: "WKViewRestoreBackingStores",
+                                     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKViewScrollBy*()
+proc WKViewScrollBy*() {.cdecl, importc: "WKViewScrollBy",
+                         header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKViewSetActive*()
+proc WKViewSetActive*() {.cdecl, importc: "WKViewSetActive",
+                          header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKViewSetDrawsBackground*()
+proc WKViewSetDrawsBackground*() {.cdecl, importc: "WKViewSetDrawsBackground",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKViewSetDrawsTransparentBackground*()
+proc WKViewSetDrawsTransparentBackground*() {.cdecl,
+    importc: "WKViewSetDrawsTransparentBackground",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKViewSetFocused*()
+proc WKViewSetFocused*() {.cdecl, importc: "WKViewSetFocused",
+                           header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKViewSetIsVisible*()
+proc WKViewSetIsVisible*() {.cdecl, importc: "WKViewSetIsVisible",
+                             header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKViewSetPageScaleFactor*()
+proc WKViewSetPageScaleFactor*() {.cdecl, importc: "WKViewSetPageScaleFactor",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKViewSetSize*()
+proc WKViewSetSize*() {.cdecl, importc: "WKViewSetSize",
+                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKViewSetViewAccessibilityClient*()
+proc WKViewSetViewAccessibilityClient*() {.cdecl,
+    importc: "WKViewSetViewAccessibilityClient", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKViewSetViewContextMenuClient*()
+proc WKViewSetViewContextMenuClient*() {.cdecl,
+    importc: "WKViewSetViewContextMenuClient", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKViewSetViewPopupMenuClient*()
+proc WKViewSetViewPopupMenuClient*() {.cdecl,
+                                       importc: "WKViewSetViewPopupMenuClient",
+                                       header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKViewSyncCoordinatedGraphicsState*()
+proc WKViewSyncCoordinatedGraphicsState*() {.cdecl,
+    importc: "WKViewSyncCoordinatedGraphicsState",
+    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKViewValueChangedForPopupMenu*()
+proc WKViewValueChangedForPopupMenu*() {.cdecl,
+    importc: "WKViewValueChangedForPopupMenu", header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKViewWillEnterFullScreen*()
+proc WKViewWillEnterFullScreen*() {.cdecl, importc: "WKViewWillEnterFullScreen",
+                                    header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc WKViewWillExitFullScreen*()
+proc WKViewWillExitFullScreen*() {.cdecl, importc: "WKViewWillExitFullScreen",
+                                   header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment

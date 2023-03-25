@@ -1,20 +1,37 @@
-proc sceWebBrowserDialogClose*()
+proc sceWebBrowserDialogClose*() {.cdecl, importc: "sceWebBrowserDialogClose",
+                                   header: "orbis/WebBrowserDialog.h".}
   ##  Empty Comment
-proc sceWebBrowserDialogGetResult*()
+proc sceWebBrowserDialogGetResult*() {.cdecl,
+                                       importc: "sceWebBrowserDialogGetResult",
+                                       header: "orbis/WebBrowserDialog.h".}
   ##  Empty Comment
-proc sceWebBrowserDialogGetStatus*()
+proc sceWebBrowserDialogGetStatus*() {.cdecl,
+                                       importc: "sceWebBrowserDialogGetStatus",
+                                       header: "orbis/WebBrowserDialog.h".}
   ##  Empty Comment
-proc sceWebBrowserDialogInitialize*()
+proc sceWebBrowserDialogInitialize*() {.cdecl, importc: "sceWebBrowserDialogInitialize",
+                                        header: "orbis/WebBrowserDialog.h".}
   ##  Empty Comment
-proc sceWebBrowserDialogOpen*()
+proc sceWebBrowserDialogOpen*() {.cdecl, importc: "sceWebBrowserDialogOpen",
+                                  header: "orbis/WebBrowserDialog.h".}
   ##  Empty Comment
-proc sceWebBrowserDialogOpenForPredeterminedContent*()
+proc sceWebBrowserDialogOpenForPredeterminedContent*() {.cdecl,
+    importc: "sceWebBrowserDialogOpenForPredeterminedContent",
+    header: "orbis/WebBrowserDialog.h".}
   ##  Empty Comment
-proc sceWebBrowserDialogResetCookie*()
+proc sceWebBrowserDialogResetCookie*() {.cdecl,
+    importc: "sceWebBrowserDialogResetCookie",
+    header: "orbis/WebBrowserDialog.h".}
   ##  Empty Comment
-proc sceWebBrowserDialogSetCookie*()
+proc sceWebBrowserDialogSetCookie*() {.cdecl,
+                                       importc: "sceWebBrowserDialogSetCookie",
+                                       header: "orbis/WebBrowserDialog.h".}
   ##  Empty Comment
-proc sceWebBrowserDialogTerminate*()
+proc sceWebBrowserDialogTerminate*() {.cdecl,
+                                       importc: "sceWebBrowserDialogTerminate",
+                                       header: "orbis/WebBrowserDialog.h".}
   ##  Empty Comment
-proc sceWebBrowserDialogUpdateStatus*()
+proc sceWebBrowserDialogUpdateStatus*() {.cdecl,
+    importc: "sceWebBrowserDialogUpdateStatus",
+    header: "orbis/WebBrowserDialog.h".}
   ##  Empty Comment

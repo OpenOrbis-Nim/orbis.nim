@@ -1,76 +1,127 @@
-proc sceNpScoreAbortRequest*()
+proc sceNpScoreAbortRequest*() {.cdecl, importc: "sceNpScoreAbortRequest",
+                                 header: "orbis/NpScore.h".}
   ##  Empty Comment
-proc sceNpScoreCensorComment*()
+proc sceNpScoreCensorComment*() {.cdecl, importc: "sceNpScoreCensorComment",
+                                  header: "orbis/NpScore.h".}
   ##  Empty Comment
-proc sceNpScoreCensorCommentAsync*()
+proc sceNpScoreCensorCommentAsync*() {.cdecl,
+                                       importc: "sceNpScoreCensorCommentAsync",
+                                       header: "orbis/NpScore.h".}
   ##  Empty Comment
-proc sceNpScoreChangeModeForOtherSaveDataOwners*()
+proc sceNpScoreChangeModeForOtherSaveDataOwners*() {.cdecl,
+    importc: "sceNpScoreChangeModeForOtherSaveDataOwners",
+    header: "orbis/NpScore.h".}
   ##  Empty Comment
-proc sceNpScoreCreateNpTitleCtx*()
+proc sceNpScoreCreateNpTitleCtx*() {.cdecl,
+                                     importc: "sceNpScoreCreateNpTitleCtx",
+                                     header: "orbis/NpScore.h".}
   ##  Empty Comment
-proc sceNpScoreCreateNpTitleCtxA*()
+proc sceNpScoreCreateNpTitleCtxA*() {.cdecl,
+                                      importc: "sceNpScoreCreateNpTitleCtxA",
+                                      header: "orbis/NpScore.h".}
   ##  Empty Comment
-proc sceNpScoreCreateRequest*()
+proc sceNpScoreCreateRequest*() {.cdecl, importc: "sceNpScoreCreateRequest",
+                                  header: "orbis/NpScore.h".}
   ##  Empty Comment
-proc sceNpScoreCreateTitleCtx*()
+proc sceNpScoreCreateTitleCtx*() {.cdecl, importc: "sceNpScoreCreateTitleCtx",
+                                   header: "orbis/NpScore.h".}
   ##  Empty Comment
-proc sceNpScoreDeleteNpTitleCtx*()
+proc sceNpScoreDeleteNpTitleCtx*() {.cdecl,
+                                     importc: "sceNpScoreDeleteNpTitleCtx",
+                                     header: "orbis/NpScore.h".}
   ##  Empty Comment
-proc sceNpScoreDeleteRequest*()
+proc sceNpScoreDeleteRequest*() {.cdecl, importc: "sceNpScoreDeleteRequest",
+                                  header: "orbis/NpScore.h".}
   ##  Empty Comment
-proc sceNpScoreGetBoardInfo*()
+proc sceNpScoreGetBoardInfo*() {.cdecl, importc: "sceNpScoreGetBoardInfo",
+                                 header: "orbis/NpScore.h".}
   ##  Empty Comment
-proc sceNpScoreGetBoardInfoAsync*()
+proc sceNpScoreGetBoardInfoAsync*() {.cdecl,
+                                      importc: "sceNpScoreGetBoardInfoAsync",
+                                      header: "orbis/NpScore.h".}
   ##  Empty Comment
-proc sceNpScoreGetFriendsRanking*()
+proc sceNpScoreGetFriendsRanking*() {.cdecl,
+                                      importc: "sceNpScoreGetFriendsRanking",
+                                      header: "orbis/NpScore.h".}
   ##  Empty Comment
-proc sceNpScoreGetFriendsRankingA*()
+proc sceNpScoreGetFriendsRankingA*() {.cdecl,
+                                       importc: "sceNpScoreGetFriendsRankingA",
+                                       header: "orbis/NpScore.h".}
   ##  Empty Comment
-proc sceNpScoreGetFriendsRankingAAsync*()
+proc sceNpScoreGetFriendsRankingAAsync*() {.cdecl,
+    importc: "sceNpScoreGetFriendsRankingAAsync", header: "orbis/NpScore.h".}
   ##  Empty Comment
-proc sceNpScoreGetFriendsRankingAsync*()
+proc sceNpScoreGetFriendsRankingAsync*() {.cdecl,
+    importc: "sceNpScoreGetFriendsRankingAsync", header: "orbis/NpScore.h".}
   ##  Empty Comment
-proc sceNpScoreGetGameData*()
+proc sceNpScoreGetGameData*() {.cdecl, importc: "sceNpScoreGetGameData",
+                                header: "orbis/NpScore.h".}
   ##  Empty Comment
-proc sceNpScoreGetGameDataAsync*()
+proc sceNpScoreGetGameDataAsync*() {.cdecl,
+                                     importc: "sceNpScoreGetGameDataAsync",
+                                     header: "orbis/NpScore.h".}
   ##  Empty Comment
-proc sceNpScoreGetRankingByAccountId*()
+proc sceNpScoreGetRankingByAccountId*() {.cdecl,
+    importc: "sceNpScoreGetRankingByAccountId", header: "orbis/NpScore.h".}
   ##  Empty Comment
-proc sceNpScoreGetRankingByAccountIdAsync*()
+proc sceNpScoreGetRankingByAccountIdAsync*() {.cdecl,
+    importc: "sceNpScoreGetRankingByAccountIdAsync", header: "orbis/NpScore.h".}
   ##  Empty Comment
-proc sceNpScoreGetRankingByNpId*()
+proc sceNpScoreGetRankingByNpId*() {.cdecl,
+                                     importc: "sceNpScoreGetRankingByNpId",
+                                     header: "orbis/NpScore.h".}
   ##  Empty Comment
-proc sceNpScoreGetRankingByNpIdAsync*()
+proc sceNpScoreGetRankingByNpIdAsync*() {.cdecl,
+    importc: "sceNpScoreGetRankingByNpIdAsync", header: "orbis/NpScore.h".}
   ##  Empty Comment
-proc sceNpScoreGetRankingByNpIdPcId*()
+proc sceNpScoreGetRankingByNpIdPcId*() {.cdecl,
+    importc: "sceNpScoreGetRankingByNpIdPcId", header: "orbis/NpScore.h".}
   ##  Empty Comment
-proc sceNpScoreGetRankingByNpIdPcIdAsync*()
+proc sceNpScoreGetRankingByNpIdPcIdAsync*() {.cdecl,
+    importc: "sceNpScoreGetRankingByNpIdPcIdAsync", header: "orbis/NpScore.h".}
   ##  Empty Comment
-proc sceNpScoreGetRankingByRange*()
+proc sceNpScoreGetRankingByRange*() {.cdecl,
+                                      importc: "sceNpScoreGetRankingByRange",
+                                      header: "orbis/NpScore.h".}
   ##  Empty Comment
-proc sceNpScoreGetRankingByRangeA*()
+proc sceNpScoreGetRankingByRangeA*() {.cdecl,
+                                       importc: "sceNpScoreGetRankingByRangeA",
+                                       header: "orbis/NpScore.h".}
   ##  Empty Comment
-proc sceNpScoreGetRankingByRangeAAsync*()
+proc sceNpScoreGetRankingByRangeAAsync*() {.cdecl,
+    importc: "sceNpScoreGetRankingByRangeAAsync", header: "orbis/NpScore.h".}
   ##  Empty Comment
-proc sceNpScoreGetRankingByRangeAsync*()
+proc sceNpScoreGetRankingByRangeAsync*() {.cdecl,
+    importc: "sceNpScoreGetRankingByRangeAsync", header: "orbis/NpScore.h".}
   ##  Empty Comment
-proc sceNpScorePollAsync*()
+proc sceNpScorePollAsync*() {.cdecl, importc: "sceNpScorePollAsync",
+                              header: "orbis/NpScore.h".}
   ##  Empty Comment
-proc sceNpScoreRecordGameData*()
+proc sceNpScoreRecordGameData*() {.cdecl, importc: "sceNpScoreRecordGameData",
+                                   header: "orbis/NpScore.h".}
   ##  Empty Comment
-proc sceNpScoreRecordGameDataAsync*()
+proc sceNpScoreRecordGameDataAsync*() {.cdecl, importc: "sceNpScoreRecordGameDataAsync",
+                                        header: "orbis/NpScore.h".}
   ##  Empty Comment
-proc sceNpScoreRecordScore*()
+proc sceNpScoreRecordScore*() {.cdecl, importc: "sceNpScoreRecordScore",
+                                header: "orbis/NpScore.h".}
   ##  Empty Comment
-proc sceNpScoreRecordScoreAsync*()
+proc sceNpScoreRecordScoreAsync*() {.cdecl,
+                                     importc: "sceNpScoreRecordScoreAsync",
+                                     header: "orbis/NpScore.h".}
   ##  Empty Comment
-proc sceNpScoreSanitizeComment*()
+proc sceNpScoreSanitizeComment*() {.cdecl, importc: "sceNpScoreSanitizeComment",
+                                    header: "orbis/NpScore.h".}
   ##  Empty Comment
-proc sceNpScoreSanitizeCommentAsync*()
+proc sceNpScoreSanitizeCommentAsync*() {.cdecl,
+    importc: "sceNpScoreSanitizeCommentAsync", header: "orbis/NpScore.h".}
   ##  Empty Comment
-proc sceNpScoreSetPlayerCharacterId*()
+proc sceNpScoreSetPlayerCharacterId*() {.cdecl,
+    importc: "sceNpScoreSetPlayerCharacterId", header: "orbis/NpScore.h".}
   ##  Empty Comment
-proc sceNpScoreSetTimeout*()
+proc sceNpScoreSetTimeout*() {.cdecl, importc: "sceNpScoreSetTimeout",
+                               header: "orbis/NpScore.h".}
   ##  Empty Comment
-proc sceNpScoreWaitAsync*()
+proc sceNpScoreWaitAsync*() {.cdecl, importc: "sceNpScoreWaitAsync",
+                              header: "orbis/NpScore.h".}
   ##  Empty Comment

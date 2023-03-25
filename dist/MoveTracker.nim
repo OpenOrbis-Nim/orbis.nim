@@ -1,36 +1,59 @@
-proc sceMoveTrackerCalibrateReset*()
+proc sceMoveTrackerCalibrateReset*() {.cdecl,
+                                       importc: "sceMoveTrackerCalibrateReset",
+                                       header: "orbis/MoveTracker.h".}
   ##  Empty Comment
-proc sceMoveTrackerCalibrateYaw*()
+proc sceMoveTrackerCalibrateYaw*() {.cdecl,
+                                     importc: "sceMoveTrackerCalibrateYaw",
+                                     header: "orbis/MoveTracker.h".}
   ##  Empty Comment
-proc sceMoveTrackerCameraUpdate*()
+proc sceMoveTrackerCameraUpdate*() {.cdecl,
+                                     importc: "sceMoveTrackerCameraUpdate",
+                                     header: "orbis/MoveTracker.h".}
   ##  Empty Comment
-proc sceMoveTrackerCaptureInit*()
+proc sceMoveTrackerCaptureInit*() {.cdecl, importc: "sceMoveTrackerCaptureInit",
+                                    header: "orbis/MoveTracker.h".}
   ##  Empty Comment
-proc sceMoveTrackerCaptureTerm*()
+proc sceMoveTrackerCaptureTerm*() {.cdecl, importc: "sceMoveTrackerCaptureTerm",
+                                    header: "orbis/MoveTracker.h".}
   ##  Empty Comment
-proc sceMoveTrackerControllersUpdate*()
+proc sceMoveTrackerControllersUpdate*() {.cdecl,
+    importc: "sceMoveTrackerControllersUpdate", header: "orbis/MoveTracker.h".}
   ##  Empty Comment
-proc sceMoveTrackerGetState*()
+proc sceMoveTrackerGetState*() {.cdecl, importc: "sceMoveTrackerGetState",
+                                 header: "orbis/MoveTracker.h".}
   ##  Empty Comment
-proc sceMoveTrackerGetVersion*()
+proc sceMoveTrackerGetVersion*() {.cdecl, importc: "sceMoveTrackerGetVersion",
+                                   header: "orbis/MoveTracker.h".}
   ##  Empty Comment
-proc sceMoveTrackerGetWorkingMemorySize*()
+proc sceMoveTrackerGetWorkingMemorySize*() {.cdecl,
+    importc: "sceMoveTrackerGetWorkingMemorySize", header: "orbis/MoveTracker.h".}
   ##  Empty Comment
-proc sceMoveTrackerInit*()
+proc sceMoveTrackerInit*() {.cdecl, importc: "sceMoveTrackerInit",
+                             header: "orbis/MoveTracker.h".}
   ##  Empty Comment
-proc sceMoveTrackerPlayGetImages*()
+proc sceMoveTrackerPlayGetImages*() {.cdecl,
+                                      importc: "sceMoveTrackerPlayGetImages",
+                                      header: "orbis/MoveTracker.h".}
   ##  Empty Comment
-proc sceMoveTrackerPlayGetStates*()
+proc sceMoveTrackerPlayGetStates*() {.cdecl,
+                                      importc: "sceMoveTrackerPlayGetStates",
+                                      header: "orbis/MoveTracker.h".}
   ##  Empty Comment
-proc sceMoveTrackerPlayStart*()
+proc sceMoveTrackerPlayStart*() {.cdecl, importc: "sceMoveTrackerPlayStart",
+                                  header: "orbis/MoveTracker.h".}
   ##  Empty Comment
-proc sceMoveTrackerPlayStep*()
+proc sceMoveTrackerPlayStep*() {.cdecl, importc: "sceMoveTrackerPlayStep",
+                                 header: "orbis/MoveTracker.h".}
   ##  Empty Comment
-proc sceMoveTrackerRecordSave*()
+proc sceMoveTrackerRecordSave*() {.cdecl, importc: "sceMoveTrackerRecordSave",
+                                   header: "orbis/MoveTracker.h".}
   ##  Empty Comment
-proc sceMoveTrackerRecordStart*()
+proc sceMoveTrackerRecordStart*() {.cdecl, importc: "sceMoveTrackerRecordStart",
+                                    header: "orbis/MoveTracker.h".}
   ##  Empty Comment
-proc sceMoveTrackerRecordStop*()
+proc sceMoveTrackerRecordStop*() {.cdecl, importc: "sceMoveTrackerRecordStop",
+                                   header: "orbis/MoveTracker.h".}
   ##  Empty Comment
-proc sceMoveTrackerTerm*()
+proc sceMoveTrackerTerm*() {.cdecl, importc: "sceMoveTrackerTerm",
+                             header: "orbis/MoveTracker.h".}
   ##  Empty Comment

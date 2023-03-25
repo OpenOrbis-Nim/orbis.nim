@@ -1,34 +1,54 @@
-proc sceAudioInChangeAppModuleState*()
+proc sceAudioInChangeAppModuleState*() {.cdecl,
+    importc: "sceAudioInChangeAppModuleState", header: "orbis/AudioIn.h".}
   ##  Empty Comment
-proc sceAudioInClose*()
+proc sceAudioInClose*() {.cdecl, importc: "sceAudioInClose",
+                          header: "orbis/AudioIn.h".}
   ##  Empty Comment
-proc sceAudioInGetRerouteCount*()
+proc sceAudioInGetRerouteCount*() {.cdecl, importc: "sceAudioInGetRerouteCount",
+                                    header: "orbis/AudioIn.h".}
   ##  Empty Comment
-proc sceAudioInGetSilentState*()
+proc sceAudioInGetSilentState*() {.cdecl, importc: "sceAudioInGetSilentState",
+                                   header: "orbis/AudioIn.h".}
   ##  Empty Comment
-proc sceAudioInHqOpen*()
+proc sceAudioInHqOpen*() {.cdecl, importc: "sceAudioInHqOpen",
+                           header: "orbis/AudioIn.h".}
   ##  Empty Comment
-proc sceAudioInHqOpenEx*()
+proc sceAudioInHqOpenEx*() {.cdecl, importc: "sceAudioInHqOpenEx",
+                             header: "orbis/AudioIn.h".}
   ##  Empty Comment
-proc sceAudioInInit*()
+proc sceAudioInInit*() {.cdecl, importc: "sceAudioInInit",
+                         header: "orbis/AudioIn.h".}
   ##  Empty Comment
-proc sceAudioInInput*()
+proc sceAudioInInput*() {.cdecl, importc: "sceAudioInInput",
+                          header: "orbis/AudioIn.h".}
   ##  Empty Comment
-proc sceAudioInOpen*()
+proc sceAudioInOpen*() {.cdecl, importc: "sceAudioInOpen",
+                         header: "orbis/AudioIn.h".}
   ##  Empty Comment
-proc sceAudioInOpenEx*()
+proc sceAudioInOpenEx*() {.cdecl, importc: "sceAudioInOpenEx",
+                           header: "orbis/AudioIn.h".}
   ##  Empty Comment
-proc sceAudioInSetConnections*()
+proc sceAudioInSetConnections*() {.cdecl, importc: "sceAudioInSetConnections",
+                                   header: "orbis/AudioIn.h".}
   ##  Empty Comment
-proc sceAudioInSetDevConnection*()
+proc sceAudioInSetDevConnection*() {.cdecl,
+                                     importc: "sceAudioInSetDevConnection",
+                                     header: "orbis/AudioIn.h".}
   ##  Empty Comment
-proc sceAudioInSetPortConnections*()
+proc sceAudioInSetPortConnections*() {.cdecl,
+                                       importc: "sceAudioInSetPortConnections",
+                                       header: "orbis/AudioIn.h".}
   ##  Empty Comment
-proc sceAudioInSetPortStatuses*()
+proc sceAudioInSetPortStatuses*() {.cdecl, importc: "sceAudioInSetPortStatuses",
+                                    header: "orbis/AudioIn.h".}
   ##  Empty Comment
-proc sceAudioInSetSparkParam*()
+proc sceAudioInSetSparkParam*() {.cdecl, importc: "sceAudioInSetSparkParam",
+                                  header: "orbis/AudioIn.h".}
   ##  Empty Comment
-proc sceAudioInSetSparkSideTone*()
+proc sceAudioInSetSparkSideTone*() {.cdecl,
+                                     importc: "sceAudioInSetSparkSideTone",
+                                     header: "orbis/AudioIn.h".}
   ##  Empty Comment
-proc sceAudioInSetUserMute*()
+proc sceAudioInSetUserMute*() {.cdecl, importc: "sceAudioInSetUserMute",
+                                header: "orbis/AudioIn.h".}
   ##  Empty Comment

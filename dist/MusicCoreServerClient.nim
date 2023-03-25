@@ -1,44 +1,86 @@
-proc sceMusicCoreServerForceKillCurrentCore*()
+proc sceMusicCoreServerForceKillCurrentCore*() {.cdecl,
+    importc: "sceMusicCoreServerForceKillCurrentCore",
+    header: "orbis/MusicCoreServerClient.h".}
   ##  Empty Comment
-proc sceMusicCoreServerGetCoreInfo*()
+proc sceMusicCoreServerGetCoreInfo*() {.cdecl, importc: "sceMusicCoreServerGetCoreInfo",
+                                        header: "orbis/MusicCoreServerClient.h".}
   ##  Empty Comment
-proc sceMusicCoreServerGetEvent*()
+proc sceMusicCoreServerGetEvent*() {.cdecl,
+                                     importc: "sceMusicCoreServerGetEvent",
+                                     header: "orbis/MusicCoreServerClient.h".}
   ##  Empty Comment
-proc sceMusicCoreServerGetPlayStartCondition*()
+proc sceMusicCoreServerGetPlayStartCondition*() {.cdecl,
+    importc: "sceMusicCoreServerGetPlayStartCondition",
+    header: "orbis/MusicCoreServerClient.h".}
   ##  Empty Comment
-proc sceMusicCoreServerGetPlayStatus*()
+proc sceMusicCoreServerGetPlayStatus*() {.cdecl,
+    importc: "sceMusicCoreServerGetPlayStatus",
+    header: "orbis/MusicCoreServerClient.h".}
   ##  Empty Comment
-proc sceMusicCoreServerGetSpTrackInfo*()
+proc sceMusicCoreServerGetSpTrackInfo*() {.cdecl,
+    importc: "sceMusicCoreServerGetSpTrackInfo",
+    header: "orbis/MusicCoreServerClient.h".}
   ##  Empty Comment
-proc sceMusicCoreServerGetSpWakeupAuthorityList*()
+proc sceMusicCoreServerGetSpWakeupAuthorityList*() {.cdecl,
+    importc: "sceMusicCoreServerGetSpWakeupAuthorityList",
+    header: "orbis/MusicCoreServerClient.h".}
   ##  Empty Comment
-proc sceMusicCoreServerGetStatusOfTracks*()
+proc sceMusicCoreServerGetStatusOfTracks*() {.cdecl,
+    importc: "sceMusicCoreServerGetStatusOfTracks",
+    header: "orbis/MusicCoreServerClient.h".}
   ##  Empty Comment
-proc sceMusicCoreServerGetTitleId*()
+proc sceMusicCoreServerGetTitleId*() {.cdecl,
+                                       importc: "sceMusicCoreServerGetTitleId",
+                                       header: "orbis/MusicCoreServerClient.h".}
   ##  Empty Comment
-proc sceMusicCoreServerGetTrackInfo*()
+proc sceMusicCoreServerGetTrackInfo*() {.cdecl,
+    importc: "sceMusicCoreServerGetTrackInfo",
+    header: "orbis/MusicCoreServerClient.h".}
   ##  Empty Comment
-proc sceMusicCoreServerInitialize*()
+proc sceMusicCoreServerInitialize*() {.cdecl,
+                                       importc: "sceMusicCoreServerInitialize",
+                                       header: "orbis/MusicCoreServerClient.h".}
   ##  Empty Comment
-proc sceMusicCoreServerKillCurrentCore*()
+proc sceMusicCoreServerKillCurrentCore*() {.cdecl,
+    importc: "sceMusicCoreServerKillCurrentCore",
+    header: "orbis/MusicCoreServerClient.h".}
   ##  Empty Comment
-proc sceMusicCoreServerLaunchSpCore*()
+proc sceMusicCoreServerLaunchSpCore*() {.cdecl,
+    importc: "sceMusicCoreServerLaunchSpCore",
+    header: "orbis/MusicCoreServerClient.h".}
   ##  Empty Comment
-proc sceMusicCoreServerLaunchUsbMusicCore*()
+proc sceMusicCoreServerLaunchUsbMusicCore*() {.cdecl,
+    importc: "sceMusicCoreServerLaunchUsbMusicCore",
+    header: "orbis/MusicCoreServerClient.h".}
   ##  Empty Comment
-proc sceMusicCoreServerPlayControl*()
+proc sceMusicCoreServerPlayControl*() {.cdecl, importc: "sceMusicCoreServerPlayControl",
+                                        header: "orbis/MusicCoreServerClient.h".}
   ##  Empty Comment
-proc sceMusicCoreServerPlaySpUri*()
+proc sceMusicCoreServerPlaySpUri*() {.cdecl,
+                                      importc: "sceMusicCoreServerPlaySpUri",
+                                      header: "orbis/MusicCoreServerClient.h".}
   ##  Empty Comment
-proc sceMusicCoreServerSetAudioVolume*()
+proc sceMusicCoreServerSetAudioVolume*() {.cdecl,
+    importc: "sceMusicCoreServerSetAudioVolume",
+    header: "orbis/MusicCoreServerClient.h".}
   ##  Empty Comment
-proc sceMusicCoreServerSetRepeatMode*()
+proc sceMusicCoreServerSetRepeatMode*() {.cdecl,
+    importc: "sceMusicCoreServerSetRepeatMode",
+    header: "orbis/MusicCoreServerClient.h".}
   ##  Empty Comment
-proc sceMusicCoreServerSetShuffle*()
+proc sceMusicCoreServerSetShuffle*() {.cdecl,
+                                       importc: "sceMusicCoreServerSetShuffle",
+                                       header: "orbis/MusicCoreServerClient.h".}
   ##  Empty Comment
-proc sceMusicCoreServerSetSpWakeupAuthorityList*()
+proc sceMusicCoreServerSetSpWakeupAuthorityList*() {.cdecl,
+    importc: "sceMusicCoreServerSetSpWakeupAuthorityList",
+    header: "orbis/MusicCoreServerClient.h".}
   ##  Empty Comment
-proc sceMusicCoreServerSetTrackList*()
+proc sceMusicCoreServerSetTrackList*() {.cdecl,
+    importc: "sceMusicCoreServerSetTrackList",
+    header: "orbis/MusicCoreServerClient.h".}
   ##  Empty Comment
-proc sceMusicCoreServerTerminate*()
+proc sceMusicCoreServerTerminate*() {.cdecl,
+                                      importc: "sceMusicCoreServerTerminate",
+                                      header: "orbis/MusicCoreServerClient.h".}
   ##  Empty Comment

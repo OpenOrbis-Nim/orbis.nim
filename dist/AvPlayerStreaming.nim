@@ -1,24 +1,36 @@
-proc MvpHttpDeInit*()
+proc MvpHttpDeInit*() {.cdecl, importc: "MvpHttpDeInit",
+                        header: "orbis/AvPlayerStreaming.h".}
   ##  Empty Comment
-proc MvpHttpGet*()
+proc MvpHttpGet*() {.cdecl, importc: "MvpHttpGet",
+                     header: "orbis/AvPlayerStreaming.h".}
   ##  Empty Comment
-proc MvpHttpGetLastError*()
+proc MvpHttpGetLastError*() {.cdecl, importc: "MvpHttpGetLastError",
+                              header: "orbis/AvPlayerStreaming.h".}
   ##  Empty Comment
-proc MvpHttpInit*()
+proc MvpHttpInit*() {.cdecl, importc: "MvpHttpInit",
+                      header: "orbis/AvPlayerStreaming.h".}
   ##  Empty Comment
-proc MvpHttpPost*()
+proc MvpHttpPost*() {.cdecl, importc: "MvpHttpPost",
+                      header: "orbis/AvPlayerStreaming.h".}
   ##  Empty Comment
-proc MvpHttpSetCert*()
+proc MvpHttpSetCert*() {.cdecl, importc: "MvpHttpSetCert",
+                         header: "orbis/AvPlayerStreaming.h".}
   ##  Empty Comment
-proc MvpHttpSetRecvTimeout*()
+proc MvpHttpSetRecvTimeout*() {.cdecl, importc: "MvpHttpSetRecvTimeout",
+                                header: "orbis/AvPlayerStreaming.h".}
   ##  Empty Comment
-proc MvpHttpSetRedirectCb*()
+proc MvpHttpSetRedirectCb*() {.cdecl, importc: "MvpHttpSetRedirectCb",
+                               header: "orbis/AvPlayerStreaming.h".}
   ##  Empty Comment
-proc sceTsOpenFile*()
+proc sceTsOpenFile*() {.cdecl, importc: "sceTsOpenFile",
+                        header: "orbis/AvPlayerStreaming.h".}
   ##  Empty Comment
-proc sceTsOpenFileEx*()
+proc sceTsOpenFileEx*() {.cdecl, importc: "sceTsOpenFileEx",
+                          header: "orbis/AvPlayerStreaming.h".}
   ##  Empty Comment
-proc sceTsStartFileStreaming*()
+proc sceTsStartFileStreaming*() {.cdecl, importc: "sceTsStartFileStreaming",
+                                  header: "orbis/AvPlayerStreaming.h".}
   ##  Empty Comment
-proc sceTsStopFileStreaming*()
+proc sceTsStopFileStreaming*() {.cdecl, importc: "sceTsStopFileStreaming",
+                                 header: "orbis/AvPlayerStreaming.h".}
   ##  Empty Comment

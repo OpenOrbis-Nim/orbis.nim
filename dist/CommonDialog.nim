@@ -1,4 +1,6 @@
-proc sceCommonDialogInitialize*(): int32
-  ##  Initialize system dialog.
-proc sceCommonDialogIsUsed*(): bool
+import "_types/common_dialog"
+proc sceCommonDialogInitialize*(): int32 {.cdecl,
+    importc: "sceCommonDialogInitialize", header: "orbis/CommonDialog.h".}
+proc sceCommonDialogIsUsed*(): bool {.cdecl, importc: "sceCommonDialogIsUsed",
+                                      header: "orbis/CommonDialog.h".}
   ##  Check if a system dialog is currently running.

@@ -1,16 +1,27 @@
-proc sceAudiodecCpuClearContext*()
+proc sceAudiodecCpuClearContext*() {.cdecl,
+                                     importc: "sceAudiodecCpuClearContext",
+                                     header: "orbis/AudiodecCpu.h".}
   ##  Empty Comment
-proc sceAudiodecCpuDecode*()
+proc sceAudiodecCpuDecode*() {.cdecl, importc: "sceAudiodecCpuDecode",
+                               header: "orbis/AudiodecCpu.h".}
   ##  Empty Comment
-proc sceAudiodecCpuInitDecoder*()
+proc sceAudiodecCpuInitDecoder*() {.cdecl, importc: "sceAudiodecCpuInitDecoder",
+                                    header: "orbis/AudiodecCpu.h".}
   ##  Empty Comment
-proc sceAudiodecCpuInternalClearContext*()
+proc sceAudiodecCpuInternalClearContext*() {.cdecl,
+    importc: "sceAudiodecCpuInternalClearContext", header: "orbis/AudiodecCpu.h".}
   ##  Empty Comment
-proc sceAudiodecCpuInternalDecode*()
+proc sceAudiodecCpuInternalDecode*() {.cdecl,
+                                       importc: "sceAudiodecCpuInternalDecode",
+                                       header: "orbis/AudiodecCpu.h".}
   ##  Empty Comment
-proc sceAudiodecCpuInternalInitDecoder*()
+proc sceAudiodecCpuInternalInitDecoder*() {.cdecl,
+    importc: "sceAudiodecCpuInternalInitDecoder", header: "orbis/AudiodecCpu.h".}
   ##  Empty Comment
-proc sceAudiodecCpuInternalQueryMemSize*()
+proc sceAudiodecCpuInternalQueryMemSize*() {.cdecl,
+    importc: "sceAudiodecCpuInternalQueryMemSize", header: "orbis/AudiodecCpu.h".}
   ##  Empty Comment
-proc sceAudiodecCpuQueryMemSize*()
+proc sceAudiodecCpuQueryMemSize*() {.cdecl,
+                                     importc: "sceAudiodecCpuQueryMemSize",
+                                     header: "orbis/AudiodecCpu.h".}
   ##  Empty Comment

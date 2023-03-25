@@ -1,16 +1,26 @@
-proc sceAppMessagingClearEventFlag*()
+proc sceAppMessagingClearEventFlag*() {.cdecl, importc: "sceAppMessagingClearEventFlag",
+                                        header: "orbis/AppMessaging.h".}
   ##  Empty Comment
-proc sceAppMessagingReceiveMsg*()
+proc sceAppMessagingReceiveMsg*() {.cdecl, importc: "sceAppMessagingReceiveMsg",
+                                    header: "orbis/AppMessaging.h".}
   ##  Empty Comment
-proc sceAppMessagingSendMsg*()
+proc sceAppMessagingSendMsg*() {.cdecl, importc: "sceAppMessagingSendMsg",
+                                 header: "orbis/AppMessaging.h".}
   ##  Empty Comment
-proc sceAppMessagingSendMsgToShellCore*()
+proc sceAppMessagingSendMsgToShellCore*() {.cdecl,
+    importc: "sceAppMessagingSendMsgToShellCore", header: "orbis/AppMessaging.h".}
   ##  Empty Comment
-proc sceAppMessagingSendMsgToShellUI*()
+proc sceAppMessagingSendMsgToShellUI*() {.cdecl,
+    importc: "sceAppMessagingSendMsgToShellUI", header: "orbis/AppMessaging.h".}
   ##  Empty Comment
-proc sceAppMessagingSetEventFlag*()
+proc sceAppMessagingSetEventFlag*() {.cdecl,
+                                      importc: "sceAppMessagingSetEventFlag",
+                                      header: "orbis/AppMessaging.h".}
   ##  Empty Comment
-proc sceAppMessagingTryGetEventFlag*()
+proc sceAppMessagingTryGetEventFlag*() {.cdecl,
+    importc: "sceAppMessagingTryGetEventFlag", header: "orbis/AppMessaging.h".}
   ##  Empty Comment
-proc sceAppMessagingTryReceiveMsg*()
+proc sceAppMessagingTryReceiveMsg*() {.cdecl,
+                                       importc: "sceAppMessagingTryReceiveMsg",
+                                       header: "orbis/AppMessaging.h".}
   ##  Empty Comment

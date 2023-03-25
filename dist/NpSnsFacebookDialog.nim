@@ -1,14 +1,28 @@
-proc sceNpSnsFacebookDialogClose*()
+proc sceNpSnsFacebookDialogClose*() {.cdecl,
+                                      importc: "sceNpSnsFacebookDialogClose",
+                                      header: "orbis/NpSnsFacebookDialog.h".}
   ##  Empty Comment
-proc sceNpSnsFacebookDialogGetResult*()
+proc sceNpSnsFacebookDialogGetResult*() {.cdecl,
+    importc: "sceNpSnsFacebookDialogGetResult",
+    header: "orbis/NpSnsFacebookDialog.h".}
   ##  Empty Comment
-proc sceNpSnsFacebookDialogGetStatus*()
+proc sceNpSnsFacebookDialogGetStatus*() {.cdecl,
+    importc: "sceNpSnsFacebookDialogGetStatus",
+    header: "orbis/NpSnsFacebookDialog.h".}
   ##  Empty Comment
-proc sceNpSnsFacebookDialogInitialize*()
+proc sceNpSnsFacebookDialogInitialize*() {.cdecl,
+    importc: "sceNpSnsFacebookDialogInitialize",
+    header: "orbis/NpSnsFacebookDialog.h".}
   ##  Empty Comment
-proc sceNpSnsFacebookDialogOpen*()
+proc sceNpSnsFacebookDialogOpen*() {.cdecl,
+                                     importc: "sceNpSnsFacebookDialogOpen",
+                                     header: "orbis/NpSnsFacebookDialog.h".}
   ##  Empty Comment
-proc sceNpSnsFacebookDialogTerminate*()
+proc sceNpSnsFacebookDialogTerminate*() {.cdecl,
+    importc: "sceNpSnsFacebookDialogTerminate",
+    header: "orbis/NpSnsFacebookDialog.h".}
   ##  Empty Comment
-proc sceNpSnsFacebookDialogUpdateStatus*()
+proc sceNpSnsFacebookDialogUpdateStatus*() {.cdecl,
+    importc: "sceNpSnsFacebookDialogUpdateStatus",
+    header: "orbis/NpSnsFacebookDialog.h".}
   ##  Empty Comment
