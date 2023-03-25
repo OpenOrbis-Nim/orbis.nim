@@ -1,30 +1,20 @@
-##  Empty Comment
-
 proc sceSaveDataDialogClose*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSaveDataDialogGetResult*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSaveDataDialogGetStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSaveDataDialogInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSaveDataDialogIsReadyToDisplay*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSaveDataDialogOpen*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSaveDataDialogProgressBarInc*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSaveDataDialogProgressBarSetValue*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSaveDataDialogTerminate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSaveDataDialogUpdateStatus*()
+  ##  Empty Comment

@@ -1,6 +1,4 @@
-##  Empty Comment
-
 proc sceDbgPlayGoRequestNextChunk*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceDbgPlayGoSnapshot*()
+  ##  Empty Comment

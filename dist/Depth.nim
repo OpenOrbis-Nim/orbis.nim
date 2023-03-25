@@ -1,51 +1,34 @@
-##  Empty Comment
-
 proc sceDepthGetCalibrationData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceDepthGetImage*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceDepthHandCandidateTrackerGetResult*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceDepthHasCalibrationData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceDepthHeadCandidateTrackerGetResult*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceDepthHeadCandidateTrackerSetValidationInformation*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceDepthInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceDepthLoadCalibrationData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceDepthQueryMemory*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceDepthSetCalibrationData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceDepthSetCommands*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceDepthSetRoi*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceDepthSubmit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceDepthTerminate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceDepthUpdate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceDepthValidateCurrentCalibrationData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceDepthWaitAndExecutePostProcess*()
+  ##  Empty Comment

@@ -1,37 +1,25 @@
-##  Empty Comment
-
 proc _Z5dummyv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceScreenShotCapture*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceScreenShotDisable*(): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceScreenShotDisableNotification*(): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceScreenShotEnable*(): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceScreenShotEnableNotification*(): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceScreenShotGetAppInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceScreenShotIsDisabled*(): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceScreenShotIsVshScreenCaptureDisabled*(): cint
-##  Sets overlay image with manual positioning
-
+  ##  Empty Comment
 proc sceScreenShotSetOverlayImage*(path: cstring; x: cint; y: cint): cint
-##  Sets overlay image with specified positioning
-
+  ##  Sets overlay image with manual positioning
 proc sceScreenShotSetOverlayImageWithOrigin*(path: cstring; x: cint; y: cint;
     a4: cint): cint
-##  Empty Comment
-
+  ##  Sets overlay image with specified positioning
 proc sceScreenShotSetParam*()
+  ##  Empty Comment

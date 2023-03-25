@@ -1,21 +1,14 @@
-##  Empty Comment
-
 proc sceSigninDialogClose*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSigninDialogGetResult*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSigninDialogGetStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSigninDialogInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSigninDialogOpen*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSigninDialogTerminate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSigninDialogUpdateStatus*()
+  ##  Empty Comment

@@ -1,24 +1,16 @@
-##  Empty Comment
-
 proc sceAudiodecCpuClearContext*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudiodecCpuDecode*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudiodecCpuInitDecoder*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudiodecCpuInternalClearContext*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudiodecCpuInternalDecode*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudiodecCpuInternalInitDecoder*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudiodecCpuInternalQueryMemSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudiodecCpuQueryMemSize*()
+  ##  Empty Comment

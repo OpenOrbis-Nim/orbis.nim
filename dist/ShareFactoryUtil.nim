@@ -1,6 +1,4 @@
-##  Empty Comment
-
 proc sceShareFactoryUtilBackToGameFromShareFactory*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceShareFactoryUtilGetLaunchStatusOfShareFactory*()
+  ##  Empty Comment

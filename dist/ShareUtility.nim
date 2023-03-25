@@ -1,51 +1,34 @@
-##  Empty Comment
-
 proc sceShareUtilityAdvanceFromFileWithContentIdList*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceShareUtilityAdvanceFromFileWithTitleIdList*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceShareUtilityAdvanceGetServiceInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceShareUtilityAdvanceInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceShareUtilityAdvanceSetUploadContentData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceShareUtilityAdvanceTerminate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceShareUtilityAdvanceValidateContents*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceShareUtilityAdvanceWakeUpShareMenu*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceShareUtilityAdvanceWakeUpShareMenuBroadcast*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceShareUtilityAdvanceWakeUpShareMenuDefault*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceShareUtilityInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceShareUtilityInitializeEx2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceShareUtilityOpenShareMenu*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceShareUtilityOpenShareMenuBroadcast*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceShareUtilityOpenShareMenuDefault*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceShareUtilityOpenShareMenuForShareContent*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceShareUtilityTerminate*()
+  ##  Empty Comment

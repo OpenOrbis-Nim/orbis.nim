@@ -1,3063 +1,2042 @@
-##  Empty Comment
-
 proc cairo_create*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc cairo_destroy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc cairo_fill*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc cairo_format_stride_for_width*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc cairo_image_surface_create_for_data*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc cairo_rectangle*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc cairo_set_source_rgba*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc cairo_surface_destroy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSCheckScriptSyntax*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSClassCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSClassRelease*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSClassRetain*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSContextCreateBacktrace*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSContextGetGlobalContext*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSContextGetGlobalObject*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSContextGetGroup*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSContextGroupCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSContextGroupRelease*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSContextGroupRetain*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSEndProfiling*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSEvaluateScript*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSGarbageCollect*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSGlobalContextCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSGlobalContextCreateInGroup*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSGlobalContextRelease*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSGlobalContextRetain*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSMemoryStatsQuerySCE*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSObjectCallAsConstructor*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSObjectCallAsFunction*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSObjectCopyPropertyNames*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSObjectDeletePrivateProperty*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSObjectDeleteProperty*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSObjectGetPrivate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSObjectGetPrivateProperty*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSObjectGetProperty*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSObjectGetPropertyAtIndex*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSObjectGetPrototype*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSObjectHasProperty*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSObjectIsConstructor*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSObjectIsFunction*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSObjectMake*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSObjectMakeArray*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSObjectMakeConstructor*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSObjectMakeDate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSObjectMakeError*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSObjectMakeFunction*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSObjectMakeFunctionWithCallback*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSObjectMakeRegExp*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSObjectSetPrivate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSObjectSetPrivateProperty*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSObjectSetProperty*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSObjectSetPropertyAtIndex*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSObjectSetPrototype*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSPropertyNameAccumulatorAddName*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSPropertyNameArrayGetCount*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSPropertyNameArrayGetNameAtIndex*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSPropertyNameArrayRelease*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSPropertyNameArrayRetain*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSReportExtraMemoryCost*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSStartProfiling*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSStringCreateWithCharacters*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSStringCreateWithUTF8CString*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSStringGetCharactersPtr*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSStringGetLength*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSStringGetMaximumUTF8CStringSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSStringGetUTF8CString*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSStringIsEqual*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSStringIsEqualToUTF8CString*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSStringRelease*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSStringRetain*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSValueCreateJSONString*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSValueGetType*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSValueIsBoolean*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSValueIsEqual*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSValueIsInstanceOfConstructor*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSValueIsNull*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSValueIsNumber*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSValueIsObject*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSValueIsObjectOfClass*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSValueIsStrictEqual*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSValueIsString*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSValueIsUndefined*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSValueMakeBoolean*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSValueMakeFromJSONString*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSValueMakeNull*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSValueMakeNumber*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSValueMakeString*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSValueMakeUndefined*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSValueProtect*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSValueToBoolean*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSValueToNumber*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSValueToObject*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSValueToStringCopy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSValueUnprotect*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSWeakObjectMapClear*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSWeakObjectMapCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSWeakObjectMapGet*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSWeakObjectMapRemove*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc JSWeakObjectMapSet*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WebProcessMainManx*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKAccessibilityFocusedObject*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKAccessibilityRootObject*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKApplicationCacheManagerDeleteAllEntries*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKApplicationCacheManagerDeleteEntriesForOrigin*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKApplicationCacheManagerGetApplicationCacheOrigins*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKApplicationCacheManagerGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKArrayAppendItem*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKArrayCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKArrayGetItemAtIndex*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKArrayGetSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKArrayGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKArrayIsMutable*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKArrayRemoveItemAtIndex*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKAuthenticationChallengeGetDecisionListener*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKAuthenticationChallengeGetPreviousFailureCount*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKAuthenticationChallengeGetProposedCredential*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKAuthenticationChallengeGetProtectionSpace*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKAuthenticationChallengeGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKAuthenticationDecisionListenerCancel*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKAuthenticationDecisionListenerGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKAuthenticationDecisionListenerUseCredential*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKAXObjectButtonState*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKAXObjectDescription*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKAXObjectFrame*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKAXObjectGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKAXObjectHelpText*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKAXObjectPage*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKAXObjectRole*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKAXObjectTitle*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKAXObjectURL*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBackForwardListCopyBackListWithLimit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBackForwardListCopyForwardListWithLimit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBackForwardListGetBackItem*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBackForwardListGetBackListCount*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBackForwardListGetCurrentItem*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBackForwardListGetForwardItem*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBackForwardListGetForwardListCount*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBackForwardListGetItemAtIndex*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBackForwardListGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBackForwardListItemCopyOriginalURL*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBackForwardListItemCopyTitle*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBackForwardListItemCopyURL*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBackForwardListItemGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBooleanCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBooleanGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBooleanGetValue*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleActivateMacFontAscentHack*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleAddOriginAccessWhitelistEntry*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleAddUserScript*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleAddUserStyleSheet*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleBackForwardListClear*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleBackForwardListCopyItemAtIndex*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleBackForwardListGetBackListCount*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleBackForwardListGetForwardListCount*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleBackForwardListGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleBackForwardListItemCopyChildren*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleBackForwardListItemCopyOriginalURL*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleBackForwardListItemCopyTarget*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleBackForwardListItemCopyTitle*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleBackForwardListItemCopyURL*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleBackForwardListItemGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleBackForwardListItemIsInPageCache*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleBackForwardListItemIsSame*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleBackForwardListItemIsTargetItem*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleClearAllDatabases*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleClearAllDiskcaches*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleClearApplicationCache*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleDOMWindowExtensionCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleDOMWindowExtensionGetFrame*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleDOMWindowExtensionGetScriptWorld*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleDOMWindowExtensionGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleFrameAllowsFollowingLink*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleFrameClearOpener*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleFrameContainsAnyFormElements*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleFrameConvertMonotonicTimeToDocumentTime*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleFrameCopyCertificateInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleFrameCopyChildFrames*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleFrameCopyCounterValue*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleFrameCopyInnerText*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleFrameCopyLayerTreeAsText*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleFrameCopyMIMETypeForResourceWithURL*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleFrameCopyName*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleFrameCopyProvisionalURL*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleFrameCopySuggestedFilenameForResourceWithURL*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleFrameCopyURL*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleFrameCopyWebArchive*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleFrameCopyWebArchiveFilteringSubframes*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleFrameEnableHTMLTile*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleFrameForJavaScriptContext*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleFrameGetACMemoryInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleFrameGetContentBounds*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleFrameGetDocumentBackgroundColor*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleFrameGetFrameLoadState*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleFrameGetJavaScriptContext*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleFrameGetJavaScriptContextForWorld*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleFrameGetJavaScriptWrapperForNodeForWorld*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleFrameGetJavaScriptWrapperForRangeForWorld*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleFrameGetPage*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleFrameGetParentFrame*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleFrameGetPendingUnloadCount*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleFrameGetScrollOffset*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleFrameGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleFrameGetVisibleContentBounds*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleFrameGetVisibleContentBoundsExcludingScrollbars*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleFrameHasHorizontalScrollbar*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleFrameHasVerticalScrollbar*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleFrameIsMainFrame*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleFrameRegisterAsyncImageDecoder*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleFrameSetTextDirection*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleGarbageCollectJavaScriptObjects*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleGarbageCollectJavaScriptObjectsOnAlternateThreadForDebugging*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleGetApplicationConnection*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleGetFastMallocStatistics*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleGetJavaScriptHeapStatistics*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleGetJavaScriptObjectsCount*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleHitTestResultCopyAbsoluteImageURL*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleHitTestResultCopyAbsoluteLinkURL*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleHitTestResultCopyAbsoluteMediaURL*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleHitTestResultCopyAbsolutePDFURL*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleHitTestResultCopyLinkLabel*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleHitTestResultCopyLinkTitle*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleHitTestResultCopyNodeHandle*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleHitTestResultGetFrame*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleHitTestResultGetImageRect*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleHitTestResultGetIsSelected*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleHitTestResultGetTargetFrame*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleHitTestResultGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleInspectorClose*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleInspectorEvaluateScriptForTest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleInspectorGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleInspectorSetPageProfilingEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleInspectorShow*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleIsPageBoxVisible*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleIsProcessingUserGesture*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleNavigationActionCopyFormElement*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleNavigationActionCopyHitTestResult*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleNavigationActionGetEventModifiers*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleNavigationActionGetEventMouseButton*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleNavigationActionGetNavigationType*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleNavigationActionGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleNodeHandleCopyDocument*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleNodeHandleCopyDocumentFrame*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleNodeHandleCopyHTMLFrameElementContentFrame*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleNodeHandleCopyHTMLIFrameElementContentFrame*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleNodeHandleCopyHTMLTableCellElementCellAbove*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleNodeHandleCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleNodeHandleGetElementBounds*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleNodeHandleGetHTMLInputElementAutofilled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleNodeHandleGetHTMLInputElementLastChangeWasUserEdit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleNodeHandleGetHTMLTextAreaElementLastChangeWasUserEdit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleNodeHandleGetRenderRect*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleNodeHandleGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleNodeHandleSetHTMLInputElementAutofilled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleNodeHandleSetHTMLInputElementValueForUser*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleNumberOfPages*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleOverrideBoolPreferenceForTestRunner*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageCanHandleRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageClearMainFrameName*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageClose*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageConfirmComposition*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageConfirmCompositionWithText*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageCopyRenderLayerTree*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageCopyRenderTree*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageCopyRenderTreeExternalRepresentation*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageCopyTrackedRepaintRects*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageCreateScaledSnapshotInDocumentCoordinates*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageCreateSnapshotInDocumentCoordinates*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageCreateSnapshotInViewCoordinates*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageDidEnterFullScreen*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageDidExitFullScreen*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageExecuteEditingCommand*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageFindString*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageForceRepaint*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageGetBackForwardList*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageGetBackingScaleFactor*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageGetInspector*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageGetMainFrame*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageGetPageGroup*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageGetPageZoomFactor*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageGetRenderTreeSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageGetTextZoomFactor*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageGroupCopyIdentifier*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageGroupGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageHasComposition*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageHasLocalDataForURL*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageInstallPageOverlay*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageIsEditingCommandEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageIsTrackingRepaints*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageNumberForElementById*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageOverlayCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageOverlayFractionFadedIn*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageOverlayGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageOverlaySetNeedsDisplay*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageResetTrackedRepaints*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageSetComposition*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageSetContextMenuClient*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageSetDefersLoading*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageSetEditorClient*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageSetFormClient*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageSetFullScreenClient*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageSetPageLoaderClient*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageSetPageZoomFactor*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageSetPaintedObjectsCounterThreshold*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageSetPolicyClient*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageSetResourceLoadClient*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageSetScaleAtOrigin*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageSetTextZoomFactor*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageSetTracksRepaints*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageSetUIClient*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageSetUnderlayPage*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageSimulateMouseDown*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageSimulateMouseMotion*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageSimulateMouseUp*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageSizeAndMarginsInPixels*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageStopLoading*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageUninstallPageOverlay*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageWillEnterFullScreen*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePageWillExitFullScreen*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePostMessage*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundlePostSynchronousMessage*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleRangeHandleGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleRemoveAllUserContent*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleRemoveAllVisitedLinks*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleRemoveOriginAccessWhitelistEntry*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleRemoveUserScript*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleRemoveUserScripts*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleRemoveUserStyleSheet*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleRemoveUserStyleSheets*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleReportException*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleResetOriginAccessWhitelists*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleScriptWorldClearWrappers*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleScriptWorldCreateWorld*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleScriptWorldGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleScriptWorldNormalWorld*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleSetAllowFileAccessFromFileURLs*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleSetAllowUniversalAccessFromFileURLs*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleSetAppCacheMaximumSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleSetAuthorAndUserStylesEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleSetClient*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleSetDatabaseQuota*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleSetFrameFlatteningEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleSetGarbageCollectClient*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleSetJavaScriptCanAccessClipboard*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleSetPopupBlockingEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleSetPrivateBrowsingEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleSetShouldTrackVisitedLinks*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleShutdownProcess*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKBundleSwitchNetworkLoaderToNewTestingSession*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKCertificateInfoGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKConnectionGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKConnectionPostMessage*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKConnectionSetConnectionClient*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextAccessibilityEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextAddVisitedLink*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextCreateWithInjectedBundlePath*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextDisableProcessTermination*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextDownloadURLRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextEnableAccessibility*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextEnableProcessTermination*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextGarbageCollectJavaScriptObjects*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextGetApplicationCacheManager*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextGetCacheModel*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextGetCookieManager*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextGetDatabaseManager*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextGetGeolocationManager*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextGetGlobalStatistics*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextGetIconDatabase*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextGetKeyValueStorageManager*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextGetMediaCacheManager*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextGetNotificationManager*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextGetPluginSiteDataManager*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextGetResourceCacheManager*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextGetStatistics*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextMenuCopySubmenuItems*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextMenuItemCopyTitle*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextMenuItemCreateAsAction*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextMenuItemCreateAsCheckableAction*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextMenuItemCreateAsSubmenu*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextMenuItemGetChecked*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextMenuItemGetEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextMenuItemGetTag*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextMenuItemGetType*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextMenuItemGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextMenuItemGetUserData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextMenuItemSeparatorItem*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextMenuItemSetUserData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextPauseHTMLTiles*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextPostMessageToInjectedBundle*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextRegisterURLSchemeAsEmptyDocument*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextRegisterURLSchemeAsSecure*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextResumeHTMLTiles*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextSetAdditionalPluginsDirectory*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextSetAlwaysUsesComplexTextCodePath*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextSetCacheModel*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextSetConnectionClient*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextSetCookieMode*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextSetCookieStorageDirectory*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextSetDatabaseDirectory*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextSetDomainRelaxationForbiddenForURLScheme*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextSetDownloadClient*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextSetHistoryClient*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextSetHTTPPipeliningEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextSetHTTPProxy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextSetIconDatabasePath*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextSetIFilterHTTPProxy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextSetInitializationUserDataForInjectedBundle*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextSetInjectedBundleClient*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextSetLocalStorageDirectory*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextSetPrivilegedNetworkBandwidth*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextSetShouldUseFontSmoothing*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextSetSystemStorageDirectory*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextSetUserID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextSetUserStorageDirectory*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextSetWebProcessPath*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextSetWebSecurityFilter*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextStartMemorySampler*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextStopMemorySampler*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKContextWarmInitialProcess*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKCookieManagerDeleteAllCookies*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKCookieManagerDeleteCookiesForHostname*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKCookieManagerGetHostnamesWithCookies*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKCookieManagerGetHTTPCookieAcceptPolicy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKCookieManagerGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKCookieManagerSetClient*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKCookieManagerSetCookieForHostname*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKCookieManagerSetHTTPCookieAcceptPolicy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKCookieManagerStartObservingCookieChanges*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKCookieManagerStopObservingCookieChanges*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKCredentialCopyUser*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKCredentialCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKCredentialCreateWithCertificateInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKCredentialGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKDatabaseManagerDeleteAllDatabases*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKDatabaseManagerDeleteDatabasesForOrigin*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKDatabaseManagerDeleteDatabasesWithNameForOrigin*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKDatabaseManagerGetDatabaseDetailsCurrentUsageKey*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKDatabaseManagerGetDatabaseDetailsDisplayNameKey*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKDatabaseManagerGetDatabaseDetailsExpectedUsageKey*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKDatabaseManagerGetDatabaseDetailsKey*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKDatabaseManagerGetDatabaseDetailsNameKey*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKDatabaseManagerGetDatabaseOrigins*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKDatabaseManagerGetDatabasesByOrigin*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKDatabaseManagerGetOriginKey*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKDatabaseManagerGetOriginQuotaKey*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKDatabaseManagerGetOriginUsageKey*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKDatabaseManagerGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKDatabaseManagerSetClient*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKDatabaseManagerSetQuotaForOrigin*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKDataCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKDataGetBytes*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKDataGetSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKDataGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKDictionaryAddItem*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKDictionaryCopyKeys*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKDictionaryGetItemForKey*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKDictionaryGetSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKDictionaryGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKDictionaryIsMutable*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKDictionaryRemoveItem*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKDictionarySetItem*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKDoubleCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKDoubleGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKDoubleGetValue*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKDownloadCancel*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKDownloadCopyRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKDownloadGetResumeData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKDownloadGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKErrorCopyDomain*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKErrorCopyFailingURL*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKErrorCopyLocalizedDescription*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKErrorCopySslVerificationResultString*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKErrorCopyWKErrorDomain*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKErrorGetErrorCode*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKErrorGetSslVerificationResult*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKErrorGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKFormSubmissionListenerContinue*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKFormSubmissionListenerGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKFrameCanProvideSource*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKFrameCanShowMIMEType*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKFrameCopyChildFrames*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKFrameCopyMIMEType*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKFrameCopyProvisionalURL*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKFrameCopyTitle*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKFrameCopyUnreachableURL*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKFrameCopyURL*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKFrameGetCertificateInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKFrameGetFrameLoadState*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKFrameGetMainResourceData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKFrameGetPage*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKFrameGetParentFrame*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKFrameGetResourceData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKFrameGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKFrameGetWebArchive*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKFrameIsDisplayingMarkupDocument*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKFrameIsDisplayingStandaloneImageDocument*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKFrameIsFrameSet*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKFrameIsMainFrame*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKFramePolicyListenerDownload*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKFramePolicyListenerGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKFramePolicyListenerIgnore*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKFramePolicyListenerUse*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKFrameStopLoading*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKGeolocationManagerGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKGeolocationManagerProviderDidChangePosition*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKGeolocationManagerProviderDidFailToDeterminePosition*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKGeolocationManagerSetProvider*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKGeolocationPermissionRequestAllow*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKGeolocationPermissionRequestDeny*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKGeolocationPermissionRequestGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKGeolocationPositionCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKGeolocationPositionGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKGrammarDetailCopyGuesses*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKGrammarDetailCopyUserDescription*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKGrammarDetailCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKGrammarDetailGetLength*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKGrammarDetailGetLocation*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKGrammarDetailGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKGraphicsContextGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKHitTestResultCopyAbsoluteImageURL*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKHitTestResultCopyAbsoluteLinkURL*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKHitTestResultCopyAbsoluteMediaURL*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKHitTestResultCopyAbsolutePDFURL*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKHitTestResultCopyLinkLabel*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKHitTestResultCopyLinkTitle*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKHitTestResultGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKIconDatabaseCheckIntegrityBeforeOpening*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKIconDatabaseClose*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKIconDatabaseEnableDatabaseCleanup*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKIconDatabaseGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKIconDatabaseReleaseIconForURL*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKIconDatabaseRemoveAllIcons*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKIconDatabaseRetainIconForURL*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKIconDatabaseSetIconDatabaseClient*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKImageCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKImageCreateCairoSurface*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKImageGetSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKImageGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKInspectorAttach*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKInspectorClose*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKInspectorDetach*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKInspectorGetPage*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKInspectorGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKInspectorIsAttached*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKInspectorIsDebuggingJavaScript*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKInspectorIsFront*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKInspectorIsProfilingJavaScript*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKInspectorIsProfilingPage*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKInspectorIsVisible*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKInspectorShow*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKInspectorShowConsole*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKInspectorShowMainResourceForFrame*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKInspectorShowResources*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKInspectorToggleJavaScriptDebugging*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKInspectorToggleJavaScriptProfiling*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKInspectorTogglePageProfiling*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKKeyValueStorageManagerDeleteAllEntries*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKKeyValueStorageManagerDeleteEntriesForOrigin*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKKeyValueStorageManagerGetKeyValueStorageOrigins*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKKeyValueStorageManagerGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKMediaCacheManagerClearCacheForAllHostnames*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKMediaCacheManagerClearCacheForHostname*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKMediaCacheManagerGetHostnamesWithMediaCache*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKMediaCacheManagerGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKMutableArrayCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKMutableDictionaryCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKNavigationDataCopyOriginalRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKNavigationDataCopyTitle*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKNavigationDataCopyURL*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKNavigationDataGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKNotificationCopyBody*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKNotificationCopyIconURL*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKNotificationCopyTag*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKNotificationCopyTitle*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKNotificationGetID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKNotificationGetSecurityOrigin*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKNotificationGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKNotificationManagerGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKNotificationManagerProviderDidClickNotification*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKNotificationManagerProviderDidCloseNotifications*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKNotificationManagerProviderDidRemoveNotificationPolicies*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKNotificationManagerProviderDidShowNotification*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKNotificationManagerProviderDidUpdateNotificationPolicy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKNotificationManagerSetProvider*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKNotificationPermissionRequestAllow*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKNotificationPermissionRequestDeny*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKNotificationPermissionRequestGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKOpenPanelParametersCopyAcceptedMIMETypes*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKOpenPanelParametersGetAllowsMultipleFiles*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKOpenPanelParametersGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKOpenPanelResultListenerCancel*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKOpenPanelResultListenerChooseFiles*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKOpenPanelResultListenerGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageBlurFocusedNode*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageCanDelete*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageCanGoBack*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageCanGoForward*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageCenterSelectionInVisibleArea*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageClose*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageCopyActiveURL*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageCopyApplicationNameForUserAgent*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageCopyCommittedURL*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageCopyCustomTextEncodingName*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageCopyCustomUserAgent*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageCopyPendingAPIRequestURL*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageCopyProvisionalURL*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageCopySessionState*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageCopyStandardUserAgentWithApplicationName*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageCopyTitle*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageCopyUserAgent*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageCountStringMatches*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageCreateSnapshotOfVisibleContent*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageExecuteCommand*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageFindString*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageFixedLayoutSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageForceRepaint*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageGetAcceleratedCompositingBackgroundColor*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageGetBackForwardList*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageGetBackingScaleFactor*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageGetContentsAsString*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageGetContext*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageGetDebugPaintFlags*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageGetEstimatedProgress*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageGetFocusedFrame*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageGetFrameSetLargestFrame*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageGetGapBetweenPages*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageGetInspector*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageGetMainFrame*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageGetPageCount*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageGetPageGroup*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageGetPageLength*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageGetPageZoomFactor*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageGetPaginationBehavesLikeColumns*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageGetPaginationMode*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageGetProcessIdentifier*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageGetRenderTreeSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageGetScaleFactor*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageGetSessionHistoryURLValueType*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageGetSourceForFrame*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageGetTextZoomFactor*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageGoBack*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageGoForward*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageGoToBackForwardListItem*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageGroupCopyIdentifier*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageGroupCreateWithIdentifier*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageGroupGetPreferences*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageGroupGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageGroupSetPreferences*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageHasHorizontalScrollbar*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageHasSelectedRange*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageHasVerticalScrollbar*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageHideFindUI*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageIsClosed*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageIsContentEditable*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageIsPinnedToLeftSide*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageIsPinnedToRightSide*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageLoadAlternateHTMLString*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageLoadData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageLoadHTMLString*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageLoadPlainTextString*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageLoadURL*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageLoadURLRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageLoadWebArchiveData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageReload*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageReloadFromOrigin*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageRenderTreeExternalRepresentation*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageRestoreFromSessionState*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageResumeActiveDOMObjectsAndAnimations*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageRunJavaScriptInMainFrame*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageRunJavaScriptInMainFrameAndReturnString*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageSetApplicationNameForUserAgent*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageSetCaretVisible*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageSetCustomBackingScaleFactor*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageSetCustomTextEncodingName*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageSetCustomUserAgent*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageSetDebugPaintFlags*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageSetFixedLayoutSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageSetGapBetweenPages*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageSetMaintainsInactiveSelection*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageSetMediaVolume*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageSetMemoryCacheClientCallsEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageSetPageAndTextZoomFactors*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageSetPageContextMenuClient*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageSetPageFindClient*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageSetPageFormClient*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageSetPageLength*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageSetPageLoaderClient*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageSetPagePolicyClient*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageSetPageUIClient*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageSetPageZoomFactor*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageSetPaginationBehavesLikeColumns*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageSetPaginationMode*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageSetScaleFactor*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageSetScaleFactorKeepingScrollOffset*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageSetShouldSendEventsSynchronously*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageSetTextZoomFactor*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageSetUseFixedLayout*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageStopLoading*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageSupportsTextEncoding*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageSupportsTextZoom*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageSuspendActiveDOMObjectsAndAnimations*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageTerminate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageTryClose*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageTryRestoreScrollPosition*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageUseFixedLayout*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageValidateCommand*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPageWillHandleHorizontalScrollEvents*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPluginSiteDataManagerClearAllSiteData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPluginSiteDataManagerClearSiteData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPluginSiteDataManagerGetSitesWithData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPluginSiteDataManagerGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPointCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPointGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPointGetValue*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPopupMenuItemCopyText*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPopupMenuItemGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPopupMenuItemIsEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPopupMenuItemIsItem*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPopupMenuItemIsSeparator*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesCopyCursiveFontFamily*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesCopyDefaultTextEncodingName*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesCopyFantasyFontFamily*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesCopyFixedFontFamily*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesCopyFTPDirectoryTemplatePath*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesCopyPictographFontFamily*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesCopySansSerifFontFamily*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesCopySerifFontFamily*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesCopyStandardFontFamily*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesCreateCopy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesCreateWithIdentifier*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetAcceleratedCompositingEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetAcceleratedDrawingEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetApplicationChromeModeEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetAuthorAndUserStylesEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetAVFoundationEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetBackspaceKeyNavigationEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetCanvasUsesAcceleratedDrawing*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetCaretBrowsingEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetCompositingBordersVisible*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetCompositingRepaintCountersVisible*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetCookieEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetCoverAreaMultiplier*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetCSSCustomFilterEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetCSSRegionsEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetDatabasesEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetDefaultFixedFontSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetDefaultFontSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetDeveloperExtrasEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetDNSPrefetchingEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetDOMPasteAllowed*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetDoNotTrack*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetEditableLinkBehavior*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetEncodingDetectorEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetFileAccessFromFileURLsAllowed*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetFontSmoothingLevel*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetForceEnableVideo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetForceFTPDirectoryListings*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetFrameFlatteningEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetFullScreenEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetHixie76WebSocketProtocolEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetHyperlinkAuditingEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetInspectorUsesWebKitUserInterface*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetJavaEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetJavaEnabledForLocalFiles*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetJavaScriptCanAccessClipboard*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetJavaScriptCanOpenWindowsAutomatically*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetJavaScriptEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetLoadsImagesAutomatically*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetLoadsSiteIconsIgnoringImageLoadingPreference*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetLocalFileContentSniffingEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetLocalStorageEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetMediaPlaybackAllowsInline*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetMediaPlaybackRequiresUserGesture*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetMinimumFontSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetMockScrollbarsEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetNeedsSiteSpecificQuirks*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetNotificationsEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetOfflineWebApplicationCacheEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetPageCacheEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetPageCacheSupportsPlugins*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetPaginateDuringLayoutEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetPluginsEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetPrivateBrowsingEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetRegionBasedColumnsEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetShouldDisplayCaptions*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetShouldDisplaySubtitles*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetShouldDisplayTextDescriptions*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetShouldPrintBackgrounds*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetShouldRespectImageOrientation*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetShowsToolTipOverTruncatedText*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetSuppressesIncrementalRendering*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetTabsToLinks*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetTextAreasAreResizable*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetUniversalAccessFromFileURLsAllowed*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetWebArchiveDebugModeEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetWebAudioEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetWebGLEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetWebSecurityEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesGetXSSAuditorEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesResetTestRunnerOverrides*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetAcceleratedCompositingEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetAcceleratedDrawingEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetApplicationChromeModeEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetAuthorAndUserStylesEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetAVFoundationEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetBackspaceKeyNavigationEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetCanvasUsesAcceleratedDrawing*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetCaretBrowsingEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetCompositingBordersVisible*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetCompositingRepaintCountersVisible*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetCookieEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetCoverAreaMultiplier*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetCSSCustomFilterEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetCSSRegionsEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetCursiveFontFamily*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetDatabasesEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetDefaultFixedFontSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetDefaultFontSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetDefaultTextEncodingName*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetDeveloperExtrasEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetDNSPrefetchingEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetDOMPasteAllowed*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetDoNotTrack*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetEditableLinkBehavior*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetEncodingDetectorEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetFantasyFontFamily*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetFileAccessFromFileURLsAllowed*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetFixedFontFamily*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetFontSmoothingLevel*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetForceEnableVideo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetForceFTPDirectoryListings*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetFrameFlatteningEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetFTPDirectoryTemplatePath*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetFullScreenEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetHixie76WebSocketProtocolEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetHyperlinkAuditingEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetInspectorUsesWebKitUserInterface*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetJavaEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetJavaEnabledForLocalFiles*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetJavaScriptCanAccessClipboard*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetJavaScriptCanOpenWindowsAutomatically*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetJavaScriptEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetLoadsImagesAutomatically*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetLoadsSiteIconsIgnoringImageLoadingPreference*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetLocalFileContentSniffingEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetLocalStorageEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetMediaPlaybackAllowsInline*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetMediaPlaybackRequiresUserGesture*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetMinimumFontSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetMockScrollbarsEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetNeedsSiteSpecificQuirks*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetNotificationsEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetOfflineWebApplicationCacheEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetPageCacheEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetPageCacheSupportsPlugins*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetPaginateDuringLayoutEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetPictographFontFamily*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetPluginsEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetPrivateBrowsingEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetRegionBasedColumnsEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetSansSerifFontFamily*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetSerifFontFamily*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetShouldDisplayCaptions*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetShouldDisplaySubtitles*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetShouldDisplayTextDescriptions*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetShouldPrintBackgrounds*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetShouldRespectImageOrientation*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetShowsToolTipOverTruncatedText*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetStandardFontFamily*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetSuppressesIncrementalRendering*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetTabsToLinks*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetTextAreasAreResizable*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetUniversalAccessFromFileURLsAllowed*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetWebArchiveDebugModeEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetWebAudioEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetWebGLEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetWebSecurityEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKPreferencesSetXSSAuditorEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKProtectionSpaceCopyHost*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKProtectionSpaceCopyRealm*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKProtectionSpaceGetAuthenticationScheme*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKProtectionSpaceGetIsProxy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKProtectionSpaceGetPort*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKProtectionSpaceGetReceivesCredentialSecurely*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKProtectionSpaceGetServerType*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKProtectionSpaceGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKRectCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKRectGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKRectGetValue*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKRelease*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKRenderLayerCopyElementID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKRenderLayerCopyElementTagName*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKRenderLayerCopyRendererName*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKRenderLayerGetAbsoluteBounds*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKRenderLayerGetCompositingLayerType*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKRenderLayerGetElementClassNames*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKRenderLayerGetNegativeZOrderList*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKRenderLayerGetNormalFlowList*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKRenderLayerGetPositiveZOrderList*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKRenderLayerGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKRenderLayerIsClipped*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKRenderLayerIsClipping*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKRenderLayerIsReflection*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKRenderObjectCopyName*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKRenderObjectGetAbsolutePosition*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKRenderObjectGetChildren*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKRenderObjectGetFrameRect*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKRenderObjectGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKResourceCacheManagerClearCacheForAllOrigins*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKResourceCacheManagerClearCacheForOrigin*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKResourceCacheManagerGetCacheOrigins*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKResourceCacheManagerGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKRetain*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKSecurityOriginCopyDatabaseIdentifier*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKSecurityOriginCopyHost*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKSecurityOriginCopyProtocol*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKSecurityOriginCopyToString*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKSecurityOriginCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKSecurityOriginCreateFromDatabaseIdentifier*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKSecurityOriginCreateFromString*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKSecurityOriginGetHost*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKSecurityOriginGetPort*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKSecurityOriginGetProtocol*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKSecurityOriginGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKSerializedScriptValueCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKSerializedScriptValueCreateWithInternalRepresentation*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKSerializedScriptValueDeserialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKSerializedScriptValueGetInternalRepresentation*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKSerializedScriptValueGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKSizeCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKSizeGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKSizeGetValue*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKStringCopyJSString*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKStringCreateWithJSString*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKStringCreateWithUTF8CString*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKStringGetCharacters*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKStringGetLength*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKStringGetMaximumUTF8CStringSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKStringGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKStringGetUTF8CString*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKStringIsEmpty*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKStringIsEqual*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKStringIsEqualToUTF8CString*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKStringIsEqualToUTF8CStringIgnoringCase*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKTextCheckerChangeSpellingToWord*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKTextCheckerCheckSpelling*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKTextCheckerContinuousSpellCheckingEnabledStateChanged*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKTextCheckerGrammarCheckingEnabledStateChanged*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKTextCheckerSetClient*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKUInt64Create*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKUInt64GetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKUInt64GetValue*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKURLCopyHostName*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKURLCopyScheme*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKURLCopyString*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKURLCreateWithUTF8CString*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKURLGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKURLIsEqual*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKURLRequestCopyURL*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKURLRequestCreateWithWKURL*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKURLRequestGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKURLRequestSetDefaultTimeoutInterval*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKURLResponseCopyMimeType*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKURLResponseCopyURL*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKURLResponseGetHttpStatusCode*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKURLResponseGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKUserContentURLPatternCopyHost*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKUserContentURLPatternCopyScheme*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKUserContentURLPatternCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKUserContentURLPatternGetTypeID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKUserContentURLPatternIsValid*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKUserContentURLPatternMatchesSubdomains*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKUserContentURLPatternMatchesURL*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKViewAccessibilityFocusedObject*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKViewAccessibilityHitTest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKViewAccessibilityRootObject*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKViewClearBackingStores*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKViewClearSelection*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKViewContextMenuItemSelected*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKViewCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKViewDidEnterFullScreen*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKViewDidExitFullScreen*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKViewGetCanvasHole*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKViewGetPage*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKViewHandleImeEvent*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKViewHandleKeyboardEvent*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKViewHandleMouseEvent*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKViewHandleWheelEvent*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKViewIsFullScreen*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKViewPaint*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKViewPaintToCurrentGLContext*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKViewReplyAuthenticationChallenge*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKViewReplyCertificateVerification*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKViewReplyCreateNewPage*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKViewReplyJavaScriptAlert*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKViewReplyJavaScriptConfirm*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKViewReplyJavaScriptPrompt*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKViewRequestExitFullScreen*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKViewRestoreBackingStores*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKViewScrollBy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKViewSetActive*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKViewSetDrawsBackground*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKViewSetDrawsTransparentBackground*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKViewSetFocused*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKViewSetIsVisible*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKViewSetPageScaleFactor*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKViewSetSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKViewSetViewAccessibilityClient*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKViewSetViewContextMenuClient*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKViewSetViewPopupMenuClient*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKViewSyncCoordinatedGraphicsState*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKViewValueChangedForPopupMenu*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKViewWillEnterFullScreen*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc WKViewWillExitFullScreen*()
+  ##  Empty Comment

@@ -1,33 +1,22 @@
-##  Empty Comment
-
 proc sceNpCommerceDialogClose*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpCommerceDialogGetResult*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpCommerceDialogGetStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpCommerceDialogInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpCommerceDialogInitializeInternal*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpCommerceDialogOpen*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpCommerceDialogTerminate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpCommerceDialogUpdateStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpCommerceHidePsStoreIcon*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpCommerceSetPsStoreIconLayout*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpCommerceShowPsStoreIcon*()
+  ##  Empty Comment

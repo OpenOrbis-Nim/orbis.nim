@@ -1,93 +1,62 @@
-##  Empty Comment
-
 proc sceAudio3dAudioOutClose*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudio3dAudioOutOpen*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudio3dAudioOutOutput*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudio3dAudioOutOutputs*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudio3dBedWrite*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudio3dCreateSpeakerArray*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudio3dDeleteSpeakerArray*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudio3dGetDefaultOpenParameters*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudio3dGetSpeakerArrayMemorySize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudio3dGetSpeakerArrayMixCoefficients*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudio3dInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudio3dObjectReserve*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudio3dObjectSetAttributes*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudio3dObjectUnreserve*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudio3dPortAdvance*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudio3dPortClose*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudio3dPortCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudio3dPortDestroy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudio3dPortFlush*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudio3dPortFreeState*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudio3dPortGetAttributesSupported*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudio3dPortGetList*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudio3dPortGetParameters*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudio3dPortGetQueueLevel*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudio3dPortGetState*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudio3dPortGetStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudio3dPortOpen*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudio3dPortPush*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudio3dPortSetAttribute*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudio3dStrError*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudio3dTerminate*()
+  ##  Empty Comment

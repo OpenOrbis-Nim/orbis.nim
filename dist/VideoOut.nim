@@ -1,10 +1,9 @@
 proc sceVideoOutOpen*(a1: OrbisUserServiceUserId; a2: cint; a3: cint;
                       a4: pointer): cint
 proc sceVideoOutClose*(a1: cint): cint
-##  need to port sceVideoOutBufferAttribute (last arg)
-
 proc sceVideoOutRegisterBuffers*(a1: cint; a2: cint; a3: ptr pointer; a4: cint;
                                  a5: ptr OrbisVideoOutBufferAttribute): cint
+  ##  need to port sceVideoOutBufferAttribute (last arg)
 proc sceVideoOutUnregisterBuffers*(a1: cint; a2: cint): cint
 proc sceVideoOutSubmitFlip*(a1: cint; a2: cint; a3: cuint; a4: int64): cint
 proc sceVideoOutSetBufferAttribute*(a1: pointer; a2: cuint; a3: cuint;

@@ -1,474 +1,316 @@
-##  Empty Comment
-
 proc coil_signal_semaphore*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc coil_wait_semaphore*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc comm_init*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_array_insert_vals*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_array_new*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_ascii_strcasecmp*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_ascii_strdown*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_ascii_strncasecmp*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_ascii_tolower*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_ascii_xdigit_value*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_assertion_message*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_build_path*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_clear_error*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_convert*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_dir_close*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_dir_open*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_dir_read_name*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_dir_rewind*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_direct_equal*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_direct_hash*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_error_free*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_file_get_contents*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_file_test*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_filename_from_uri*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_filename_from_utf8*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_filename_to_uri*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_find_program_in_path*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_free*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_get_charset*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_get_current_dir*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_get_home_dir*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_get_prgname*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_get_tmp_dir*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_get_user_name*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_getenv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_hash_table_destroy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_hash_table_foreach*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_hash_table_foreach_remove*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_hash_table_insert_replace*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_hash_table_iter_init*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_hash_table_iter_next*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_hash_table_lookup*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_hash_table_lookup_extended*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_hash_table_new*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_hash_table_new_full*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_hash_table_remove*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_hash_table_size*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_list_append*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_list_copy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_list_delete_link*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_list_find*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_list_foreach*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_list_free*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_list_length*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_list_prepend*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_list_remove*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_list_reverse*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_locale_from_utf8*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_locale_to_utf8*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_log*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_log_set_always_fatal*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_log_set_fatal_mask*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_logv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_malloc*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_malloc0*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_markup_parse_context_end_parse*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_markup_parse_context_free*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_markup_parse_context_new*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_markup_parse_context_parse*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_memdup*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_path_get_basename*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_path_get_dirname*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_path_is_absolute*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_print*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_printerr*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_ptr_array_add*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_ptr_array_free*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_ptr_array_new*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_ptr_array_remove*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_ptr_array_remove_fast*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_ptr_array_remove_index*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_ptr_array_remove_index_fast*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_ptr_array_set_size*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_ptr_array_sized_new*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_ptr_array_sort*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_queue_free*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_queue_is_empty*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_queue_new*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_queue_pop_head*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_queue_push_head*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_realloc*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_set_prgname*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_setenv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_shell_parse_argv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_shell_quote*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_shell_unquote*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_slist_append*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_slist_concat*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_slist_copy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_slist_delete_link*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_slist_find*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_slist_find_custom*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_slist_foreach*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_slist_free*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_slist_free_1*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_slist_insert_sorted*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_slist_last*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_slist_length*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_slist_nth*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_slist_nth_data*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_slist_prepend*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_slist_remove*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_slist_reverse*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_snprintf*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_spaced_primes_closest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_str_equal*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_str_has_prefix*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_str_has_suffix*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_str_hash*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_strchomp*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_strchug*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_strconcat*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_strdelimit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_strdup*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_strdup_printf*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_strdup_vprintf*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_strerror*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_strfreev*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_string_append*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_string_append_c*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_string_append_len*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_string_append_printf*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_string_append_vprintf*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_string_free*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_string_new*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_string_new_len*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_string_printf*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_string_truncate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_strjoin*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_strjoinv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_strlcpy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_strndup*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_strreverse*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_strsplit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_timer_destroy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_timer_elapsed*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_timer_new*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_timer_stop*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_try_malloc*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_try_realloc*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_unichar_tolower*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_unichar_type*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_unsetenv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_usleep*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_utf16_to_utf8*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_utf8_strdown*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_utf8_to_utf16*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc g_utf8_validate*()
+  ##  Empty Comment

@@ -1,63 +1,42 @@
-##  Empty Comment
-
 proc sceNpPartyCheckCallback*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpPartyCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpPartyCreateA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpPartyGetId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpPartyGetMemberInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpPartyGetMemberInfoA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpPartyGetMembers*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpPartyGetMembersA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpPartyGetMemberSessionInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpPartyGetMemberVoiceInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpPartyGetState*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpPartyGetStateAsUser*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpPartyGetStateAsUserA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpPartyInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpPartyLeave*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpPartyRegisterHandler*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpPartyRegisterHandlerA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpPartySendBinaryMessage*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpPartyShowInvitationList*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpPartyShowInvitationListA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpPartyTerminate*()
+  ##  Empty Comment

@@ -1,7 +1,5 @@
-##  https://github.com/flatz/ps4_stub_lib_maker_v2/blob/master/include/bgft.h
-
 type
-  _OrbisBgftInitParams* {.bycopy.} = object
+  _OrbisBgftInitParams* {.bycopy.} = object ##  https://github.com/flatz/ps4_stub_lib_maker_v2/blob/master/include/bgft.h
     heap*: pointer
     heapSize*: csize_t
 
@@ -34,21 +32,16 @@ type
 
 type
   _OrbisBgftDownloadRegisterErrorInfo* {.bycopy.} = object
-    ##  TODO
-    buf*: array[0x100, uint8]
+    buf*: array[0x100, uint8] ##  TODO
 
   _OrbisBgftDownloadParam* {.bycopy.} = object
     userId*: cint
     entitlementType*: cint
-    ##  max size = 0x30
-    id*: cstring
-    ##  max size = 0x800
-    contentUrl*: cstring
+    id*: cstring             ##  max size = 0x30
+    contentUrl*: cstring     ##  max size = 0x800
     contentExUrl*: cstring
-    ##  max size = 0x259
-    contentName*: cstring
-    ##  max size = 0x800
-    iconPath*: cstring
+    contentName*: cstring    ##  max size = 0x259
+    iconPath*: cstring       ##  max size = 0x800
     skuId*: cstring
     option*: OrbisBgftTaskOpt
     playgoScenarioId*: cstring

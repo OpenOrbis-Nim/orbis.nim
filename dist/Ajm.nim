@@ -1,66 +1,44 @@
-##  Empty Comment
-
 proc sceAjmBatchCancel*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAjmBatchErrorDump*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAjmBatchJobControlBufferRa*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAjmBatchJobInlineBuffer*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAjmBatchJobRunBufferRa*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAjmBatchJobRunSplitBufferRa*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAjmBatchStartBuffer*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAjmBatchWait*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAjmDecAt9ParseConfigData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAjmDecMp3ParseFrame*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAjmFinalize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAjmInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAjmInstanceCodecType*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAjmInstanceCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAjmInstanceDestroy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAjmInstanceExtend*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAjmInstanceSwitch*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAjmMemoryRegister*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAjmMemoryUnregister*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAjmModuleRegister*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAjmModuleUnregister*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAjmStrError*()
+  ##  Empty Comment

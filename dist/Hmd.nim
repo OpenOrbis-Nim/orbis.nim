@@ -1,204 +1,136 @@
-##  Empty Comment
-
 proc sceHmdClose*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdGet2DEyeOffset*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdGetDeviceInformation*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdGetDeviceInformationByHandle*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdGetFieldOfView*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdInternal3dAudioOpen*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdInternalAnotherScreenClose*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdInternalAnotherScreenGetAudioStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdInternalAnotherScreenGetFadeState*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdInternalAnotherScreenGetVideoStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdInternalAnotherScreenOpen*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdInternalAnotherScreenSendAudio*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdInternalAnotherScreenSendVideo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdInternalAnotherScreenSetFadeAndSwitch*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdInternalBindDeviceWithUserId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdInternalDfuCheckAfterPvt*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdInternalDfuCheckPartialUpdateAvailable*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdInternalDfuGetStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdInternalDfuOpen*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdInternalDfuSetMode*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdInternalGetHmuSerialNumber*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdInternalGetPUSerialNumber*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdInternalGetPUVersion*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdInternalGetStatusReport*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdInternalMirroringModeSetAspect*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdInternalSeparateModeClose*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdInternalSeparateModeGetAudioStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdInternalSeparateModeGetVideoStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdInternalSeparateModeOpen*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdInternalSeparateModeSendAudio*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdInternalSeparateModeSendVideo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdInternalSetBrightness*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdInternalSetDeviceConnection*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdInternalSetHmuPowerControl*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdInternalSetIPD*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdInternalSetPortConnection*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdInternalSetPortStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdInternalSocialScreenGetFadeState*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdInternalSocialScreenSetFadeAndSwitch*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdInternalSocialScreenSetOutput*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdOpen*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdReprojectionAddDisplayBuffer*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdReprojectionClearUserEventEnd*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdReprojectionClearUserEventStart*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdReprojectionDebugGetLastInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdReprojectionFinalize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdReprojectionInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdReprojectionQueryGarlicBuffAlign*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdReprojectionQueryGarlicBuffSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdReprojectionQueryOnionBuffAlign*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdReprojectionQueryOnionBuffSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdReprojectionSetCallback*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdReprojectionSetDisplayBuffers*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdReprojectionSetOutputMinColor*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdReprojectionSetUserEventEnd*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdReprojectionSetUserEventStart*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdReprojectionStart*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdReprojectionStart2dVr*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdReprojectionStartMultilayer*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdReprojectionStartMultilayer2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdReprojectionStartWideNear*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdReprojectionStartWideNearWithOverlay*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdReprojectionStartWithOverlay*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdReprojectionStop*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdReprojectionUnsetCallback*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdReprojectionUnsetDisplayBuffers*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdTerminate*()
+  ##  Empty Comment

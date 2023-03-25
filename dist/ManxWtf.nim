@@ -1,24 +1,16 @@
-##  Empty Comment
-
 proc _ZN4Manx27monotonicallyIncreasingTimeEv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN4Manx6System19setVirtualRangeNameEPvmPKc*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN4Manx6System21defaultThreadPriorityEv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN4Manx7RunLoop3runEv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN4Manx7RunLoop4initEv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN4Manx7RunLoop7currentEv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc pa_pop_marker*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc pa_push_marker*()
+  ##  Empty Comment

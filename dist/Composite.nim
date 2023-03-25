@@ -1,108 +1,72 @@
-##  Empty Comment
-
 proc sceCompositorCheckCrash*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompositorCommandGpuPerfBegin*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompositorCommandGpuPerfEnd*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompositorFlush*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompositorFlushWithRepeat*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompositorGetCanvasHandle*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompositorGetRemainedCommandNum*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompositorInit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompositorMakeCanvasHandle*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompositorMapAnotherProcess*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompositorReleaseLocalStall*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompositorResetZoomCommand*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompositorSetCompositeCanvasCommandInC*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompositorSetCursorImageAddress*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompositorSetDebugPositionCommand*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompositorSetEndOfFrameCommand*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompositorSetEventCommand*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompositorSetFlipCommand*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompositorSetGameSufaceControlCommand*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompositorSetGnmContextCommand*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompositorSetIndirectCompositionCommand*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompositorSetIndirectRenderTargetConfigCommand*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompositorSetInvisibleCanvasCommand*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompositorSetLocalStallCommand*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompositorSetMemoryCommand*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompositorSetMorpheusState*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompositorSetPostEventCommand*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompositorSetRepeatCommand*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompositorSetResolutionCommand*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompositorSetZoomCommand*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompositorSystemConfig*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompositorWaitEndOfRendering*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompositorWaitEvent*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompositorWaitPostEvent*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompsoitorGetGpuClock*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompsoitorGetRenderingTime*()
+  ##  Empty Comment

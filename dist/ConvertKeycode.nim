@@ -1,6 +1,4 @@
-##  Empty Comment
-
 proc sceConvertKeycodeGetCharacter*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceConvertKeycodeGetVirtualKeycode*()
+  ##  Empty Comment

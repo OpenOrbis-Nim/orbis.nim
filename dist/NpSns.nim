@@ -1,51 +1,34 @@
-##  Empty Comment
-
 proc sceNpSnsFacebookAbortRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSnsFacebookCreateRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSnsFacebookDeleteRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSnsFacebookGetAccessToken*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSnsIntAbortRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSnsIntCheckServiceAvailability*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSnsIntCreateRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSnsIntDeleteRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSnsIntFbGetGameAccessToken*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSnsIntFbGetGameAccessTokenAllowed*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSnsIntFbGetSystemAccessToken*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSnsIntFbGetTitleInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSnsIntLinkedStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSnsIntTest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSnsIntTwGetSystemAccessToken*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSnsIntYtGetAccessToken*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSnsIntYtRefreshMasterToken*()
+  ##  Empty Comment

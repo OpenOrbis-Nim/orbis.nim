@@ -1,33 +1,22 @@
-##  Empty Comment
-
 proc sceRemoteplayApprove*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRemoteplayClearConnectHistory*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRemoteplayGetConnectHistory*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRemoteplayGetConnectionStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRemoteplayGetMbusDeviceInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRemoteplayInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRemoteplayNotifyNpPushWakeup*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRemoteplayProhibit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRemoteplayProhibitStreaming*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRemoteplaySetProhibition*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRemoteplayTerminate*()
+  ##  Empty Comment

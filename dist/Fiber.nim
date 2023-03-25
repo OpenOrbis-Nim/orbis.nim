@@ -1,45 +1,30 @@
-##  Empty Comment
-
 proc _sceFiberAttachContextAndRun*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _sceFiberAttachContextAndSwitch*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _sceFiberGetThreadFramePointerAddress*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _sceFiberInitializeImpl*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _sceFiberInitializeWithInternalOptionImpl*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceFiberFinalize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceFiberGetInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceFiberGetSelf*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceFiberOptParamInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceFiberRename*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceFiberReturnToThread*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceFiberRun*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceFiberStartContextSizeCheck*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceFiberStopContextSizeCheck*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceFiberSwitch*()
+  ##  Empty Comment

@@ -58,11 +58,9 @@ type
     touch*: array[2, OrbisPadTouch]
 
 
-##  The ScePadData Structure contains data polled from the DS4 controller. This includes button states, analogue
-##  positional data, and touchpad related data.
-
 type
-  OrbisPadData* {.bycopy.} = object
+  OrbisPadData* {.bycopy.} = object ##  The ScePadData Structure contains data polled from the DS4 controller. This includes button states, analogue
+                                     ##  positional data, and touchpad related data.
     buttons*: cuint
     leftStick*: stick
     rightStick*: stick
@@ -79,10 +77,8 @@ type
     unknown*: array[15, uint8]
 
 
-##  The PadColor structure contains RGBA for the DS4 controller lightbar.
-
 type
-  OrbisPadColor* {.bycopy.} = object
+  OrbisPadColor* {.bycopy.} = object ##  The PadColor structure contains RGBA for the DS4 controller lightbar.
     r*: uint8
     g*: uint8
     b*: uint8
@@ -93,14 +89,11 @@ type
     smMotor*: uint8
 
 
-##  Vendor information about which controller to open for scePadOpenExt
-
 type
-  OrbisPadExtParam* {.bycopy.} = object
+  OrbisPadExtParam* {.bycopy.} = object ##  Vendor information about which controller to open for scePadOpenExt
     vendorId*: uint16
     productId*: uint16
-    ##  this is in here twice?
-    productId_2*: uint16
+    productId_2*: uint16     ##  this is in here twice?
     unknown*: array[10, uint8]
 
   OrbisPadInformation* {.bycopy.} = object

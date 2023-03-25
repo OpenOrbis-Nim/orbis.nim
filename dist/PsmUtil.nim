@@ -1,24 +1,16 @@
-##  Empty Comment
-
 proc scePsmUtilFinalize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePsmUtilGetDebugAssetManagerSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePsmUtilGetEmojiAssetManagerSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePsmUtilGetHighResoImageAssetManagerSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePsmUtilGetLabelAssetManagerSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePsmUtilGetOffscreenAssetManagerSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePsmUtilGetSystemAssetManagerSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePsmUtilInitialize*()
+  ##  Empty Comment

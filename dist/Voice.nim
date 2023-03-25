@@ -1,84 +1,56 @@
-##  Empty Comment
-
 proc sceVoiceConnectIPortToOPort*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceCreatePort*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceDeletePort*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceDisconnectIPortFromOPort*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceEnd*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceGetBitRate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceGetMuteFlag*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceGetPortAttr*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceGetPortInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceGetResourceInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceGetVolume*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceInit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoicePausePort*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoicePausePortAll*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceReadFromOPort*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceResetPort*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceResumePort*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceResumePortAll*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceSetBitRate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceSetMuteFlag*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceSetMuteFlagAll*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceSetThreadsParams*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceSetVolume*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceStart*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceStop*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceUpdatePort*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceVADAdjustment*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceWriteToIPort*()
+  ##  Empty Comment

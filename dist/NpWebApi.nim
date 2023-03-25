@@ -1,153 +1,102 @@
-##  Empty Comment
-
 proc sceNpWebApiAbortHandle*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiAbortRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiAddHttpRequestHeader*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiAddMultipartPart*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiCheckTimeout*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiClearAllUnusedConnection*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiClearUnusedConnection*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiCreateContext*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiCreateContextA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiCreateExtdPushEventFilter*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiCreateHandle*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiCreateMultipartRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiCreatePushEventFilter*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiCreateRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiCreateServicePushEventFilter*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiDeleteContext*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiDeleteExtdPushEventFilter*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiDeleteHandle*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiDeletePushEventFilter*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiDeleteRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiDeleteServicePushEventFilter*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiGetConnectionStats*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiGetErrorCode*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiGetHttpResponseHeaderValue*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiGetHttpResponseHeaderValueLength*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiGetHttpStatusCode*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiGetMemoryPoolStats*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiIntCreateCtxIndExtdPushEventFilter*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiIntCreateServicePushEventFilter*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiIntInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiReadData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiRegisterExtdPushEventCallback*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiRegisterExtdPushEventCallbackA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiRegisterNotificationCallback*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiRegisterPushEventCallback*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiRegisterServicePushEventCallback*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiSendMultipartRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiSendMultipartRequest2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiSendRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiSendRequest2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiSetHandleTimeout*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiSetMaxConnection*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiSetMultipartContentType*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiSetRequestTimeout*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiTerminate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiUnregisterExtdPushEventCallback*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiUnregisterNotificationCallback*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiUnregisterPushEventCallback*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiUnregisterServicePushEventCallback*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWebApiUtilityParseNpId*()
+  ##  Empty Comment

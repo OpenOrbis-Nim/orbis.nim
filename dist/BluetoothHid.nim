@@ -1,3 +1,2 @@
-##  Empty Comment
-
 proc sceBluetoothHidGetDeviceInfo*()
+  ##  Empty Comment

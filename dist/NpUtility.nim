@@ -1,171 +1,114 @@
-##  Empty Comment
-
 proc sceNpAppInfoIntAbortRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpAppInfoIntCheckAvailability*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpAppInfoIntCheckAvailabilityAll*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpAppInfoIntCheckServiceAvailability*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpAppInfoIntCheckServiceAvailabilityAll*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpAppInfoIntCreateRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpAppInfoIntDestroyRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpAppLaunchLinkIntAbortRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpAppLaunchLinkIntCreateRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpAppLaunchLinkIntDestroyRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpAppLaunchLinkIntGetCompatibleTitleIdList*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpAppLaunchLinkIntGetCompatibleTitleIdNum*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpBandwidthTestAbort*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpBandwidthTestGetStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpBandwidthTestInitStart*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpBandwidthTestShutdown*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpBandwidthTestShutdownInt*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpLookupAbortRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpLookupCreateAsyncRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpLookupCreateRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpLookupCreateTitleCtx*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpLookupCreateTitleCtxA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpLookupDeleteRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpLookupDeleteTitleCtx*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpLookupNpId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpLookupPollAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpLookupSetTimeout*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpLookupWaitAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpServiceChecker2IntAbortRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpServiceChecker2IntCreateRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpServiceChecker2IntDestroyRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpServiceChecker2IntGetServiceAvailability*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpServiceChecker2IntIsSetServiceType*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpServiceCheckerIntAbortRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpServiceCheckerIntCreateRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpServiceCheckerIntDestroyRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpServiceCheckerIntGetAvailability*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpServiceCheckerIntGetAvailabilityList*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpServiceCheckerIntIsCached*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTitleMetadataIntAbortRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTitleMetadataIntCreateRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTitleMetadataIntDeleteRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTitleMetadataIntGetInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpUtilityInit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpUtilityTerm*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWordFilterAbortRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWordFilterCensorComment*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWordFilterCreateAsyncRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWordFilterCreateRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWordFilterCreateTitleCtx*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWordFilterCreateTitleCtxA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWordFilterDeleteRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWordFilterDeleteTitleCtx*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWordFilterPollAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWordFilterSanitizeComment*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWordFilterSetTimeout*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWordFilterWaitAsync*()
+  ##  Empty Comment

@@ -1,30 +1,20 @@
-##  Empty Comment
-
 proc sceWebBrowserDialogClose*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceWebBrowserDialogGetResult*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceWebBrowserDialogGetStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceWebBrowserDialogInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceWebBrowserDialogOpen*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceWebBrowserDialogOpenForPredeterminedContent*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceWebBrowserDialogResetCookie*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceWebBrowserDialogSetCookie*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceWebBrowserDialogTerminate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceWebBrowserDialogUpdateStatus*()
+  ##  Empty Comment

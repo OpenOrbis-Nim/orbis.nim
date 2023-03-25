@@ -1,328 +1,223 @@
-##  Empty Comment
-
 proc sceHttpAbortRequest*(reqId: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpAbortRequestForce*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpAbortWaitRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpAddCookie*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpAddRequestHeader*(id: cint; name: cstring; value: cstring;
                               mode: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpAddRequestHeaderRaw*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpAuthCacheExport*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpAuthCacheFlush*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpAuthCacheImport*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpCookieExport*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpCookieFlush*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpCookieImport*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpCreateConnection*(tmplId: cint; serverName: cstring;
                               scheme: cstring; port: uint16;
                               isEnableKeepalive: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpCreateConnectionWithURL*(templateId: cint; url: cstring;
                                      isKeepalive: bool): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpCreateEpoll*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpCreateRequest*(connId: cint; `method`: cint; path: cstring;
                            contentLength: uint64): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpCreateRequest2*(connId: cint; `method`: cstring; path: cstring;
                             contentLength: uint64): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpCreateRequestWithURL*(conectId: cint; `method`: cint; url: cstring;
                                   contentLength: culonglong): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpCreateRequestWithURL2*(connId: cint; `method`: cstring;
                                    url: cstring; contentLength: uint64): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpCreateTemplate*(httpCtxId: cint; userAgent: cstring; httpVer: cint;
                             proxy: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpDbgGetConnectionStat*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpDbgGetRequestStat*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpDbgSetPrintf*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpDbgShowConnectionStat*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpDbgShowMemoryPoolStat*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpDbgShowRequestStat*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpDbgShowStat*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpDeleteConnection*(connId: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpDeleteRequest*(reqId: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpDeleteTemplate*(templateId: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpDestroyEpoll*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpGetAcceptEncodingGZIPEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpGetAllResponseHeaders*(reqId: cint; header: cstringArray;
                                    headerSize: ptr csize_t): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpGetAuthEnabled*(id: cint; isEnable: ptr cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpGetAutoRedirect*(id: cint; isEnable: ptr cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpGetCookie*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpGetCookieEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpGetCookieStats*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpGetEpoll*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpGetEpollId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpGetLastErrno*(reqId: cint; errNum: ptr cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpGetMemoryPoolStats*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpGetNonblock*(id: cint; isEnable: ptr cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpGetResponseContentLength*(reqId: cint; result: ptr cint;
                                       contentLength: ptr csize_t): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpGetStatusCode*(reqId: cint; statusCode: ptr cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpInit*(memId: cint; sslId: cint; poolSize: csize_t): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpParseResponseHeader*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpParseStatusLine*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpReadData*(reqId: cint; data: pointer; size: cuint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpRedirectCacheFlush*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpRemoveRequestHeader*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpRequestGetAllHeaders*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpsDisableOption*(id: cint; flags: cuint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpsDisableOptionPrivate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpsEnableOption*(id: cint; flags: cuint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpsEnableOptionPrivate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpSendRequest*(reqId: cint; postData: pointer; size: csize_t): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpSetAcceptEncodingGZIPEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpSetAuthEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpSetAuthInfoCallback*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpSetAutoRedirect*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpSetChunkedTransferEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpSetConnectTimeOut*(id: cint; usec: cuint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpSetCookieEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpSetCookieMaxNum*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpSetCookieMaxNumPerDomain*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpSetCookieMaxSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpSetCookieRecvCallback*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpSetCookieSendCallback*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpSetCookieTotalMaxSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpSetDefaultAcceptEncodingGZIPEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpSetEpoll*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpSetEpollId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpSetInflateGZIPEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpSetNonblock*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpSetPolicyOption*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpSetPriorityOption*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpSetProxy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpSetRecvBlockSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpSetRecvTimeOut*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpSetRedirectCallback*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpSetRequestContentLength*(id: cint; contentLength: uint64): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpSetResolveRetry*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpSetResolveTimeOut*(id: cint; usec: cuint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpSetResponseHeaderMaxSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpSetSendTimeOut*(id: cint; usec: cuint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpsFreeCaList*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpsGetCaList*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpsGetSslError*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpsLoadCert*(httpId: cint; nbr: cint; cert_list: pointer;
                        cert: pointer; private_key: pointer): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpsSetSslCallback*(id: cint; cbfunc: OrbisHttpsCallback;
                              userArg: pointer): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpsSetSslVersion*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpsUnloadCert*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpTerm*(httpCtxId: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpTryGetNonblock*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpTrySetNonblock*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpUnsetEpoll*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpUriBuild*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpUriCopy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpUriEscape*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpUriMerge*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpUriParse*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpUriSweepPath*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpUriUnescape*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHttpWaitRequest*()
+  ##  Empty Comment

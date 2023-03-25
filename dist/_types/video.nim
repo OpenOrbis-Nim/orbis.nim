@@ -23,10 +23,8 @@ type
 const
   ORBIS_VIDEO_OUT_PIXEL_FORMAT_A8B8G8R8_SRGB* = 0x80002200
 
-##  Struct Credits - psxdev
-
 type
-  OrbisVideoOutBufferAttribute* {.bycopy.} = object
+  OrbisVideoOutBufferAttribute* {.bycopy.} = object ##  Struct Credits - psxdev
     format*: int32
     tmode*: int32
     aspect*: int32
@@ -36,10 +34,8 @@ type
     reserved*: array[2, uint64]
 
 
-##  Struct Credits - psxdev
-
 type
-  OrbisVideoOutFlipStatus* {.bycopy.} = object
+  OrbisVideoOutFlipStatus* {.bycopy.} = object ##  Struct Credits - psxdev
     num*: uint64
     ptime*: uint64
     stime*: uint64
@@ -51,10 +47,8 @@ type
     reserved1*: uint32
 
 
-##  Struct Credits - Inori
-
 type
-  OrbisVideoOutResolutionStatus* {.bycopy.} = object
+  OrbisVideoOutResolutionStatus* {.bycopy.} = object ##  Struct Credits - Inori
     width*: uint32
     height*: uint32
     paneWidth*: uint32

@@ -1,15 +1,10 @@
-##  Empty Comment
-
 proc sceCompanionUtilGetEvent*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompanionUtilGetRemoteOskEvent*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompanionUtilInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompanionUtilOptParamInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompanionUtilTerminate*()
+  ##  Empty Comment

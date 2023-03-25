@@ -1,15 +1,10 @@
-##  Empty Comment
-
 proc sceMouseClose*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMouseInit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMouseOpen*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMouseRead*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMouseSetPointerSpeed*()
+  ##  Empty Comment

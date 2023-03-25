@@ -1,18 +1,12 @@
-##  Empty Comment
-
 proc scePadTrackerCalibrate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePadTrackerGetWorkingMemorySize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePadTrackerInit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePadTrackerReadState*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePadTrackerTerm*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePadTrackerUpdate*()
+  ##  Empty Comment

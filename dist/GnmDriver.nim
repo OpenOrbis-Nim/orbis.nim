@@ -1,361 +1,242 @@
-##  Empty Comment
-
 proc sceGnmAddEqEvent*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmAreSubmitsAllowed*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmBeginWorkload*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmCreateWorkloadStream*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmDebugHardwareStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmDeleteEqEvent*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmDestroyWorkloadStream*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmDingDong*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmDingDongForWorkload*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmDisableMipStatsReport*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmDispatchDirect*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmDispatchIndirect*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmDispatchIndirectOnMec*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmDispatchInitDefaultHardwareState*()
-##  Queue a draw indexed instruction into the command buffer.
-
+  ##  Empty Comment
 proc sceGnmDrawIndex*(cmd: ptr uint32; numdwords: uint32; indexcount: uint32;
                       indexaddr: pointer; flags: OrbisGnmDrawIndexFlags): int32
-##  Empty Comment
-
+  ##  Queue a draw indexed instruction into the command buffer.
 proc sceGnmDrawIndexAuto*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmDrawIndexIndirect*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmDrawIndexIndirectMulti*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmDrawIndexMultiInstanced*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmDrawIndexOffset*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmDrawIndirect*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmDrawIndirectMulti*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmDrawInitDefaultHardwareState*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmDrawInitDefaultHardwareState175*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmDrawInitDefaultHardwareState200*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmDrawInitDefaultHardwareState350*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmDrawInitToDefaultContextState*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmDrawOpaqueAuto*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmDriverCaptureInProgress*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmDriverTraceInProgress*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmDriverTriggerCapture*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmEndWorkload*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmFindResourcesPublic*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmFlushGarlic*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmGetEqEventType*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmGetEqTimeStamp*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmGetGpuBlockStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmGetGpuInfoStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmGetLastWaitedAddress*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmGetNumTcaUnits*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmGetOwnerName*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmGetProtectionFaultTimeStamp*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmGetResourceBaseAddressAndSizeInBytes*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmGetResourceName*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmGetResourceShaderGuid*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmGetResourceType*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmGetResourceUserData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmGetShaderProgramBaseAddress*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmGetShaderStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmGetTheTessellationFactorRingBufferBaseAddress*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmInsertPopMarker*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmInsertPushColorMarker*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmInsertPushMarker*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmInsertSetColorMarker*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmInsertSetMarker*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmInsertThreadTraceMarker*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmInsertWaitFlipDone*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmIsUserPaEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmLogicalCuIndexToPhysicalCuIndex*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmLogicalCuMaskToPhysicalCuMask*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmMapComputeQueue*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmMapComputeQueueWithPriority*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmQueryResourceRegistrationUserMemoryRequirements*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmRegisterGdsResource*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmRegisterGnmLiveCallbackConfig*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmRegisterOwner*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmRegisterResource*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmRequestFlipAndSubmitDone*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmRequestFlipAndSubmitDoneForWorkload*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmRequestMipStatsReportAndReset*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmResetVgtControl*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmSetCsShader*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmSetCsShaderWithModifier*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmSetEmbeddedPsShader*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmSetEmbeddedVsShader*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmSetEsShader*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmSetGsRingSizes*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmSetGsShader*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmSetHsShader*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmSetLsShader*()
-##  Set the pixel shader to be used in the command buffer.
-
+  ##  Empty Comment
 proc sceGnmSetPsShader*(cmd: ptr uint32; numdwords: uint32; psregs: pointer): int32
-##  Set the pixel shader to be used in the command buffer.
-
+  ##  Set the pixel shader to be used in the command buffer.
 proc sceGnmSetPsShader350*(cmd: ptr uint32; numdwords: uint32; psregs: pointer): int32
-##  Empty Comment
-
+  ##  Set the pixel shader to be used in the command buffer.
 proc sceGnmSetResourceRegistrationUserMemory*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmSetResourceUserData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmSetSpiEnableSqCounters*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmSetSpiEnableSqCountersForUnitInstance*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmSetupMipStatsReport*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmSetVgtControl*()
-##  Set the vertex shader to be used in the command buffer.
-
+  ##  Empty Comment
 proc sceGnmSetVsShader*(cmd: ptr uint32; numdwords: uint32; vsregs: pointer;
                         shadermodifier: uint32): int32
-##  Empty Comment
-
+  ##  Set the vertex shader to be used in the command buffer.
 proc sceGnmSetWaveLimitMultipliers*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmSubmitAndFlipCommandBuffers*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmSubmitAndFlipCommandBuffersForWorkload*()
-##  Submit one or more draw command buffer, and optionally one or more compute command buffers.
-
+  ##  Empty Comment
 proc sceGnmSubmitCommandBuffers*(count: uint32; dcbaddrs: ptr pointer;
                                  dcbbytesizes: ptr uint32;
                                  ccbaddrs: ptr pointer; ccbbytesizes: ptr uint32): int32
-##  Empty Comment
-
+  ##  Submit one or more draw command buffer, and optionally one or more compute command buffers.
 proc sceGnmSubmitCommandBuffersForWorkload*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmSubmitDone*(): int32
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmUnmapComputeQueue*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmUnregisterAllResourcesForOwner*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmUnregisterOwnerAndResources*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmUnregisterResource*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmUpdateGsShader*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmUpdateHsShader*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmUpdatePsShader*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmUpdatePsShader350*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmUpdateVsShader*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmValidateCommandBuffers*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmValidateDisableDiagnostics*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmValidateDispatchCommandBuffers*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmValidateDrawCommandBuffers*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmValidateGetDiagnosticInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmValidateGetDiagnostics*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmValidateGetVersion*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmValidateOnSubmitEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmValidateResetState*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGnmValidationRegisterMemoryCheckCallback*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRazorCaptureCommandBuffersOnlyImmediate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRazorCaptureCommandBuffersOnlySinceLastFlip*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRazorCaptureImmediate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRazorCaptureSinceLastFlip*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRazorIsLoaded*()
+  ##  Empty Comment

@@ -1,144 +1,96 @@
-##  Empty Comment
-
 proc _sceApplicationGetAppId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationAddProcess2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationBlockingKill2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationContinue*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationCrashSyscore*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationExitSpawn*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationExitSpawn2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationFinalize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationGetAppInfoByAppId*(appId: cint; info: ptr OrbisAppInfo): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationGetCoredumpDirAndFileName*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationGetCoredumpState*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationGetProcs*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationGetShellCoreAppId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationInitializeForShellCore*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationIsPrimaryProcess*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationIsResumable*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationKickCoredump*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationKickCoredump2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationLocalProcessKill*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationLocalProcessKill2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationLocalProcessResume*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationLocalProcessSuspend*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationNotifyCoredumpRequestEnd*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationNotifyCoredumpRequestProgress*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationNotifyVshMainOnStandby*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationNotifyVshReady*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationRaiseException*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationRaiseExceptionToLocalPid*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationResume*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationSendDebugSpawnResult2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationSendResultOfDebuggerKillRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationSendResultOfDebuggerResumeRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationSendResultOfDebuggerSuspendRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationSendResultOfDebuggerTitleIdLaunchRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationSetApplicationFocus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationSetControllerFocus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationSetControllerFocusPermissionToSubProcess*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationSetMemoryPstate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationSignalShellCoreHeartBeat*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationSuspend*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationSwitchToBaseMode*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationSwitchToNeoMode*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationSwitchToNeoMode2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationSystemReboot*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationSystemShutdown2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceApplicationSystemSuspend*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSysCoreReceiveEvent*()
+  ##  Empty Comment

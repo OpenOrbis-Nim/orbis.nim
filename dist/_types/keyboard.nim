@@ -6,18 +6,14 @@ const
   ORBIS_KEYBOARD_MOD_LEFT_SHIFT* = 2
   ORBIS_KEYBOARD_MOD_LEFT_ALT* = 4
 
-##  windows
-
 const
-  ORBIS_KEYBOARD_MOD_LEFT_META* = 8
+  ORBIS_KEYBOARD_MOD_LEFT_META* = 8 ##  windows
   ORBIS_KEYBOARD_MOD_RIGHT_CTRL* = 16
   ORBIS_KEYBOARD_MOD_RIGHT_SHIFT* = 32
   ORBIS_KEYBOARD_MOD_RIGHT_ALT* = 64
 
-##  windows
-
 const
-  ORBIS_KEYBOARD_MOD_RIGHT_META* = 128
+  ORBIS_KEYBOARD_MOD_RIGHT_META* = 128 ##  windows
   ORBIS_KEYBOARD_KEY_RETURN* = 40
   ORBIS_KEYBOARD_KEY_ESCAPE* = 41
   ORBIS_KEYBOARD_KEY_BACKSPACE* = 42
@@ -62,23 +58,17 @@ const
 
 type
   OrbisKeyboardData* {.bycopy.} = object
-    ##  microseconds XXX: is it 64-bit?
-    timestamp*: cuint
+    timestamp*: cuint        ##  microseconds XXX: is it 64-bit?
     padding*: array[12, uint8]
-    ##  always 1
-    unk1*: cint
+    unk1*: cint              ##  always 1
     nkeys*: cint
-    ##  num lock, caps lock, scroll lock
-    locks*: uint32
-    ##  ctrl, shift, alt, meta
+    locks*: uint32           ##  num lock, caps lock, scroll lock
     mods*: uint32
     keycodes*: array[32, uint16]
 
   OrbisKeyboardKey2Char* {.bycopy.} = object
     ok*: cint
-    ## wtf it is
-    ok2*: cint
+    ok2*: cint               ## wtf it is
     keycode*: cint
-    ## zeros
-    unk*: array[8, char]
+    unk*: array[8, char]     ## zeros
 

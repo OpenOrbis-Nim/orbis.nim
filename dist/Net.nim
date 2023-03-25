@@ -1,533 +1,359 @@
-##  Empty Comment
-
 proc sceNetAccept*(a1: OrbisNetId; a2: ptr OrbisNetSockaddr;
                    a3: ptr OrbisNetSocklen_t): OrbisNetId
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetAllocateAllRouteInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetBandwidthControlGetDefaultParam*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetBandwidthControlGetIfParam*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetBandwidthControlGetPolicy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetBandwidthControlSetDefaultParam*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetBandwidthControlSetIfParam*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetBandwidthControlSetPolicy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetBind*(a1: OrbisNetId; a2: ptr OrbisNetSockaddr; a3: OrbisNetSocklen_t): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetClearDnsCache*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigAddArp*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigAddIfaddr*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigAddMRoute*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigAddRoute*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigAddRoute6*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigCleanUpAllInterfaces*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigDelArp*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigDelDefaultRoute*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigDelDefaultRoute6*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigDelIfaddr*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigDelIfaddr6*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigDelMRoute*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigDelRoute*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigDelRoute6*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigDownInterface*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigEtherGetLinkMode*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigEtherPostPlugInOutEvent*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigEtherSetLinkMode*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigFlushRoute*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigGetDefaultRoute*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigGetDefaultRoute6*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigGetIfaddr*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigGetIfaddr6*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigRoutingShowRoutingConfig*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigRoutingShowtCtlVar*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigRoutingStart*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigRoutingStop*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigSetDefaultRoute*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigSetDefaultRoute6*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigSetDefaultScope*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigSetIfaddr*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigSetIfaddr6*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigSetIfmtu*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigUpInterface*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigWlanAdhocClearWakeOnWlan*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigWlanAdhocCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigWlanAdhocGetWakeOnWlanInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigWlanAdhocJoin*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigWlanAdhocLeave*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigWlanAdhocPspEmuClearWakeOnWlan*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigWlanAdhocPspEmuGetWakeOnWlanInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigWlanAdhocPspEmuSetWakeOnWlan*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigWlanAdhocScanJoin*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigWlanAdhocSetExtInfoElement*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigWlanAdhocSetWakeOnWlan*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigWlanApStart*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigWlanApStop*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigWlanBackgroundScanQuery*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigWlanBackgroundScanStart*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigWlanBackgroundScanStop*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigWlanDiagGetDeviceInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigWlanDiagSetAntenna*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigWlanGetDeviceConfig*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigWlanInfraGetRssiInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigWlanInfraLeave*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigWlanInfraScanJoin*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigWlanScan*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConfigWlanSetDeviceConfig*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetConnect*(a1: OrbisNetId; a2: ptr OrbisNetSockaddr;
                     a3: OrbisNetSocklen_t): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetControl*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetDhcpdStart*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetDhcpdStop*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetDhcpGetAutoipInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetDhcpGetInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetDhcpGetInfoEx*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetDhcpStart*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetDhcpStop*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetDumpAbort*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetDumpCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetDumpDestroy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetDumpRead*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetDuplicateIpStart*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetEpollAbort*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetEpollControl*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetEpollCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetEpollDestroy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetEpollWait*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetErrnoLoc*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetEtherNtostr*(macAddr: ptr cuchar; `out`: cstring; length: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetEtherStrton*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetEventCallbackCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetEventCallbackDestroy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetEventCallbackGetError*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetEventCallbackWaitCB*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetFreeAllRouteInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetGetArpInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetGetDnsInfo*(info: ptr OrbisNetDnsInfo; flags: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetGetIfList*(ifName_num: OrbisNetIfName; `out`: ptr OrbisNetIfEntry;
                       unk: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetGetIfListOnce*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetGetIfName*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetGetIfnameNumList*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetGetMacAddress*(mac_address: ptr OrbisNetEtherAddr; len: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetGetMemoryPoolStats*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetGetNameToIndex*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetGetpeername*(a1: OrbisNetId; a2: ptr OrbisNetSockaddr;
                         a3: ptr OrbisNetSocklen_t): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetGetRandom*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetGetRouteInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetGetSockInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetGetSockInfo6*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetGetsockname*(a1: OrbisNetId; a2: ptr OrbisNetSockaddr;
                         a3: ptr OrbisNetSocklen_t): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetGetsockopt*(a1: OrbisNetId; a2: cint; a3: cint; a4: pointer;
                        a5: ptr OrbisNetSocklen_t): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetGetStatisticsInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetGetSystemTime*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetHtonl*(a1: uint32): uint32
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetHtonll*(a1: uint64): uint64
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetHtons*(a1: uint16): uint16
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetInetNtop*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetInetPton*(a1: cint; a2: cstring; a3: pointer): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetInetPtonEx*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetInit*(): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetIoctl*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetListen*(a1: OrbisNetId; a2: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetMemoryAllocate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetMemoryFree*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetNtohl*(a1: uint32): uint32
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetNtohll*(a1: uint64): uint64
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetNtohs*(a1: uint16): uint16
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetPoolCreate*(name: cstring; size: cint; flags: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetPoolDestroy*(a1: cint)
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetPppoeStart*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetPppoeStop*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetRecv*(a1: OrbisNetId; a2: pointer; a3: csize_t; a4: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetRecvfrom*(a1: OrbisNetId; a2: pointer; a3: csize_t; a4: cint;
                      a5: ptr OrbisNetSockaddr; a6: ptr OrbisNetSocklen_t): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetRecvmsg*(a1: OrbisNetId; a2: ptr OrbisNetMsghdr; a3: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetResolverAbort*(a1: OrbisNetId; flags: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetResolverCreate*(name: cstring; memid: cint; flags: cint): OrbisNetId
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetResolverDestroy*(a1: OrbisNetId): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetResolverGetError*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetResolverStartAton*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetResolverStartAton6*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetResolverStartNtoa*(rid: OrbisNetId; hostname: cstring;
                               `addr`: ptr OrbisNetInAddr; timeout: cint;
                               retry: cint; flags: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetResolverStartNtoa6*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetResolverStartNtoaMultipleRecords*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetResolverStartNtoaMultipleRecordsEx*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetSend*(a1: OrbisNetId; a2: pointer; a3: csize_t; a4: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetSendmsg*(a1: OrbisNetId; a2: ptr OrbisNetMsghdr; a3: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetSendto*(a1: OrbisNetId; a2: pointer; a3: csize_t; a4: cint;
                    a5: ptr OrbisNetSockaddr; a6: OrbisNetSocklen_t): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetSetDnsInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetSetDnsInfoToKernel*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetSetsockopt*(a1: OrbisNetId; a2: cint; a3: cint; a4: pointer;
                        a5: OrbisNetSocklen_t): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetShowIfconfig*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetShowIfconfigWithMemory*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetShowNetstat*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetShowNetstatWithMemory*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetShowPolicy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetShowPolicyWithMemory*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetShowRoute*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetShowRoute6*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetShowRouteWithMemory*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetShutdown*(a1: OrbisNetId; a2: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetSocket*(a1: cstring; a2: cint; a3: cint; a4: cint): OrbisNetId
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetSocketAbort*(a1: OrbisNetId; a2: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetSocketClose*(a1: OrbisNetId): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetSyncCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetSyncDestroy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetSyncGet*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetSyncSignal*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetSyncWait*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetSysctl*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetTerm*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetThreadCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetThreadExit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetThreadJoin*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetUsleep*()
+  ##  Empty Comment

@@ -1,36 +1,24 @@
-##  Empty Comment
-
 proc MvpHttpDeInit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc MvpHttpGet*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc MvpHttpGetLastError*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc MvpHttpInit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc MvpHttpPost*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc MvpHttpSetCert*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc MvpHttpSetRecvTimeout*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc MvpHttpSetRedirectCb*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceTsOpenFile*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceTsOpenFileEx*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceTsStartFileStreaming*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceTsStopFileStreaming*()
+  ##  Empty Comment

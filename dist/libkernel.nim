@@ -6,1072 +6,734 @@ var sce_libc_heap_extended_alloc*: uint32
 
 type
   Proc_Stats* {.bycopy.} = object
-    ## 0x00
-    lo_data*: cint
-    ## 0x04
-    td_tid*: cuint
-    ## 0x08
-    user_cpu_usage_time*: OrbisKernelTimespec
-    ## 0x18
+    lo_data*: cint           ## 0x00
+    td_tid*: cuint           ## 0x08
+    user_cpu_usage_time*: OrbisKernelTimespec ## 0x18
     system_cpu_usage_time*: OrbisKernelTimespec
     ## 0x28
 
 
-##  Empty Comment
-
 proc sceKernelDebugOutText*(dbg_channel: cint; text: cstring): cint {.varargs.}
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelGetThreadName*(id: cuint; `out`: cstring): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelGetCpuUsage*(`out`: ptr Proc_Stats; size: ptr cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelGetCpuFrequency*(): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelAddFileEvent*(a1: OrbisKernelEqueue; a2: cint; a3: cint;
                             a4: pointer): cint
-##  Empty Comment - need to port OrbisKernelTimespec
-## int sceKernelAddHRTimerEvent(OrbisKernelEqueue, int, OrbisKernelTimespec*, void*);
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelAddReadEvent*(a1: OrbisKernelEqueue; a2: cint; a3: csize_t;
                             a4: pointer): cint
-##  Empty Comment
-
+  ##  Empty Comment - need to port OrbisKernelTimespec
+                                              ## int sceKernelAddHRTimerEvent(OrbisKernelEqueue, int, OrbisKernelTimespec*, void*);
+                                              ##  Empty Comment
 proc sceKernelAddTimerEvent*(a1: OrbisKernelEqueue; a2: cint;
                              a3: OrbisKernelUseconds; a4: pointer): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelAddUserEvent*(a1: OrbisKernelEqueue; a2: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelAddUserEventEdge*(a1: OrbisKernelEqueue; a2: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelAddWriteEvent*(a1: OrbisKernelEqueue; a2: cint; a3: csize_t;
                              a4: pointer): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelAllocateDirectMemory*(a1: off_t; a2: off_t; a3: csize_t;
                                     a4: csize_t; a5: cint; a6: ptr off_t): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelAllocateMainDirectMemory*(a1: csize_t; a2: csize_t; a3: cint;
                                         a4: off_t): int32
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelAvailableDirectMemorySize*(a1: off_t; a2: off_t; a3: csize_t;
     a4: off_t; a5: csize_t): int32
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelAvailableFlexibleMemorySize*(a1: csize_t): int32
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelBacktraceSelf*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelBatchMap*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelBatchMap2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelCancelEventFlag*(a1: OrbisKernelEventFlag; a2: uint64;
                                a3: ptr cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelCancelSema*(a1: OrbisKernelSema; a2: cint; a3: ptr cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelCheckedReleaseDirectMemory*(memstart: off_t; memlen: csize_t)
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelCheckReachability*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelChmod*(path: cstring; mode: OrbisKernelMode): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelClearEventFlag*(a1: OrbisKernelEventFlag; a2: uint64): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelClearGameDirectMemory*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelClockGetres*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelClockGettime*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelClose*(a1: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelCloseEventFlag*(event: pointer): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelCloseSema*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelConvertLocaltimeToUtc*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelConvertUtcToLocaltime*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelCreateEqueue*(a1: ptr OrbisKernelEqueue; a2: cstring): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelCreateEventFlag*(a1: ptr OrbisKernelEventFlag; a2: cstring;
                                a3: uint32; a4: uint64;
                                a5: ptr OrbisKernelEventFlagOptParam): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelCreateSema*(a1: ptr OrbisKernelSema; a2: cstring; a3: uint32;
                           a4: cint; a5: cint; a6: ptr OrbisKernelSemaOptParam): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelDebugGetAppStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelDebugGpuPaDebugIsInProgress*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelDebugRaiseException*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelDebugRaiseExceptionOnReleaseMode*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelDeleteEqueue*(a1: OrbisKernelEqueue): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelDeleteEventFlag*(a1: OrbisKernelEventFlag): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelDeleteFileEvent*(a1: OrbisKernelEqueue; a2: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelDeleteHRTimerEvent*(a1: OrbisKernelEqueue; a2: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelDeleteReadEvent*(a1: OrbisKernelEqueue; a2: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelDeleteSema*(a1: OrbisKernelSema): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelDeleteTimerEvent*(a1: OrbisKernelEqueue; a2: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelDeleteUserEvent*(a1: OrbisKernelEqueue; a2: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelDeleteWriteEvent*(a1: OrbisKernelEqueue; a2: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelDirectMemoryQuery*(a1: off_t; a2: cint; a3: pointer; a4: csize_t): int32
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelDlsym*(handle: cint; symbol: cstring; address: ptr pointer): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelError*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelEventLogInit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelEventLogPread*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelEventLogWrite*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelFchmod*(a1: cint; a2: OrbisKernelMode): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelFcntl*(a1: cint; a2: cint): cint {.varargs.}
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelFlock*()
-##  Get stats from a descriptor
-
+  ##  Empty Comment
 proc sceKernelFstat*(a1: cint; a2: ptr OrbisKernelStat): cint
-##  Empty Comment
-
+  ##  Get stats from a descriptor
 proc sceKernelFsync*(a1: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelFtruncate*(a1: cint; a2: off_t): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelFutimes*(a1: cint; a2: ptr OrbisKernelTimeval): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelGetAllowedSdkVersionOnSystem*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelGetAppInfo*(pid: pid_t; info: ptr OrbisAppInfo): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelGetBackupRestoreMode*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelGetCompiledSdkVersion*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelGetCompiledSdkVersionByPid*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelGetCpumode*(): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelGetCurrentCpu*(): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelGetDataTransferMode*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelGetdents*(a1: cint; a2: cstring; a3: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelGetDirectMemorySize*(): csize_t
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelGetDirectMemoryType*(a1: off_t; a2: ptr cint; a3: ptr off_t;
                                    a4: ptr off_t): int32
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelGetdirentries*(a1: cint; a2: cstring; a3: cint; a4: ptr clong): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelGetEventData*(a1: ptr OrbisKernelEvent): intptr_t
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelGetEventError*(a1: ptr OrbisKernelEvent): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelGetEventFflags*(a1: ptr OrbisKernelEvent): cuint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelGetEventFilter*(a1: ptr OrbisKernelEvent): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelGetEventId*(a1: ptr OrbisKernelEvent): uintptr_t
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelGetEventUserData*(a1: ptr OrbisKernelEvent): pointer
-##  returns sandbox random word - used to load system modules by filepath.
-
+  ##  Empty Comment
 proc sceKernelGetFsSandboxRandomWord*(): cstring
-##  Empty Comment
-
+  ##  returns sandbox random word - used to load system modules by filepath.
 proc sceKernelGetGPI*(): uint64
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelGetGPO*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelGetIdPs*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelGetIpcPath*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelGetModuleInfo*(handle: OrbisKernelModule;
                              info: ptr OrbisKernelModuleInfo): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelGetModuleInfoForUnwind*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelGetModuleInfoFromAddr*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelGetModuleInfoInternal*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelGetModuleList*(array: ptr OrbisKernelModule; size: csize_t;
                              available: ptr csize_t): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelGetOpenPsIdForSystem*(ret: pointer): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelGetPageTableStats*(a1: ptr cint; a2: ptr cint; a3: ptr cint;
                                  a4: ptr cint): int32
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelGetProcessTime*(): uint64
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelGetProcessTimeCounter*(): uint64
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelGetProcessTimeCounterFrequency*(): uint64
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelGetProcParam*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelGetPrtAperture*(a1: cint; a2: ptr pointer; a3: ptr csize_t): int32
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelGetSubsysId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelGetSystemSwBeta*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelGetSystemSwVersion*(version: ptr OrbisKernelSwVersion): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelGettimeofday*(timeValue: ptr OrbisKernelTimeval): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelGettimezone*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelGetTscFrequency*(): uint64
-##  Empty Comment - needs reversed (only guessed, compared to other functions like it)
-
+  ##  Empty Comment
 proc sceKernelHasNeoMode*(): cint
-##  Empty Comment - needs reversed (only guessed, compared to other functions like it)
-
+  ##  Empty Comment - needs reversed (only guessed, compared to other functions like it)
 proc sceKernelHwHasOpticalOut*(): cint
-##  Empty Comment
-
+  ##  Empty Comment - needs reversed (only guessed, compared to other functions like it)
 proc sceKernelIccControlBDPowerState*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelIccGetCpuInfoBit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelIccGetPowerNumberOfBootShutdown*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelIccGetPowerOperatingTime*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelIccGetPowerUpCause*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelIccGetThermalAlert*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelIccIndicatorBootDone*()
+  ##  Empty Comment
 proc sceKernelIccIndicatorShutdown*()
 proc sceKernelIccIndicatorStandby*()
 proc sceKernelIccIndicatorStandbyBoot*()
 proc sceKernelIccIndicatorStandbyShutdown*()
-##  Empty Comment
-
 proc sceKernelIccNotifyBootStatus*()
-##  sceKernelIccNvsFlush = (DANGER / DO NOT USE THIS UNLESS YOU KNOW EXACTLY WHAT YOUR DOING, COULD RESULT IN A PERMA BRICK)
-
+  ##  Empty Comment
 proc sceKernelIccNvsFlush*()
-##  Empty Comment
-
+  ##  sceKernelIccNvsFlush = (DANGER / DO NOT USE THIS UNLESS YOU KNOW EXACTLY WHAT YOUR DOING, COULD RESULT IN A PERMA BRICK)
 proc sceKernelIccReadPowerBootMessage*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelIccSetBuzzer*(mode: cint)
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelIccSetCpuInfoBit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelInternalHeapPrintBacktraceWithModuleInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelInternalMemoryGetModuleSegmentInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelIsAuthenticNeo*(): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelIsCEX*(): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelIsDevKit*(): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelIsGenuineN*(): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelIsInSandbox*(): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelIsKratos*(): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelIsNeoMode*(): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelIsStack*(a1: pointer; a2: ptr pointer; a3: ptr pointer): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelIsTestKit*(): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelJitCreateAliasOfSharedMemory*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelJitCreateSharedMemory*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelJitGetSharedMemoryInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelJitMapSharedMemory*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelLoadStartModule*(a1: cstring; a2: csize_t; a3: pointer;
                                a4: uint32; a5: pointer; a6: pointer): uint32
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelLseek*(a1: cint; a2: off_t; a3: cint): off_t
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelLwfsAllocateBlock*(a1: cint; a2: off_t): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelLwfsLseek*(a1: cint; a2: off_t; a3: cint): off_t
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelLwfsSetAttribute*(a1: cint; a2: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelLwfsWrite*(a1: cint; a2: pointer; a3: csize_t): ssize_t
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelMapDirectMemory*(a1: ptr pointer; a2: csize_t; a3: cint; a4: cint;
                                a5: off_t; a6: csize_t): int32
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelMapDirectMemory2*(a1: ptr pointer; a2: csize_t; a3: cint;
                                 a4: cint; a5: cint; a6: off_t; a7: csize_t): int32
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelMapFlexibleMemory*(a1: ptr pointer; a2: csize_t; a3: cint;
                                  a4: cint): int32
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelMapNamedDirectMemory*(a1: ptr pointer; a2: csize_t; a3: cint;
                                     a4: cint; a5: off_t; a6: csize_t;
                                     a7: cstring): int32
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelMapNamedFlexibleMemory*(a1: ptr pointer; a2: csize_t; a3: cint;
                                       a4: cint; a5: cstring): int32
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelMapNamedSystemFlexibleMemory*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelMkdir*(path: cstring; mode: OrbisKernelMode): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelMlock*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelMlockall*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelMmap*(a1: pointer; a2: csize_t; a3: cint; a4: cint; a5: cint;
                     a6: off_t; a7: ptr pointer): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelMprotect*(a1: pointer; a2: csize_t; a3: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelMsync*(a1: pointer; a2: csize_t; a3: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelMtypeprotect*(a1: pointer; a2: csize_t; a3: cint; a4: cint): int32
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelMunlock*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelMunlockall*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelMunmap*(a1: pointer; a2: csize_t): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelNanosleep*(a1: ptr OrbisKernelTimespec;
                          a2: ptr OrbisKernelTimespec): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelOpen*(a1: cstring; a2: cint; a3: OrbisKernelMode): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelOpenEventFlag*(event: pointer; name: cstring): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelOpenSema*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelPollEventFlag*(a1: OrbisKernelEventFlag; a2: uint64; a3: uint32;
                              a4: ptr uint64): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelPollSema*(a1: OrbisKernelSema; a2: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelPread*(a1: cint; a2: pointer; a3: csize_t; a4: off_t): csize_t
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelPreadv*(a1: cint; a2: ptr OrbisKernelIovec; a3: cint; a4: off_t): csize_t
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelPrintBacktraceWithModuleInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelPwrite*(a1: cint; a2: pointer; a3: csize_t; a4: off_t): csize_t
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelPwritev*(a1: cint; a2: ptr OrbisKernelIovec; a3: cint; a4: off_t): csize_t
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelQueryMemoryProtection*(a1: pointer; a2: ptr pointer;
                                      a3: ptr pointer; a4: ptr cint): int32
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelRdup*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelRead*(a1: cint; a2: pointer; a3: csize_t): csize_t
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelReadTsc*(): uint64
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelReadv*(a1: cint; a2: ptr OrbisKernelIovec; a3: cint): csize_t
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelReboot*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelReleaseDirectMemory*(a1: off_t; a2: csize_t): int32
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelReleaseFlexibleMemory*(a1: pointer; a2: csize_t): int32
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelRename*(oldfilename: cstring; newfilename: cstring): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelReportUnpatchedFunctionCall*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelReserveVirtualRange*(a1: ptr pointer; a2: csize_t; a3: cint;
                                    a4: csize_t): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelRmdir*(folder: cstring): cint
-##  reverse engineered by flatz and OSM
-
+  ##  Empty Comment
 proc sceKernelSendNotificationRequest*(device: cint;
                                        req: ptr OrbisNotificationRequest;
                                        size: csize_t; blocking: cint): cint
-##  Empty Comment
-
+  ##  reverse engineered by flatz and OSM
 proc sceKernelSetAppInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelSetBackupRestoreMode*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelSetCompressionAttribute*(a1: cint; a2: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelSetEventFlag*(a1: OrbisKernelEventFlag; a2: uint64): cint
-##  Empty Comment - 2nd arg is OrbisKernelCpumask (needs reversed)
-
+  ##  Empty Comment
 proc sceKernelSetFsstParam*(a1: cint; a2: pointer): cint
-##  Empty Comment
-
+  ##  Empty Comment - 2nd arg is OrbisKernelCpumask (needs reversed)
 proc sceKernelSetGPI*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelSetGPO*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelSetProcessName*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelSetPrtAperture*(a1: cint; a2: pointer; a3: csize_t): int32
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelSetSafemode*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelSettimeofday*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelSetVirtualRangeName*(a1: pointer; a2: csize_t; a3: cstring): int32
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelSetVmContainer*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelSignalSema*(a1: OrbisKernelSema; a2: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelSleep*(a1: cuint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelStat*(a1: cstring; a2: ptr OrbisKernelStat): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelStopUnloadModule*(a1: OrbisKernelModule; a2: csize_t; a3: pointer;
                                 a4: uint32; a5: pointer; a6: ptr cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelSwitchToBaseMode*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelSwitchToNeoMode*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelSync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelTerminateSysCore*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelTitleWorkaroundIsEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelTitleWorkdaroundIsEnabled*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelTriggerUserEvent*(a1: OrbisKernelEqueue; a2: cint; a3: pointer): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelTruncate*(a1: cstring; a2: off_t): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelUnlink*(a1: cstring): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelUsleep*(a1: cuint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelUtimes*(a1: cstring; a2: ptr OrbisKernelTimeval): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelUuidCreate*(a1: ptr OrbisKernelUuid): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelVirtualQuery*(a1: pointer; a2: cint;
                             a3: ptr OrbisKernelVirtualQueryInfo; a4: csize_t): int32
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelWaitEqueue*(a1: OrbisKernelEqueue; a2: ptr OrbisKernelEvent;
                           a3: cint; a4: ptr cint; a5: ptr OrbisKernelUseconds): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelWaitEventFlag*(a1: OrbisKernelEventFlag; a2: uint64; a3: uint32;
                              a4: ptr uint64; a5: ptr OrbisKernelUseconds): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelWaitSema*(a1: OrbisKernelSema; a2: cint;
                         a3: ptr OrbisKernelUseconds): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelWrite*(a1: cint; a2: pointer; a3: csize_t): csize_t
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKernelWritev*(a1: cint; a2: ptr OrbisKernelIovec): csize_t
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceLibcMspaceCreateForMonoMutex*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadAtfork*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadAttrDestroy*(a1: ptr OrbisPthreadAttr): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadAttrGet*(a1: OrbisPthread; a2: ptr OrbisPthreadAttr): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadAttrGetaffinity*(a1: ptr OrbisPthreadAttr; a2: pointer): cint
-##  void* is OrbisKernelCpumask, need to port OrbisKernelCpumask for above.. -cv
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadAttrGetdetachstate*(a1: ptr OrbisPthreadAttr; a2: ptr cint): cint
-##  Empty Comment
-
+  ##  void* is OrbisKernelCpumask, need to port OrbisKernelCpumask for above.. -cv
+                                                                                ##  Empty Comment
 proc scePthreadAttrGetguardsize*(a1: ptr OrbisPthreadAttr; a2: ptr csize_t): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadAttrGetinheritsched*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadAttrGetschedparam*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadAttrGetschedpolicy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadAttrGetscope*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadAttrGetstack*(__restrict: ptr OrbisPthreadAttr;
                              __restrict: ptr pointer; __restrict: ptr csize_t): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadAttrGetstackaddr*(a1: ptr OrbisPthreadAttr; a2: ptr pointer): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadAttrGetstacksize*(a1: ptr OrbisPthreadAttr; a2: ptr csize_t): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadAttrInit*(a1: ptr OrbisPthreadAttr): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadAttrSetaffinity*(a1: ptr OrbisPthreadAttr; a2: uint64): cint
-##  void (2nd arg) is OrbisKernelCpumask, need to por OrbisKernelCpumask -cv
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadAttrSetcreatesuspend*()
-##  Empty Comment
-
+  ##  void (2nd arg) is OrbisKernelCpumask, need to por OrbisKernelCpumask -cv
+                                      ##  Empty Comment
 proc scePthreadAttrSetdetachstate*(a1: ptr OrbisPthreadAttr; a2: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadAttrSetguardsize*(a1: ptr OrbisPthreadAttr; a2: csize_t): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadAttrSetinheritsched*(a1: ptr OrbisPthreadAttr; a2: cint)
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadAttrSetschedparam*(a1: ptr OrbisPthreadAttr; a2: ptr sched_param)
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadAttrSetschedpolicy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadAttrSetscope*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadAttrSetstack*(a1: ptr OrbisPthreadAttr; a2: pointer; a3: csize_t): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadAttrSetstackaddr*(a1: ptr OrbisPthreadAttr; a2: pointer): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadAttrSetstacksize*(a1: ptr OrbisPthreadAttr; a2: csize_t): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadBarrierattrDestroy*(a1: ptr OrbisPthreadBarrierattr): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadBarrierattrGetpshared*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadBarrierattrInit*(a1: ptr OrbisPthreadBarrierattr): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadBarrierattrSetpshared*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadBarrierDestroy*(a1: ptr OrbisPthreadBarrier): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadBarrierInit*(a1: ptr OrbisPthreadBarrier;
                             a2: ptr OrbisPthreadBarrierattr; a3: cuint;
                             a4: cstring): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadBarrierWait*(a1: ptr OrbisPthreadBarrier): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadCancel*(a1: OrbisPthread): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadCondattrDestroy*(a1: ptr OrbisPthreadCondattr): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadCondattrGetclock*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadCondattrGetpshared*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadCondattrInit*(a1: ptr OrbisPthreadCondattr): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadCondattrSetclock*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadCondattrSetpshared*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadCondBroadcast*(a1: ptr OrbisPthreadCond): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadCondDestroy*(a1: ptr OrbisPthreadCond): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadCondInit*(a1: ptr OrbisPthreadCond; a2: ptr OrbisPthreadCondattr;
                          a3: cstring): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadCondSignal*(a1: ptr OrbisPthreadCond): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadCondSignalto*(a1: ptr OrbisPthreadCond; a2: OrbisPthread): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadCondTimedwait*(a1: ptr OrbisPthreadCond;
                               a2: ptr OrbisPthreadMutex; a3: OrbisKernelUseconds): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadCondWait*(a1: ptr OrbisPthreadCond; a2: ptr OrbisPthreadMutex): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadCreate*(a1: ptr OrbisPthread; a2: ptr OrbisPthreadAttr;
                        F: proc (a1: pointer): pointer; a4: pointer; a5: cstring): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadDetach*(a1: OrbisPthread): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadEqual*(a1: OrbisPthread; a2: OrbisPthread): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadExit*(a1: pointer)
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadGetaffinity*(a1: OrbisPthread; a2: ptr uint64)
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadGetconcurrency*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadGetcpuclockid*(a1: OrbisPthread; a2: ptr clockid_t): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadGetname*(a1: OrbisPthread; a2: cstring): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadGetprio*(a1: OrbisPthread; a2: ptr cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadGetschedparam*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadGetspecific*(a1: OrbisPthreadKey): pointer
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadGetthreadid*(): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadJoin*(a1: OrbisPthread; a2: ptr pointer): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadKeyCreate*(a1: ptr OrbisPthreadKey;
                           destructor: proc (a1: pointer)): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadKeyDelete*(a1: OrbisPthreadKey): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadMain*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadMulti*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadMutexattrDestroy*(a1: ptr OrbisPthreadMutexattr): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadMutexattrGetkind*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadMutexattrGetprioceiling*(a1: ptr OrbisPthreadMutexattr;
                                         a2: ptr cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadMutexattrGetprotocol*(a1: ptr OrbisPthreadMutexattr; a2: ptr cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadMutexattrGetpshared*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadMutexattrGettype*(a1: ptr OrbisPthreadMutexattr; a2: ptr cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadMutexattrInit*(a1: ptr OrbisPthreadMutexattr): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadMutexattrSetkind*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadMutexattrSetprioceiling*(a1: ptr OrbisPthreadMutexattr; a2: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadMutexattrSetprotocol*(a1: ptr OrbisPthreadMutexattr; a2: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadMutexattrSetpshared*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadMutexattrSettype*(a1: ptr OrbisPthreadMutexattr; a2: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadMutexDestroy*(a1: ptr OrbisPthreadMutex): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadMutexGetprioceiling*(a1: ptr OrbisPthreadMutex; a2: ptr cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadMutexGetspinloops*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadMutexGetyieldloops*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadMutexInit*(a1: ptr OrbisPthreadMutex;
                           a2: ptr OrbisPthreadMutexattr; a3: cstring): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadMutexIsowned*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadMutexLock*(a1: ptr OrbisPthreadMutex): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadMutexSetprioceiling*(a1: ptr OrbisPthreadMutex; a2: cint;
                                     a3: ptr cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadMutexSetspinloops*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadMutexSetyieldloops*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadMutexTimedlock*(a1: ptr OrbisPthreadMutex;
                                a2: OrbisKernelUseconds): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadMutexTrylock*(a1: ptr OrbisPthreadMutex): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadMutexUnlock*(a1: ptr OrbisPthreadMutex): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadOnce*(a1: ptr OrbisPthreadOnce; init: proc ()): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadRename*(a1: OrbisPthread; a2: cstring): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadResume*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadResumeAll*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadRwlockattrDestroy*(a1: ptr OrbisPthreadRwlockattr): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadRwlockattrGetpshared*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadRwlockattrInit*(a1: ptr OrbisPthreadRwlockattr): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadRwlockattrSetpshared*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadRwlockDestroy*(a1: ptr OrbisPthreadRwlock): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadRwlockInit*(a1: ptr OrbisPthreadRwlock;
                            a2: ptr OrbisPthreadRwlockattr; a3: cstring): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadRwlockRdlock*(a1: ptr OrbisPthreadRwlock): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadRwlockTimedrdlock*(a1: ptr OrbisPthreadRwlock;
                                   a2: OrbisKernelUseconds): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadRwlockTimedwrlock*(a1: ptr OrbisPthreadRwlock;
                                   a2: OrbisKernelUseconds): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadRwlockTryrdlock*(a1: ptr OrbisPthreadRwlock): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadRwlockTrywrlock*(a1: ptr OrbisPthreadRwlock): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadRwlockUnlock*(a1: ptr OrbisPthreadRwlock): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadRwlockWrlock*(a1: ptr OrbisPthreadRwlock): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadSelf*(): OrbisPthread
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadSetaffinity*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadSetBesteffort*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadSetcancelstate*(a1: cint; a2: ptr cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadSetcanceltype*(a1: cint; a2: ptr cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadSetconcurrency*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadSetName*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadSetprio*(a1: OrbisPthread; a2: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadSetschedparam*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadSetspecific*(a1: OrbisPthreadKey; a2: pointer): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadSingle*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadSuspend*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadSuspendAll*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadTestcancel*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadTimedjoin*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePthreadYield*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc ioctl*(fd: cint; request: culong): cint {.varargs.}
+  ##  Empty Comment

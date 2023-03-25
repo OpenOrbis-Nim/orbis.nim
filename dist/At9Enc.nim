@@ -1,15 +1,10 @@
-##  Empty Comment
-
 proc sceAt9EncClearContext*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAt9EncCreateEncoder*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAt9EncEncode*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAt9EncFlush*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAt9EncQueryMemSize*()
+  ##  Empty Comment

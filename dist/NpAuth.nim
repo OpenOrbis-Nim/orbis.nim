@@ -1,30 +1,20 @@
-##  Empty Comment
-
 proc sceNpAuthAbortRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpAuthCreateAsyncRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpAuthCreateRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpAuthDeleteRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpAuthGetAuthorizationCode*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpAuthGetAuthorizationCodeA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpAuthGetIdTokenA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpAuthPollAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpAuthSetTimeout*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpAuthWaitAsync*()
+  ##  Empty Comment

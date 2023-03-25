@@ -1,54 +1,36 @@
-##  Empty Comment
-
 proc sceVrTrackerCpuProcess*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVrTrackerGetPlayAreaWarningInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVrTrackerGetResult*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVrTrackerGetTime*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVrTrackerGpuSubmit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVrTrackerGpuWait*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVrTrackerGpuWaitAndCpuProcess*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVrTrackerInit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVrTrackerNotifyEndOfCpuProcess*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVrTrackerQueryMemory*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVrTrackerRecalibrate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVrTrackerRegisterDevice*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVrTrackerRegisterDeviceInternal*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVrTrackerResetOrientationRelative*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVrTrackerSetDurationUntilStatusNotTracking*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVrTrackerTerm*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVrTrackerUnregisterDevice*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVrTrackerUpdateMotionSensorData*()
+  ##  Empty Comment

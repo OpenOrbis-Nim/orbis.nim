@@ -1,27 +1,18 @@
-##  Empty Comment
-
 proc sceNpFriendListDialogClose*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpFriendListDialogGetResult*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpFriendListDialogGetResultA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpFriendListDialogGetStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpFriendListDialogInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpFriendListDialogOpen*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpFriendListDialogOpenA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpFriendListDialogTerminate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpFriendListDialogUpdateStatus*()
+  ##  Empty Comment

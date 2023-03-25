@@ -1,63 +1,42 @@
-##  Empty Comment
-
 proc sceSysUtilSendAddressingSystemNotification*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSysUtilSendAddressingSystemNotificationWithDeviceId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSysUtilSendAddressingSystemNotificationWithUserId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSysUtilSendAddressingSystemNotificationWithUserName*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSysUtilSendNotificationRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSysUtilSendNpDebugNotificationRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSysUtilSendSystemNotification*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSysUtilSendSystemNotificationWithAppId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSysUtilSendSystemNotificationWithAppInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSysUtilSendSystemNotificationWithAppName*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSysUtilSendSystemNotificationWithAppNameRelatedToUser*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSysUtilSendSystemNotificationWithDeviceId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSysUtilSendSystemNotificationWithDeviceIdRelatedToUser*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSysUtilSendSystemNotificationWithErrorCode*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSysUtilSendSystemNotificationWithParams*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSysUtilSendSystemNotificationWithText*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSysUtilSendSystemNotificationWithTextRelatedToUser*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSysUtilSendSystemNotificationWithUserId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSysUtilSendSystemNotificationWithUserName*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSysUtilSendSystemNotificationWithUserNameInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSysUtilSendTrcCheckNotificationRequest*()
+  ##  Empty Comment

@@ -1,51 +1,34 @@
-##  Empty Comment
-
 proc sceCompanionHttpdAddHeader*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompanionHttpdGet2ndScreenStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompanionHttpdGetEvent*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompanionHttpdGetUserId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompanionHttpdInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompanionHttpdInitialize2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompanionHttpdOptParamInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompanionHttpdRegisterRequestBodyReceptionCallback*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompanionHttpdRegisterRequestCallback*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompanionHttpdRegisterRequestCallback2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompanionHttpdSetBody*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompanionHttpdSetStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompanionHttpdStart*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompanionHttpdStop*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompanionHttpdTerminate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompanionHttpdUnregisterRequestBodyReceptionCallback*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCompanionHttpdUnregisterRequestCallback*()
+  ##  Empty Comment

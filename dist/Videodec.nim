@@ -1,21 +1,14 @@
-##  Empty Comment
-
 proc sceVideodecCreateDecoder*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVideodecDecode*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVideodecDeleteDecoder*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVideodecFlush*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVideodecMapMemory*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVideodecQueryResourceInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVideodecReset*()
+  ##  Empty Comment

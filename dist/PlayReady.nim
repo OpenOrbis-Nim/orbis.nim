@@ -1,90 +1,60 @@
-##  Empty Comment
-
 proc scePlayReadyApiStart*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePlayReadyApiStop*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePlayReadyBufferFree*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePlayReadyBufferMalloc*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePlayReadyContentGetProperty*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePlayReadyContentSetProperty*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePlayReadyDomainCertEnumInit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePlayReadyDomainCertEnumNext*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePlayReadyDomainJoinGenerateChallenge*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePlayReadyDomainJoinProcessResponse*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePlayReadyDomainLeaveGenerateChallenge*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePlayReadyDomainLeaveProcessResponse*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePlayReadyFinalize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePlayReadyFreeDecryptContext*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePlayReadyInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePlayReadyInitializeInitParams*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePlayReadyLicenseAcqGenerateAck*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePlayReadyLicenseAcqGenerateChallenge*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePlayReadyLicenseAcqGetAdditionalResponseData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePlayReadyLicenseAcqProcessAckResponse*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePlayReadyLicenseAcqProcessResponse*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePlayReadyMemAlloc*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePlayReadyMemFree*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePlayReadyMemRealloc*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePlayReadyNewDecryptContext*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePlayReadyReaderBind*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePlayReadyReaderCommit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePlayReadyReaderDecrypt*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePlayReadyReset*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePlayReadyStoreCleanup*()
+  ##  Empty Comment

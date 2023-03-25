@@ -1,192 +1,128 @@
-##  Empty Comment
-
 proc _sceUltConditionVariableCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _sceUltConditionVariableOptParamInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _sceUltMutexCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _sceUltMutexOptParamInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _sceUltQueueCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _sceUltQueueDataResourcePoolCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _sceUltQueueDataResourcePoolOptParamInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _sceUltQueueOptParamInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _sceUltReaderWriterLockCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _sceUltReaderWriterLockOptParamInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _sceUltSemaphoreCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _sceUltSemaphoreOptParamInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _sceUltUlthreadCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _sceUltUlthreadOptParamInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _sceUltUlthreadRuntimeCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _sceUltUlthreadRuntimeOptParamInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _sceUltWaitingQueueResourcePoolCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _sceUltWaitingQueueResourcePoolOptParamInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltConditionVariableDestroy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltConditionVariableSignal*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltConditionVariableSignalAll*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltConditionVariableWait*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltFinalize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltGetConditionVariableInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltGetMutexInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltGetQueueDataResourcePoolInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltGetQueueInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltGetReaderWriterLockInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltGetSemaphoreInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltGetUlthreadInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltGetUlthreadRuntimeInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltGetWaitingQueueResourcePoolInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltMutexDestroy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltMutexLock*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltMutexTryLock*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltMutexUnlock*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltQueueDataResourcePoolDestroy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltQueueDataResourcePoolGetWorkAreaSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltQueueDestroy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltQueuePop*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltQueuePush*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltQueueTryPop*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltQueueTryPush*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltReaderWriterLockDestroy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltReaderWriterLockLockRead*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltReaderWriterLockLockWrite*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltReaderWriterLockTryLockRead*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltReaderWriterLockTryLockWrite*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltReaderWriterLockUnlockRead*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltReaderWriterLockUnlockWrite*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltSemaphoreAcquire*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltSemaphoreDestroy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltSemaphoreRelease*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltSemaphoreTryAcquire*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltUlthreadExit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltUlthreadGetSelf*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltUlthreadJoin*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltUlthreadRuntimeDestroy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltUlthreadRuntimeGetWorkAreaSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltUlthreadTryJoin*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltUlthreadYield*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltWaitingQueueResourcePoolDestroy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUltWaitingQueueResourcePoolGetWorkAreaSize*()
+  ##  Empty Comment

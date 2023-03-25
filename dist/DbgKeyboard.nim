@@ -1,18 +1,12 @@
-##  Empty Comment
-
 proc sceDbgKeyboardClose*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceDbgKeyboardGetKey2Char*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceDbgKeyboardInit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceDbgKeyboardOpen*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceDbgKeyboardRead*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceDbgKeyboardReadState*()
+  ##  Empty Comment

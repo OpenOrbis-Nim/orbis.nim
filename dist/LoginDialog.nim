@@ -1,21 +1,14 @@
-##  Empty Comment
-
 proc sceLoginDialogClose*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceLoginDialogGetResult*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceLoginDialogGetStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceLoginDialogInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceLoginDialogOpen*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceLoginDialogTerminate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceLoginDialogUpdateStatus*()
+  ##  Empty Comment

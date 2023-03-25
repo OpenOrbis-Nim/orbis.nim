@@ -1,27 +1,18 @@
-##  Empty Comment
-
 proc sceInvitationDialogClose*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceInvitationDialogGetResult*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceInvitationDialogGetResultA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceInvitationDialogGetStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceInvitationDialogInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceInvitationDialogOpen*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceInvitationDialogOpenA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceInvitationDialogTerminate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceInvitationDialogUpdateStatus*()
+  ##  Empty Comment

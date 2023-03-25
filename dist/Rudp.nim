@@ -1,102 +1,68 @@
-##  Empty Comment
-
 proc sceRudpAccept*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRudpActivate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRudpBind*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRudpCreateContext*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRudpEnableInternalIOThread*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRudpEnableInternalIOThread2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRudpEnd*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRudpFlush*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRudpGetContextStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRudpGetLocalInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRudpGetMaxSegmentSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRudpGetNumberOfPacketsToRead*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRudpGetOption*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRudpGetRemoteInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRudpGetSizeReadable*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRudpGetSizeWritable*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRudpGetStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRudpInit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRudpInitiate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRudpListen*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRudpNetFlush*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRudpNetReceived*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRudpPollCancel*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRudpPollControl*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRudpPollCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRudpPollDestroy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRudpPollWait*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRudpProcessEvents*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRudpRead*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRudpSetEventHandler*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRudpSetMaxSegmentSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRudpSetOption*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRudpTerminate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRudpWrite*()
+  ##  Empty Comment

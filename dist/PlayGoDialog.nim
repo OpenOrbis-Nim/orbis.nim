@@ -1,21 +1,14 @@
-##  Empty Comment
-
 proc scePlayGoDialogClose*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePlayGoDialogGetResult*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePlayGoDialogGetStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePlayGoDialogInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePlayGoDialogOpen*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePlayGoDialogTerminate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc scePlayGoDialogUpdateStatus*()
+  ##  Empty Comment

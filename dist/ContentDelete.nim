@@ -1,12 +1,8 @@
-##  Empty Comment
-
 proc sceContentDeleteById*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceContentDeleteByPath*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceContentDeleteInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceContentDeleteTerminate*()
+  ##  Empty Comment

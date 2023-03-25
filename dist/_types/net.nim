@@ -70,17 +70,11 @@ const
 
 type
   OrbisNetIfEntry* {.bycopy.} = object
-    ##  0x00
-    Name*: array[0x10, char]
-    ##  0x10
-    padding0*: array[0x18, char]
-    ##  0x28
-    IPAddress*: cint
-    ##  0x2C
-    padding1*: array[0x24, char]
-    ##  0x50
-    MacAddress*: array[6, cuchar]
-    ##  0x56
+    Name*: array[0x10, char] ##  0x00
+    padding0*: array[0x18, char] ##  0x28
+    IPAddress*: cint         ##  0x2C
+    padding1*: array[0x24, char] ##  0x50
+    MacAddress*: array[6, cuchar] ##  0x56
     padding2*: array[0x192, char]
     ## 0x1E8
 

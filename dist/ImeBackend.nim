@@ -1,33 +1,22 @@
-##  Empty Comment
-
 proc sceImeBackendAllConfirm*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeBackendClose*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeBackendConvertBackward*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeBackendDeleteCharacter*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeBackendEnterCharacter*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeBackendGetCandidateList*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeBackendGetCaretIndex*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeBackendGetConfirmString*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeBackendGetConvertString*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeBackendGetString*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeBackendPartConfirm*()
+  ##  Empty Comment

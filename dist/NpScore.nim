@@ -1,114 +1,76 @@
-##  Empty Comment
-
 proc sceNpScoreAbortRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpScoreCensorComment*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpScoreCensorCommentAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpScoreChangeModeForOtherSaveDataOwners*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpScoreCreateNpTitleCtx*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpScoreCreateNpTitleCtxA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpScoreCreateRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpScoreCreateTitleCtx*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpScoreDeleteNpTitleCtx*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpScoreDeleteRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpScoreGetBoardInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpScoreGetBoardInfoAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpScoreGetFriendsRanking*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpScoreGetFriendsRankingA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpScoreGetFriendsRankingAAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpScoreGetFriendsRankingAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpScoreGetGameData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpScoreGetGameDataAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpScoreGetRankingByAccountId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpScoreGetRankingByAccountIdAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpScoreGetRankingByNpId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpScoreGetRankingByNpIdAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpScoreGetRankingByNpIdPcId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpScoreGetRankingByNpIdPcIdAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpScoreGetRankingByRange*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpScoreGetRankingByRangeA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpScoreGetRankingByRangeAAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpScoreGetRankingByRangeAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpScorePollAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpScoreRecordGameData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpScoreRecordGameDataAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpScoreRecordScore*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpScoreRecordScoreAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpScoreSanitizeComment*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpScoreSanitizeCommentAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpScoreSetPlayerCharacterId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpScoreSetTimeout*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpScoreWaitAsync*()
+  ##  Empty Comment

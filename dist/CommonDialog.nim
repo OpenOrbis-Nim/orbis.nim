@@ -1,6 +1,4 @@
-##  Initialize system dialog.
-
 proc sceCommonDialogInitialize*(): int32
-##  Check if a system dialog is currently running.
-
+  ##  Initialize system dialog.
 proc sceCommonDialogIsUsed*(): bool
+  ##  Check if a system dialog is currently running.

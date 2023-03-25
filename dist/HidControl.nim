@@ -1,21 +1,14 @@
-##  Empty Comment
-
 proc sceHidControlDisconnectPort*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHidControlGetBatteryState*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHidControlGetDeviceInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHidControlGetDeviceName*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHidControlGetSparkState*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHidControlSetApplicationFocus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHidControlSetUserColor*()
+  ##  Empty Comment

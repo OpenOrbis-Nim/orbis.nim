@@ -1,72 +1,48 @@
-##  Empty Comment
-
 proc sceAvPlayerAddSource*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAvPlayerAddSourceEx*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAvPlayerClose*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAvPlayerCurrentTime*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAvPlayerDisableStream*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAvPlayerEnableStream*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAvPlayerGetAudioData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAvPlayerGetStreamInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAvPlayerGetVideoData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAvPlayerGetVideoDataEx*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAvPlayerInit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAvPlayerInitEx*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAvPlayerIsActive*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAvPlayerJumpToTime*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAvPlayerPause*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAvPlayerPostInit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAvPlayerResume*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAvPlayerSetLogCallback*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAvPlayerSetLooping*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAvPlayerSetTrickSpeed*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAvPlayerStart*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAvPlayerStop*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAvPlayerStreamCount*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAvPlayerVprintf*()
+  ##  Empty Comment

@@ -1,9 +1,6 @@
-##  Empty Comment
-
 proc sceSocialScreenInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSocialScreenOpenSeparateMode*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSocialScreenTerminate*()
+  ##  Empty Comment

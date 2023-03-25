@@ -1,24 +1,16 @@
-##  Empty Comment
-
 proc sceSharePlayGetCurrentConnectionInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSharePlayGetCurrentConnectionInfoA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSharePlayGetEvent*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSharePlayInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSharePlaySetProhibition*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSharePlayStartStreaming*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSharePlayStopStandby*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSharePlayTerminate*()
+  ##  Empty Comment

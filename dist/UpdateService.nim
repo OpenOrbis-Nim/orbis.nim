@@ -1,6 +1,4 @@
-##  Empty Comment
-
 proc sceUpsrvInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUpsrvTerminate*()
+  ##  Empty Comment

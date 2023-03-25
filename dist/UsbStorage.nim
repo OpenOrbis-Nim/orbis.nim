@@ -1,27 +1,18 @@
-##  Empty Comment
-
 proc sceUsbStorageGetDeviceInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUsbStorageGetDeviceList*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUsbStorageInit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUsbStorageIsExist*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUsbStorageRegisterCallback*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUsbStorageRequestMap*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUsbStorageRequestUnmap*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUsbStorageTerm*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceUsbStorageUnregisterCallback*()
+  ##  Empty Comment

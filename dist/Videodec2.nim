@@ -1,33 +1,22 @@
-##  Empty Comment
-
 proc sceVideodec2AllocateComputeQueue*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVideodec2CreateDecoder*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVideodec2CreateHevcDecoder*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVideodec2Decode*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVideodec2DeleteDecoder*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVideodec2Flush*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVideodec2GetPictureInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVideodec2QueryComputeMemoryInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVideodec2QueryDecoderMemoryInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVideodec2ReleaseComputeQueue*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVideodec2Reset*()
+  ##  Empty Comment

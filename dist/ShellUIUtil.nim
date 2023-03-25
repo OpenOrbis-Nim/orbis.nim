@@ -1,15 +1,10 @@
-##  Empty Comment
-
 proc sceShellUIUtilGetAppUrl*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceShellUIUtilGetDefaultQueryParameter*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceShellUIUtilInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceShellUIUtilLaunchByUri*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceShellUIUtilTerminate*()
+  ##  Empty Comment

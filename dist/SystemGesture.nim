@@ -1,66 +1,44 @@
-##  Empty Comment
-
 proc sceSystemGestureAppendTouchRecognizer*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSystemGestureClose*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSystemGestureCreateTouchRecognizer*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSystemGestureFinalizePrimitiveTouchRecognizer*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSystemGestureGetPrimitiveTouchEventByIndex*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSystemGestureGetPrimitiveTouchEventByPrimitiveID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSystemGestureGetPrimitiveTouchEvents*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSystemGestureGetPrimitiveTouchEventsCount*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSystemGestureGetTouchEventByEventID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSystemGestureGetTouchEventByIndex*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSystemGestureGetTouchEvents*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSystemGestureGetTouchEventsCount*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSystemGestureGetTouchRecognizerInformation*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSystemGestureInitializePrimitiveTouchRecognizer*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSystemGestureOpen*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSystemGestureRemoveTouchRecognizer*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSystemGestureResetPrimitiveTouchRecognizer*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSystemGestureResetTouchRecognizer*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSystemGestureUpdateAllTouchRecognizer*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSystemGestureUpdatePrimitiveTouchRecognizer*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSystemGestureUpdateTouchRecognizer*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSystemGestureUpdateTouchRecognizerRectangle*()
+  ##  Empty Comment

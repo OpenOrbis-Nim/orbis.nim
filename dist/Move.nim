@@ -1,36 +1,24 @@
-##  Empty Comment
-
 proc sceMoveClose*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMoveGetDeviceInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMoveGetExtensionPortInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMoveInit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMoveOpen*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMoveReadStateLatest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMoveReadStateRecent*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMoveResetLightSphere*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMoveSetExtensionPortOutput*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMoveSetLightSphere*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMoveSetVibration*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMoveTerm*()
+  ##  Empty Comment

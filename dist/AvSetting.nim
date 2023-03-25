@@ -1,54 +1,36 @@
-##  Empty Comment
-
 proc sceAvSettingAddCallbacksForLnc*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAvSettingChangeOutputMode*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAvSettingChangeOutputMode2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAvSettingChangeOutputMode3*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAvSettingDriverChangeConnectionStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAvSettingGetCurrentHdmiDeviceId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAvSettingGetDetailedHdcpStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAvSettingGetDeviceInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAvSettingGetHdmiMonitorInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAvSettingGetMorpheusPuStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAvSettingInit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAvSettingIsSupportedVideoOutModeByHdmiMonitorInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAvSettingIsSuspendedProcessOutputModeAvailable*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAvSettingIsSuspendedProcessOutputModeAvailable2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAvSettingNotifyAudioOutMode*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAvSettingNotifyVideoOutMode*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAvSettingRemoveProcessOutputMode*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAvSettingSetVideoOutputColorEffect*()
+  ##  Empty Comment

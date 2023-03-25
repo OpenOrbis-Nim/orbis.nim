@@ -1,15 +1,10 @@
-##  Empty Comment
-
 proc sceM4aacEncClearContext*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceM4aacEncCreateEncoder*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceM4aacEncDeleteEncoder*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceM4aacEncEncode*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceM4aacEncFlush*()
+  ##  Empty Comment

@@ -1,54 +1,36 @@
-##  Empty Comment
-
 proc sceVideoCoreAbortRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVideoCoreAcquireDecoderResource*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVideoCoreAddStream*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVideoCoreAsyncSendRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVideoCoreCancelThumbnail*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVideoCoreChangeActiveStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVideoCoreDeleteStream*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVideoCoreGetCanvasHandle*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVideoCoreGetPlayStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVideoCoreGetPlayStatus2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVideoCoreGetStreamUid*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVideoCoreRegistEventCallback*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVideoCoreReleaseDecoderResource*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVideoCoreSetInitializeInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVideoCoreSetPlaybackRange*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVideoCoreSetThumbnailInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVideoCoreSyncSendRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVideoCoreUnregistEventCallback*()
+  ##  Empty Comment

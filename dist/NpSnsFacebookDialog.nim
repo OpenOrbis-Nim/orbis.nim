@@ -1,21 +1,14 @@
-##  Empty Comment
-
 proc sceNpSnsFacebookDialogClose*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSnsFacebookDialogGetResult*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSnsFacebookDialogGetStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSnsFacebookDialogInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSnsFacebookDialogOpen*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSnsFacebookDialogTerminate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSnsFacebookDialogUpdateStatus*()
+  ##  Empty Comment

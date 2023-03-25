@@ -1,7 +1,5 @@
-##  Transparent structs used internally by the Usbd library.
-
 type
-  libusb_device_descriptor* {.bycopy.} = object
+  libusb_device_descriptor* {.bycopy.} = object ##  Transparent structs used internally by the Usbd library.
     bLength*: uint8
     bDescriptorType*: uint8
     bcdUSB*: uint16

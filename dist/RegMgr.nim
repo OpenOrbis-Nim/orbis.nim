@@ -1,132 +1,88 @@
-##  Empty Comment
-
 proc sceRegMgrBackupNeedMem*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRegMgrBackupPullData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRegMgrBackupPushData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRegMgrCheckError*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRegMgrDrvDataCheckGet*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRegMgrDrvDataClose*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRegMgrDrvDataOpen*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRegMgrDrvGetEntCnt*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRegMgrDrvGetUpdateCnt*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRegMgrEvtGetCnt*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRegMgrEvtGetRegId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRegMgrGetBin*(optionId: cint; outData: pointer; dataLength: csize_t): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRegMgrGetBinInitVal*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRegMgrGetInt*(optionId: cint; outInt: ptr cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRegMgrGetIntInitVal*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRegMgrGetStr*(optionId: cint; outString: cstring; stringLength: csize_t): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRegMgrGetStrInitVal*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRegMgrGetVersion*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRegMgrIsChange*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRegMgrIsInitOK*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRegMgrLogPull*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRegMgrLogStart*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRegMgrNonSysCheckError*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRegMgrNonSysGetBin*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRegMgrNonSysGetInt*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRegMgrNonSysGetStr*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRegMgrNonSysSetBin*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRegMgrNonSysSetInt*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRegMgrNonSysSetStr*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRegMgrResetVal*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRegMgrSetBin*(optionId: cint; inData: pointer; dataLength: csize_t): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRegMgrSetInitLevel*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRegMgrSetInt*(optionId: cint; inInt: cint): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRegMgrSetStr*(optionId: cint; inStirng: cstring; stringLength: csize_t): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRegMgrSrvCnvRegionInt*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRegMgrSrvCnvRegionStr*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRegMgrSrvGetMachineType*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRegMgrSrvGetQAFforReg*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRegMgrSrvGetRealMachineType*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRegMgrSrvGetRegion*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRegMgrSrvGetRegionStr*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRegMgrToolDataCheckGet*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRegMgrToolGetEntryCnt*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceRegMgrToolGetUpdateCnt*()
+  ##  Empty Comment

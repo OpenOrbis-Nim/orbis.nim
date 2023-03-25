@@ -1,21 +1,14 @@
-##  Empty Comment
-
 proc sceHmdSetupDialogClose*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdSetupDialogGetResult*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdSetupDialogGetStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdSetupDialogInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdSetupDialogOpen*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdSetupDialogTerminate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceHmdSetupDialogUpdateStatus*()
+  ##  Empty Comment

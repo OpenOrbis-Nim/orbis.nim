@@ -1,72 +1,48 @@
-##  Empty Comment
-
 proc sceNpSignalingActivateConnection*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSignalingActivateConnectionA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSignalingCancelPeerNetInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSignalingCreateContext*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSignalingCreateContextA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSignalingDeactivateConnection*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSignalingDeleteContext*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSignalingGetConnectionFromNpId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSignalingGetConnectionFromPeerAddress*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSignalingGetConnectionFromPeerAddressA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSignalingGetConnectionInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSignalingGetConnectionInfoA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSignalingGetConnectionStatistics*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSignalingGetConnectionStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSignalingGetContextOption*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSignalingGetLocalNetInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSignalingGetMemoryInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSignalingGetPeerNetInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSignalingGetPeerNetInfoA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSignalingGetPeerNetInfoResult*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSignalingInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSignalingSetContextOption*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSignalingTerminate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSignalingTerminateConnection*()
+  ##  Empty Comment

@@ -45,15 +45,12 @@ const
 
 type
   kevent* {.bycopy.} = object
-    ##  identifier for this event
-    ident*: uintptr_t
-    ##  filter for event
-    filter*: cshort
+    ident*: uintptr_t        ##  identifier for this event
+    filter*: cshort          ##  filter for event
     flags*: uint16
     fflags*: uint32
     data*: intptr_t
-    ##  opaque user data identifier
-    udata*: pointer
+    udata*: pointer          ##  opaque user data identifier
 
   OrbisKernelModuleSegmentInfo* {.bycopy.} = object
     address*: pointer
@@ -109,19 +106,14 @@ type
     name*: array[32, char]
 
   OrbisKernelSwVersion* {.bycopy.} = object
-    ##  0x0
-    Size*: csize_t
-    ##  0x8 (e.g. " 6.720.001" padded with leading zeros)
-    VersionString*: array[0x1C, char]
-    ##  0xe.g. 0x06720001
+    Size*: csize_t           ##  0x0
+    VersionString*: array[0x1C, char] ##  0xe.g. 0x06720001
     Version*: uint32
 
 
-##  size = 0x28
-##  Enum Credits - OSM-Made
-
 type
-  OrbisNotificationRequestType* = enum
+  OrbisNotificationRequestType* = enum ##  size = 0x28
+                                        ##  Enum Credits - OSM-Made
     NotificationRequest = 0, SystemNotification = 1,
     SystemNotificationWithUserId = 2, SystemNotificationWithDeviceId = 3,
     SystemNotificationWithDeviceIdRelatedToUser = 4,
@@ -141,10 +133,8 @@ const
   SystemNotificationWithAppInfo = SystemNotificationWithAppName
   UNK_2 = NpDebugNotificationRequest
 
-##  Struct Credits - OSM-Made
-
 type
-  OrbisNotificationRequest* {.bycopy.} = object
+  OrbisNotificationRequest* {.bycopy.} = object ##  Struct Credits - OSM-Made
     `type`*: OrbisNotificationRequestType
     reqId*: cint
     priority*: cint

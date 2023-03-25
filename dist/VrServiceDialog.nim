@@ -1,21 +1,14 @@
-##  Empty Comment
-
 proc sceVrServiceDialogClose*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVrServiceDialogGetResult*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVrServiceDialogGetStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVrServiceDialogInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVrServiceDialogOpen*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVrServiceDialogTerminate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVrServiceDialogUpdateStatus*()
+  ##  Empty Comment

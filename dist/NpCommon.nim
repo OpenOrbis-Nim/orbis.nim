@@ -1,565 +1,378 @@
-##  Empty Comment
-
 proc _ZN3sce2np12WorkerThread10ThreadMainEv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np12WorkerThreadC1EPNS0_9WorkQueueE*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np12WorkerThreadC2EPNS0_9WorkQueueE*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np12WorkerThreadD0Ev*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np12WorkerThreadD1Ev*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np12WorkerThreadD2Ev*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np4Cond4ctorEv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np4Cond4dtorEv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np4Cond4InitEPKcPNS0_5MutexE*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np4Cond4WaitEj*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np4Cond6SignalEv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np4Cond7DestroyEv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np4Cond9SignalAllEv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np4CondC1Ev*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np4CondC2Ev*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np4CondD0Ev*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np4CondD1Ev*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np4CondD2Ev*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np5Mutex4ctorEv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np5Mutex4dtorEv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np5Mutex4InitEPKcj*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np5Mutex4LockEv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np5Mutex6UnlockEv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np5Mutex7DestroyEv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np5MutexC1Ev*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np5MutexC2Ev*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np5MutexD0Ev*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np5MutexD1Ev*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np5MutexD2Ev*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np6ObjectdaEPv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np6ObjectdaEPvR14SceNpAllocator*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np6ObjectdlEPv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np6ObjectdlEPvR14SceNpAllocator*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np6Thread12DoThreadMainEv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np6Thread4ctorEv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np6Thread4dtorEv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np6Thread4InitEPKNS1_5ParamE*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np6Thread4JoinEPi*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np6Thread5StartEv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np6Thread7DestroyEv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np6Thread9EntryFuncEPv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np6Thread9GetResultEv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np6Thread9IsRunningEv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np6ThreadC2Ev*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np6ThreadD0Ev*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np6ThreadD1Ev*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np6ThreadD2Ev*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np8WorkItem10SetPendingEv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np8WorkItem10SetRunningEv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np8WorkItem11SetFinishedEi*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np8WorkItem14FinishCallbackEv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np8WorkItem15RemoveFromQueueEv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np8WorkItem6CancelEi*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np8WorkItem9BindQueueEPNS0_9WorkQueueEi*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np8WorkItemC2EPKc*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np8WorkItemD0Ev*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np8WorkItemD1Ev*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np8WorkItemD2Ev*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np9EventFlag3SetEm*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np9EventFlag4OpenEPKc*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np9EventFlag4PollEmjPm*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np9EventFlag5ClearEm*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np9EventFlag6CancelEm*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np9EventFlag7DestroyEv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np9EventFlagC1Ev*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np9EventFlagC2Ev*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np9EventFlagD0Ev*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np9EventFlagD1Ev*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np9EventFlagD2Ev*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np9Semaphore7DestroyEv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np9SemaphoreC1Ev*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np9SemaphoreC2Ev*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np9SemaphoreD1Ev*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np9SemaphoreD2Ev*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np9WorkQueue11GetItemByIdEi*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np9WorkQueue15GetFinishedItemENS0_14WorkItemStatusE*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np9WorkQueue16WorkItemFinishedEPNS0_8WorkItemEi*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np9WorkQueue17ProcFinishedItemsENS0_14WorkItemStatusE*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np9WorkQueue18RemoveFinishedItemEPNS0_8WorkItemE*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np9WorkQueue18WaitForPendingItemEPPNS0_8WorkItemEPb*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np9WorkQueue4ctorEv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np9WorkQueue4dtorEv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np9WorkQueue4InitEPKNS0_6Thread5ParamE*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np9WorkQueue4StopEv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np9WorkQueue5StartEv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np9WorkQueue6CancelEii*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np9WorkQueue6IsInitEv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np9WorkQueue7DestroyEv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np9WorkQueue7EnqueueEiPNS0_8WorkItemE*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np9WorkQueue9CancelAllEi*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np9WorkQueue9IsRunningEv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np9WorkQueueC1Ev*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np9WorkQueueC2Ev*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np9WorkQueueD0Ev*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np9WorkQueueD1Ev*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZN3sce2np9WorkQueueD2Ev*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZNK3sce2np4Cond6IsInitEv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZNK3sce2np5Mutex6IsInitEv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _ZNK3sce2np6Thread6IsInitEv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpAllocateKernelMemoryNoAlignment*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpAllocateKernelMemoryWithAlignment*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpArchInit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpArchTerm*()
-##  reversed by idc
-
+  ##  Empty Comment
 proc sceNpBase64Decoder*(inbuf: pointer; inlen: csize_t; outbuf: pointer;
                          outlen: ptr csize_t): cint
-##  Empty Comment
-
+  ##  reversed by idc
 proc sceNpBase64Encoder*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpBase64GetDecodeSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpBase64UrlDecoder*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpBase64UrlEncoder*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpBase64UrlGetDecodeSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpCalloutInitCtx*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpCalloutStartOnCtx*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpCalloutStopOnCtx*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpCalloutTermCtx*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpCmpNpId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpCmpNpIdInOrder*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpCmpOnlineId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpCondDestroy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpCondInit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpCondSignal*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpCondSignalAll*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpCondTimedwait*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpCondWait*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpCreateThread*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpFreeKernelMemory*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpGetNavSdkVersion*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpGetPlatformType*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpGetSdkVersion*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpGetSystemClockUsec*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpGlobalHeapGetAllocator*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpGlobalHeapGetAllocatorEx*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpHeapDestroy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpHeapGetAllocator*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpHeapGetStat*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpHeapInit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpHexToInt*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpIntIsOnlineIdString*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpIntIsValidOnlineId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpIntToHex*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpJoinThread*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpJsonParse*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpJsonParse2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpJsonParseEx*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpJsonParseInit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpLwMutexDestroy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpLwMutexInit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpLwMutexLock*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpLwMutexTryLock*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpLwMutexUnlock*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMemoryHeapDestroy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMemoryHeapGetAllocator*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMemoryHeapGetAllocatorEx*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMemoryHeapInit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMutexDestroy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMutexInit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMutexLock*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMutexTryLock*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMutexUnlock*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpPanic*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSetPlatformType*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpStrBuildHex*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpStrnParseHex*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpStrParseHex*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpThreadGetId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpUtilBuildTitleId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpUtilCanonicalizeNpIdForPs4*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpUtilCanonicalizeNpIdForPsp2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpUtilCmpAccountId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpUtilGetDateSetAuto*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpUtilGetDbgCommerce*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpUtilGetEnv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpUtilGetNpDebug*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpUtilGetNpTestPatch*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpUtilGetNthChar*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpUtilGetSystemLanguage*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpUtilHttpUrlEncode*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpUtilJidToNpId*()
-##  reversed by flatz
-
+  ##  Empty Comment
 proc sceNpUtilJsonEscape*(`out`: cstring; max_out_size: csize_t; `in`: cstring;
                           in_size: csize_t): cint
+  ##  reversed by flatz
 proc sceNpUtilJsonUnescape*(`out`: cstring; max_out_size: csize_t;
                             `in`: cstring; in_size: csize_t; flags: cuint): cint
-##  Empty Comment
-
 proc sceNpUtilNpIdToJid*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpUtilNumChars*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpUtilParseJid*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpUtilParseTitleId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpUtilSerializeJid*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpUtilXmlEscape*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpUtilXmlGetOneChar*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpUtilXmlUnescape*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpXmlParse*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpXmlParseInit*()
+  ##  Empty Comment

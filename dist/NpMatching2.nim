@@ -1,180 +1,120 @@
-##  Empty Comment
-
 proc sceNpMatching2AbortContextStart*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2ContextStart*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2ContextStop*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2CreateContext*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2CreateContextA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2CreateContextInternal*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2CreateJoinRoom*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2CreateJoinRoomA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2DestroyContext*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2GetLobbyInfoList*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2GetLobbyMemberDataInternal*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2GetLobbyMemberDataInternalList*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2GetMemoryInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2GetRoomDataExternalList*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2GetRoomDataInternal*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2GetRoomMemberDataExternalList*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2GetRoomMemberDataInternal*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2GetRoomMemberIdListLocal*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2GetRoomPasswordLocal*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2GetServerId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2GetSignalingOptParamLocal*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2GetSslMemoryInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2GetUserInfoList*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2GetUserInfoListA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2GetWorldInfoList*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2GrantRoomOwner*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2Initialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2JoinLobby*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2JoinRoom*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2JoinRoomA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2KickoutRoomMember*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2LeaveLobby*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2LeaveRoom*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2RegisterContextCallback*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2RegisterLobbyEventCallback*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2RegisterLobbyMessageCallback*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2RegisterRoomEventCallback*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2RegisterRoomMessageCallback*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2RegisterSignalingCallback*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2SearchRoom*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2SendLobbyChatMessage*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2SendRoomChatMessage*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2SendRoomMessage*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2SetDefaultRequestOptParam*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2SetExtraInitParam*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2SetLobbyMemberDataInternal*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2SetRoomDataExternal*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2SetRoomDataInternal*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2SetRoomMemberDataInternal*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2SetSignalingOptParam*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2SetUserInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2SignalingCancelPeerNetInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2SignalingGetConnectionInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2SignalingGetConnectionInfoA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2SignalingGetConnectionStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2SignalingGetLocalNetInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2SignalingGetPeerNetInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2SignalingGetPeerNetInfoResult*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2SignalingGetPingInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpMatching2Terminate*()
+  ##  Empty Comment

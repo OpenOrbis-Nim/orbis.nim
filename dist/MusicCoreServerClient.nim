@@ -1,66 +1,44 @@
-##  Empty Comment
-
 proc sceMusicCoreServerForceKillCurrentCore*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMusicCoreServerGetCoreInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMusicCoreServerGetEvent*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMusicCoreServerGetPlayStartCondition*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMusicCoreServerGetPlayStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMusicCoreServerGetSpTrackInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMusicCoreServerGetSpWakeupAuthorityList*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMusicCoreServerGetStatusOfTracks*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMusicCoreServerGetTitleId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMusicCoreServerGetTrackInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMusicCoreServerInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMusicCoreServerKillCurrentCore*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMusicCoreServerLaunchSpCore*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMusicCoreServerLaunchUsbMusicCore*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMusicCoreServerPlayControl*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMusicCoreServerPlaySpUri*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMusicCoreServerSetAudioVolume*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMusicCoreServerSetRepeatMode*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMusicCoreServerSetShuffle*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMusicCoreServerSetSpWakeupAuthorityList*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMusicCoreServerSetTrackList*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMusicCoreServerTerminate*()
+  ##  Empty Comment

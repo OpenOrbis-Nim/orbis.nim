@@ -1,165 +1,110 @@
-##  Empty Comment
-
 proc sceCameraAudioGetData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraAudioGetData2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraAudioOpen*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraChangeAppModuleState*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraClose*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraCloseByHandle*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraGetAttribute*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraGetAutoExposureGain*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraGetAutoWhiteBalance*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraGetCalibrationData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraGetConfig*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraGetContrast*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraGetDefectivePixelCancellation*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraGetDeviceConfig*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraGetDeviceInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraGetExposureGain*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraGetFrameData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraGetGamma*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraGetHue*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraGetLensCorrection*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraGetSaturation*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraGetSharpness*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraGetWhiteBalance*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraIsAttached*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraIsValidFrameData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraOpen*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraOpenByModuleId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraRemoveAppModuleFocus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraSetAppModuleFocus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraSetAttribute*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraSetAttributeInternal*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraSetAutoExposureGain*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraSetAutoWhiteBalance*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraSetCalibData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraSetConfig*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraSetConfigInternal*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraSetContrast*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraSetDebugStop*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraSetDefectivePixelCancellation*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraSetDefectivePixelCancellationInternal*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraSetExposureGain*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraSetForceActivate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraSetGamma*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraSetHue*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraSetLensCorrection*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraSetLensCorrectionInternal*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraSetProcessFocusByHandle*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraSetSaturation*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraSetSharpness*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraSetVideoSync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraSetVideoSyncInternal*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraSetWhiteBalance*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraStart*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraStartByHandle*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceCameraStop*()
+  ##  Empty Comment

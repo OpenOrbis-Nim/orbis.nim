@@ -1,30 +1,20 @@
-##  Empty Comment
-
 proc sceVideoRecordingClose*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVideoRecordingCopyBGRAtoNV12*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVideoRecordingGetStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVideoRecordingOpen*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVideoRecordingOpen2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVideoRecordingQueryMemSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVideoRecordingQueryMemSize2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVideoRecordingSetInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVideoRecordingStart*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVideoRecordingStop*()
+  ##  Empty Comment

@@ -1,60 +1,40 @@
-##  Empty Comment
-
 proc sceVoiceQoSConnect*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceQoSCreateLocalEndpoint*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceQoSCreateRemoteEndpoint*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceQoSDebugGetStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceQoSDeleteLocalEndpoint*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceQoSDeleteRemoteEndpoint*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceQoSDisconnect*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceQoSEnd*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceQoSGetConnectionAttribute*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceQoSGetLocalEndpoint*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceQoSGetLocalEndpointAttribute*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceQoSGetRemoteEndpoint*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceQoSGetRemoteEndpointAttribute*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceQoSGetStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceQoSInit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceQoSReadPacket*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceQoSSetConnectionAttribute*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceQoSSetLocalEndpointAttribute*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceQoSSetRemoteEndpointAttribute*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVoiceQoSWritePacket*()
+  ##  Empty Comment

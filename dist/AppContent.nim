@@ -1,57 +1,38 @@
-##  Empty Comment
-
 proc _Z5dummyv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppContentAddcontDelete*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppContentAddcontEnqueueDownload*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppContentAddcontMount*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppContentAddcontUnmount*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppContentAppParamGetInt*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppContentAppParamGetString*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppContentDownloadDataFormat*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppContentDownloadDataGetAvailableSpaceKb*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppContentGetAddcontDownloadProgress*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppContentGetAddcontInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppContentGetAddcontInfoList*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppContentGetEntitlementKey*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppContentInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppContentTemporaryDataFormat*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppContentTemporaryDataGetAvailableSpaceKb*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppContentTemporaryDataMount*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppContentTemporaryDataMount2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppContentTemporaryDataUnmount*()
+  ##  Empty Comment

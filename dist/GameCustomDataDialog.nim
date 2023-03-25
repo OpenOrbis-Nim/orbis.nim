@@ -1,27 +1,18 @@
-##  Empty Comment
-
 proc sceGameCustomDataDialogClose*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGameCustomDataDialogGetResult*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGameCustomDataDialogGetResultA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGameCustomDataDialogGetStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGameCustomDataDialogInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGameCustomDataDialogOpen*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGameCustomDataDialogOpenA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGameCustomDataDialogTerminate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGameCustomDataDialogUpdateStatus*()
+  ##  Empty Comment

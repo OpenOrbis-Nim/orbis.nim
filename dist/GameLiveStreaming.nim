@@ -1,87 +1,58 @@
-##  Empty Comment
-
 proc sceGameLiveStreamingApplySocialFeedbackMessageFilter*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGameLiveStreamingClearPresetSocialFeedbackCommands*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGameLiveStreamingClearSocialFeedbackMessages*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGameLiveStreamingClearSpoilerTag*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGameLiveStreamingEnableLiveStreaming*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGameLiveStreamingEnableSocialFeedback*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGameLiveStreamingGetCurrentBroadcastScreenLayout*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGameLiveStreamingGetCurrentStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGameLiveStreamingGetCurrentStatus2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGameLiveStreamingGetProgramInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGameLiveStreamingGetSocialFeedbackMessages*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGameLiveStreamingGetSocialFeedbackMessagesCount*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGameLiveStreamingInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGameLiveStreamingPermitLiveStreaming*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGameLiveStreamingPermitServerSideRecording*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGameLiveStreamingPostSocialMessage*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGameLiveStreamingSetCameraFrameSetting*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGameLiveStreamingSetGuardAreas*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGameLiveStreamingSetInvitationSessionId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGameLiveStreamingSetLinkCommentPreset*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGameLiveStreamingSetMaxBitrate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGameLiveStreamingSetMetadata*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGameLiveStreamingSetPresetSocialFeedbackCommands*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGameLiveStreamingSetPresetSocialFeedbackCommandsDescription*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGameLiveStreamingSetSpoilerTag*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGameLiveStreamingSetStandbyScreenResource*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGameLiveStreamingStartSocialFeedbackMessageFiltering*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGameLiveStreamingStopSocialFeedbackMessageFiltering*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceGameLiveStreamingTerminate*()
+  ##  Empty Comment

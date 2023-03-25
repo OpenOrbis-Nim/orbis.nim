@@ -1,6 +1,4 @@
-##  Empty Comment
-
 proc sceKeyboardPadEmulateClose*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceKeyboardPadEmulateOpen*()
+  ##  Empty Comment

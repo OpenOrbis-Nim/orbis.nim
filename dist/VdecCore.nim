@@ -1,30 +1,20 @@
-##  Empty Comment
-
 proc sceVdecCoreCreateDecoder*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVdecCoreDeleteDecoder*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVdecCoreFlushDecodeOutput*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVdecCoreGetDecodeOutput*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVdecCoreMapMemoryBlock*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVdecCoreQueryFrameBufferInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVdecCoreQueryInstanceSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVdecCoreResetDecoder*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVdecCoreSetDecodeInput*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceVdecCoreSyncDecode*()
+  ##  Empty Comment

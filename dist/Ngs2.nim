@@ -1,132 +1,88 @@
-##  Empty Comment
-
 proc sceNgs2CalcWaveformBlock*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNgs2CustomRackGetModuleInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNgs2GeomApply*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNgs2GeomCalcListener*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNgs2GeomResetListenerParam*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNgs2GeomResetSourceParam*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNgs2GetWaveformFrameInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNgs2PanGetVolumeMatrix*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNgs2PanInit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNgs2ParseWaveformData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNgs2ParseWaveformFile*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNgs2ParseWaveformUser*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNgs2RackCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNgs2RackCreateWithAllocator*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNgs2RackDestroy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNgs2RackGetInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNgs2RackGetUserData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNgs2RackGetVoiceHandle*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNgs2RackLock*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNgs2RackQueryBufferSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNgs2RackSetUserData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNgs2RackUnlock*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNgs2ReportRegisterHandler*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNgs2ReportUnregisterHandler*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNgs2SystemCreate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNgs2SystemCreateWithAllocator*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNgs2SystemDestroy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNgs2SystemEnumHandles*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNgs2SystemEnumRackHandles*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNgs2SystemGetInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNgs2SystemGetUserData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNgs2SystemLock*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNgs2SystemQueryBufferSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNgs2SystemRender*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNgs2SystemSetGrainSamples*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNgs2SystemSetSampleRate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNgs2SystemSetUserData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNgs2SystemUnlock*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNgs2VoiceControl*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNgs2VoiceGetMatrixInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNgs2VoiceGetOwner*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNgs2VoiceGetPortInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNgs2VoiceGetState*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNgs2VoiceGetStateFlags*()
+  ##  Empty Comment

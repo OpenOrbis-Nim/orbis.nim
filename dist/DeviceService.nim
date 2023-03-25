@@ -1,15 +1,10 @@
-##  Empty Comment
-
 proc sceDeviceServiceGetEventState*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceDeviceServiceGetGeneration*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceDeviceServiceInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceDeviceServiceQueryDeviceInfo_*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceDeviceServiceTerminate*()
+  ##  Empty Comment

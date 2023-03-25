@@ -129,15 +129,11 @@ type
     ano_Pigletv2VSH_99*: INNER_C_UNION_Pigletv2VSH_50
 
 
-##  enables the piglet platform in KHR headers
+const
+  __PIGLET__* = 1            ##  enables the piglet platform in KHR headers
 
 const
-  __PIGLET__* = 1
-
-##  gl stuff
-
-const
-  EGL_EGLEXT_PROTOTYPES* = 1
+  EGL_EGLEXT_PROTOTYPES* = 1 ##  gl stuff
   GL_GLES_PROTOTYPES* = 1
   GL_GLEXT_PROTOTYPES* = 1
   ORBIS_PGL_MAX_PROCESS_ORDER* = (2)
@@ -145,28 +141,21 @@ const
   ORBIS_PGL_FLAGS_SKIP_APP_INITIALIZATION* = (0x10)
   ORBIS_PGL_FLAGS_USE_TILED_TEXTURE* = (0x40)
 
-##  should be used with ORBIS_PGL_FLAGS_USE_COMPOSITE_EXT
-
 const
-  ORBIS_PGL_FLAGS_USE_FLEXIBLE_MEMORY* = (0x80)
+  ORBIS_PGL_FLAGS_USE_FLEXIBLE_MEMORY* = (0x80) ##  should be used with ORBIS_PGL_FLAGS_USE_COMPOSITE_EXT
   ORBIS_PGL_MAX_SYS_SHARED_MEM* = (0x20000000)
   ORBIS_PGL_MAX_VIDEO_SHARED_MEM* = (0x20000000)
   ORBIS_PGL_MAX_VIDEO_PRIV_MEM* = (0x20000000)
 
-##  and only now include all the GL stuff:
-##  Sets the Piglet configuration, must be called before doing anything.
-
 proc scePigletSetConfigurationVSH*(in_config: ptr OrbisPglConfig): bool
-##  Will fetch the current Piglet configuration, may be different from the one you set.
-
+  ##  and only now include all the GL stuff:
+                                                                       ##  Sets the Piglet configuration, must be called before doing anything.
 proc scePigletGetConfigurationVSH*(out_config: ptr OrbisPglConfig): bool
-##  A valid display must exist, and pname can only be 1 it seems.
-
+  ##  Will fetch the current Piglet configuration, may be different from the one you set.
 proc scePigletGetInteger*(pname: cint; out_data: ptr clong): bool
-##  Prints heap statistics to a FILE* stream. The stream must be created by libSceLibcInternal.
-
+  ##  A valid display must exist, and pname can only be 1 it seems.
 proc scePigletHeapDump*(FILE_fprintf_stream: pointer; unk_1: cint; unk_2: cint): culong
-##  Mostly the same as scePigletHeapDump?? The stream must be created by libSceLibcInternal.
-
+  ##  Prints heap statistics to a FILE* stream. The stream must be created by libSceLibcInternal.
 proc scePigletHeapGetInfo*(FILE_fprintf_stream: pointer; unk_1: cint): culong
+  ##  Mostly the same as scePigletHeapDump?? The stream must be created by libSceLibcInternal.
 ## _SCE_PIGLET_V2_VSH_H_

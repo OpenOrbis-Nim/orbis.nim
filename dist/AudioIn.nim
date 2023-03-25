@@ -1,51 +1,34 @@
-##  Empty Comment
-
 proc sceAudioInChangeAppModuleState*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudioInClose*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudioInGetRerouteCount*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudioInGetSilentState*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudioInHqOpen*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudioInHqOpenEx*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudioInInit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudioInInput*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudioInOpen*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudioInOpenEx*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudioInSetConnections*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudioInSetDevConnection*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudioInSetPortConnections*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudioInSetPortStatuses*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudioInSetSparkParam*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudioInSetSparkSideTone*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAudioInSetUserMute*()
+  ##  Empty Comment

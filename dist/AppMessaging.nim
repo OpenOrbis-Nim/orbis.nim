@@ -1,24 +1,16 @@
-##  Empty Comment
-
 proc sceAppMessagingClearEventFlag*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppMessagingReceiveMsg*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppMessagingSendMsg*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppMessagingSendMsgToShellCore*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppMessagingSendMsgToShellUI*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppMessagingSetEventFlag*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppMessagingTryGetEventFlag*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppMessagingTryReceiveMsg*()
+  ##  Empty Comment

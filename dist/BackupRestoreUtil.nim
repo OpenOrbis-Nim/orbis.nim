@@ -1,36 +1,24 @@
-##  Empty Comment
-
 proc sceBackupRestoreUtilBackupData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceBackupRestoreUtilCancelBackupData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceBackupRestoreUtilCancelGetRequiredSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceBackupRestoreUtilCancelRestoreData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceBackupRestoreUtilDeleteBackupData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceBackupRestoreUtilGetBackupDataInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceBackupRestoreUtilGetBackupProgress*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceBackupRestoreUtilGetRequiredSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceBackupRestoreUtilGetRestoreProgress*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceBackupRestoreUtilInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceBackupRestoreUtilRestoreData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceBackupRestoreUtilTerminate*()
+  ##  Empty Comment

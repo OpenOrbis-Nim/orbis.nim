@@ -8,9 +8,8 @@ proc sceKeyboardReadState*(handle: cint; data: ptr OrbisKeyboardData): cint
 proc sceKeyboardGetKey2Char*(handle: cint; unknown: bool; locks: cint;
                              mods: cint; keycode: cint;
                              data: ptr OrbisKeyboardKey2Char): cint
-##  The below functions are currently not reversed
-
 proc sceKeyboardConnectPort*()
+  ##  The below functions are currently not reversed
 proc sceKeyboardDebugGetDeviceId*()
 proc sceKeyboardDeviceOpen*()
 proc sceKeyboardDisconnectDevice*()

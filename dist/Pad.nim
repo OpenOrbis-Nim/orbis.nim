@@ -1,12 +1,11 @@
-## -
-##  OpenOrbis PS4 Toolchain - SCE Pad (Controller)
-##  -
-##  This file contains objects and functions for interfacing with the DualShock 4 (DS4) controller.
-##
-##  Special thanks to bigboss (psxdev) for reversing some of these.
-##
-
 proc scePadInit*(): cint
+  ## -
+                        ##  OpenOrbis PS4 Toolchain - SCE Pad (Controller)
+                        ##  -
+                        ##  This file contains objects and functions for interfacing with the DualShock 4 (DS4) controller.
+                        ##
+                        ##  Special thanks to bigboss (psxdev) for reversing some of these.
+                        ##
 proc scePadOpen*(userID: cint; `type`: cint; index: cint; param: pointer): cint
 proc scePadOpenExt*(userID: cint; `type`: cint; index: cint;
                     param: ptr OrbisPadExtParam): cint
@@ -24,9 +23,8 @@ proc scePadResetOrientation*(handle: cint): cint
 proc scePadSetVibration*(handle: cint; param: ptr OrbisPadVibeParam): cint
 proc scePadOutputReport*(handle: cint; `type`: cint; report: ptr uint8;
                          length: cint): cint
-##  The below functions are currently not reversed
-
 proc scePadConnectPort*()
+  ##  The below functions are currently not reversed
 proc scePadDeviceClassGetExtendedInformation*()
 proc scePadDeviceClassParseData*()
 proc scePadDeviceOpen*()

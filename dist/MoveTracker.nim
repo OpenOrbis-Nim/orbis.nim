@@ -1,54 +1,36 @@
-##  Empty Comment
-
 proc sceMoveTrackerCalibrateReset*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMoveTrackerCalibrateYaw*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMoveTrackerCameraUpdate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMoveTrackerCaptureInit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMoveTrackerCaptureTerm*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMoveTrackerControllersUpdate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMoveTrackerGetState*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMoveTrackerGetVersion*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMoveTrackerGetWorkingMemorySize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMoveTrackerInit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMoveTrackerPlayGetImages*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMoveTrackerPlayGetStates*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMoveTrackerPlayStart*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMoveTrackerPlayStep*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMoveTrackerRecordSave*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMoveTrackerRecordStart*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMoveTrackerRecordStop*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMoveTrackerTerm*()
+  ##  Empty Comment

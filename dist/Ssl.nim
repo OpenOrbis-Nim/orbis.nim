@@ -4,615 +4,411 @@ type
     size*: csize_t
 
 
-##  Empty Comment
-
 proc CA_MGMT_allocCertDistinguishedName*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CA_MGMT_certDistinguishedNameCompare*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CA_MGMT_convertKeyBlobToPKCS8Key*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CA_MGMT_convertKeyDER*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CA_MGMT_convertKeyPEM*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CA_MGMT_convertPKCS8KeyToKeyBlob*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CA_MGMT_convertProtectedPKCS8KeyToKeyBlob*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CA_MGMT_decodeCertificate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CA_MGMT_enumAltName*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CA_MGMT_enumCrl*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CA_MGMT_extractAllCertDistinguishedName*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CA_MGMT_extractBasicConstraint*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CA_MGMT_extractCertASN1Name*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CA_MGMT_extractCertTimes*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CA_MGMT_extractKeyBlobEx*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CA_MGMT_extractKeyBlobTypeEx*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CA_MGMT_extractPublicKeyInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CA_MGMT_extractSerialNum*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CA_MGMT_extractSignature*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CA_MGMT_free*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CA_MGMT_freeCertDistinguishedName*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CA_MGMT_freeCertDistinguishedNameOnStack*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CA_MGMT_freeCertificate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CA_MGMT_freeKeyBlob*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CA_MGMT_freeSearchDetails*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CA_MGMT_getCertSignAlgoType*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CA_MGMT_keyBlobToDER*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CA_MGMT_keyBlobToPEM*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CA_MGMT_makeKeyBlobEx*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CA_MGMT_rawVerifyOID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CA_MGMT_reorderChain*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CA_MGMT_returnCertificatePrints*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CA_MGMT_verifyCertWithKeyBlob*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CA_MGMT_verifySignature*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_checkCertificateIssuer*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_checkCertificateIssuer2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_checkCertificateIssuerSerialNumber*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_CompSubjectAltNames*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_CompSubjectAltNames2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_CompSubjectAltNamesExact*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_CompSubjectCommonName*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_CompSubjectCommonName2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_ComputeBufferHash*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_decryptRSASignature*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_decryptRSASignatureBuffer*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_enumerateAltName*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_enumerateAltName2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_enumerateCRL*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_enumerateCRL2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_enumerateCRLAux*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_extractAllDistinguishedNames*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_extractDistinguishedNames*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_extractDistinguishedNames2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_extractDistinguishedNamesFromName*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_extractRSAKey*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_extractSerialNum*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_extractSerialNum2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_extractValidityTime*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_extractValidityTime2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_getCertExtension*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_getCertificateExtensions*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_getCertificateExtensions2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_getCertificateIssuerSerialNumber*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_getCertificateIssuerSerialNumber2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_getCertificateKeyUsage*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_getCertificateKeyUsage2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_getCertificateSubject*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_getCertificateSubject2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_getCertSignAlgoType*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_GetCertTime*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_getNumberOfChild*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_getRSASignatureAlgo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_getSignatureItem*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_getSubjectCommonName*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_getSubjectCommonName2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_isRootCertificate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_isRootCertificate2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_rawVerifyOID*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_rawVerifyOID2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_setKeyFromSubjectPublicKeyInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_setKeyFromSubjectPublicKeyInfoCert*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_STORE_addCertAuthority*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_STORE_addIdentity*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_STORE_addIdentityNakedKey*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_STORE_addIdentityPSK*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_STORE_addIdentityWithCertificateChain*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_STORE_addTrustPoint*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_STORE_createStore*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_STORE_findCertBySubject*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_STORE_findIdentityByTypeFirst*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_STORE_findIdentityByTypeNext*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_STORE_findIdentityCertChainFirst*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_STORE_findIdentityCertChainNext*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_STORE_findPskByIdentity*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_STORE_releaseStore*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_STORE_traversePskListHead*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_STORE_traversePskListNext*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_validateCertificate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_validateCertificateWithConf*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_VerifyCertificatePolicies*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_VerifyCertificatePolicies2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_verifySignature*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_VerifyValidityTime*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_VerifyValidityTime2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CERT_VerifyValidityTimeWithConf*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CRYPTO_initAsymmetricKey*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc CRYPTO_uninitAsymmetricKey*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc GC_createInstanceIDs*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc getCertSigAlgo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc MOCANA_freeMocana*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc MOCANA_initMocana*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc RSA_verifySignature*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSslClose*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSslConnect*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSslCreateSslConnection*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSslDeleteSslConnection*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSslDisableOption*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSslDisableOptionInternal*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSslDisableOptionInternalInsecure*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSslEnableOption*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSslEnableOptionInternal*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSslFreeCaCerts*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSslFreeCaList*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSslFreeSslCertName*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSslGetCaCerts*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSslGetCaList*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSslGetIssuerName*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSslGetMemoryPoolStats*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSslGetNameEntryCount*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSslGetNameEntryInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSslGetNanoSSLModuleId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSslGetNotAfter*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSslGetNotBefore*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSslGetSerialNumber*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSslGetSslError*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSslGetSubjectName*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSslInit*(poolSize: csize_t): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSslLoadCert*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSslLoadRootCACert*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSslRecv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSslSend*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSslSetSslVersion*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSslSetVerifyCallback*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSslShowMemoryStat*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSslTerm*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSslUnloadCert*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_acceptConnection*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_acceptConnectionCommon*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_assignCertificateStore*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_ASYNC_acceptConnection*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_ASYNC_closeConnection*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_ASYNC_connect*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_ASYNC_connectCommon*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_ASYNC_getRecvBuffer*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_ASYNC_getSendBuffer*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_ASYNC_init*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_ASYNC_initServer*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_ASYNC_recvMessage*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_ASYNC_recvMessage2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_ASYNC_sendMessage*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_ASYNC_sendMessagePending*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_ASYNC_start*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_closeConnection*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_connect*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_connectWithCfgParam*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_enableCiphers*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_findConnectionInstance*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_getCipherInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_getClientRandom*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_getClientSessionInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_getCookie*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_getInstanceFromSocket*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_getNextSessionId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_getServerRandom*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_getSessionCache*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_getSessionFlags*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_getSessionInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_getSessionStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_getSocketId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_getSSLTLSVersion*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_init*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_initiateRehandshake*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_initServerCert*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_ioctl*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_isSessionSSL*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_lockSessionCacheMutex*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_lookupAlert*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_negotiateConnection*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_recv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_recvPending*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_releaseTables*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_retrieveServerNameList*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_rngFun*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_send*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_sendAlert*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_sendPending*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_setCookie*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_setServerCert*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_setServerNameList*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_setSessionFlags*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_shutdown*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_sslSettings*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc SSL_validateCertParam*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc VLONG_freeVlongQueue*()
+  ##  Empty Comment

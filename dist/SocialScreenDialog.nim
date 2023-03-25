@@ -1,9 +1,6 @@
-##  Empty Comment
-
 proc sceSocialScreenDialogGetResult*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSocialScreenDialogInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceSocialScreenDialogTerminate*()
+  ##  Empty Comment

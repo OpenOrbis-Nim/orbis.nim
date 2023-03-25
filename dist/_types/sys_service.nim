@@ -1,47 +1,29 @@
-## Language settings
+const
+  ORBIS_SYSTEM_SERVICE_PARAM_ID_LANG* = 1 ## Language settings
 
 const
-  ORBIS_SYSTEM_SERVICE_PARAM_ID_LANG* = 1
-
-## Date display format
+  ORBIS_SYSTEM_SERVICE_PARAM_ID_DATE_FORMAT* = 2 ## Date display format
 
 const
-  ORBIS_SYSTEM_SERVICE_PARAM_ID_DATE_FORMAT* = 2
-
-## Time display format
+  ORBIS_SYSTEM_SERVICE_PARAM_ID_TIME_FORMAT* = 3 ## Time display format
 
 const
-  ORBIS_SYSTEM_SERVICE_PARAM_ID_TIME_FORMAT* = 3
-
-## Time zone offset
+  ORBIS_SYSTEM_SERVICE_PARAM_ID_TIME_ZONE* = 4 ## Time zone offset
 
 const
-  ORBIS_SYSTEM_SERVICE_PARAM_ID_TIME_ZONE* = 4
-
-## Daylight savings time
+  ORBIS_SYSTEM_SERVICE_PARAM_ID_SUMMERTIME* = 5 ## Daylight savings time
 
 const
-  ORBIS_SYSTEM_SERVICE_PARAM_ID_SUMMERTIME* = 5
-
-## System name
+  ORBIS_SYSTEM_SERVICE_PARAM_ID_SYSTEM_NAME* = 6 ## System name
 
 const
-  ORBIS_SYSTEM_SERVICE_PARAM_ID_SYSTEM_NAME* = 6
-
-## Viewer age restriction level of the game
+  ORBIS_SYSTEM_SERVICE_PARAM_ID_GAME_PARENTAL_LEVEL* = 7 ## Viewer age restriction level of the game
 
 const
-  ORBIS_SYSTEM_SERVICE_PARAM_ID_GAME_PARENTAL_LEVEL* = 7
-
-## Enter button assignment on the system software
+  ORBIS_SYSTEM_SERVICE_PARAM_ID_ENTER_BUTTON_ASSIGN* = 1000 ## Enter button assignment on the system software
 
 const
-  ORBIS_SYSTEM_SERVICE_PARAM_ID_ENTER_BUTTON_ASSIGN* = 1000
-
-## Maximum system name length
-
-const
-  ORBIS_SYSTEM_SERVICE_MAX_SYSTEM_NAME_LENGTH* = 65
+  ORBIS_SYSTEM_SERVICE_MAX_SYSTEM_NAME_LENGTH* = 65 ## Maximum system name length
   ORBIS_SYSTEM_PARAM_DATE_FORMAT_YYYYMMDD* = 0
   ORBIS_SYSTEM_PARAM_DATE_FORMAT_DDMMYYYY* = 1
   ORBIS_SYSTEM_PARAM_DATE_FORMAT_MMDDYYYY* = 2
@@ -60,162 +42,98 @@ const
   ORBIS_SYSTEM_PARAM_GAME_PARENTAL_LEVEL10* = 10
   ORBIS_SYSTEM_PARAM_GAME_PARENTAL_LEVEL11* = 11
 
-## Circle button is the enter button
+const
+  ORBIS_SYSTEM_PARAM_ENTER_BUTTON_ASSIGN_CIRCLE* = 0 ## Circle button is the enter button
 
 const
-  ORBIS_SYSTEM_PARAM_ENTER_BUTTON_ASSIGN_CIRCLE* = 0
-
-## Cross button is the enter button
+  ORBIS_SYSTEM_PARAM_ENTER_BUTTON_ASSIGN_CROSS* = 1 ## Cross button is the enter button
 
 const
-  ORBIS_SYSTEM_PARAM_ENTER_BUTTON_ASSIGN_CROSS* = 1
-
-## Japanese
+  ORBIS_SYSTEM_PARAM_LANG_JAPANESE* = 0 ## Japanese
 
 const
-  ORBIS_SYSTEM_PARAM_LANG_JAPANESE* = 0
-
-## English (United States)
+  ORBIS_SYSTEM_PARAM_LANG_ENGLISH_US* = 1 ## English (United States)
 
 const
-  ORBIS_SYSTEM_PARAM_LANG_ENGLISH_US* = 1
-
-## French (France)
+  ORBIS_SYSTEM_PARAM_LANG_FRENCH* = 2 ## French (France)
 
 const
-  ORBIS_SYSTEM_PARAM_LANG_FRENCH* = 2
-
-## Spanish (Spain)
+  ORBIS_SYSTEM_PARAM_LANG_SPANISH* = 3 ## Spanish (Spain)
 
 const
-  ORBIS_SYSTEM_PARAM_LANG_SPANISH* = 3
-
-## German
+  ORBIS_SYSTEM_PARAM_LANG_GERMAN* = 4 ## German
 
 const
-  ORBIS_SYSTEM_PARAM_LANG_GERMAN* = 4
-
-## Italian
+  ORBIS_SYSTEM_PARAM_LANG_ITALIAN* = 5 ## Italian
 
 const
-  ORBIS_SYSTEM_PARAM_LANG_ITALIAN* = 5
-
-## Dutch
+  ORBIS_SYSTEM_PARAM_LANG_DUTCH* = 6 ## Dutch
 
 const
-  ORBIS_SYSTEM_PARAM_LANG_DUTCH* = 6
-
-## Portuguese (Portugal)
+  ORBIS_SYSTEM_PARAM_LANG_PORTUGUESE_PT* = 7 ## Portuguese (Portugal)
 
 const
-  ORBIS_SYSTEM_PARAM_LANG_PORTUGUESE_PT* = 7
-
-## Russian
+  ORBIS_SYSTEM_PARAM_LANG_RUSSIAN* = 8 ## Russian
 
 const
-  ORBIS_SYSTEM_PARAM_LANG_RUSSIAN* = 8
-
-## Korean
+  ORBIS_SYSTEM_PARAM_LANG_KOREAN* = 9 ## Korean
 
 const
-  ORBIS_SYSTEM_PARAM_LANG_KOREAN* = 9
-
-## Chinese (traditional)
+  ORBIS_SYSTEM_PARAM_LANG_CHINESE_T* = 10 ## Chinese (traditional)
 
 const
-  ORBIS_SYSTEM_PARAM_LANG_CHINESE_T* = 10
-
-## Chinese (simplified)
+  ORBIS_SYSTEM_PARAM_LANG_CHINESE_S* = 11 ## Chinese (simplified)
 
 const
-  ORBIS_SYSTEM_PARAM_LANG_CHINESE_S* = 11
-
-## Finnish
+  ORBIS_SYSTEM_PARAM_LANG_FINNISH* = 12 ## Finnish
 
 const
-  ORBIS_SYSTEM_PARAM_LANG_FINNISH* = 12
-
-## Swedish
+  ORBIS_SYSTEM_PARAM_LANG_SWEDISH* = 13 ## Swedish
 
 const
-  ORBIS_SYSTEM_PARAM_LANG_SWEDISH* = 13
-
-## Danish
+  ORBIS_SYSTEM_PARAM_LANG_DANISH* = 14 ## Danish
 
 const
-  ORBIS_SYSTEM_PARAM_LANG_DANISH* = 14
-
-## Norwegian
+  ORBIS_SYSTEM_PARAM_LANG_NORWEGIAN* = 15 ## Norwegian
 
 const
-  ORBIS_SYSTEM_PARAM_LANG_NORWEGIAN* = 15
-
-## Polish
+  ORBIS_SYSTEM_PARAM_LANG_POLISH* = 16 ## Polish
 
 const
-  ORBIS_SYSTEM_PARAM_LANG_POLISH* = 16
-
-## Portuguese (Brazil)
+  ORBIS_SYSTEM_PARAM_LANG_PORTUGUESE_BR* = 17 ## Portuguese (Brazil)
 
 const
-  ORBIS_SYSTEM_PARAM_LANG_PORTUGUESE_BR* = 17
-
-## English (United Kingdom)
+  ORBIS_SYSTEM_PARAM_LANG_ENGLISH_GB* = 18 ## English (United Kingdom)
 
 const
-  ORBIS_SYSTEM_PARAM_LANG_ENGLISH_GB* = 18
-
-## Turkish
+  ORBIS_SYSTEM_PARAM_LANG_TURKISH* = 19 ## Turkish
 
 const
-  ORBIS_SYSTEM_PARAM_LANG_TURKISH* = 19
-
-## Spanish (Latin America)
+  ORBIS_SYSTEM_PARAM_LANG_SPANISH_LA* = 20 ## Spanish (Latin America)
 
 const
-  ORBIS_SYSTEM_PARAM_LANG_SPANISH_LA* = 20
-
-## Arabic
+  ORBIS_SYSTEM_PARAM_LANG_ARABIC* = 21 ## Arabic
 
 const
-  ORBIS_SYSTEM_PARAM_LANG_ARABIC* = 21
-
-## French (Canada)
+  ORBIS_SYSTEM_PARAM_LANG_FRENCH_CA* = 22 ## French (Canada)
 
 const
-  ORBIS_SYSTEM_PARAM_LANG_FRENCH_CA* = 22
-
-## Czech
+  ORBIS_SYSTEM_PARAM_LANG_CZECH* = 23 ## Czech
 
 const
-  ORBIS_SYSTEM_PARAM_LANG_CZECH* = 23
-
-## Hungarian
+  ORBIS_SYSTEM_PARAM_LANG_HUNGARIAN* = 24 ## Hungarian
 
 const
-  ORBIS_SYSTEM_PARAM_LANG_HUNGARIAN* = 24
-
-## Greek
+  ORBIS_SYSTEM_PARAM_LANG_GREEK* = 25 ## Greek
 
 const
-  ORBIS_SYSTEM_PARAM_LANG_GREEK* = 25
-
-## Romanian
+  ORBIS_SYSTEM_PARAM_LANG_ROMANIAN* = 26 ## Romanian
 
 const
-  ORBIS_SYSTEM_PARAM_LANG_ROMANIAN* = 26
-
-## Thai
+  ORBIS_SYSTEM_PARAM_LANG_THAI* = 27 ## Thai
 
 const
-  ORBIS_SYSTEM_PARAM_LANG_THAI* = 27
-
-## Vietnamese
+  ORBIS_SYSTEM_PARAM_LANG_VIETNAMESE* = 28 ## Vietnamese
 
 const
-  ORBIS_SYSTEM_PARAM_LANG_VIETNAMESE* = 28
-
-## Indonesian
-
-const
-  ORBIS_SYSTEM_PARAM_LANG_INDONESIAN* = 29
+  ORBIS_SYSTEM_PARAM_LANG_INDONESIAN* = 29 ## Indonesian

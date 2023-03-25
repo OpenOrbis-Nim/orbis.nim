@@ -20,99 +20,67 @@ proc sceAppInstUtilGetInstallProgress*(contentId: cstring; progress: ptr cuint):
 proc sceAppInstUtilGetInstallProgressInfo*(contentId: cstring; state: ptr cuint;
     progress: ptr cuint; progressSize: ptr culong; totalSize: ptr culong;
     restSec: ptr cuint): cint
-##  Empty Comment
-
 proc sceAppInstUtilAppCancelableUnInstall*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppInstUtilAppCancelableUnInstallByUser*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppInstUtilAppCancelUnInstall*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppInstUtilAppConvertAppDiscToDownload*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppInstUtilAppConvertAppDownloadToDisc*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppInstUtilAppDestroyMetadata*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppInstUtilAppDestroyPkg*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppInstUtilAppGetAddcontInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppInstUtilAppGetAddcontInfoByContentId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppInstUtilAppGetAddcontListTotalSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppInstUtilAppGetAddcontNum*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppInstUtilAppGetCustomThemeInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppInstUtilAppInstallAll*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppInstUtilAppInstallCloudGame*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppInstUtilAppInstallGetLinkState*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppInstUtilAppInstallMediaPlayer*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppInstUtilAppInstallRequestAddcontFromDisc*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppInstUtilAppInstallTitleDir*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppInstUtilAppSetSavedataUploadStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppInstUtilAppUnInstallForMultiInstall*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppInstUtilAppUpdateStartTime*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppInstUtilCancelDataDiscCopy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppInstUtilCheckAppSystemVer*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppInstUtilGetAddcontInstalledStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppInstUtilGetAppEmptySlot*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppInstUtilGetAppSlotInfoList*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppInstUtilGetDataDiscCopyProgress*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppInstUtilGetInsertedDiscRoleType*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppInstUtilJson*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppInstUtilRequestDataDiscCopy*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppInstUtilRequestInstallDiscGame*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceAppInstUtilSetPrimaryAppSlot*()
+  ##  Empty Comment

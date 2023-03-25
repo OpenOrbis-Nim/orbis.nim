@@ -1,9 +1,6 @@
-##  Empty Comment
-
 proc sceMusicCoreServerRegistEventCallback*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMusicCoreServerTriggerEvent*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceMusicCoreServerUnregistEventCallback*()
+  ##  Empty Comment

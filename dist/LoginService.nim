@@ -1,9 +1,6 @@
-##  Empty Comment
-
 proc sceLoginServiceInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceLoginServiceRequestDevices*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceLoginServiceTerminate*()
+  ##  Empty Comment

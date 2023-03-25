@@ -1,3 +1,2 @@
-##  Empty Comment
-
 proc sceSblACMgrCheckPlatformDLL*()
+  ##  Empty Comment

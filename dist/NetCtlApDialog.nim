@@ -1,21 +1,14 @@
-##  Empty Comment
-
 proc sceNetCtlApDialogClose*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetCtlApDialogGetResult*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetCtlApDialogGetStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetCtlApDialogInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetCtlApDialogOpen*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetCtlApDialogTerminate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNetCtlApDialogUpdateStatus*()
+  ##  Empty Comment

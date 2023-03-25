@@ -1,9 +1,6 @@
-##  Empty Comment
-
 proc sceDbgVideoOutAddOutputModeVr60Privilege*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceDbgVideoOutAddProcessAttribute*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceDbgVideoOutRemoveProcessAttribute*()
+  ##  Empty Comment

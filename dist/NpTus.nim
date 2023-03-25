@@ -1,300 +1,200 @@
-##  Empty Comment
-
 proc sceNpTssCreateNpTitleCtx*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTssCreateNpTitleCtxA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTssGetData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTssGetDataAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTssGetSmallStorage*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTssGetSmallStorageAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTssGetStorage*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTssGetStorageAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusAbortRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusAddAndGetVariable*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusAddAndGetVariableA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusAddAndGetVariableAAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusAddAndGetVariableAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusAddAndGetVariableAVUser*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusAddAndGetVariableAVUserAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusAddAndGetVariableVUser*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusAddAndGetVariableVUserAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusChangeModeForOtherSaveDataOwners*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusCreateNpTitleCtx*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusCreateNpTitleCtxA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusCreateRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusCreateTitleCtx*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusDeleteMultiSlotData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusDeleteMultiSlotDataA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusDeleteMultiSlotDataAAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusDeleteMultiSlotDataAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusDeleteMultiSlotDataVUser*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusDeleteMultiSlotDataVUserAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusDeleteMultiSlotVariable*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusDeleteMultiSlotVariableA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusDeleteMultiSlotVariableAAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusDeleteMultiSlotVariableAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusDeleteMultiSlotVariableVUser*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusDeleteMultiSlotVariableVUserAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusDeleteNpTitleCtx*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusDeleteRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusGetData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusGetDataA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusGetDataAAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusGetDataAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusGetDataAVUserAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusGetDataVUser*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusGetDataVUserAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusGetFriendsDataStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusGetFriendsDataStatusA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusGetFriendsDataStatusAAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusGetFriendsDataStatusAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusGetFriendsVariable*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusGetFriendsVariableA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusGetFriendsVariableAAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusGetFriendsVariableAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusGetMultiSlotDataStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusGetMultiSlotDataStatusA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusGetMultiSlotDataStatusAAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusGetMultiSlotDataStatusAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusGetMultiSlotDataStatusVUser*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusGetMultiSlotDataStatusVUserAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusGetMultiSlotVariable*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusGetMultiSlotVariableA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusGetMultiSlotVariableAAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusGetMultiSlotVariableAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusGetMultiSlotVariableVUser*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusGetMultiSlotVariableVUserAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusGetMultiUserDataStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusGetMultiUserDataStatusA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusGetMultiUserDataStatusAAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusGetMultiUserDataStatusAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusGetMultiUserDataStatusVUser*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusGetMultiUserDataStatusVUserAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusGetMultiUserVariable*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusGetMultiUserVariableA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusGetMultiUserVariableAAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusGetMultiUserVariableAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusGetMultiUserVariableVUser*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusGetMultiUserVariableVUserAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusPollAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusSetData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusSetDataA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusSetDataAAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusSetDataAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusSetDataAVUser*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusSetDataAVUserAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusSetDataVUser*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusSetDataVUserAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusSetMultiSlotVariable*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusSetMultiSlotVariableA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusSetMultiSlotVariableAAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusSetMultiSlotVariableAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusSetMultiSlotVariableVUser*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusSetMultiSlotVariableVUserAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusSetTimeout*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusTryAndSetVariable*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusTryAndSetVariableA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusTryAndSetVariableAAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusTryAndSetVariableAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusTryAndSetVariableAVUser*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusTryAndSetVariableAVUserAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusTryAndSetVariableVUser*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusTryAndSetVariableVUserAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpTusWaitAsync*()
+  ##  Empty Comment

@@ -1,132 +1,88 @@
-##  Empty Comment
-
 proc sceImeClose*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeConfigGet*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeConfigSet*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeConfirmCandidate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeDicAddWord*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeDicDeleteLearnDics*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeDicDeleteUserDics*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeDicDeleteWord*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeDicGetWords*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeDicReplaceWord*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeDisableController*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeGetPanelPositionAndForm*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeGetPanelSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeKeyboardClose*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeKeyboardGetInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeKeyboardGetResourceId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeKeyboardOpen*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeKeyboardOpenInternal*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeKeyboardSetMode*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeKeyboardUpdate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeOpen*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeOpenInternal*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeParamInit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeSetCandidateIndex*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeSetCaret*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeSetText*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeSetTextGeometry*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeUpdate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeVshClearPreedit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeVshClose*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeVshConfirmPreedit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeVshGetPanelPositionAndForm*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeVshInformConfirmdString*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeVshOpen*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeVshSetCaretGeometry*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeVshSetCaretIndexInPreedit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeVshSetPanelPosition*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeVshSetParam*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeVshSetPreeditGeometry*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeVshSetSelectGeometry*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeVshSetSelectionText*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeVshUpdate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeVshUpdateContext*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeVshUpdateContext2*()
+  ##  Empty Comment

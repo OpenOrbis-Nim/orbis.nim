@@ -1,500 +1,334 @@
-##  Empty Comment
-
 proc _sceNpIpcCreateMemoryFromKernel*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _sceNpIpcCreateMemoryFromPool*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _sceNpIpcDestroyMemory*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _sceNpIpcFreeImpl*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _sceNpIpcGetNpMemAllocator*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _sceNpIpcMallocImpl*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _sceNpIpcReallocImpl*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _sceNpManagerCreateMemoryFromKernel*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _sceNpManagerCreateMemoryFromPool*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _sceNpManagerDestroyMemory*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _sceNpManagerFreeImpl*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _sceNpManagerGetNpMemAllocator*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _sceNpManagerMallocImpl*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc _sceNpManagerReallocImpl*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpAbortRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpAsmClientGetNpComInfo2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpAsmClientGetNpTitleToken*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpAsmClientGetServiceIdInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpAsmClientInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpCheckCallback*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpCheckCallbackForLib*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpCheckNpAvailability*()
+  ##  Empty Comment
 proc sceNpCheckNpAvailabilityA*(a1: cint; UserID: int32): int32
-##  Empty Comment
-
 proc sceNpCheckNpReachability*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpCheckPlus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpCreateAsyncRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpCreateRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpDeleteRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpGetAccountCountry*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpGetAccountCountryA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpGetAccountDateOfBirth*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpGetAccountDateOfBirthA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpGetAccountId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpGetAccountIdA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpGetAccountLanguage*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpGetAccountLanguageA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpGetGamePresenceStatus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpGetGamePresenceStatusA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpGetNpId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpGetNpReachabilityState*()
+  ##  Empty Comment
 proc sceNpGetOnlineId*(UserID: int32; onlineID: ptr OrbisNpOnlineId): int32
-##  Empty Comment
-
 proc sceNpGetParentalControlInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpGetParentalControlInfoA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpGetState*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpGetUserIdByAccountId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpGetUserIdByOnlineId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpHasSignedUp*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpIdMapperAbortRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpIdMapperAccountIdToNpId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpIdMapperAccountIdToOnlineId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpIdMapperCreateRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpIdMapperDeleteRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpIdMapperNpIdToAccountId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpIdMapperOnlineIdToAccountId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpInGameMessageAbortHandle*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpInGameMessageCreateHandle*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpInGameMessageDeleteHandle*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpInGameMessageInitialize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpInGameMessagePrepare*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpInGameMessagePrepareA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpInGameMessageSendData*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpInGameMessageSendDataA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpInGameMessageTerminate*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpIntCheckPlus*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntAbortRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntAddPlusMemberTypeCallback*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntCheckGameNpAvailability*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntClearParentalControlInfoSubAccount*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntClearUsedFlag*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntCreateLoginRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntCreateRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntDeleteRequest*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntGetAccountCountry*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntGetAccountCountryA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntGetAccountDateOfBirth*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntGetAccountDateOfBirthA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntGetAccountId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntGetAccountLanguage*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntGetAccountLanguageA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntGetAccountNpEnv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntGetActiveSigninState*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntGetAuthorizationCode*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntGetAuthorizationCodeA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntGetAuthorizationCodeWithRedirectUri*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntGetAuthServerErrorFlag*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntGetGameTitleBanInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntGetGameTitleToken*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntGetGameVshToken*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntGetLastAccountLanguage*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntGetMAccountId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntGetNpEnv*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntGetNpId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntGetNpIdSdk*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntGetOnlineIdInternal*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntGetOnlineIdSdk*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntGetParentalControlFlag*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntGetParentalControlInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntGetParentalControlInfoA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntGetParentalControlInfoNB*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntGetPlusMemberType*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntGetPlusMemberTypeNB*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntGetServerError*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntGetSigninState*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntGetTicket*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntGetTicketNB*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntGetUserIdByAccountId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntGetUserIdByOnlineId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntGetUserList*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntGetUserNum*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntGetUserState*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntGetVshToken*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntGetVshTokenNB*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntIsServerMaintenanceError*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntIsSubAccount*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntIsTemporarySignout*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntIsUnregisteredClientError*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntLoginAddJsonInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntLoginBind*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntLoginCheckSignin*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntLoginGet2svInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntLoginGetAccessToken*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntLoginGetAccountId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntLoginGetAuthorizationCode*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntLoginGetDeviceCodeInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntLoginGetEmail*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntLoginGetOnlineId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntLoginGetUserId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntLoginParseJsonUserInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntLoginResetSsoToken*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntLoginSetAccountInfo*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntLoginSetSsoToken*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntLoginValidateCredential*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntLoginValidateKratosAuthCode*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntLoginVerifyDeviceCode*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntPfAuth*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntRemovePlusMemberTypeCallback*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntRevalidatePassword*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntSetTimeout*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntSignout*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntTemporarySignout*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntUpdateVshToken*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerIntWebLoginRequired*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerPrxStartVsh*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerUtilConvertJidToNpId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpManagerUtilConvertNpIdToJid*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpNotifyPlusFeature*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpPollAsync*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpPushInit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpPushIntBeginInactive*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpPushIntEndInactive*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpPushIntGetConnectionState*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpRegisterGamePresenceCallback*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpRegisterGamePresenceCallbackA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpRegisterNpReachabilityStateCallback*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpRegisterPlusEventCallback*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpRegisterStateCallback*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpRegisterStateCallbackA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpServiceClientInit*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpServiceClientTerm*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSetContentRestriction*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSetGamePresenceOnlineA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSetNpTitleId*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpSetTimeout*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpUnregisterNpReachabilityStateCallback*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpUnregisterPlusEventCallback*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpUnregisterStateCallback*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpUnregisterStateCallbackA*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceNpWaitAsync*()
+  ##  Empty Comment

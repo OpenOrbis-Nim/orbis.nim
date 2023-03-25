@@ -1,43 +1,29 @@
-##  Empty Comment
-
 proc sceImeDialogAbort*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeDialogForceClose*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeDialogGetCurrentStarState*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeDialogGetPanelPositionAndForm*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeDialogGetPanelSize*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeDialogGetPanelSizeExtended*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeDialogGetResult*(result: ptr OrbisDialogResult): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeDialogGetStatus*(): OrbisDialogStatus
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeDialogInit*(param: ptr OrbisImeDialogSetting;
                        paramExtended: ptr OrbisImeSettingsExtended): cint
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeDialogInitInternal*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeDialogInitInternal2*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeDialogInitInternal3*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeDialogSetPanelPosition*()
-##  Empty Comment
-
+  ##  Empty Comment
 proc sceImeDialogTerm*(): cint
+  ##  Empty Comment

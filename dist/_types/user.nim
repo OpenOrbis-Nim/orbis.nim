@@ -1,17 +1,11 @@
-## Maximum number of users that can be logged in at once
+const
+  ORBIS_USER_SERVICE_MAX_LOGIN_USERS* = 4 ## Maximum number of users that can be logged in at once
 
 const
-  ORBIS_USER_SERVICE_MAX_LOGIN_USERS* = 4
-
-## Maximum number of users that can be registered in the system
+  ORBIS_USER_SERVICE_MAX_REGISTER_USERS* = 16 ## Maximum number of users that can be registered in the system
 
 const
-  ORBIS_USER_SERVICE_MAX_REGISTER_USERS* = 16
-
-## Maximum user name length
-
-const
-  ORBIS_USER_SERVICE_MAX_USER_NAME_LENGTH* = 16
+  ORBIS_USER_SERVICE_MAX_USER_NAME_LENGTH* = 16 ## Maximum user name length
   ORBIS_USER_SERVICE_USER_ID_SYSTEM* = 0xFF
   ORBIS_USER_SERVICE_USER_ID_INVALID* = -1
 
@@ -28,12 +22,10 @@ type                        ##  Login event
     priority*: uint32
 
   OrbisUserServiceLoginUserIdList* {.bycopy.} = object
-    ## Maximum number of users that can be logged in at once
-    userId*: array[4, OrbisUserServiceUserId]
+    userId*: array[4, OrbisUserServiceUserId] ## Maximum number of users that can be logged in at once
 
   OrbisUserServiceRegisteredUserIdList* {.bycopy.} = object
-    ## Maximum number of users that can be registered in the system
-    userId*: array[16, OrbisUserServiceUserId]
+    userId*: array[16, OrbisUserServiceUserId] ## Maximum number of users that can be registered in the system
 
   OrbisUserServiceUserColor* = enum
     ORBIS_USER_SERVICE_USER_COLOR_BLUE = 0,
