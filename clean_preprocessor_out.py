@@ -28,12 +28,10 @@ def isMacroFunction(line):
 
 assert isMacroFunction("#define A(x) x") == True
 
-def isMacroWithComment(line):
-    if line[0] != "#":
-        return False
+def isLineWithComment(line):
     return line.find("//") != -1 or line.find("/*") != -1
 
-assert isMacroWithComment("#define A B /*My comment*/") == True
+assert isLineWithComment("#define A B /*My comment*/") == True
 
 
 def getMultilineCommentRange(line):
@@ -70,7 +68,7 @@ def getCommentRange(line):
 
 assert getCommentRange("/**/") == (0,4)
 assert getCommentRange("//") == (0,2)
-def fixMacroLineWithComment(line):
+def fixLineWithComment(line):
     comment_range = getCommentRange(line)
     if comment_range == (-1, 0):
         return line
@@ -80,8 +78,9 @@ def fixMacroLineWithComment(line):
         reference_line += line[start:start+length] + "\n"
         line = line[:start] + line[start+length:]
     return reference_line + line
-assert fixMacroLineWithComment("#define A B /*My comment*/") == "/*My comment*/\n#define A B "
-assert fixMacroLineWithComment("#define A B //My comment") == "//My comment\n#define A B "
+
+assert fixLineWithComment("#define A B /*My comment*/") == "/*My comment*/\n#define A B "
+assert fixLineWithComment("#define A B //My comment") == "//My comment\n#define A B "
 
 filename = sys.argv[1]
 header = sys.argv[2]
@@ -102,10 +101,11 @@ while idx < lines_length:
     marker = parseLineMarker(line.strip())
     if marker:
         ignore_lines = marker[1] != header
-    elif isMacroWithComment(line):
-        out.append(fixMacroLineWithComment(line))                
     elif not ignore_lines and not isMacroFunction(line):
-        out.append(line)
+        if isLineWithComment(line):
+            out.append(fixLineWithComment(line))                
+        else:
+            out.append(line)
     idx += 1
 
 with open(filename, 'w') as fh:
