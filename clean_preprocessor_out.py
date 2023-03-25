@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+import os
 import re
 import sys
 
@@ -96,10 +97,30 @@ if parseLineMarker(lines[0].strip()) == None:
     print("Not a preprocessed output file")
     sys.exit(-1)
 
+encountered_files = {}
+
+def generateNimImport(cPath):
+    code = """
+#@
+import "{}"
+@#
+    """.format('/'.join(cPath[0:-2].split("\\"))).strip()
+    return code
+
+def getRelativeIncludePath(fullPath):
+    base = os.path.join(os.getenv("OO_PS4_TOOLCHAIN"), "include/")
+    return fullPath.replace(base, "")
+
 while idx < lines_length:
     line = lines[idx]
     marker = parseLineMarker(line.strip())
     if marker:
+        if encountered_files.get(marker[1], None) == None:
+            encountered_files[marker[1]] = True
+            if 'orbis' in marker[1]:
+                relativePath = getRelativeIncludePath(marker[1])
+                relativePath = relativePath.replace("orbis/", "")
+                out.append(generateNimImport(relativePath))
         ignore_lines = marker[1] != header
     elif not ignore_lines and not isMacroFunction(line):
         if isLineWithComment(line):
