@@ -29,7 +29,7 @@ def runC2Nim(infile):
         os.remove(infile[0:-2] + ".nim")
     except OSError:
         pass
-    subprocess.run(["c2nim", "--stdints", infile])
+    subprocess.run(["c2nim", "--reordercomments", "--stdints", infile])
 
 def exportToDist():
     args = "find ./source -name '*.nim' -exec cp -prv '{}' './dist/' ';'".split()
