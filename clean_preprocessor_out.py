@@ -14,7 +14,7 @@ assert parseLineMarker("# 1 \"abc\"") == ("1", "abc", '')
 
 assert parseLineMarker("# 0 \"\" 1 2 3 4") == ("0", "", " 1 2 3 4")
 
-def isMacroFunctionStartLine(line):
+def isMacroFunction(line):
     if line[0] != "#":
         return False
     line = line[1:].strip()
@@ -26,25 +26,12 @@ def isMacroFunctionStartLine(line):
         return False
     return True
 
-assert isMacroFunctionStartLine("#define A(x) x") == True
-
-# Assume the source file is a valid one
-def countLineCont(lines, start):
-    lines_length = len(lines)
-    idx = start
-    lineCont = 0
-    while idx < lines_length:
-        if lines[idx].strip()[-1] != "\\":
-            break
-        lineCont += 1
-        idx += 1
-    return lineCont
+assert isMacroFunction("#define A(x) x") == True
 
 filename = sys.argv[1]
 header = sys.argv[2]
 with open(filename, 'r') as fh:
     lines = [line for line in fh]    
-
 
 out = []
 idx = 0 
@@ -59,9 +46,7 @@ while idx < lines_length:
     marker = parseLineMarker(line.strip())
     if marker:
         ignore_lines = marker[1] != header
-    elif isMacroFunctionStartLine(line):
-        idx += countLineCont(lines, idx)
-    elif not ignore_lines:
+    elif not ignore_lines and not isMacroFunction(line):
         out.append(line)
     idx += 1
 
