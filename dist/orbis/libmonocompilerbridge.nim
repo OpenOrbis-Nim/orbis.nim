@@ -1,211 +1,211 @@
 proc comm_init*() {.cdecl, importc: "comm_init",
                     header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_array_append_vals*() {.cdecl, importc: "g_array_append_vals",
-                              header: "orbis/libmonocompilerbridge.h".}
+proc g_arrayappendvals*() {.cdecl, importc: "g_array_append_vals",
+                            header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_array_free*() {.cdecl, importc: "g_array_free",
-                       header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_array_insert_vals*() {.cdecl, importc: "g_array_insert_vals",
-                              header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_array_new*() {.cdecl, importc: "g_array_new",
+proc g_arrayfree*() {.cdecl, importc: "g_array_free",
                       header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_ascii_strcasecmp*() {.cdecl, importc: "g_ascii_strcasecmp",
+proc g_arrayinsertvals*() {.cdecl, importc: "g_array_insert_vals",
+                            header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_arraynew*() {.cdecl, importc: "g_array_new",
+                     header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_asciistrcasecmp*() {.cdecl, importc: "g_ascii_strcasecmp",
+                            header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_asciistrdown*() {.cdecl, importc: "g_ascii_strdown",
+                         header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_asciistrncasecmp*() {.cdecl, importc: "g_ascii_strncasecmp",
                              header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_ascii_strdown*() {.cdecl, importc: "g_ascii_strdown",
-                          header: "orbis/libmonocompilerbridge.h".}
+proc g_asciitolower*() {.cdecl, importc: "g_ascii_tolower",
+                         header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_ascii_strncasecmp*() {.cdecl, importc: "g_ascii_strncasecmp",
-                              header: "orbis/libmonocompilerbridge.h".}
+proc g_asciixdigitvalue*() {.cdecl, importc: "g_ascii_xdigit_value",
+                             header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_ascii_tolower*() {.cdecl, importc: "g_ascii_tolower",
-                          header: "orbis/libmonocompilerbridge.h".}
+proc g_assertionmessage*() {.cdecl, importc: "g_assertion_message",
+                             header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_ascii_xdigit_value*() {.cdecl, importc: "g_ascii_xdigit_value",
-                               header: "orbis/libmonocompilerbridge.h".}
+proc g_buildpath*() {.cdecl, importc: "g_build_path",
+                      header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_assertion_message*() {.cdecl, importc: "g_assertion_message",
-                              header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_build_path*() {.cdecl, importc: "g_build_path",
+proc g_clearerror*() {.cdecl, importc: "g_clear_error",
                        header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_clear_error*() {.cdecl, importc: "g_clear_error",
-                        header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
 proc g_convert*() {.cdecl, importc: "g_convert",
                     header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_dir_close*() {.cdecl, importc: "g_dir_close",
-                      header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_dir_open*() {.cdecl, importc: "g_dir_open",
+proc g_dirclose*() {.cdecl, importc: "g_dir_close",
                      header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_dir_read_name*() {.cdecl, importc: "g_dir_read_name",
-                          header: "orbis/libmonocompilerbridge.h".}
+proc g_diropen*() {.cdecl, importc: "g_dir_open",
+                    header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_dir_rewind*() {.cdecl, importc: "g_dir_rewind",
-                       header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_direct_equal*() {.cdecl, importc: "g_direct_equal",
-                         header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_direct_hash*() {.cdecl, importc: "g_direct_hash",
+proc g_dirreadname*() {.cdecl, importc: "g_dir_read_name",
                         header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_error_free*() {.cdecl, importc: "g_error_free",
-                       header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_file_get_contents*() {.cdecl, importc: "g_file_get_contents",
-                              header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_file_open_tmp*() {.cdecl, importc: "g_file_open_tmp",
-                          header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_file_test*() {.cdecl, importc: "g_file_test",
+proc g_dirrewind*() {.cdecl, importc: "g_dir_rewind",
                       header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_filename_from_uri*() {.cdecl, importc: "g_filename_from_uri",
-                              header: "orbis/libmonocompilerbridge.h".}
+proc g_directequal*() {.cdecl, importc: "g_direct_equal",
+                        header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_filename_from_utf8*() {.cdecl, importc: "g_filename_from_utf8",
-                               header: "orbis/libmonocompilerbridge.h".}
+proc g_directhash*() {.cdecl, importc: "g_direct_hash",
+                       header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_filename_to_uri*() {.cdecl, importc: "g_filename_to_uri",
+proc g_errorfree*() {.cdecl, importc: "g_error_free",
+                      header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_filegetcontents*() {.cdecl, importc: "g_file_get_contents",
                             header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_find_program_in_path*() {.cdecl, importc: "g_find_program_in_path",
-                                 header: "orbis/libmonocompilerbridge.h".}
+proc g_fileopentmp*() {.cdecl, importc: "g_file_open_tmp",
+                        header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_filetest*() {.cdecl, importc: "g_file_test",
+                     header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_filenamefromuri*() {.cdecl, importc: "g_filename_from_uri",
+                            header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_filenamefromutf8*() {.cdecl, importc: "g_filename_from_utf8",
+                             header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_filenametouri*() {.cdecl, importc: "g_filename_to_uri",
+                          header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_findprograminpath*() {.cdecl, importc: "g_find_program_in_path",
+                              header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
 proc g_free*() {.cdecl, importc: "g_free",
                  header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_get_charset*() {.cdecl, importc: "g_get_charset",
-                        header: "orbis/libmonocompilerbridge.h".}
+proc g_getcharset*() {.cdecl, importc: "g_get_charset",
+                       header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_get_current_dir*() {.cdecl, importc: "g_get_current_dir",
-                            header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_get_home_dir*() {.cdecl, importc: "g_get_home_dir",
-                         header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_get_prgname*() {.cdecl, importc: "g_get_prgname",
-                        header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_get_tmp_dir*() {.cdecl, importc: "g_get_tmp_dir",
-                        header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_get_user_name*() {.cdecl, importc: "g_get_user_name",
+proc g_getcurrentdir*() {.cdecl, importc: "g_get_current_dir",
                           header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_gethomedir*() {.cdecl, importc: "g_get_home_dir",
+                       header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_getprgname*() {.cdecl, importc: "g_get_prgname",
+                       header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_gettmpdir*() {.cdecl, importc: "g_get_tmp_dir",
+                      header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_getusername*() {.cdecl, importc: "g_get_user_name",
+                        header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
 proc g_getenv*() {.cdecl, importc: "g_getenv",
                    header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_hash_table_destroy*() {.cdecl, importc: "g_hash_table_destroy",
-                               header: "orbis/libmonocompilerbridge.h".}
+proc g_hashtabledestroy*() {.cdecl, importc: "g_hash_table_destroy",
+                             header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_hash_table_foreach*() {.cdecl, importc: "g_hash_table_foreach",
-                               header: "orbis/libmonocompilerbridge.h".}
+proc g_hashtableforeach*() {.cdecl, importc: "g_hash_table_foreach",
+                             header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_hash_table_foreach_remove*() {.cdecl,
-                                      importc: "g_hash_table_foreach_remove",
-                                      header: "orbis/libmonocompilerbridge.h".}
+proc g_hashtableforeachremove*() {.cdecl,
+                                   importc: "g_hash_table_foreach_remove",
+                                   header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_hash_table_insert_replace*() {.cdecl,
-                                      importc: "g_hash_table_insert_replace",
-                                      header: "orbis/libmonocompilerbridge.h".}
+proc g_hashtableinsertreplace*() {.cdecl,
+                                   importc: "g_hash_table_insert_replace",
+                                   header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_hash_table_iter_init*() {.cdecl, importc: "g_hash_table_iter_init",
-                                 header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_hash_table_iter_next*() {.cdecl, importc: "g_hash_table_iter_next",
-                                 header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_hash_table_lookup*() {.cdecl, importc: "g_hash_table_lookup",
+proc g_hashtableiterinit*() {.cdecl, importc: "g_hash_table_iter_init",
                               header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_hash_table_lookup_extended*() {.cdecl,
-                                       importc: "g_hash_table_lookup_extended",
-                                       header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_hash_table_new*() {.cdecl, importc: "g_hash_table_new",
-                           header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_hash_table_new_full*() {.cdecl, importc: "g_hash_table_new_full",
-                                header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_hash_table_remove*() {.cdecl, importc: "g_hash_table_remove",
+proc g_hashtableiternext*() {.cdecl, importc: "g_hash_table_iter_next",
                               header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_hash_table_size*() {.cdecl, importc: "g_hash_table_size",
+proc g_hashtablelookup*() {.cdecl, importc: "g_hash_table_lookup",
                             header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_list_append*() {.cdecl, importc: "g_list_append",
-                        header: "orbis/libmonocompilerbridge.h".}
+proc g_hashtablelookupextended*() {.cdecl,
+                                    importc: "g_hash_table_lookup_extended",
+                                    header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_list_copy*() {.cdecl, importc: "g_list_copy",
-                      header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_list_delete_link*() {.cdecl, importc: "g_list_delete_link",
-                             header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_list_find*() {.cdecl, importc: "g_list_find",
-                      header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_list_foreach*() {.cdecl, importc: "g_list_foreach",
+proc g_hashtablenew*() {.cdecl, importc: "g_hash_table_new",
                          header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_list_free*() {.cdecl, importc: "g_list_free",
-                      header: "orbis/libmonocompilerbridge.h".}
+proc g_hashtablenewfull*() {.cdecl, importc: "g_hash_table_new_full",
+                             header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_list_insert_before*() {.cdecl, importc: "g_list_insert_before",
-                               header: "orbis/libmonocompilerbridge.h".}
+proc g_hashtableremove*() {.cdecl, importc: "g_hash_table_remove",
+                            header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_list_insert_sorted*() {.cdecl, importc: "g_list_insert_sorted",
-                               header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_list_length*() {.cdecl, importc: "g_list_length",
-                        header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_list_nth*() {.cdecl, importc: "g_list_nth",
-                     header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_list_nth_data*() {.cdecl, importc: "g_list_nth_data",
+proc g_hashtablesize*() {.cdecl, importc: "g_hash_table_size",
                           header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_list_prepend*() {.cdecl, importc: "g_list_prepend",
-                         header: "orbis/libmonocompilerbridge.h".}
+proc g_listappend*() {.cdecl, importc: "g_list_append",
+                       header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_list_remove*() {.cdecl, importc: "g_list_remove",
+proc g_listcopy*() {.cdecl, importc: "g_list_copy",
+                     header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_listdeletelink*() {.cdecl, importc: "g_list_delete_link",
+                           header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_listfind*() {.cdecl, importc: "g_list_find",
+                     header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_listforeach*() {.cdecl, importc: "g_list_foreach",
                         header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_list_remove_link*() {.cdecl, importc: "g_list_remove_link",
+proc g_listfree*() {.cdecl, importc: "g_list_free",
+                     header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_listinsertbefore*() {.cdecl, importc: "g_list_insert_before",
                              header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_list_reverse*() {.cdecl, importc: "g_list_reverse",
-                         header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_list_sort*() {.cdecl, importc: "g_list_sort",
-                      header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_locale_from_utf8*() {.cdecl, importc: "g_locale_from_utf8",
+proc g_listinsertsorted*() {.cdecl, importc: "g_list_insert_sorted",
                              header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_locale_to_utf8*() {.cdecl, importc: "g_locale_to_utf8",
+proc g_listlength*() {.cdecl, importc: "g_list_length",
+                       header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_listnth*() {.cdecl, importc: "g_list_nth",
+                    header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_listnthdata*() {.cdecl, importc: "g_list_nth_data",
+                        header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_listprepend*() {.cdecl, importc: "g_list_prepend",
+                        header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_listremove*() {.cdecl, importc: "g_list_remove",
+                       header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_listremovelink*() {.cdecl, importc: "g_list_remove_link",
                            header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_listreverse*() {.cdecl, importc: "g_list_reverse",
+                        header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_listsort*() {.cdecl, importc: "g_list_sort",
+                     header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_localefromutf8*() {.cdecl, importc: "g_locale_from_utf8",
+                           header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_localetoutf8*() {.cdecl, importc: "g_locale_to_utf8",
+                         header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
 proc g_log*() {.cdecl, importc: "g_log", header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_log_set_always_fatal*() {.cdecl, importc: "g_log_set_always_fatal",
-                                 header: "orbis/libmonocompilerbridge.h".}
+proc g_logsetalwaysfatal*() {.cdecl, importc: "g_log_set_always_fatal",
+                              header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_log_set_fatal_mask*() {.cdecl, importc: "g_log_set_fatal_mask",
-                               header: "orbis/libmonocompilerbridge.h".}
+proc g_logsetfatalmask*() {.cdecl, importc: "g_log_set_fatal_mask",
+                            header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
 proc g_logv*() {.cdecl, importc: "g_logv",
                  header: "orbis/libmonocompilerbridge.h".}
@@ -216,33 +216,31 @@ proc g_malloc*() {.cdecl, importc: "g_malloc",
 proc g_malloc0*() {.cdecl, importc: "g_malloc0",
                     header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_markup_parse_context_end_parse*() {.cdecl,
-    importc: "g_markup_parse_context_end_parse",
-    header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_markup_parse_context_free*() {.cdecl,
-                                      importc: "g_markup_parse_context_free",
-                                      header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_markup_parse_context_new*() {.cdecl,
-                                     importc: "g_markup_parse_context_new",
-                                     header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_markup_parse_context_parse*() {.cdecl,
-                                       importc: "g_markup_parse_context_parse",
+proc g_markupparsecontextendparse*() {.cdecl, importc: "g_markup_parse_context_end_parse",
                                        header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_markupparsecontextfree*() {.cdecl,
+                                   importc: "g_markup_parse_context_free",
+                                   header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_markupparsecontextnew*() {.cdecl, importc: "g_markup_parse_context_new",
+                                  header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_markupparsecontextparse*() {.cdecl,
+                                    importc: "g_markup_parse_context_parse",
+                                    header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
 proc g_memdup*() {.cdecl, importc: "g_memdup",
                    header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_path_get_basename*() {.cdecl, importc: "g_path_get_basename",
-                              header: "orbis/libmonocompilerbridge.h".}
+proc g_pathgetbasename*() {.cdecl, importc: "g_path_get_basename",
+                            header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_path_get_dirname*() {.cdecl, importc: "g_path_get_dirname",
-                             header: "orbis/libmonocompilerbridge.h".}
+proc g_pathgetdirname*() {.cdecl, importc: "g_path_get_dirname",
+                           header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_path_is_absolute*() {.cdecl, importc: "g_path_is_absolute",
-                             header: "orbis/libmonocompilerbridge.h".}
+proc g_pathisabsolute*() {.cdecl, importc: "g_path_is_absolute",
+                           header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
 proc g_print*() {.cdecl, importc: "g_print",
                   header: "orbis/libmonocompilerbridge.h".}
@@ -250,131 +248,132 @@ proc g_print*() {.cdecl, importc: "g_print",
 proc g_printerr*() {.cdecl, importc: "g_printerr",
                      header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_ptr_array_add*() {.cdecl, importc: "g_ptr_array_add",
-                          header: "orbis/libmonocompilerbridge.h".}
+proc g_ptrarrayadd*() {.cdecl, importc: "g_ptr_array_add",
+                        header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_ptr_array_free*() {.cdecl, importc: "g_ptr_array_free",
+proc g_ptrarrayfree*() {.cdecl, importc: "g_ptr_array_free",
+                         header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_ptrarraynew*() {.cdecl, importc: "g_ptr_array_new",
+                        header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_ptrarrayremove*() {.cdecl, importc: "g_ptr_array_remove",
                            header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_ptr_array_new*() {.cdecl, importc: "g_ptr_array_new",
-                          header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_ptr_array_remove*() {.cdecl, importc: "g_ptr_array_remove",
-                             header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_ptr_array_remove_fast*() {.cdecl, importc: "g_ptr_array_remove_fast",
-                                  header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_ptr_array_remove_index_fast*() {.cdecl, importc: "g_ptr_array_remove_index_fast",
-                                        header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_ptr_array_set_size*() {.cdecl, importc: "g_ptr_array_set_size",
+proc g_ptrarrayremovefast*() {.cdecl, importc: "g_ptr_array_remove_fast",
                                header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_ptr_array_sized_new*() {.cdecl, importc: "g_ptr_array_sized_new",
-                                header: "orbis/libmonocompilerbridge.h".}
+proc g_ptrarrayremoveindexfast*() {.cdecl,
+                                    importc: "g_ptr_array_remove_index_fast",
+                                    header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_ptr_array_sort*() {.cdecl, importc: "g_ptr_array_sort",
-                           header: "orbis/libmonocompilerbridge.h".}
+proc g_ptrarraysetsize*() {.cdecl, importc: "g_ptr_array_set_size",
+                            header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_queue_free*() {.cdecl, importc: "g_queue_free",
-                       header: "orbis/libmonocompilerbridge.h".}
+proc g_ptrarraysizednew*() {.cdecl, importc: "g_ptr_array_sized_new",
+                             header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_queue_is_empty*() {.cdecl, importc: "g_queue_is_empty",
-                           header: "orbis/libmonocompilerbridge.h".}
+proc g_ptrarraysort*() {.cdecl, importc: "g_ptr_array_sort",
+                         header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_queue_new*() {.cdecl, importc: "g_queue_new",
+proc g_queuefree*() {.cdecl, importc: "g_queue_free",
                       header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_queue_pop_head*() {.cdecl, importc: "g_queue_pop_head",
-                           header: "orbis/libmonocompilerbridge.h".}
+proc g_queueisempty*() {.cdecl, importc: "g_queue_is_empty",
+                         header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_queue_push_head*() {.cdecl, importc: "g_queue_push_head",
-                            header: "orbis/libmonocompilerbridge.h".}
+proc g_queuenew*() {.cdecl, importc: "g_queue_new",
+                     header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_queuepophead*() {.cdecl, importc: "g_queue_pop_head",
+                         header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_queuepushhead*() {.cdecl, importc: "g_queue_push_head",
+                          header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
 proc g_realloc*() {.cdecl, importc: "g_realloc",
                     header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_set_prgname*() {.cdecl, importc: "g_set_prgname",
-                        header: "orbis/libmonocompilerbridge.h".}
+proc g_setprgname*() {.cdecl, importc: "g_set_prgname",
+                       header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
 proc g_setenv*() {.cdecl, importc: "g_setenv",
                    header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_shell_parse_argv*() {.cdecl, importc: "g_shell_parse_argv",
-                             header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_shell_quote*() {.cdecl, importc: "g_shell_quote",
-                        header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_shell_unquote*() {.cdecl, importc: "g_shell_unquote",
-                          header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_slist_append*() {.cdecl, importc: "g_slist_append",
-                         header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_slist_concat*() {.cdecl, importc: "g_slist_concat",
-                         header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_slist_copy*() {.cdecl, importc: "g_slist_copy",
-                       header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_slist_delete_link*() {.cdecl, importc: "g_slist_delete_link",
-                              header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_slist_find*() {.cdecl, importc: "g_slist_find",
-                       header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_slist_find_custom*() {.cdecl, importc: "g_slist_find_custom",
-                              header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_slist_foreach*() {.cdecl, importc: "g_slist_foreach",
-                          header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_slist_free*() {.cdecl, importc: "g_slist_free",
-                       header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_slist_free_1*() {.cdecl, importc: "g_slist_free_1",
-                         header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_slist_insert_sorted*() {.cdecl, importc: "g_slist_insert_sorted",
-                                header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_slist_length*() {.cdecl, importc: "g_slist_length",
-                         header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_slist_nth*() {.cdecl, importc: "g_slist_nth",
-                      header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_slist_nth_data*() {.cdecl, importc: "g_slist_nth_data",
+proc g_shellparseargv*() {.cdecl, importc: "g_shell_parse_argv",
                            header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_slist_prepend*() {.cdecl, importc: "g_slist_prepend",
-                          header: "orbis/libmonocompilerbridge.h".}
+proc g_shellquote*() {.cdecl, importc: "g_shell_quote",
+                       header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_slist_remove*() {.cdecl, importc: "g_slist_remove",
+proc g_shellunquote*() {.cdecl, importc: "g_shell_unquote",
                          header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_slist_reverse*() {.cdecl, importc: "g_slist_reverse",
-                          header: "orbis/libmonocompilerbridge.h".}
+proc g_slistappend*() {.cdecl, importc: "g_slist_append",
+                        header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_slistconcat*() {.cdecl, importc: "g_slist_concat",
+                        header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_slistcopy*() {.cdecl, importc: "g_slist_copy",
+                      header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_slistdeletelink*() {.cdecl, importc: "g_slist_delete_link",
+                            header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_slistfind*() {.cdecl, importc: "g_slist_find",
+                      header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_slistfindcustom*() {.cdecl, importc: "g_slist_find_custom",
+                            header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_slistforeach*() {.cdecl, importc: "g_slist_foreach",
+                         header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_slistfree*() {.cdecl, importc: "g_slist_free",
+                      header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_slistfree1*() {.cdecl, importc: "g_slist_free_1",
+                       header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_slistinsertsorted*() {.cdecl, importc: "g_slist_insert_sorted",
+                              header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_slistlength*() {.cdecl, importc: "g_slist_length",
+                        header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_slistnth*() {.cdecl, importc: "g_slist_nth",
+                     header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_slistnthdata*() {.cdecl, importc: "g_slist_nth_data",
+                         header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_slistprepend*() {.cdecl, importc: "g_slist_prepend",
+                         header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_slistremove*() {.cdecl, importc: "g_slist_remove",
+                        header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_slistreverse*() {.cdecl, importc: "g_slist_reverse",
+                         header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
 proc g_snprintf*() {.cdecl, importc: "g_snprintf",
                      header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_spaced_primes_closest*() {.cdecl, importc: "g_spaced_primes_closest",
-                                  header: "orbis/libmonocompilerbridge.h".}
+proc g_spacedprimesclosest*() {.cdecl, importc: "g_spaced_primes_closest",
+                                header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_str_equal*() {.cdecl, importc: "g_str_equal",
-                      header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_str_has_prefix*() {.cdecl, importc: "g_str_has_prefix",
-                           header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_str_has_suffix*() {.cdecl, importc: "g_str_has_suffix",
-                           header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_str_hash*() {.cdecl, importc: "g_str_hash",
+proc g_strequal*() {.cdecl, importc: "g_str_equal",
                      header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_strhasprefix*() {.cdecl, importc: "g_str_has_prefix",
+                         header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_strhassuffix*() {.cdecl, importc: "g_str_has_suffix",
+                         header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_strhash*() {.cdecl, importc: "g_str_hash",
+                    header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
 proc g_strchomp*() {.cdecl, importc: "g_strchomp",
                      header: "orbis/libmonocompilerbridge.h".}
@@ -391,11 +390,11 @@ proc g_strdelimit*() {.cdecl, importc: "g_strdelimit",
 proc g_strdup*() {.cdecl, importc: "g_strdup",
                    header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_strdup_printf*() {.cdecl, importc: "g_strdup_printf",
-                          header: "orbis/libmonocompilerbridge.h".}
+proc g_strdupprintf*() {.cdecl, importc: "g_strdup_printf",
+                         header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_strdup_vprintf*() {.cdecl, importc: "g_strdup_vprintf",
-                           header: "orbis/libmonocompilerbridge.h".}
+proc g_strdupvprintf*() {.cdecl, importc: "g_strdup_vprintf",
+                          header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
 proc g_strerror*() {.cdecl, importc: "g_strerror",
                      header: "orbis/libmonocompilerbridge.h".}
@@ -403,32 +402,32 @@ proc g_strerror*() {.cdecl, importc: "g_strerror",
 proc g_strfreev*() {.cdecl, importc: "g_strfreev",
                      header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_string_append*() {.cdecl, importc: "g_string_append",
+proc g_stringappend*() {.cdecl, importc: "g_string_append",
+                         header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_stringappendc*() {.cdecl, importc: "g_string_append_c",
                           header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_string_append_c*() {.cdecl, importc: "g_string_append_c",
+proc g_stringappendlen*() {.cdecl, importc: "g_string_append_len",
                             header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_string_append_len*() {.cdecl, importc: "g_string_append_len",
-                              header: "orbis/libmonocompilerbridge.h".}
+proc g_stringappendprintf*() {.cdecl, importc: "g_string_append_printf",
+                               header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_string_append_printf*() {.cdecl, importc: "g_string_append_printf",
-                                 header: "orbis/libmonocompilerbridge.h".}
+proc g_stringappendvprintf*() {.cdecl, importc: "g_string_append_vprintf",
+                                header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_string_append_vprintf*() {.cdecl, importc: "g_string_append_vprintf",
-                                  header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_string_free*() {.cdecl, importc: "g_string_free",
-                        header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_string_new*() {.cdecl, importc: "g_string_new",
+proc g_stringfree*() {.cdecl, importc: "g_string_free",
                        header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_string_new_len*() {.cdecl, importc: "g_string_new_len",
-                           header: "orbis/libmonocompilerbridge.h".}
+proc g_stringnew*() {.cdecl, importc: "g_string_new",
+                      header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_string_printf*() {.cdecl, importc: "g_string_printf",
-                          header: "orbis/libmonocompilerbridge.h".}
+proc g_stringnewlen*() {.cdecl, importc: "g_string_new_len",
+                         header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_stringprintf*() {.cdecl, importc: "g_string_printf",
+                         header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
 proc g_strjoin*() {.cdecl, importc: "g_strjoin",
                     header: "orbis/libmonocompilerbridge.h".}
@@ -448,29 +447,29 @@ proc g_strreverse*() {.cdecl, importc: "g_strreverse",
 proc g_strsplit*() {.cdecl, importc: "g_strsplit",
                      header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_timer_destroy*() {.cdecl, importc: "g_timer_destroy",
-                          header: "orbis/libmonocompilerbridge.h".}
+proc g_timerdestroy*() {.cdecl, importc: "g_timer_destroy",
+                         header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_timer_elapsed*() {.cdecl, importc: "g_timer_elapsed",
-                          header: "orbis/libmonocompilerbridge.h".}
+proc g_timerelapsed*() {.cdecl, importc: "g_timer_elapsed",
+                         header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_timer_new*() {.cdecl, importc: "g_timer_new",
+proc g_timernew*() {.cdecl, importc: "g_timer_new",
+                     header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_timerstop*() {.cdecl, importc: "g_timer_stop",
                       header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_timer_stop*() {.cdecl, importc: "g_timer_stop",
+proc g_trymalloc*() {.cdecl, importc: "g_try_malloc",
+                      header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_tryrealloc*() {.cdecl, importc: "g_try_realloc",
                        header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_try_malloc*() {.cdecl, importc: "g_try_malloc",
-                       header: "orbis/libmonocompilerbridge.h".}
+proc g_unichartolower*() {.cdecl, importc: "g_unichar_tolower",
+                           header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_try_realloc*() {.cdecl, importc: "g_try_realloc",
+proc g_unichartype*() {.cdecl, importc: "g_unichar_type",
                         header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_unichar_tolower*() {.cdecl, importc: "g_unichar_tolower",
-                            header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_unichar_type*() {.cdecl, importc: "g_unichar_type",
-                         header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
 proc g_unsetenv*() {.cdecl, importc: "g_unsetenv",
                      header: "orbis/libmonocompilerbridge.h".}
@@ -478,21 +477,21 @@ proc g_unsetenv*() {.cdecl, importc: "g_unsetenv",
 proc g_usleep*() {.cdecl, importc: "g_usleep",
                    header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_utf16_to_utf8*() {.cdecl, importc: "g_utf16_to_utf8",
-                          header: "orbis/libmonocompilerbridge.h".}
+proc g_utf16toutf8*() {.cdecl, importc: "g_utf16_to_utf8",
+                        header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc g_utf8_strdown*() {.cdecl, importc: "g_utf8_strdown",
+proc g_utf8strdown*() {.cdecl, importc: "g_utf8_strdown",
+                        header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_utf8toutf16*() {.cdecl, importc: "g_utf8_to_utf16",
+                        header: "orbis/libmonocompilerbridge.h".}
+  ##  Empty Comment
+proc g_utf8validate*() {.cdecl, importc: "g_utf8_validate",
                          header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_utf8_to_utf16*() {.cdecl, importc: "g_utf8_to_utf16",
-                          header: "orbis/libmonocompilerbridge.h".}
-  ##  Empty Comment
-proc g_utf8_validate*() {.cdecl, importc: "g_utf8_validate",
-                          header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
 proc get_random*() {.cdecl, importc: "get_random",
                      header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment
-proc pss_code_mem_alloc*() {.cdecl, importc: "pss_code_mem_alloc",
-                             header: "orbis/libmonocompilerbridge.h".}
+proc pss_codememalloc*() {.cdecl, importc: "pss_code_mem_alloc",
+                           header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment

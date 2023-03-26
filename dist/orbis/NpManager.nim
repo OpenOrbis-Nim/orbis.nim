@@ -1,47 +1,47 @@
 import "_types/Np"
-proc _sceNpIpcCreateMemoryFromKernel*() {.cdecl,
+proc sceNpIpcCreateMemoryFromKernel*() {.cdecl,
     importc: "_sceNpIpcCreateMemoryFromKernel", header: "orbis/NpManager.h".}
   ##  Empty Comment
-proc _sceNpIpcCreateMemoryFromPool*() {.cdecl, importc: "_sceNpIpcCreateMemoryFromPool",
-                                        header: "orbis/NpManager.h".}
+proc sceNpIpcCreateMemoryFromPool*() {.cdecl, importc: "_sceNpIpcCreateMemoryFromPool",
+                                       header: "orbis/NpManager.h".}
   ##  Empty Comment
-proc _sceNpIpcDestroyMemory*() {.cdecl, importc: "_sceNpIpcDestroyMemory",
-                                 header: "orbis/NpManager.h".}
-  ##  Empty Comment
-proc _sceNpIpcFreeImpl*() {.cdecl, importc: "_sceNpIpcFreeImpl",
-                            header: "orbis/NpManager.h".}
-  ##  Empty Comment
-proc _sceNpIpcGetNpMemAllocator*() {.cdecl,
-                                     importc: "_sceNpIpcGetNpMemAllocator",
-                                     header: "orbis/NpManager.h".}
-  ##  Empty Comment
-proc _sceNpIpcMallocImpl*() {.cdecl, importc: "_sceNpIpcMallocImpl",
-                              header: "orbis/NpManager.h".}
-  ##  Empty Comment
-proc _sceNpIpcReallocImpl*() {.cdecl, importc: "_sceNpIpcReallocImpl",
-                               header: "orbis/NpManager.h".}
-  ##  Empty Comment
-proc _sceNpManagerCreateMemoryFromKernel*() {.cdecl,
-    importc: "_sceNpManagerCreateMemoryFromKernel", header: "orbis/NpManager.h".}
-  ##  Empty Comment
-proc _sceNpManagerCreateMemoryFromPool*() {.cdecl,
-    importc: "_sceNpManagerCreateMemoryFromPool", header: "orbis/NpManager.h".}
-  ##  Empty Comment
-proc _sceNpManagerDestroyMemory*() {.cdecl,
-                                     importc: "_sceNpManagerDestroyMemory",
-                                     header: "orbis/NpManager.h".}
-  ##  Empty Comment
-proc _sceNpManagerFreeImpl*() {.cdecl, importc: "_sceNpManagerFreeImpl",
+proc sceNpIpcDestroyMemory*() {.cdecl, importc: "_sceNpIpcDestroyMemory",
                                 header: "orbis/NpManager.h".}
   ##  Empty Comment
-proc _sceNpManagerGetNpMemAllocator*() {.cdecl,
-    importc: "_sceNpManagerGetNpMemAllocator", header: "orbis/NpManager.h".}
+proc sceNpIpcFreeImpl*() {.cdecl, importc: "_sceNpIpcFreeImpl",
+                           header: "orbis/NpManager.h".}
   ##  Empty Comment
-proc _sceNpManagerMallocImpl*() {.cdecl, importc: "_sceNpManagerMallocImpl",
+proc sceNpIpcGetNpMemAllocator*() {.cdecl,
+                                    importc: "_sceNpIpcGetNpMemAllocator",
+                                    header: "orbis/NpManager.h".}
+  ##  Empty Comment
+proc sceNpIpcMallocImpl*() {.cdecl, importc: "_sceNpIpcMallocImpl",
+                             header: "orbis/NpManager.h".}
+  ##  Empty Comment
+proc sceNpIpcReallocImpl*() {.cdecl, importc: "_sceNpIpcReallocImpl",
+                              header: "orbis/NpManager.h".}
+  ##  Empty Comment
+proc sceNpManagerCreateMemoryFromKernel*() {.cdecl,
+    importc: "_sceNpManagerCreateMemoryFromKernel", header: "orbis/NpManager.h".}
+  ##  Empty Comment
+proc sceNpManagerCreateMemoryFromPool*() {.cdecl,
+    importc: "_sceNpManagerCreateMemoryFromPool", header: "orbis/NpManager.h".}
+  ##  Empty Comment
+proc sceNpManagerDestroyMemory*() {.cdecl,
+                                    importc: "_sceNpManagerDestroyMemory",
+                                    header: "orbis/NpManager.h".}
+  ##  Empty Comment
+proc sceNpManagerFreeImpl*() {.cdecl, importc: "_sceNpManagerFreeImpl",
+                               header: "orbis/NpManager.h".}
+  ##  Empty Comment
+proc sceNpManagerGetNpMemAllocator*() {.cdecl, importc: "_sceNpManagerGetNpMemAllocator",
+                                        header: "orbis/NpManager.h".}
+  ##  Empty Comment
+proc sceNpManagerMallocImpl*() {.cdecl, importc: "_sceNpManagerMallocImpl",
+                                 header: "orbis/NpManager.h".}
+  ##  Empty Comment
+proc sceNpManagerReallocImpl*() {.cdecl, importc: "_sceNpManagerReallocImpl",
                                   header: "orbis/NpManager.h".}
-  ##  Empty Comment
-proc _sceNpManagerReallocImpl*() {.cdecl, importc: "_sceNpManagerReallocImpl",
-                                   header: "orbis/NpManager.h".}
   ##  Empty Comment
 proc sceNpAbortRequest*() {.cdecl, importc: "sceNpAbortRequest",
                             header: "orbis/NpManager.h".}

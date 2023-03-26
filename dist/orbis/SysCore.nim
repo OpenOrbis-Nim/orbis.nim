@@ -1,5 +1,5 @@
-proc _sceApplicationGetAppId*() {.cdecl, importc: "_sceApplicationGetAppId",
-                                  header: "orbis/SysCore.h".}
+proc sceApplicationGetAppId*() {.cdecl, importc: "_sceApplicationGetAppId",
+                                 header: "orbis/SysCore.h".}
   ##  Empty Comment
 proc sceApplicationAddProcess2*() {.cdecl, importc: "sceApplicationAddProcess2",
                                     header: "orbis/SysCore.h".}

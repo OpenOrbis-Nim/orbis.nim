@@ -1,4 +1,4 @@
-proc _Z5dummyv*() {.cdecl, importc: "_Z5dummyv", header: "orbis/ScreenShot.h".}
+proc Z5dummyv*() {.cdecl, importc: "_Z5dummyv", header: "orbis/ScreenShot.h".}
   ##  Empty Comment
 proc sceScreenShotCapture*() {.cdecl, importc: "sceScreenShotCapture",
                                header: "orbis/ScreenShot.h".}

@@ -3,18 +3,18 @@ import "_types/pthread"
 import "_types/errors"
 var sceLibcHeapSize* {.importc: "sceLibcHeapSize", header: "orbis/libkernel.h".}: uint64
 
-var sce_libc_heap_delayed_alloc* {.importc: "sce_libc_heap_delayed_alloc",
-                                   header: "orbis/libkernel.h".}: uint32
+var sce_libcheapdelayedalloc* {.importc: "sce_libc_heap_delayed_alloc",
+                                header: "orbis/libkernel.h".}: uint32
 
-var sce_libc_heap_extended_alloc* {.importc: "sce_libc_heap_extended_alloc",
-                                    header: "orbis/libkernel.h".}: uint32
+var sce_libcheapextendedalloc* {.importc: "sce_libc_heap_extended_alloc",
+                                 header: "orbis/libkernel.h".}: uint32
 
 type
   Proc_Stats* {.importc: "Proc_Stats", header: "orbis/libkernel.h", bycopy.} = object
     lo_data* {.importc: "lo_data".}: cint ## 0x00
     td_tid* {.importc: "td_tid".}: cuint ## 0x08
-    user_cpu_usage_time* {.importc: "user_cpu_usage_time".}: OrbisKernelTimespec ## 0x18
-    system_cpu_usage_time* {.importc: "system_cpu_usage_time".}: OrbisKernelTimespec
+    user_cpuusagetime* {.importc: "user_cpu_usage_time".}: OrbisKernelTimespec ## 0x18
+    system_cpuusagetime* {.importc: "system_cpu_usage_time".}: OrbisKernelTimespec
     ## 0x28
 
 

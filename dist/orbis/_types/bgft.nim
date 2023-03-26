@@ -1,44 +1,38 @@
 type
-  _OrbisBgftInitParams* {.importc: "_OrbisBgftInitParams",
-                          header: "orbis/_types/bgft.h", bycopy.} = object ##  https://github.com/flatz/ps4_stub_lib_maker_v2/blob/master/include/bgft.h
+  OrbisBgftInitParams* {.importc: "_OrbisBgftInitParams",
+                         header: "orbis/_types/bgft.h", bycopy.} = object ##  https://github.com/flatz/ps4_stub_lib_maker_v2/blob/master/include/bgft.h
     heap* {.importc: "heap".}: pointer
     heapSize* {.importc: "heapSize".}: csize_t
 
-  _OrbisBgftTaskSubType* {.size: sizeof(cint).} = enum
-    ORBIS_BGFT_TASK_SUB_TYPE_UNKNOWN = 0, ORBIS_BGFT_TASK_SUB_TYPE_PHOTO = 1,
-    ORBIS_BGFT_TASK_SUB_TYPE_MUSIC = 2, ORBIS_BGFT_TASK_SUB_TYPE_VIDEO = 3,
-    ORBIS_BGFT_TASK_SUB_TYPE_MARLIN_VIDEO = 4,
-    ORBIS_BGFT_TASK_SUB_TYPE_UPDATA_ORBIS = 5,
-    ORBIS_BGFT_TASK_SUB_TYPE_GAME = 6, ORBIS_BGFT_TASK_SUB_TYPE_GAME_AC = 7,
-    ORBIS_BGFT_TASK_SUB_TYPE_GAME_PATCH = 8,
-    ORBIS_BGFT_TASK_SUB_TYPE_GAME_LICENSE = 9,
-    ORBIS_BGFT_TASK_SUB_TYPE_SAVE_DATA = 10,
-    ORBIS_BGFT_TASK_SUB_TYPE_CRASH_REPORT = 11,
-    ORBIS_BGFT_TASK_SUB_TYPE_PACKAGE = 12, ORBIS_BGFT_TASK_SUB_TYPE_MAX = 13
+  OrbisBgftTaskSubType* {.size: sizeof(cint).} = enum
+    ORBIS_BGFTTASKSUBTYPEUNKNOWN = 0, ORBIS_BGFTTASKSUBTYPEPHOTO = 1,
+    ORBIS_BGFTTASKSUBTYPEMUSIC = 2, ORBIS_BGFTTASKSUBTYPEVIDEO = 3,
+    ORBIS_BGFTTASKSUBTYPEMARLINVIDEO = 4, ORBIS_BGFTTASKSUBTYPEUPDATAORBIS = 5,
+    ORBIS_BGFTTASKSUBTYPEGAME = 6, ORBIS_BGFTTASKSUBTYPEGAMEAC = 7,
+    ORBIS_BGFTTASKSUBTYPEGAMEPATCH = 8, ORBIS_BGFTTASKSUBTYPEGAMELICENSE = 9,
+    ORBIS_BGFTTASKSUBTYPESAVEDATA = 10, ORBIS_BGFTTASKSUBTYPECRASHREPORT = 11,
+    ORBIS_BGFTTASKSUBTYPEPACKAGE = 12, ORBIS_BGFTTASKSUBTYPEMAX = 13
 
 
 
 type
-  _OrbisBgftTaskOpt* {.size: sizeof(cint).} = enum
-    ORBIS_BGFT_TASK_OPT_NONE = 0x0,
-    ORBIS_BGFT_TASK_OPT_DELETE_AFTER_UPLOAD = 0x1,
-    ORBIS_BGFT_TASK_OPT_INVISIBLE = 0x2,
-    ORBIS_BGFT_TASK_OPT_ENABLE_PLAYGO = 0x4,
-    ORBIS_BGFT_TASK_OPT_FORCE_UPDATE = 0x8, ORBIS_BGFT_TASK_OPT_REMOTE = 0x10,
-    ORBIS_BGFT_TASK_OPT_COPY_CRASH_REPORT_FILES = 0x20, ORBIS_BGFT_TASK_OPT_DISABLE_INSERT_POPUP = 0x40, ##  ignores release date
-    ORBIS_BGFT_TASK_OPT_INTERNAL = 0x80,
-    ORBIS_BGFT_TASK_OPT_DISABLE_CDN_QUERY_PARAM = 0x10000
+  OrbisBgftTaskOpt* {.size: sizeof(cint).} = enum
+    ORBIS_BGFTTASKOPTNONE = 0x0, ORBIS_BGFTTASKOPTDELETEAFTERUPLOAD = 0x1,
+    ORBIS_BGFTTASKOPTINVISIBLE = 0x2, ORBIS_BGFTTASKOPTENABLEPLAYGO = 0x4,
+    ORBIS_BGFTTASKOPTFORCEUPDATE = 0x8, ORBIS_BGFTTASKOPTREMOTE = 0x10,
+    ORBIS_BGFTTASKOPTCOPYCRASHREPORTFILES = 0x20, ORBIS_BGFTTASKOPTDISABLEINSERTPOPUP = 0x40, ##  ignores release date
+    ORBIS_BGFTTASKOPTINTERNAL = 0x80,
+    ORBIS_BGFTTASKOPTDISABLECDNQUERYPARAM = 0x10000
 
 
 
 type
-  _OrbisBgftDownloadRegisterErrorInfo* {.
-      importc: "_OrbisBgftDownloadRegisterErrorInfo",
-      header: "orbis/_types/bgft.h", bycopy.} = object
+  OrbisBgftDownloadRegisterErrorInfo* {.importc: "_OrbisBgftDownloadRegisterErrorInfo",
+                                        header: "orbis/_types/bgft.h", bycopy.} = object
     buf* {.importc: "buf".}: array[0x100, uint8] ##  TODO
 
-  _OrbisBgftDownloadParam* {.importc: "_OrbisBgftDownloadParam",
-                             header: "orbis/_types/bgft.h", bycopy.} = object
+  OrbisBgftDownloadParam* {.importc: "_OrbisBgftDownloadParam",
+                            header: "orbis/_types/bgft.h", bycopy.} = object
     userId* {.importc: "userId".}: cint
     entitlementType* {.importc: "entitlementType".}: cint
     id* {.importc: "id".}: cstring ##  max size = 0x30
@@ -54,19 +48,19 @@ type
     packageSubType* {.importc: "packageSubType".}: cstring
     packageSize* {.importc: "packageSize".}: culong
 
-  _OrbisBgftDownloadParamEx* {.importc: "_OrbisBgftDownloadParamEx",
-                               header: "orbis/_types/bgft.h", bycopy.} = object
+  OrbisBgftDownloadParamEx* {.importc: "_OrbisBgftDownloadParamEx",
+                              header: "orbis/_types/bgft.h", bycopy.} = object
     params* {.importc: "params".}: OrbisBgftDownloadParam
     slot* {.importc: "slot".}: cuint
 
-  _OrbisBgftDownloadTaskInfo* {.importc: "_OrbisBgftDownloadTaskInfo",
-                                header: "orbis/_types/bgft.h", bycopy.} = object
+  OrbisBgftDownloadTaskInfo* {.importc: "_OrbisBgftDownloadTaskInfo",
+                               header: "orbis/_types/bgft.h", bycopy.} = object
     contentTitle* {.importc: "contentTitle".}: cstring
     iconPath* {.importc: "iconPath".}: cstring
     notificationUtcTick* {.importc: "notificationUtcTick".}: culong
 
-  _OrbisBgftTaskProgress* {.importc: "_OrbisBgftTaskProgress",
-                            header: "orbis/_types/bgft.h", bycopy.} = object
+  OrbisBgftTaskProgress* {.importc: "_OrbisBgftTaskProgress",
+                           header: "orbis/_types/bgft.h", bycopy.} = object
     bits* {.importc: "bits".}: cuint
     errorResult* {.importc: "errorResult".}: cint
     length* {.importc: "length".}: culong

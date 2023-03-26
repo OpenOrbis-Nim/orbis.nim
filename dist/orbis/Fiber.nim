@@ -1,17 +1,17 @@
-proc _sceFiberAttachContextAndRun*() {.cdecl,
-                                       importc: "_sceFiberAttachContextAndRun",
-                                       header: "orbis/Fiber.h".}
+proc sceFiberAttachContextAndRun*() {.cdecl,
+                                      importc: "_sceFiberAttachContextAndRun",
+                                      header: "orbis/Fiber.h".}
   ##  Empty Comment
-proc _sceFiberAttachContextAndSwitch*() {.cdecl,
+proc sceFiberAttachContextAndSwitch*() {.cdecl,
     importc: "_sceFiberAttachContextAndSwitch", header: "orbis/Fiber.h".}
   ##  Empty Comment
-proc _sceFiberGetThreadFramePointerAddress*() {.cdecl,
+proc sceFiberGetThreadFramePointerAddress*() {.cdecl,
     importc: "_sceFiberGetThreadFramePointerAddress", header: "orbis/Fiber.h".}
   ##  Empty Comment
-proc _sceFiberInitializeImpl*() {.cdecl, importc: "_sceFiberInitializeImpl",
-                                  header: "orbis/Fiber.h".}
+proc sceFiberInitializeImpl*() {.cdecl, importc: "_sceFiberInitializeImpl",
+                                 header: "orbis/Fiber.h".}
   ##  Empty Comment
-proc _sceFiberInitializeWithInternalOptionImpl*() {.cdecl,
+proc sceFiberInitializeWithInternalOptionImpl*() {.cdecl,
     importc: "_sceFiberInitializeWithInternalOptionImpl",
     header: "orbis/Fiber.h".}
   ##  Empty Comment

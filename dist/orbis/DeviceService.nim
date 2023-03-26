@@ -8,7 +8,7 @@ proc sceDeviceServiceInitialize*() {.cdecl,
                                      importc: "sceDeviceServiceInitialize",
                                      header: "orbis/DeviceService.h".}
   ##  Empty Comment
-proc sceDeviceServiceQueryDeviceInfo_*() {.cdecl,
+proc sceDeviceServiceQueryDeviceInfo*() {.cdecl,
     importc: "sceDeviceServiceQueryDeviceInfo_", header: "orbis/DeviceService.h".}
   ##  Empty Comment
 proc sceDeviceServiceTerminate*() {.cdecl, importc: "sceDeviceServiceTerminate",

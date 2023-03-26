@@ -51,18 +51,18 @@ proc sceVideoOutAddStereoBuffer*() {.cdecl,
                                      header: "orbis/VideoOut.h".}
 proc sceVideoOutAddVblankEvent*() {.cdecl, importc: "sceVideoOutAddVblankEvent",
                                     header: "orbis/VideoOut.h".}
-proc sceVideoOutAdjustColor_*() {.cdecl, importc: "sceVideoOutAdjustColor_",
-                                  header: "orbis/VideoOut.h".}
-proc sceVideoOutColorSettingsSetGamma_*() {.cdecl,
+proc sceVideoOutAdjustColor*() {.cdecl, importc: "sceVideoOutAdjustColor_",
+                                 header: "orbis/VideoOut.h".}
+proc sceVideoOutColorSettingsSetGamma*() {.cdecl,
     importc: "sceVideoOutColorSettingsSetGamma_", header: "orbis/VideoOut.h".}
-proc sceVideoOutConfigureOptionsInitialize_*() {.cdecl,
+proc sceVideoOutConfigureOptionsInitialize*() {.cdecl,
     importc: "sceVideoOutConfigureOptionsInitialize_",
     header: "orbis/VideoOut.h".}
-proc sceVideoOutConfigureOutputMode_*() {.cdecl,
+proc sceVideoOutConfigureOutputMode*() {.cdecl,
     importc: "sceVideoOutConfigureOutputMode_", header: "orbis/VideoOut.h".}
-proc sceVideoOutConfigureOutputModeEx_*() {.cdecl,
+proc sceVideoOutConfigureOutputModeEx*() {.cdecl,
     importc: "sceVideoOutConfigureOutputModeEx_", header: "orbis/VideoOut.h".}
-proc sceVideoOutConfigureOutputModeExSubmitDoneUnsafe_*() {.cdecl,
+proc sceVideoOutConfigureOutputModeExSubmitDoneUnsafe*() {.cdecl,
     importc: "sceVideoOutConfigureOutputModeExSubmitDoneUnsafe_",
     header: "orbis/VideoOut.h".}
 proc sceVideoOutControlHdcpEncryption*() {.cdecl,
@@ -85,7 +85,7 @@ proc sceVideoOutCursorSetPosition*() {.cdecl,
                                        header: "orbis/VideoOut.h".}
 proc sceVideoOutCursorSetPositionStereo*() {.cdecl,
     importc: "sceVideoOutCursorSetPositionStereo", header: "orbis/VideoOut.h".}
-proc sceVideoOutCurveSamplePointsCalc_*() {.cdecl,
+proc sceVideoOutCurveSamplePointsCalc*() {.cdecl,
     importc: "sceVideoOutCurveSamplePointsCalc_", header: "orbis/VideoOut.h".}
 proc sceVideoOutDeleteDisplayPositionEvent*() {.cdecl,
     importc: "sceVideoOutDeleteDisplayPositionEvent", header: "orbis/VideoOut.h".}
@@ -129,31 +129,31 @@ proc sceVideoOutGetBufferLabelAddress*() {.cdecl,
     importc: "sceVideoOutGetBufferLabelAddress", header: "orbis/VideoOut.h".}
 proc sceVideoOutGetCoredumpOutputMode*() {.cdecl,
     importc: "sceVideoOutGetCoredumpOutputMode", header: "orbis/VideoOut.h".}
-proc sceVideoOutGetCurrentOutputMode_*() {.cdecl,
+proc sceVideoOutGetCurrentOutputMode*() {.cdecl,
     importc: "sceVideoOutGetCurrentOutputMode_", header: "orbis/VideoOut.h".}
-proc sceVideoOutGetDeviceCapabilityInfo_*() {.cdecl,
+proc sceVideoOutGetDeviceCapabilityInfo*() {.cdecl,
     importc: "sceVideoOutGetDeviceCapabilityInfo_", header: "orbis/VideoOut.h".}
-proc sceVideoOutGetDeviceInfoEx_*() {.cdecl,
-                                      importc: "sceVideoOutGetDeviceInfoEx_",
-                                      header: "orbis/VideoOut.h".}
-proc sceVideoOutGetDeviceInfoExOts_*() {.cdecl,
-    importc: "sceVideoOutGetDeviceInfoExOts_", header: "orbis/VideoOut.h".}
+proc sceVideoOutGetDeviceInfoEx*() {.cdecl,
+                                     importc: "sceVideoOutGetDeviceInfoEx_",
+                                     header: "orbis/VideoOut.h".}
+proc sceVideoOutGetDeviceInfoExOts*() {.cdecl, importc: "sceVideoOutGetDeviceInfoExOts_",
+                                        header: "orbis/VideoOut.h".}
 proc sceVideoOutGetEventCount*() {.cdecl, importc: "sceVideoOutGetEventCount",
                                    header: "orbis/VideoOut.h".}
 proc sceVideoOutGetEventData*() {.cdecl, importc: "sceVideoOutGetEventData",
                                   header: "orbis/VideoOut.h".}
 proc sceVideoOutGetEventId*() {.cdecl, importc: "sceVideoOutGetEventId",
                                 header: "orbis/VideoOut.h".}
-proc sceVideoOutGetHdmiKsvList_*() {.cdecl,
-                                     importc: "sceVideoOutGetHdmiKsvList_",
-                                     header: "orbis/VideoOut.h".}
-proc sceVideoOutGetHdmiMonitorInfo_*() {.cdecl,
-    importc: "sceVideoOutGetHdmiMonitorInfo_", header: "orbis/VideoOut.h".}
-proc sceVideoOutGetHdmiMonitorInfoNoMask_*() {.cdecl,
-    importc: "sceVideoOutGetHdmiMonitorInfoNoMask_", header: "orbis/VideoOut.h".}
-proc sceVideoOutGetPortStatusInfo_*() {.cdecl, importc: "sceVideoOutGetPortStatusInfo_",
+proc sceVideoOutGetHdmiKsvList*() {.cdecl,
+                                    importc: "sceVideoOutGetHdmiKsvList_",
+                                    header: "orbis/VideoOut.h".}
+proc sceVideoOutGetHdmiMonitorInfo*() {.cdecl, importc: "sceVideoOutGetHdmiMonitorInfo_",
                                         header: "orbis/VideoOut.h".}
-proc sceVideoOutGetPortStatusInfoByBusSpecifier_*() {.cdecl,
+proc sceVideoOutGetHdmiMonitorInfoNoMask*() {.cdecl,
+    importc: "sceVideoOutGetHdmiMonitorInfoNoMask_", header: "orbis/VideoOut.h".}
+proc sceVideoOutGetPortStatusInfo*() {.cdecl, importc: "sceVideoOutGetPortStatusInfo_",
+                                       header: "orbis/VideoOut.h".}
+proc sceVideoOutGetPortStatusInfoByBusSpecifier*() {.cdecl,
     importc: "sceVideoOutGetPortStatusInfoByBusSpecifier_",
     header: "orbis/VideoOut.h".}
 proc sceVideoOutGetStatusForWebcore*() {.cdecl,
@@ -161,19 +161,19 @@ proc sceVideoOutGetStatusForWebcore*() {.cdecl,
 proc sceVideoOutGetVblankStatus*() {.cdecl,
                                      importc: "sceVideoOutGetVblankStatus",
                                      header: "orbis/VideoOut.h".}
-proc sceVideoOutGetVideoOutModeByBusSpecifier_*() {.cdecl,
+proc sceVideoOutGetVideoOutModeByBusSpecifier*() {.cdecl,
     importc: "sceVideoOutGetVideoOutModeByBusSpecifier_",
     header: "orbis/VideoOut.h".}
-proc sceVideoOutHdmiMonitorInfoIsSupportedHdcpVersion_*() {.cdecl,
+proc sceVideoOutHdmiMonitorInfoIsSupportedHdcpVersion*() {.cdecl,
     importc: "sceVideoOutHdmiMonitorInfoIsSupportedHdcpVersion_",
     header: "orbis/VideoOut.h".}
-proc sceVideoOutHdmiMonitorInfoIsSupportedVideoOutMode_*() {.cdecl,
+proc sceVideoOutHdmiMonitorInfoIsSupportedVideoOutMode*() {.cdecl,
     importc: "sceVideoOutHdmiMonitorInfoIsSupportedVideoOutMode_",
     header: "orbis/VideoOut.h".}
 proc sceVideoOutLockBuffer*() {.cdecl, importc: "sceVideoOutLockBuffer",
                                 header: "orbis/VideoOut.h".}
-proc sceVideoOutModeSetAny_*() {.cdecl, importc: "sceVideoOutModeSetAny_",
-                                 header: "orbis/VideoOut.h".}
+proc sceVideoOutModeSetAny*() {.cdecl, importc: "sceVideoOutModeSetAny_",
+                                header: "orbis/VideoOut.h".}
 proc sceVideoOutRazorAddCallback*() {.cdecl,
                                       importc: "sceVideoOutRazorAddCallback",
                                       header: "orbis/VideoOut.h".}
@@ -191,11 +191,11 @@ proc sceVideoOutSetBlankAfterResume*() {.cdecl,
     importc: "sceVideoOutSetBlankAfterResume", header: "orbis/VideoOut.h".}
 proc sceVideoOutSetDisplayEventPosition*() {.cdecl,
     importc: "sceVideoOutSetDisplayEventPosition", header: "orbis/VideoOut.h".}
-proc sceVideoOutSetGamutMetadata_*() {.cdecl,
-                                       importc: "sceVideoOutSetGamutMetadata_",
-                                       header: "orbis/VideoOut.h".}
-proc sceVideoOutSetToneMap_*() {.cdecl, importc: "sceVideoOutSetToneMap_",
-                                 header: "orbis/VideoOut.h".}
+proc sceVideoOutSetGamutMetadata*() {.cdecl,
+                                      importc: "sceVideoOutSetGamutMetadata_",
+                                      header: "orbis/VideoOut.h".}
+proc sceVideoOutSetToneMap*() {.cdecl, importc: "sceVideoOutSetToneMap_",
+                                header: "orbis/VideoOut.h".}
 proc sceVideoOutSetWindowModeMargins*() {.cdecl,
     importc: "sceVideoOutSetWindowModeMargins", header: "orbis/VideoOut.h".}
 proc sceVideoOutSubmitChangeBufferAttribute*() {.cdecl,
@@ -210,7 +210,7 @@ proc sceVideoOutSysAddVblankEvent*() {.cdecl,
                                        header: "orbis/VideoOut.h".}
 proc sceVideoOutSysClose*() {.cdecl, importc: "sceVideoOutSysClose",
                               header: "orbis/VideoOut.h".}
-proc sceVideoOutSysConfigureOutputMode_*() {.cdecl,
+proc sceVideoOutSysConfigureOutputMode*() {.cdecl,
     importc: "sceVideoOutSysConfigureOutputMode_", header: "orbis/VideoOut.h".}
 proc sceVideoOutSysCursorDisable*() {.cdecl,
                                       importc: "sceVideoOutSysCursorDisable",
@@ -233,26 +233,26 @@ proc sceVideoOutSysDeleteVblankEvent*() {.cdecl,
 proc sceVideoOutSysGetColorConversionStatus*() {.cdecl,
     importc: "sceVideoOutSysGetColorConversionStatus",
     header: "orbis/VideoOut.h".}
-proc sceVideoOutSysGetCurrentOutputMode_*() {.cdecl,
+proc sceVideoOutSysGetCurrentOutputMode*() {.cdecl,
     importc: "sceVideoOutSysGetCurrentOutputMode_", header: "orbis/VideoOut.h".}
-proc sceVideoOutSysGetDeviceCapabilityInfoByBusSpecifier_*() {.cdecl,
+proc sceVideoOutSysGetDeviceCapabilityInfoByBusSpecifier*() {.cdecl,
     importc: "sceVideoOutSysGetDeviceCapabilityInfoByBusSpecifier_",
     header: "orbis/VideoOut.h".}
 proc sceVideoOutSysGetFlipStatus*() {.cdecl,
                                       importc: "sceVideoOutSysGetFlipStatus",
                                       header: "orbis/VideoOut.h".}
-proc sceVideoOutSysGetMonitorInfo_*() {.cdecl, importc: "sceVideoOutSysGetMonitorInfo_",
-                                        header: "orbis/VideoOut.h".}
-proc sceVideoOutSysGetPortStatusInfo_*() {.cdecl,
+proc sceVideoOutSysGetMonitorInfo*() {.cdecl, importc: "sceVideoOutSysGetMonitorInfo_",
+                                       header: "orbis/VideoOut.h".}
+proc sceVideoOutSysGetPortStatusInfo*() {.cdecl,
     importc: "sceVideoOutSysGetPortStatusInfo_", header: "orbis/VideoOut.h".}
-proc sceVideoOutSysGetPortStatusInfoByBusSpecifier_*() {.cdecl,
+proc sceVideoOutSysGetPortStatusInfoByBusSpecifier*() {.cdecl,
     importc: "sceVideoOutSysGetPortStatusInfoByBusSpecifier_",
     header: "orbis/VideoOut.h".}
 proc sceVideoOutSysGetResolutionStatus*() {.cdecl,
     importc: "sceVideoOutSysGetResolutionStatus", header: "orbis/VideoOut.h".}
 proc sceVideoOutSysGetVblankStatus*() {.cdecl, importc: "sceVideoOutSysGetVblankStatus",
                                         header: "orbis/VideoOut.h".}
-proc sceVideoOutSysIsSupportedByMonitorInfo_*() {.cdecl,
+proc sceVideoOutSysIsSupportedByMonitorInfo*() {.cdecl,
     importc: "sceVideoOutSysIsSupportedByMonitorInfo_",
     header: "orbis/VideoOut.h".}
 proc sceVideoOutSysReadCrc*() {.cdecl, importc: "sceVideoOutSysReadCrc",
@@ -283,7 +283,7 @@ proc sceVideoOutSysSetOverscanRatio*() {.cdecl,
 proc sceVideoOutSysSetZoomBuffers*() {.cdecl,
                                        importc: "sceVideoOutSysSetZoomBuffers",
                                        header: "orbis/VideoOut.h".}
-proc sceVideoOutSysUpdateDisplayParameter_*() {.cdecl,
+proc sceVideoOutSysUpdateDisplayParameter*() {.cdecl,
     importc: "sceVideoOutSysUpdateDisplayParameter_", header: "orbis/VideoOut.h".}
 proc sceVideoOutSysUpdatePrivilege*() {.cdecl, importc: "sceVideoOutSysUpdatePrivilege",
                                         header: "orbis/VideoOut.h".}

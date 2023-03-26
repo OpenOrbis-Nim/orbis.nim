@@ -1,329 +1,329 @@
-proc _ZN3sce2np12WorkerThread10ThreadMainEv*() {.cdecl,
+proc ZN3sce2np12WorkerThread10ThreadMainEv*() {.cdecl,
     importc: "_ZN3sce2np12WorkerThread10ThreadMainEv",
     header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np12WorkerThreadC1EPNS0_9WorkQueueE*() {.cdecl,
+proc ZN3sce2np12WorkerThreadC1EPNS0_9WorkQueueE*() {.cdecl,
     importc: "_ZN3sce2np12WorkerThreadC1EPNS0_9WorkQueueE",
     header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np12WorkerThreadC2EPNS0_9WorkQueueE*() {.cdecl,
+proc ZN3sce2np12WorkerThreadC2EPNS0_9WorkQueueE*() {.cdecl,
     importc: "_ZN3sce2np12WorkerThreadC2EPNS0_9WorkQueueE",
     header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np12WorkerThreadD0Ev*() {.cdecl,
-                                       importc: "_ZN3sce2np12WorkerThreadD0Ev",
-                                       header: "orbis/NpCommon.h".}
-  ##  Empty Comment
-proc _ZN3sce2np12WorkerThreadD1Ev*() {.cdecl,
-                                       importc: "_ZN3sce2np12WorkerThreadD1Ev",
-                                       header: "orbis/NpCommon.h".}
-  ##  Empty Comment
-proc _ZN3sce2np12WorkerThreadD2Ev*() {.cdecl,
-                                       importc: "_ZN3sce2np12WorkerThreadD2Ev",
-                                       header: "orbis/NpCommon.h".}
-  ##  Empty Comment
-proc _ZN3sce2np4Cond4ctorEv*() {.cdecl, importc: "_ZN3sce2np4Cond4ctorEv",
-                                 header: "orbis/NpCommon.h".}
-  ##  Empty Comment
-proc _ZN3sce2np4Cond4dtorEv*() {.cdecl, importc: "_ZN3sce2np4Cond4dtorEv",
-                                 header: "orbis/NpCommon.h".}
-  ##  Empty Comment
-proc _ZN3sce2np4Cond4InitEPKcPNS0_5MutexE*() {.cdecl,
-    importc: "_ZN3sce2np4Cond4InitEPKcPNS0_5MutexE", header: "orbis/NpCommon.h".}
-  ##  Empty Comment
-proc _ZN3sce2np4Cond4WaitEj*() {.cdecl, importc: "_ZN3sce2np4Cond4WaitEj",
-                                 header: "orbis/NpCommon.h".}
-  ##  Empty Comment
-proc _ZN3sce2np4Cond6SignalEv*() {.cdecl, importc: "_ZN3sce2np4Cond6SignalEv",
-                                   header: "orbis/NpCommon.h".}
-  ##  Empty Comment
-proc _ZN3sce2np4Cond7DestroyEv*() {.cdecl, importc: "_ZN3sce2np4Cond7DestroyEv",
-                                    header: "orbis/NpCommon.h".}
-  ##  Empty Comment
-proc _ZN3sce2np4Cond9SignalAllEv*() {.cdecl,
-                                      importc: "_ZN3sce2np4Cond9SignalAllEv",
+proc ZN3sce2np12WorkerThreadD0Ev*() {.cdecl,
+                                      importc: "_ZN3sce2np12WorkerThreadD0Ev",
                                       header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np4CondC1Ev*() {.cdecl, importc: "_ZN3sce2np4CondC1Ev",
-                              header: "orbis/NpCommon.h".}
+proc ZN3sce2np12WorkerThreadD1Ev*() {.cdecl,
+                                      importc: "_ZN3sce2np12WorkerThreadD1Ev",
+                                      header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np4CondC2Ev*() {.cdecl, importc: "_ZN3sce2np4CondC2Ev",
-                              header: "orbis/NpCommon.h".}
+proc ZN3sce2np12WorkerThreadD2Ev*() {.cdecl,
+                                      importc: "_ZN3sce2np12WorkerThreadD2Ev",
+                                      header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np4CondD0Ev*() {.cdecl, importc: "_ZN3sce2np4CondD0Ev",
-                              header: "orbis/NpCommon.h".}
+proc ZN3sce2np4Cond4ctorEv*() {.cdecl, importc: "_ZN3sce2np4Cond4ctorEv",
+                                header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np4CondD1Ev*() {.cdecl, importc: "_ZN3sce2np4CondD1Ev",
-                              header: "orbis/NpCommon.h".}
+proc ZN3sce2np4Cond4dtorEv*() {.cdecl, importc: "_ZN3sce2np4Cond4dtorEv",
+                                header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np4CondD2Ev*() {.cdecl, importc: "_ZN3sce2np4CondD2Ev",
-                              header: "orbis/NpCommon.h".}
+proc ZN3sce2np4Cond4InitEPKcPNS0_5MutexE*() {.cdecl,
+    importc: "_ZN3sce2np4Cond4InitEPKcPNS0_5MutexE", header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np5Mutex4ctorEv*() {.cdecl, importc: "_ZN3sce2np5Mutex4ctorEv",
+proc ZN3sce2np4Cond4WaitEj*() {.cdecl, importc: "_ZN3sce2np4Cond4WaitEj",
+                                header: "orbis/NpCommon.h".}
+  ##  Empty Comment
+proc ZN3sce2np4Cond6SignalEv*() {.cdecl, importc: "_ZN3sce2np4Cond6SignalEv",
                                   header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np5Mutex4dtorEv*() {.cdecl, importc: "_ZN3sce2np5Mutex4dtorEv",
-                                  header: "orbis/NpCommon.h".}
+proc ZN3sce2np4Cond7DestroyEv*() {.cdecl, importc: "_ZN3sce2np4Cond7DestroyEv",
+                                   header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np5Mutex4InitEPKcj*() {.cdecl,
-                                     importc: "_ZN3sce2np5Mutex4InitEPKcj",
+proc ZN3sce2np4Cond9SignalAllEv*() {.cdecl,
+                                     importc: "_ZN3sce2np4Cond9SignalAllEv",
                                      header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np5Mutex4LockEv*() {.cdecl, importc: "_ZN3sce2np5Mutex4LockEv",
-                                  header: "orbis/NpCommon.h".}
+proc ZN3sce2np4CondC1Ev*() {.cdecl, importc: "_ZN3sce2np4CondC1Ev",
+                             header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np5Mutex6UnlockEv*() {.cdecl, importc: "_ZN3sce2np5Mutex6UnlockEv",
-                                    header: "orbis/NpCommon.h".}
+proc ZN3sce2np4CondC2Ev*() {.cdecl, importc: "_ZN3sce2np4CondC2Ev",
+                             header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np5Mutex7DestroyEv*() {.cdecl,
-                                     importc: "_ZN3sce2np5Mutex7DestroyEv",
-                                     header: "orbis/NpCommon.h".}
+proc ZN3sce2np4CondD0Ev*() {.cdecl, importc: "_ZN3sce2np4CondD0Ev",
+                             header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np5MutexC1Ev*() {.cdecl, importc: "_ZN3sce2np5MutexC1Ev",
-                               header: "orbis/NpCommon.h".}
+proc ZN3sce2np4CondD1Ev*() {.cdecl, importc: "_ZN3sce2np4CondD1Ev",
+                             header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np5MutexC2Ev*() {.cdecl, importc: "_ZN3sce2np5MutexC2Ev",
-                               header: "orbis/NpCommon.h".}
+proc ZN3sce2np4CondD2Ev*() {.cdecl, importc: "_ZN3sce2np4CondD2Ev",
+                             header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np5MutexD0Ev*() {.cdecl, importc: "_ZN3sce2np5MutexD0Ev",
-                               header: "orbis/NpCommon.h".}
-  ##  Empty Comment
-proc _ZN3sce2np5MutexD1Ev*() {.cdecl, importc: "_ZN3sce2np5MutexD1Ev",
-                               header: "orbis/NpCommon.h".}
-  ##  Empty Comment
-proc _ZN3sce2np5MutexD2Ev*() {.cdecl, importc: "_ZN3sce2np5MutexD2Ev",
-                               header: "orbis/NpCommon.h".}
-  ##  Empty Comment
-proc _ZN3sce2np6ObjectdaEPv*() {.cdecl, importc: "_ZN3sce2np6ObjectdaEPv",
+proc ZN3sce2np5Mutex4ctorEv*() {.cdecl, importc: "_ZN3sce2np5Mutex4ctorEv",
                                  header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np6ObjectdaEPvR14SceNpAllocator*() {.cdecl,
+proc ZN3sce2np5Mutex4dtorEv*() {.cdecl, importc: "_ZN3sce2np5Mutex4dtorEv",
+                                 header: "orbis/NpCommon.h".}
+  ##  Empty Comment
+proc ZN3sce2np5Mutex4InitEPKcj*() {.cdecl,
+                                    importc: "_ZN3sce2np5Mutex4InitEPKcj",
+                                    header: "orbis/NpCommon.h".}
+  ##  Empty Comment
+proc ZN3sce2np5Mutex4LockEv*() {.cdecl, importc: "_ZN3sce2np5Mutex4LockEv",
+                                 header: "orbis/NpCommon.h".}
+  ##  Empty Comment
+proc ZN3sce2np5Mutex6UnlockEv*() {.cdecl, importc: "_ZN3sce2np5Mutex6UnlockEv",
+                                   header: "orbis/NpCommon.h".}
+  ##  Empty Comment
+proc ZN3sce2np5Mutex7DestroyEv*() {.cdecl,
+                                    importc: "_ZN3sce2np5Mutex7DestroyEv",
+                                    header: "orbis/NpCommon.h".}
+  ##  Empty Comment
+proc ZN3sce2np5MutexC1Ev*() {.cdecl, importc: "_ZN3sce2np5MutexC1Ev",
+                              header: "orbis/NpCommon.h".}
+  ##  Empty Comment
+proc ZN3sce2np5MutexC2Ev*() {.cdecl, importc: "_ZN3sce2np5MutexC2Ev",
+                              header: "orbis/NpCommon.h".}
+  ##  Empty Comment
+proc ZN3sce2np5MutexD0Ev*() {.cdecl, importc: "_ZN3sce2np5MutexD0Ev",
+                              header: "orbis/NpCommon.h".}
+  ##  Empty Comment
+proc ZN3sce2np5MutexD1Ev*() {.cdecl, importc: "_ZN3sce2np5MutexD1Ev",
+                              header: "orbis/NpCommon.h".}
+  ##  Empty Comment
+proc ZN3sce2np5MutexD2Ev*() {.cdecl, importc: "_ZN3sce2np5MutexD2Ev",
+                              header: "orbis/NpCommon.h".}
+  ##  Empty Comment
+proc ZN3sce2np6ObjectdaEPv*() {.cdecl, importc: "_ZN3sce2np6ObjectdaEPv",
+                                header: "orbis/NpCommon.h".}
+  ##  Empty Comment
+proc ZN3sce2np6ObjectdaEPvR14SceNpAllocator*() {.cdecl,
     importc: "_ZN3sce2np6ObjectdaEPvR14SceNpAllocator",
     header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np6ObjectdlEPv*() {.cdecl, importc: "_ZN3sce2np6ObjectdlEPv",
-                                 header: "orbis/NpCommon.h".}
+proc ZN3sce2np6ObjectdlEPv*() {.cdecl, importc: "_ZN3sce2np6ObjectdlEPv",
+                                header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np6ObjectdlEPvR14SceNpAllocator*() {.cdecl,
+proc ZN3sce2np6ObjectdlEPvR14SceNpAllocator*() {.cdecl,
     importc: "_ZN3sce2np6ObjectdlEPvR14SceNpAllocator",
     header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np6Thread12DoThreadMainEv*() {.cdecl,
+proc ZN3sce2np6Thread12DoThreadMainEv*() {.cdecl,
     importc: "_ZN3sce2np6Thread12DoThreadMainEv", header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np6Thread4ctorEv*() {.cdecl, importc: "_ZN3sce2np6Thread4ctorEv",
-                                   header: "orbis/NpCommon.h".}
+proc ZN3sce2np6Thread4ctorEv*() {.cdecl, importc: "_ZN3sce2np6Thread4ctorEv",
+                                  header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np6Thread4dtorEv*() {.cdecl, importc: "_ZN3sce2np6Thread4dtorEv",
-                                   header: "orbis/NpCommon.h".}
+proc ZN3sce2np6Thread4dtorEv*() {.cdecl, importc: "_ZN3sce2np6Thread4dtorEv",
+                                  header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np6Thread4InitEPKNS1_5ParamE*() {.cdecl,
+proc ZN3sce2np6Thread4InitEPKNS1_5ParamE*() {.cdecl,
     importc: "_ZN3sce2np6Thread4InitEPKNS1_5ParamE", header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np6Thread4JoinEPi*() {.cdecl, importc: "_ZN3sce2np6Thread4JoinEPi",
-                                    header: "orbis/NpCommon.h".}
+proc ZN3sce2np6Thread4JoinEPi*() {.cdecl, importc: "_ZN3sce2np6Thread4JoinEPi",
+                                   header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np6Thread5StartEv*() {.cdecl, importc: "_ZN3sce2np6Thread5StartEv",
-                                    header: "orbis/NpCommon.h".}
+proc ZN3sce2np6Thread5StartEv*() {.cdecl, importc: "_ZN3sce2np6Thread5StartEv",
+                                   header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np6Thread7DestroyEv*() {.cdecl,
-                                      importc: "_ZN3sce2np6Thread7DestroyEv",
-                                      header: "orbis/NpCommon.h".}
+proc ZN3sce2np6Thread7DestroyEv*() {.cdecl,
+                                     importc: "_ZN3sce2np6Thread7DestroyEv",
+                                     header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np6Thread9EntryFuncEPv*() {.cdecl,
-    importc: "_ZN3sce2np6Thread9EntryFuncEPv", header: "orbis/NpCommon.h".}
-  ##  Empty Comment
-proc _ZN3sce2np6Thread9GetResultEv*() {.cdecl, importc: "_ZN3sce2np6Thread9GetResultEv",
+proc ZN3sce2np6Thread9EntryFuncEPv*() {.cdecl, importc: "_ZN3sce2np6Thread9EntryFuncEPv",
                                         header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np6Thread9IsRunningEv*() {.cdecl, importc: "_ZN3sce2np6Thread9IsRunningEv",
-                                        header: "orbis/NpCommon.h".}
+proc ZN3sce2np6Thread9GetResultEv*() {.cdecl, importc: "_ZN3sce2np6Thread9GetResultEv",
+                                       header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np6ThreadC2Ev*() {.cdecl, importc: "_ZN3sce2np6ThreadC2Ev",
-                                header: "orbis/NpCommon.h".}
+proc ZN3sce2np6Thread9IsRunningEv*() {.cdecl, importc: "_ZN3sce2np6Thread9IsRunningEv",
+                                       header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np6ThreadD0Ev*() {.cdecl, importc: "_ZN3sce2np6ThreadD0Ev",
-                                header: "orbis/NpCommon.h".}
+proc ZN3sce2np6ThreadC2Ev*() {.cdecl, importc: "_ZN3sce2np6ThreadC2Ev",
+                               header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np6ThreadD1Ev*() {.cdecl, importc: "_ZN3sce2np6ThreadD1Ev",
-                                header: "orbis/NpCommon.h".}
+proc ZN3sce2np6ThreadD0Ev*() {.cdecl, importc: "_ZN3sce2np6ThreadD0Ev",
+                               header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np6ThreadD2Ev*() {.cdecl, importc: "_ZN3sce2np6ThreadD2Ev",
-                                header: "orbis/NpCommon.h".}
+proc ZN3sce2np6ThreadD1Ev*() {.cdecl, importc: "_ZN3sce2np6ThreadD1Ev",
+                               header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np8WorkItem10SetPendingEv*() {.cdecl,
+proc ZN3sce2np6ThreadD2Ev*() {.cdecl, importc: "_ZN3sce2np6ThreadD2Ev",
+                               header: "orbis/NpCommon.h".}
+  ##  Empty Comment
+proc ZN3sce2np8WorkItem10SetPendingEv*() {.cdecl,
     importc: "_ZN3sce2np8WorkItem10SetPendingEv", header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np8WorkItem10SetRunningEv*() {.cdecl,
+proc ZN3sce2np8WorkItem10SetRunningEv*() {.cdecl,
     importc: "_ZN3sce2np8WorkItem10SetRunningEv", header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np8WorkItem11SetFinishedEi*() {.cdecl,
+proc ZN3sce2np8WorkItem11SetFinishedEi*() {.cdecl,
     importc: "_ZN3sce2np8WorkItem11SetFinishedEi", header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np8WorkItem14FinishCallbackEv*() {.cdecl,
+proc ZN3sce2np8WorkItem14FinishCallbackEv*() {.cdecl,
     importc: "_ZN3sce2np8WorkItem14FinishCallbackEv", header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np8WorkItem15RemoveFromQueueEv*() {.cdecl,
+proc ZN3sce2np8WorkItem15RemoveFromQueueEv*() {.cdecl,
     importc: "_ZN3sce2np8WorkItem15RemoveFromQueueEv",
     header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np8WorkItem6CancelEi*() {.cdecl,
-                                       importc: "_ZN3sce2np8WorkItem6CancelEi",
-                                       header: "orbis/NpCommon.h".}
+proc ZN3sce2np8WorkItem6CancelEi*() {.cdecl,
+                                      importc: "_ZN3sce2np8WorkItem6CancelEi",
+                                      header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np8WorkItem9BindQueueEPNS0_9WorkQueueEi*() {.cdecl,
+proc ZN3sce2np8WorkItem9BindQueueEPNS0_9WorkQueueEi*() {.cdecl,
     importc: "_ZN3sce2np8WorkItem9BindQueueEPNS0_9WorkQueueEi",
     header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np8WorkItemC2EPKc*() {.cdecl, importc: "_ZN3sce2np8WorkItemC2EPKc",
+proc ZN3sce2np8WorkItemC2EPKc*() {.cdecl, importc: "_ZN3sce2np8WorkItemC2EPKc",
+                                   header: "orbis/NpCommon.h".}
+  ##  Empty Comment
+proc ZN3sce2np8WorkItemD0Ev*() {.cdecl, importc: "_ZN3sce2np8WorkItemD0Ev",
+                                 header: "orbis/NpCommon.h".}
+  ##  Empty Comment
+proc ZN3sce2np8WorkItemD1Ev*() {.cdecl, importc: "_ZN3sce2np8WorkItemD1Ev",
+                                 header: "orbis/NpCommon.h".}
+  ##  Empty Comment
+proc ZN3sce2np8WorkItemD2Ev*() {.cdecl, importc: "_ZN3sce2np8WorkItemD2Ev",
+                                 header: "orbis/NpCommon.h".}
+  ##  Empty Comment
+proc ZN3sce2np9EventFlag3SetEm*() {.cdecl,
+                                    importc: "_ZN3sce2np9EventFlag3SetEm",
                                     header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np8WorkItemD0Ev*() {.cdecl, importc: "_ZN3sce2np8WorkItemD0Ev",
-                                  header: "orbis/NpCommon.h".}
-  ##  Empty Comment
-proc _ZN3sce2np8WorkItemD1Ev*() {.cdecl, importc: "_ZN3sce2np8WorkItemD1Ev",
-                                  header: "orbis/NpCommon.h".}
-  ##  Empty Comment
-proc _ZN3sce2np8WorkItemD2Ev*() {.cdecl, importc: "_ZN3sce2np8WorkItemD2Ev",
-                                  header: "orbis/NpCommon.h".}
-  ##  Empty Comment
-proc _ZN3sce2np9EventFlag3SetEm*() {.cdecl,
-                                     importc: "_ZN3sce2np9EventFlag3SetEm",
-                                     header: "orbis/NpCommon.h".}
-  ##  Empty Comment
-proc _ZN3sce2np9EventFlag4OpenEPKc*() {.cdecl, importc: "_ZN3sce2np9EventFlag4OpenEPKc",
-                                        header: "orbis/NpCommon.h".}
-  ##  Empty Comment
-proc _ZN3sce2np9EventFlag4PollEmjPm*() {.cdecl,
-    importc: "_ZN3sce2np9EventFlag4PollEmjPm", header: "orbis/NpCommon.h".}
-  ##  Empty Comment
-proc _ZN3sce2np9EventFlag5ClearEm*() {.cdecl,
-                                       importc: "_ZN3sce2np9EventFlag5ClearEm",
+proc ZN3sce2np9EventFlag4OpenEPKc*() {.cdecl, importc: "_ZN3sce2np9EventFlag4OpenEPKc",
                                        header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np9EventFlag6CancelEm*() {.cdecl, importc: "_ZN3sce2np9EventFlag6CancelEm",
+proc ZN3sce2np9EventFlag4PollEmjPm*() {.cdecl, importc: "_ZN3sce2np9EventFlag4PollEmjPm",
                                         header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np9EventFlag7DestroyEv*() {.cdecl,
-    importc: "_ZN3sce2np9EventFlag7DestroyEv", header: "orbis/NpCommon.h".}
+proc ZN3sce2np9EventFlag5ClearEm*() {.cdecl,
+                                      importc: "_ZN3sce2np9EventFlag5ClearEm",
+                                      header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np9EventFlagC1Ev*() {.cdecl, importc: "_ZN3sce2np9EventFlagC1Ev",
-                                   header: "orbis/NpCommon.h".}
+proc ZN3sce2np9EventFlag6CancelEm*() {.cdecl, importc: "_ZN3sce2np9EventFlag6CancelEm",
+                                       header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np9EventFlagC2Ev*() {.cdecl, importc: "_ZN3sce2np9EventFlagC2Ev",
-                                   header: "orbis/NpCommon.h".}
+proc ZN3sce2np9EventFlag7DestroyEv*() {.cdecl, importc: "_ZN3sce2np9EventFlag7DestroyEv",
+                                        header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np9EventFlagD0Ev*() {.cdecl, importc: "_ZN3sce2np9EventFlagD0Ev",
-                                   header: "orbis/NpCommon.h".}
+proc ZN3sce2np9EventFlagC1Ev*() {.cdecl, importc: "_ZN3sce2np9EventFlagC1Ev",
+                                  header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np9EventFlagD1Ev*() {.cdecl, importc: "_ZN3sce2np9EventFlagD1Ev",
-                                   header: "orbis/NpCommon.h".}
+proc ZN3sce2np9EventFlagC2Ev*() {.cdecl, importc: "_ZN3sce2np9EventFlagC2Ev",
+                                  header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np9EventFlagD2Ev*() {.cdecl, importc: "_ZN3sce2np9EventFlagD2Ev",
-                                   header: "orbis/NpCommon.h".}
+proc ZN3sce2np9EventFlagD0Ev*() {.cdecl, importc: "_ZN3sce2np9EventFlagD0Ev",
+                                  header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np9Semaphore7DestroyEv*() {.cdecl,
-    importc: "_ZN3sce2np9Semaphore7DestroyEv", header: "orbis/NpCommon.h".}
+proc ZN3sce2np9EventFlagD1Ev*() {.cdecl, importc: "_ZN3sce2np9EventFlagD1Ev",
+                                  header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np9SemaphoreC1Ev*() {.cdecl, importc: "_ZN3sce2np9SemaphoreC1Ev",
-                                   header: "orbis/NpCommon.h".}
+proc ZN3sce2np9EventFlagD2Ev*() {.cdecl, importc: "_ZN3sce2np9EventFlagD2Ev",
+                                  header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np9SemaphoreC2Ev*() {.cdecl, importc: "_ZN3sce2np9SemaphoreC2Ev",
-                                   header: "orbis/NpCommon.h".}
+proc ZN3sce2np9Semaphore7DestroyEv*() {.cdecl, importc: "_ZN3sce2np9Semaphore7DestroyEv",
+                                        header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np9SemaphoreD1Ev*() {.cdecl, importc: "_ZN3sce2np9SemaphoreD1Ev",
-                                   header: "orbis/NpCommon.h".}
+proc ZN3sce2np9SemaphoreC1Ev*() {.cdecl, importc: "_ZN3sce2np9SemaphoreC1Ev",
+                                  header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np9SemaphoreD2Ev*() {.cdecl, importc: "_ZN3sce2np9SemaphoreD2Ev",
-                                   header: "orbis/NpCommon.h".}
+proc ZN3sce2np9SemaphoreC2Ev*() {.cdecl, importc: "_ZN3sce2np9SemaphoreC2Ev",
+                                  header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np9WorkQueue11GetItemByIdEi*() {.cdecl,
+proc ZN3sce2np9SemaphoreD1Ev*() {.cdecl, importc: "_ZN3sce2np9SemaphoreD1Ev",
+                                  header: "orbis/NpCommon.h".}
+  ##  Empty Comment
+proc ZN3sce2np9SemaphoreD2Ev*() {.cdecl, importc: "_ZN3sce2np9SemaphoreD2Ev",
+                                  header: "orbis/NpCommon.h".}
+  ##  Empty Comment
+proc ZN3sce2np9WorkQueue11GetItemByIdEi*() {.cdecl,
     importc: "_ZN3sce2np9WorkQueue11GetItemByIdEi", header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np9WorkQueue15GetFinishedItemENS0_14WorkItemStatusE*() {.cdecl,
+proc ZN3sce2np9WorkQueue15GetFinishedItemENS0_14WorkItemStatusE*() {.cdecl,
     importc: "_ZN3sce2np9WorkQueue15GetFinishedItemENS0_14WorkItemStatusE",
     header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np9WorkQueue16WorkItemFinishedEPNS0_8WorkItemEi*() {.cdecl,
+proc ZN3sce2np9WorkQueue16WorkItemFinishedEPNS0_8WorkItemEi*() {.cdecl,
     importc: "_ZN3sce2np9WorkQueue16WorkItemFinishedEPNS0_8WorkItemEi",
     header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np9WorkQueue17ProcFinishedItemsENS0_14WorkItemStatusE*() {.cdecl,
+proc ZN3sce2np9WorkQueue17ProcFinishedItemsENS0_14WorkItemStatusE*() {.cdecl,
     importc: "_ZN3sce2np9WorkQueue17ProcFinishedItemsENS0_14WorkItemStatusE",
     header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np9WorkQueue18RemoveFinishedItemEPNS0_8WorkItemE*() {.cdecl,
+proc ZN3sce2np9WorkQueue18RemoveFinishedItemEPNS0_8WorkItemE*() {.cdecl,
     importc: "_ZN3sce2np9WorkQueue18RemoveFinishedItemEPNS0_8WorkItemE",
     header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np9WorkQueue18WaitForPendingItemEPPNS0_8WorkItemEPb*() {.cdecl,
+proc ZN3sce2np9WorkQueue18WaitForPendingItemEPPNS0_8WorkItemEPb*() {.cdecl,
     importc: "_ZN3sce2np9WorkQueue18WaitForPendingItemEPPNS0_8WorkItemEPb",
     header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np9WorkQueue4ctorEv*() {.cdecl,
-                                      importc: "_ZN3sce2np9WorkQueue4ctorEv",
-                                      header: "orbis/NpCommon.h".}
+proc ZN3sce2np9WorkQueue4ctorEv*() {.cdecl,
+                                     importc: "_ZN3sce2np9WorkQueue4ctorEv",
+                                     header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np9WorkQueue4dtorEv*() {.cdecl,
-                                      importc: "_ZN3sce2np9WorkQueue4dtorEv",
-                                      header: "orbis/NpCommon.h".}
+proc ZN3sce2np9WorkQueue4dtorEv*() {.cdecl,
+                                     importc: "_ZN3sce2np9WorkQueue4dtorEv",
+                                     header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np9WorkQueue4InitEPKNS0_6Thread5ParamE*() {.cdecl,
+proc ZN3sce2np9WorkQueue4InitEPKNS0_6Thread5ParamE*() {.cdecl,
     importc: "_ZN3sce2np9WorkQueue4InitEPKNS0_6Thread5ParamE",
     header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np9WorkQueue4StopEv*() {.cdecl,
-                                      importc: "_ZN3sce2np9WorkQueue4StopEv",
+proc ZN3sce2np9WorkQueue4StopEv*() {.cdecl,
+                                     importc: "_ZN3sce2np9WorkQueue4StopEv",
+                                     header: "orbis/NpCommon.h".}
+  ##  Empty Comment
+proc ZN3sce2np9WorkQueue5StartEv*() {.cdecl,
+                                      importc: "_ZN3sce2np9WorkQueue5StartEv",
                                       header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np9WorkQueue5StartEv*() {.cdecl,
-                                       importc: "_ZN3sce2np9WorkQueue5StartEv",
-                                       header: "orbis/NpCommon.h".}
-  ##  Empty Comment
-proc _ZN3sce2np9WorkQueue6CancelEii*() {.cdecl,
-    importc: "_ZN3sce2np9WorkQueue6CancelEii", header: "orbis/NpCommon.h".}
-  ##  Empty Comment
-proc _ZN3sce2np9WorkQueue6IsInitEv*() {.cdecl, importc: "_ZN3sce2np9WorkQueue6IsInitEv",
+proc ZN3sce2np9WorkQueue6CancelEii*() {.cdecl, importc: "_ZN3sce2np9WorkQueue6CancelEii",
                                         header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np9WorkQueue7DestroyEv*() {.cdecl,
-    importc: "_ZN3sce2np9WorkQueue7DestroyEv", header: "orbis/NpCommon.h".}
+proc ZN3sce2np9WorkQueue6IsInitEv*() {.cdecl, importc: "_ZN3sce2np9WorkQueue6IsInitEv",
+                                       header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np9WorkQueue7EnqueueEiPNS0_8WorkItemE*() {.cdecl,
+proc ZN3sce2np9WorkQueue7DestroyEv*() {.cdecl, importc: "_ZN3sce2np9WorkQueue7DestroyEv",
+                                        header: "orbis/NpCommon.h".}
+  ##  Empty Comment
+proc ZN3sce2np9WorkQueue7EnqueueEiPNS0_8WorkItemE*() {.cdecl,
     importc: "_ZN3sce2np9WorkQueue7EnqueueEiPNS0_8WorkItemE",
     header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np9WorkQueue9CancelAllEi*() {.cdecl,
+proc ZN3sce2np9WorkQueue9CancelAllEi*() {.cdecl,
     importc: "_ZN3sce2np9WorkQueue9CancelAllEi", header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np9WorkQueue9IsRunningEv*() {.cdecl,
+proc ZN3sce2np9WorkQueue9IsRunningEv*() {.cdecl,
     importc: "_ZN3sce2np9WorkQueue9IsRunningEv", header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np9WorkQueueC1Ev*() {.cdecl, importc: "_ZN3sce2np9WorkQueueC1Ev",
+proc ZN3sce2np9WorkQueueC1Ev*() {.cdecl, importc: "_ZN3sce2np9WorkQueueC1Ev",
+                                  header: "orbis/NpCommon.h".}
+  ##  Empty Comment
+proc ZN3sce2np9WorkQueueC2Ev*() {.cdecl, importc: "_ZN3sce2np9WorkQueueC2Ev",
+                                  header: "orbis/NpCommon.h".}
+  ##  Empty Comment
+proc ZN3sce2np9WorkQueueD0Ev*() {.cdecl, importc: "_ZN3sce2np9WorkQueueD0Ev",
+                                  header: "orbis/NpCommon.h".}
+  ##  Empty Comment
+proc ZN3sce2np9WorkQueueD1Ev*() {.cdecl, importc: "_ZN3sce2np9WorkQueueD1Ev",
+                                  header: "orbis/NpCommon.h".}
+  ##  Empty Comment
+proc ZN3sce2np9WorkQueueD2Ev*() {.cdecl, importc: "_ZN3sce2np9WorkQueueD2Ev",
+                                  header: "orbis/NpCommon.h".}
+  ##  Empty Comment
+proc ZNK3sce2np4Cond6IsInitEv*() {.cdecl, importc: "_ZNK3sce2np4Cond6IsInitEv",
                                    header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZN3sce2np9WorkQueueC2Ev*() {.cdecl, importc: "_ZN3sce2np9WorkQueueC2Ev",
-                                   header: "orbis/NpCommon.h".}
-  ##  Empty Comment
-proc _ZN3sce2np9WorkQueueD0Ev*() {.cdecl, importc: "_ZN3sce2np9WorkQueueD0Ev",
-                                   header: "orbis/NpCommon.h".}
-  ##  Empty Comment
-proc _ZN3sce2np9WorkQueueD1Ev*() {.cdecl, importc: "_ZN3sce2np9WorkQueueD1Ev",
-                                   header: "orbis/NpCommon.h".}
-  ##  Empty Comment
-proc _ZN3sce2np9WorkQueueD2Ev*() {.cdecl, importc: "_ZN3sce2np9WorkQueueD2Ev",
-                                   header: "orbis/NpCommon.h".}
-  ##  Empty Comment
-proc _ZNK3sce2np4Cond6IsInitEv*() {.cdecl, importc: "_ZNK3sce2np4Cond6IsInitEv",
+proc ZNK3sce2np5Mutex6IsInitEv*() {.cdecl,
+                                    importc: "_ZNK3sce2np5Mutex6IsInitEv",
                                     header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc _ZNK3sce2np5Mutex6IsInitEv*() {.cdecl,
-                                     importc: "_ZNK3sce2np5Mutex6IsInitEv",
+proc ZNK3sce2np6Thread6IsInitEv*() {.cdecl,
+                                     importc: "_ZNK3sce2np6Thread6IsInitEv",
                                      header: "orbis/NpCommon.h".}
-  ##  Empty Comment
-proc _ZNK3sce2np6Thread6IsInitEv*() {.cdecl,
-                                      importc: "_ZNK3sce2np6Thread6IsInitEv",
-                                      header: "orbis/NpCommon.h".}
   ##  Empty Comment
 proc sceNpAllocateKernelMemoryNoAlignment*() {.cdecl,
     importc: "sceNpAllocateKernelMemoryNoAlignment", header: "orbis/NpCommon.h".}
@@ -561,13 +561,13 @@ proc sceNpUtilHttpUrlEncode*() {.cdecl, importc: "sceNpUtilHttpUrlEncode",
 proc sceNpUtilJidToNpId*() {.cdecl, importc: "sceNpUtilJidToNpId",
                              header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc sceNpUtilJsonEscape*(`out`: cstring; max_out_size: csize_t; `in`: cstring;
+proc sceNpUtilJsonEscape*(`out`: cstring; max_outsize: csize_t; `in`: cstring;
                           in_size: csize_t): cint {.cdecl,
     importc: "sceNpUtilJsonEscape", header: "orbis/NpCommon.h".}
   ##  reversed by flatz
-proc sceNpUtilJsonUnescape*(`out`: cstring; max_out_size: csize_t;
-                            `in`: cstring; in_size: csize_t; flags: cuint): cint {.
-    cdecl, importc: "sceNpUtilJsonUnescape", header: "orbis/NpCommon.h".}
+proc sceNpUtilJsonUnescape*(`out`: cstring; max_outsize: csize_t; `in`: cstring;
+                            in_size: csize_t; flags: cuint): cint {.cdecl,
+    importc: "sceNpUtilJsonUnescape", header: "orbis/NpCommon.h".}
 proc sceNpUtilNpIdToJid*() {.cdecl, importc: "sceNpUtilNpIdToJid",
                              header: "orbis/NpCommon.h".}
   ##  Empty Comment

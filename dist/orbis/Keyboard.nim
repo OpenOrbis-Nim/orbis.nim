@@ -1,7 +1,7 @@
 import "_types/keyboard"
 import "_types/errors"
 const
-  SCE_SYSMODULE_KEYBOARD* = 0x106
+  SCE_SYSMODULEKEYBOARD* = 0x106
 
 proc sceKeyboardInit*(): cint {.cdecl, importc: "sceKeyboardInit",
                                 header: "orbis/Keyboard.h".}
