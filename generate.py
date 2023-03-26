@@ -37,7 +37,6 @@ def runC2Nim(infile, baseHeaderFile):
     args += ['--mangle:{}={}'.format(a,b) for a,b in extraArgs]
     subprocess.run(args)
 
-# scrub_files = ['source/orbis/AbstractFacebook.h']
 
 for scrub_file in scrub_files:
     infile = scrub_file
