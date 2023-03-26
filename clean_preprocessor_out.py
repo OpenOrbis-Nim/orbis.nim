@@ -164,8 +164,6 @@ nim_imports = {}
 
 for file in mt.main_files.keys():
     relativeInclude = getRelativeIncludePath(file)
-    if relativeInclude == "stdint.h":
-        continue
     if "orbis" in relativeInclude:
         baseFolder = os.path.dirname(base_filename)
         relativeInclude = os.path.relpath(relativeInclude, baseFolder)
