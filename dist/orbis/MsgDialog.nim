@@ -3,6 +3,8 @@ import "_types/msg_dialog"
 proc sceMsgDialogInitialize*(): int32 {.cdecl,
                                         importc: "sceMsgDialogInitialize",
                                         header: "orbis/MsgDialog.h".}
+  ##  Initialize the message dialog. Should be called before trying to use the
+                                                                     ##  message dialog.
 proc sceMsgDialogOpen*(param: ptr OrbisMsgDialogParam): int32 {.cdecl,
     importc: "sceMsgDialogOpen", header: "orbis/MsgDialog.h".}
   ##  Display the message dialog.

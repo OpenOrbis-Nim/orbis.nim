@@ -54,17 +54,17 @@ proc sceKernelAddWriteEvent*(a1: OrbisKernelEqueue; a2: cint; a3: csize_t;
                              a4: pointer): cint {.cdecl,
     importc: "sceKernelAddWriteEvent", header: "orbis/libkernel.h".}
   ##  Empty Comment
-proc sceKernelAllocateDirectMemory*(a1: off_t; a2: off_t; a3: csize_t;
-                                    a4: csize_t; a5: cint; a6: ptr off_t): cint {.
-    cdecl, importc: "sceKernelAllocateDirectMemory", header: "orbis/libkernel.h".}
+proc sceKernelAllocateDirectMemory*(a1: Off; a2: Off; a3: csize_t; a4: csize_t;
+                                    a5: cint; a6: ptr Off): cint {.cdecl,
+    importc: "sceKernelAllocateDirectMemory", header: "orbis/libkernel.h".}
   ##  Empty Comment
 proc sceKernelAllocateMainDirectMemory*(a1: csize_t; a2: csize_t; a3: cint;
-                                        a4: off_t): int32 {.cdecl,
+                                        a4: Off): int32 {.cdecl,
     importc: "sceKernelAllocateMainDirectMemory", header: "orbis/libkernel.h".}
   ##  Empty Comment
-proc sceKernelAvailableDirectMemorySize*(a1: off_t; a2: off_t; a3: csize_t;
-    a4: off_t; a5: csize_t): int32 {.cdecl, importc: "sceKernelAvailableDirectMemorySize",
-                                     header: "orbis/libkernel.h".}
+proc sceKernelAvailableDirectMemorySize*(a1: Off; a2: Off; a3: csize_t; a4: Off;
+    a5: csize_t): int32 {.cdecl, importc: "sceKernelAvailableDirectMemorySize",
+                          header: "orbis/libkernel.h".}
   ##  Empty Comment
 proc sceKernelAvailableFlexibleMemorySize*(a1: csize_t): int32 {.cdecl,
     importc: "sceKernelAvailableFlexibleMemorySize", header: "orbis/libkernel.h".}
@@ -85,7 +85,7 @@ proc sceKernelCancelEventFlag*(a1: OrbisKernelEventFlag; a2: uint64;
 proc sceKernelCancelSema*(a1: OrbisKernelSema; a2: cint; a3: ptr cint): cint {.
     cdecl, importc: "sceKernelCancelSema", header: "orbis/libkernel.h".}
   ##  Empty Comment
-proc sceKernelCheckedReleaseDirectMemory*(memstart: off_t; memlen: csize_t) {.
+proc sceKernelCheckedReleaseDirectMemory*(memstart: Off; memlen: csize_t) {.
     cdecl, importc: "sceKernelCheckedReleaseDirectMemory",
     header: "orbis/libkernel.h".}
   ##  Empty Comment
@@ -177,7 +177,7 @@ proc sceKernelDeleteUserEvent*(a1: OrbisKernelEqueue; a2: cint): cint {.cdecl,
 proc sceKernelDeleteWriteEvent*(a1: OrbisKernelEqueue; a2: cint): cint {.cdecl,
     importc: "sceKernelDeleteWriteEvent", header: "orbis/libkernel.h".}
   ##  Empty Comment
-proc sceKernelDirectMemoryQuery*(a1: off_t; a2: cint; a3: pointer; a4: csize_t): int32 {.
+proc sceKernelDirectMemoryQuery*(a1: Off; a2: cint; a3: pointer; a4: csize_t): int32 {.
     cdecl, importc: "sceKernelDirectMemoryQuery", header: "orbis/libkernel.h".}
   ##  Empty Comment
 proc sceKernelDlsym*(handle: cint; symbol: cstring; address: ptr pointer): cint {.
@@ -210,7 +210,7 @@ proc sceKernelFstat*(a1: cint; a2: ptr OrbisKernelStat): cint {.cdecl,
 proc sceKernelFsync*(a1: cint): cint {.cdecl, importc: "sceKernelFsync",
                                        header: "orbis/libkernel.h".}
   ##  Empty Comment
-proc sceKernelFtruncate*(a1: cint; a2: off_t): cint {.cdecl,
+proc sceKernelFtruncate*(a1: cint; a2: Off): cint {.cdecl,
     importc: "sceKernelFtruncate", header: "orbis/libkernel.h".}
   ##  Empty Comment
 proc sceKernelFutimes*(a1: cint; a2: ptr OrbisKernelTimeval): cint {.cdecl,
@@ -220,7 +220,7 @@ proc sceKernelGetAllowedSdkVersionOnSystem*() {.cdecl,
     importc: "sceKernelGetAllowedSdkVersionOnSystem",
     header: "orbis/libkernel.h".}
   ##  Empty Comment
-proc sceKernelGetAppInfo*(pid: pid_t; info: ptr OrbisAppInfo): cint {.cdecl,
+proc sceKernelGetAppInfo*(pid: Pid; info: ptr OrbisAppInfo): cint {.cdecl,
     importc: "sceKernelGetAppInfo", header: "orbis/libkernel.h".}
   ##  Empty Comment
 proc sceKernelGetBackupRestoreMode*() {.cdecl, importc: "sceKernelGetBackupRestoreMode",
@@ -248,8 +248,8 @@ proc sceKernelGetdents*(a1: cint; a2: cstring; a3: cint): cint {.cdecl,
 proc sceKernelGetDirectMemorySize*(): csize_t {.cdecl,
     importc: "sceKernelGetDirectMemorySize", header: "orbis/libkernel.h".}
   ##  Empty Comment
-proc sceKernelGetDirectMemoryType*(a1: off_t; a2: ptr cint; a3: ptr off_t;
-                                   a4: ptr off_t): int32 {.cdecl,
+proc sceKernelGetDirectMemoryType*(a1: Off; a2: ptr cint; a3: ptr Off;
+                                   a4: ptr Off): int32 {.cdecl,
     importc: "sceKernelGetDirectMemoryType", header: "orbis/libkernel.h".}
   ##  Empty Comment
 proc sceKernelGetdirentries*(a1: cint; a2: cstring; a3: cint; a4: ptr clong): cint {.
@@ -455,13 +455,13 @@ proc sceKernelLoadStartModule*(a1: cstring; a2: csize_t; a3: pointer;
                                a4: uint32; a5: pointer; a6: pointer): uint32 {.
     cdecl, importc: "sceKernelLoadStartModule", header: "orbis/libkernel.h".}
   ##  Empty Comment
-proc sceKernelLseek*(a1: cint; a2: off_t; a3: cint): off_t {.cdecl,
+proc sceKernelLseek*(a1: cint; a2: Off; a3: cint): Off {.cdecl,
     importc: "sceKernelLseek", header: "orbis/libkernel.h".}
   ##  Empty Comment
-proc sceKernelLwfsAllocateBlock*(a1: cint; a2: off_t): cint {.cdecl,
+proc sceKernelLwfsAllocateBlock*(a1: cint; a2: Off): cint {.cdecl,
     importc: "sceKernelLwfsAllocateBlock", header: "orbis/libkernel.h".}
   ##  Empty Comment
-proc sceKernelLwfsLseek*(a1: cint; a2: off_t; a3: cint): off_t {.cdecl,
+proc sceKernelLwfsLseek*(a1: cint; a2: Off; a3: cint): Off {.cdecl,
     importc: "sceKernelLwfsLseek", header: "orbis/libkernel.h".}
   ##  Empty Comment
 proc sceKernelLwfsSetAttribute*(a1: cint; a2: cint): cint {.cdecl,
@@ -471,11 +471,11 @@ proc sceKernelLwfsWrite*(a1: cint; a2: pointer; a3: csize_t): ssize_t {.cdecl,
     importc: "sceKernelLwfsWrite", header: "orbis/libkernel.h".}
   ##  Empty Comment
 proc sceKernelMapDirectMemory*(a1: ptr pointer; a2: csize_t; a3: cint; a4: cint;
-                               a5: off_t; a6: csize_t): int32 {.cdecl,
+                               a5: Off; a6: csize_t): int32 {.cdecl,
     importc: "sceKernelMapDirectMemory", header: "orbis/libkernel.h".}
   ##  Empty Comment
 proc sceKernelMapDirectMemory2*(a1: ptr pointer; a2: csize_t; a3: cint;
-                                a4: cint; a5: cint; a6: off_t; a7: csize_t): int32 {.
+                                a4: cint; a5: cint; a6: Off; a7: csize_t): int32 {.
     cdecl, importc: "sceKernelMapDirectMemory2", header: "orbis/libkernel.h".}
   ##  Empty Comment
 proc sceKernelMapFlexibleMemory*(a1: ptr pointer; a2: csize_t; a3: cint;
@@ -483,9 +483,8 @@ proc sceKernelMapFlexibleMemory*(a1: ptr pointer; a2: csize_t; a3: cint;
     importc: "sceKernelMapFlexibleMemory", header: "orbis/libkernel.h".}
   ##  Empty Comment
 proc sceKernelMapNamedDirectMemory*(a1: ptr pointer; a2: csize_t; a3: cint;
-                                    a4: cint; a5: off_t; a6: csize_t;
-                                    a7: cstring): int32 {.cdecl,
-    importc: "sceKernelMapNamedDirectMemory", header: "orbis/libkernel.h".}
+                                    a4: cint; a5: Off; a6: csize_t; a7: cstring): int32 {.
+    cdecl, importc: "sceKernelMapNamedDirectMemory", header: "orbis/libkernel.h".}
   ##  Empty Comment
 proc sceKernelMapNamedFlexibleMemory*(a1: ptr pointer; a2: csize_t; a3: cint;
                                       a4: cint; a5: cstring): int32 {.cdecl,
@@ -505,7 +504,7 @@ proc sceKernelMlockall*() {.cdecl, importc: "sceKernelMlockall",
                             header: "orbis/libkernel.h".}
   ##  Empty Comment
 proc sceKernelMmap*(a1: pointer; a2: csize_t; a3: cint; a4: cint; a5: cint;
-                    a6: off_t; a7: ptr pointer): cint {.cdecl,
+                    a6: Off; a7: ptr pointer): cint {.cdecl,
     importc: "sceKernelMmap", header: "orbis/libkernel.h".}
   ##  Empty Comment
 proc sceKernelMprotect*(a1: pointer; a2: csize_t; a3: cint): cint {.cdecl,
@@ -546,20 +545,20 @@ proc sceKernelPollEventFlag*(a1: OrbisKernelEventFlag; a2: uint64; a3: uint32;
 proc sceKernelPollSema*(a1: OrbisKernelSema; a2: cint): cint {.cdecl,
     importc: "sceKernelPollSema", header: "orbis/libkernel.h".}
   ##  Empty Comment
-proc sceKernelPread*(a1: cint; a2: pointer; a3: csize_t; a4: off_t): csize_t {.
+proc sceKernelPread*(a1: cint; a2: pointer; a3: csize_t; a4: Off): csize_t {.
     cdecl, importc: "sceKernelPread", header: "orbis/libkernel.h".}
   ##  Empty Comment
-proc sceKernelPreadv*(a1: cint; a2: ptr OrbisKernelIovec; a3: cint; a4: off_t): csize_t {.
+proc sceKernelPreadv*(a1: cint; a2: ptr OrbisKernelIovec; a3: cint; a4: Off): csize_t {.
     cdecl, importc: "sceKernelPreadv", header: "orbis/libkernel.h".}
   ##  Empty Comment
 proc sceKernelPrintBacktraceWithModuleInfo*() {.cdecl,
     importc: "sceKernelPrintBacktraceWithModuleInfo",
     header: "orbis/libkernel.h".}
   ##  Empty Comment
-proc sceKernelPwrite*(a1: cint; a2: pointer; a3: csize_t; a4: off_t): csize_t {.
+proc sceKernelPwrite*(a1: cint; a2: pointer; a3: csize_t; a4: Off): csize_t {.
     cdecl, importc: "sceKernelPwrite", header: "orbis/libkernel.h".}
   ##  Empty Comment
-proc sceKernelPwritev*(a1: cint; a2: ptr OrbisKernelIovec; a3: cint; a4: off_t): csize_t {.
+proc sceKernelPwritev*(a1: cint; a2: ptr OrbisKernelIovec; a3: cint; a4: Off): csize_t {.
     cdecl, importc: "sceKernelPwritev", header: "orbis/libkernel.h".}
   ##  Empty Comment
 proc sceKernelQueryMemoryProtection*(a1: pointer; a2: ptr pointer;
@@ -582,7 +581,7 @@ proc sceKernelReadv*(a1: cint; a2: ptr OrbisKernelIovec; a3: cint): csize_t {.
 proc sceKernelReboot*() {.cdecl, importc: "sceKernelReboot",
                           header: "orbis/libkernel.h".}
   ##  Empty Comment
-proc sceKernelReleaseDirectMemory*(a1: off_t; a2: csize_t): int32 {.cdecl,
+proc sceKernelReleaseDirectMemory*(a1: Off; a2: csize_t): int32 {.cdecl,
     importc: "sceKernelReleaseDirectMemory", header: "orbis/libkernel.h".}
   ##  Empty Comment
 proc sceKernelReleaseFlexibleMemory*(a1: pointer; a2: csize_t): int32 {.cdecl,
@@ -680,7 +679,7 @@ proc sceKernelTitleWorkdaroundIsEnabled*() {.cdecl,
 proc sceKernelTriggerUserEvent*(a1: OrbisKernelEqueue; a2: cint; a3: pointer): cint {.
     cdecl, importc: "sceKernelTriggerUserEvent", header: "orbis/libkernel.h".}
   ##  Empty Comment
-proc sceKernelTruncate*(a1: cstring; a2: off_t): cint {.cdecl,
+proc sceKernelTruncate*(a1: cstring; a2: Off): cint {.cdecl,
     importc: "sceKernelTruncate", header: "orbis/libkernel.h".}
   ##  Empty Comment
 proc sceKernelUnlink*(a1: cstring): cint {.cdecl, importc: "sceKernelUnlink",
@@ -753,9 +752,9 @@ proc scePthreadAttrGetschedpolicy*() {.cdecl,
 proc scePthreadAttrGetscope*() {.cdecl, importc: "scePthreadAttrGetscope",
                                  header: "orbis/libkernel.h".}
   ##  Empty Comment
-proc scePthreadAttrGetstack*(__restrict: ptr OrbisPthreadAttr;
-                             __restrict: ptr pointer; __restrict: ptr csize_t): cint {.
-    cdecl, importc: "scePthreadAttrGetstack", header: "orbis/libkernel.h".}
+proc scePthreadAttrGetstack*(a1: ptr OrbisPthreadAttr; a2: ptr pointer;
+                             a3: ptr csize_t): cint {.cdecl,
+    importc: "scePthreadAttrGetstack", header: "orbis/libkernel.h".}
   ##  Empty Comment
 proc scePthreadAttrGetstackaddr*(a1: ptr OrbisPthreadAttr; a2: ptr pointer): cint {.
     cdecl, importc: "scePthreadAttrGetstackaddr", header: "orbis/libkernel.h".}
@@ -892,8 +891,8 @@ proc scePthreadGetaffinity*(a1: OrbisPthread; a2: ptr uint64) {.cdecl,
 proc scePthreadGetconcurrency*() {.cdecl, importc: "scePthreadGetconcurrency",
                                    header: "orbis/libkernel.h".}
   ##  Empty Comment
-proc scePthreadGetcpuclockid*(a1: OrbisPthread; a2: ptr clockid_t): cint {.
-    cdecl, importc: "scePthreadGetcpuclockid", header: "orbis/libkernel.h".}
+proc scePthreadGetcpuclockid*(a1: OrbisPthread; a2: ptr ClockId): cint {.cdecl,
+    importc: "scePthreadGetcpuclockid", header: "orbis/libkernel.h".}
   ##  Empty Comment
 proc scePthreadGetname*(a1: OrbisPthread; a2: cstring): cint {.cdecl,
     importc: "scePthreadGetname", header: "orbis/libkernel.h".}

@@ -1,6 +1,7 @@
 import "_types/gnm"
 proc sceGnmAddEqEvent*() {.cdecl, importc: "sceGnmAddEqEvent",
                            header: "orbis/GnmDriver.h".}
+  ##  Empty Comment
 proc sceGnmAreSubmitsAllowed*() {.cdecl, importc: "sceGnmAreSubmitsAllowed",
                                   header: "orbis/GnmDriver.h".}
   ##  Empty Comment

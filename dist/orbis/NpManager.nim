@@ -1,7 +1,7 @@
 import "_types/Np"
-import "_types/rtc"
 proc _sceNpIpcCreateMemoryFromKernel*() {.cdecl,
     importc: "_sceNpIpcCreateMemoryFromKernel", header: "orbis/NpManager.h".}
+  ##  Empty Comment
 proc _sceNpIpcCreateMemoryFromPool*() {.cdecl, importc: "_sceNpIpcCreateMemoryFromPool",
                                         header: "orbis/NpManager.h".}
   ##  Empty Comment

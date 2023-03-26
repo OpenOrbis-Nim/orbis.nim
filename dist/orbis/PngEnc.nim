@@ -2,6 +2,7 @@ import "_types/png"
 proc scePngEncCreate*(a1: ptr OrbisPngEncCreateParam; a2: pointer; a3: uint32;
                       a4: ptr OrbisPngEncHandle): int32 {.cdecl,
     importc: "scePngEncCreate", header: "orbis/PngEnc.h".}
+  ##  Empty Comment
 proc scePngEncDelete*(a1: OrbisPngEncHandle): int32 {.cdecl,
     importc: "scePngEncDelete", header: "orbis/PngEnc.h".}
   ##  Empty Comment

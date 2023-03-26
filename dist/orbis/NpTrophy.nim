@@ -1,7 +1,7 @@
 import "_types/Np"
-import "_types/rtc"
 proc sceNpTrophyAbortHandle*() {.cdecl, importc: "sceNpTrophyAbortHandle",
                                  header: "orbis/NpTrophy.h".}
+  ##  Empty Comment
 proc sceNpTrophyCaptureScreenshot*() {.cdecl,
                                        importc: "sceNpTrophyCaptureScreenshot",
                                        header: "orbis/NpTrophy.h".}

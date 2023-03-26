@@ -1,5 +1,4 @@
 import "_types/ime_dialog"
-import "_types/rtc"
 proc sceImeDialogAbort*() {.cdecl, importc: "sceImeDialogAbort",
                             header: "orbis/ImeDialog.h".}
   ##  Empty Comment

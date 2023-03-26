@@ -1,5 +1,6 @@
+import posix
 const
-  ORBIS_SAVE_DATA_MOUNT_MODE_RDONLY* = 1 ## Read-only
+  ORBIS_SAVE_DATA_MOUNT_MODE_RDONLY* = 1
 
 const
   ORBIS_SAVE_DATA_MOUNT_MODE_RDWR* = 2 ## Read/write-enabled
@@ -145,7 +146,7 @@ type
     details* {.importc: "details".}: array[1024, char] ## Maximum size for save data detailed information (NULL-terminated, UTF-8)
     userParam* {.importc: "userParam".}: uint32
     unknown1* {.importc: "unknown1".}: uint32
-    mtime* {.importc: "mtime".}: time_t
+    mtime* {.importc: "mtime".}: Time
     unknown2* {.importc: "unknown2".}: array[0x20, char]
 
   OrbisSaveDataMount2* {.importc: "OrbisSaveDataMount2",

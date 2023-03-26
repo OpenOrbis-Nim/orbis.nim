@@ -3,6 +3,7 @@ import "_types/user"
 import "_types/errors"
 proc sceAudioOutClose*(a1: int32): int32 {.cdecl, importc: "sceAudioOutClose",
     header: "orbis/AudioOut.h".}
+  ##  Close the audio out handle & resource.
 proc sceAudioOutGetLastOutputTime*(a1: int32; a2: ptr uint64): int32 {.cdecl,
     importc: "sceAudioOutGetLastOutputTime", header: "orbis/AudioOut.h".}
   ##  Gets the last output process time.

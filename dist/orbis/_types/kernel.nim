@@ -91,7 +91,7 @@ type
     unk05* {.importc: "unk05".}: uint8
     unk06* {.importc: "unk06".}: array[6, uint8]
 
-  OrbisKernelMode* = mode_t
+  OrbisKernelMode* = Mode
   OrbisKernelStat* = stat
   OrbisKernelTimespec* = timespec
   OrbisKernelIovec* {.importc: "OrbisKernelIovec",
@@ -103,7 +103,7 @@ type
                                  header: "orbis/_types/kernel.h", bycopy.} = object
     unk01* {.importc: "unk01".}: pointer
     unk02* {.importc: "unk02".}: pointer
-    offset* {.importc: "offset".}: off_t
+    offset* {.importc: "offset".}: Off
     unk04* {.importc: "unk04".}: cint
     unk05* {.importc: "unk05".}: cint
     isFlexibleMemory* {.importc: "isFlexibleMemory", bitsize: 1.}: cuint

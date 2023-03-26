@@ -21,7 +21,7 @@ const
   ORBIS_PTHREAD_DONE_INIT* = 1
   ORBIS_PTHREAD_ONCE_INIT* = (ORBIS_PTHREAD_NEEDS_INIT, nil)
   ORBIS_PTHREAD_MUTEX_INITIALIZER* = nil
-  ORBIS_PTHREAD_ADAPTIVE_MUTEX_INITIALIZER* = (cast[pthread_mutex_t](1))
+  ORBIS_PTHREAD_ADAPTIVE_MUTEX_INITIALIZER* = (cast[Pthread_mutex](1))
   ORBIS_PTHREAD_COND_INITIALIZER* = nil
   ORBIS_PTHREAD_RWLOCK_INITIALIZER* = nil
   ORBIS_PTHREAD_PRIO_NONE* = 0
@@ -30,15 +30,15 @@ const
   ORBIS_PTHREAD_MUTEX_DEFAULT* = ORBIS_PTHREAD_MUTEX_ERRORCHECK
 
 type
-  OrbisPthreadOnce* = pthread_once_t
-  OrbisPthreadBarrierattr* = pthread_barrierattr_t
-  OrbisPthreadKey* = pthread_key_t
-  OrbisPthreadRwlock* = pthread_rwlock_t
-  OrbisPthreadRwlockattr* = pthread_rwlockattr_t
-  OrbisPthreadAttr* = pthread_attr_t
-  OrbisPthreadBarrier* = pthread_barrier_t
-  OrbisPthreadMutex* = pthread_mutex_t
-  OrbisPthreadCondattr* = pthread_condattr_t
-  OrbisPthreadCond* = pthread_cond_t
-  OrbisPthread* = pthread_t
-  OrbisPthreadMutexattr* = pthread_mutexattr_t
+  OrbisPthreadOnce* = Pthread_once
+  OrbisPthreadBarrierattr* = Pthread_barrierattr
+  OrbisPthreadKey* = Pthread_key
+  OrbisPthreadRwlock* = Pthread_rwlock
+  OrbisPthreadRwlockattr* = Pthread_rwlockattr
+  OrbisPthreadAttr* = Pthread_attr
+  OrbisPthreadBarrier* = Pthread_barrier
+  OrbisPthreadMutex* = Pthread_mutex
+  OrbisPthreadCondattr* = Pthread_condattr
+  OrbisPthreadCond* = Pthread_cond
+  OrbisPthread* = Pthread
+  OrbisPthreadMutexattr* = Pthread_mutexattr
