@@ -3,17 +3,6 @@ import os
 import re
 import sys
 
-LINE_MARKER_REGEX = re.compile(r"#\s(\d+)\s\"([^\"]*)\"([\s\d]{0,})")
-
-def parseLineMarker(line):
-    m = LINE_MARKER_REGEX.match(line)
-    if not m:
-        return None
-    return (m.group(1), m.group(2), m.group(3))
-
-assert parseLineMarker("# 1 \"abc\"") == ("1", "abc", '')
-
-assert parseLineMarker("# 0 \"\" 1 2 3 4") == ("0", "", " 1 2 3 4")
 
 def isMacroFunction(line):
     if line[0] != "#":
@@ -93,34 +82,71 @@ out = []
 idx = 0 
 lines_length = len(lines)
 ignore_lines = True
+LINE_MARKER_REGEX = re.compile(r"#\s(\d+)\s\"([^\"]*)\"([\s\d]{0,})")
+
+def parseLineMarker(line):
+    m = LINE_MARKER_REGEX.match(line)
+    if not m:
+        return None
+    return (m.group(1), m.group(2), m.group(3))
+
+assert parseLineMarker("# 1 \"abc\"") == ("1", "abc", '')
+
+assert parseLineMarker("# 0 \"\" 1 2 3 4") == ("0", "", " 1 2 3 4")
+
 if parseLineMarker(lines[0].strip()) == None:
     print("Not a preprocessed output file")
     sys.exit(-1)
 
 encountered_files = {}
 
-def generateNimImport(cPath):
+def pathToNimImportName(cPath):
+    return '"{}"'.format('/'.join(cPath[0:-2].split("\\")))
+
+def generateNimImport(importName, fix_path=True):
     code = """
 #@
-import "{}"
+import {}
 @#
-    """.format('/'.join(cPath[0:-2].split("\\"))).strip()
+    """.format(importName).strip() + "\n"
     return code
 
+
 def getRelativeIncludePath(fullPath):
-    base = os.path.join(os.getenv("OO_PS4_TOOLCHAIN"), "include/")
-    return fullPath.replace(base, "")
+    base = fullPath.find("include/") 
+    if base == -1:
+        return ""
+    base += len("include/")
+    return fullPath[base:]
+
+
+class MarkerTracker:
+    def __init__(self):
+        self.main_files = {}
+        self.stack = []
+
+    def parseLineMarker(self, line, idx):
+        marker = parseLineMarker(line)
+        if marker and '<' not in marker[1]:
+            if '1' in marker[2]: # Start of new file
+                if len(self.stack) == 0:
+                    self.main_files[marker[1]] = idx
+                self.stack.append(marker[1])
+            elif '2' in marker[2]:
+                if len(self.stack):
+                    self.stack.pop()
+        return marker
+
+mt = MarkerTracker()
+base_filename = ""
 
 while idx < lines_length:
     line = lines[idx]
-    marker = parseLineMarker(line.strip())
+    marker = mt.parseLineMarker(line.strip(), idx)
+    if idx == 0:
+        base_filename = marker[1].replace("source/", "")
     if marker:
-        if encountered_files.get(marker[1], None) == None:
-            encountered_files[marker[1]] = True
-            if 'orbis' in marker[1]:
-                relativePath = getRelativeIncludePath(marker[1])
-                relativePath = relativePath.replace("orbis/", "")
-                out.append(generateNimImport(relativePath))
+
         ignore_lines = marker[1] != header
     elif not ignore_lines and not isMacroFunction(line):
         if isLineWithComment(line):
@@ -128,6 +154,27 @@ while idx < lines_length:
         else:
             out.append(line)
     idx += 1
+
+import_mappings = {
+        "time.h" : "posix",
+        "stdint.h" : None,
+}
+
+nim_imports = {}
+
+for file in mt.main_files.keys():
+    relativeInclude = getRelativeIncludePath(file)
+    if relativeInclude == "stdint.h":
+        continue
+    if "orbis" in relativeInclude:
+        baseFolder = os.path.dirname(base_filename)
+        relativeInclude = os.path.relpath(relativeInclude, baseFolder)
+        import_name = pathToNimImportName(relativeInclude)
+        nim_imports[import_name] = True
+    elif import_mappings.get(relativeInclude, None) != None:
+        import_name = import_mappings[relativeInclude]
+        nim_imports[import_name] = True
+out = [generateNimImport(import_name) for import_name in nim_imports.keys()] + out
 
 with open(filename, 'w') as fh:
     fh.write(''.join(out))
