@@ -163,7 +163,11 @@ import_mappings = {
 nim_imports = {}
 
 for file in mt.main_files.keys():
+    
     relativeInclude = getRelativeIncludePath(file)
+    if not relativeInclude:
+        relativeInclude = file.replace("source/", "")     
+
     if "orbis" in relativeInclude:
         baseFolder = os.path.dirname(base_filename)
         relativeInclude = os.path.relpath(relativeInclude, baseFolder)
@@ -172,6 +176,7 @@ for file in mt.main_files.keys():
     elif import_mappings.get(relativeInclude, None) != None:
         import_name = import_mappings[relativeInclude]
         nim_imports[import_name] = True
+    
 out = [generateNimImport(import_name) for import_name in nim_imports.keys()] + out
 
 with open(filename, 'w') as fh:
