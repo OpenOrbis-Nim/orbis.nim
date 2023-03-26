@@ -1,3 +1,4 @@
+import "_types/sysmodule"
 proc sceSysmoduleIsLoaded*(id: uint16): cint {.cdecl,
     importc: "sceSysmoduleIsLoaded", header: "orbis/Sysmodule.h".}
   ##

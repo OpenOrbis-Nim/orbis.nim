@@ -1,3 +1,4 @@
+import "_types/appinst_util"
 proc sceAppInstUtilInitialize*(): cint {.cdecl,
     importc: "sceAppInstUtilInitialize", header: "orbis/AppInstUtil.h".}
 proc sceAppInstUtilTerminate*(): cint {.cdecl,
