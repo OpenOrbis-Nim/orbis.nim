@@ -7,6 +7,6 @@ type
 
   OrbisGnmDrawIndexFlags* {.importc: "OrbisGnmDrawIndexFlags",
                             header: "orbis/_types/gnm.h", bycopy, union.} = object
-    ano_gnm3* {.importc: "ano_gnm_3".}: INNER_C_STRUCT_gnm_2
+    ano_gnm_3* {.importc: "ano_gnm_3".}: INNER_C_STRUCT_gnm_2
     asuint* {.importc: "asuint".}: uint32
 

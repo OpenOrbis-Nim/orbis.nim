@@ -561,13 +561,13 @@ proc sceNpUtilHttpUrlEncode*() {.cdecl, importc: "sceNpUtilHttpUrlEncode",
 proc sceNpUtilJidToNpId*() {.cdecl, importc: "sceNpUtilJidToNpId",
                              header: "orbis/NpCommon.h".}
   ##  Empty Comment
-proc sceNpUtilJsonEscape*(`out`: cstring; max_outsize: csize_t; `in`: cstring;
+proc sceNpUtilJsonEscape*(`out`: cstring; max_out_size: csize_t; `in`: cstring;
                           in_size: csize_t): cint {.cdecl,
     importc: "sceNpUtilJsonEscape", header: "orbis/NpCommon.h".}
   ##  reversed by flatz
-proc sceNpUtilJsonUnescape*(`out`: cstring; max_outsize: csize_t; `in`: cstring;
-                            in_size: csize_t; flags: cuint): cint {.cdecl,
-    importc: "sceNpUtilJsonUnescape", header: "orbis/NpCommon.h".}
+proc sceNpUtilJsonUnescape*(`out`: cstring; max_out_size: csize_t;
+                            `in`: cstring; in_size: csize_t; flags: cuint): cint {.
+    cdecl, importc: "sceNpUtilJsonUnescape", header: "orbis/NpCommon.h".}
 proc sceNpUtilNpIdToJid*() {.cdecl, importc: "sceNpUtilNpIdToJid",
                              header: "orbis/NpCommon.h".}
   ##  Empty Comment

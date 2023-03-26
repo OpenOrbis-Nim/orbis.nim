@@ -1,20 +1,20 @@
-proc ZN15AbstractStorage11LocalFolder10NewContentERKSbIcSt11char_traitsIcENS8StlAllocIcEEEPSt10sharedptrINS7ContentEE*() {.
+proc ZN15AbstractStorage11LocalFolder10NewContentERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEPSt10shared_ptrINS_7ContentEE*() {.
     cdecl, importc: "_ZN15AbstractStorage11LocalFolder10NewContentERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEPSt10shared_ptrINS_7ContentEE",
     header: "orbis/AbstractLocal.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage11LocalFolder12readExternalESt10shared_ptrINS7ContentEE*() {.
+proc ZN15AbstractStorage11LocalFolder12readExternalESt10shared_ptrINS_7ContentEE*() {.
     cdecl, importc: "_ZN15AbstractStorage11LocalFolder12readExternalESt10shared_ptrINS_7ContentEE",
     header: "orbis/AbstractLocal.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage11LocalFolder12RemoveFolderERKSbIcSt11char_traitsIcENS8StlAllocIcEEEb*() {.
+proc ZN15AbstractStorage11LocalFolder12RemoveFolderERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEb*() {.
     cdecl, importc: "_ZN15AbstractStorage11LocalFolder12RemoveFolderERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEb",
     header: "orbis/AbstractLocal.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage11LocalFolder13RemoveContentERKSbIcSt11char_traitsIcENS8StlAllocIcEEE*() {.
+proc ZN15AbstractStorage11LocalFolder13RemoveContentERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage11LocalFolder13RemoveContentERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractLocal.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage11LocalFolder13writeExternalESt10shared_ptrINS7ContentEE*() {.
+proc ZN15AbstractStorage11LocalFolder13writeExternalESt10shared_ptrINS_7ContentEE*() {.
     cdecl, importc: "_ZN15AbstractStorage11LocalFolder13writeExternalESt10shared_ptrINS_7ContentEE",
     header: "orbis/AbstractLocal.h".}
   ##  Empty Comment
@@ -30,19 +30,19 @@ proc ZN15AbstractStorage11LocalFolder6RemoveEb*() {.cdecl,
     importc: "_ZN15AbstractStorage11LocalFolder6RemoveEb",
     header: "orbis/AbstractLocal.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage11LocalFolder8NextItemEPSt10shared_ptrINS4ItemEE*() {.
+proc ZN15AbstractStorage11LocalFolder8NextItemEPSt10shared_ptrINS_4ItemEE*() {.
     cdecl, importc: "_ZN15AbstractStorage11LocalFolder8NextItemEPSt10shared_ptrINS_4ItemEE",
     header: "orbis/AbstractLocal.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage11LocalFolder9NewFolderERKSbIcSt11char_traitsIcENS8StlAllocIcEEEPSt10sharedptrINS6FolderEE*() {.
+proc ZN15AbstractStorage11LocalFolder9NewFolderERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEPSt10shared_ptrINS_6FolderEE*() {.
     cdecl, importc: "_ZN15AbstractStorage11LocalFolder9NewFolderERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEPSt10shared_ptrINS_6FolderEE",
     header: "orbis/AbstractLocal.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage11LocalFolderC1ERKSbIcSt11char_traitsIcENS8StlAllocIcEEE*() {.
+proc ZN15AbstractStorage11LocalFolderC1ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage11LocalFolderC1ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractLocal.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage11LocalFolderC2ERKSbIcSt11char_traitsIcENS8StlAllocIcEEE*() {.
+proc ZN15AbstractStorage11LocalFolderC2ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage11LocalFolderC2ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractLocal.h".}
   ##  Empty Comment
@@ -58,7 +58,7 @@ proc ZN15AbstractStorage11LocalFolderD2Ev*() {.cdecl,
     importc: "_ZN15AbstractStorage11LocalFolderD2Ev",
     header: "orbis/AbstractLocal.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage12LocalContent12readExternalESt10shared_ptrINS7ContentEE*() {.
+proc ZN15AbstractStorage12LocalContent12readExternalESt10shared_ptrINS_7ContentEE*() {.
     cdecl, importc: "_ZN15AbstractStorage12LocalContent12readExternalESt10shared_ptrINS_7ContentEE",
     header: "orbis/AbstractLocal.h".}
   ##  Empty Comment
@@ -66,7 +66,7 @@ proc ZN15AbstractStorage12LocalContent13ParseMetadataEPN23sceMetadataReaderWrite
     cdecl, importc: "_ZN15AbstractStorage12LocalContent13ParseMetadataEPN23sceMetadataReaderWriter8MetadataES3_",
     header: "orbis/AbstractLocal.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage12LocalContent13writeExternalESt10shared_ptrINS7ContentEE*() {.
+proc ZN15AbstractStorage12LocalContent13writeExternalESt10shared_ptrINS_7ContentEE*() {.
     cdecl, importc: "_ZN15AbstractStorage12LocalContent13writeExternalESt10shared_ptrINS_7ContentEE",
     header: "orbis/AbstractLocal.h".}
   ##  Empty Comment
@@ -86,15 +86,15 @@ proc ZN15AbstractStorage12LocalContent6RemoveEv*() {.cdecl,
     importc: "_ZN15AbstractStorage12LocalContent6RemoveEv",
     header: "orbis/AbstractLocal.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage12LocalContent6RenameERKSbIcSt11char_traitsIcENS8StlAllocIcEEE*() {.
+proc ZN15AbstractStorage12LocalContent6RenameERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage12LocalContent6RenameERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractLocal.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage12LocalContentC1ERKSbIcSt11char_traitsIcENS8StlAllocIcEEE*() {.
+proc ZN15AbstractStorage12LocalContentC1ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage12LocalContentC1ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractLocal.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage12LocalContentC2ERKSbIcSt11char_traitsIcENS8StlAllocIcEEE*() {.
+proc ZN15AbstractStorage12LocalContentC2ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage12LocalContentC2ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractLocal.h".}
   ##  Empty Comment
@@ -114,11 +114,11 @@ proc ZN15AbstractStorage12LocalService13SearchStorageEv*() {.cdecl,
     importc: "_ZN15AbstractStorage12LocalService13SearchStorageEv",
     header: "orbis/AbstractLocal.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage12LocalService18append_storagelistERKSbIcSt11chartraitsIcENS8StlAllocIcEEEb*() {.
+proc ZN15AbstractStorage12LocalService18append_storagelistERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEb*() {.
     cdecl, importc: "_ZN15AbstractStorage12LocalService18append_storagelistERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEb",
     header: "orbis/AbstractLocal.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage12LocalService19isSandBoxRandomWordERKSbIcSt11char_traitsIcENS8StlAllocIcEEE*() {.
+proc ZN15AbstractStorage12LocalService19isSandBoxRandomWordERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage12LocalService19isSandBoxRandomWordERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractLocal.h".}
   ##  Empty Comment
@@ -126,7 +126,7 @@ proc ZN15AbstractStorage12LocalService20GetSandBoxRandomWordEv*() {.cdecl,
     importc: "_ZN15AbstractStorage12LocalService20GetSandBoxRandomWordEv",
     header: "orbis/AbstractLocal.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage12LocalService23create_storageinstanceERKSbIcSt11chartraitsIcENS8StlAllocIcEEE*() {.
+proc ZN15AbstractStorage12LocalService23create_storage_instanceERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage12LocalService23create_storage_instanceERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractLocal.h".}
   ##  Empty Comment
@@ -158,51 +158,51 @@ proc ZN15AbstractStorage12LocalServiceD2Ev*() {.cdecl,
     importc: "_ZN15AbstractStorage12LocalServiceD2Ev",
     header: "orbis/AbstractLocal.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage12LocalStorage11DeserializeESt10shared_ptrINS7ContentEEPS1INS4ItemEE*() {.
+proc ZN15AbstractStorage12LocalStorage11DeserializeESt10shared_ptrINS_7ContentEEPS1_INS_4ItemEE*() {.
     cdecl, importc: "_ZN15AbstractStorage12LocalStorage11DeserializeESt10shared_ptrINS_7ContentEEPS1_INS_4ItemEE",
     header: "orbis/AbstractLocal.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage12LocalStorage12readExternalESt10shared_ptrINS7ContentEE*() {.
+proc ZN15AbstractStorage12LocalStorage12readExternalESt10shared_ptrINS_7ContentEE*() {.
     cdecl, importc: "_ZN15AbstractStorage12LocalStorage12readExternalESt10shared_ptrINS_7ContentEE",
     header: "orbis/AbstractLocal.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage12LocalStorage13GetRootFolderEPSt10shared_ptrINS6FolderEE*() {.
+proc ZN15AbstractStorage12LocalStorage13GetRootFolderEPSt10shared_ptrINS_6FolderEE*() {.
     cdecl, importc: "_ZN15AbstractStorage12LocalStorage13GetRootFolderEPSt10shared_ptrINS_6FolderEE",
     header: "orbis/AbstractLocal.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage12LocalStorage13writeExternalESt10shared_ptrINS7ContentEE*() {.
+proc ZN15AbstractStorage12LocalStorage13writeExternalESt10shared_ptrINS_7ContentEE*() {.
     cdecl, importc: "_ZN15AbstractStorage12LocalStorage13writeExternalESt10shared_ptrINS_7ContentEE",
     header: "orbis/AbstractLocal.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage12LocalStorage15CreateRecursiveERKSbIcSt11char_traitsIcENS8StlAllocIcEEENS8ItemTypeEPSt10sharedptrINS4ItemEE*() {.
+proc ZN15AbstractStorage12LocalStorage15CreateRecursiveERKSbIcSt11char_traitsIcENS_8StlAllocIcEEENS_8ItemTypeEPSt10shared_ptrINS_4ItemEE*() {.
     cdecl, importc: "_ZN15AbstractStorage12LocalStorage15CreateRecursiveERKSbIcSt11char_traitsIcENS_8StlAllocIcEEENS_8ItemTypeEPSt10shared_ptrINS_4ItemEE",
     header: "orbis/AbstractLocal.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage12LocalStorage15RemoveRecursiveERKSbIcSt11char_traitsIcENS8StlAllocIcEEE*() {.
+proc ZN15AbstractStorage12LocalStorage15RemoveRecursiveERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage12LocalStorage15RemoveRecursiveERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractLocal.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage12LocalStorage5ChModERKSbIcSt11char_traitsIcENS8StlAllocIcEEEt*() {.
+proc ZN15AbstractStorage12LocalStorage5ChModERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEt*() {.
     cdecl, importc: "_ZN15AbstractStorage12LocalStorage5ChModERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEt",
     header: "orbis/AbstractLocal.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage12LocalStorage7GetItemERKSbIcSt11char_traitsIcENS8StlAllocIcEEEPSt10sharedptrINS4ItemEE*() {.
+proc ZN15AbstractStorage12LocalStorage7GetItemERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEPSt10shared_ptrINS_4ItemEE*() {.
     cdecl, importc: "_ZN15AbstractStorage12LocalStorage7GetItemERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEPSt10shared_ptrINS_4ItemEE",
     header: "orbis/AbstractLocal.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage12LocalStorage7IsExistERKSbIcSt11char_traitsIcENS8StlAllocIcEEE*() {.
+proc ZN15AbstractStorage12LocalStorage7IsExistERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage12LocalStorage7IsExistERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractLocal.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage12LocalStorage9SerializeESt10shared_ptrINS7ContentEES1INS4ItemEE*() {.
+proc ZN15AbstractStorage12LocalStorage9SerializeESt10shared_ptrINS_7ContentEES1_INS_4ItemEE*() {.
     cdecl, importc: "_ZN15AbstractStorage12LocalStorage9SerializeESt10shared_ptrINS_7ContentEES1_INS_4ItemEE",
     header: "orbis/AbstractLocal.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage12LocalStorageC1ERKSbIcSt11char_traitsIcENS8StlAllocIcEEE*() {.
+proc ZN15AbstractStorage12LocalStorageC1ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage12LocalStorageC1ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractLocal.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage12LocalStorageC2ERKSbIcSt11char_traitsIcENS8StlAllocIcEEE*() {.
+proc ZN15AbstractStorage12LocalStorageC2ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage12LocalStorageC2ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractLocal.h".}
   ##  Empty Comment

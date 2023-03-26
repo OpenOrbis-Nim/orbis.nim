@@ -20,9 +20,9 @@ type
 
 
 const
-  ORBIS_AUDIODECCODECAT9* = 0x0001 ##  Decoder Types
-  ORBIS_AUDIODECCODECMP3* = 0x0002
-  ORBIS_AUDIODECCODECM4AAC* = 0x0003
+  ORBIS_AUDIO_DEC_CODEC_AT9* = 0x0001 ##  Decoder Types
+  ORBIS_AUDIO_DEC_CODEC_MP3* = 0x0002
+  ORBIS_AUDIO_DEC_CODEC_M4AAC* = 0x0003
 
 proc sceAudiodecClearContext*(a1: int32): int32 {.cdecl,
     importc: "sceAudiodecClearContext", header: "orbis/Audiodec.h".}

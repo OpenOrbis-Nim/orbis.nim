@@ -24,7 +24,7 @@ proc ZN4IPMI4impl10ClientImpl13waitEventFlagEjmjPmPj*() {.cdecl,
     importc: "_ZN4IPMI4impl10ClientImpl13waitEventFlagEjmjPmPj",
     header: "orbis/Ipmi.h".}
   ##  Empty Comment
-proc ZN4IPMI4impl10ClientImpl16invokeSyncMethodEjPKNS_8DataInfoEjPiPNS10BufferInfoEj*() {.
+proc ZN4IPMI4impl10ClientImpl16invokeSyncMethodEjPKNS_8DataInfoEjPiPNS_10BufferInfoEj*() {.
     cdecl, importc: "_ZN4IPMI4impl10ClientImpl16invokeSyncMethodEjPKNS_8DataInfoEjPiPNS_10BufferInfoEj",
     header: "orbis/Ipmi.h".}
   ##  Empty Comment
@@ -32,7 +32,7 @@ proc ZN4IPMI4impl10ClientImpl16invokeSyncMethodEjPKvmPiPvPmm*() {.cdecl,
     importc: "_ZN4IPMI4impl10ClientImpl16invokeSyncMethodEjPKvmPiPvPmm",
     header: "orbis/Ipmi.h".}
   ##  Empty Comment
-proc ZN4IPMI4impl10ClientImpl17invokeAsyncMethodEjPKNS_8DataInfoEjPjPKNS6Client12EventNotifeeE*() {.
+proc ZN4IPMI4impl10ClientImpl17invokeAsyncMethodEjPKNS_8DataInfoEjPjPKNS_6Client12EventNotifeeE*() {.
     cdecl, importc: "_ZN4IPMI4impl10ClientImpl17invokeAsyncMethodEjPKNS_8DataInfoEjPjPKNS_6Client12EventNotifeeE",
     header: "orbis/Ipmi.h".}
   ##  Empty Comment
@@ -217,7 +217,7 @@ proc ZN4IPMI6Client6ConfigC2Ev*() {.cdecl,
                                     importc: "_ZN4IPMI6Client6ConfigC2Ev",
                                     header: "orbis/Ipmi.h".}
   ##  Empty Comment
-proc ZN4IPMI6Client6createEPPS0_PKNS06ConfigEPvS6*() {.cdecl,
+proc ZN4IPMI6Client6createEPPS0_PKNS0_6ConfigEPvS6*() {.cdecl,
     importc: "_ZN4IPMI6Client6createEPPS0_PKNS0_6ConfigEPvS6_",
     header: "orbis/Ipmi.h".}
   ##  Empty Comment
@@ -237,11 +237,11 @@ proc ZN4IPMI6Server12EventHandler15onSessionKilledEPNS_7SessionE*() {.cdecl,
     importc: "_ZN4IPMI6Server12EventHandler15onSessionKilledEPNS_7SessionE",
     header: "orbis/Ipmi.h".}
   ##  Empty Comment
-proc ZN4IPMI6Server12EventHandler20onSyncMethodDispatchEPNS_7SessionEjPKNS8DataInfoEjPNS10BufferInfoEj*() {.
+proc ZN4IPMI6Server12EventHandler20onSyncMethodDispatchEPNS_7SessionEjPKNS_8DataInfoEjPNS_10BufferInfoEj*() {.
     cdecl, importc: "_ZN4IPMI6Server12EventHandler20onSyncMethodDispatchEPNS_7SessionEjPKNS_8DataInfoEjPNS_10BufferInfoEj",
     header: "orbis/Ipmi.h".}
   ##  Empty Comment
-proc ZN4IPMI6Server12EventHandler21onAsyncMethodDispatchEPNS_7SessionEjjPKNS8DataInfoEj*() {.
+proc ZN4IPMI6Server12EventHandler21onAsyncMethodDispatchEPNS_7SessionEjjPKNS_8DataInfoEj*() {.
     cdecl, importc: "_ZN4IPMI6Server12EventHandler21onAsyncMethodDispatchEPNS_7SessionEjjPKNS_8DataInfoEj",
     header: "orbis/Ipmi.h".}
   ##  Empty Comment
@@ -262,7 +262,7 @@ proc ZN4IPMI6Server6ConfigC2Ev*() {.cdecl,
                                     importc: "_ZN4IPMI6Server6ConfigC2Ev",
                                     header: "orbis/Ipmi.h".}
   ##  Empty Comment
-proc ZN4IPMI6Server6createEPPS0_PKNS06ConfigEPvS6*() {.cdecl,
+proc ZN4IPMI6Server6createEPPS0_PKNS0_6ConfigEPvS6*() {.cdecl,
     importc: "_ZN4IPMI6Server6createEPPS0_PKNS0_6ConfigEPvS6_",
     header: "orbis/Ipmi.h".}
   ##  Empty Comment

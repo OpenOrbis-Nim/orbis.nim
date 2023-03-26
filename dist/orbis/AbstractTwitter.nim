@@ -1,4 +1,4 @@
-proc ZN15AbstractStorage10TwitterAPI6FinishERiRSbIcSt11char_traitsIcENS8StlAllocIcEEE*() {.
+proc ZN15AbstractStorage10TwitterAPI6FinishERiRSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage10TwitterAPI6FinishERiRSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractTwitter.h".}
   ##  Empty Comment
@@ -10,15 +10,15 @@ proc ZN15AbstractStorage10TwitterAPID1Ev*() {.cdecl,
     importc: "_ZN15AbstractStorage10TwitterAPID1Ev",
     header: "orbis/AbstractTwitter.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage13TwitterFolder10NewContentERKSbIcSt11char_traitsIcENS8StlAllocIcEEEPSt10sharedptrINS7ContentEE*() {.
+proc ZN15AbstractStorage13TwitterFolder10NewContentERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEPSt10shared_ptrINS_7ContentEE*() {.
     cdecl, importc: "_ZN15AbstractStorage13TwitterFolder10NewContentERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEPSt10shared_ptrINS_7ContentEE",
     header: "orbis/AbstractTwitter.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage13TwitterFolder12RemoveFolderERKSbIcSt11char_traitsIcENS8StlAllocIcEEEb*() {.
+proc ZN15AbstractStorage13TwitterFolder12RemoveFolderERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEb*() {.
     cdecl, importc: "_ZN15AbstractStorage13TwitterFolder12RemoveFolderERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEb",
     header: "orbis/AbstractTwitter.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage13TwitterFolder13RemoveContentERKSbIcSt11char_traitsIcENS8StlAllocIcEEE*() {.
+proc ZN15AbstractStorage13TwitterFolder13RemoveContentERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage13TwitterFolder13RemoveContentERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractTwitter.h".}
   ##  Empty Comment
@@ -34,19 +34,19 @@ proc ZN15AbstractStorage13TwitterFolder6RemoveEb*() {.cdecl,
     importc: "_ZN15AbstractStorage13TwitterFolder6RemoveEb",
     header: "orbis/AbstractTwitter.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage13TwitterFolder8NextItemEPSt10shared_ptrINS4ItemEE*() {.
+proc ZN15AbstractStorage13TwitterFolder8NextItemEPSt10shared_ptrINS_4ItemEE*() {.
     cdecl, importc: "_ZN15AbstractStorage13TwitterFolder8NextItemEPSt10shared_ptrINS_4ItemEE",
     header: "orbis/AbstractTwitter.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage13TwitterFolder9NewFolderERKSbIcSt11char_traitsIcENS8StlAllocIcEEEPSt10sharedptrINS6FolderEE*() {.
+proc ZN15AbstractStorage13TwitterFolder9NewFolderERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEPSt10shared_ptrINS_6FolderEE*() {.
     cdecl, importc: "_ZN15AbstractStorage13TwitterFolder9NewFolderERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEPSt10shared_ptrINS_6FolderEE",
     header: "orbis/AbstractTwitter.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage13TwitterFolderC1ERKSbIcSt11char_traitsIcENS8StlAllocIcEEEb*() {.
+proc ZN15AbstractStorage13TwitterFolderC1ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEb*() {.
     cdecl, importc: "_ZN15AbstractStorage13TwitterFolderC1ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEb",
     header: "orbis/AbstractTwitter.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage13TwitterFolderC2ERKSbIcSt11char_traitsIcENS8StlAllocIcEEEb*() {.
+proc ZN15AbstractStorage13TwitterFolderC2ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEb*() {.
     cdecl, importc: "_ZN15AbstractStorage13TwitterFolderC2ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEb",
     header: "orbis/AbstractTwitter.h".}
   ##  Empty Comment
@@ -66,7 +66,7 @@ proc ZN15AbstractStorage14TwitterContent11SetMetadataEPN23sceMetadataReaderWrite
     cdecl, importc: "_ZN15AbstractStorage14TwitterContent11SetMetadataEPN23sceMetadataReaderWriter8MetadataE",
     header: "orbis/AbstractTwitter.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14TwitterContent12readExternalESt10shared_ptrINS7ContentEE*() {.
+proc ZN15AbstractStorage14TwitterContent12readExternalESt10shared_ptrINS_7ContentEE*() {.
     cdecl, importc: "_ZN15AbstractStorage14TwitterContent12readExternalESt10shared_ptrINS_7ContentEE",
     header: "orbis/AbstractTwitter.h".}
   ##  Empty Comment
@@ -74,7 +74,7 @@ proc ZN15AbstractStorage14TwitterContent13ParseMetadataEPN23sceMetadataReaderWri
     cdecl, importc: "_ZN15AbstractStorage14TwitterContent13ParseMetadataEPN23sceMetadataReaderWriter8MetadataES3_",
     header: "orbis/AbstractTwitter.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14TwitterContent13writeExternalESt10shared_ptrINS7ContentEE*() {.
+proc ZN15AbstractStorage14TwitterContent13writeExternalESt10shared_ptrINS_7ContentEE*() {.
     cdecl, importc: "_ZN15AbstractStorage14TwitterContent13writeExternalESt10shared_ptrINS_7ContentEE",
     header: "orbis/AbstractTwitter.h".}
   ##  Empty Comment
@@ -94,15 +94,15 @@ proc ZN15AbstractStorage14TwitterContent6RemoveEv*() {.cdecl,
     importc: "_ZN15AbstractStorage14TwitterContent6RemoveEv",
     header: "orbis/AbstractTwitter.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14TwitterContent6RenameERKSbIcSt11char_traitsIcENS8StlAllocIcEEE*() {.
+proc ZN15AbstractStorage14TwitterContent6RenameERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage14TwitterContent6RenameERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractTwitter.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14TwitterContentC1ERKSbIcSt11char_traitsIcENS8StlAllocIcEEEb*() {.
+proc ZN15AbstractStorage14TwitterContentC1ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEb*() {.
     cdecl, importc: "_ZN15AbstractStorage14TwitterContentC1ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEb",
     header: "orbis/AbstractTwitter.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14TwitterContentC2ERKSbIcSt11char_traitsIcENS8StlAllocIcEEEb*() {.
+proc ZN15AbstractStorage14TwitterContentC2ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEb*() {.
     cdecl, importc: "_ZN15AbstractStorage14TwitterContentC2ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEb",
     header: "orbis/AbstractTwitter.h".}
   ##  Empty Comment
@@ -122,7 +122,7 @@ proc ZN15AbstractStorage14TwitterService13SearchStorageEv*() {.cdecl,
     importc: "_ZN15AbstractStorage14TwitterService13SearchStorageEv",
     header: "orbis/AbstractTwitter.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14TwitterService23create_storageinstanceERKSbIcSt11chartraitsIcENS8StlAllocIcEEE*() {.
+proc ZN15AbstractStorage14TwitterService23create_storage_instanceERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage14TwitterService23create_storage_instanceERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractTwitter.h".}
   ##  Empty Comment
@@ -154,47 +154,47 @@ proc ZN15AbstractStorage14TwitterServiceD2Ev*() {.cdecl,
     importc: "_ZN15AbstractStorage14TwitterServiceD2Ev",
     header: "orbis/AbstractTwitter.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14TwitterStorage10GetContentERKSbIcSt11char_traitsIcENS8StlAllocIcEEEPSt10sharedptrINS7ContentEE*() {.
+proc ZN15AbstractStorage14TwitterStorage10GetContentERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEPSt10shared_ptrINS_7ContentEE*() {.
     cdecl, importc: "_ZN15AbstractStorage14TwitterStorage10GetContentERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEPSt10shared_ptrINS_7ContentEE",
     header: "orbis/AbstractTwitter.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14TwitterStorage11DeserializeESt10shared_ptrINS7ContentEEPS1INS4ItemEE*() {.
+proc ZN15AbstractStorage14TwitterStorage11DeserializeESt10shared_ptrINS_7ContentEEPS1_INS_4ItemEE*() {.
     cdecl, importc: "_ZN15AbstractStorage14TwitterStorage11DeserializeESt10shared_ptrINS_7ContentEEPS1_INS_4ItemEE",
     header: "orbis/AbstractTwitter.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14TwitterStorage13GetRootFolderEPSt10shared_ptrINS6FolderEE*() {.
+proc ZN15AbstractStorage14TwitterStorage13GetRootFolderEPSt10shared_ptrINS_6FolderEE*() {.
     cdecl, importc: "_ZN15AbstractStorage14TwitterStorage13GetRootFolderEPSt10shared_ptrINS_6FolderEE",
     header: "orbis/AbstractTwitter.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14TwitterStorage15CreateRecursiveERKSbIcSt11char_traitsIcENS8StlAllocIcEEENS8ItemTypeEPSt10sharedptrINS4ItemEE*() {.
+proc ZN15AbstractStorage14TwitterStorage15CreateRecursiveERKSbIcSt11char_traitsIcENS_8StlAllocIcEEENS_8ItemTypeEPSt10shared_ptrINS_4ItemEE*() {.
     cdecl, importc: "_ZN15AbstractStorage14TwitterStorage15CreateRecursiveERKSbIcSt11char_traitsIcENS_8StlAllocIcEEENS_8ItemTypeEPSt10shared_ptrINS_4ItemEE",
     header: "orbis/AbstractTwitter.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14TwitterStorage15RemoveRecursiveERKSbIcSt11char_traitsIcENS8StlAllocIcEEE*() {.
+proc ZN15AbstractStorage14TwitterStorage15RemoveRecursiveERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage14TwitterStorage15RemoveRecursiveERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractTwitter.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14TwitterStorage7GetItemERKSbIcSt11char_traitsIcENS8StlAllocIcEEEPSt10sharedptrINS4ItemEE*() {.
+proc ZN15AbstractStorage14TwitterStorage7GetItemERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEPSt10shared_ptrINS_4ItemEE*() {.
     cdecl, importc: "_ZN15AbstractStorage14TwitterStorage7GetItemERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEPSt10shared_ptrINS_4ItemEE",
     header: "orbis/AbstractTwitter.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14TwitterStorage7IsExistERKSbIcSt11char_traitsIcENS8StlAllocIcEEE*() {.
+proc ZN15AbstractStorage14TwitterStorage7IsExistERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage14TwitterStorage7IsExistERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractTwitter.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14TwitterStorage9GetForderERKSbIcSt11char_traitsIcENS8StlAllocIcEEEPSt10sharedptrINS6FolderEE*() {.
+proc ZN15AbstractStorage14TwitterStorage9GetForderERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEPSt10shared_ptrINS_6FolderEE*() {.
     cdecl, importc: "_ZN15AbstractStorage14TwitterStorage9GetForderERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEPSt10shared_ptrINS_6FolderEE",
     header: "orbis/AbstractTwitter.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14TwitterStorage9SerializeESt10shared_ptrINS7ContentEES1INS4ItemEE*() {.
+proc ZN15AbstractStorage14TwitterStorage9SerializeESt10shared_ptrINS_7ContentEES1_INS_4ItemEE*() {.
     cdecl, importc: "_ZN15AbstractStorage14TwitterStorage9SerializeESt10shared_ptrINS_7ContentEES1_INS_4ItemEE",
     header: "orbis/AbstractTwitter.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14TwitterStorageC1ERKSbIcSt11char_traitsIcENS8StlAllocIcEEE*() {.
+proc ZN15AbstractStorage14TwitterStorageC1ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage14TwitterStorageC1ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractTwitter.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14TwitterStorageC2ERKSbIcSt11char_traitsIcENS8StlAllocIcEEE*() {.
+proc ZN15AbstractStorage14TwitterStorageC2ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage14TwitterStorageC2ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractTwitter.h".}
   ##  Empty Comment

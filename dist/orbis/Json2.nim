@@ -32,7 +32,7 @@ proc ZN3sce4Json12MemAllocatorD2Ev*() {.cdecl, importc: "_ZN3sce4Json12MemAlloca
 proc ZN3sce4Json4FreeEPv*() {.cdecl, importc: "_ZN3sce4Json4FreeEPv",
                               header: "orbis/Json2.h".}
   ##  Empty Comment
-proc ZN3sce4Json5Array9push_backERKNS05ValueE*() {.cdecl,
+proc ZN3sce4Json5Array9push_backERKNS0_5ValueE*() {.cdecl,
     importc: "_ZN3sce4Json5Array9push_backERKNS0_5ValueE",
     header: "orbis/Json2.h".}
   ##  Empty Comment
@@ -84,7 +84,7 @@ proc ZN3sce4Json5Value13s_nullintegerE*() {.cdecl,
 proc ZN3sce4Json5Value14s_nulluintegerE*() {.cdecl,
     importc: "_ZN3sce4Json5Value14s_nulluintegerE", header: "orbis/Json2.h".}
   ##  Empty Comment
-proc ZN3sce4Json5Value21setNullAccessCallBackEPFRKS1_NS09ValueTypeEPS2PvES6*() {.
+proc ZN3sce4Json5Value21setNullAccessCallBackEPFRKS1_NS0_9ValueTypeEPS2_PvES6*() {.
     cdecl, importc: "_ZN3sce4Json5Value21setNullAccessCallBackEPFRKS1_NS0_9ValueTypeEPS2_PvES6_",
     header: "orbis/Json2.h".}
   ##  Empty Comment

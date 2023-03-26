@@ -1,450 +1,450 @@
 const
-  ORBIS_SYSMODULEINVALID* = 0x0000 ##  Modules from https://www.psdevwiki.com/ps4/Libraries
+  ORBIS_SYSMODULE_INVALID* = 0x0000 ##  Modules from https://www.psdevwiki.com/ps4/Libraries
 
 const
-  ORBIS_SYSMODULEFIBER* = 0x0006 ##  libSceFiber.sprx
+  ORBIS_SYSMODULE_FIBER* = 0x0006 ##  libSceFiber.sprx
 
 const
-  ORBIS_SYSMODULEULT* = 0x0007 ##  libSceUlt.sprx
+  ORBIS_SYSMODULE_ULT* = 0x0007 ##  libSceUlt.sprx
 
 const
-  ORBIS_SYSMODULENGS2* = 0x000B ##  libSceNgs2.sprx
+  ORBIS_SYSMODULE_NGS2* = 0x000B ##  libSceNgs2.sprx
 
 const
-  ORBIS_SYSMODULEXML* = 0x0017 ##  libSceXml.sprx
+  ORBIS_SYSMODULE_XML* = 0x0017 ##  libSceXml.sprx
 
 const
-  ORBIS_SYSMODULENPUTILITY* = 0x0019 ##  libSceNpUtility.sprx
+  ORBIS_SYSMODULE_NP_UTILITY* = 0x0019 ##  libSceNpUtility.sprx
 
 const
-  ORBIS_SYSMODULEVOICE* = 0x001A ##  libSceVoice.sprx
+  ORBIS_SYSMODULE_VOICE* = 0x001A ##  libSceVoice.sprx
 
 const
-  ORBIS_SYSMODULEVOICEQOS* = 0x001B ##  libSceVoiceQos.sprx
+  ORBIS_SYSMODULE_VOICEQOS* = 0x001B ##  libSceVoiceQos.sprx
 
 const
-  ORBIS_SYSMODULENPMATCHING2* = 0x001C ##  libSceNpMatching2.sprx
+  ORBIS_SYSMODULE_NP_MATCHING2* = 0x001C ##  libSceNpMatching2.sprx
 
 const
-  ORBIS_SYSMODULENPSCORERANKING* = 0x001E ##  libSceNpScoreRanking.sprx
+  ORBIS_SYSMODULE_NP_SCORE_RANKING* = 0x001E ##  libSceNpScoreRanking.sprx
 
 const
-  ORBIS_SYSMODULERUDP* = 0x0021 ##  libSceRudp.sprx
+  ORBIS_SYSMODULE_RUDP* = 0x0021 ##  libSceRudp.sprx
 
 const
-  ORBIS_SYSMODULENPTUS* = 0x002C ##  libSceNpTus.sprx
-  ORBIS_SYSMODULEFACE* = 0x0038
-  ORBIS_SYSMODULESMART* = 0x0039
-  ORBIS_SYSMODULEJSON* = 0x0080
+  ORBIS_SYSMODULE_NP_TUS* = 0x002C ##  libSceNpTus.sprx
+  ORBIS_SYSMODULE_FACE* = 0x0038
+  ORBIS_SYSMODULE_SMART* = 0x0039
+  ORBIS_SYSMODULE_JSON* = 0x0080
 
 const
-  ORBIS_SYSMODULEGAMELIVESTREAMING* = 0x0081 ##  libSceGameLiveStreaming.sprx
+  ORBIS_SYSMODULE_GAME_LIVE_STREAMING* = 0x0081 ##  libSceGameLiveStreaming.sprx
 
 const
-  ORBIS_SYSMODULECOMPANIONUTIL* = 0x0082 ##  libSceCompanionUtil.sprx
+  ORBIS_SYSMODULE_COMPANION_UTIL* = 0x0082 ##  libSceCompanionUtil.sprx
 
 const
-  ORBIS_SYSMODULEPLAYGO* = 0x0083 ##  libScePlayGo.sprx
+  ORBIS_SYSMODULE_PLAYGO* = 0x0083 ##  libScePlayGo.sprx
 
 const
-  ORBIS_SYSMODULEFONT* = 0x0084 ##  libSceFont.sprx
+  ORBIS_SYSMODULE_FONT* = 0x0084 ##  libSceFont.sprx
 
 const
-  ORBIS_SYSMODULEVIDEORECORDING* = 0x0085 ##  libSceVideoRecording.sprx
-  ORBIS_SYSMODULES3DCONVERSION* = 0x0086
+  ORBIS_SYSMODULE_VIDEO_RECORDING* = 0x0085 ##  libSceVideoRecording.sprx
+  ORBIS_SYSMODULE_S3DCONVERSION* = 0x0086
 
 const
-  ORBIS_SYSMODULEAUDIODEC* = 0x0088 ##  libSceAudiodec.sprx
+  ORBIS_SYSMODULE_AUDIODEC* = 0x0088 ##  libSceAudiodec.sprx
 
 const
-  ORBIS_SYSMODULEJPEGDEC* = 0x008A ##  libSceJpegDec.sprx
+  ORBIS_SYSMODULE_JPEG_DEC* = 0x008A ##  libSceJpegDec.sprx
 
 const
-  ORBIS_SYSMODULEJPEGENC* = 0x008B ##  libSceJpegEnc.sprx
+  ORBIS_SYSMODULE_JPEG_ENC* = 0x008B ##  libSceJpegEnc.sprx
 
 const
-  ORBIS_SYSMODULEPNGDEC* = 0x008C ##  libScePngDec.sprx
+  ORBIS_SYSMODULE_PNG_DEC* = 0x008C ##  libScePngDec.sprx
 
 const
-  ORBIS_SYSMODULEPNGENC* = 0x008D ##  libScePngEnc.sprx
+  ORBIS_SYSMODULE_PNG_ENC* = 0x008D ##  libScePngEnc.sprx
 
 const
-  ORBIS_SYSMODULEVIDEODEC* = 0x008E ##  libSceVideodec.sprx
+  ORBIS_SYSMODULE_VIDEODEC* = 0x008E ##  libSceVideodec.sprx
 
 const
-  ORBIS_SYSMODULEMOVE* = 0x008F ##  libSceMove.sprx
+  ORBIS_SYSMODULE_MOVE* = 0x008F ##  libSceMove.sprx
 
 const
-  ORBIS_SYSMODULEPADTRACKER* = 0x0091 ##  libScePadTracker.sprx
+  ORBIS_SYSMODULE_PAD_TRACKER* = 0x0091 ##  libScePadTracker.sprx
 
 const
-  ORBIS_SYSMODULEDEPTH* = 0x0092 ##  libSceDepth.sprx
-  ORBIS_SYSMODULEHAND* = 0x0093
+  ORBIS_SYSMODULE_DEPTH* = 0x0092 ##  libSceDepth.sprx
+  ORBIS_SYSMODULE_HAND* = 0x0093
 
 const
-  ORBIS_SYSMODULELIBIME* = 0x0095 ##  libSceIme.sprx
+  ORBIS_SYSMODULE_LIBIME* = 0x0095 ##  libSceIme.sprx
 
 const
-  ORBIS_SYSMODULEIMEDIALOG* = 0x0096 ##  libSceImeDialog.sprx
+  ORBIS_SYSMODULE_IME_DIALOG* = 0x0096 ##  libSceImeDialog.sprx
 
 const
-  ORBIS_SYSMODULENPPARTY* = 0x0097 ##  libSceNpParty.sprx
+  ORBIS_SYSMODULE_NP_PARTY* = 0x0097 ##  libSceNpParty.sprx
 
 const
-  ORBIS_SYSMODULEFONTFT* = 0x0098 ##  libSceFontFt.sprx
+  ORBIS_SYSMODULE_FONT_FT* = 0x0098 ##  libSceFontFt.sprx
 
 const
-  ORBIS_SYSMODULEFREETYPEOT* = 0x0099 ##  libSceFreeTypeOt.sprx
+  ORBIS_SYSMODULE_FREETYPE_OT* = 0x0099 ##  libSceFreeTypeOt.sprx
 
 const
-  ORBIS_SYSMODULEFREETYPEOL* = 0x009A ##  libSceFreeTypeOl.sprx
+  ORBIS_SYSMODULE_FREETYPE_OL* = 0x009A ##  libSceFreeTypeOl.sprx
 
 const
-  ORBIS_SYSMODULEFREETYPEOPTOL* = 0x009B ##  libSceFreeTypeOptOl.sprx
+  ORBIS_SYSMODULE_FREETYPE_OPT_OL* = 0x009B ##  libSceFreeTypeOptOl.sprx
 
 const
-  ORBIS_SYSMODULESCREENSHOT* = 0x009C ##  libSceScreenShot.sprx
+  ORBIS_SYSMODULE_SCREEN_SHOT* = 0x009C ##  libSceScreenShot.sprx
 
 const
-  ORBIS_SYSMODULENPAUTH* = 0x009D ##  libSceNpAuth.sprx
-  ORBIS_SYSMODULESULPHA* = 0x009F
+  ORBIS_SYSMODULE_NP_AUTH* = 0x009D ##  libSceNpAuth.sprx
+  ORBIS_SYSMODULE_SULPHA* = 0x009F
 
 const
-  ORBIS_SYSMODULESAVEDATADIALOG* = 0x00A0 ##  libSceSaveDataDialog.sprx
+  ORBIS_SYSMODULE_SAVE_DATA_DIALOG* = 0x00A0 ##  libSceSaveDataDialog.sprx
 
 const
-  ORBIS_SYSMODULEINVITATIONDIALOG* = 0x00A2 ##  libSceInvitationDialog.sprx
-  ORBIS_SYSMODULEDEBUGKEYBOARD* = 0x00A3
+  ORBIS_SYSMODULE_INVITATION_DIALOG* = 0x00A2 ##  libSceInvitationDialog.sprx
+  ORBIS_SYSMODULE_DEBUG_KEYBOARD* = 0x00A3
 
 const
-  ORBIS_SYSMODULEMESSAGEDIALOG* = 0x00A4 ##  libSceMsgDialog.sprx
+  ORBIS_SYSMODULE_MESSAGE_DIALOG* = 0x00A4 ##  libSceMsgDialog.sprx
 
 const
-  ORBIS_SYSMODULEAVPLAYER* = 0x00A5 ##  libSceAvPlayer.sprx
+  ORBIS_SYSMODULE_AV_PLAYER* = 0x00A5 ##  libSceAvPlayer.sprx
 
 const
-  ORBIS_SYSMODULECONTENTEXPORT* = 0x00A6 ##  libSceContentExport.sprx
+  ORBIS_SYSMODULE_CONTENT_EXPORT* = 0x00A6 ##  libSceContentExport.sprx
 
 const
-  ORBIS_SYSMODULEAUDIO3D* = 0x00A7 ##  libSceAudio3d.sprx
+  ORBIS_SYSMODULE_AUDIO_3D* = 0x00A7 ##  libSceAudio3d.sprx
 
 const
-  ORBIS_SYSMODULENPCOMMERCE* = 0x00A8 ##  libSceNpCommerce.sprx
+  ORBIS_SYSMODULE_NP_COMMERCE* = 0x00A8 ##  libSceNpCommerce.sprx
 
 const
-  ORBIS_SYSMODULEMOUSE* = 0x00A9 ##  libSceMouse.sprx
+  ORBIS_SYSMODULE_MOUSE* = 0x00A9 ##  libSceMouse.sprx
 
 const
-  ORBIS_SYSMODULECOMPANIONHTTPD* = 0x00AA ##  libSceCompanionHttpd.sprx
+  ORBIS_SYSMODULE_COMPANION_HTTPD* = 0x00AA ##  libSceCompanionHttpd.sprx
 
 const
-  ORBIS_SYSMODULEWEBBROWSERDIALOG* = 0x00AB ##  libSceWebBrowserDialog.sprx
+  ORBIS_SYSMODULE_WEB_BROWSER_DIALOG* = 0x00AB ##  libSceWebBrowserDialog.sprx
 
 const
-  ORBIS_SYSMODULEERRORDIALOG* = 0x00AC ##  libSceErrorDialog.sprx
+  ORBIS_SYSMODULE_ERROR_DIALOG* = 0x00AC ##  libSceErrorDialog.sprx
 
 const
-  ORBIS_SYSMODULENPTROPHY* = 0x00AD ##  libSceNpTrophy.sprx
+  ORBIS_SYSMODULE_NP_TROPHY* = 0x00AD ##  libSceNpTrophy.sprx
 
 const
-  ORBIS_SYSMODULEVIDEOCOREIF* = 0x00AE ##  libSceVideoCoreInterface.sprx
+  ORBIS_SYSMODULE_VIDEO_CORE_IF* = 0x00AE ##  libSceVideoCoreInterface.sprx
 
 const
-  ORBIS_SYSMODULEVIDEOCORESERVERIF* = 0x00AF ##  libSceVideoCoreServerInterface.sprx
+  ORBIS_SYSMODULE_VIDEO_CORE_SERVER_IF* = 0x00AF ##  libSceVideoCoreServerInterface.sprx
 
 const
-  ORBIS_SYSMODULENPSNSFACEBOOK* = 0x00B0 ##  libSceNpSnsFacebookDialog.sprx
+  ORBIS_SYSMODULE_NP_SNS_FACEBOOK* = 0x00B0 ##  libSceNpSnsFacebookDialog.sprx
 
 const
-  ORBIS_SYSMODULEMOVETRACKER* = 0x00B1 ##  libSceMoveTracker.sprx
+  ORBIS_SYSMODULE_MOVE_TRACKER* = 0x00B1 ##  libSceMoveTracker.sprx
 
 const
-  ORBIS_SYSMODULENPPROFILEDIALOG* = 0x00B2 ##  libSceNpProfileDialog.sprx
+  ORBIS_SYSMODULE_NP_PROFILE_DIALOG* = 0x00B2 ##  libSceNpProfileDialog.sprx
 
 const
-  ORBIS_SYSMODULENPFRIENDLISTDIALOG* = 0x00B3 ##  libSceNpFriendListDialog.sprx
+  ORBIS_SYSMODULE_NP_FRIEND_LIST_DIALOG* = 0x00B3 ##  libSceNpFriendListDialog.sprx
 
 const
-  ORBIS_SYSMODULEAPPCONTENT* = 0x00B4 ##  libSceAppContent.sprx
+  ORBIS_SYSMODULE_APP_CONTENT* = 0x00B4 ##  libSceAppContent.sprx
 
 const
-  ORBIS_SYSMODULENPSIGNALING* = 0x00B5 ##  libSceNpSignaling.sprx
+  ORBIS_SYSMODULE_NP_SIGNALING* = 0x00B5 ##  libSceNpSignaling.sprx
 
 const
-  ORBIS_SYSMODULEREMOTEPLAY* = 0x00B6 ##  libSceRemoteplay.sprx
+  ORBIS_SYSMODULE_REMOTE_PLAY* = 0x00B6 ##  libSceRemoteplay.sprx
 
 const
-  ORBIS_SYSMODULEUSBD* = 0x00B7 ##  libSceUsbd.sprx
+  ORBIS_SYSMODULE_USBD* = 0x00B7 ##  libSceUsbd.sprx
 
 const
-  ORBIS_SYSMODULEGAMECUSTOMDATADIALOG* = 0x00B8 ##  libSceGameCustomDataDialog.sprx
+  ORBIS_SYSMODULE_GAME_CUSTOM_DATA_DIALOG* = 0x00B8 ##  libSceGameCustomDataDialog.sprx
 
 const
-  ORBIS_SYSMODULENPEULADIALOG* = 0x00B9 ##  libSceNpEulaDialog.sprx
+  ORBIS_SYSMODULE_NP_EULA_DIALOG* = 0x00B9 ##  libSceNpEulaDialog.sprx
 
 const
-  ORBIS_SYSMODULERANDOM* = 0x00BA ##  libSceRandom.sprx
-  ORBIS_SYSMODULERESERVED2* = 0x00BB
+  ORBIS_SYSMODULE_RANDOM* = 0x00BA ##  libSceRandom.sprx
+  ORBIS_SYSMODULE_RESERVED2* = 0x00BB
 
 const
-  ORBIS_SYSMODULEM4AACENC* = 0x00BC ##  libSceM4aacEnc.sprx
+  ORBIS_SYSMODULE_M4AAC_ENC* = 0x00BC ##  libSceM4aacEnc.sprx
 
 const
-  ORBIS_SYSMODULEAUDIODECCPU* = 0x00BD ##  libSceAudiodecCpu.sprx
+  ORBIS_SYSMODULE_AUDIODEC_CPU* = 0x00BD ##  libSceAudiodecCpu.sprx
 
 const
-  ORBIS_SYSMODULEAUDIODECCPUDDP* = 0x00BE ##  libSceAudiodecCpuDdp.sprx
+  ORBIS_SYSMODULE_AUDIODEC_CPU_DDP* = 0x00BE ##  libSceAudiodecCpuDdp.sprx
 
 const
-  ORBIS_SYSMODULEAUDIODECCPUM4AAC* = 0x00C0 ##  libSceAudiodecCpuM4aac.sprx
+  ORBIS_SYSMODULE_AUDIODEC_CPU_M4AAC* = 0x00C0 ##  libSceAudiodecCpuM4aac.sprx
 
 const
-  ORBIS_SYSMODULEBEMP2SYS* = 0x00C1 ##  libSceBemp2sys.sprx
+  ORBIS_SYSMODULE_BEMP2_SYS* = 0x00C1 ##  libSceBemp2sys.sprx
 
 const
-  ORBIS_SYSMODULEBEISOBMF* = 0x00C2 ##  libSceBeisobmf.sprx
+  ORBIS_SYSMODULE_BEISOBMF* = 0x00C2 ##  libSceBeisobmf.sprx
 
 const
-  ORBIS_SYSMODULEPLAYREADY* = 0x00C3 ##  libScePlayReady.sprx
+  ORBIS_SYSMODULE_PLAY_READY* = 0x00C3 ##  libScePlayReady.sprx
 
 const
-  ORBIS_SYSMODULEVIDEONATIVEEXTESSENTIAL* = 0x00C4 ##  libSceVideoNativeExtEssential.sprx
+  ORBIS_SYSMODULE_VIDEO_NATIVE_EXT_ESSENTIAL* = 0x00C4 ##  libSceVideoNativeExtEssential.sprx
 
 const
-  ORBIS_SYSMODULEZLIB* = 0x00C5 ##  libSceZlib.sprx
+  ORBIS_SYSMODULE_ZLIB* = 0x00C5 ##  libSceZlib.sprx
 
 const
-  ORBIS_SYSMODULEDTCPIP* = 0x00C6 ##  libSceDtcpIp.sprx
+  ORBIS_SYSMODULE_DTCP_IP* = 0x00C6 ##  libSceDtcpIp.sprx
 
 const
-  ORBIS_SYSMODULECONTENTSEARCH* = 0x00C7 ##  libSceContentSearch.sprx
+  ORBIS_SYSMODULE_CONTENT_SEARCH* = 0x00C7 ##  libSceContentSearch.sprx
 
 const
-  ORBIS_SYSMODULESHAREUTILITY* = 0x00C8 ##  libSceShareUtility.sprx
+  ORBIS_SYSMODULE_SHARE_UTILITY* = 0x00C8 ##  libSceShareUtility.sprx
 
 const
-  ORBIS_SYSMODULEAUDIODECCPUDTSHDLBR* = 0x00C9 ##  libSceAudiodecCpuDtsHdLbr.sprx
-  ORBIS_SYSMODULEDECI4H* = 0x00CA
-  ORBIS_SYSMODULEHEADTRACKER* = 0x00CB
+  ORBIS_SYSMODULE_AUDIODEC_CPU_DTS_HD_LBR* = 0x00C9 ##  libSceAudiodecCpuDtsHdLbr.sprx
+  ORBIS_SYSMODULE_DECI4H* = 0x00CA
+  ORBIS_SYSMODULE_HEAD_TRACKER* = 0x00CB
 
 const
-  ORBIS_SYSMODULEGAMEUPDATE* = 0x00CC ##  libSceGameUpdate.sprx
+  ORBIS_SYSMODULE_GAME_UPDATE* = 0x00CC ##  libSceGameUpdate.sprx
 
 const
-  ORBIS_SYSMODULEAUTOMOUNTERCLIENT* = 0x00CD ##  libSceAutoMounterClient.sprx
+  ORBIS_SYSMODULE_AUTO_MOUNTER_CLIENT* = 0x00CD ##  libSceAutoMounterClient.sprx
 
 const
-  ORBIS_SYSMODULESYSTEMGESTURE* = 0x00CE ##  libSceSystemGesture.sprx
-  ORBIS_SYSMODULEVIDEODEC2* = 0x00CF
+  ORBIS_SYSMODULE_SYSTEM_GESTURE* = 0x00CE ##  libSceSystemGesture.sprx
+  ORBIS_SYSMODULE_VIDEODEC2* = 0x00CF
 
 const
-  ORBIS_SYSMODULEVDECWRAP* = 0x00D0 ##  libSceVdecwrap.sprx
+  ORBIS_SYSMODULE_VDECWRAP* = 0x00D0 ##  libSceVdecwrap.sprx
 
 const
-  ORBIS_SYSMODULEAT9ENC* = 0x00D1 ##  libSceAt9Enc.sprx
+  ORBIS_SYSMODULE_AT9_ENC* = 0x00D1 ##  libSceAt9Enc.sprx
 
 const
-  ORBIS_SYSMODULECONVERTKEYCODE* = 0x00D2 ##  libSceConvertKeycode.sprx
+  ORBIS_SYSMODULE_CONVERT_KEYCODE* = 0x00D2 ##  libSceConvertKeycode.sprx
 
 const
-  ORBIS_SYSMODULESHAREPLAY* = 0x00D3 ##  libSceSharePlay.sprx
+  ORBIS_SYSMODULE_SHARE_PLAY* = 0x00D3 ##  libSceSharePlay.sprx
 
 const
-  ORBIS_SYSMODULEHMD* = 0x00D4 ##  libSceHmd.sprx
+  ORBIS_SYSMODULE_HMD* = 0x00D4 ##  libSceHmd.sprx
 
 const
-  ORBIS_SYSMODULEUSBSTORAGE* = 0x00D5 ##  libSceUsbStorage.sprx
+  ORBIS_SYSMODULE_USB_STORAGE* = 0x00D5 ##  libSceUsbStorage.sprx
 
 const
-  ORBIS_SYSMODULEUSBSTORAGEDIALOG* = 0x00D6 ##  libSceUsbStorageDialog.sprx
+  ORBIS_SYSMODULE_USB_STORAGE_DIALOG* = 0x00D6 ##  libSceUsbStorageDialog.sprx
 
 const
-  ORBIS_SYSMODULEDISCMAP* = 0x00D7 ##  libSceDiscMap.sprx
-  ORBIS_SYSMODULEFACETRACKER* = 0x00D8
-  ORBIS_SYSMODULEHANDTRACKER* = 0x00D9
+  ORBIS_SYSMODULE_DISC_MAP* = 0x00D7 ##  libSceDiscMap.sprx
+  ORBIS_SYSMODULE_FACE_TRACKER* = 0x00D8
+  ORBIS_SYSMODULE_HAND_TRACKER* = 0x00D9
 
 const
-  ORBIS_SYSMODULENPSNSYOUTUBEDIALOG* = 0x00DA ##  libSceNpSnsYouTubeDialog.sprx
+  ORBIS_SYSMODULE_NP_SNS_YOUTUBE_DIALOG* = 0x00DA ##  libSceNpSnsYouTubeDialog.sprx
 
 const
-  ORBIS_SYSMODULEPROFILECACHEEXTERNAL* = 0x00DC ##  libSceProfileCacheExternal.sprx
+  ORBIS_SYSMODULE_PROFILE_CACHE_EXTERNAL* = 0x00DC ##  libSceProfileCacheExternal.sprx
 
 const
-  ORBIS_SYSMODULEMUSICPLAYERSERVICE* = 0x00DD ##  libSceMusicPlayerService.sprx
+  ORBIS_SYSMODULE_MUSIC_PLAYER_SERVICE* = 0x00DD ##  libSceMusicPlayerService.sprx
 
 const
-  ORBIS_SYSMODULESPSYSCALLWRAPPER* = 0x00DE ##  libSceSpSysCallWrapper.sprx
+  ORBIS_SYSMODULE_SP_SYS_CALL_WRAPPER* = 0x00DE ##  libSceSpSysCallWrapper.sprx
 
 const
-  ORBIS_SYSMODULEPS2EMUMENUDIALOG* = 0x00DF ##  libScePs2EmuMenuDialog.sprx
+  ORBIS_SYSMODULE_PS2_EMU_MENU_DIALOG* = 0x00DF ##  libScePs2EmuMenuDialog.sprx
 
 const
-  ORBIS_SYSMODULENPSNSDIALYMOTIONDIALOG* = 0x00E0 ##  libSceNpSnsDailyMotionDialog.sprx
+  ORBIS_SYSMODULE_NP_SNS_DIALYMOTION_DIALOG* = 0x00E0 ##  libSceNpSnsDailyMotionDialog.sprx
 
 const
-  ORBIS_SYSMODULEAUDIODECCPUHEVAG* = 0x00E1 ##  libSceAudiodecCpuHevag.sprx
+  ORBIS_SYSMODULE_AUDIODEC_CPU_HEVAG* = 0x00E1 ##  libSceAudiodecCpuHevag.sprx
 
 const
-  ORBIS_SYSMODULELOGINDIALOG* = 0x00E2 ##  libSceLoginDialog.sprx
+  ORBIS_SYSMODULE_LOGIN_DIALOG* = 0x00E2 ##  libSceLoginDialog.sprx
 
 const
-  ORBIS_SYSMODULELOGINSERVICE* = 0x00E3 ##  libSceLoginService.sprx
+  ORBIS_SYSMODULE_LOGIN_SERVICE* = 0x00E3 ##  libSceLoginService.sprx
 
 const
-  ORBIS_SYSMODULESIGNINDIALOG* = 0x00E4 ##  libSceSigninDialog.sprx
+  ORBIS_SYSMODULE_SIGNIN_DIALOG* = 0x00E4 ##  libSceSigninDialog.sprx
 
 const
-  ORBIS_SYSMODULEVDECSW* = 0x00E5 ##  libSceVdecsw.sprx
+  ORBIS_SYSMODULE_VDECSW* = 0x00E5 ##  libSceVdecsw.sprx
 
 const
-  ORBIS_SYSMODULECUSTOMMUSICCORE* = 0x00E6 ##  libSceCustomMusicCore.sprx
+  ORBIS_SYSMODULE_CUSTOM_MUSIC_CORE* = 0x00E6 ##  libSceCustomMusicCore.sprx
 
 const
-  ORBIS_SYSMODULEJSON2* = 0x00E7 ##  libSceJson2.sprx
-  ORBIS_SYSMODULEAUDIOLATENCYESTIMATION* = 0x00E8
+  ORBIS_SYSMODULE_JSON2* = 0x00E7 ##  libSceJson2.sprx
+  ORBIS_SYSMODULE_AUDIO_LATENCY_ESTIMATION* = 0x00E8
 
 const
-  ORBIS_SYSMODULEWKFONTCONFIG* = 0x00E9 ##  libSceWkFontConfig.sprx
-  ORBIS_SYSMODULERESERVED27* = 0x00EA
+  ORBIS_SYSMODULE_WK_FONT_CONFIG* = 0x00E9 ##  libSceWkFontConfig.sprx
+  ORBIS_SYSMODULE_RESERVED27* = 0x00EA
 
 const
-  ORBIS_SYSMODULEHMDSETUPDIALOG* = 0x00EB ##  libSceHmdSetupDialog.sprx
-  ORBIS_SYSMODULERESERVED28* = 0x00EC
+  ORBIS_SYSMODULE_HMD_SETUP_DIALOG* = 0x00EB ##  libSceHmdSetupDialog.sprx
+  ORBIS_SYSMODULE_RESERVED28* = 0x00EC
 
 const
-  ORBIS_SYSMODULEVRTRACKER* = 0x00ED ##  libSceVrTracker.sprx
+  ORBIS_SYSMODULE_VR_TRACKER* = 0x00ED ##  libSceVrTracker.sprx
 
 const
-  ORBIS_SYSMODULECONTENTDELETE* = 0x00EE ##  libSceContentDelete.sprx
+  ORBIS_SYSMODULE_CONTENT_DELETE* = 0x00EE ##  libSceContentDelete.sprx
 
 const
-  ORBIS_SYSMODULEIMEBACKEND* = 0x00EF ##  libSceImeBackend.sprx
+  ORBIS_SYSMODULE_IME_BACKEND* = 0x00EF ##  libSceImeBackend.sprx
 
 const
-  ORBIS_SYSMODULENETCTLAPDIALOG* = 0x00F0 ##  libSceNetCtlApDialog.sprx
+  ORBIS_SYSMODULE_NET_CTL_AP_DIALOG* = 0x00F0 ##  libSceNetCtlApDialog.sprx
 
 const
-  ORBIS_SYSMODULEPLAYGODIALOG* = 0x00F1 ##  libScePlayGoDialog.sprx
+  ORBIS_SYSMODULE_PLAYGO_DIALOG* = 0x00F1 ##  libScePlayGoDialog.sprx
 
 const
-  ORBIS_SYSMODULESOCIALSCREEN* = 0x00F2 ##  libSceSocialScreen.sprx
+  ORBIS_SYSMODULE_SOCIAL_SCREEN* = 0x00F2 ##  libSceSocialScreen.sprx
 
 const
-  ORBIS_SYSMODULEEDITMP4* = 0x00F3 ##  libSceEditMp4.sprx
+  ORBIS_SYSMODULE_EDIT_MP4* = 0x00F3 ##  libSceEditMp4.sprx
 
 const
-  ORBIS_SYSMODULEPSMKITSYSTEM* = 0x00F5 ##  libScePsmKitSystem.sprx
+  ORBIS_SYSMODULE_PSM_KIT_SYSTEM* = 0x00F5 ##  libScePsmKitSystem.sprx
 
 const
-  ORBIS_SYSMODULETEXTTOSPEECH* = 0x00F6 ##  libSceTextToSpeech.sprx
-  ORBIS_SYSMODULENPTOOLKIT* = 0x00F7
+  ORBIS_SYSMODULE_TEXT_TO_SPEECH* = 0x00F6 ##  libSceTextToSpeech.sprx
+  ORBIS_SYSMODULE_NP_TOOLKIT* = 0x00F7
 
 const
-  ORBIS_SYSMODULECUSTOMMUSICSERVICE* = 0x00F8 ##  libSceCustomMusicService.sprx
+  ORBIS_SYSMODULE_CUSTOM_MUSIC_SERVICE* = 0x00F8 ##  libSceCustomMusicService.sprx
 
 const
-  ORBIS_SYSMODULECLSYSCALLWRAPPER* = 0x00F9 ##  libSceClSysCallWrapper.sprx
+  ORBIS_SYSMODULE_CL_SYS_CALL_WRAPPER* = 0x00F9 ##  libSceClSysCallWrapper.sprx
 
 const
-  ORBIS_SYSMODULESYSTEMLOGGER* = 0x00FA ##  libSceSystemLogger.sprx
+  ORBIS_SYSMODULE_SYSTEM_LOGGER* = 0x00FA ##  libSceSystemLogger.sprx
 
 const
-  ORBIS_SYSMODULEBLUETOOTHHID* = 0x00FB ##  libSceBluetoothHid.sprx
+  ORBIS_SYSMODULE_BLUETOOTH_HID* = 0x00FB ##  libSceBluetoothHid.sprx
 
 const
-  ORBIS_SYSMODULEVIDEODECODERARBITRATION* = 0x00FC ##  libSceVideoDecoderArbitration.sprx
+  ORBIS_SYSMODULE_VIDEO_DECODER_ARBITRATION* = 0x00FC ##  libSceVideoDecoderArbitration.sprx
 
 const
-  ORBIS_SYSMODULEVRSERVICEDIALOG* = 0x00FD ##  libSceVrServiceDialog.sprx
-  ORBIS_SYSMODULEJOBMANAGER* = 0x00FE
+  ORBIS_SYSMODULE_VR_SERVICE_DIALOG* = 0x00FD ##  libSceVrServiceDialog.sprx
+  ORBIS_SYSMODULE_JOB_MANAGER* = 0x00FE
 
 const
-  ORBIS_SYSMODULEINTERNALAUDIOOUT* = 0x80000001 ##  Internal
-                                                ##  libSceAudioOut
+  ORBIS_SYSMODULE_INTERNAL_AUDIOOUT* = 0x80000001 ##  Internal
+                                                  ##  libSceAudioOut
 
 const
-  ORBIS_SYSMODULEINTERNALAUDIOIN* = 0x80000002 ##  libSceAudioIn
+  ORBIS_SYSMODULE_INTERNAL_AUDIOIN* = 0x80000002 ##  libSceAudioIn
 
 const
-  ORBIS_SYSMODULEINTERNALAVCAPTURE* = 0x80000003 ##  libSceAvcap
+  ORBIS_SYSMODULE_INTERNAL_AV_CAPTURE* = 0x80000003 ##  libSceAvcap
 
 const
-  ORBIS_SYSMODULEINTERNALSYSCORE* = 0x80000004 ##  libSceSysCore
+  ORBIS_SYSMODULE_INTERNAL_SYSCORE* = 0x80000004 ##  libSceSysCore
 
 const
-  ORBIS_SYSMODULEINTERNALCDLGUTILITYSERVER* = 0x80000007 ##  libSceCdlgUtilServer
+  ORBIS_SYSMODULE_INTERNAL_CDLG_UTILITY_SERVER* = 0x80000007 ##  libSceCdlgUtilServer
 
 const
-  ORBIS_SYSMODULEINTERNALKEYBOARD* = 0x80000008 ##  libSceKeyboard
+  ORBIS_SYSMODULE_INTERNAL_KEYBOARD* = 0x80000008 ##  libSceKeyboard
 
 const
-  ORBIS_SYSMODULEINTERNALNETCTL* = 0x80000009 ##  libSceNetCtl
+  ORBIS_SYSMODULE_INTERNAL_NETCTL* = 0x80000009 ##  libSceNetCtl
 
 const
-  ORBIS_SYSMODULEINTERNALHTTP* = 0x8000000A ##  libSceHttp
+  ORBIS_SYSMODULE_INTERNAL_HTTP* = 0x8000000A ##  libSceHttp
 
 const
-  ORBIS_SYSMODULEINTERNALSSL* = 0x8000000B ##  libSceSsl
+  ORBIS_SYSMODULE_INTERNAL_SSL* = 0x8000000B ##  libSceSsl
 
 const
-  ORBIS_SYSMODULEINTERNALNPCOMMON* = 0x8000000C ##  libSceNpCommon
+  ORBIS_SYSMODULE_INTERNAL_NP_COMMON* = 0x8000000C ##  libSceNpCommon
 
 const
-  ORBIS_SYSMODULEINTERNALNPMANAGER* = 0x8000000D ##  libSceNpManager
+  ORBIS_SYSMODULE_INTERNAL_NP_MANAGER* = 0x8000000D ##  libSceNpManager
 
 const
-  ORBIS_SYSMODULEINTERNALNPWEBAPI* = 0x8000000E ##  libSceNpWebApi
+  ORBIS_SYSMODULE_INTERNAL_NP_WEB_API* = 0x8000000E ##  libSceNpWebApi
 
 const
-  ORBIS_SYSMODULEINTERNALSAVEDATA* = 0x8000000F ##  libSceSaveData
+  ORBIS_SYSMODULE_INTERNAL_SAVE_DATA* = 0x8000000F ##  libSceSaveData
 
 const
-  ORBIS_SYSMODULEINTERNALSYSTEMSERVICE* = 0x80000010 ##  libSceSystemService
+  ORBIS_SYSMODULE_INTERNAL_SYSTEM_SERVICE* = 0x80000010 ##  libSceSystemService
 
 const
-  ORBIS_SYSMODULEINTERNALUSERSERVICE* = 0x80000011 ##  libSceUserService
+  ORBIS_SYSMODULE_INTERNAL_USER_SERVICE* = 0x80000011 ##  libSceUserService
 
 const
-  ORBIS_SYSMODULEINTERNALVISIONMANAGER* = 0x80000012 ##  libSceVisionManager
+  ORBIS_SYSMODULE_INTERNAL_VISION_MANAGER* = 0x80000012 ##  libSceVisionManager
 
 const
-  ORBIS_SYSMODULEINTERNALAC3ENC* = 0x80000013 ##  libSceAc3Enc
+  ORBIS_SYSMODULE_INTERNAL_AC3_ENC* = 0x80000013 ##  libSceAc3Enc
 
 const
-  ORBIS_SYSMODULEINTERNALAPPINSTUTIL* = 0x80000014 ##  libSceAppInstUtil
+  ORBIS_SYSMODULE_INTERNAL_APP_INST_UTIL* = 0x80000014 ##  libSceAppInstUtil
 
 const
-  ORBIS_SYSMODULEINTERNALVDECCORE* = 0x80000015 ##  libSceVdecCore
+  ORBIS_SYSMODULE_INTERNAL_VDECCORE* = 0x80000015 ##  libSceVdecCore
 
 const
-  ORBIS_SYSMODULEINTERNALVENCCORE* = 0x80000016 ##  libSceVencCore (file not found)
+  ORBIS_SYSMODULE_INTERNAL_VENCCORE* = 0x80000016 ##  libSceVencCore (file not found)
 
 const
-  ORBIS_SYSMODULEINTERNALHIDCONTROL* = 0x80000017 ##  libSceHidControl
+  ORBIS_SYSMODULE_INTERNAL_HID_CONTROL* = 0x80000017 ##  libSceHidControl
 
 const
-  ORBIS_SYSMODULEINTERNALCOMMONDIALOG* = 0x80000018 ##  libSceCommonDialog
+  ORBIS_SYSMODULE_INTERNAL_COMMON_DIALOG* = 0x80000018 ##  libSceCommonDialog
 
 const
-  ORBIS_SYSMODULEINTERNALPERF* = 0x80000019 ##  libScePerf
+  ORBIS_SYSMODULE_INTERNAL_PERF* = 0x80000019 ##  libScePerf
 
 const
-  ORBIS_SYSMODULEINTERNALCAMERA* = 0x8000001A ##  libSceCamera
+  ORBIS_SYSMODULE_INTERNAL_CAMERA* = 0x8000001A ##  libSceCamera
 
 const
-  ORBIS_SYSMODULEINTERNALNET* = 0x8000001C ##  libSceNet
+  ORBIS_SYSMODULE_INTERNAL_NET* = 0x8000001C ##  libSceNet
 
 const
-  ORBIS_SYSMODULEINTERNALIPMI* = 0x8000001D ##  libSceIpmi
+  ORBIS_SYSMODULE_INTERNAL_IPMI* = 0x8000001D ##  libSceIpmi
 
 const
-  ORBIS_SYSMODULEINTERNALVIDEOOUT* = 0x80000022 ##  libSceVideoOut
+  ORBIS_SYSMODULE_INTERNAL_VIDEO_OUT* = 0x80000022 ##  libSceVideoOut
 
 const
-  ORBIS_SYSMODULEINTERNALBGFT* = 0x8000002A ##  libSceBgft
+  ORBIS_SYSMODULE_INTERNAL_BGFT* = 0x8000002A ##  libSceBgft
 
 const
-  ORBIS_SYSMODULEINTERNALPRECOMPILEDSHADERS* = 0x80000064 ##  libScePrecompiledShaders
+  ORBIS_SYSMODULE_INTERNAL_PRECOMPILED_SHADERS* = 0x80000064 ##  libScePrecompiledShaders
 
 const
-  ORBIS_SYSMODULEINTERNALPAD* = 0x80000024 ##  libScePad
+  ORBIS_SYSMODULE_INTERNAL_PAD* = 0x80000024 ##  libScePad

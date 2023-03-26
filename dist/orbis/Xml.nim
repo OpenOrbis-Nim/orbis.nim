@@ -206,7 +206,7 @@ proc ZN3sce3Xml3Dom6NodeIdntEv*() {.cdecl,
                                     importc: "_ZN3sce3Xml3Dom6NodeIdntEv",
                                     header: "orbis/Xml.h".}
   ##  Empty Comment
-proc ZN3sce3Xml3Dom8Document10importNodeENS1_6NodeIdES3PKS2S3*() {.cdecl,
+proc ZN3sce3Xml3Dom8Document10importNodeENS1_6NodeIdES3_PKS2_S3*() {.cdecl,
     importc: "_ZN3sce3Xml3Dom8Document10importNodeENS1_6NodeIdES3_PKS2_S3_",
     header: "orbis/Xml.h".}
   ##  Empty Comment
@@ -214,7 +214,7 @@ proc ZN3sce3Xml3Dom8Document10initializeEPKNS0_11InitializerE*() {.cdecl,
     importc: "_ZN3sce3Xml3Dom8Document10initializeEPKNS0_11InitializerE",
     header: "orbis/Xml.h".}
   ##  Empty Comment
-proc ZN3sce3Xml3Dom8Document10insertNodeENS1_6NodeIdES3S3*() {.cdecl,
+proc ZN3sce3Xml3Dom8Document10insertNodeENS1_6NodeIdES3_S3*() {.cdecl,
     importc: "_ZN3sce3Xml3Dom8Document10insertNodeENS1_6NodeIdES3_S3_",
     header: "orbis/Xml.h".}
   ##  Empty Comment
@@ -228,19 +228,19 @@ proc ZN3sce3Xml3Dom8Document11resetStatusEv*() {.cdecl,
 proc ZN3sce3Xml3Dom8Document11setWritableEv*() {.cdecl,
     importc: "_ZN3sce3Xml3Dom8Document11setWritableEv", header: "orbis/Xml.h".}
   ##  Empty Comment
-proc ZN3sce3Xml3Dom8Document12importParentEPKS2_NS16NodeIdE*() {.cdecl,
+proc ZN3sce3Xml3Dom8Document12importParentEPKS2_NS1_6NodeIdE*() {.cdecl,
     importc: "_ZN3sce3Xml3Dom8Document12importParentEPKS2_NS1_6NodeIdE",
     header: "orbis/Xml.h".}
   ##  Empty Comment
-proc ZN3sce3Xml3Dom8Document12setAttributeENS1_6NodeIdEPKNS06StringES6*() {.
+proc ZN3sce3Xml3Dom8Document12setAttributeENS1_6NodeIdEPKNS0_6StringES6*() {.
     cdecl, importc: "_ZN3sce3Xml3Dom8Document12setAttributeENS1_6NodeIdEPKNS0_6StringES6_",
     header: "orbis/Xml.h".}
   ##  Empty Comment
-proc ZN3sce3Xml3Dom8Document12setAttrValueENS1_6NodeIdEPKNS06StringES6*() {.
+proc ZN3sce3Xml3Dom8Document12setAttrValueENS1_6NodeIdEPKNS0_6StringES6*() {.
     cdecl, importc: "_ZN3sce3Xml3Dom8Document12setAttrValueENS1_6NodeIdEPKNS0_6StringES6_",
     header: "orbis/Xml.h".}
   ##  Empty Comment
-proc ZN3sce3Xml3Dom8Document13createElementEPKNS0_6StringEPKNS013AttributeListES5*() {.
+proc ZN3sce3Xml3Dom8Document13createElementEPKNS0_6StringEPKNS0_13AttributeListES5*() {.
     cdecl, importc: "_ZN3sce3Xml3Dom8Document13createElementEPKNS0_6StringEPKNS0_13AttributeListES5_",
     header: "orbis/Xml.h".}
   ##  Empty Comment
@@ -252,11 +252,11 @@ proc ZN3sce3Xml3Dom8Document14createTextNodeEPKNS0_6StringE*() {.cdecl,
     importc: "_ZN3sce3Xml3Dom8Document14createTextNodeEPKNS0_6StringE",
     header: "orbis/Xml.h".}
   ##  Empty Comment
-proc ZN3sce3Xml3Dom8Document15addElementChildENS1_6NodeIdEPKNS06StringEPKNS013AttributeListES6*() {.
+proc ZN3sce3Xml3Dom8Document15addElementChildENS1_6NodeIdEPKNS0_6StringEPKNS0_13AttributeListES6*() {.
     cdecl, importc: "_ZN3sce3Xml3Dom8Document15addElementChildENS1_6NodeIdEPKNS0_6StringEPKNS0_13AttributeListES6_",
     header: "orbis/Xml.h".}
   ##  Empty Comment
-proc ZN3sce3Xml3Dom8Document15removeAttributeENS1_6NodeIdEPKNS06StringE*() {.
+proc ZN3sce3Xml3Dom8Document15removeAttributeENS1_6NodeIdEPKNS0_6StringE*() {.
     cdecl, importc: "_ZN3sce3Xml3Dom8Document15removeAttributeENS1_6NodeIdEPKNS0_6StringE",
     header: "orbis/Xml.h".}
   ##  Empty Comment
@@ -264,15 +264,15 @@ proc ZN3sce3Xml3Dom8Document16removeAttributesENS1_6NodeIdE*() {.cdecl,
     importc: "_ZN3sce3Xml3Dom8Document16removeAttributesENS1_6NodeIdE",
     header: "orbis/Xml.h".}
   ##  Empty Comment
-proc ZN3sce3Xml3Dom8Document16setAttributeListENS1_6NodeIdEPKNS013AttributeListE*() {.
+proc ZN3sce3Xml3Dom8Document16setAttributeListENS1_6NodeIdEPKNS0_13AttributeListE*() {.
     cdecl, importc: "_ZN3sce3Xml3Dom8Document16setAttributeListENS1_6NodeIdEPKNS0_13AttributeListE",
     header: "orbis/Xml.h".}
   ##  Empty Comment
-proc ZN3sce3Xml3Dom8Document7setTextENS1_6NodeIdEPKNS06StringE*() {.cdecl,
+proc ZN3sce3Xml3Dom8Document7setTextENS1_6NodeIdEPKNS0_6StringE*() {.cdecl,
     importc: "_ZN3sce3Xml3Dom8Document7setTextENS1_6NodeIdEPKNS0_6StringE",
     header: "orbis/Xml.h".}
   ##  Empty Comment
-proc ZN3sce3Xml3Dom8Document9serializeEPKNS0_18SerializeParameterEPNS06StringE*() {.
+proc ZN3sce3Xml3Dom8Document9serializeEPKNS0_18SerializeParameterEPNS0_6StringE*() {.
     cdecl, importc: "_ZN3sce3Xml3Dom8Document9serializeEPKNS0_18SerializeParameterEPNS0_6StringE",
     header: "orbis/Xml.h".}
   ##  Empty Comment
@@ -543,7 +543,7 @@ proc ZNK3sce3Xml3Dom8Document11getNodeTypeENS1_6NodeIdE*() {.cdecl,
 proc ZNK3sce3Xml3Dom8Document11isAvailableEv*() {.cdecl,
     importc: "_ZNK3sce3Xml3Dom8Document11isAvailableEv", header: "orbis/Xml.h".}
   ##  Empty Comment
-proc ZNK3sce3Xml3Dom8Document12getAttributeENS1_6NodeIdEPKNS06StringE*() {.
+proc ZNK3sce3Xml3Dom8Document12getAttributeENS1_6NodeIdEPKNS0_6StringE*() {.
     cdecl, importc: "_ZNK3sce3Xml3Dom8Document12getAttributeENS1_6NodeIdEPKNS0_6StringE",
     header: "orbis/Xml.h".}
   ##  Empty Comment
@@ -559,11 +559,11 @@ proc ZNK3sce3Xml3Dom8Document12getLastChildENS1_6NodeIdE*() {.cdecl,
     importc: "_ZNK3sce3Xml3Dom8Document12getLastChildENS1_6NodeIdE",
     header: "orbis/Xml.h".}
   ##  Empty Comment
-proc ZNK3sce3Xml3Dom8Document13getAttributesENS1_6NodeIdEPNS18NodeListE*() {.
+proc ZNK3sce3Xml3Dom8Document13getAttributesENS1_6NodeIdEPNS1_8NodeListE*() {.
     cdecl, importc: "_ZNK3sce3Xml3Dom8Document13getAttributesENS1_6NodeIdEPNS1_8NodeListE",
     header: "orbis/Xml.h".}
   ##  Empty Comment
-proc ZNK3sce3Xml3Dom8Document13getChildNodesENS1_6NodeIdEPNS18NodeListE*() {.
+proc ZNK3sce3Xml3Dom8Document13getChildNodesENS1_6NodeIdEPNS1_8NodeListE*() {.
     cdecl, importc: "_ZNK3sce3Xml3Dom8Document13getChildNodesENS1_6NodeIdEPNS1_8NodeListE",
     header: "orbis/Xml.h".}
   ##  Empty Comment
@@ -587,7 +587,7 @@ proc ZNK3sce3Xml3Dom8Document14getSkippedTextENS1_6NodeIdE*() {.cdecl,
     importc: "_ZNK3sce3Xml3Dom8Document14getSkippedTextENS1_6NodeIdE",
     header: "orbis/Xml.h".}
   ##  Empty Comment
-proc ZNK3sce3Xml3Dom8Document20getElementsByTagNameENS1_6NodeIdEPKNS06StringEPNS18NodeListE*() {.
+proc ZNK3sce3Xml3Dom8Document20getElementsByTagNameENS1_6NodeIdEPKNS0_6StringEPNS1_8NodeListE*() {.
     cdecl, importc: "_ZNK3sce3Xml3Dom8Document20getElementsByTagNameENS1_6NodeIdEPKNS0_6StringEPNS1_8NodeListE",
     header: "orbis/Xml.h".}
   ##  Empty Comment

@@ -62,7 +62,7 @@ proc ZN6WebKit12ChildProcess17enableTerminationEv*() {.cdecl,
     importc: "_ZN6WebKit12ChildProcess17enableTerminationEv",
     header: "orbis/CoreIPC.h".}
   ##  Empty Comment
-proc ZN6WebKit12ChildProcess17initializeSandboxERKNS_36ChildProcessInitializationParametersERNS31SandboxInitializationParametersE*() {.
+proc ZN6WebKit12ChildProcess17initializeSandboxERKNS_36ChildProcessInitializationParametersERNS_31SandboxInitializationParametersE*() {.
     cdecl, importc: "_ZN6WebKit12ChildProcess17initializeSandboxERKNS_36ChildProcessInitializationParametersERNS_31SandboxInitializationParametersE",
     header: "orbis/CoreIPC.h".}
   ##  Empty Comment
@@ -113,7 +113,7 @@ proc ZN6WebKit17ChildProcessProxy18addMessageReceiverEN7CoreIPC15StringReference
     cdecl, importc: "_ZN6WebKit17ChildProcessProxy18addMessageReceiverEN7CoreIPC15StringReferenceEPNS1_15MessageReceiverE",
     header: "orbis/CoreIPC.h".}
   ##  Empty Comment
-proc ZN6WebKit17ChildProcessProxy19dispatchSyncMessageEPN7CoreIPC10ConnectionERNS1_14MessageDecoderERN3WTF6OwnPtrINS114MessageEncoderEEE*() {.
+proc ZN6WebKit17ChildProcessProxy19dispatchSyncMessageEPN7CoreIPC10ConnectionERNS1_14MessageDecoderERN3WTF6OwnPtrINS1_14MessageEncoderEEE*() {.
     cdecl, importc: "_ZN6WebKit17ChildProcessProxy19dispatchSyncMessageEPN7CoreIPC10ConnectionERNS1_14MessageDecoderERN3WTF6OwnPtrINS1_14MessageEncoderEEE",
     header: "orbis/CoreIPC.h".}
   ##  Empty Comment
@@ -274,15 +274,15 @@ proc ZN7CoreIPC15StringReference6decodeERNS_15ArgumentDecoderERS0*() {.cdecl,
     importc: "_ZN7CoreIPC15StringReference6decodeERNS_15ArgumentDecoderERS0_",
     header: "orbis/CoreIPC.h".}
   ##  Empty Comment
-proc ZN7CoreIPC18MessageReceiverMap15dispatchMessageEPNS_10ConnectionERNS14MessageDecoderE*() {.
+proc ZN7CoreIPC18MessageReceiverMap15dispatchMessageEPNS_10ConnectionERNS_14MessageDecoderE*() {.
     cdecl, importc: "_ZN7CoreIPC18MessageReceiverMap15dispatchMessageEPNS_10ConnectionERNS_14MessageDecoderE",
     header: "orbis/CoreIPC.h".}
   ##  Empty Comment
-proc ZN7CoreIPC18MessageReceiverMap18addMessageReceiverENS_15StringReferenceEPNS15MessageReceiverE*() {.
+proc ZN7CoreIPC18MessageReceiverMap18addMessageReceiverENS_15StringReferenceEPNS_15MessageReceiverE*() {.
     cdecl, importc: "_ZN7CoreIPC18MessageReceiverMap18addMessageReceiverENS_15StringReferenceEPNS_15MessageReceiverE",
     header: "orbis/CoreIPC.h".}
   ##  Empty Comment
-proc ZN7CoreIPC18MessageReceiverMap19dispatchSyncMessageEPNS_10ConnectionERNS14MessageDecoderERN3WTF6OwnPtrINS14MessageEncoderEEE*() {.
+proc ZN7CoreIPC18MessageReceiverMap19dispatchSyncMessageEPNS_10ConnectionERNS_14MessageDecoderERN3WTF6OwnPtrINS_14MessageEncoderEEE*() {.
     cdecl, importc: "_ZN7CoreIPC18MessageReceiverMap19dispatchSyncMessageEPNS_10ConnectionERNS_14MessageDecoderERN3WTF6OwnPtrINS_14MessageEncoderEEE",
     header: "orbis/CoreIPC.h".}
   ##  Empty Comment

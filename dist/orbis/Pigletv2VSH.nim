@@ -1,5 +1,5 @@
 const
-  SIZEOF_ORBISPGLCONFIG* = 0x88
+  SIZEOF_ORBIS_PGL_CONFIG* = 0x88
 
 type
   INNER_C_STRUCT_Pigletv2VSH_51* {.importc: "OrbisPglConfig::no_name",
@@ -125,53 +125,53 @@ type
   INNER_C_UNION_Pigletv2VSH_50* {.importc: "OrbisPglConfig::no_name",
                                   header: "orbis/Pigletv2VSH.h", bycopy, union.} = object
     pad_0* {.importc: "_pad_0".}: array[0x88, char]
-    ano_Pigletv2VSH52* {.importc: "ano_Pigletv2VSH_52".}: INNER_C_STRUCT_Pigletv2VSH_51
-    ano_Pigletv2VSH54* {.importc: "ano_Pigletv2VSH_54".}: INNER_C_STRUCT_Pigletv2VSH_53
-    ano_Pigletv2VSH56* {.importc: "ano_Pigletv2VSH_56".}: INNER_C_STRUCT_Pigletv2VSH_55
-    ano_Pigletv2VSH58* {.importc: "ano_Pigletv2VSH_58".}: INNER_C_STRUCT_Pigletv2VSH_57
-    ano_Pigletv2VSH60* {.importc: "ano_Pigletv2VSH_60".}: INNER_C_STRUCT_Pigletv2VSH_59
-    ano_Pigletv2VSH62* {.importc: "ano_Pigletv2VSH_62".}: INNER_C_STRUCT_Pigletv2VSH_61
-    ano_Pigletv2VSH64* {.importc: "ano_Pigletv2VSH_64".}: INNER_C_STRUCT_Pigletv2VSH_63
-    ano_Pigletv2VSH66* {.importc: "ano_Pigletv2VSH_66".}: INNER_C_STRUCT_Pigletv2VSH_65
-    ano_Pigletv2VSH68* {.importc: "ano_Pigletv2VSH_68".}: INNER_C_STRUCT_Pigletv2VSH_67
-    ano_Pigletv2VSH70* {.importc: "ano_Pigletv2VSH_70".}: INNER_C_STRUCT_Pigletv2VSH_69
-    ano_Pigletv2VSH72* {.importc: "ano_Pigletv2VSH_72".}: INNER_C_STRUCT_Pigletv2VSH_71
-    ano_Pigletv2VSH74* {.importc: "ano_Pigletv2VSH_74".}: INNER_C_STRUCT_Pigletv2VSH_73
-    ano_Pigletv2VSH76* {.importc: "ano_Pigletv2VSH_76".}: INNER_C_STRUCT_Pigletv2VSH_75
-    ano_Pigletv2VSH78* {.importc: "ano_Pigletv2VSH_78".}: INNER_C_STRUCT_Pigletv2VSH_77
-    ano_Pigletv2VSH80* {.importc: "ano_Pigletv2VSH_80".}: INNER_C_STRUCT_Pigletv2VSH_79
-    ano_Pigletv2VSH82* {.importc: "ano_Pigletv2VSH_82".}: INNER_C_STRUCT_Pigletv2VSH_81
-    ano_Pigletv2VSH84* {.importc: "ano_Pigletv2VSH_84".}: INNER_C_STRUCT_Pigletv2VSH_83
-    ano_Pigletv2VSH86* {.importc: "ano_Pigletv2VSH_86".}: INNER_C_STRUCT_Pigletv2VSH_85
-    ano_Pigletv2VSH88* {.importc: "ano_Pigletv2VSH_88".}: INNER_C_STRUCT_Pigletv2VSH_87
-    ano_Pigletv2VSH90* {.importc: "ano_Pigletv2VSH_90".}: INNER_C_STRUCT_Pigletv2VSH_89
-    ano_Pigletv2VSH92* {.importc: "ano_Pigletv2VSH_92".}: INNER_C_STRUCT_Pigletv2VSH_91
-    ano_Pigletv2VSH94* {.importc: "ano_Pigletv2VSH_94".}: INNER_C_STRUCT_Pigletv2VSH_93
-    ano_Pigletv2VSH96* {.importc: "ano_Pigletv2VSH_96".}: INNER_C_STRUCT_Pigletv2VSH_95
-    ano_Pigletv2VSH98* {.importc: "ano_Pigletv2VSH_98".}: INNER_C_STRUCT_Pigletv2VSH_97
+    ano_Pigletv2VSH_52* {.importc: "ano_Pigletv2VSH_52".}: INNER_C_STRUCT_Pigletv2VSH_51
+    ano_Pigletv2VSH_54* {.importc: "ano_Pigletv2VSH_54".}: INNER_C_STRUCT_Pigletv2VSH_53
+    ano_Pigletv2VSH_56* {.importc: "ano_Pigletv2VSH_56".}: INNER_C_STRUCT_Pigletv2VSH_55
+    ano_Pigletv2VSH_58* {.importc: "ano_Pigletv2VSH_58".}: INNER_C_STRUCT_Pigletv2VSH_57
+    ano_Pigletv2VSH_60* {.importc: "ano_Pigletv2VSH_60".}: INNER_C_STRUCT_Pigletv2VSH_59
+    ano_Pigletv2VSH_62* {.importc: "ano_Pigletv2VSH_62".}: INNER_C_STRUCT_Pigletv2VSH_61
+    ano_Pigletv2VSH_64* {.importc: "ano_Pigletv2VSH_64".}: INNER_C_STRUCT_Pigletv2VSH_63
+    ano_Pigletv2VSH_66* {.importc: "ano_Pigletv2VSH_66".}: INNER_C_STRUCT_Pigletv2VSH_65
+    ano_Pigletv2VSH_68* {.importc: "ano_Pigletv2VSH_68".}: INNER_C_STRUCT_Pigletv2VSH_67
+    ano_Pigletv2VSH_70* {.importc: "ano_Pigletv2VSH_70".}: INNER_C_STRUCT_Pigletv2VSH_69
+    ano_Pigletv2VSH_72* {.importc: "ano_Pigletv2VSH_72".}: INNER_C_STRUCT_Pigletv2VSH_71
+    ano_Pigletv2VSH_74* {.importc: "ano_Pigletv2VSH_74".}: INNER_C_STRUCT_Pigletv2VSH_73
+    ano_Pigletv2VSH_76* {.importc: "ano_Pigletv2VSH_76".}: INNER_C_STRUCT_Pigletv2VSH_75
+    ano_Pigletv2VSH_78* {.importc: "ano_Pigletv2VSH_78".}: INNER_C_STRUCT_Pigletv2VSH_77
+    ano_Pigletv2VSH_80* {.importc: "ano_Pigletv2VSH_80".}: INNER_C_STRUCT_Pigletv2VSH_79
+    ano_Pigletv2VSH_82* {.importc: "ano_Pigletv2VSH_82".}: INNER_C_STRUCT_Pigletv2VSH_81
+    ano_Pigletv2VSH_84* {.importc: "ano_Pigletv2VSH_84".}: INNER_C_STRUCT_Pigletv2VSH_83
+    ano_Pigletv2VSH_86* {.importc: "ano_Pigletv2VSH_86".}: INNER_C_STRUCT_Pigletv2VSH_85
+    ano_Pigletv2VSH_88* {.importc: "ano_Pigletv2VSH_88".}: INNER_C_STRUCT_Pigletv2VSH_87
+    ano_Pigletv2VSH_90* {.importc: "ano_Pigletv2VSH_90".}: INNER_C_STRUCT_Pigletv2VSH_89
+    ano_Pigletv2VSH_92* {.importc: "ano_Pigletv2VSH_92".}: INNER_C_STRUCT_Pigletv2VSH_91
+    ano_Pigletv2VSH_94* {.importc: "ano_Pigletv2VSH_94".}: INNER_C_STRUCT_Pigletv2VSH_93
+    ano_Pigletv2VSH_96* {.importc: "ano_Pigletv2VSH_96".}: INNER_C_STRUCT_Pigletv2VSH_95
+    ano_Pigletv2VSH_98* {.importc: "ano_Pigletv2VSH_98".}: INNER_C_STRUCT_Pigletv2VSH_97
 
   OrbisPglConfig* {.importc: "OrbisPglConfig", header: "orbis/Pigletv2VSH.h",
                     bycopy.} = object
-    ano_Pigletv2VSH99* {.importc: "ano_Pigletv2VSH_99".}: INNER_C_UNION_Pigletv2VSH_50
+    ano_Pigletv2VSH_99* {.importc: "ano_Pigletv2VSH_99".}: INNER_C_UNION_Pigletv2VSH_50
 
 
 const
   PIGLET* = 1                ##  enables the piglet platform in KHR headers
 
 const
-  EGL_EGLEXTPROTOTYPES* = 1  ##  gl stuff
-  GL_GLESPROTOTYPES* = 1
-  GL_GLEXTPROTOTYPES* = 1
-  ORBIS_PGLMAXPROCESSORDER* = (2)
-  ORBIS_PGLFLAGSUSECOMPOSITEEXT* = (0x8)
-  ORBIS_PGLFLAGSSKIPAPPINITIALIZATION* = (0x10)
-  ORBIS_PGLFLAGSUSETILEDTEXTURE* = (0x40)
+  EGL_EGLEXT_PROTOTYPES* = 1 ##  gl stuff
+  GL_GLES_PROTOTYPES* = 1
+  GL_GLEXT_PROTOTYPES* = 1
+  ORBIS_PGL_MAX_PROCESS_ORDER* = (2)
+  ORBIS_PGL_FLAGS_USE_COMPOSITE_EXT* = (0x8)
+  ORBIS_PGL_FLAGS_SKIP_APP_INITIALIZATION* = (0x10)
+  ORBIS_PGL_FLAGS_USE_TILED_TEXTURE* = (0x40)
 
 const
-  ORBIS_PGLFLAGSUSEFLEXIBLEMEMORY* = (0x80) ##  should be used with ORBIS_PGL_FLAGS_USE_COMPOSITE_EXT
-  ORBIS_PGLMAXSYSSHAREDMEM* = (0x20000000)
-  ORBIS_PGLMAXVIDEOSHAREDMEM* = (0x20000000)
-  ORBIS_PGLMAXVIDEOPRIVMEM* = (0x20000000)
+  ORBIS_PGL_FLAGS_USE_FLEXIBLE_MEMORY* = (0x80) ##  should be used with ORBIS_PGL_FLAGS_USE_COMPOSITE_EXT
+  ORBIS_PGL_MAX_SYS_SHARED_MEM* = (0x20000000)
+  ORBIS_PGL_MAX_VIDEO_SHARED_MEM* = (0x20000000)
+  ORBIS_PGL_MAX_VIDEO_PRIV_MEM* = (0x20000000)
 
 proc scePigletSetConfigurationVSH*(in_config: ptr OrbisPglConfig): bool {.cdecl,
     importc: "scePigletSetConfigurationVSH", header: "orbis/Pigletv2VSH.h".}
@@ -184,10 +184,10 @@ proc scePigletGetConfigurationVSH*(out_config: ptr OrbisPglConfig): bool {.
 proc scePigletGetInteger*(pname: cint; out_data: ptr clong): bool {.cdecl,
     importc: "scePigletGetInteger", header: "orbis/Pigletv2VSH.h".}
   ##  A valid display must exist, and pname can only be 1 it seems.
-proc scePigletHeapDump*(FILE_fprintfstream: pointer; unk_1: cint; unk_2: cint): culong {.
+proc scePigletHeapDump*(FILE_fprintf_stream: pointer; unk_1: cint; unk_2: cint): culong {.
     cdecl, importc: "scePigletHeapDump", header: "orbis/Pigletv2VSH.h".}
   ##  Prints heap statistics to a FILE* stream. The stream must be created by libSceLibcInternal.
-proc scePigletHeapGetInfo*(FILE_fprintfstream: pointer; unk_1: cint): culong {.
+proc scePigletHeapGetInfo*(FILE_fprintf_stream: pointer; unk_1: cint): culong {.
     cdecl, importc: "scePigletHeapGetInfo", header: "orbis/Pigletv2VSH.h".}
   ##  Mostly the same as scePigletHeapDump?? The stream must be created by libSceLibcInternal.
 ## _SCE_PIGLET_V2_VSH_H_

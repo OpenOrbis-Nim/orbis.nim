@@ -46,88 +46,87 @@ proc ctzsi2*() {.cdecl, importc: "__ctzsi2", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ctzti2*() {.cdecl, importc: "__ctzti2", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc cxa_allocatedependentexception*() {.cdecl,
+proc cxa_allocate_dependent_exception*() {.cdecl,
     importc: "__cxa_allocate_dependent_exception",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc cxa_allocateexception*() {.cdecl, importc: "__cxa_allocate_exception",
-                                header: "orbis/LibcInternal.h".}
+proc cxa_allocate_exception*() {.cdecl, importc: "__cxa_allocate_exception",
+                                 header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc cxa_atexit*() {.cdecl, importc: "__cxa_atexit",
                      header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc cxa_badcast*() {.cdecl, importc: "__cxa_bad_cast",
-                      header: "orbis/LibcInternal.h".}
+proc cxa_bad_cast*() {.cdecl, importc: "__cxa_bad_cast",
+                       header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc cxa_badtypeid*() {.cdecl, importc: "__cxa_bad_typeid",
-                        header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc cxa_begincatch*() {.cdecl, importc: "__cxa_begin_catch",
+proc cxa_bad_typeid*() {.cdecl, importc: "__cxa_bad_typeid",
                          header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc cxa_callunexpected*() {.cdecl, importc: "__cxa_call_unexpected",
-                             header: "orbis/LibcInternal.h".}
+proc cxa_begin_catch*() {.cdecl, importc: "__cxa_begin_catch",
+                          header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc cxa_currentexceptiontype*() {.cdecl,
-                                   importc: "__cxa_current_exception_type",
-                                   header: "orbis/LibcInternal.h".}
+proc cxa_call_unexpected*() {.cdecl, importc: "__cxa_call_unexpected",
+                              header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc cxa_currentprimaryexception*() {.cdecl, importc: "__cxa_current_primary_exception",
-                                      header: "orbis/LibcInternal.h".}
+proc cxa_current_exception_type*() {.cdecl,
+                                     importc: "__cxa_current_exception_type",
+                                     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc cxa_decrementexceptionrefcount*() {.cdecl,
+proc cxa_current_primary_exception*() {.cdecl, importc: "__cxa_current_primary_exception",
+                                        header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc cxa_decrement_exception_refcount*() {.cdecl,
     importc: "__cxa_decrement_exception_refcount",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc cxa_demangle*() {.cdecl, importc: "__cxa_demangle",
                        header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc cxa_demanglegnu3*() {.cdecl, importc: "__cxa_demangle_gnu3",
-                           header: "orbis/LibcInternal.h".}
+proc cxa_demangle_gnu3*() {.cdecl, importc: "__cxa_demangle_gnu3",
+                            header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc cxa_endcatch*() {.cdecl, importc: "__cxa_end_catch",
-                       header: "orbis/LibcInternal.h".}
+proc cxa_end_catch*() {.cdecl, importc: "__cxa_end_catch",
+                        header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc cxa_finalize*() {.cdecl, importc: "__cxa_finalize",
                        header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc cxa_freedependentexception*() {.cdecl,
-                                     importc: "__cxa_free_dependent_exception",
-                                     header: "orbis/LibcInternal.h".}
+proc cxa_free_dependent_exception*() {.cdecl, importc: "__cxa_free_dependent_exception",
+                                       header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc cxa_freeexception*() {.cdecl, importc: "__cxa_free_exception",
-                            header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc cxa_getexceptionptr*() {.cdecl, importc: "__cxa_get_exception_ptr",
-                              header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc cxa_getglobals*() {.cdecl, importc: "__cxa_get_globals",
-                         header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc cxa_getglobalsfast*() {.cdecl, importc: "__cxa_get_globals_fast",
+proc cxa_free_exception*() {.cdecl, importc: "__cxa_free_exception",
                              header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc cxa_guardabort*() {.cdecl, importc: "__cxa_guard_abort",
-                         header: "orbis/LibcInternal.h".}
+proc cxa_get_exception_ptr*() {.cdecl, importc: "__cxa_get_exception_ptr",
+                                header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc cxa_guardacquire*() {.cdecl, importc: "__cxa_guard_acquire",
-                           header: "orbis/LibcInternal.h".}
+proc cxa_get_globals*() {.cdecl, importc: "__cxa_get_globals",
+                          header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc cxa_guardrelease*() {.cdecl, importc: "__cxa_guard_release",
-                           header: "orbis/LibcInternal.h".}
+proc cxa_get_globals_fast*() {.cdecl, importc: "__cxa_get_globals_fast",
+                               header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc cxa_incrementexceptionrefcount*() {.cdecl,
+proc cxa_guard_abort*() {.cdecl, importc: "__cxa_guard_abort",
+                          header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc cxa_guard_acquire*() {.cdecl, importc: "__cxa_guard_acquire",
+                            header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc cxa_guard_release*() {.cdecl, importc: "__cxa_guard_release",
+                            header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc cxa_increment_exception_refcount*() {.cdecl,
     importc: "__cxa_increment_exception_refcount",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc cxa_purevirtual*() {.cdecl, importc: "__cxa_pure_virtual",
-                          header: "orbis/LibcInternal.h".}
+proc cxa_pure_virtual*() {.cdecl, importc: "__cxa_pure_virtual",
+                           header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc cxa_rethrow*() {.cdecl, importc: "__cxa_rethrow",
                       header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc cxa_rethrowprimaryexception*() {.cdecl, importc: "__cxa_rethrow_primary_exception",
-                                      header: "orbis/LibcInternal.h".}
+proc cxa_rethrow_primary_exception*() {.cdecl, importc: "__cxa_rethrow_primary_exception",
+                                        header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc cxa_throw*() {.cdecl, importc: "__cxa_throw",
                     header: "orbis/LibcInternal.h".}
@@ -164,8 +163,8 @@ proc eqsf2*() {.cdecl, importc: "__eqsf2", header: "orbis/LibcInternal.h".}
 proc extendsfdf2*() {.cdecl, importc: "__extendsfdf2",
                       header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc fe_dflenv*() {.cdecl, importc: "__fe_dfl_env",
-                    header: "orbis/LibcInternal.h".}
+proc fe_dfl_env*() {.cdecl, importc: "__fe_dfl_env",
+                     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc fedisableexcept*() {.cdecl, importc: "__fedisableexcept",
                           header: "orbis/LibcInternal.h".}
@@ -287,8 +286,8 @@ proc gtdf2*() {.cdecl, importc: "__gtdf2", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc gtsf2*() {.cdecl, importc: "__gtsf2", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc gxx_personalityv0*() {.cdecl, importc: "__gxx_personality_v0",
-                            header: "orbis/LibcInternal.h".}
+proc gxx_personality_v0*() {.cdecl, importc: "__gxx_personality_v0",
+                             header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc inet_addr*() {.cdecl, importc: "__inet_addr",
                     header: "orbis/LibcInternal.h".}
@@ -299,8 +298,8 @@ proc inet_aton*() {.cdecl, importc: "__inet_aton",
 proc inet_ntoa*() {.cdecl, importc: "__inet_ntoa",
                     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc inet_ntoar*() {.cdecl, importc: "__inet_ntoa_r",
-                     header: "orbis/LibcInternal.h".}
+proc inet_ntoa_r*() {.cdecl, importc: "__inet_ntoa_r",
+                      header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc isfinite*() {.cdecl, importc: "__isfinite", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -339,8 +338,8 @@ proc kernel_cos*() {.cdecl, importc: "__kernel_cos",
 proc kernel_cosdf*() {.cdecl, importc: "__kernel_cosdf",
                        header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc kernel_rempio2*() {.cdecl, importc: "__kernel_rem_pio2",
-                         header: "orbis/LibcInternal.h".}
+proc kernel_rem_pio2*() {.cdecl, importc: "__kernel_rem_pio2",
+                          header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc kernel_sin*() {.cdecl, importc: "__kernel_sin",
                      header: "orbis/LibcInternal.h".}
@@ -352,65 +351,65 @@ proc ledf2*() {.cdecl, importc: "__ledf2", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc lesf2*() {.cdecl, importc: "__lesf2", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc libunwind_UnwindBacktrace*() {.cdecl,
-                                    importc: "__libunwind_Unwind_Backtrace",
-                                    header: "orbis/LibcInternal.h".}
+proc libunwind_Unwind_Backtrace*() {.cdecl,
+                                     importc: "__libunwind_Unwind_Backtrace",
+                                     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc libunwind_UnwindDeleteException*() {.cdecl,
+proc libunwind_Unwind_DeleteException*() {.cdecl,
     importc: "__libunwind_Unwind_DeleteException",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc libunwind_UnwindFindEnclosingFunction*() {.cdecl,
+proc libunwind_Unwind_FindEnclosingFunction*() {.cdecl,
     importc: "__libunwind_Unwind_FindEnclosingFunction",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc libunwind_UnwindForcedUnwind*() {.cdecl, importc: "__libunwind_Unwind_ForcedUnwind",
-                                       header: "orbis/LibcInternal.h".}
+proc libunwind_Unwind_ForcedUnwind*() {.cdecl, importc: "__libunwind_Unwind_ForcedUnwind",
+                                        header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc libunwind_UnwindGetBSP*() {.cdecl, importc: "__libunwind_Unwind_GetBSP",
-                                 header: "orbis/LibcInternal.h".}
+proc libunwind_Unwind_GetBSP*() {.cdecl, importc: "__libunwind_Unwind_GetBSP",
+                                  header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc libunwind_UnwindGetCFA*() {.cdecl, importc: "__libunwind_Unwind_GetCFA",
-                                 header: "orbis/LibcInternal.h".}
+proc libunwind_Unwind_GetCFA*() {.cdecl, importc: "__libunwind_Unwind_GetCFA",
+                                  header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc libunwind_UnwindGetDataRelBase*() {.cdecl,
+proc libunwind_Unwind_GetDataRelBase*() {.cdecl,
     importc: "__libunwind_Unwind_GetDataRelBase", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc libunwind_UnwindGetGR*() {.cdecl, importc: "__libunwind_Unwind_GetGR",
-                                header: "orbis/LibcInternal.h".}
+proc libunwind_Unwind_GetGR*() {.cdecl, importc: "__libunwind_Unwind_GetGR",
+                                 header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc libunwind_UnwindGetIP*() {.cdecl, importc: "__libunwind_Unwind_GetIP",
-                                header: "orbis/LibcInternal.h".}
+proc libunwind_Unwind_GetIP*() {.cdecl, importc: "__libunwind_Unwind_GetIP",
+                                 header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc libunwind_UnwindGetIPInfo*() {.cdecl,
-                                    importc: "__libunwind_Unwind_GetIPInfo",
-                                    header: "orbis/LibcInternal.h".}
+proc libunwind_Unwind_GetIPInfo*() {.cdecl,
+                                     importc: "__libunwind_Unwind_GetIPInfo",
+                                     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc libunwind_UnwindGetLanguageSpecificData*() {.cdecl,
+proc libunwind_Unwind_GetLanguageSpecificData*() {.cdecl,
     importc: "__libunwind_Unwind_GetLanguageSpecificData",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc libunwind_UnwindGetRegionStart*() {.cdecl,
+proc libunwind_Unwind_GetRegionStart*() {.cdecl,
     importc: "__libunwind_Unwind_GetRegionStart", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc libunwind_UnwindGetTextRelBase*() {.cdecl,
+proc libunwind_Unwind_GetTextRelBase*() {.cdecl,
     importc: "__libunwind_Unwind_GetTextRelBase", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc libunwind_UnwindRaiseException*() {.cdecl,
+proc libunwind_Unwind_RaiseException*() {.cdecl,
     importc: "__libunwind_Unwind_RaiseException", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc libunwind_UnwindResume*() {.cdecl, importc: "__libunwind_Unwind_Resume",
-                                 header: "orbis/LibcInternal.h".}
+proc libunwind_Unwind_Resume*() {.cdecl, importc: "__libunwind_Unwind_Resume",
+                                  header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc libunwind_UnwindResumeorRethrow*() {.cdecl,
+proc libunwind_Unwind_Resume_or_Rethrow*() {.cdecl,
     importc: "__libunwind_Unwind_Resume_or_Rethrow",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc libunwind_UnwindSetGR*() {.cdecl, importc: "__libunwind_Unwind_SetGR",
-                                header: "orbis/LibcInternal.h".}
+proc libunwind_Unwind_SetGR*() {.cdecl, importc: "__libunwind_Unwind_SetGR",
+                                 header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc libunwind_UnwindSetIP*() {.cdecl, importc: "__libunwind_Unwind_SetIP",
-                                header: "orbis/LibcInternal.h".}
+proc libunwind_Unwind_SetIP*() {.cdecl, importc: "__libunwind_Unwind_SetIP",
+                                 header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc longjmp*() {.cdecl, importc: "__longjmp", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -422,11 +421,11 @@ proc ltdf2*() {.cdecl, importc: "__ltdf2", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ltsf2*() {.cdecl, importc: "__ltsf2", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc mb_curmax*() {.cdecl, importc: "__mb_cur_max",
-                    header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc mb_sblimit*() {.cdecl, importc: "__mb_sb_limit",
+proc mb_cur_max*() {.cdecl, importc: "__mb_cur_max",
                      header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc mb_sb_limit*() {.cdecl, importc: "__mb_sb_limit",
+                      header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc moddi3*() {.cdecl, importc: "__moddi3", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -532,23 +531,24 @@ proc subvti3*() {.cdecl, importc: "__subvti3", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc swbuf*() {.cdecl, importc: "__swbuf", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc sync_fetchandadd16*() {.cdecl, importc: "__sync_fetch_and_add_16",
-                             header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc sync_fetchandand16*() {.cdecl, importc: "__sync_fetch_and_and_16",
-                             header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc sync_fetchandor16*() {.cdecl, importc: "__sync_fetch_and_or_16",
-                            header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc sync_fetchandsub16*() {.cdecl, importc: "__sync_fetch_and_sub_16",
-                             header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc sync_fetchandxor16*() {.cdecl, importc: "__sync_fetch_and_xor_16",
-                             header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc sync_locktestandset16*() {.cdecl, importc: "__sync_lock_test_and_set_16",
+proc sync_fetch_and_add_16*() {.cdecl, importc: "__sync_fetch_and_add_16",
                                 header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc sync_fetch_and_and_16*() {.cdecl, importc: "__sync_fetch_and_and_16",
+                                header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc sync_fetch_and_or_16*() {.cdecl, importc: "__sync_fetch_and_or_16",
+                               header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc sync_fetch_and_sub_16*() {.cdecl, importc: "__sync_fetch_and_sub_16",
+                                header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc sync_fetch_and_xor_16*() {.cdecl, importc: "__sync_fetch_and_xor_16",
+                                header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc sync_lock_test_and_set_16*() {.cdecl,
+                                    importc: "__sync_lock_test_and_set_16",
+                                    header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc truncdfsf2*() {.cdecl, importc: "__truncdfsf2",
                      header: "orbis/LibcInternal.h".}
@@ -588,36 +588,35 @@ proc Assert*() {.cdecl, importc: "_Assert", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc Atan*() {.cdecl, importc: "_Atan", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Atomic_compareexchangestrong*() {.cdecl, importc: "_Atomic_compare_exchange_strong",
+proc Atomic_compare_exchange_strong*() {.cdecl,
+    importc: "_Atomic_compare_exchange_strong", header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc Atomic_compare_exchange_strong_1*() {.cdecl,
+    importc: "_Atomic_compare_exchange_strong_1", header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc Atomic_compare_exchange_strong_2*() {.cdecl,
+    importc: "_Atomic_compare_exchange_strong_2", header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc Atomic_compare_exchange_strong_4*() {.cdecl,
+    importc: "_Atomic_compare_exchange_strong_4", header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc Atomic_compare_exchange_strong_8*() {.cdecl,
+    importc: "_Atomic_compare_exchange_strong_8", header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc Atomic_compare_exchange_weak*() {.cdecl, importc: "_Atomic_compare_exchange_weak",
                                        header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Atomic_compareexchangestrong1*() {.cdecl, importc: "_Atomic_compare_exchange_strong_1",
-                                        header: "orbis/LibcInternal.h".}
+proc Atomic_compare_exchange_weak_1*() {.cdecl,
+    importc: "_Atomic_compare_exchange_weak_1", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Atomic_compareexchangestrong2*() {.cdecl, importc: "_Atomic_compare_exchange_strong_2",
-                                        header: "orbis/LibcInternal.h".}
+proc Atomic_compare_exchange_weak_2*() {.cdecl,
+    importc: "_Atomic_compare_exchange_weak_2", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Atomic_compareexchangestrong4*() {.cdecl, importc: "_Atomic_compare_exchange_strong_4",
-                                        header: "orbis/LibcInternal.h".}
+proc Atomic_compare_exchange_weak_4*() {.cdecl,
+    importc: "_Atomic_compare_exchange_weak_4", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Atomic_compareexchangestrong8*() {.cdecl, importc: "_Atomic_compare_exchange_strong_8",
-                                        header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc Atomic_compareexchangeweak*() {.cdecl,
-                                     importc: "_Atomic_compare_exchange_weak",
-                                     header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc Atomic_compareexchangeweak1*() {.cdecl, importc: "_Atomic_compare_exchange_weak_1",
-                                      header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc Atomic_compareexchangeweak2*() {.cdecl, importc: "_Atomic_compare_exchange_weak_2",
-                                      header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc Atomic_compareexchangeweak4*() {.cdecl, importc: "_Atomic_compare_exchange_weak_4",
-                                      header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc Atomic_compareexchangeweak8*() {.cdecl, importc: "_Atomic_compare_exchange_weak_8",
-                                      header: "orbis/LibcInternal.h".}
+proc Atomic_compare_exchange_weak_8*() {.cdecl,
+    importc: "_Atomic_compare_exchange_weak_8", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc Atomic_copy*() {.cdecl, importc: "_Atomic_copy",
                       header: "orbis/LibcInternal.h".}
@@ -625,125 +624,125 @@ proc Atomic_copy*() {.cdecl, importc: "_Atomic_copy",
 proc Atomic_exchange*() {.cdecl, importc: "_Atomic_exchange",
                           header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Atomic_exchange1*() {.cdecl, importc: "_Atomic_exchange_1",
-                           header: "orbis/LibcInternal.h".}
+proc Atomic_exchange_1*() {.cdecl, importc: "_Atomic_exchange_1",
+                            header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Atomic_exchange2*() {.cdecl, importc: "_Atomic_exchange_2",
-                           header: "orbis/LibcInternal.h".}
+proc Atomic_exchange_2*() {.cdecl, importc: "_Atomic_exchange_2",
+                            header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Atomic_exchange4*() {.cdecl, importc: "_Atomic_exchange_4",
-                           header: "orbis/LibcInternal.h".}
+proc Atomic_exchange_4*() {.cdecl, importc: "_Atomic_exchange_4",
+                            header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Atomic_exchange8*() {.cdecl, importc: "_Atomic_exchange_8",
-                           header: "orbis/LibcInternal.h".}
+proc Atomic_exchange_8*() {.cdecl, importc: "_Atomic_exchange_8",
+                            header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Atomic_fetchadd1*() {.cdecl, importc: "_Atomic_fetch_add_1",
-                           header: "orbis/LibcInternal.h".}
+proc Atomic_fetch_add_1*() {.cdecl, importc: "_Atomic_fetch_add_1",
+                             header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Atomic_fetchadd2*() {.cdecl, importc: "_Atomic_fetch_add_2",
-                           header: "orbis/LibcInternal.h".}
+proc Atomic_fetch_add_2*() {.cdecl, importc: "_Atomic_fetch_add_2",
+                             header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Atomic_fetchadd4*() {.cdecl, importc: "_Atomic_fetch_add_4",
-                           header: "orbis/LibcInternal.h".}
+proc Atomic_fetch_add_4*() {.cdecl, importc: "_Atomic_fetch_add_4",
+                             header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Atomic_fetchadd8*() {.cdecl, importc: "_Atomic_fetch_add_8",
-                           header: "orbis/LibcInternal.h".}
+proc Atomic_fetch_add_8*() {.cdecl, importc: "_Atomic_fetch_add_8",
+                             header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Atomic_fetchand1*() {.cdecl, importc: "_Atomic_fetch_and_1",
-                           header: "orbis/LibcInternal.h".}
+proc Atomic_fetch_and_1*() {.cdecl, importc: "_Atomic_fetch_and_1",
+                             header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Atomic_fetchand2*() {.cdecl, importc: "_Atomic_fetch_and_2",
-                           header: "orbis/LibcInternal.h".}
+proc Atomic_fetch_and_2*() {.cdecl, importc: "_Atomic_fetch_and_2",
+                             header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Atomic_fetchand4*() {.cdecl, importc: "_Atomic_fetch_and_4",
-                           header: "orbis/LibcInternal.h".}
+proc Atomic_fetch_and_4*() {.cdecl, importc: "_Atomic_fetch_and_4",
+                             header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Atomic_fetchand8*() {.cdecl, importc: "_Atomic_fetch_and_8",
-                           header: "orbis/LibcInternal.h".}
+proc Atomic_fetch_and_8*() {.cdecl, importc: "_Atomic_fetch_and_8",
+                             header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Atomic_fetchor1*() {.cdecl, importc: "_Atomic_fetch_or_1",
-                          header: "orbis/LibcInternal.h".}
+proc Atomic_fetch_or_1*() {.cdecl, importc: "_Atomic_fetch_or_1",
+                            header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Atomic_fetchor2*() {.cdecl, importc: "_Atomic_fetch_or_2",
-                          header: "orbis/LibcInternal.h".}
+proc Atomic_fetch_or_2*() {.cdecl, importc: "_Atomic_fetch_or_2",
+                            header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Atomic_fetchor4*() {.cdecl, importc: "_Atomic_fetch_or_4",
-                          header: "orbis/LibcInternal.h".}
+proc Atomic_fetch_or_4*() {.cdecl, importc: "_Atomic_fetch_or_4",
+                            header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Atomic_fetchor8*() {.cdecl, importc: "_Atomic_fetch_or_8",
-                          header: "orbis/LibcInternal.h".}
+proc Atomic_fetch_or_8*() {.cdecl, importc: "_Atomic_fetch_or_8",
+                            header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Atomic_fetchsub1*() {.cdecl, importc: "_Atomic_fetch_sub_1",
-                           header: "orbis/LibcInternal.h".}
+proc Atomic_fetch_sub_1*() {.cdecl, importc: "_Atomic_fetch_sub_1",
+                             header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Atomic_fetchsub2*() {.cdecl, importc: "_Atomic_fetch_sub_2",
-                           header: "orbis/LibcInternal.h".}
+proc Atomic_fetch_sub_2*() {.cdecl, importc: "_Atomic_fetch_sub_2",
+                             header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Atomic_fetchsub4*() {.cdecl, importc: "_Atomic_fetch_sub_4",
-                           header: "orbis/LibcInternal.h".}
+proc Atomic_fetch_sub_4*() {.cdecl, importc: "_Atomic_fetch_sub_4",
+                             header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Atomic_fetchsub8*() {.cdecl, importc: "_Atomic_fetch_sub_8",
-                           header: "orbis/LibcInternal.h".}
+proc Atomic_fetch_sub_8*() {.cdecl, importc: "_Atomic_fetch_sub_8",
+                             header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Atomic_fetchxor1*() {.cdecl, importc: "_Atomic_fetch_xor_1",
-                           header: "orbis/LibcInternal.h".}
+proc Atomic_fetch_xor_1*() {.cdecl, importc: "_Atomic_fetch_xor_1",
+                             header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Atomic_fetchxor2*() {.cdecl, importc: "_Atomic_fetch_xor_2",
-                           header: "orbis/LibcInternal.h".}
+proc Atomic_fetch_xor_2*() {.cdecl, importc: "_Atomic_fetch_xor_2",
+                             header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Atomic_fetchxor4*() {.cdecl, importc: "_Atomic_fetch_xor_4",
-                           header: "orbis/LibcInternal.h".}
+proc Atomic_fetch_xor_4*() {.cdecl, importc: "_Atomic_fetch_xor_4",
+                             header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Atomic_fetchxor8*() {.cdecl, importc: "_Atomic_fetch_xor_8",
-                           header: "orbis/LibcInternal.h".}
+proc Atomic_fetch_xor_8*() {.cdecl, importc: "_Atomic_fetch_xor_8",
+                             header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Atomic_flagclear*() {.cdecl, importc: "_Atomic_flag_clear",
-                           header: "orbis/LibcInternal.h".}
+proc Atomic_flag_clear*() {.cdecl, importc: "_Atomic_flag_clear",
+                            header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Atomic_flagtestandset*() {.cdecl, importc: "_Atomic_flag_test_and_set",
+proc Atomic_flag_test_and_set*() {.cdecl, importc: "_Atomic_flag_test_and_set",
+                                   header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc Atomic_is_lock_free_1*() {.cdecl, importc: "_Atomic_is_lock_free_1",
                                 header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Atomic_islockfree1*() {.cdecl, importc: "_Atomic_is_lock_free_1",
-                             header: "orbis/LibcInternal.h".}
+proc Atomic_is_lock_free_2*() {.cdecl, importc: "_Atomic_is_lock_free_2",
+                                header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Atomic_islockfree2*() {.cdecl, importc: "_Atomic_is_lock_free_2",
-                             header: "orbis/LibcInternal.h".}
+proc Atomic_is_lock_free_4*() {.cdecl, importc: "_Atomic_is_lock_free_4",
+                                header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Atomic_islockfree4*() {.cdecl, importc: "_Atomic_is_lock_free_4",
-                             header: "orbis/LibcInternal.h".}
+proc Atomic_is_lock_free_8*() {.cdecl, importc: "_Atomic_is_lock_free_8",
+                                header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Atomic_islockfree8*() {.cdecl, importc: "_Atomic_is_lock_free_8",
-                             header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc Atomic_load1*() {.cdecl, importc: "_Atomic_load_1",
-                       header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc Atomic_load2*() {.cdecl, importc: "_Atomic_load_2",
-                       header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc Atomic_load4*() {.cdecl, importc: "_Atomic_load_4",
-                       header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc Atomic_load8*() {.cdecl, importc: "_Atomic_load_8",
-                       header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc Atomic_signalfence*() {.cdecl, importc: "_Atomic_signal_fence",
-                             header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc Atomic_store1*() {.cdecl, importc: "_Atomic_store_1",
+proc Atomic_load_1*() {.cdecl, importc: "_Atomic_load_1",
                         header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Atomic_store2*() {.cdecl, importc: "_Atomic_store_2",
+proc Atomic_load_2*() {.cdecl, importc: "_Atomic_load_2",
                         header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Atomic_store4*() {.cdecl, importc: "_Atomic_store_4",
+proc Atomic_load_4*() {.cdecl, importc: "_Atomic_load_4",
                         header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Atomic_store8*() {.cdecl, importc: "_Atomic_store_8",
+proc Atomic_load_8*() {.cdecl, importc: "_Atomic_load_8",
                         header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Atomic_threadfence*() {.cdecl, importc: "_Atomic_thread_fence",
-                             header: "orbis/LibcInternal.h".}
+proc Atomic_signal_fence*() {.cdecl, importc: "_Atomic_signal_fence",
+                              header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc Atomic_store_1*() {.cdecl, importc: "_Atomic_store_1",
+                         header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc Atomic_store_2*() {.cdecl, importc: "_Atomic_store_2",
+                         header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc Atomic_store_4*() {.cdecl, importc: "_Atomic_store_4",
+                         header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc Atomic_store_8*() {.cdecl, importc: "_Atomic_store_8",
+                         header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc Atomic_thread_fence*() {.cdecl, importc: "_Atomic_thread_fence",
+                              header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc Atqexit*() {.cdecl, importc: "_Atqexit", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -767,17 +766,17 @@ proc Cnd_broadcast*() {.cdecl, importc: "_Cnd_broadcast",
 proc Cnd_destroy*() {.cdecl, importc: "_Cnd_destroy",
                       header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Cnd_dobroadcastatthreadexit*() {.cdecl, importc: "_Cnd_do_broadcast_at_thread_exit",
-                                      header: "orbis/LibcInternal.h".}
+proc Cnd_do_broadcast_at_thread_exit*() {.cdecl,
+    importc: "_Cnd_do_broadcast_at_thread_exit", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc Cnd_init*() {.cdecl, importc: "_Cnd_init", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Cnd_initwithname*() {.cdecl, importc: "_Cnd_init_with_name",
-                           header: "orbis/LibcInternal.h".}
+proc Cnd_init_with_name*() {.cdecl, importc: "_Cnd_init_with_name",
+                             header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Cnd_registeratthreadexit*() {.cdecl,
-                                   importc: "_Cnd_register_at_thread_exit",
-                                   header: "orbis/LibcInternal.h".}
+proc Cnd_register_at_thread_exit*() {.cdecl,
+                                      importc: "_Cnd_register_at_thread_exit",
+                                      header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc Cnd_signal*() {.cdecl, importc: "_Cnd_signal",
                      header: "orbis/LibcInternal.h".}
@@ -785,9 +784,8 @@ proc Cnd_signal*() {.cdecl, importc: "_Cnd_signal",
 proc Cnd_timedwait*() {.cdecl, importc: "_Cnd_timedwait",
                         header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Cnd_unregisteratthreadexit*() {.cdecl,
-                                     importc: "_Cnd_unregister_at_thread_exit",
-                                     header: "orbis/LibcInternal.h".}
+proc Cnd_unregister_at_thread_exit*() {.cdecl, importc: "_Cnd_unregister_at_thread_exit",
+                                        header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc Cnd_wait*() {.cdecl, importc: "_Cnd_wait", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -895,44 +893,44 @@ proc FErf_small*() {.cdecl, importc: "_FErf_small",
   ##  Empty Comment
 proc FErfc*() {.cdecl, importc: "_FErfc", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Fetch_add8*() {.cdecl, importc: "_Fetch_add_8",
+proc Fetch_add_8*() {.cdecl, importc: "_Fetch_add_8",
+                      header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc Fetch_and_8*() {.cdecl, importc: "_Fetch_and_8",
+                      header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc Fetch_and_seq_cst_1*() {.cdecl, importc: "_Fetch_and_seq_cst_1",
+                              header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc Fetch_and_seq_cst_2*() {.cdecl, importc: "_Fetch_and_seq_cst_2",
+                              header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc Fetch_and_seq_cst_4*() {.cdecl, importc: "_Fetch_and_seq_cst_4",
+                              header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc Fetch_or_8*() {.cdecl, importc: "_Fetch_or_8",
                      header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Fetch_and8*() {.cdecl, importc: "_Fetch_and_8",
-                     header: "orbis/LibcInternal.h".}
+proc Fetch_or_seq_cst_1*() {.cdecl, importc: "_Fetch_or_seq_cst_1",
+                             header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Fetch_andseqcst1*() {.cdecl, importc: "_Fetch_and_seq_cst_1",
-                           header: "orbis/LibcInternal.h".}
+proc Fetch_or_seq_cst_2*() {.cdecl, importc: "_Fetch_or_seq_cst_2",
+                             header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Fetch_andseqcst2*() {.cdecl, importc: "_Fetch_and_seq_cst_2",
-                           header: "orbis/LibcInternal.h".}
+proc Fetch_or_seq_cst_4*() {.cdecl, importc: "_Fetch_or_seq_cst_4",
+                             header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Fetch_andseqcst4*() {.cdecl, importc: "_Fetch_and_seq_cst_4",
-                           header: "orbis/LibcInternal.h".}
+proc Fetch_xor_8*() {.cdecl, importc: "_Fetch_xor_8",
+                      header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Fetch_or8*() {.cdecl, importc: "_Fetch_or_8",
-                    header: "orbis/LibcInternal.h".}
+proc Fetch_xor_seq_cst_1*() {.cdecl, importc: "_Fetch_xor_seq_cst_1",
+                              header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Fetch_orseqcst1*() {.cdecl, importc: "_Fetch_or_seq_cst_1",
-                          header: "orbis/LibcInternal.h".}
+proc Fetch_xor_seq_cst_2*() {.cdecl, importc: "_Fetch_xor_seq_cst_2",
+                              header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Fetch_orseqcst2*() {.cdecl, importc: "_Fetch_or_seq_cst_2",
-                          header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc Fetch_orseqcst4*() {.cdecl, importc: "_Fetch_or_seq_cst_4",
-                          header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc Fetch_xor8*() {.cdecl, importc: "_Fetch_xor_8",
-                     header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc Fetch_xorseqcst1*() {.cdecl, importc: "_Fetch_xor_seq_cst_1",
-                           header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc Fetch_xorseqcst2*() {.cdecl, importc: "_Fetch_xor_seq_cst_2",
-                           header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc Fetch_xorseqcst4*() {.cdecl, importc: "_Fetch_xor_seq_cst_4",
-                           header: "orbis/LibcInternal.h".}
+proc Fetch_xor_seq_cst_4*() {.cdecl, importc: "_Fetch_xor_seq_cst_4",
+                              header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc FExp*() {.cdecl, importc: "_FExp", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -1170,11 +1168,12 @@ proc LNan*() {.cdecl, importc: "_LNan", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc Locale*() {.cdecl, importc: "_Locale", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Lock_sharedptrspinlock*() {.cdecl, importc: "_Lock_shared_ptr_spin_lock",
-                                 header: "orbis/LibcInternal.h".}
+proc Lock_shared_ptr_spin_lock*() {.cdecl,
+                                    importc: "_Lock_shared_ptr_spin_lock",
+                                    header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Lock_spinlock*() {.cdecl, importc: "_Lock_spin_lock",
-                        header: "orbis/LibcInternal.h".}
+proc Lock_spin_lock*() {.cdecl, importc: "_Lock_spin_lock",
+                         header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc Lockfilelock*() {.cdecl, importc: "_Lockfilelock",
                        header: "orbis/LibcInternal.h".}
@@ -1259,8 +1258,8 @@ proc Makestab*() {.cdecl, importc: "_Makestab", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc Makewct*() {.cdecl, importc: "_Makewct", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc malloc_finalizelv2*() {.cdecl, importc: "_malloc_finalize_lv2",
-                             header: "orbis/LibcInternal.h".}
+proc malloc_finalize_lv2*() {.cdecl, importc: "_malloc_finalize_lv2",
+                              header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc malloc_fini*() {.cdecl, importc: "_malloc_fini",
                       header: "orbis/LibcInternal.h".}
@@ -1268,8 +1267,8 @@ proc malloc_fini*() {.cdecl, importc: "_malloc_fini",
 proc malloc_init*() {.cdecl, importc: "_malloc_init",
                       header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc malloc_initlv2*() {.cdecl, importc: "_malloc_init_lv2",
-                         header: "orbis/LibcInternal.h".}
+proc malloc_init_lv2*() {.cdecl, importc: "_malloc_init_lv2",
+                          header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc malloc_postfork*() {.cdecl, importc: "_malloc_postfork",
                           header: "orbis/LibcInternal.h".}
@@ -1277,8 +1276,8 @@ proc malloc_postfork*() {.cdecl, importc: "_malloc_postfork",
 proc malloc_prefork*() {.cdecl, importc: "_malloc_prefork",
                          header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc malloc_threadcleanup*() {.cdecl, importc: "_malloc_thread_cleanup",
-                               header: "orbis/LibcInternal.h".}
+proc malloc_thread_cleanup*() {.cdecl, importc: "_malloc_thread_cleanup",
+                                header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc Mbcurmax*() {.cdecl, importc: "_Mbcurmax", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -1288,16 +1287,16 @@ proc Mbtowc*() {.cdecl, importc: "_Mbtowc", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc Mbtowcx*() {.cdecl, importc: "_Mbtowcx", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Mtx_currentowns*() {.cdecl, importc: "_Mtx_current_owns",
-                          header: "orbis/LibcInternal.h".}
+proc Mtx_current_owns*() {.cdecl, importc: "_Mtx_current_owns",
+                           header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc Mtx_destroy*() {.cdecl, importc: "_Mtx_destroy",
                       header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc Mtx_init*() {.cdecl, importc: "_Mtx_init", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Mtx_initwithname*() {.cdecl, importc: "_Mtx_init_with_name",
-                           header: "orbis/LibcInternal.h".}
+proc Mtx_init_with_name*() {.cdecl, importc: "_Mtx_init_with_name",
+                             header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc Mtx_lock*() {.cdecl, importc: "_Mtx_lock", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -1327,11 +1326,11 @@ proc Nnl*() {.cdecl, importc: "_Nnl", header: "orbis/LibcInternal.h".}
 proc PathLocale*() {.cdecl, importc: "_PathLocale",
                      header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc PJP_CCopyright*() {.cdecl, importc: "_PJP_C_Copyright",
-                         header: "orbis/LibcInternal.h".}
+proc PJP_C_Copyright*() {.cdecl, importc: "_PJP_C_Copyright",
+                          header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc PJP_CPPCopyright*() {.cdecl, importc: "_PJP_CPP_Copyright",
-                           header: "orbis/LibcInternal.h".}
+proc PJP_CPP_Copyright*() {.cdecl, importc: "_PJP_CPP_Copyright",
+                            header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc Plsw*() {.cdecl, importc: "_Plsw", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -1372,23 +1371,23 @@ proc Rint*() {.cdecl, importc: "_Rint", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc Rteps*() {.cdecl, importc: "_Rteps", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc rtld_addrphdr*() {.cdecl, importc: "_rtld_addr_phdr",
-                        header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc rtld_atforkpost*() {.cdecl, importc: "_rtld_atfork_post",
-                          header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc rtld_atforkpre*() {.cdecl, importc: "_rtld_atfork_pre",
+proc rtld_addr_phdr*() {.cdecl, importc: "_rtld_addr_phdr",
                          header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc rtld_atfork_post*() {.cdecl, importc: "_rtld_atfork_post",
+                           header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc rtld_atfork_pre*() {.cdecl, importc: "_rtld_atfork_pre",
+                          header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc rtld_error*() {.cdecl, importc: "_rtld_error",
                      header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc rtld_getstackprot*() {.cdecl, importc: "_rtld_get_stack_prot",
-                            header: "orbis/LibcInternal.h".}
+proc rtld_get_stack_prot*() {.cdecl, importc: "_rtld_get_stack_prot",
+                              header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc rtld_threadinit*() {.cdecl, importc: "_rtld_thread_init",
-                          header: "orbis/LibcInternal.h".}
+proc rtld_thread_init*() {.cdecl, importc: "_rtld_thread_init",
+                           header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc Save_state*() {.cdecl, importc: "_Save_state",
                      header: "orbis/LibcInternal.h".}
@@ -1403,8 +1402,8 @@ proc seekdir*() {.cdecl, importc: "_seekdir", header: "orbis/LibcInternal.h".}
 proc Setgloballocale*() {.cdecl, importc: "_Setgloballocale",
                           header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Shared_ptrflag*() {.cdecl, importc: "_Shared_ptr_flag",
-                         header: "orbis/LibcInternal.h".}
+proc Shared_ptr_flag*() {.cdecl, importc: "_Shared_ptr_flag",
+                          header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc Sin*() {.cdecl, importc: "_Sin", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -1491,65 +1490,65 @@ proc Thrd_sleep*() {.cdecl, importc: "_Thrd_sleep",
 proc Thrd_start*() {.cdecl, importc: "_Thrd_start",
                      header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Thrd_startwithname*() {.cdecl, importc: "_Thrd_start_with_name",
-                             header: "orbis/LibcInternal.h".}
+proc Thrd_start_with_name*() {.cdecl, importc: "_Thrd_start_with_name",
+                               header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc Thrd_yield*() {.cdecl, importc: "_Thrd_yield",
                      header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc thread_autoinitdummydecl*() {.cdecl,
-                                   importc: "_thread_autoinit_dummy_decl",
-                                   header: "orbis/LibcInternal.h".}
+proc thread_autoinit_dummy_decl*() {.cdecl,
+                                     importc: "_thread_autoinit_dummy_decl",
+                                     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc thread_autoinitdummydeclstub*() {.cdecl, importc: "_thread_autoinit_dummy_decl_stub",
-                                       header: "orbis/LibcInternal.h".}
+proc thread_autoinit_dummy_decl_stub*() {.cdecl,
+    importc: "_thread_autoinit_dummy_decl_stub", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc thread_init*() {.cdecl, importc: "_thread_init",
                       header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc thread_initstub*() {.cdecl, importc: "_thread_init_stub",
-                          header: "orbis/LibcInternal.h".}
+proc thread_init_stub*() {.cdecl, importc: "_thread_init_stub",
+                           header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc Times*() {.cdecl, importc: "_Times", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Tls_setupCostate*() {.cdecl, importc: "_Tls_setup__Costate",
-                           header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc Tls_setupCtype*() {.cdecl, importc: "_Tls_setup__Ctype",
-                         header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc Tls_setupErrno*() {.cdecl, importc: "_Tls_setup__Errno",
-                         header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc Tls_setupLocale*() {.cdecl, importc: "_Tls_setup__Locale",
-                          header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc Tls_setupMbcurmax*() {.cdecl, importc: "_Tls_setup__Mbcurmax",
+proc Tls_setup_Costate*() {.cdecl, importc: "_Tls_setup__Costate",
                             header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Tls_setupMbstate*() {.cdecl, importc: "_Tls_setup__Mbstate",
+proc Tls_setup_Ctype*() {.cdecl, importc: "_Tls_setup__Ctype",
+                          header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc Tls_setup_Errno*() {.cdecl, importc: "_Tls_setup__Errno",
+                          header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc Tls_setup_Locale*() {.cdecl, importc: "_Tls_setup__Locale",
                            header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Tls_setupTimes*() {.cdecl, importc: "_Tls_setup__Times",
-                         header: "orbis/LibcInternal.h".}
+proc Tls_setup_Mbcurmax*() {.cdecl, importc: "_Tls_setup__Mbcurmax",
+                             header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Tls_setupTolotab*() {.cdecl, importc: "_Tls_setup__Tolotab",
-                           header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc Tls_setupTouptab*() {.cdecl, importc: "_Tls_setup__Touptab",
-                           header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc Tls_setupWCostate*() {.cdecl, importc: "_Tls_setup__WCostate",
+proc Tls_setup_Mbstate*() {.cdecl, importc: "_Tls_setup__Mbstate",
                             header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Tls_setupWcstate*() {.cdecl, importc: "_Tls_setup__Wcstate",
-                           header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc Tls_setupWctrans*() {.cdecl, importc: "_Tls_setup__Wctrans",
-                           header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc Tls_setupWctype*() {.cdecl, importc: "_Tls_setup__Wctype",
+proc Tls_setup_Times*() {.cdecl, importc: "_Tls_setup__Times",
                           header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc Tls_setup_Tolotab*() {.cdecl, importc: "_Tls_setup__Tolotab",
+                            header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc Tls_setup_Touptab*() {.cdecl, importc: "_Tls_setup__Touptab",
+                            header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc Tls_setup_WCostate*() {.cdecl, importc: "_Tls_setup__WCostate",
+                             header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc Tls_setup_Wcstate*() {.cdecl, importc: "_Tls_setup__Wcstate",
+                            header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc Tls_setup_Wctrans*() {.cdecl, importc: "_Tls_setup__Wctrans",
+                            header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc Tls_setup_Wctype*() {.cdecl, importc: "_Tls_setup__Wctype",
+                           header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc Tolotab*() {.cdecl, importc: "_Tolotab", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -1571,83 +1570,83 @@ proc Ttotm*() {.cdecl, importc: "_Ttotm", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc Tzoff*() {.cdecl, importc: "_Tzoff", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc U_dyncancel*() {.cdecl, importc: "_U_dyn_cancel",
-                      header: "orbis/LibcInternal.h".}
+proc U_dyn_cancel*() {.cdecl, importc: "_U_dyn_cancel",
+                       header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc U_dyninfolistaddr*() {.cdecl, importc: "_U_dyn_info_list_addr",
-                            header: "orbis/LibcInternal.h".}
+proc U_dyn_info_list_addr*() {.cdecl, importc: "_U_dyn_info_list_addr",
+                               header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc U_dynregister*() {.cdecl, importc: "_U_dyn_register",
-                        header: "orbis/LibcInternal.h".}
+proc U_dyn_register*() {.cdecl, importc: "_U_dyn_register",
+                         header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ULx86_64createaddrspace*() {.cdecl, importc: "_ULx86_64_create_addr_space",
-                                  header: "orbis/LibcInternal.h".}
+proc ULx86_64_create_addr_space*() {.cdecl,
+                                     importc: "_ULx86_64_create_addr_space",
+                                     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ULx86_64destroyaddrspace*() {.cdecl,
-                                   importc: "_ULx86_64_destroy_addr_space",
-                                   header: "orbis/LibcInternal.h".}
+proc ULx86_64_destroy_addr_space*() {.cdecl,
+                                      importc: "_ULx86_64_destroy_addr_space",
+                                      header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ULx86_64dwarfsearchunwindtable*() {.cdecl,
+proc ULx86_64_dwarf_search_unwind_table*() {.cdecl,
     importc: "_ULx86_64_dwarf_search_unwind_table",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ULx86_64getfpreg*() {.cdecl, importc: "_ULx86_64_get_fpreg",
-                           header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc ULx86_64getprocinfo*() {.cdecl, importc: "_ULx86_64_get_proc_info",
-                              header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc ULx86_64getprocinfobyip*() {.cdecl,
-                                  importc: "_ULx86_64_get_proc_info_by_ip",
-                                  header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc ULx86_64getprocname*() {.cdecl, importc: "_ULx86_64_get_proc_name",
-                              header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc ULx86_64getreg*() {.cdecl, importc: "_ULx86_64_get_reg",
-                         header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc ULx86_64getsaveloc*() {.cdecl, importc: "_ULx86_64_get_save_loc",
+proc ULx86_64_get_fpreg*() {.cdecl, importc: "_ULx86_64_get_fpreg",
                              header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ULx86_64handlesignalframe*() {.cdecl,
-                                    importc: "_ULx86_64_handle_signal_frame",
-                                    header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc ULx86_64initlocal*() {.cdecl, importc: "_ULx86_64_init_local",
-                            header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc ULx86_64initremote*() {.cdecl, importc: "_ULx86_64_init_remote",
-                             header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc ULx86_64issignalframe*() {.cdecl, importc: "_ULx86_64_is_signal_frame",
-                                header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc ULx86_64localaddrspace*() {.cdecl, importc: "_ULx86_64_local_addr_space",
+proc ULx86_64_get_proc_info*() {.cdecl, importc: "_ULx86_64_get_proc_info",
                                  header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ULx86_64resume*() {.cdecl, importc: "_ULx86_64_resume",
-                         header: "orbis/LibcInternal.h".}
+proc ULx86_64_get_proc_info_by_ip*() {.cdecl, importc: "_ULx86_64_get_proc_info_by_ip",
+                                       header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ULx86_64setcachingpolicy*() {.cdecl,
-                                   importc: "_ULx86_64_set_caching_policy",
-                                   header: "orbis/LibcInternal.h".}
+proc ULx86_64_get_proc_name*() {.cdecl, importc: "_ULx86_64_get_proc_name",
+                                 header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ULx86_64setfpreg*() {.cdecl, importc: "_ULx86_64_set_fpreg",
+proc ULx86_64_get_reg*() {.cdecl, importc: "_ULx86_64_get_reg",
                            header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ULx86_64setreg*() {.cdecl, importc: "_ULx86_64_set_reg",
-                         header: "orbis/LibcInternal.h".}
+proc ULx86_64_get_save_loc*() {.cdecl, importc: "_ULx86_64_get_save_loc",
+                                header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ULx86_64step*() {.cdecl, importc: "_ULx86_64_step",
-                       header: "orbis/LibcInternal.h".}
+proc ULx86_64_handle_signal_frame*() {.cdecl, importc: "_ULx86_64_handle_signal_frame",
+                                       header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Unlock_sharedptrspinlock*() {.cdecl,
-                                   importc: "_Unlock_shared_ptr_spin_lock",
+proc ULx86_64_init_local*() {.cdecl, importc: "_ULx86_64_init_local",
+                              header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc ULx86_64_init_remote*() {.cdecl, importc: "_ULx86_64_init_remote",
+                               header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc ULx86_64_is_signal_frame*() {.cdecl, importc: "_ULx86_64_is_signal_frame",
                                    header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Unlock_spinlock*() {.cdecl, importc: "_Unlock_spin_lock",
+proc ULx86_64_local_addr_space*() {.cdecl,
+                                    importc: "_ULx86_64_local_addr_space",
+                                    header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc ULx86_64_resume*() {.cdecl, importc: "_ULx86_64_resume",
                           header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc ULx86_64_set_caching_policy*() {.cdecl,
+                                      importc: "_ULx86_64_set_caching_policy",
+                                      header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc ULx86_64_set_fpreg*() {.cdecl, importc: "_ULx86_64_set_fpreg",
+                             header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc ULx86_64_set_reg*() {.cdecl, importc: "_ULx86_64_set_reg",
+                           header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc ULx86_64_step*() {.cdecl, importc: "_ULx86_64_step",
+                        header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc Unlock_shared_ptr_spin_lock*() {.cdecl,
+                                      importc: "_Unlock_shared_ptr_spin_lock",
+                                      header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc Unlock_spin_lock*() {.cdecl, importc: "_Unlock_spin_lock",
+                           header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc Unlockfilelock*() {.cdecl, importc: "_Unlockfilelock",
                          header: "orbis/LibcInternal.h".}
@@ -1700,8 +1699,8 @@ proc Unwind_RaiseException*() {.cdecl, importc: "_Unwind_RaiseException",
 proc Unwind_Resume*() {.cdecl, importc: "_Unwind_Resume",
                         header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Unwind_ResumeorRethrow*() {.cdecl, importc: "_Unwind_Resume_or_Rethrow",
-                                 header: "orbis/LibcInternal.h".}
+proc Unwind_Resume_or_Rethrow*() {.cdecl, importc: "_Unwind_Resume_or_Rethrow",
+                                   header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc Unwind_SetGR*() {.cdecl, importc: "_Unwind_SetGR",
                        header: "orbis/LibcInternal.h".}
@@ -1709,29 +1708,29 @@ proc Unwind_SetGR*() {.cdecl, importc: "_Unwind_SetGR",
 proc Unwind_SetIP*() {.cdecl, importc: "_Unwind_SetIP",
                        header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Ux86_64flushcache*() {.cdecl, importc: "_Ux86_64_flush_cache",
-                            header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc Ux86_64getaccessors*() {.cdecl, importc: "_Ux86_64_get_accessors",
+proc Ux86_64_flush_cache*() {.cdecl, importc: "_Ux86_64_flush_cache",
                               header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Ux86_64getelfimage*() {.cdecl, importc: "_Ux86_64_get_elf_image",
+proc Ux86_64_get_accessors*() {.cdecl, importc: "_Ux86_64_get_accessors",
+                                header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc Ux86_64_get_elf_image*() {.cdecl, importc: "_Ux86_64_get_elf_image",
+                                header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc Ux86_64_getcontext*() {.cdecl, importc: "_Ux86_64_getcontext",
                              header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Ux86_64getcontext*() {.cdecl, importc: "_Ux86_64_getcontext",
-                            header: "orbis/LibcInternal.h".}
+proc Ux86_64_is_fpreg*() {.cdecl, importc: "_Ux86_64_is_fpreg",
+                           header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Ux86_64isfpreg*() {.cdecl, importc: "_Ux86_64_is_fpreg",
-                         header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc Ux86_64regname*() {.cdecl, importc: "_Ux86_64_regname",
-                         header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc Ux86_64setcontext*() {.cdecl, importc: "_Ux86_64_setcontext",
-                            header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc Ux86_64strerror*() {.cdecl, importc: "_Ux86_64_strerror",
+proc Ux86_64_regname*() {.cdecl, importc: "_Ux86_64_regname",
                           header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc Ux86_64_setcontext*() {.cdecl, importc: "_Ux86_64_setcontext",
+                             header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc Ux86_64_strerror*() {.cdecl, importc: "_Ux86_64_strerror",
+                           header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc Vacopy*() {.cdecl, importc: "_Vacopy", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -1835,14 +1834,14 @@ proc Xp_sqrtx*() {.cdecl, importc: "_Xp_sqrtx", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc Xp_subx*() {.cdecl, importc: "_Xp_subx", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Xtime_difftots*() {.cdecl, importc: "_Xtime_diff_to_ts",
-                         header: "orbis/LibcInternal.h".}
+proc Xtime_diff_to_ts*() {.cdecl, importc: "_Xtime_diff_to_ts",
+                           header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Xtime_getticks*() {.cdecl, importc: "_Xtime_get_ticks",
-                         header: "orbis/LibcInternal.h".}
+proc Xtime_get_ticks*() {.cdecl, importc: "_Xtime_get_ticks",
+                          header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc Xtime_tots*() {.cdecl, importc: "_Xtime_to_ts",
-                     header: "orbis/LibcInternal.h".}
+proc Xtime_to_ts*() {.cdecl, importc: "_Xtime_to_ts",
+                      header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZdaPv*() {.cdecl, importc: "_ZdaPv", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -1882,19 +1881,19 @@ proc ZGVNSt10moneypunctIwLb0EE2idE*() {.cdecl, importc: "_ZGVNSt10moneypunctIwLb
 proc ZGVNSt10moneypunctIwLb1EE2idE*() {.cdecl, importc: "_ZGVNSt10moneypunctIwLb1EE2idE",
                                         header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZGVNSt14_ErrorobjectsIiE14SystemobjectE*() {.cdecl,
+proc ZGVNSt14_Error_objectsIiE14_System_objectE*() {.cdecl,
     importc: "_ZGVNSt14_Error_objectsIiE14_System_objectE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZGVNSt14_ErrorobjectsIiE15GenericobjectE*() {.cdecl,
+proc ZGVNSt14_Error_objectsIiE15_Generic_objectE*() {.cdecl,
     importc: "_ZGVNSt14_Error_objectsIiE15_Generic_objectE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZGVNSt14_ErrorobjectsIiE16IostreamobjectE*() {.cdecl,
+proc ZGVNSt14_Error_objectsIiE16_Iostream_objectE*() {.cdecl,
     importc: "_ZGVNSt14_Error_objectsIiE16_Iostream_objectE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZGVNSt20_FutureerrorobjectIiE14FutureobjectE*() {.cdecl,
+proc ZGVNSt20_Future_error_objectIiE14_Future_objectE*() {.cdecl,
     importc: "_ZGVNSt20_Future_error_objectIiE14_Future_objectE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -1907,16 +1906,20 @@ proc ZGVNSt7collateIcE2idE*() {.cdecl, importc: "_ZGVNSt7collateIcE2idE",
 proc ZGVNSt7collateIwE2idE*() {.cdecl, importc: "_ZGVNSt7collateIwE2idE",
                                 header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZGVNSt7num_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE2idE*() {.cdecl, importc: "_ZGVNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE2idE",
+proc ZGVNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE2idE*() {.
+    cdecl, importc: "_ZGVNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE2idE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZGVNSt7num_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE2idE*() {.cdecl, importc: "_ZGVNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE2idE",
+proc ZGVNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE2idE*() {.
+    cdecl, importc: "_ZGVNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE2idE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZGVNSt7num_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE2idE*() {.cdecl, importc: "_ZGVNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE2idE",
+proc ZGVNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE2idE*() {.
+    cdecl, importc: "_ZGVNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE2idE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZGVNSt7num_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE2idE*() {.cdecl, importc: "_ZGVNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE2idE",
+proc ZGVNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE2idE*() {.
+    cdecl, importc: "_ZGVNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE2idE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZGVNSt8messagesIcE2idE*() {.cdecl, importc: "_ZGVNSt8messagesIcE2idE",
@@ -1931,163 +1934,163 @@ proc ZGVNSt8numpunctIcE2idE*() {.cdecl, importc: "_ZGVNSt8numpunctIcE2idE",
 proc ZGVNSt8numpunctIwE2idE*() {.cdecl, importc: "_ZGVNSt8numpunctIwE2idE",
                                  header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZGVNSt8time_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE2idE*() {.
+proc ZGVNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE2idE*() {.
     cdecl, importc: "_ZGVNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE2idE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZGVNSt8time_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE2idE*() {.
+proc ZGVNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE2idE*() {.
     cdecl, importc: "_ZGVNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE2idE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZGVNSt8time_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE2idE*() {.
+proc ZGVNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE2idE*() {.
     cdecl, importc: "_ZGVNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE2idE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZGVNSt9money_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE2idE*() {.
+proc ZGVNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE2idE*() {.
     cdecl, importc: "_ZGVNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE2idE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZGVNSt9money_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE2idE*() {.
+proc ZGVNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE2idE*() {.
     cdecl, importc: "_ZGVNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE2idE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZGVNSt9money_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE2idE*() {.
+proc ZGVNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE2idE*() {.
     cdecl, importc: "_ZGVNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE2idE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZGVNSt9money_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE2idE*() {.
+proc ZGVNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE2idE*() {.
     cdecl, importc: "_ZGVNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE2idE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZGVZNSt13basic_filebufIcSt11chartraitsIcEE5InitEP7sFILENS27InitflEE7Stinit*() {.
+proc ZGVZNSt13basic_filebufIcSt11char_traitsIcEE5_InitEP7_sFILENS2_7_InitflEE7_Stinit*() {.
     cdecl, importc: "_ZGVZNSt13basic_filebufIcSt11char_traitsIcEE5_InitEP7__sFILENS2_7_InitflEE7_Stinit",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZGVZNSt13basic_filebufIwSt11chartraitsIwEE5InitEP7sFILENS27InitflEE7Stinit*() {.
+proc ZGVZNSt13basic_filebufIwSt11char_traitsIwEE5_InitEP7_sFILENS2_7_InitflEE7_Stinit*() {.
     cdecl, importc: "_ZGVZNSt13basic_filebufIwSt11char_traitsIwEE5_InitEP7__sFILENS2_7_InitflEE7_Stinit",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZN10_cxxabiv116enumtypeinfoD0Ev*() {.cdecl,
+proc ZN10_cxxabiv116_enum_type_infoD0Ev*() {.cdecl,
     importc: "_ZN10__cxxabiv116__enum_type_infoD0Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZN10_cxxabiv116enumtypeinfoD1Ev*() {.cdecl,
+proc ZN10_cxxabiv116_enum_type_infoD1Ev*() {.cdecl,
     importc: "_ZN10__cxxabiv116__enum_type_infoD1Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZN10_cxxabiv116enumtypeinfoD2Ev*() {.cdecl,
+proc ZN10_cxxabiv116_enum_type_infoD2Ev*() {.cdecl,
     importc: "_ZN10__cxxabiv116__enum_type_infoD2Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZN10_cxxabiv117arraytypeinfoD0Ev*() {.cdecl,
+proc ZN10_cxxabiv117_array_type_infoD0Ev*() {.cdecl,
     importc: "_ZN10__cxxabiv117__array_type_infoD0Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZN10_cxxabiv117arraytypeinfoD1Ev*() {.cdecl,
+proc ZN10_cxxabiv117_array_type_infoD1Ev*() {.cdecl,
     importc: "_ZN10__cxxabiv117__array_type_infoD1Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZN10_cxxabiv117arraytypeinfoD2Ev*() {.cdecl,
+proc ZN10_cxxabiv117_array_type_infoD2Ev*() {.cdecl,
     importc: "_ZN10__cxxabiv117__array_type_infoD2Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZN10_cxxabiv117classtypeinfoD0Ev*() {.cdecl,
+proc ZN10_cxxabiv117_class_type_infoD0Ev*() {.cdecl,
     importc: "_ZN10__cxxabiv117__class_type_infoD0Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZN10_cxxabiv117classtypeinfoD1Ev*() {.cdecl,
+proc ZN10_cxxabiv117_class_type_infoD1Ev*() {.cdecl,
     importc: "_ZN10__cxxabiv117__class_type_infoD1Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZN10_cxxabiv117classtypeinfoD2Ev*() {.cdecl,
+proc ZN10_cxxabiv117_class_type_infoD2Ev*() {.cdecl,
     importc: "_ZN10__cxxabiv117__class_type_infoD2Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZN10_cxxabiv117pbasetypeinfoD0Ev*() {.cdecl,
+proc ZN10_cxxabiv117_pbase_type_infoD0Ev*() {.cdecl,
     importc: "_ZN10__cxxabiv117__pbase_type_infoD0Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZN10_cxxabiv117pbasetypeinfoD1Ev*() {.cdecl,
+proc ZN10_cxxabiv117_pbase_type_infoD1Ev*() {.cdecl,
     importc: "_ZN10__cxxabiv117__pbase_type_infoD1Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZN10_cxxabiv117pbasetypeinfoD2Ev*() {.cdecl,
+proc ZN10_cxxabiv117_pbase_type_infoD2Ev*() {.cdecl,
     importc: "_ZN10__cxxabiv117__pbase_type_infoD2Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZN10_cxxabiv119pointertypeinfoD0Ev*() {.cdecl,
+proc ZN10_cxxabiv119_pointer_type_infoD0Ev*() {.cdecl,
     importc: "_ZN10__cxxabiv119__pointer_type_infoD0Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZN10_cxxabiv119pointertypeinfoD1Ev*() {.cdecl,
+proc ZN10_cxxabiv119_pointer_type_infoD1Ev*() {.cdecl,
     importc: "_ZN10__cxxabiv119__pointer_type_infoD1Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZN10_cxxabiv119pointertypeinfoD2Ev*() {.cdecl,
+proc ZN10_cxxabiv119_pointer_type_infoD2Ev*() {.cdecl,
     importc: "_ZN10__cxxabiv119__pointer_type_infoD2Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZN10_cxxabiv120functiontypeinfoD0Ev*() {.cdecl,
+proc ZN10_cxxabiv120_function_type_infoD0Ev*() {.cdecl,
     importc: "_ZN10__cxxabiv120__function_type_infoD0Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZN10_cxxabiv120functiontypeinfoD1Ev*() {.cdecl,
+proc ZN10_cxxabiv120_function_type_infoD1Ev*() {.cdecl,
     importc: "_ZN10__cxxabiv120__function_type_infoD1Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZN10_cxxabiv120functiontypeinfoD2Ev*() {.cdecl,
+proc ZN10_cxxabiv120_function_type_infoD2Ev*() {.cdecl,
     importc: "_ZN10__cxxabiv120__function_type_infoD2Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZN10_cxxabiv120siclasstypeinfoD0Ev*() {.cdecl,
+proc ZN10_cxxabiv120_si_class_type_infoD0Ev*() {.cdecl,
     importc: "_ZN10__cxxabiv120__si_class_type_infoD0Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZN10_cxxabiv120siclasstypeinfoD1Ev*() {.cdecl,
+proc ZN10_cxxabiv120_si_class_type_infoD1Ev*() {.cdecl,
     importc: "_ZN10__cxxabiv120__si_class_type_infoD1Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZN10_cxxabiv120siclasstypeinfoD2Ev*() {.cdecl,
+proc ZN10_cxxabiv120_si_class_type_infoD2Ev*() {.cdecl,
     importc: "_ZN10__cxxabiv120__si_class_type_infoD2Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZN10_cxxabiv121vmiclasstypeinfoD0Ev*() {.cdecl,
+proc ZN10_cxxabiv121_vmi_class_type_infoD0Ev*() {.cdecl,
     importc: "_ZN10__cxxabiv121__vmi_class_type_infoD0Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZN10_cxxabiv121vmiclasstypeinfoD1Ev*() {.cdecl,
+proc ZN10_cxxabiv121_vmi_class_type_infoD1Ev*() {.cdecl,
     importc: "_ZN10__cxxabiv121__vmi_class_type_infoD1Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZN10_cxxabiv121vmiclasstypeinfoD2Ev*() {.cdecl,
+proc ZN10_cxxabiv121_vmi_class_type_infoD2Ev*() {.cdecl,
     importc: "_ZN10__cxxabiv121__vmi_class_type_infoD2Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZN10_cxxabiv123fundamentaltypeinfoD0Ev*() {.cdecl,
+proc ZN10_cxxabiv123_fundamental_type_infoD0Ev*() {.cdecl,
     importc: "_ZN10__cxxabiv123__fundamental_type_infoD0Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZN10_cxxabiv123fundamentaltypeinfoD1Ev*() {.cdecl,
+proc ZN10_cxxabiv123_fundamental_type_infoD1Ev*() {.cdecl,
     importc: "_ZN10__cxxabiv123__fundamental_type_infoD1Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZN10_cxxabiv123fundamentaltypeinfoD2Ev*() {.cdecl,
+proc ZN10_cxxabiv123_fundamental_type_infoD2Ev*() {.cdecl,
     importc: "_ZN10__cxxabiv123__fundamental_type_infoD2Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZN10_cxxabiv129pointertomembertypeinfoD0Ev*() {.cdecl,
+proc ZN10_cxxabiv129_pointer_to_member_type_infoD0Ev*() {.cdecl,
     importc: "_ZN10__cxxabiv129__pointer_to_member_type_infoD0Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZN10_cxxabiv129pointertomembertypeinfoD1Ev*() {.cdecl,
+proc ZN10_cxxabiv129_pointer_to_member_type_infoD1Ev*() {.cdecl,
     importc: "_ZN10__cxxabiv129__pointer_to_member_type_infoD1Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZN10_cxxabiv129pointertomembertypeinfoD2Ev*() {.cdecl,
+proc ZN10_cxxabiv129_pointer_to_member_type_infoD2Ev*() {.cdecl,
     importc: "_ZN10__cxxabiv129__pointer_to_member_type_infoD2Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZN6Dinkum7codecvt10_CvtcheckEmm*() {.cdecl,
+proc ZN6Dinkum7codecvt10_Cvt_checkEmm*() {.cdecl,
     importc: "_ZN6Dinkum7codecvt10_Cvt_checkEmm", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZN6Dinkum7threads10lock_errorD0Ev*() {.cdecl,
@@ -2098,19 +2101,19 @@ proc ZN6Dinkum7threads10lock_errorD1Ev*() {.cdecl,
     importc: "_ZN6Dinkum7threads10lock_errorD1Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZN6Dinkum7threads17_ThrowlockerrorEv*() {.cdecl,
+proc ZN6Dinkum7threads17_Throw_lock_errorEv*() {.cdecl,
     importc: "_ZN6Dinkum7threads17_Throw_lock_errorEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZN6Dinkum7threads21_ThrowresourceerrorEv*() {.cdecl,
+proc ZN6Dinkum7threads21_Throw_resource_errorEv*() {.cdecl,
     importc: "_ZN6Dinkum7threads21_Throw_resource_errorEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZN6Dinkum7threads21thread_resourceerrorD0Ev*() {.cdecl,
+proc ZN6Dinkum7threads21thread_resource_errorD0Ev*() {.cdecl,
     importc: "_ZN6Dinkum7threads21thread_resource_errorD0Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZN6Dinkum7threads21thread_resourceerrorD1Ev*() {.cdecl,
+proc ZN6Dinkum7threads21thread_resource_errorD1Ev*() {.cdecl,
     importc: "_ZN6Dinkum7threads21thread_resource_errorD1Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -2122,7 +2125,7 @@ proc ZN9pathscale14set_unexpectedEPFvvE*() {.cdecl,
     importc: "_ZN9pathscale14set_unexpectedEPFvvE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZN9pathscale29set_usethreadlocalhandlersEb*() {.cdecl,
+proc ZN9pathscale29set_use_thread_local_handlersEb*() {.cdecl,
     importc: "_ZN9pathscale29set_use_thread_local_handlersEb",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -2131,32 +2134,35 @@ proc Znam*() {.cdecl, importc: "_Znam", header: "orbis/LibcInternal.h".}
 proc ZnamRKSt9nothrow_t*() {.cdecl, importc: "_ZnamRKSt9nothrow_t",
                              header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNK10_cxxabiv117classtypeinfo11cancasttoEPKS0*() {.cdecl,
+proc ZNK10_cxxabiv117_class_type_info11can_cast_toEPKS0*() {.cdecl,
     importc: "_ZNK10__cxxabiv117__class_type_info11can_cast_toEPKS0_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNK10_cxxabiv117classtypeinfo7casttoEPvPKS0*() {.cdecl,
+proc ZNK10_cxxabiv117_class_type_info7cast_toEPvPKS0*() {.cdecl,
     importc: "_ZNK10__cxxabiv117__class_type_info7cast_toEPvPKS0_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNK10_cxxabiv120siclasstypeinfo11cancasttoEPKNS17classtypeinfoE*() {.cdecl, importc: "_ZNK10__cxxabiv120__si_class_type_info11can_cast_toEPKNS_17__class_type_infoE",
+proc ZNK10_cxxabiv120_si_class_type_info11can_cast_toEPKNS_17_class_type_infoE*() {.
+    cdecl, importc: "_ZNK10__cxxabiv120__si_class_type_info11can_cast_toEPKNS_17__class_type_infoE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNK10_cxxabiv120siclasstypeinfo7casttoEPvPKNS17classtypeinfoE*() {.cdecl, importc: "_ZNK10__cxxabiv120__si_class_type_info7cast_toEPvPKNS_17__class_type_infoE",
+proc ZNK10_cxxabiv120_si_class_type_info7cast_toEPvPKNS_17_class_type_infoE*() {.
+    cdecl, importc: "_ZNK10__cxxabiv120__si_class_type_info7cast_toEPvPKNS_17__class_type_infoE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNK10_cxxabiv121vmiclasstypeinfo11cancasttoEPKNS17classtypeinfoE*() {.
+proc ZNK10_cxxabiv121_vmi_class_type_info11can_cast_toEPKNS_17_class_type_infoE*() {.
     cdecl, importc: "_ZNK10__cxxabiv121__vmi_class_type_info11can_cast_toEPKNS_17__class_type_infoE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNK10_cxxabiv121vmiclasstypeinfo7casttoEPvPKNS17classtypeinfoE*() {.cdecl, importc: "_ZNK10__cxxabiv121__vmi_class_type_info7cast_toEPvPKNS_17__class_type_infoE",
+proc ZNK10_cxxabiv121_vmi_class_type_info7cast_toEPvPKNS_17_class_type_infoE*() {.
+    cdecl, importc: "_ZNK10__cxxabiv121__vmi_class_type_info7cast_toEPvPKNS_17__class_type_infoE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSbIwSt11char_traitsIwESaIwEE5XlenEv*() {.cdecl,
+proc ZNKSbIwSt11char_traitsIwESaIwEE5_XlenEv*() {.cdecl,
     importc: "_ZNKSbIwSt11char_traitsIwESaIwEE5_XlenEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSbIwSt11char_traitsIwESaIwEE5XranEv*() {.cdecl,
+proc ZNKSbIwSt11char_traitsIwESaIwEE5_XranEv*() {.cdecl,
     importc: "_ZNKSbIwSt11char_traitsIwESaIwEE5_XranEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -2169,26 +2175,25 @@ proc ZNKSs5_XranEv*() {.cdecl, importc: "_ZNKSs5_XranEv",
 proc ZNKSt10bad_typeid4whatEv*() {.cdecl, importc: "_ZNKSt10bad_typeid4whatEv",
                                    header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt10bad_typeid8DoraiseEv*() {.cdecl,
-                                      importc: "_ZNKSt10bad_typeid8_DoraiseEv",
-                                      header: "orbis/LibcInternal.h".}
+proc ZNKSt10bad_typeid8_DoraiseEv*() {.cdecl, importc: "_ZNKSt10bad_typeid8_DoraiseEv",
+                                       header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZNKSt11logic_error4whatEv*() {.cdecl,
                                     importc: "_ZNKSt11logic_error4whatEv",
                                     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt11logic_error8DoraiseEv*() {.cdecl, importc: "_ZNKSt11logic_error8_DoraiseEv",
-                                       header: "orbis/LibcInternal.h".}
+proc ZNKSt11logic_error8_DoraiseEv*() {.cdecl, importc: "_ZNKSt11logic_error8_DoraiseEv",
+                                        header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt12bad_weakptr4whatEv*() {.cdecl,
-                                    importc: "_ZNKSt12bad_weak_ptr4whatEv",
-                                    header: "orbis/LibcInternal.h".}
+proc ZNKSt12bad_weak_ptr4whatEv*() {.cdecl,
+                                     importc: "_ZNKSt12bad_weak_ptr4whatEv",
+                                     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt12codecvt_base11doencodingEv*() {.cdecl,
+proc ZNKSt12codecvt_base11do_encodingEv*() {.cdecl,
     importc: "_ZNKSt12codecvt_base11do_encodingEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt12codecvt_base13domaxlengthEv*() {.cdecl,
+proc ZNKSt12codecvt_base13do_max_lengthEv*() {.cdecl,
     importc: "_ZNKSt12codecvt_base13do_max_lengthEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -2196,75 +2201,75 @@ proc ZNKSt12future_error4whatEv*() {.cdecl,
                                      importc: "_ZNKSt12future_error4whatEv",
                                      header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt12future_error8DoraiseEv*() {.cdecl, importc: "_ZNKSt12future_error8_DoraiseEv",
-                                        header: "orbis/LibcInternal.h".}
+proc ZNKSt12future_error8_DoraiseEv*() {.cdecl,
+    importc: "_ZNKSt12future_error8_DoraiseEv", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt12system_error8DoraiseEv*() {.cdecl, importc: "_ZNKSt12system_error8_DoraiseEv",
-                                        header: "orbis/LibcInternal.h".}
+proc ZNKSt12system_error8_DoraiseEv*() {.cdecl,
+    importc: "_ZNKSt12system_error8_DoraiseEv", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt13bad_exception8DoraiseEv*() {.cdecl,
+proc ZNKSt13bad_exception8_DoraiseEv*() {.cdecl,
     importc: "_ZNKSt13bad_exception8_DoraiseEv", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZNKSt13runtime_error4whatEv*() {.cdecl,
                                       importc: "_ZNKSt13runtime_error4whatEv",
                                       header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt14error_category10equivalentEiRKSt15errorcondition*() {.cdecl,
+proc ZNKSt14error_category10equivalentEiRKSt15error_condition*() {.cdecl,
     importc: "_ZNKSt14error_category10equivalentEiRKSt15error_condition",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt14error_category10equivalentERKSt10errorcodei*() {.cdecl,
+proc ZNKSt14error_category10equivalentERKSt10error_codei*() {.cdecl,
     importc: "_ZNKSt14error_category10equivalentERKSt10error_codei",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt14error_category23defaulterrorconditionEi*() {.cdecl,
+proc ZNKSt14error_category23default_error_conditionEi*() {.cdecl,
     importc: "_ZNKSt14error_category23default_error_conditionEi",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt17bad_functioncall4whatEv*() {.cdecl,
+proc ZNKSt17bad_function_call4whatEv*() {.cdecl,
     importc: "_ZNKSt17bad_function_call4whatEv", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt19istreambuf_iteratorIcSt11chartraitsIcEE5equalERKS2*() {.cdecl,
+proc ZNKSt19istreambuf_iteratorIcSt11char_traitsIcEE5equalERKS2*() {.cdecl,
     importc: "_ZNKSt19istreambuf_iteratorIcSt11char_traitsIcEE5equalERKS2_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt19istreambuf_iteratorIwSt11chartraitsIwEE5equalERKS2*() {.cdecl,
+proc ZNKSt19istreambuf_iteratorIwSt11char_traitsIwEE5equalERKS2*() {.cdecl,
     importc: "_ZNKSt19istreambuf_iteratorIwSt11char_traitsIwEE5equalERKS2_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt22_Futureerrorcategory4nameEv*() {.cdecl,
+proc ZNKSt22_Future_error_category4nameEv*() {.cdecl,
     importc: "_ZNKSt22_Future_error_category4nameEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt22_Futureerrorcategory7messageEi*() {.cdecl,
+proc ZNKSt22_Future_error_category7messageEi*() {.cdecl,
     importc: "_ZNKSt22_Future_error_category7messageEi",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt22_Systemerrorcategory23defaulterrorconditionEi*() {.cdecl,
+proc ZNKSt22_System_error_category23default_error_conditionEi*() {.cdecl,
     importc: "_ZNKSt22_System_error_category23default_error_conditionEi",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt22_Systemerrorcategory4nameEv*() {.cdecl,
+proc ZNKSt22_System_error_category4nameEv*() {.cdecl,
     importc: "_ZNKSt22_System_error_category4nameEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt22_Systemerrorcategory7messageEi*() {.cdecl,
+proc ZNKSt22_System_error_category7messageEi*() {.cdecl,
     importc: "_ZNKSt22_System_error_category7messageEi",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt23_Genericerrorcategory4nameEv*() {.cdecl,
+proc ZNKSt23_Generic_error_category4nameEv*() {.cdecl,
     importc: "_ZNKSt23_Generic_error_category4nameEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt23_Genericerrorcategory7messageEi*() {.cdecl,
+proc ZNKSt23_Generic_error_category7messageEi*() {.cdecl,
     importc: "_ZNKSt23_Generic_error_category7messageEi",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt24_Iostreamerrorcategory4nameEv*() {.cdecl,
+proc ZNKSt24_Iostream_error_category4nameEv*() {.cdecl,
     importc: "_ZNKSt24_Iostream_error_category4nameEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt24_Iostreamerrorcategory7messageEi*() {.cdecl,
+proc ZNKSt24_Iostream_error_category7messageEi*() {.cdecl,
     importc: "_ZNKSt24_Iostream_error_category7messageEi",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -2284,18 +2289,18 @@ proc ZNKSt5ctypeIcE8do_widenEc*() {.cdecl,
                                     importc: "_ZNKSt5ctypeIcE8do_widenEc",
                                     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt5ctypeIcE8do_widenEPKcS2Pc*() {.cdecl,
+proc ZNKSt5ctypeIcE8do_widenEPKcS2_Pc*() {.cdecl,
     importc: "_ZNKSt5ctypeIcE8do_widenEPKcS2_Pc", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZNKSt5ctypeIcE9do_narrowEcc*() {.cdecl,
                                       importc: "_ZNKSt5ctypeIcE9do_narrowEcc",
                                       header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt5ctypeIcE9do_narrowEPKcS2cPc*() {.cdecl,
+proc ZNKSt5ctypeIcE9do_narrowEPKcS2_cPc*() {.cdecl,
     importc: "_ZNKSt5ctypeIcE9do_narrowEPKcS2_cPc",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt5ctypeIwE10do_scanisEsPKwS2*() {.cdecl,
+proc ZNKSt5ctypeIwE10do_scan_isEsPKwS2*() {.cdecl,
     importc: "_ZNKSt5ctypeIwE10do_scan_isEsPKwS2_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -2311,12 +2316,12 @@ proc ZNKSt5ctypeIwE10do_toupperEPwPKw*() {.cdecl,
 proc ZNKSt5ctypeIwE10do_toupperEw*() {.cdecl, importc: "_ZNKSt5ctypeIwE10do_toupperEw",
                                        header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt5ctypeIwE11do_scannotEsPKwS2*() {.cdecl,
+proc ZNKSt5ctypeIwE11do_scan_notEsPKwS2*() {.cdecl,
     importc: "_ZNKSt5ctypeIwE11do_scan_notEsPKwS2_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt5ctypeIwE5do_isEPKwS2Ps*() {.cdecl, importc: "_ZNKSt5ctypeIwE5do_isEPKwS2_Ps",
-                                       header: "orbis/LibcInternal.h".}
+proc ZNKSt5ctypeIwE5do_isEPKwS2_Ps*() {.cdecl, importc: "_ZNKSt5ctypeIwE5do_isEPKwS2_Ps",
+                                        header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZNKSt5ctypeIwE5do_isEsw*() {.cdecl, importc: "_ZNKSt5ctypeIwE5do_isEsw",
                                   header: "orbis/LibcInternal.h".}
@@ -2325,10 +2330,10 @@ proc ZNKSt5ctypeIwE8do_widenEc*() {.cdecl,
                                     importc: "_ZNKSt5ctypeIwE8do_widenEc",
                                     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt5ctypeIwE8do_widenEPKcS2Pw*() {.cdecl,
+proc ZNKSt5ctypeIwE8do_widenEPKcS2_Pw*() {.cdecl,
     importc: "_ZNKSt5ctypeIwE8do_widenEPKcS2_Pw", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt5ctypeIwE9do_narrowEPKwS2cPc*() {.cdecl,
+proc ZNKSt5ctypeIwE9do_narrowEPKwS2_cPc*() {.cdecl,
     importc: "_ZNKSt5ctypeIwE9do_narrowEPKwS2_cPc",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -2336,197 +2341,197 @@ proc ZNKSt5ctypeIwE9do_narrowEwc*() {.cdecl,
                                       importc: "_ZNKSt5ctypeIwE9do_narrowEwc",
                                       header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7_MpunctIcE11dogroupingEv*() {.cdecl,
+proc ZNKSt7_MpunctIcE11do_groupingEv*() {.cdecl,
     importc: "_ZNKSt7_MpunctIcE11do_groupingEv", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7_MpunctIcE13donegformatEv*() {.cdecl,
+proc ZNKSt7_MpunctIcE13do_neg_formatEv*() {.cdecl,
     importc: "_ZNKSt7_MpunctIcE13do_neg_formatEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7_MpunctIcE13doposformatEv*() {.cdecl,
+proc ZNKSt7_MpunctIcE13do_pos_formatEv*() {.cdecl,
     importc: "_ZNKSt7_MpunctIcE13do_pos_formatEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7_MpunctIcE14docurrsymbolEv*() {.cdecl,
+proc ZNKSt7_MpunctIcE14do_curr_symbolEv*() {.cdecl,
     importc: "_ZNKSt7_MpunctIcE14do_curr_symbolEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7_MpunctIcE14dofracdigitsEv*() {.cdecl,
+proc ZNKSt7_MpunctIcE14do_frac_digitsEv*() {.cdecl,
     importc: "_ZNKSt7_MpunctIcE14do_frac_digitsEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7_MpunctIcE16dodecimalpointEv*() {.cdecl,
+proc ZNKSt7_MpunctIcE16do_decimal_pointEv*() {.cdecl,
     importc: "_ZNKSt7_MpunctIcE16do_decimal_pointEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7_MpunctIcE16donegativesignEv*() {.cdecl,
+proc ZNKSt7_MpunctIcE16do_negative_signEv*() {.cdecl,
     importc: "_ZNKSt7_MpunctIcE16do_negative_signEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7_MpunctIcE16dopositivesignEv*() {.cdecl,
+proc ZNKSt7_MpunctIcE16do_positive_signEv*() {.cdecl,
     importc: "_ZNKSt7_MpunctIcE16do_positive_signEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7_MpunctIcE16dothousandssepEv*() {.cdecl,
+proc ZNKSt7_MpunctIcE16do_thousands_sepEv*() {.cdecl,
     importc: "_ZNKSt7_MpunctIcE16do_thousands_sepEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7_MpunctIwE11dogroupingEv*() {.cdecl,
+proc ZNKSt7_MpunctIwE11do_groupingEv*() {.cdecl,
     importc: "_ZNKSt7_MpunctIwE11do_groupingEv", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7_MpunctIwE13donegformatEv*() {.cdecl,
+proc ZNKSt7_MpunctIwE13do_neg_formatEv*() {.cdecl,
     importc: "_ZNKSt7_MpunctIwE13do_neg_formatEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7_MpunctIwE13doposformatEv*() {.cdecl,
+proc ZNKSt7_MpunctIwE13do_pos_formatEv*() {.cdecl,
     importc: "_ZNKSt7_MpunctIwE13do_pos_formatEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7_MpunctIwE14docurrsymbolEv*() {.cdecl,
+proc ZNKSt7_MpunctIwE14do_curr_symbolEv*() {.cdecl,
     importc: "_ZNKSt7_MpunctIwE14do_curr_symbolEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7_MpunctIwE14dofracdigitsEv*() {.cdecl,
+proc ZNKSt7_MpunctIwE14do_frac_digitsEv*() {.cdecl,
     importc: "_ZNKSt7_MpunctIwE14do_frac_digitsEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7_MpunctIwE16dodecimalpointEv*() {.cdecl,
+proc ZNKSt7_MpunctIwE16do_decimal_pointEv*() {.cdecl,
     importc: "_ZNKSt7_MpunctIwE16do_decimal_pointEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7_MpunctIwE16donegativesignEv*() {.cdecl,
+proc ZNKSt7_MpunctIwE16do_negative_signEv*() {.cdecl,
     importc: "_ZNKSt7_MpunctIwE16do_negative_signEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7_MpunctIwE16dopositivesignEv*() {.cdecl,
+proc ZNKSt7_MpunctIwE16do_positive_signEv*() {.cdecl,
     importc: "_ZNKSt7_MpunctIwE16do_positive_signEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7_MpunctIwE16dothousandssepEv*() {.cdecl,
+proc ZNKSt7_MpunctIwE16do_thousands_sepEv*() {.cdecl,
     importc: "_ZNKSt7_MpunctIwE16do_thousands_sepEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7codecvtIcc9_MbstatetE10dounshiftERS0PcS3RS3*() {.cdecl,
+proc ZNKSt7codecvtIcc9_MbstatetE10do_unshiftERS0_PcS3_RS3*() {.cdecl,
     importc: "_ZNKSt7codecvtIcc9_MbstatetE10do_unshiftERS0_PcS3_RS3_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7codecvtIcc9_MbstatetE16doalwaysnoconvEv*() {.cdecl,
+proc ZNKSt7codecvtIcc9_MbstatetE16do_always_noconvEv*() {.cdecl,
     importc: "_ZNKSt7codecvtIcc9_MbstatetE16do_always_noconvEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7codecvtIcc9_MbstatetE2inERS0PKcS4RS4PcS6RS6*() {.cdecl,
+proc ZNKSt7codecvtIcc9_MbstatetE2inERS0_PKcS4_RS4_PcS6_RS6*() {.cdecl,
     importc: "_ZNKSt7codecvtIcc9_MbstatetE2inERS0_PKcS4_RS4_PcS6_RS6_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7codecvtIcc9_MbstatetE3outERS0PKcS4RS4PcS6RS6*() {.cdecl,
+proc ZNKSt7codecvtIcc9_MbstatetE3outERS0_PKcS4_RS4_PcS6_RS6*() {.cdecl,
     importc: "_ZNKSt7codecvtIcc9_MbstatetE3outERS0_PKcS4_RS4_PcS6_RS6_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7codecvtIcc9_MbstatetE5doinERS0PKcS4RS4PcS6RS6*() {.cdecl,
+proc ZNKSt7codecvtIcc9_MbstatetE5do_inERS0_PKcS4_RS4_PcS6_RS6*() {.cdecl,
     importc: "_ZNKSt7codecvtIcc9_MbstatetE5do_inERS0_PKcS4_RS4_PcS6_RS6_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7codecvtIcc9_MbstatetE6dooutERS0PKcS4RS4PcS6RS6*() {.cdecl,
+proc ZNKSt7codecvtIcc9_MbstatetE6do_outERS0_PKcS4_RS4_PcS6_RS6*() {.cdecl,
     importc: "_ZNKSt7codecvtIcc9_MbstatetE6do_outERS0_PKcS4_RS4_PcS6_RS6_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7codecvtIcc9_MbstatetE6lengthERS0PKcS4m*() {.cdecl,
+proc ZNKSt7codecvtIcc9_MbstatetE6lengthERS0_PKcS4_m*() {.cdecl,
     importc: "_ZNKSt7codecvtIcc9_MbstatetE6lengthERS0_PKcS4_m",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7codecvtIcc9_MbstatetE7unshiftERS0PcS3RS3*() {.cdecl,
+proc ZNKSt7codecvtIcc9_MbstatetE7unshiftERS0_PcS3_RS3*() {.cdecl,
     importc: "_ZNKSt7codecvtIcc9_MbstatetE7unshiftERS0_PcS3_RS3_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7codecvtIcc9_MbstatetE9dolengthERS0PKcS4m*() {.cdecl,
+proc ZNKSt7codecvtIcc9_MbstatetE9do_lengthERS0_PKcS4_m*() {.cdecl,
     importc: "_ZNKSt7codecvtIcc9_MbstatetE9do_lengthERS0_PKcS4_m",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7codecvtIDic9_MbstatetE10dounshiftERS0PcS3RS3*() {.cdecl,
+proc ZNKSt7codecvtIDic9_MbstatetE10do_unshiftERS0_PcS3_RS3*() {.cdecl,
     importc: "_ZNKSt7codecvtIDic9_MbstatetE10do_unshiftERS0_PcS3_RS3_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7codecvtIDic9_MbstatetE11doencodingEv*() {.cdecl,
+proc ZNKSt7codecvtIDic9_MbstatetE11do_encodingEv*() {.cdecl,
     importc: "_ZNKSt7codecvtIDic9_MbstatetE11do_encodingEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7codecvtIDic9_MbstatetE13domaxlengthEv*() {.cdecl,
+proc ZNKSt7codecvtIDic9_MbstatetE13do_max_lengthEv*() {.cdecl,
     importc: "_ZNKSt7codecvtIDic9_MbstatetE13do_max_lengthEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7codecvtIDic9_MbstatetE16doalwaysnoconvEv*() {.cdecl,
+proc ZNKSt7codecvtIDic9_MbstatetE16do_always_noconvEv*() {.cdecl,
     importc: "_ZNKSt7codecvtIDic9_MbstatetE16do_always_noconvEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7codecvtIDic9_MbstatetE5doinERS0PKcS4RS4PDiS6RS6*() {.cdecl,
+proc ZNKSt7codecvtIDic9_MbstatetE5do_inERS0_PKcS4_RS4_PDiS6_RS6*() {.cdecl,
     importc: "_ZNKSt7codecvtIDic9_MbstatetE5do_inERS0_PKcS4_RS4_PDiS6_RS6_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7codecvtIDic9_MbstatetE6dooutERS0PKDiS4RS4PcS6RS6*() {.cdecl,
+proc ZNKSt7codecvtIDic9_MbstatetE6do_outERS0_PKDiS4_RS4_PcS6_RS6*() {.cdecl,
     importc: "_ZNKSt7codecvtIDic9_MbstatetE6do_outERS0_PKDiS4_RS4_PcS6_RS6_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7codecvtIDic9_MbstatetE9dolengthERS0PKcS4m*() {.cdecl,
+proc ZNKSt7codecvtIDic9_MbstatetE9do_lengthERS0_PKcS4_m*() {.cdecl,
     importc: "_ZNKSt7codecvtIDic9_MbstatetE9do_lengthERS0_PKcS4_m",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7codecvtIDsc9_MbstatetE10dounshiftERS0PcS3RS3*() {.cdecl,
+proc ZNKSt7codecvtIDsc9_MbstatetE10do_unshiftERS0_PcS3_RS3*() {.cdecl,
     importc: "_ZNKSt7codecvtIDsc9_MbstatetE10do_unshiftERS0_PcS3_RS3_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7codecvtIDsc9_MbstatetE11doencodingEv*() {.cdecl,
+proc ZNKSt7codecvtIDsc9_MbstatetE11do_encodingEv*() {.cdecl,
     importc: "_ZNKSt7codecvtIDsc9_MbstatetE11do_encodingEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7codecvtIDsc9_MbstatetE13domaxlengthEv*() {.cdecl,
+proc ZNKSt7codecvtIDsc9_MbstatetE13do_max_lengthEv*() {.cdecl,
     importc: "_ZNKSt7codecvtIDsc9_MbstatetE13do_max_lengthEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7codecvtIDsc9_MbstatetE16doalwaysnoconvEv*() {.cdecl,
+proc ZNKSt7codecvtIDsc9_MbstatetE16do_always_noconvEv*() {.cdecl,
     importc: "_ZNKSt7codecvtIDsc9_MbstatetE16do_always_noconvEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7codecvtIDsc9_MbstatetE5doinERS0PKcS4RS4PDsS6RS6*() {.cdecl,
+proc ZNKSt7codecvtIDsc9_MbstatetE5do_inERS0_PKcS4_RS4_PDsS6_RS6*() {.cdecl,
     importc: "_ZNKSt7codecvtIDsc9_MbstatetE5do_inERS0_PKcS4_RS4_PDsS6_RS6_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7codecvtIDsc9_MbstatetE6dooutERS0PKDsS4RS4PcS6RS6*() {.cdecl,
+proc ZNKSt7codecvtIDsc9_MbstatetE6do_outERS0_PKDsS4_RS4_PcS6_RS6*() {.cdecl,
     importc: "_ZNKSt7codecvtIDsc9_MbstatetE6do_outERS0_PKDsS4_RS4_PcS6_RS6_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7codecvtIDsc9_MbstatetE9dolengthERS0PKcS4m*() {.cdecl,
+proc ZNKSt7codecvtIDsc9_MbstatetE9do_lengthERS0_PKcS4_m*() {.cdecl,
     importc: "_ZNKSt7codecvtIDsc9_MbstatetE9do_lengthERS0_PKcS4_m",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7codecvtIwc9_MbstatetE10dounshiftERS0PcS3RS3*() {.cdecl,
+proc ZNKSt7codecvtIwc9_MbstatetE10do_unshiftERS0_PcS3_RS3*() {.cdecl,
     importc: "_ZNKSt7codecvtIwc9_MbstatetE10do_unshiftERS0_PcS3_RS3_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7codecvtIwc9_MbstatetE11doencodingEv*() {.cdecl,
+proc ZNKSt7codecvtIwc9_MbstatetE11do_encodingEv*() {.cdecl,
     importc: "_ZNKSt7codecvtIwc9_MbstatetE11do_encodingEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7codecvtIwc9_MbstatetE13domaxlengthEv*() {.cdecl,
+proc ZNKSt7codecvtIwc9_MbstatetE13do_max_lengthEv*() {.cdecl,
     importc: "_ZNKSt7codecvtIwc9_MbstatetE13do_max_lengthEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7codecvtIwc9_MbstatetE16doalwaysnoconvEv*() {.cdecl,
+proc ZNKSt7codecvtIwc9_MbstatetE16do_always_noconvEv*() {.cdecl,
     importc: "_ZNKSt7codecvtIwc9_MbstatetE16do_always_noconvEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7codecvtIwc9_MbstatetE5doinERS0PKcS4RS4PwS6RS6*() {.cdecl,
+proc ZNKSt7codecvtIwc9_MbstatetE5do_inERS0_PKcS4_RS4_PwS6_RS6*() {.cdecl,
     importc: "_ZNKSt7codecvtIwc9_MbstatetE5do_inERS0_PKcS4_RS4_PwS6_RS6_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7codecvtIwc9_MbstatetE6dooutERS0PKwS4RS4PcS6RS6*() {.cdecl,
+proc ZNKSt7codecvtIwc9_MbstatetE6do_outERS0_PKwS4_RS4_PcS6_RS6*() {.cdecl,
     importc: "_ZNKSt7codecvtIwc9_MbstatetE6do_outERS0_PKwS4_RS4_PcS6_RS6_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7codecvtIwc9_MbstatetE9dolengthERS0PKcS4m*() {.cdecl,
+proc ZNKSt7codecvtIwc9_MbstatetE9do_lengthERS0_PKcS4_m*() {.cdecl,
     importc: "_ZNKSt7codecvtIwc9_MbstatetE9do_lengthERS0_PKcS4_m",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7collateIcE10do_compareEPKcS2S2S2*() {.cdecl,
+proc ZNKSt7collateIcE10do_compareEPKcS2_S2_S2*() {.cdecl,
     importc: "_ZNKSt7collateIcE10do_compareEPKcS2_S2_S2_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -2538,7 +2543,7 @@ proc ZNKSt7collateIcE4hashEPKcS2*() {.cdecl,
                                       importc: "_ZNKSt7collateIcE4hashEPKcS2_",
                                       header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7collateIcE7compareEPKcS2_S2S2*() {.cdecl,
+proc ZNKSt7collateIcE7compareEPKcS2_S2_S2*() {.cdecl,
     importc: "_ZNKSt7collateIcE7compareEPKcS2_S2_S2_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -2549,7 +2554,7 @@ proc ZNKSt7collateIcE9transformEPKcS2*() {.cdecl,
     importc: "_ZNKSt7collateIcE9transformEPKcS2_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7collateIwE10do_compareEPKwS2S2S2*() {.cdecl,
+proc ZNKSt7collateIwE10do_compareEPKwS2_S2_S2*() {.cdecl,
     importc: "_ZNKSt7collateIwE10do_compareEPKwS2_S2_S2_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -2561,7 +2566,7 @@ proc ZNKSt7collateIwE4hashEPKwS2*() {.cdecl,
                                       importc: "_ZNKSt7collateIwE4hashEPKwS2_",
                                       header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7collateIwE7compareEPKwS2_S2S2*() {.cdecl,
+proc ZNKSt7collateIwE7compareEPKwS2_S2_S2*() {.cdecl,
     importc: "_ZNKSt7collateIwE7compareEPKwS2_S2_S2_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -2572,357 +2577,358 @@ proc ZNKSt7collateIwE9transformEPKwS2*() {.cdecl,
     importc: "_ZNKSt7collateIwE9transformEPKwS2_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE3getES3S3RSt8iosbaseRNSt5IosbIiE8IostateERb*() {.
+proc ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERb*() {.
     cdecl, importc: "_ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERb",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE3getES3S3RSt8iosbaseRNSt5IosbIiE8IostateERd*() {.
+proc ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERd*() {.
     cdecl, importc: "_ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERd",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE3getES3S3RSt8iosbaseRNSt5IosbIiE8IostateERe*() {.
+proc ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERe*() {.
     cdecl, importc: "_ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERe",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE3getES3S3RSt8iosbaseRNSt5IosbIiE8IostateERf*() {.
+proc ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERf*() {.
     cdecl, importc: "_ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERf",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE3getES3S3RSt8iosbaseRNSt5IosbIiE8IostateERj*() {.
+proc ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERj*() {.
     cdecl, importc: "_ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERj",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE3getES3S3RSt8iosbaseRNSt5IosbIiE8IostateERl*() {.
+proc ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERl*() {.
     cdecl, importc: "_ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERl",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE3getES3S3RSt8iosbaseRNSt5IosbIiE8IostateERm*() {.
+proc ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERm*() {.
     cdecl, importc: "_ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERm",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE3getES3S3RSt8iosbaseRNSt5IosbIiE8IostateERPv*() {.
+proc ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERPv*() {.
     cdecl, importc: "_ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERPv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE3getES3S3RSt8iosbaseRNSt5IosbIiE8IostateERt*() {.
+proc ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERt*() {.
     cdecl, importc: "_ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERt",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE3getES3S3RSt8iosbaseRNSt5IosbIiE8IostateERx*() {.
+proc ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERx*() {.
     cdecl, importc: "_ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERx",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE3getES3S3RSt8iosbaseRNSt5IosbIiE8IostateERy*() {.
+proc ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERy*() {.
     cdecl, importc: "_ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERy",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE6dogetES3S3RSt8iosbaseRNSt5IosbIiE8IostateERb*() {.
+proc ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERb*() {.
     cdecl, importc: "_ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERb",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE6dogetES3S3RSt8iosbaseRNSt5IosbIiE8IostateERd*() {.
+proc ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERd*() {.
     cdecl, importc: "_ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERd",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE6dogetES3S3RSt8iosbaseRNSt5IosbIiE8IostateERe*() {.
+proc ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERe*() {.
     cdecl, importc: "_ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERe",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE6dogetES3S3RSt8iosbaseRNSt5IosbIiE8IostateERf*() {.
+proc ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERf*() {.
     cdecl, importc: "_ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERf",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE6dogetES3S3RSt8iosbaseRNSt5IosbIiE8IostateERj*() {.
+proc ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERj*() {.
     cdecl, importc: "_ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERj",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE6dogetES3S3RSt8iosbaseRNSt5IosbIiE8IostateERl*() {.
+proc ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERl*() {.
     cdecl, importc: "_ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERl",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE6dogetES3S3RSt8iosbaseRNSt5IosbIiE8IostateERm*() {.
+proc ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERm*() {.
     cdecl, importc: "_ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERm",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE6dogetES3S3RSt8iosbaseRNSt5IosbIiE8IostateERPv*() {.
+proc ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERPv*() {.
     cdecl, importc: "_ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERPv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE6dogetES3S3RSt8iosbaseRNSt5IosbIiE8IostateERt*() {.
+proc ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERt*() {.
     cdecl, importc: "_ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERt",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE6dogetES3S3RSt8iosbaseRNSt5IosbIiE8IostateERx*() {.
+proc ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERx*() {.
     cdecl, importc: "_ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERx",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE6dogetES3S3RSt8iosbaseRNSt5IosbIiE8IostateERy*() {.
+proc ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERy*() {.
     cdecl, importc: "_ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERy",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE8GetffldEPcRS3S6RSt8iosbasePi*() {.
+proc ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE8_GetffldEPcRS3_S6_RSt8ios_basePi*() {.
     cdecl, importc: "_ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE8_GetffldEPcRS3_S6_RSt8ios_basePi",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE8GetifldEPcRS3S6NSt5IosbIiE9FmtflagsERKSt6locale*() {.
+proc ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE8_GetifldEPcRS3_S6_NSt5_IosbIiE9_FmtflagsERKSt6locale*() {.
     cdecl, importc: "_ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE8_GetifldEPcRS3_S6_NSt5_IosbIiE9_FmtflagsERKSt6locale",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE9GetffldxEPcRS3S6RSt8iosbasePi*() {.
+proc ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE9_GetffldxEPcRS3_S6_RSt8ios_basePi*() {.
     cdecl, importc: "_ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE9_GetffldxEPcRS3_S6_RSt8ios_basePi",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE3getES3S3RSt8iosbaseRNSt5IosbIiE8IostateERb*() {.
+proc ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERb*() {.
     cdecl, importc: "_ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERb",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE3getES3S3RSt8iosbaseRNSt5IosbIiE8IostateERd*() {.
+proc ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERd*() {.
     cdecl, importc: "_ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERd",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE3getES3S3RSt8iosbaseRNSt5IosbIiE8IostateERe*() {.
+proc ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERe*() {.
     cdecl, importc: "_ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERe",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE3getES3S3RSt8iosbaseRNSt5IosbIiE8IostateERf*() {.
+proc ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERf*() {.
     cdecl, importc: "_ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERf",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE3getES3S3RSt8iosbaseRNSt5IosbIiE8IostateERj*() {.
+proc ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERj*() {.
     cdecl, importc: "_ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERj",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE3getES3S3RSt8iosbaseRNSt5IosbIiE8IostateERl*() {.
+proc ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERl*() {.
     cdecl, importc: "_ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERl",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE3getES3S3RSt8iosbaseRNSt5IosbIiE8IostateERm*() {.
+proc ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERm*() {.
     cdecl, importc: "_ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERm",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE3getES3S3RSt8iosbaseRNSt5IosbIiE8IostateERPv*() {.
+proc ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERPv*() {.
     cdecl, importc: "_ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERPv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE3getES3S3RSt8iosbaseRNSt5IosbIiE8IostateERt*() {.
+proc ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERt*() {.
     cdecl, importc: "_ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERt",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE3getES3S3RSt8iosbaseRNSt5IosbIiE8IostateERx*() {.
+proc ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERx*() {.
     cdecl, importc: "_ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERx",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE3getES3S3RSt8iosbaseRNSt5IosbIiE8IostateERy*() {.
+proc ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERy*() {.
     cdecl, importc: "_ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERy",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE6dogetES3S3RSt8iosbaseRNSt5IosbIiE8IostateERb*() {.
+proc ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERb*() {.
     cdecl, importc: "_ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERb",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE6dogetES3S3RSt8iosbaseRNSt5IosbIiE8IostateERd*() {.
+proc ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERd*() {.
     cdecl, importc: "_ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERd",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE6dogetES3S3RSt8iosbaseRNSt5IosbIiE8IostateERe*() {.
+proc ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERe*() {.
     cdecl, importc: "_ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERe",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE6dogetES3S3RSt8iosbaseRNSt5IosbIiE8IostateERf*() {.
+proc ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERf*() {.
     cdecl, importc: "_ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERf",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE6dogetES3S3RSt8iosbaseRNSt5IosbIiE8IostateERj*() {.
+proc ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERj*() {.
     cdecl, importc: "_ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERj",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE6dogetES3S3RSt8iosbaseRNSt5IosbIiE8IostateERl*() {.
+proc ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERl*() {.
     cdecl, importc: "_ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERl",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE6dogetES3S3RSt8iosbaseRNSt5IosbIiE8IostateERm*() {.
+proc ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERm*() {.
     cdecl, importc: "_ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERm",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE6dogetES3S3RSt8iosbaseRNSt5IosbIiE8IostateERPv*() {.
+proc ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERPv*() {.
     cdecl, importc: "_ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERPv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE6dogetES3S3RSt8iosbaseRNSt5IosbIiE8IostateERt*() {.
+proc ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERt*() {.
     cdecl, importc: "_ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERt",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE6dogetES3S3RSt8iosbaseRNSt5IosbIiE8IostateERx*() {.
+proc ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERx*() {.
     cdecl, importc: "_ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERx",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE6dogetES3S3RSt8iosbaseRNSt5IosbIiE8IostateERy*() {.
+proc ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERy*() {.
     cdecl, importc: "_ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERy",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE8GetffldEPcRS3S6RSt8iosbasePi*() {.
+proc ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE8_GetffldEPcRS3_S6_RSt8ios_basePi*() {.
     cdecl, importc: "_ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE8_GetffldEPcRS3_S6_RSt8ios_basePi",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE8GetifldEPcRS3S6NSt5IosbIiE9FmtflagsERKSt6locale*() {.
+proc ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE8_GetifldEPcRS3_S6_NSt5_IosbIiE9_FmtflagsERKSt6locale*() {.
     cdecl, importc: "_ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE8_GetifldEPcRS3_S6_NSt5_IosbIiE9_FmtflagsERKSt6locale",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE9GetffldxEPcRS3S6RSt8iosbasePi*() {.
+proc ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE9_GetffldxEPcRS3_S6_RSt8ios_basePi*() {.
     cdecl, importc: "_ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE9_GetffldxEPcRS3_S6_RSt8ios_basePi",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE3putES3RSt8iosbasecb*() {.
+proc ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE3putES3_RSt8ios_basecb*() {.
     cdecl, importc: "_ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE3putES3_RSt8ios_basecb",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE3putES3RSt8iosbasecd*() {.
+proc ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE3putES3_RSt8ios_basecd*() {.
     cdecl, importc: "_ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE3putES3_RSt8ios_basecd",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE3putES3RSt8iosbasece*() {.
+proc ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE3putES3_RSt8ios_basece*() {.
     cdecl, importc: "_ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE3putES3_RSt8ios_basece",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE3putES3RSt8iosbasecl*() {.
+proc ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE3putES3_RSt8ios_basecl*() {.
     cdecl, importc: "_ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE3putES3_RSt8ios_basecl",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE3putES3RSt8iosbasecm*() {.
+proc ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE3putES3_RSt8ios_basecm*() {.
     cdecl, importc: "_ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE3putES3_RSt8ios_basecm",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE3putES3RSt8iosbasecPKv*() {.
+proc ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE3putES3_RSt8ios_basecPKv*() {.
     cdecl, importc: "_ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE3putES3_RSt8ios_basecPKv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE3putES3RSt8iosbasecx*() {.
+proc ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE3putES3_RSt8ios_basecx*() {.
     cdecl, importc: "_ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE3putES3_RSt8ios_basecx",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE3putES3RSt8iosbasecy*() {.
+proc ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE3putES3_RSt8ios_basecy*() {.
     cdecl, importc: "_ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE3putES3_RSt8ios_basecy",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE5FputES3RSt8iosbasecPKcmmmm*() {.
+proc ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE5_FputES3_RSt8ios_basecPKcmmmm*() {.
     cdecl, importc: "_ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE5_FputES3_RSt8ios_basecPKcmmmm",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE5IputES3RSt8iosbasecPcm*() {.
+proc ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE5_IputES3_RSt8ios_basecPcm*() {.
     cdecl, importc: "_ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE5_IputES3_RSt8ios_basecPcm",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE6doputES3RSt8iosbasecb*() {.
+proc ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE6do_putES3_RSt8ios_basecb*() {.
     cdecl, importc: "_ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE6do_putES3_RSt8ios_basecb",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE6doputES3RSt8iosbasecd*() {.
+proc ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE6do_putES3_RSt8ios_basecd*() {.
     cdecl, importc: "_ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE6do_putES3_RSt8ios_basecd",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE6doputES3RSt8iosbasece*() {.
+proc ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE6do_putES3_RSt8ios_basece*() {.
     cdecl, importc: "_ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE6do_putES3_RSt8ios_basece",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE6doputES3RSt8iosbasecl*() {.
+proc ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE6do_putES3_RSt8ios_basecl*() {.
     cdecl, importc: "_ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE6do_putES3_RSt8ios_basecl",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE6doputES3RSt8iosbasecm*() {.
+proc ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE6do_putES3_RSt8ios_basecm*() {.
     cdecl, importc: "_ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE6do_putES3_RSt8ios_basecm",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE6doputES3RSt8iosbasecPKv*() {.
+proc ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE6do_putES3_RSt8ios_basecPKv*() {.
     cdecl, importc: "_ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE6do_putES3_RSt8ios_basecPKv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE6doputES3RSt8iosbasecx*() {.
+proc ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE6do_putES3_RSt8ios_basecx*() {.
     cdecl, importc: "_ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE6do_putES3_RSt8ios_basecx",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE6doputES3RSt8iosbasecy*() {.
+proc ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE6do_putES3_RSt8ios_basecy*() {.
     cdecl, importc: "_ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE6do_putES3_RSt8ios_basecy",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE3putES3RSt8iosbasewb*() {.
+proc ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES3_RSt8ios_basewb*() {.
     cdecl, importc: "_ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES3_RSt8ios_basewb",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE3putES3RSt8iosbasewd*() {.
+proc ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES3_RSt8ios_basewd*() {.
     cdecl, importc: "_ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES3_RSt8ios_basewd",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE3putES3RSt8iosbasewe*() {.
+proc ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES3_RSt8ios_basewe*() {.
     cdecl, importc: "_ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES3_RSt8ios_basewe",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE3putES3RSt8iosbasewl*() {.
+proc ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES3_RSt8ios_basewl*() {.
     cdecl, importc: "_ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES3_RSt8ios_basewl",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE3putES3RSt8iosbasewm*() {.
+proc ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES3_RSt8ios_basewm*() {.
     cdecl, importc: "_ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES3_RSt8ios_basewm",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE3putES3RSt8iosbasewPKv*() {.
+proc ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES3_RSt8ios_basewPKv*() {.
     cdecl, importc: "_ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES3_RSt8ios_basewPKv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE3putES3RSt8iosbasewx*() {.
+proc ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES3_RSt8ios_basewx*() {.
     cdecl, importc: "_ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES3_RSt8ios_basewx",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE3putES3RSt8iosbasewy*() {.
+proc ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES3_RSt8ios_basewy*() {.
     cdecl, importc: "_ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES3_RSt8ios_basewy",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE5FputES3RSt8iosbasewPKcmmmm*() {.
+proc ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE5_FputES3_RSt8ios_basewPKcmmmm*() {.
     cdecl, importc: "_ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE5_FputES3_RSt8ios_basewPKcmmmm",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE5IputES3RSt8iosbasewPcm*() {.
+proc ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE5_IputES3_RSt8ios_basewPcm*() {.
     cdecl, importc: "_ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE5_IputES3_RSt8ios_basewPcm",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE6doputES3RSt8iosbasewb*() {.
+proc ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE6do_putES3_RSt8ios_basewb*() {.
     cdecl, importc: "_ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE6do_putES3_RSt8ios_basewb",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE6doputES3RSt8iosbasewd*() {.
+proc ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE6do_putES3_RSt8ios_basewd*() {.
     cdecl, importc: "_ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE6do_putES3_RSt8ios_basewd",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE6doputES3RSt8iosbasewe*() {.
+proc ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE6do_putES3_RSt8ios_basewe*() {.
     cdecl, importc: "_ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE6do_putES3_RSt8ios_basewe",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE6doputES3RSt8iosbasewl*() {.
+proc ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE6do_putES3_RSt8ios_basewl*() {.
     cdecl, importc: "_ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE6do_putES3_RSt8ios_basewl",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE6doputES3RSt8iosbasewm*() {.
+proc ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE6do_putES3_RSt8ios_basewm*() {.
     cdecl, importc: "_ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE6do_putES3_RSt8ios_basewm",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE6doputES3RSt8iosbasewPKv*() {.
+proc ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE6do_putES3_RSt8ios_basewPKv*() {.
     cdecl, importc: "_ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE6do_putES3_RSt8ios_basewPKv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE6doputES3RSt8iosbasewx*() {.
+proc ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE6do_putES3_RSt8ios_basewx*() {.
     cdecl, importc: "_ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE6do_putES3_RSt8ios_basewx",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt7num_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE6doputES3RSt8iosbasewy*() {.
+proc ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE6do_putES3_RSt8ios_basewy*() {.
     cdecl, importc: "_ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE6do_putES3_RSt8ios_basewy",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZNKSt8bad_cast4whatEv*() {.cdecl, importc: "_ZNKSt8bad_cast4whatEv",
                                 header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8bad_cast8DoraiseEv*() {.cdecl, importc: "_ZNKSt8bad_cast8_DoraiseEv",
-                                   header: "orbis/LibcInternal.h".}
+proc ZNKSt8bad_cast8_DoraiseEv*() {.cdecl,
+                                    importc: "_ZNKSt8bad_cast8_DoraiseEv",
+                                    header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8ios_base7failure8DoraiseEv*() {.cdecl,
+proc ZNKSt8ios_base7failure8_DoraiseEv*() {.cdecl,
     importc: "_ZNKSt8ios_base7failure8_DoraiseEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -2959,7 +2965,7 @@ proc ZNKSt8messagesIwE5closeEi*() {.cdecl,
                                     importc: "_ZNKSt8messagesIwE5closeEi",
                                     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8messagesIwE6do_getEiiiRKSbIwSt11chartraitsIwESaIwEE*() {.cdecl,
+proc ZNKSt8messagesIwE6do_getEiiiRKSbIwSt11char_traitsIwESaIwEE*() {.cdecl,
     importc: "_ZNKSt8messagesIwE6do_getEiiiRKSbIwSt11char_traitsIwESaIwEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -2988,11 +2994,11 @@ proc ZNKSt8numpunctIcE13thousands_sepEv*() {.cdecl,
     importc: "_ZNKSt8numpunctIcE13thousands_sepEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8numpunctIcE16do_decimalpointEv*() {.cdecl,
+proc ZNKSt8numpunctIcE16do_decimal_pointEv*() {.cdecl,
     importc: "_ZNKSt8numpunctIcE16do_decimal_pointEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8numpunctIcE16do_thousandssepEv*() {.cdecl,
+proc ZNKSt8numpunctIcE16do_thousands_sepEv*() {.cdecl,
     importc: "_ZNKSt8numpunctIcE16do_thousands_sepEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -3023,11 +3029,11 @@ proc ZNKSt8numpunctIwE13thousands_sepEv*() {.cdecl,
     importc: "_ZNKSt8numpunctIwE13thousands_sepEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8numpunctIwE16do_decimalpointEv*() {.cdecl,
+proc ZNKSt8numpunctIwE16do_decimal_pointEv*() {.cdecl,
     importc: "_ZNKSt8numpunctIwE16do_decimal_pointEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8numpunctIwE16do_thousandssepEv*() {.cdecl,
+proc ZNKSt8numpunctIwE16do_thousands_sepEv*() {.cdecl,
     importc: "_ZNKSt8numpunctIwE16do_thousands_sepEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -3040,172 +3046,172 @@ proc ZNKSt8numpunctIwE8truenameEv*() {.cdecl, importc: "_ZNKSt8numpunctIwE8truen
 proc ZNKSt8numpunctIwE9falsenameEv*() {.cdecl, importc: "_ZNKSt8numpunctIwE9falsenameEv",
                                         header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8time_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE10dateorderEv*() {.
+proc ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE10date_orderEv*() {.
     cdecl, importc: "_ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE10date_orderEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8time_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE11dogetdateES3S3RSt8iosbaseRNSt5IosbIiE8IostateEP2tm*() {.
+proc ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE11do_get_dateES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm*() {.
     cdecl, importc: "_ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE11do_get_dateES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8time_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE11dogettimeES3S3RSt8iosbaseRNSt5IosbIiE8IostateEP2tm*() {.
+proc ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE11do_get_timeES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm*() {.
     cdecl, importc: "_ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE11do_get_timeES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8time_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE11dogetyearES3S3RSt8iosbaseRNSt5IosbIiE8IostateEP2tm*() {.
+proc ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE11do_get_yearES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm*() {.
     cdecl, importc: "_ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE11do_get_yearES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8time_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE11getweekdayES3S3RSt8iosbaseRNSt5IosbIiE8IostateEP2tm*() {.
+proc ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE11get_weekdayES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm*() {.
     cdecl, importc: "_ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE11get_weekdayES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8time_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE13dodateorderEv*() {.
+proc ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE13do_date_orderEv*() {.
     cdecl, importc: "_ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE13do_date_orderEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8time_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE13getmonthnameES3S3RSt8iosbaseRNSt5IosbIiE8IostateEP2tm*() {.
+proc ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE13get_monthnameES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm*() {.
     cdecl, importc: "_ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE13get_monthnameES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8time_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE14dogetweekdayES3S3RSt8iosbaseRNSt5IosbIiE8IostateEP2tm*() {.
+proc ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE14do_get_weekdayES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm*() {.
     cdecl, importc: "_ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE14do_get_weekdayES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8time_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE16dogetmonthnameES3S3RSt8iosbaseRNSt5IosbIiE8IostateEP2tm*() {.
+proc ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE16do_get_monthnameES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm*() {.
     cdecl, importc: "_ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE16do_get_monthnameES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8time_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE3getES3S3RSt8iosbaseRNSt5IosbIiE8IostateEP2tmcc*() {.
+proc ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tmcc*() {.
     cdecl, importc: "_ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tmcc",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8time_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE3getES3S3RSt8iosbaseRNSt5IosbIiE8IostateEP2tmPKcSE*() {.
+proc ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tmPKcSE*() {.
     cdecl, importc: "_ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tmPKcSE_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8time_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE6dogetES3S3RSt8iosbaseRNSt5IosbIiE8IostateEP2tmcc*() {.
+proc ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tmcc*() {.
     cdecl, importc: "_ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tmcc",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8time_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE7GetfmtES3S3RSt8iosbaseRNSt5IosbIiE8IostateEP2tmPKc*() {.
+proc ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE7_GetfmtES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tmPKc*() {.
     cdecl, importc: "_ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE7_GetfmtES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tmPKc",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8time_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE7GetintERS3S5iiRiRKSt5ctypeIcE*() {.
+proc ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE7_GetintERS3_S5_iiRiRKSt5ctypeIcE*() {.
     cdecl, importc: "_ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE7_GetintERS3_S5_iiRiRKSt5ctypeIcE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8time_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE8getdateES3S3RSt8iosbaseRNSt5IosbIiE8IostateEP2tm*() {.
+proc ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE8get_dateES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm*() {.
     cdecl, importc: "_ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE8get_dateES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8time_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE8gettimeES3S3RSt8iosbaseRNSt5IosbIiE8IostateEP2tm*() {.
+proc ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE8get_timeES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm*() {.
     cdecl, importc: "_ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE8get_timeES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8time_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE8getyearES3S3RSt8iosbaseRNSt5IosbIiE8IostateEP2tm*() {.
+proc ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE8get_yearES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm*() {.
     cdecl, importc: "_ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE8get_yearES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8time_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE10dateorderEv*() {.
+proc ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE10date_orderEv*() {.
     cdecl, importc: "_ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE10date_orderEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8time_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE11dogetdateES3S3RSt8iosbaseRNSt5IosbIiE8IostateEP2tm*() {.
+proc ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE11do_get_dateES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm*() {.
     cdecl, importc: "_ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE11do_get_dateES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8time_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE11dogettimeES3S3RSt8iosbaseRNSt5IosbIiE8IostateEP2tm*() {.
+proc ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE11do_get_timeES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm*() {.
     cdecl, importc: "_ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE11do_get_timeES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8time_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE11dogetyearES3S3RSt8iosbaseRNSt5IosbIiE8IostateEP2tm*() {.
+proc ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE11do_get_yearES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm*() {.
     cdecl, importc: "_ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE11do_get_yearES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8time_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE11getweekdayES3S3RSt8iosbaseRNSt5IosbIiE8IostateEP2tm*() {.
+proc ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE11get_weekdayES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm*() {.
     cdecl, importc: "_ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE11get_weekdayES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8time_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE13dodateorderEv*() {.
+proc ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE13do_date_orderEv*() {.
     cdecl, importc: "_ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE13do_date_orderEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8time_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE13getmonthnameES3S3RSt8iosbaseRNSt5IosbIiE8IostateEP2tm*() {.
+proc ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE13get_monthnameES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm*() {.
     cdecl, importc: "_ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE13get_monthnameES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8time_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE14dogetweekdayES3S3RSt8iosbaseRNSt5IosbIiE8IostateEP2tm*() {.
+proc ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE14do_get_weekdayES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm*() {.
     cdecl, importc: "_ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE14do_get_weekdayES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8time_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE16dogetmonthnameES3S3RSt8iosbaseRNSt5IosbIiE8IostateEP2tm*() {.
+proc ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE16do_get_monthnameES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm*() {.
     cdecl, importc: "_ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE16do_get_monthnameES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8time_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE3getES3S3RSt8iosbaseRNSt5IosbIiE8IostateEP2tmcc*() {.
+proc ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tmcc*() {.
     cdecl, importc: "_ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tmcc",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8time_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE3getES3S3RSt8iosbaseRNSt5IosbIiE8IostateEP2tmPKwSE*() {.
+proc ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tmPKwSE*() {.
     cdecl, importc: "_ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tmPKwSE_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8time_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE6dogetES3S3RSt8iosbaseRNSt5IosbIiE8IostateEP2tmcc*() {.
+proc ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tmcc*() {.
     cdecl, importc: "_ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tmcc",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8time_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE7GetfmtES3S3RSt8iosbaseRNSt5IosbIiE8IostateEP2tmPKc*() {.
+proc ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE7_GetfmtES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tmPKc*() {.
     cdecl, importc: "_ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE7_GetfmtES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tmPKc",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8time_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE7GetintERS3S5iiRiRKSt5ctypeIwE*() {.
+proc ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE7_GetintERS3_S5_iiRiRKSt5ctypeIwE*() {.
     cdecl, importc: "_ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE7_GetintERS3_S5_iiRiRKSt5ctypeIwE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8time_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE8getdateES3S3RSt8iosbaseRNSt5IosbIiE8IostateEP2tm*() {.
+proc ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE8get_dateES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm*() {.
     cdecl, importc: "_ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE8get_dateES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8time_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE8gettimeES3S3RSt8iosbaseRNSt5IosbIiE8IostateEP2tm*() {.
+proc ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE8get_timeES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm*() {.
     cdecl, importc: "_ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE8get_timeES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8time_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE8getyearES3S3RSt8iosbaseRNSt5IosbIiE8IostateEP2tm*() {.
+proc ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE8get_yearES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm*() {.
     cdecl, importc: "_ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE8get_yearES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8time_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE3putES3RSt8iosbasecPK2tmcc*() {.
+proc ZNKSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE3putES3_RSt8ios_basecPK2tmcc*() {.
     cdecl, importc: "_ZNKSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE3putES3_RSt8ios_basecPK2tmcc",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8time_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE3putES3RSt8iosbasecPK2tmPKcSB*() {.
+proc ZNKSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE3putES3_RSt8ios_basecPK2tmPKcSB*() {.
     cdecl, importc: "_ZNKSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE3putES3_RSt8ios_basecPK2tmPKcSB_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8time_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE6doputES3RSt8iosbasecPK2tmcc*() {.
+proc ZNKSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE6do_putES3_RSt8ios_basecPK2tmcc*() {.
     cdecl, importc: "_ZNKSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE6do_putES3_RSt8ios_basecPK2tmcc",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8time_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE3putES3RSt8iosbasewPK2tmcc*() {.
+proc ZNKSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES3_RSt8ios_basewPK2tmcc*() {.
     cdecl, importc: "_ZNKSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES3_RSt8ios_basewPK2tmcc",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8time_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE3putES3RSt8iosbasewPK2tmPKwSB*() {.
+proc ZNKSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES3_RSt8ios_basewPK2tmPKwSB*() {.
     cdecl, importc: "_ZNKSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES3_RSt8ios_basewPK2tmPKwSB_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt8time_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE6doputES3RSt8iosbasewPK2tmcc*() {.
+proc ZNKSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE6do_putES3_RSt8ios_basewPK2tmcc*() {.
     cdecl, importc: "_ZNKSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE6do_putES3_RSt8ios_basewPK2tmcc",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZNKSt9bad_alloc4whatEv*() {.cdecl, importc: "_ZNKSt9bad_alloc4whatEv",
                                  header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt9bad_alloc8DoraiseEv*() {.cdecl,
-                                    importc: "_ZNKSt9bad_alloc8_DoraiseEv",
-                                    header: "orbis/LibcInternal.h".}
+proc ZNKSt9bad_alloc8_DoraiseEv*() {.cdecl,
+                                     importc: "_ZNKSt9bad_alloc8_DoraiseEv",
+                                     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZNKSt9exception4whatEv*() {.cdecl, importc: "_ZNKSt9exception4whatEv",
                                  header: "orbis/LibcInternal.h".}
@@ -3217,87 +3223,87 @@ proc ZNKSt9exception8_DoraiseEv*() {.cdecl,
                                      importc: "_ZNKSt9exception8_DoraiseEv",
                                      header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt9money_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE3getES3S3bRSt8iosbaseRNSt5IosbIiE8IostateERe*() {.
+proc ZNKSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_bRSt8ios_baseRNSt5_IosbIiE8_IostateERe*() {.
     cdecl, importc: "_ZNKSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_bRSt8ios_baseRNSt5_IosbIiE8_IostateERe",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt9money_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE3getES3S3bRSt8iosbaseRNSt5IosbIiE8IostateERSs*() {.
+proc ZNKSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_bRSt8ios_baseRNSt5_IosbIiE8_IostateERSs*() {.
     cdecl, importc: "_ZNKSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_bRSt8ios_baseRNSt5_IosbIiE8_IostateERSs",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt9money_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE6dogetES3S3bRSt8iosbaseRNSt5IosbIiE8IostateERe*() {.
+proc ZNKSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE6do_getES3_S3_bRSt8ios_baseRNSt5_IosbIiE8_IostateERe*() {.
     cdecl, importc: "_ZNKSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE6do_getES3_S3_bRSt8ios_baseRNSt5_IosbIiE8_IostateERe",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt9money_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE6dogetES3S3bRSt8iosbaseRNSt5IosbIiE8IostateERSs*() {.
+proc ZNKSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE6do_getES3_S3_bRSt8ios_baseRNSt5_IosbIiE8_IostateERSs*() {.
     cdecl, importc: "_ZNKSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE6do_getES3_S3_bRSt8ios_baseRNSt5_IosbIiE8_IostateERSs",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt9money_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE8GetmfldERS3S5bRSt8iosbasePc*() {.
+proc ZNKSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE8_GetmfldERS3_S5_bRSt8ios_basePc*() {.
     cdecl, importc: "_ZNKSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE8_GetmfldERS3_S5_bRSt8ios_basePc",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt9money_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE3getES3S3bRSt8iosbaseRNSt5IosbIiE8IostateERe*() {.
+proc ZNKSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_bRSt8ios_baseRNSt5_IosbIiE8_IostateERe*() {.
     cdecl, importc: "_ZNKSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_bRSt8ios_baseRNSt5_IosbIiE8_IostateERe",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt9money_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE3getES3S3bRSt8iosbaseRNSt5IosbIiE8IostateERSbIwS2SaIwEE*() {.
+proc ZNKSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_bRSt8ios_baseRNSt5_IosbIiE8_IostateERSbIwS2_SaIwEE*() {.
     cdecl, importc: "_ZNKSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_bRSt8ios_baseRNSt5_IosbIiE8_IostateERSbIwS2_SaIwEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt9money_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE6dogetES3S3bRSt8iosbaseRNSt5IosbIiE8IostateERe*() {.
+proc ZNKSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE6do_getES3_S3_bRSt8ios_baseRNSt5_IosbIiE8_IostateERe*() {.
     cdecl, importc: "_ZNKSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE6do_getES3_S3_bRSt8ios_baseRNSt5_IosbIiE8_IostateERe",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt9money_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE6dogetES3S3bRSt8iosbaseRNSt5IosbIiE8IostateERSbIwS2SaIwEE*() {.
+proc ZNKSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE6do_getES3_S3_bRSt8ios_baseRNSt5_IosbIiE8_IostateERSbIwS2_SaIwEE*() {.
     cdecl, importc: "_ZNKSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE6do_getES3_S3_bRSt8ios_baseRNSt5_IosbIiE8_IostateERSbIwS2_SaIwEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt9money_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE8GetmfldERS3S5bRSt8iosbasePw*() {.
+proc ZNKSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE8_GetmfldERS3_S5_bRSt8ios_basePw*() {.
     cdecl, importc: "_ZNKSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE8_GetmfldERS3_S5_bRSt8ios_basePw",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt9money_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE3putES3bRSt8iosbasece*() {.
+proc ZNKSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE3putES3_bRSt8ios_basece*() {.
     cdecl, importc: "_ZNKSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE3putES3_bRSt8ios_basece",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt9money_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE3putES3bRSt8iosbasecRKSs*() {.
+proc ZNKSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE3putES3_bRSt8ios_basecRKSs*() {.
     cdecl, importc: "_ZNKSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE3putES3_bRSt8ios_basecRKSs",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt9money_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE6doputES3bRSt8iosbasece*() {.
+proc ZNKSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE6do_putES3_bRSt8ios_basece*() {.
     cdecl, importc: "_ZNKSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE6do_putES3_bRSt8ios_basece",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt9money_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE6doputES3bRSt8iosbasecRKSs*() {.
+proc ZNKSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE6do_putES3_bRSt8ios_basecRKSs*() {.
     cdecl, importc: "_ZNKSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE6do_putES3_bRSt8ios_basecRKSs",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt9money_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE8PutmfldES3bRSt8iosbasecbSsc*() {.
+proc ZNKSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE8_PutmfldES3_bRSt8ios_basecbSsc*() {.
     cdecl, importc: "_ZNKSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE8_PutmfldES3_bRSt8ios_basecbSsc",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt9money_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE3putES3bRSt8iosbasewe*() {.
+proc ZNKSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES3_bRSt8ios_basewe*() {.
     cdecl, importc: "_ZNKSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES3_bRSt8ios_basewe",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt9money_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE3putES3bRSt8iosbasewRKSbIwS2SaIwEE*() {.
+proc ZNKSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES3_bRSt8ios_basewRKSbIwS2_SaIwEE*() {.
     cdecl, importc: "_ZNKSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES3_bRSt8ios_basewRKSbIwS2_SaIwEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt9money_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE6doputES3bRSt8iosbasewe*() {.
+proc ZNKSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE6do_putES3_bRSt8ios_basewe*() {.
     cdecl, importc: "_ZNKSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE6do_putES3_bRSt8ios_basewe",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt9money_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE6doputES3bRSt8iosbasewRKSbIwS2SaIwEE*() {.
+proc ZNKSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE6do_putES3_bRSt8ios_basewRKSbIwS2_SaIwEE*() {.
     cdecl, importc: "_ZNKSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE6do_putES3_bRSt8ios_basewRKSbIwS2_SaIwEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNKSt9money_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE8PutmfldES3bRSt8iosbasewbSbIwS2SaIwEEw*() {.
+proc ZNKSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE8_PutmfldES3_bRSt8ios_basewbSbIwS2_SaIwEEw*() {.
     cdecl, importc: "_ZNKSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE8_PutmfldES3_bRSt8ios_basewbSbIwS2_SaIwEEw",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSbIwSt11char_traitsIwESaIwEE5CopyEmm*() {.cdecl,
+proc ZNSbIwSt11char_traitsIwESaIwEE5_CopyEmm*() {.cdecl,
     importc: "_ZNSbIwSt11char_traitsIwESaIwEE5_CopyEmm",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -3309,7 +3315,7 @@ proc ZNSbIwSt11char_traitsIwESaIwEE6appendEmw*() {.cdecl,
     importc: "_ZNSbIwSt11char_traitsIwESaIwEE6appendEmw",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSbIwSt11char_traitsIwESaIwEE6appendERKS2mm*() {.cdecl,
+proc ZNSbIwSt11char_traitsIwESaIwEE6appendERKS2_mm*() {.cdecl,
     importc: "_ZNSbIwSt11char_traitsIwESaIwEE6appendERKS2_mm",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -3321,7 +3327,7 @@ proc ZNSbIwSt11char_traitsIwESaIwEE6assignEPKwm*() {.cdecl,
     importc: "_ZNSbIwSt11char_traitsIwESaIwEE6assignEPKwm",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSbIwSt11char_traitsIwESaIwEE6assignERKS2mm*() {.cdecl,
+proc ZNSbIwSt11char_traitsIwESaIwEE6assignERKS2_mm*() {.cdecl,
     importc: "_ZNSbIwSt11char_traitsIwESaIwEE6assignERKS2_mm",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -3580,14 +3586,14 @@ proc ZNSt11regex_errorD1Ev*() {.cdecl, importc: "_ZNSt11regex_errorD1Ev",
 proc ZNSt11regex_errorD2Ev*() {.cdecl, importc: "_ZNSt11regex_errorD2Ev",
                                 header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt12bad_weakptrD0Ev*() {.cdecl, importc: "_ZNSt12bad_weak_ptrD0Ev",
-                                header: "orbis/LibcInternal.h".}
+proc ZNSt12bad_weak_ptrD0Ev*() {.cdecl, importc: "_ZNSt12bad_weak_ptrD0Ev",
+                                 header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt12bad_weakptrD1Ev*() {.cdecl, importc: "_ZNSt12bad_weak_ptrD1Ev",
-                                header: "orbis/LibcInternal.h".}
+proc ZNSt12bad_weak_ptrD1Ev*() {.cdecl, importc: "_ZNSt12bad_weak_ptrD1Ev",
+                                 header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt12bad_weakptrD2Ev*() {.cdecl, importc: "_ZNSt12bad_weak_ptrD2Ev",
-                                header: "orbis/LibcInternal.h".}
+proc ZNSt12bad_weak_ptrD2Ev*() {.cdecl, importc: "_ZNSt12bad_weak_ptrD2Ev",
+                                 header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZNSt12domain_errorD1Ev*() {.cdecl, importc: "_ZNSt12domain_errorD1Ev",
                                  header: "orbis/LibcInternal.h".}
@@ -3613,14 +3619,14 @@ proc ZNSt12length_errorD1Ev*() {.cdecl, importc: "_ZNSt12length_errorD1Ev",
 proc ZNSt12length_errorD2Ev*() {.cdecl, importc: "_ZNSt12length_errorD2Ev",
                                  header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt12out_ofrangeD0Ev*() {.cdecl, importc: "_ZNSt12out_of_rangeD0Ev",
-                                header: "orbis/LibcInternal.h".}
+proc ZNSt12out_of_rangeD0Ev*() {.cdecl, importc: "_ZNSt12out_of_rangeD0Ev",
+                                 header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt12out_ofrangeD1Ev*() {.cdecl, importc: "_ZNSt12out_of_rangeD1Ev",
-                                header: "orbis/LibcInternal.h".}
+proc ZNSt12out_of_rangeD1Ev*() {.cdecl, importc: "_ZNSt12out_of_rangeD1Ev",
+                                 header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt12out_ofrangeD2Ev*() {.cdecl, importc: "_ZNSt12out_of_rangeD2Ev",
-                                header: "orbis/LibcInternal.h".}
+proc ZNSt12out_of_rangeD2Ev*() {.cdecl, importc: "_ZNSt12out_of_rangeD2Ev",
+                                 header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZNSt12placeholders2_1E*() {.cdecl, importc: "_ZNSt12placeholders2_1E",
                                  header: "orbis/LibcInternal.h".}
@@ -3682,7 +3688,7 @@ proc ZNSt12placeholders3_19E*() {.cdecl, importc: "_ZNSt12placeholders3_19E",
 proc ZNSt12placeholders3_20E*() {.cdecl, importc: "_ZNSt12placeholders3_20E",
                                   header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt12system_errorC2ESt10errorcodePKc*() {.cdecl,
+proc ZNSt12system_errorC2ESt10error_codePKc*() {.cdecl,
     importc: "_ZNSt12system_errorC2ESt10error_codePKc",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -3695,32 +3701,31 @@ proc ZNSt12system_errorD1Ev*() {.cdecl, importc: "_ZNSt12system_errorD1Ev",
 proc ZNSt12system_errorD2Ev*() {.cdecl, importc: "_ZNSt12system_errorD2Ev",
                                  header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt13_Numintbase10isboundedE*() {.cdecl, importc: "_ZNSt13_Num_int_base10is_boundedE",
-                                        header: "orbis/LibcInternal.h".}
+proc ZNSt13_Num_int_base10is_boundedE*() {.cdecl,
+    importc: "_ZNSt13_Num_int_base10is_boundedE", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt13_Numintbase10isintegerE*() {.cdecl, importc: "_ZNSt13_Num_int_base10is_integerE",
-                                        header: "orbis/LibcInternal.h".}
+proc ZNSt13_Num_int_base10is_integerE*() {.cdecl,
+    importc: "_ZNSt13_Num_int_base10is_integerE", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt13_Numintbase14isspecializedE*() {.cdecl,
+proc ZNSt13_Num_int_base14is_specializedE*() {.cdecl,
     importc: "_ZNSt13_Num_int_base14is_specializedE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt13_Numintbase5radixE*() {.cdecl,
-                                   importc: "_ZNSt13_Num_int_base5radixE",
-                                   header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc ZNSt13_Numintbase8isexactE*() {.cdecl,
-                                     importc: "_ZNSt13_Num_int_base8is_exactE",
+proc ZNSt13_Num_int_base5radixE*() {.cdecl,
+                                     importc: "_ZNSt13_Num_int_base5radixE",
                                      header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt13_Numintbase9ismoduloE*() {.cdecl, importc: "_ZNSt13_Num_int_base9is_moduloE",
-                                      header: "orbis/LibcInternal.h".}
+proc ZNSt13_Num_int_base8is_exactE*() {.cdecl, importc: "_ZNSt13_Num_int_base8is_exactE",
+                                        header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt13_RegextraitsIcE6NamesE*() {.cdecl, importc: "_ZNSt13_Regex_traitsIcE6_NamesE",
-                                       header: "orbis/LibcInternal.h".}
+proc ZNSt13_Num_int_base9is_moduloE*() {.cdecl,
+    importc: "_ZNSt13_Num_int_base9is_moduloE", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt13_RegextraitsIwE6NamesE*() {.cdecl, importc: "_ZNSt13_Regex_traitsIwE6_NamesE",
-                                       header: "orbis/LibcInternal.h".}
+proc ZNSt13_Regex_traitsIcE6_NamesE*() {.cdecl,
+    importc: "_ZNSt13_Regex_traitsIcE6_NamesE", header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc ZNSt13_Regex_traitsIwE6_NamesE*() {.cdecl,
+    importc: "_ZNSt13_Regex_traitsIwE6_NamesE", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZNSt13bad_exceptionD0Ev*() {.cdecl, importc: "_ZNSt13bad_exceptionD0Ev",
                                   header: "orbis/LibcInternal.h".}
@@ -3731,147 +3736,147 @@ proc ZNSt13bad_exceptionD1Ev*() {.cdecl, importc: "_ZNSt13bad_exceptionD1Ev",
 proc ZNSt13bad_exceptionD2Ev*() {.cdecl, importc: "_ZNSt13bad_exceptionD2Ev",
                                   header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt13basic_filebufIcSt11chartraitsIcEE4syncEv*() {.cdecl,
+proc ZNSt13basic_filebufIcSt11char_traitsIcEE4syncEv*() {.cdecl,
     importc: "_ZNSt13basic_filebufIcSt11char_traitsIcEE4syncEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt13basic_filebufIcSt11chartraitsIcEE5LockEv*() {.cdecl,
+proc ZNSt13basic_filebufIcSt11char_traitsIcEE5_LockEv*() {.cdecl,
     importc: "_ZNSt13basic_filebufIcSt11char_traitsIcEE5_LockEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt13basic_filebufIcSt11chartraitsIcEE5imbueERKSt6locale*() {.cdecl,
+proc ZNSt13basic_filebufIcSt11char_traitsIcEE5imbueERKSt6locale*() {.cdecl,
     importc: "_ZNSt13basic_filebufIcSt11char_traitsIcEE5imbueERKSt6locale",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt13basic_filebufIcSt11chartraitsIcEE5uflowEv*() {.cdecl,
+proc ZNSt13basic_filebufIcSt11char_traitsIcEE5uflowEv*() {.cdecl,
     importc: "_ZNSt13basic_filebufIcSt11char_traitsIcEE5uflowEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt13basic_filebufIcSt11chartraitsIcEE6setbufEPci*() {.cdecl,
+proc ZNSt13basic_filebufIcSt11char_traitsIcEE6setbufEPci*() {.cdecl,
     importc: "_ZNSt13basic_filebufIcSt11char_traitsIcEE6setbufEPci",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt13basic_filebufIcSt11chartraitsIcEE7UnlockEv*() {.cdecl,
+proc ZNSt13basic_filebufIcSt11char_traitsIcEE7_UnlockEv*() {.cdecl,
     importc: "_ZNSt13basic_filebufIcSt11char_traitsIcEE7_UnlockEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt13basic_filebufIcSt11chartraitsIcEE7seekoffElNSt5IosbIiE8SeekdirENS49OpenmodeE*() {.
+proc ZNSt13basic_filebufIcSt11char_traitsIcEE7seekoffElNSt5_IosbIiE8_SeekdirENS4_9_OpenmodeE*() {.
     cdecl, importc: "_ZNSt13basic_filebufIcSt11char_traitsIcEE7seekoffElNSt5_IosbIiE8_SeekdirENS4_9_OpenmodeE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt13basic_filebufIcSt11chartraitsIcEE7seekposESt4fposI9MbstatetENSt5IosbIiE9OpenmodeE*() {.
+proc ZNSt13basic_filebufIcSt11char_traitsIcEE7seekposESt4fposI9_MbstatetENSt5_IosbIiE9_OpenmodeE*() {.
     cdecl, importc: "_ZNSt13basic_filebufIcSt11char_traitsIcEE7seekposESt4fposI9_MbstatetENSt5_IosbIiE9_OpenmodeE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt13basic_filebufIcSt11chartraitsIcEE8overflowEi*() {.cdecl,
+proc ZNSt13basic_filebufIcSt11char_traitsIcEE8overflowEi*() {.cdecl,
     importc: "_ZNSt13basic_filebufIcSt11char_traitsIcEE8overflowEi",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt13basic_filebufIcSt11chartraitsIcEE9EndwriteEv*() {.cdecl,
+proc ZNSt13basic_filebufIcSt11char_traitsIcEE9_EndwriteEv*() {.cdecl,
     importc: "_ZNSt13basic_filebufIcSt11char_traitsIcEE9_EndwriteEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt13basic_filebufIcSt11chartraitsIcEE9pbackfailEi*() {.cdecl,
+proc ZNSt13basic_filebufIcSt11char_traitsIcEE9pbackfailEi*() {.cdecl,
     importc: "_ZNSt13basic_filebufIcSt11char_traitsIcEE9pbackfailEi",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt13basic_filebufIcSt11chartraitsIcEE9underflowEv*() {.cdecl,
+proc ZNSt13basic_filebufIcSt11char_traitsIcEE9underflowEv*() {.cdecl,
     importc: "_ZNSt13basic_filebufIcSt11char_traitsIcEE9underflowEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt13basic_filebufIcSt11chartraitsIcEED0Ev*() {.cdecl,
+proc ZNSt13basic_filebufIcSt11char_traitsIcEED0Ev*() {.cdecl,
     importc: "_ZNSt13basic_filebufIcSt11char_traitsIcEED0Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt13basic_filebufIcSt11chartraitsIcEED1Ev*() {.cdecl,
+proc ZNSt13basic_filebufIcSt11char_traitsIcEED1Ev*() {.cdecl,
     importc: "_ZNSt13basic_filebufIcSt11char_traitsIcEED1Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt13basic_filebufIcSt11chartraitsIcEED2Ev*() {.cdecl,
+proc ZNSt13basic_filebufIcSt11char_traitsIcEED2Ev*() {.cdecl,
     importc: "_ZNSt13basic_filebufIcSt11char_traitsIcEED2Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt13basic_filebufIwSt11chartraitsIwEE4syncEv*() {.cdecl,
+proc ZNSt13basic_filebufIwSt11char_traitsIwEE4syncEv*() {.cdecl,
     importc: "_ZNSt13basic_filebufIwSt11char_traitsIwEE4syncEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt13basic_filebufIwSt11chartraitsIwEE5LockEv*() {.cdecl,
+proc ZNSt13basic_filebufIwSt11char_traitsIwEE5_LockEv*() {.cdecl,
     importc: "_ZNSt13basic_filebufIwSt11char_traitsIwEE5_LockEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt13basic_filebufIwSt11chartraitsIwEE5imbueERKSt6locale*() {.cdecl,
+proc ZNSt13basic_filebufIwSt11char_traitsIwEE5imbueERKSt6locale*() {.cdecl,
     importc: "_ZNSt13basic_filebufIwSt11char_traitsIwEE5imbueERKSt6locale",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt13basic_filebufIwSt11chartraitsIwEE5uflowEv*() {.cdecl,
+proc ZNSt13basic_filebufIwSt11char_traitsIwEE5uflowEv*() {.cdecl,
     importc: "_ZNSt13basic_filebufIwSt11char_traitsIwEE5uflowEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt13basic_filebufIwSt11chartraitsIwEE6setbufEPwi*() {.cdecl,
+proc ZNSt13basic_filebufIwSt11char_traitsIwEE6setbufEPwi*() {.cdecl,
     importc: "_ZNSt13basic_filebufIwSt11char_traitsIwEE6setbufEPwi",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt13basic_filebufIwSt11chartraitsIwEE7UnlockEv*() {.cdecl,
+proc ZNSt13basic_filebufIwSt11char_traitsIwEE7_UnlockEv*() {.cdecl,
     importc: "_ZNSt13basic_filebufIwSt11char_traitsIwEE7_UnlockEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt13basic_filebufIwSt11chartraitsIwEE7seekoffElNSt5IosbIiE8SeekdirENS49OpenmodeE*() {.
+proc ZNSt13basic_filebufIwSt11char_traitsIwEE7seekoffElNSt5_IosbIiE8_SeekdirENS4_9_OpenmodeE*() {.
     cdecl, importc: "_ZNSt13basic_filebufIwSt11char_traitsIwEE7seekoffElNSt5_IosbIiE8_SeekdirENS4_9_OpenmodeE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt13basic_filebufIwSt11chartraitsIwEE7seekposESt4fposI9MbstatetENSt5IosbIiE9OpenmodeE*() {.
+proc ZNSt13basic_filebufIwSt11char_traitsIwEE7seekposESt4fposI9_MbstatetENSt5_IosbIiE9_OpenmodeE*() {.
     cdecl, importc: "_ZNSt13basic_filebufIwSt11char_traitsIwEE7seekposESt4fposI9_MbstatetENSt5_IosbIiE9_OpenmodeE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt13basic_filebufIwSt11chartraitsIwEE8overflowEi*() {.cdecl,
+proc ZNSt13basic_filebufIwSt11char_traitsIwEE8overflowEi*() {.cdecl,
     importc: "_ZNSt13basic_filebufIwSt11char_traitsIwEE8overflowEi",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt13basic_filebufIwSt11chartraitsIwEE9EndwriteEv*() {.cdecl,
+proc ZNSt13basic_filebufIwSt11char_traitsIwEE9_EndwriteEv*() {.cdecl,
     importc: "_ZNSt13basic_filebufIwSt11char_traitsIwEE9_EndwriteEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt13basic_filebufIwSt11chartraitsIwEE9pbackfailEi*() {.cdecl,
+proc ZNSt13basic_filebufIwSt11char_traitsIwEE9pbackfailEi*() {.cdecl,
     importc: "_ZNSt13basic_filebufIwSt11char_traitsIwEE9pbackfailEi",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt13basic_filebufIwSt11chartraitsIwEE9underflowEv*() {.cdecl,
+proc ZNSt13basic_filebufIwSt11char_traitsIwEE9underflowEv*() {.cdecl,
     importc: "_ZNSt13basic_filebufIwSt11char_traitsIwEE9underflowEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt13basic_filebufIwSt11chartraitsIwEED0Ev*() {.cdecl,
+proc ZNSt13basic_filebufIwSt11char_traitsIwEED0Ev*() {.cdecl,
     importc: "_ZNSt13basic_filebufIwSt11char_traitsIwEED0Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt13basic_filebufIwSt11chartraitsIwEED1Ev*() {.cdecl,
+proc ZNSt13basic_filebufIwSt11char_traitsIwEED1Ev*() {.cdecl,
     importc: "_ZNSt13basic_filebufIwSt11char_traitsIwEED1Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt13basic_filebufIwSt11chartraitsIwEED2Ev*() {.cdecl,
+proc ZNSt13basic_filebufIwSt11char_traitsIwEED2Ev*() {.cdecl,
     importc: "_ZNSt13basic_filebufIwSt11char_traitsIwEED2Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt13basic_istreamIwSt11chartraitsIwEED0Ev*() {.cdecl,
+proc ZNSt13basic_istreamIwSt11char_traitsIwEED0Ev*() {.cdecl,
     importc: "_ZNSt13basic_istreamIwSt11char_traitsIwEED0Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt13basic_istreamIwSt11chartraitsIwEED1Ev*() {.cdecl,
+proc ZNSt13basic_istreamIwSt11char_traitsIwEED1Ev*() {.cdecl,
     importc: "_ZNSt13basic_istreamIwSt11char_traitsIwEED1Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt13basic_ostreamIwSt11chartraitsIwEE6sentryC2ERS2*() {.cdecl,
+proc ZNSt13basic_ostreamIwSt11char_traitsIwEE6sentryC2ERS2*() {.cdecl,
     importc: "_ZNSt13basic_ostreamIwSt11char_traitsIwEE6sentryC2ERS2_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt13basic_ostreamIwSt11chartraitsIwEE6sentryD2Ev*() {.cdecl,
+proc ZNSt13basic_ostreamIwSt11char_traitsIwEE6sentryD2Ev*() {.cdecl,
     importc: "_ZNSt13basic_ostreamIwSt11char_traitsIwEE6sentryD2Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt13basic_ostreamIwSt11chartraitsIwEED0Ev*() {.cdecl,
+proc ZNSt13basic_ostreamIwSt11char_traitsIwEED0Ev*() {.cdecl,
     importc: "_ZNSt13basic_ostreamIwSt11char_traitsIwEED0Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt13basic_ostreamIwSt11chartraitsIwEED1Ev*() {.cdecl,
+proc ZNSt13basic_ostreamIwSt11char_traitsIwEED1Ev*() {.cdecl,
     importc: "_ZNSt13basic_ostreamIwSt11char_traitsIwEED1Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -3884,77 +3889,77 @@ proc ZNSt13runtime_errorD1Ev*() {.cdecl, importc: "_ZNSt13runtime_errorD1Ev",
 proc ZNSt13runtime_errorD2Ev*() {.cdecl, importc: "_ZNSt13runtime_errorD2Ev",
                                   header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14_ErrorobjectsIiE14SystemobjectE*() {.cdecl,
+proc ZNSt14_Error_objectsIiE14_System_objectE*() {.cdecl,
     importc: "_ZNSt14_Error_objectsIiE14_System_objectE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14_ErrorobjectsIiE15GenericobjectE*() {.cdecl,
+proc ZNSt14_Error_objectsIiE15_Generic_objectE*() {.cdecl,
     importc: "_ZNSt14_Error_objectsIiE15_Generic_objectE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14_ErrorobjectsIiE16IostreamobjectE*() {.cdecl,
+proc ZNSt14_Error_objectsIiE16_Iostream_objectE*() {.cdecl,
     importc: "_ZNSt14_Error_objectsIiE16_Iostream_objectE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14_Numldblbase10hasdenormE*() {.cdecl,
+proc ZNSt14_Num_ldbl_base10has_denormE*() {.cdecl,
     importc: "_ZNSt14_Num_ldbl_base10has_denormE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14_Numldblbase10isboundedE*() {.cdecl,
+proc ZNSt14_Num_ldbl_base10is_boundedE*() {.cdecl,
     importc: "_ZNSt14_Num_ldbl_base10is_boundedE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14_Numldblbase10isintegerE*() {.cdecl,
+proc ZNSt14_Num_ldbl_base10is_integerE*() {.cdecl,
     importc: "_ZNSt14_Num_ldbl_base10is_integerE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14_Numldblbase11roundstyleE*() {.cdecl,
+proc ZNSt14_Num_ldbl_base11round_styleE*() {.cdecl,
     importc: "_ZNSt14_Num_ldbl_base11round_styleE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14_Numldblbase12hasinfinityE*() {.cdecl,
+proc ZNSt14_Num_ldbl_base12has_infinityE*() {.cdecl,
     importc: "_ZNSt14_Num_ldbl_base12has_infinityE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14_Numldblbase13hasquietNaNE*() {.cdecl,
+proc ZNSt14_Num_ldbl_base13has_quiet_NaNE*() {.cdecl,
     importc: "_ZNSt14_Num_ldbl_base13has_quiet_NaNE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14_Numldblbase14isspecializedE*() {.cdecl,
+proc ZNSt14_Num_ldbl_base14is_specializedE*() {.cdecl,
     importc: "_ZNSt14_Num_ldbl_base14is_specializedE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14_Numldblbase15hasdenormlossE*() {.cdecl,
+proc ZNSt14_Num_ldbl_base15has_denorm_lossE*() {.cdecl,
     importc: "_ZNSt14_Num_ldbl_base15has_denorm_lossE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14_Numldblbase15tinynessbeforeE*() {.cdecl,
+proc ZNSt14_Num_ldbl_base15tinyness_beforeE*() {.cdecl,
     importc: "_ZNSt14_Num_ldbl_base15tinyness_beforeE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14_Numldblbase17hassignalingNaNE*() {.cdecl,
+proc ZNSt14_Num_ldbl_base17has_signaling_NaNE*() {.cdecl,
     importc: "_ZNSt14_Num_ldbl_base17has_signaling_NaNE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14_Numldblbase5radixE*() {.cdecl,
-                                    importc: "_ZNSt14_Num_ldbl_base5radixE",
-                                    header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc ZNSt14_Numldblbase5trapsE*() {.cdecl,
-                                    importc: "_ZNSt14_Num_ldbl_base5trapsE",
-                                    header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc ZNSt14_Numldblbase8isexactE*() {.cdecl, importc: "_ZNSt14_Num_ldbl_base8is_exactE",
+proc ZNSt14_Num_ldbl_base5radixE*() {.cdecl,
+                                      importc: "_ZNSt14_Num_ldbl_base5radixE",
                                       header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14_Numldblbase9isiec559E*() {.cdecl, importc: "_ZNSt14_Num_ldbl_base9is_iec559E",
-                                       header: "orbis/LibcInternal.h".}
+proc ZNSt14_Num_ldbl_base5trapsE*() {.cdecl,
+                                      importc: "_ZNSt14_Num_ldbl_base5trapsE",
+                                      header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14_Numldblbase9ismoduloE*() {.cdecl, importc: "_ZNSt14_Num_ldbl_base9is_moduloE",
-                                       header: "orbis/LibcInternal.h".}
+proc ZNSt14_Num_ldbl_base8is_exactE*() {.cdecl,
+    importc: "_ZNSt14_Num_ldbl_base8is_exactE", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14_Numldblbase9issignedE*() {.cdecl, importc: "_ZNSt14_Num_ldbl_base9is_signedE",
-                                       header: "orbis/LibcInternal.h".}
+proc ZNSt14_Num_ldbl_base9is_iec559E*() {.cdecl,
+    importc: "_ZNSt14_Num_ldbl_base9is_iec559E", header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc ZNSt14_Num_ldbl_base9is_moduloE*() {.cdecl,
+    importc: "_ZNSt14_Num_ldbl_base9is_moduloE", header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc ZNSt14_Num_ldbl_base9is_signedE*() {.cdecl,
+    importc: "_ZNSt14_Num_ldbl_base9is_signedE", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZNSt14error_categoryD2Ev*() {.cdecl, importc: "_ZNSt14error_categoryD2Ev",
                                    header: "orbis/LibcInternal.h".}
@@ -3966,7 +3971,7 @@ proc ZNSt14numeric_limitsIaE8digits10E*() {.cdecl,
     importc: "_ZNSt14numeric_limitsIaE8digits10E",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14numeric_limitsIaE9issignedE*() {.cdecl,
+proc ZNSt14numeric_limitsIaE9is_signedE*() {.cdecl,
     importc: "_ZNSt14numeric_limitsIaE9is_signedE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -3977,11 +3982,11 @@ proc ZNSt14numeric_limitsIbE8digits10E*() {.cdecl,
     importc: "_ZNSt14numeric_limitsIbE8digits10E",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14numeric_limitsIbE9ismoduloE*() {.cdecl,
+proc ZNSt14numeric_limitsIbE9is_moduloE*() {.cdecl,
     importc: "_ZNSt14numeric_limitsIbE9is_moduloE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14numeric_limitsIbE9issignedE*() {.cdecl,
+proc ZNSt14numeric_limitsIbE9is_signedE*() {.cdecl,
     importc: "_ZNSt14numeric_limitsIbE9is_signedE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -3992,27 +3997,27 @@ proc ZNSt14numeric_limitsIcE8digits10E*() {.cdecl,
     importc: "_ZNSt14numeric_limitsIcE8digits10E",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14numeric_limitsIcE9issignedE*() {.cdecl,
+proc ZNSt14numeric_limitsIcE9is_signedE*() {.cdecl,
     importc: "_ZNSt14numeric_limitsIcE9is_signedE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14numeric_limitsIdE12maxdigits10E*() {.cdecl,
+proc ZNSt14numeric_limitsIdE12max_digits10E*() {.cdecl,
     importc: "_ZNSt14numeric_limitsIdE12max_digits10E",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14numeric_limitsIdE12maxexponentE*() {.cdecl,
+proc ZNSt14numeric_limitsIdE12max_exponentE*() {.cdecl,
     importc: "_ZNSt14numeric_limitsIdE12max_exponentE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14numeric_limitsIdE12minexponentE*() {.cdecl,
+proc ZNSt14numeric_limitsIdE12min_exponentE*() {.cdecl,
     importc: "_ZNSt14numeric_limitsIdE12min_exponentE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14numeric_limitsIdE14maxexponent10E*() {.cdecl,
+proc ZNSt14numeric_limitsIdE14max_exponent10E*() {.cdecl,
     importc: "_ZNSt14numeric_limitsIdE14max_exponent10E",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14numeric_limitsIdE14minexponent10E*() {.cdecl,
+proc ZNSt14numeric_limitsIdE14min_exponent10E*() {.cdecl,
     importc: "_ZNSt14numeric_limitsIdE14min_exponent10E",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -4030,7 +4035,7 @@ proc ZNSt14numeric_limitsIDiE8digits10E*() {.cdecl,
     importc: "_ZNSt14numeric_limitsIDiE8digits10E",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14numeric_limitsIDiE9issignedE*() {.cdecl,
+proc ZNSt14numeric_limitsIDiE9is_signedE*() {.cdecl,
     importc: "_ZNSt14numeric_limitsIDiE9is_signedE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -4041,27 +4046,27 @@ proc ZNSt14numeric_limitsIDsE8digits10E*() {.cdecl,
     importc: "_ZNSt14numeric_limitsIDsE8digits10E",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14numeric_limitsIDsE9issignedE*() {.cdecl,
+proc ZNSt14numeric_limitsIDsE9is_signedE*() {.cdecl,
     importc: "_ZNSt14numeric_limitsIDsE9is_signedE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14numeric_limitsIeE12maxdigits10E*() {.cdecl,
+proc ZNSt14numeric_limitsIeE12max_digits10E*() {.cdecl,
     importc: "_ZNSt14numeric_limitsIeE12max_digits10E",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14numeric_limitsIeE12maxexponentE*() {.cdecl,
+proc ZNSt14numeric_limitsIeE12max_exponentE*() {.cdecl,
     importc: "_ZNSt14numeric_limitsIeE12max_exponentE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14numeric_limitsIeE12minexponentE*() {.cdecl,
+proc ZNSt14numeric_limitsIeE12min_exponentE*() {.cdecl,
     importc: "_ZNSt14numeric_limitsIeE12min_exponentE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14numeric_limitsIeE14maxexponent10E*() {.cdecl,
+proc ZNSt14numeric_limitsIeE14max_exponent10E*() {.cdecl,
     importc: "_ZNSt14numeric_limitsIeE14max_exponent10E",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14numeric_limitsIeE14minexponent10E*() {.cdecl,
+proc ZNSt14numeric_limitsIeE14min_exponent10E*() {.cdecl,
     importc: "_ZNSt14numeric_limitsIeE14min_exponent10E",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -4072,23 +4077,23 @@ proc ZNSt14numeric_limitsIeE8digits10E*() {.cdecl,
     importc: "_ZNSt14numeric_limitsIeE8digits10E",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14numeric_limitsIfE12maxdigits10E*() {.cdecl,
+proc ZNSt14numeric_limitsIfE12max_digits10E*() {.cdecl,
     importc: "_ZNSt14numeric_limitsIfE12max_digits10E",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14numeric_limitsIfE12maxexponentE*() {.cdecl,
+proc ZNSt14numeric_limitsIfE12max_exponentE*() {.cdecl,
     importc: "_ZNSt14numeric_limitsIfE12max_exponentE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14numeric_limitsIfE12minexponentE*() {.cdecl,
+proc ZNSt14numeric_limitsIfE12min_exponentE*() {.cdecl,
     importc: "_ZNSt14numeric_limitsIfE12min_exponentE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14numeric_limitsIfE14maxexponent10E*() {.cdecl,
+proc ZNSt14numeric_limitsIfE14max_exponent10E*() {.cdecl,
     importc: "_ZNSt14numeric_limitsIfE14max_exponent10E",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14numeric_limitsIfE14minexponent10E*() {.cdecl,
+proc ZNSt14numeric_limitsIfE14min_exponent10E*() {.cdecl,
     importc: "_ZNSt14numeric_limitsIfE14min_exponent10E",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -4106,7 +4111,7 @@ proc ZNSt14numeric_limitsIhE8digits10E*() {.cdecl,
     importc: "_ZNSt14numeric_limitsIhE8digits10E",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14numeric_limitsIhE9issignedE*() {.cdecl,
+proc ZNSt14numeric_limitsIhE9is_signedE*() {.cdecl,
     importc: "_ZNSt14numeric_limitsIhE9is_signedE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -4117,7 +4122,7 @@ proc ZNSt14numeric_limitsIiE8digits10E*() {.cdecl,
     importc: "_ZNSt14numeric_limitsIiE8digits10E",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14numeric_limitsIiE9issignedE*() {.cdecl,
+proc ZNSt14numeric_limitsIiE9is_signedE*() {.cdecl,
     importc: "_ZNSt14numeric_limitsIiE9is_signedE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -4128,7 +4133,7 @@ proc ZNSt14numeric_limitsIjE8digits10E*() {.cdecl,
     importc: "_ZNSt14numeric_limitsIjE8digits10E",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14numeric_limitsIjE9issignedE*() {.cdecl,
+proc ZNSt14numeric_limitsIjE9is_signedE*() {.cdecl,
     importc: "_ZNSt14numeric_limitsIjE9is_signedE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -4139,7 +4144,7 @@ proc ZNSt14numeric_limitsIlE8digits10E*() {.cdecl,
     importc: "_ZNSt14numeric_limitsIlE8digits10E",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14numeric_limitsIlE9issignedE*() {.cdecl,
+proc ZNSt14numeric_limitsIlE9is_signedE*() {.cdecl,
     importc: "_ZNSt14numeric_limitsIlE9is_signedE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -4150,7 +4155,7 @@ proc ZNSt14numeric_limitsImE8digits10E*() {.cdecl,
     importc: "_ZNSt14numeric_limitsImE8digits10E",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14numeric_limitsImE9issignedE*() {.cdecl,
+proc ZNSt14numeric_limitsImE9is_signedE*() {.cdecl,
     importc: "_ZNSt14numeric_limitsImE9is_signedE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -4161,7 +4166,7 @@ proc ZNSt14numeric_limitsIsE8digits10E*() {.cdecl,
     importc: "_ZNSt14numeric_limitsIsE8digits10E",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14numeric_limitsIsE9issignedE*() {.cdecl,
+proc ZNSt14numeric_limitsIsE9is_signedE*() {.cdecl,
     importc: "_ZNSt14numeric_limitsIsE9is_signedE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -4172,7 +4177,7 @@ proc ZNSt14numeric_limitsItE8digits10E*() {.cdecl,
     importc: "_ZNSt14numeric_limitsItE8digits10E",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14numeric_limitsItE9issignedE*() {.cdecl,
+proc ZNSt14numeric_limitsItE9is_signedE*() {.cdecl,
     importc: "_ZNSt14numeric_limitsItE9is_signedE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -4183,7 +4188,7 @@ proc ZNSt14numeric_limitsIwE8digits10E*() {.cdecl,
     importc: "_ZNSt14numeric_limitsIwE8digits10E",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14numeric_limitsIwE9issignedE*() {.cdecl,
+proc ZNSt14numeric_limitsIwE9is_signedE*() {.cdecl,
     importc: "_ZNSt14numeric_limitsIwE9is_signedE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -4194,7 +4199,7 @@ proc ZNSt14numeric_limitsIxE8digits10E*() {.cdecl,
     importc: "_ZNSt14numeric_limitsIxE8digits10E",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14numeric_limitsIxE9issignedE*() {.cdecl,
+proc ZNSt14numeric_limitsIxE9is_signedE*() {.cdecl,
     importc: "_ZNSt14numeric_limitsIxE9is_signedE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -4205,7 +4210,7 @@ proc ZNSt14numeric_limitsIyE8digits10E*() {.cdecl,
     importc: "_ZNSt14numeric_limitsIyE8digits10E",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt14numeric_limitsIyE9issignedE*() {.cdecl,
+proc ZNSt14numeric_limitsIyE9is_signedE*() {.cdecl,
     importc: "_ZNSt14numeric_limitsIyE9is_signedE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -4218,87 +4223,85 @@ proc ZNSt14overflow_errorD1Ev*() {.cdecl, importc: "_ZNSt14overflow_errorD1Ev",
 proc ZNSt14overflow_errorD2Ev*() {.cdecl, importc: "_ZNSt14overflow_errorD2Ev",
                                    header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt15_Numfloatbase10hasdenormE*() {.cdecl,
+proc ZNSt15_Num_float_base10has_denormE*() {.cdecl,
     importc: "_ZNSt15_Num_float_base10has_denormE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt15_Numfloatbase10isboundedE*() {.cdecl,
+proc ZNSt15_Num_float_base10is_boundedE*() {.cdecl,
     importc: "_ZNSt15_Num_float_base10is_boundedE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt15_Numfloatbase10isintegerE*() {.cdecl,
+proc ZNSt15_Num_float_base10is_integerE*() {.cdecl,
     importc: "_ZNSt15_Num_float_base10is_integerE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt15_Numfloatbase11roundstyleE*() {.cdecl,
+proc ZNSt15_Num_float_base11round_styleE*() {.cdecl,
     importc: "_ZNSt15_Num_float_base11round_styleE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt15_Numfloatbase12hasinfinityE*() {.cdecl,
+proc ZNSt15_Num_float_base12has_infinityE*() {.cdecl,
     importc: "_ZNSt15_Num_float_base12has_infinityE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt15_Numfloatbase13hasquietNaNE*() {.cdecl,
+proc ZNSt15_Num_float_base13has_quiet_NaNE*() {.cdecl,
     importc: "_ZNSt15_Num_float_base13has_quiet_NaNE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt15_Numfloatbase14isspecializedE*() {.cdecl,
+proc ZNSt15_Num_float_base14is_specializedE*() {.cdecl,
     importc: "_ZNSt15_Num_float_base14is_specializedE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt15_Numfloatbase15hasdenormlossE*() {.cdecl,
+proc ZNSt15_Num_float_base15has_denorm_lossE*() {.cdecl,
     importc: "_ZNSt15_Num_float_base15has_denorm_lossE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt15_Numfloatbase15tinynessbeforeE*() {.cdecl,
+proc ZNSt15_Num_float_base15tinyness_beforeE*() {.cdecl,
     importc: "_ZNSt15_Num_float_base15tinyness_beforeE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt15_Numfloatbase17hassignalingNaNE*() {.cdecl,
+proc ZNSt15_Num_float_base17has_signaling_NaNE*() {.cdecl,
     importc: "_ZNSt15_Num_float_base17has_signaling_NaNE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt15_Numfloatbase5radixE*() {.cdecl,
-                                     importc: "_ZNSt15_Num_float_base5radixE",
-                                     header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc ZNSt15_Numfloatbase5trapsE*() {.cdecl,
-                                     importc: "_ZNSt15_Num_float_base5trapsE",
-                                     header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc ZNSt15_Numfloatbase8isexactE*() {.cdecl, importc: "_ZNSt15_Num_float_base8is_exactE",
+proc ZNSt15_Num_float_base5radixE*() {.cdecl, importc: "_ZNSt15_Num_float_base5radixE",
                                        header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt15_Numfloatbase9isiec559E*() {.cdecl, importc: "_ZNSt15_Num_float_base9is_iec559E",
-                                        header: "orbis/LibcInternal.h".}
+proc ZNSt15_Num_float_base5trapsE*() {.cdecl, importc: "_ZNSt15_Num_float_base5trapsE",
+                                       header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt15_Numfloatbase9ismoduloE*() {.cdecl, importc: "_ZNSt15_Num_float_base9is_moduloE",
-                                        header: "orbis/LibcInternal.h".}
+proc ZNSt15_Num_float_base8is_exactE*() {.cdecl,
+    importc: "_ZNSt15_Num_float_base8is_exactE", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt15_Numfloatbase9issignedE*() {.cdecl, importc: "_ZNSt15_Num_float_base9is_signedE",
-                                        header: "orbis/LibcInternal.h".}
+proc ZNSt15_Num_float_base9is_iec559E*() {.cdecl,
+    importc: "_ZNSt15_Num_float_base9is_iec559E", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt15basic_streambufIcSt11chartraitsIcEE6xsgetnEPci*() {.cdecl,
+proc ZNSt15_Num_float_base9is_moduloE*() {.cdecl,
+    importc: "_ZNSt15_Num_float_base9is_moduloE", header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc ZNSt15_Num_float_base9is_signedE*() {.cdecl,
+    importc: "_ZNSt15_Num_float_base9is_signedE", header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc ZNSt15basic_streambufIcSt11char_traitsIcEE6xsgetnEPci*() {.cdecl,
     importc: "_ZNSt15basic_streambufIcSt11char_traitsIcEE6xsgetnEPci",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt15basic_streambufIcSt11chartraitsIcEE6xsputnEPKci*() {.cdecl,
+proc ZNSt15basic_streambufIcSt11char_traitsIcEE6xsputnEPKci*() {.cdecl,
     importc: "_ZNSt15basic_streambufIcSt11char_traitsIcEE6xsputnEPKci",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt15basic_streambufIcSt11chartraitsIcEE9showmanycEv*() {.cdecl,
+proc ZNSt15basic_streambufIcSt11char_traitsIcEE9showmanycEv*() {.cdecl,
     importc: "_ZNSt15basic_streambufIcSt11char_traitsIcEE9showmanycEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt15basic_streambufIwSt11chartraitsIwEE6xsgetnEPwi*() {.cdecl,
+proc ZNSt15basic_streambufIwSt11char_traitsIwEE6xsgetnEPwi*() {.cdecl,
     importc: "_ZNSt15basic_streambufIwSt11char_traitsIwEE6xsgetnEPwi",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt15basic_streambufIwSt11chartraitsIwEE6xsputnEPKwi*() {.cdecl,
+proc ZNSt15basic_streambufIwSt11char_traitsIwEE6xsputnEPKwi*() {.cdecl,
     importc: "_ZNSt15basic_streambufIwSt11char_traitsIwEE6xsputnEPKwi",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt15basic_streambufIwSt11chartraitsIwEE9showmanycEv*() {.cdecl,
+proc ZNSt15basic_streambufIwSt11char_traitsIwEE9showmanycEv*() {.cdecl,
     importc: "_ZNSt15basic_streambufIwSt11char_traitsIwEE9showmanycEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -4334,68 +4337,67 @@ proc ZNSt16nested_exceptionD2Ev*() {.cdecl,
                                      importc: "_ZNSt16nested_exceptionD2Ev",
                                      header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt17bad_functioncallD0Ev*() {.cdecl,
-                                     importc: "_ZNSt17bad_function_callD0Ev",
-                                     header: "orbis/LibcInternal.h".}
+proc ZNSt17bad_function_callD0Ev*() {.cdecl,
+                                      importc: "_ZNSt17bad_function_callD0Ev",
+                                      header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt17bad_functioncallD1Ev*() {.cdecl,
-                                     importc: "_ZNSt17bad_function_callD1Ev",
-                                     header: "orbis/LibcInternal.h".}
+proc ZNSt17bad_function_callD1Ev*() {.cdecl,
+                                      importc: "_ZNSt17bad_function_callD1Ev",
+                                      header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt17bad_functioncallD2Ev*() {.cdecl,
-                                     importc: "_ZNSt17bad_function_callD2Ev",
-                                     header: "orbis/LibcInternal.h".}
+proc ZNSt17bad_function_callD2Ev*() {.cdecl,
+                                      importc: "_ZNSt17bad_function_callD2Ev",
+                                      header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt20_FutureerrorobjectIiE14FutureobjectE*() {.cdecl,
+proc ZNSt20_Future_error_objectIiE14_Future_objectE*() {.cdecl,
     importc: "_ZNSt20_Future_error_objectIiE14_Future_objectE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt20bad_arraynewlengthD0Ev*() {.cdecl, importc: "_ZNSt20bad_array_new_lengthD0Ev",
-                                       header: "orbis/LibcInternal.h".}
+proc ZNSt20bad_array_new_lengthD0Ev*() {.cdecl,
+    importc: "_ZNSt20bad_array_new_lengthD0Ev", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt20bad_arraynewlengthD1Ev*() {.cdecl, importc: "_ZNSt20bad_array_new_lengthD1Ev",
-                                       header: "orbis/LibcInternal.h".}
+proc ZNSt20bad_array_new_lengthD1Ev*() {.cdecl,
+    importc: "_ZNSt20bad_array_new_lengthD1Ev", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt20bad_arraynewlengthD2Ev*() {.cdecl, importc: "_ZNSt20bad_array_new_lengthD2Ev",
-                                       header: "orbis/LibcInternal.h".}
+proc ZNSt20bad_array_new_lengthD2Ev*() {.cdecl,
+    importc: "_ZNSt20bad_array_new_lengthD2Ev", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt22_FutureerrorcategoryD0Ev*() {.cdecl,
+proc ZNSt22_Future_error_categoryD0Ev*() {.cdecl,
     importc: "_ZNSt22_Future_error_categoryD0Ev", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt22_FutureerrorcategoryD1Ev*() {.cdecl,
+proc ZNSt22_Future_error_categoryD1Ev*() {.cdecl,
     importc: "_ZNSt22_Future_error_categoryD1Ev", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt22_SystemerrorcategoryD0Ev*() {.cdecl,
+proc ZNSt22_System_error_categoryD0Ev*() {.cdecl,
     importc: "_ZNSt22_System_error_categoryD0Ev", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt22_SystemerrorcategoryD1Ev*() {.cdecl,
+proc ZNSt22_System_error_categoryD1Ev*() {.cdecl,
     importc: "_ZNSt22_System_error_categoryD1Ev", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt23_GenericerrorcategoryD0Ev*() {.cdecl,
+proc ZNSt23_Generic_error_categoryD0Ev*() {.cdecl,
     importc: "_ZNSt23_Generic_error_categoryD0Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt23_GenericerrorcategoryD1Ev*() {.cdecl,
+proc ZNSt23_Generic_error_categoryD1Ev*() {.cdecl,
     importc: "_ZNSt23_Generic_error_categoryD1Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt24_IostreamerrorcategoryD0Ev*() {.cdecl,
+proc ZNSt24_Iostream_error_categoryD0Ev*() {.cdecl,
     importc: "_ZNSt24_Iostream_error_categoryD0Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt24_IostreamerrorcategoryD1Ev*() {.cdecl,
+proc ZNSt24_Iostream_error_categoryD1Ev*() {.cdecl,
     importc: "_ZNSt24_Iostream_error_categoryD1Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt4_Pad7LaunchEPKcPP7pthread*() {.cdecl,
+proc ZNSt4_Pad7_LaunchEPKcPP7pthread*() {.cdecl,
     importc: "_ZNSt4_Pad7_LaunchEPKcPP7pthread", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt4_Pad7LaunchEPP7pthread*() {.cdecl,
-                                      importc: "_ZNSt4_Pad7_LaunchEPP7pthread",
-                                      header: "orbis/LibcInternal.h".}
+proc ZNSt4_Pad7_LaunchEPP7pthread*() {.cdecl, importc: "_ZNSt4_Pad7_LaunchEPP7pthread",
+                                       header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt4_Pad8ReleaseEv*() {.cdecl, importc: "_ZNSt4_Pad8_ReleaseEv",
-                              header: "orbis/LibcInternal.h".}
+proc ZNSt4_Pad8_ReleaseEv*() {.cdecl, importc: "_ZNSt4_Pad8_ReleaseEv",
+                               header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZNSt4_PadC2EPKc*() {.cdecl, importc: "_ZNSt4_PadC2EPKc",
                           header: "orbis/LibcInternal.h".}
@@ -4431,11 +4433,11 @@ proc ZNSt5ctypeIwED0Ev*() {.cdecl, importc: "_ZNSt5ctypeIwED0Ev",
 proc ZNSt5ctypeIwED1Ev*() {.cdecl, importc: "_ZNSt5ctypeIwED1Ev",
                             header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt6_Mutex5LockEv*() {.cdecl, importc: "_ZNSt6_Mutex5_LockEv",
-                             header: "orbis/LibcInternal.h".}
+proc ZNSt6_Mutex5_LockEv*() {.cdecl, importc: "_ZNSt6_Mutex5_LockEv",
+                              header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt6_Mutex7UnlockEv*() {.cdecl, importc: "_ZNSt6_Mutex7_UnlockEv",
-                               header: "orbis/LibcInternal.h".}
+proc ZNSt6_Mutex7_UnlockEv*() {.cdecl, importc: "_ZNSt6_Mutex7_UnlockEv",
+                                header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZNSt6_MutexC1Ev*() {.cdecl, importc: "_ZNSt6_MutexC1Ev",
                           header: "orbis/LibcInternal.h".}
@@ -4449,8 +4451,8 @@ proc ZNSt6_MutexD1Ev*() {.cdecl, importc: "_ZNSt6_MutexD1Ev",
 proc ZNSt6_MutexD2Ev*() {.cdecl, importc: "_ZNSt6_MutexD2Ev",
                           header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt6_Winit9InitcntE*() {.cdecl, importc: "_ZNSt6_Winit9_Init_cntE",
-                               header: "orbis/LibcInternal.h".}
+proc ZNSt6_Winit9_Init_cntE*() {.cdecl, importc: "_ZNSt6_Winit9_Init_cntE",
+                                 header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZNSt6_WinitC1Ev*() {.cdecl, importc: "_ZNSt6_WinitC1Ev",
                           header: "orbis/LibcInternal.h".}
@@ -4464,19 +4466,19 @@ proc ZNSt6_WinitD1Ev*() {.cdecl, importc: "_ZNSt6_WinitD1Ev",
 proc ZNSt6_WinitD2Ev*() {.cdecl, importc: "_ZNSt6_WinitD2Ev",
                           header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt6chrono12steady_clock12ismonotonicE*() {.cdecl,
+proc ZNSt6chrono12steady_clock12is_monotonicE*() {.cdecl,
     importc: "_ZNSt6chrono12steady_clock12is_monotonicE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt6chrono12steady_clock9issteadyE*() {.cdecl,
+proc ZNSt6chrono12steady_clock9is_steadyE*() {.cdecl,
     importc: "_ZNSt6chrono12steady_clock9is_steadyE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt6chrono12system_clock12ismonotonicE*() {.cdecl,
+proc ZNSt6chrono12system_clock12is_monotonicE*() {.cdecl,
     importc: "_ZNSt6chrono12system_clock12is_monotonicE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt6chrono12system_clock9issteadyE*() {.cdecl,
+proc ZNSt6chrono12system_clock9is_steadyE*() {.cdecl,
     importc: "_ZNSt6chrono12system_clock9is_steadyE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -4486,8 +4488,8 @@ proc ZNSt6locale16_GetgloballocaleEv*() {.cdecl,
 proc ZNSt6locale16_SetgloballocaleEPv*() {.cdecl,
     importc: "_ZNSt6locale16_SetgloballocaleEPv", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt6locale2id7_IdcntE*() {.cdecl, importc: "_ZNSt6locale2id7_Id_cntE",
-                                 header: "orbis/LibcInternal.h".}
+proc ZNSt6locale2id7_Id_cntE*() {.cdecl, importc: "_ZNSt6locale2id7_Id_cntE",
+                                  header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZNSt6locale5_InitEv*() {.cdecl, importc: "_ZNSt6locale5_InitEv",
                               header: "orbis/LibcInternal.h".}
@@ -4509,22 +4511,22 @@ proc ZNSt6locale5facet9_RegisterEv*() {.cdecl, importc: "_ZNSt6locale5facet9_Reg
 proc ZNSt6locale6globalERKS*() {.cdecl, importc: "_ZNSt6locale6globalERKS_",
                                  header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt6locale7_Locimp7AddfacEPNS5facetEm*() {.cdecl,
+proc ZNSt6locale7_Locimp7_AddfacEPNS_5facetEm*() {.cdecl,
     importc: "_ZNSt6locale7_Locimp7_AddfacEPNS_5facetEm",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt6locale7_Locimp8ClocptrE*() {.cdecl, importc: "_ZNSt6locale7_Locimp8_ClocptrE",
-                                       header: "orbis/LibcInternal.h".}
+proc ZNSt6locale7_Locimp8_ClocptrE*() {.cdecl, importc: "_ZNSt6locale7_Locimp8_ClocptrE",
+                                        header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt6locale7_Locimp8MakelocERKSt8LocinfoiPS0PKS*() {.cdecl,
+proc ZNSt6locale7_Locimp8_MakelocERKSt8_LocinfoiPS0_PKS*() {.cdecl,
     importc: "_ZNSt6locale7_Locimp8_MakelocERKSt8_LocinfoiPS0_PKS_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt6locale7_Locimp9MakewlocERKSt8LocinfoiPS0PKS*() {.cdecl,
+proc ZNSt6locale7_Locimp9_MakewlocERKSt8_LocinfoiPS0_PKS*() {.cdecl,
     importc: "_ZNSt6locale7_Locimp9_MakewlocERKSt8_LocinfoiPS0_PKS_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt6locale7_Locimp9MakexlocERKSt8LocinfoiPS0PKS*() {.cdecl,
+proc ZNSt6locale7_Locimp9_MakexlocERKSt8_LocinfoiPS0_PKS*() {.cdecl,
     importc: "_ZNSt6locale7_Locimp9_MakexlocERKSt8_LocinfoiPS0_PKS_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -4561,7 +4563,7 @@ proc ZNSt6thread20hardware_concurrencyEv*() {.cdecl,
     importc: "_ZNSt6thread20hardware_concurrencyEv",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt7_MpunctIcE5InitERKSt8Locinfob*() {.cdecl,
+proc ZNSt7_MpunctIcE5_InitERKSt8_Locinfob*() {.cdecl,
     importc: "_ZNSt7_MpunctIcE5_InitERKSt8_Locinfob",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -4577,7 +4579,7 @@ proc ZNSt7_MpunctIcED0Ev*() {.cdecl, importc: "_ZNSt7_MpunctIcED0Ev",
 proc ZNSt7_MpunctIcED1Ev*() {.cdecl, importc: "_ZNSt7_MpunctIcED1Ev",
                               header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt7_MpunctIwE5InitERKSt8Locinfob*() {.cdecl,
+proc ZNSt7_MpunctIwE5_InitERKSt8_Locinfob*() {.cdecl,
     importc: "_ZNSt7_MpunctIwE5_InitERKSt8_Locinfob",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -4596,21 +4598,21 @@ proc ZNSt7_MpunctIwED1Ev*() {.cdecl, importc: "_ZNSt7_MpunctIwED1Ev",
 proc ZNSt7codecvtIcc9_MbstatetE2idE*() {.cdecl,
     importc: "_ZNSt7codecvtIcc9_MbstatetE2idE", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt7codecvtIcc9_MbstatetE7GetcatEPPKNSt6locale5facetEPKS2*() {.cdecl,
+proc ZNSt7codecvtIcc9_MbstatetE7_GetcatEPPKNSt6locale5facetEPKS2*() {.cdecl,
     importc: "_ZNSt7codecvtIcc9_MbstatetE7_GetcatEPPKNSt6locale5facetEPKS2_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZNSt7codecvtIcc9_MbstatetEC1Em*() {.cdecl,
     importc: "_ZNSt7codecvtIcc9_MbstatetEC1Em", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt7codecvtIcc9_MbstatetEC1ERKSt8Locinfom*() {.cdecl,
+proc ZNSt7codecvtIcc9_MbstatetEC1ERKSt8_Locinfom*() {.cdecl,
     importc: "_ZNSt7codecvtIcc9_MbstatetEC1ERKSt8_Locinfom",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZNSt7codecvtIcc9_MbstatetEC2Em*() {.cdecl,
     importc: "_ZNSt7codecvtIcc9_MbstatetEC2Em", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt7codecvtIcc9_MbstatetEC2ERKSt8Locinfom*() {.cdecl,
+proc ZNSt7codecvtIcc9_MbstatetEC2ERKSt8_Locinfom*() {.cdecl,
     importc: "_ZNSt7codecvtIcc9_MbstatetEC2ERKSt8_Locinfom",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -4718,129 +4720,129 @@ proc ZNSt7collateIwED1Ev*() {.cdecl, importc: "_ZNSt7collateIwED1Ev",
 proc ZNSt7collateIwED2Ev*() {.cdecl, importc: "_ZNSt7collateIwED2Ev",
                               header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt7num_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE2idE*() {.cdecl, importc: "_ZNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE2idE",
+proc ZNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE2idE*() {.cdecl, importc: "_ZNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE2idE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt7num_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE7GetcatEPPKNSt6locale5facetEPKS5*() {.
+proc ZNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE7_GetcatEPPKNSt6locale5facetEPKS5*() {.
     cdecl, importc: "_ZNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE7_GetcatEPPKNSt6locale5facetEPKS5_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt7num_getIcSt19istreambufiteratorIcSt11chartraitsIcEEEC1Em*() {.cdecl, importc: "_ZNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC1Em",
+proc ZNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC1Em*() {.cdecl, importc: "_ZNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC1Em",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt7num_getIcSt19istreambufiteratorIcSt11chartraitsIcEEEC1ERKSt8Locinfom*() {.
+proc ZNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC1ERKSt8_Locinfom*() {.
     cdecl, importc: "_ZNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC1ERKSt8_Locinfom",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt7num_getIcSt19istreambufiteratorIcSt11chartraitsIcEEEC2Em*() {.cdecl, importc: "_ZNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC2Em",
+proc ZNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC2Em*() {.cdecl, importc: "_ZNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC2Em",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt7num_getIcSt19istreambufiteratorIcSt11chartraitsIcEEEC2ERKSt8Locinfom*() {.
+proc ZNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC2ERKSt8_Locinfom*() {.
     cdecl, importc: "_ZNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC2ERKSt8_Locinfom",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt7num_getIcSt19istreambufiteratorIcSt11chartraitsIcEEED0Ev*() {.cdecl, importc: "_ZNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED0Ev",
+proc ZNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED0Ev*() {.cdecl, importc: "_ZNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED0Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt7num_getIcSt19istreambufiteratorIcSt11chartraitsIcEEED1Ev*() {.cdecl, importc: "_ZNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED1Ev",
+proc ZNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED1Ev*() {.cdecl, importc: "_ZNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED1Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt7num_getIcSt19istreambufiteratorIcSt11chartraitsIcEEED2Ev*() {.cdecl, importc: "_ZNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED2Ev",
+proc ZNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED2Ev*() {.cdecl, importc: "_ZNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED2Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt7num_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE2idE*() {.cdecl, importc: "_ZNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE2idE",
+proc ZNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE2idE*() {.cdecl, importc: "_ZNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE2idE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt7num_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE7GetcatEPPKNSt6locale5facetEPKS5*() {.
+proc ZNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE7_GetcatEPPKNSt6locale5facetEPKS5*() {.
     cdecl, importc: "_ZNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE7_GetcatEPPKNSt6locale5facetEPKS5_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt7num_getIwSt19istreambufiteratorIwSt11chartraitsIwEEEC1Em*() {.cdecl, importc: "_ZNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC1Em",
+proc ZNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC1Em*() {.cdecl, importc: "_ZNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC1Em",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt7num_getIwSt19istreambufiteratorIwSt11chartraitsIwEEEC1ERKSt8Locinfom*() {.
+proc ZNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC1ERKSt8_Locinfom*() {.
     cdecl, importc: "_ZNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC1ERKSt8_Locinfom",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt7num_getIwSt19istreambufiteratorIwSt11chartraitsIwEEEC2Em*() {.cdecl, importc: "_ZNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC2Em",
+proc ZNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC2Em*() {.cdecl, importc: "_ZNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC2Em",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt7num_getIwSt19istreambufiteratorIwSt11chartraitsIwEEEC2ERKSt8Locinfom*() {.
+proc ZNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC2ERKSt8_Locinfom*() {.
     cdecl, importc: "_ZNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC2ERKSt8_Locinfom",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt7num_getIwSt19istreambufiteratorIwSt11chartraitsIwEEED0Ev*() {.cdecl, importc: "_ZNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED0Ev",
+proc ZNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED0Ev*() {.cdecl, importc: "_ZNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED0Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt7num_getIwSt19istreambufiteratorIwSt11chartraitsIwEEED1Ev*() {.cdecl, importc: "_ZNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED1Ev",
+proc ZNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED1Ev*() {.cdecl, importc: "_ZNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED1Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt7num_getIwSt19istreambufiteratorIwSt11chartraitsIwEEED2Ev*() {.cdecl, importc: "_ZNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED2Ev",
+proc ZNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED2Ev*() {.cdecl, importc: "_ZNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED2Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt7num_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE2idE*() {.cdecl, importc: "_ZNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE2idE",
+proc ZNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE2idE*() {.cdecl, importc: "_ZNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE2idE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt7num_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE7GetcatEPPKNSt6locale5facetEPKS5*() {.
+proc ZNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE7_GetcatEPPKNSt6locale5facetEPKS5*() {.
     cdecl, importc: "_ZNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE7_GetcatEPPKNSt6locale5facetEPKS5_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt7num_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEEC1Em*() {.cdecl, importc: "_ZNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC1Em",
+proc ZNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC1Em*() {.cdecl, importc: "_ZNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC1Em",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt7num_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEEC1ERKSt8Locinfom*() {.
+proc ZNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC1ERKSt8_Locinfom*() {.
     cdecl, importc: "_ZNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC1ERKSt8_Locinfom",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt7num_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEEC2Em*() {.cdecl, importc: "_ZNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC2Em",
+proc ZNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC2Em*() {.cdecl, importc: "_ZNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC2Em",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt7num_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEEC2ERKSt8Locinfom*() {.
+proc ZNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC2ERKSt8_Locinfom*() {.
     cdecl, importc: "_ZNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC2ERKSt8_Locinfom",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt7num_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEED0Ev*() {.cdecl, importc: "_ZNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED0Ev",
+proc ZNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED0Ev*() {.cdecl, importc: "_ZNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED0Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt7num_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEED1Ev*() {.cdecl, importc: "_ZNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED1Ev",
+proc ZNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED1Ev*() {.cdecl, importc: "_ZNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED1Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt7num_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEED2Ev*() {.cdecl, importc: "_ZNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED2Ev",
+proc ZNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED2Ev*() {.cdecl, importc: "_ZNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED2Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt7num_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE2idE*() {.cdecl, importc: "_ZNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE2idE",
+proc ZNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE2idE*() {.cdecl, importc: "_ZNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE2idE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt7num_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE7GetcatEPPKNSt6locale5facetEPKS5*() {.
+proc ZNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE7_GetcatEPPKNSt6locale5facetEPKS5*() {.
     cdecl, importc: "_ZNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE7_GetcatEPPKNSt6locale5facetEPKS5_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt7num_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEEC1Em*() {.cdecl, importc: "_ZNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC1Em",
+proc ZNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC1Em*() {.cdecl, importc: "_ZNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC1Em",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt7num_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEEC1ERKSt8Locinfom*() {.
+proc ZNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC1ERKSt8_Locinfom*() {.
     cdecl, importc: "_ZNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC1ERKSt8_Locinfom",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt7num_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEEC2Em*() {.cdecl, importc: "_ZNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC2Em",
+proc ZNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC2Em*() {.cdecl, importc: "_ZNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC2Em",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt7num_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEEC2ERKSt8Locinfom*() {.
+proc ZNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC2ERKSt8_Locinfom*() {.
     cdecl, importc: "_ZNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC2ERKSt8_Locinfom",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt7num_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEED0Ev*() {.cdecl, importc: "_ZNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED0Ev",
+proc ZNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED0Ev*() {.cdecl, importc: "_ZNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED0Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt7num_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEED1Ev*() {.cdecl, importc: "_ZNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED1Ev",
+proc ZNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED1Ev*() {.cdecl, importc: "_ZNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED1Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt7num_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEED2Ev*() {.cdecl, importc: "_ZNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED2Ev",
+proc ZNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED2Ev*() {.cdecl, importc: "_ZNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED2Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8_Locinfo8AddcatsEiPKc*() {.cdecl,
-                                     importc: "_ZNSt8_Locinfo8_AddcatsEiPKc",
-                                     header: "orbis/LibcInternal.h".}
+proc ZNSt8_Locinfo8_AddcatsEiPKc*() {.cdecl,
+                                      importc: "_ZNSt8_Locinfo8_AddcatsEiPKc",
+                                      header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZNSt8_LocinfoC1EiPKc*() {.cdecl, importc: "_ZNSt8_LocinfoC1EiPKc",
                                header: "orbis/LibcInternal.h".}
@@ -4875,8 +4877,8 @@ proc ZNSt8bad_castD1Ev*() {.cdecl, importc: "_ZNSt8bad_castD1Ev",
 proc ZNSt8bad_castD2Ev*() {.cdecl, importc: "_ZNSt8bad_castD2Ev",
                             header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8ios_base4Init9InitcntE*() {.cdecl, importc: "_ZNSt8ios_base4Init9_Init_cntE",
-                                      header: "orbis/LibcInternal.h".}
+proc ZNSt8ios_base4Init9_Init_cntE*() {.cdecl, importc: "_ZNSt8ios_base4Init9_Init_cntE",
+                                        header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZNSt8ios_base4InitC1Ev*() {.cdecl, importc: "_ZNSt8ios_base4InitC1Ev",
                                  header: "orbis/LibcInternal.h".}
@@ -4890,18 +4892,18 @@ proc ZNSt8ios_base4InitD1Ev*() {.cdecl, importc: "_ZNSt8ios_base4InitD1Ev",
 proc ZNSt8ios_base4InitD2Ev*() {.cdecl, importc: "_ZNSt8ios_base4InitD2Ev",
                                  header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8ios_base5SyncE*() {.cdecl, importc: "_ZNSt8ios_base5_SyncE",
-                              header: "orbis/LibcInternal.h".}
+proc ZNSt8ios_base5_SyncE*() {.cdecl, importc: "_ZNSt8ios_base5_SyncE",
+                               header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8ios_base5clearENSt5IosbIiE8IostateEb*() {.cdecl,
+proc ZNSt8ios_base5clearENSt5_IosbIiE8_IostateEb*() {.cdecl,
     importc: "_ZNSt8ios_base5clearENSt5_IosbIiE8_IostateEb",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8ios_base6IndexE*() {.cdecl, importc: "_ZNSt8ios_base6_IndexE",
-                               header: "orbis/LibcInternal.h".}
+proc ZNSt8ios_base6_IndexE*() {.cdecl, importc: "_ZNSt8ios_base6_IndexE",
+                                header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8ios_base7AddstdEPS*() {.cdecl, importc: "_ZNSt8ios_base7_AddstdEPS_",
-                                  header: "orbis/LibcInternal.h".}
+proc ZNSt8ios_base7_AddstdEPS*() {.cdecl, importc: "_ZNSt8ios_base7_AddstdEPS_",
+                                   header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZNSt8ios_base7failureD0Ev*() {.cdecl,
                                     importc: "_ZNSt8ios_base7failureD0Ev",
@@ -5035,7 +5037,7 @@ proc ZNSt8numpunctIcED2Ev*() {.cdecl, importc: "_ZNSt8numpunctIcED2Ev",
 proc ZNSt8numpunctIwE2idE*() {.cdecl, importc: "_ZNSt8numpunctIwE2idE",
                                header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8numpunctIwE5_InitERKSt8Locinfob*() {.cdecl,
+proc ZNSt8numpunctIwE5_InitERKSt8_Locinfob*() {.cdecl,
     importc: "_ZNSt8numpunctIwE5_InitERKSt8_Locinfob",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -5072,215 +5074,241 @@ proc ZNSt8numpunctIwED1Ev*() {.cdecl, importc: "_ZNSt8numpunctIwED1Ev",
 proc ZNSt8numpunctIwED2Ev*() {.cdecl, importc: "_ZNSt8numpunctIwED2Ev",
                                header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8time_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE2idE*() {.cdecl, importc: "_ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE2idE",
+proc ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE2idE*() {.
+    cdecl, importc: "_ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE2idE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8time_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE7GetcatEPPKNSt6locale5facetEPKS5*() {.
+proc ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE7_GetcatEPPKNSt6locale5facetEPKS5*() {.
     cdecl, importc: "_ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE7_GetcatEPPKNSt6locale5facetEPKS5_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8time_getIcSt19istreambufiteratorIcSt11chartraitsIcEEEC1Em*() {.cdecl, importc: "_ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC1Em",
+proc ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC1Em*() {.
+    cdecl, importc: "_ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC1Em",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8time_getIcSt19istreambufiteratorIcSt11chartraitsIcEEEC1EPKcm*() {.
+proc ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC1EPKcm*() {.
     cdecl, importc: "_ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC1EPKcm",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8time_getIcSt19istreambufiteratorIcSt11chartraitsIcEEEC1ERKSt8Locinfom*() {.
+proc ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC1ERKSt8_Locinfom*() {.
     cdecl, importc: "_ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC1ERKSt8_Locinfom",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8time_getIcSt19istreambufiteratorIcSt11chartraitsIcEEEC2Em*() {.cdecl, importc: "_ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC2Em",
+proc ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC2Em*() {.
+    cdecl, importc: "_ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC2Em",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8time_getIcSt19istreambufiteratorIcSt11chartraitsIcEEEC2EPKcm*() {.
+proc ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC2EPKcm*() {.
     cdecl, importc: "_ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC2EPKcm",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8time_getIcSt19istreambufiteratorIcSt11chartraitsIcEEEC2ERKSt8Locinfom*() {.
+proc ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC2ERKSt8_Locinfom*() {.
     cdecl, importc: "_ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC2ERKSt8_Locinfom",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8time_getIcSt19istreambufiteratorIcSt11chartraitsIcEEED0Ev*() {.cdecl, importc: "_ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED0Ev",
+proc ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED0Ev*() {.
+    cdecl, importc: "_ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED0Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8time_getIcSt19istreambufiteratorIcSt11chartraitsIcEEED1Ev*() {.cdecl, importc: "_ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED1Ev",
+proc ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED1Ev*() {.
+    cdecl, importc: "_ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED1Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8time_getIcSt19istreambufiteratorIcSt11chartraitsIcEEED2Ev*() {.cdecl, importc: "_ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED2Ev",
+proc ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED2Ev*() {.
+    cdecl, importc: "_ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED2Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8time_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE2idE*() {.cdecl, importc: "_ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE2idE",
+proc ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE2idE*() {.
+    cdecl, importc: "_ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE2idE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8time_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE7GetcatEPPKNSt6locale5facetEPKS5*() {.
+proc ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE7_GetcatEPPKNSt6locale5facetEPKS5*() {.
     cdecl, importc: "_ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE7_GetcatEPPKNSt6locale5facetEPKS5_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8time_getIwSt19istreambufiteratorIwSt11chartraitsIwEEEC1Em*() {.cdecl, importc: "_ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC1Em",
+proc ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC1Em*() {.
+    cdecl, importc: "_ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC1Em",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8time_getIwSt19istreambufiteratorIwSt11chartraitsIwEEEC1EPKcm*() {.
+proc ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC1EPKcm*() {.
     cdecl, importc: "_ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC1EPKcm",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8time_getIwSt19istreambufiteratorIwSt11chartraitsIwEEEC1ERKSt8Locinfom*() {.
+proc ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC1ERKSt8_Locinfom*() {.
     cdecl, importc: "_ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC1ERKSt8_Locinfom",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8time_getIwSt19istreambufiteratorIwSt11chartraitsIwEEEC2Em*() {.cdecl, importc: "_ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC2Em",
+proc ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC2Em*() {.
+    cdecl, importc: "_ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC2Em",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8time_getIwSt19istreambufiteratorIwSt11chartraitsIwEEEC2EPKcm*() {.
+proc ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC2EPKcm*() {.
     cdecl, importc: "_ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC2EPKcm",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8time_getIwSt19istreambufiteratorIwSt11chartraitsIwEEEC2ERKSt8Locinfom*() {.
+proc ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC2ERKSt8_Locinfom*() {.
     cdecl, importc: "_ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC2ERKSt8_Locinfom",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8time_getIwSt19istreambufiteratorIwSt11chartraitsIwEEED0Ev*() {.cdecl, importc: "_ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED0Ev",
+proc ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED0Ev*() {.
+    cdecl, importc: "_ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED0Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8time_getIwSt19istreambufiteratorIwSt11chartraitsIwEEED1Ev*() {.cdecl, importc: "_ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED1Ev",
+proc ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED1Ev*() {.
+    cdecl, importc: "_ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED1Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8time_getIwSt19istreambufiteratorIwSt11chartraitsIwEEED2Ev*() {.cdecl, importc: "_ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED2Ev",
+proc ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED2Ev*() {.
+    cdecl, importc: "_ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED2Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8time_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE2idE*() {.cdecl, importc: "_ZNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE2idE",
+proc ZNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE2idE*() {.
+    cdecl, importc: "_ZNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE2idE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8time_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE7GetcatEPPKNSt6locale5facetEPKS5*() {.
+proc ZNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE7_GetcatEPPKNSt6locale5facetEPKS5*() {.
     cdecl, importc: "_ZNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE7_GetcatEPPKNSt6locale5facetEPKS5_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8time_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEEC1Em*() {.cdecl, importc: "_ZNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC1Em",
+proc ZNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC1Em*() {.
+    cdecl, importc: "_ZNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC1Em",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8time_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEEC1ERKSt8Locinfom*() {.
+proc ZNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC1ERKSt8_Locinfom*() {.
     cdecl, importc: "_ZNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC1ERKSt8_Locinfom",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8time_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEEC2Em*() {.cdecl, importc: "_ZNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC2Em",
+proc ZNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC2Em*() {.
+    cdecl, importc: "_ZNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC2Em",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8time_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEEC2ERKSt8Locinfom*() {.
+proc ZNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC2ERKSt8_Locinfom*() {.
     cdecl, importc: "_ZNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC2ERKSt8_Locinfom",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8time_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEED0Ev*() {.cdecl, importc: "_ZNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED0Ev",
+proc ZNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED0Ev*() {.
+    cdecl, importc: "_ZNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED0Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8time_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEED1Ev*() {.cdecl, importc: "_ZNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED1Ev",
+proc ZNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED1Ev*() {.
+    cdecl, importc: "_ZNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED1Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8time_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEED2Ev*() {.cdecl, importc: "_ZNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED2Ev",
+proc ZNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED2Ev*() {.
+    cdecl, importc: "_ZNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED2Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8time_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE2idE*() {.cdecl, importc: "_ZNSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE2idE",
+proc ZNSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE2idE*() {.
+    cdecl, importc: "_ZNSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE2idE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8time_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE7GetcatEPPKNSt6locale5facetEPKS5*() {.
+proc ZNSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE7_GetcatEPPKNSt6locale5facetEPKS5*() {.
     cdecl, importc: "_ZNSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE7_GetcatEPPKNSt6locale5facetEPKS5_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8time_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEEC1Em*() {.cdecl, importc: "_ZNSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC1Em",
+proc ZNSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC1Em*() {.
+    cdecl, importc: "_ZNSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC1Em",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8time_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEEC1ERKSt8Locinfom*() {.
+proc ZNSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC1ERKSt8_Locinfom*() {.
     cdecl, importc: "_ZNSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC1ERKSt8_Locinfom",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8time_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEEC2Em*() {.cdecl, importc: "_ZNSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC2Em",
+proc ZNSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC2Em*() {.
+    cdecl, importc: "_ZNSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC2Em",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8time_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEEC2ERKSt8Locinfom*() {.
+proc ZNSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC2ERKSt8_Locinfom*() {.
     cdecl, importc: "_ZNSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC2ERKSt8_Locinfom",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8time_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEED0Ev*() {.cdecl, importc: "_ZNSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED0Ev",
+proc ZNSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED0Ev*() {.
+    cdecl, importc: "_ZNSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED0Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8time_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEED1Ev*() {.cdecl, importc: "_ZNSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED1Ev",
+proc ZNSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED1Ev*() {.
+    cdecl, importc: "_ZNSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED1Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt8time_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEED2Ev*() {.cdecl, importc: "_ZNSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED2Ev",
+proc ZNSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED2Ev*() {.
+    cdecl, importc: "_ZNSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED2Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9_Numbase10hasdenormE*() {.cdecl,
-                                    importc: "_ZNSt9_Num_base10has_denormE",
-                                    header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc ZNSt9_Numbase10isboundedE*() {.cdecl,
-                                    importc: "_ZNSt9_Num_base10is_boundedE",
-                                    header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc ZNSt9_Numbase10isintegerE*() {.cdecl,
-                                    importc: "_ZNSt9_Num_base10is_integerE",
-                                    header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc ZNSt9_Numbase11roundstyleE*() {.cdecl,
-                                     importc: "_ZNSt9_Num_base11round_styleE",
-                                     header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc ZNSt9_Numbase12hasinfinityE*() {.cdecl, importc: "_ZNSt9_Num_base12has_infinityE",
+proc ZNSt9_Num_base10has_denormE*() {.cdecl,
+                                      importc: "_ZNSt9_Num_base10has_denormE",
                                       header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9_Numbase12maxdigits10E*() {.cdecl, importc: "_ZNSt9_Num_base12max_digits10E",
+proc ZNSt9_Num_base10is_boundedE*() {.cdecl,
+                                      importc: "_ZNSt9_Num_base10is_boundedE",
                                       header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9_Numbase12maxexponentE*() {.cdecl, importc: "_ZNSt9_Num_base12max_exponentE",
+proc ZNSt9_Num_base10is_integerE*() {.cdecl,
+                                      importc: "_ZNSt9_Num_base10is_integerE",
                                       header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9_Numbase12minexponentE*() {.cdecl, importc: "_ZNSt9_Num_base12min_exponentE",
-                                      header: "orbis/LibcInternal.h".}
+proc ZNSt9_Num_base11round_styleE*() {.cdecl, importc: "_ZNSt9_Num_base11round_styleE",
+                                       header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9_Numbase13hasquietNaNE*() {.cdecl, importc: "_ZNSt9_Num_base13has_quiet_NaNE",
-                                      header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc ZNSt9_Numbase14isspecializedE*() {.cdecl, importc: "_ZNSt9_Num_base14is_specializedE",
+proc ZNSt9_Num_base12has_infinityE*() {.cdecl, importc: "_ZNSt9_Num_base12has_infinityE",
                                         header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9_Numbase14maxexponent10E*() {.cdecl, importc: "_ZNSt9_Num_base14max_exponent10E",
+proc ZNSt9_Num_base12max_digits10E*() {.cdecl, importc: "_ZNSt9_Num_base12max_digits10E",
                                         header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9_Numbase14minexponent10E*() {.cdecl, importc: "_ZNSt9_Num_base14min_exponent10E",
+proc ZNSt9_Num_base12max_exponentE*() {.cdecl, importc: "_ZNSt9_Num_base12max_exponentE",
                                         header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9_Numbase15hasdenormlossE*() {.cdecl, importc: "_ZNSt9_Num_base15has_denorm_lossE",
+proc ZNSt9_Num_base12min_exponentE*() {.cdecl, importc: "_ZNSt9_Num_base12min_exponentE",
                                         header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9_Numbase15tinynessbeforeE*() {.cdecl,
+proc ZNSt9_Num_base13has_quiet_NaNE*() {.cdecl,
+    importc: "_ZNSt9_Num_base13has_quiet_NaNE", header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc ZNSt9_Num_base14is_specializedE*() {.cdecl,
+    importc: "_ZNSt9_Num_base14is_specializedE", header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc ZNSt9_Num_base14max_exponent10E*() {.cdecl,
+    importc: "_ZNSt9_Num_base14max_exponent10E", header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc ZNSt9_Num_base14min_exponent10E*() {.cdecl,
+    importc: "_ZNSt9_Num_base14min_exponent10E", header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc ZNSt9_Num_base15has_denorm_lossE*() {.cdecl,
+    importc: "_ZNSt9_Num_base15has_denorm_lossE", header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc ZNSt9_Num_base15tinyness_beforeE*() {.cdecl,
     importc: "_ZNSt9_Num_base15tinyness_beforeE", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9_Numbase17hassignalingNaNE*() {.cdecl,
+proc ZNSt9_Num_base17has_signaling_NaNE*() {.cdecl,
     importc: "_ZNSt9_Num_base17has_signaling_NaNE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9_Numbase5radixE*() {.cdecl, importc: "_ZNSt9_Num_base5radixE",
-                               header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc ZNSt9_Numbase5trapsE*() {.cdecl, importc: "_ZNSt9_Num_base5trapsE",
-                               header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc ZNSt9_Numbase6digitsE*() {.cdecl, importc: "_ZNSt9_Num_base6digitsE",
+proc ZNSt9_Num_base5radixE*() {.cdecl, importc: "_ZNSt9_Num_base5radixE",
                                 header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9_Numbase8digits10E*() {.cdecl, importc: "_ZNSt9_Num_base8digits10E",
-                                  header: "orbis/LibcInternal.h".}
+proc ZNSt9_Num_base5trapsE*() {.cdecl, importc: "_ZNSt9_Num_base5trapsE",
+                                header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9_Numbase8isexactE*() {.cdecl, importc: "_ZNSt9_Num_base8is_exactE",
+proc ZNSt9_Num_base6digitsE*() {.cdecl, importc: "_ZNSt9_Num_base6digitsE",
                                  header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9_Numbase9isiec559E*() {.cdecl, importc: "_ZNSt9_Num_base9is_iec559E",
-                                  header: "orbis/LibcInternal.h".}
+proc ZNSt9_Num_base8digits10E*() {.cdecl, importc: "_ZNSt9_Num_base8digits10E",
+                                   header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9_Numbase9ismoduloE*() {.cdecl, importc: "_ZNSt9_Num_base9is_moduloE",
-                                  header: "orbis/LibcInternal.h".}
+proc ZNSt9_Num_base8is_exactE*() {.cdecl, importc: "_ZNSt9_Num_base8is_exactE",
+                                   header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9_Numbase9issignedE*() {.cdecl, importc: "_ZNSt9_Num_base9is_signedE",
-                                  header: "orbis/LibcInternal.h".}
+proc ZNSt9_Num_base9is_iec559E*() {.cdecl,
+                                    importc: "_ZNSt9_Num_base9is_iec559E",
+                                    header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc ZNSt9_Num_base9is_moduloE*() {.cdecl,
+                                    importc: "_ZNSt9_Num_base9is_moduloE",
+                                    header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc ZNSt9_Num_base9is_signedE*() {.cdecl,
+                                    importc: "_ZNSt9_Num_base9is_signedE",
+                                    header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZNSt9bad_allocD0Ev*() {.cdecl, importc: "_ZNSt9bad_allocD0Ev",
                              header: "orbis/LibcInternal.h".}
@@ -5291,15 +5319,15 @@ proc ZNSt9bad_allocD1Ev*() {.cdecl, importc: "_ZNSt9bad_allocD1Ev",
 proc ZNSt9bad_allocD2Ev*() {.cdecl, importc: "_ZNSt9bad_allocD2Ev",
                              header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9basic_iosIcSt11chartraitsIcEE4initEPSt15basicstreambufIcS1Eb*() {.
+proc ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_Eb*() {.
     cdecl, importc: "_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_Eb",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9basic_iosIwSt11chartraitsIwEE4initEPSt15basicstreambufIwS1Eb*() {.
+proc ZNSt9basic_iosIwSt11char_traitsIwEE4initEPSt15basic_streambufIwS1_Eb*() {.
     cdecl, importc: "_ZNSt9basic_iosIwSt11char_traitsIwEE4initEPSt15basic_streambufIwS1_Eb",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9exception18_SetraisehandlerEPFvRKSE*() {.cdecl,
+proc ZNSt9exception18_Set_raise_handlerEPFvRKS_E*() {.cdecl,
     importc: "_ZNSt9exception18_Set_raise_handlerEPFvRKS_E",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -5312,124 +5340,148 @@ proc ZNSt9exceptionD1Ev*() {.cdecl, importc: "_ZNSt9exceptionD1Ev",
 proc ZNSt9exceptionD2Ev*() {.cdecl, importc: "_ZNSt9exceptionD2Ev",
                              header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9money_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE2idE*() {.cdecl, importc: "_ZNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE2idE",
+proc ZNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE2idE*() {.
+    cdecl, importc: "_ZNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE2idE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9money_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE7GetcatEPPKNSt6locale5facetEPKS5*() {.
+proc ZNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE7_GetcatEPPKNSt6locale5facetEPKS5*() {.
     cdecl, importc: "_ZNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE7_GetcatEPPKNSt6locale5facetEPKS5_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9money_getIcSt19istreambufiteratorIcSt11chartraitsIcEEEC1Em*() {.cdecl, importc: "_ZNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC1Em",
+proc ZNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC1Em*() {.
+    cdecl, importc: "_ZNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC1Em",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9money_getIcSt19istreambufiteratorIcSt11chartraitsIcEEEC1ERKSt8Locinfom*() {.
+proc ZNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC1ERKSt8_Locinfom*() {.
     cdecl, importc: "_ZNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC1ERKSt8_Locinfom",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9money_getIcSt19istreambufiteratorIcSt11chartraitsIcEEEC2Em*() {.cdecl, importc: "_ZNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC2Em",
+proc ZNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC2Em*() {.
+    cdecl, importc: "_ZNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC2Em",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9money_getIcSt19istreambufiteratorIcSt11chartraitsIcEEEC2ERKSt8Locinfom*() {.
+proc ZNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC2ERKSt8_Locinfom*() {.
     cdecl, importc: "_ZNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC2ERKSt8_Locinfom",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9money_getIcSt19istreambufiteratorIcSt11chartraitsIcEEED0Ev*() {.cdecl, importc: "_ZNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED0Ev",
+proc ZNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED0Ev*() {.
+    cdecl, importc: "_ZNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED0Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9money_getIcSt19istreambufiteratorIcSt11chartraitsIcEEED1Ev*() {.cdecl, importc: "_ZNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED1Ev",
+proc ZNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED1Ev*() {.
+    cdecl, importc: "_ZNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED1Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9money_getIcSt19istreambufiteratorIcSt11chartraitsIcEEED2Ev*() {.cdecl, importc: "_ZNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED2Ev",
+proc ZNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED2Ev*() {.
+    cdecl, importc: "_ZNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED2Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9money_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE2idE*() {.cdecl, importc: "_ZNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE2idE",
+proc ZNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE2idE*() {.
+    cdecl, importc: "_ZNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE2idE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9money_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE7GetcatEPPKNSt6locale5facetEPKS5*() {.
+proc ZNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE7_GetcatEPPKNSt6locale5facetEPKS5*() {.
     cdecl, importc: "_ZNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE7_GetcatEPPKNSt6locale5facetEPKS5_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9money_getIwSt19istreambufiteratorIwSt11chartraitsIwEEEC1Em*() {.cdecl, importc: "_ZNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC1Em",
+proc ZNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC1Em*() {.
+    cdecl, importc: "_ZNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC1Em",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9money_getIwSt19istreambufiteratorIwSt11chartraitsIwEEEC1ERKSt8Locinfom*() {.
+proc ZNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC1ERKSt8_Locinfom*() {.
     cdecl, importc: "_ZNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC1ERKSt8_Locinfom",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9money_getIwSt19istreambufiteratorIwSt11chartraitsIwEEEC2Em*() {.cdecl, importc: "_ZNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC2Em",
+proc ZNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC2Em*() {.
+    cdecl, importc: "_ZNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC2Em",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9money_getIwSt19istreambufiteratorIwSt11chartraitsIwEEEC2ERKSt8Locinfom*() {.
+proc ZNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC2ERKSt8_Locinfom*() {.
     cdecl, importc: "_ZNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC2ERKSt8_Locinfom",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9money_getIwSt19istreambufiteratorIwSt11chartraitsIwEEED0Ev*() {.cdecl, importc: "_ZNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED0Ev",
+proc ZNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED0Ev*() {.
+    cdecl, importc: "_ZNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED0Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9money_getIwSt19istreambufiteratorIwSt11chartraitsIwEEED1Ev*() {.cdecl, importc: "_ZNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED1Ev",
+proc ZNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED1Ev*() {.
+    cdecl, importc: "_ZNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED1Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9money_getIwSt19istreambufiteratorIwSt11chartraitsIwEEED2Ev*() {.cdecl, importc: "_ZNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED2Ev",
+proc ZNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED2Ev*() {.
+    cdecl, importc: "_ZNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED2Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9money_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE2idE*() {.cdecl, importc: "_ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE2idE",
+proc ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE2idE*() {.
+    cdecl, importc: "_ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE2idE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9money_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE7GetcatEPPKNSt6locale5facetEPKS5*() {.
+proc ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE7_GetcatEPPKNSt6locale5facetEPKS5*() {.
     cdecl, importc: "_ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE7_GetcatEPPKNSt6locale5facetEPKS5_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9money_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEEC1Em*() {.cdecl, importc: "_ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC1Em",
+proc ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC1Em*() {.
+    cdecl, importc: "_ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC1Em",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9money_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEEC1ERKSt8Locinfom*() {.
+proc ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC1ERKSt8_Locinfom*() {.
     cdecl, importc: "_ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC1ERKSt8_Locinfom",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9money_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEEC2Em*() {.cdecl, importc: "_ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC2Em",
+proc ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC2Em*() {.
+    cdecl, importc: "_ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC2Em",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9money_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEEC2ERKSt8Locinfom*() {.
+proc ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC2ERKSt8_Locinfom*() {.
     cdecl, importc: "_ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC2ERKSt8_Locinfom",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9money_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEED0Ev*() {.cdecl, importc: "_ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED0Ev",
+proc ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED0Ev*() {.
+    cdecl, importc: "_ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED0Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9money_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEED1Ev*() {.cdecl, importc: "_ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED1Ev",
+proc ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED1Ev*() {.
+    cdecl, importc: "_ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED1Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9money_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEED2Ev*() {.cdecl, importc: "_ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED2Ev",
+proc ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED2Ev*() {.
+    cdecl, importc: "_ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED2Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9money_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE2idE*() {.cdecl, importc: "_ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE2idE",
+proc ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE2idE*() {.
+    cdecl, importc: "_ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE2idE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9money_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE7GetcatEPPKNSt6locale5facetEPKS5*() {.
+proc ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE7_GetcatEPPKNSt6locale5facetEPKS5*() {.
     cdecl, importc: "_ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE7_GetcatEPPKNSt6locale5facetEPKS5_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9money_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEEC1Em*() {.cdecl, importc: "_ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC1Em",
+proc ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC1Em*() {.
+    cdecl, importc: "_ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC1Em",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9money_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEEC1ERKSt8Locinfom*() {.
+proc ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC1ERKSt8_Locinfom*() {.
     cdecl, importc: "_ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC1ERKSt8_Locinfom",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9money_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEEC2Em*() {.cdecl, importc: "_ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC2Em",
+proc ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC2Em*() {.
+    cdecl, importc: "_ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC2Em",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9money_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEEC2ERKSt8Locinfom*() {.
+proc ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC2ERKSt8_Locinfom*() {.
     cdecl, importc: "_ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC2ERKSt8_Locinfom",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9money_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEED0Ev*() {.cdecl, importc: "_ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED0Ev",
+proc ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED0Ev*() {.
+    cdecl, importc: "_ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED0Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9money_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEED1Ev*() {.cdecl, importc: "_ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED1Ev",
+proc ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED1Ev*() {.
+    cdecl, importc: "_ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED1Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZNSt9money_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEED2Ev*() {.cdecl, importc: "_ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED2Ev",
+proc ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED2Ev*() {.
+    cdecl, importc: "_ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED2Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZNSt9type_infoD0Ev*() {.cdecl, importc: "_ZNSt9type_infoD0Ev",
@@ -5446,20 +5498,20 @@ proc Znwm*() {.cdecl, importc: "_Znwm", header: "orbis/LibcInternal.h".}
 proc ZnwmRKSt9nothrow_t*() {.cdecl, importc: "_ZnwmRKSt9nothrow_t",
                              header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZSt10_GetloctxtIcSt19istreambufiteratorIcSt11chartraitsIcEEEiRT0S5mPKT*() {.
+proc ZSt10_GetloctxtIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEiRT0_S5_mPKT*() {.
     cdecl, importc: "_ZSt10_GetloctxtIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEiRT0_S5_mPKT_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZSt10_GetloctxtIcSt19istreambufiteratorIwSt11chartraitsIwEEEiRT0S5mPKT*() {.
+proc ZSt10_GetloctxtIcSt19istreambuf_iteratorIwSt11char_traitsIwEEEiRT0_S5_mPKT*() {.
     cdecl, importc: "_ZSt10_GetloctxtIcSt19istreambuf_iteratorIwSt11char_traitsIwEEEiRT0_S5_mPKT_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZSt10_GetloctxtIwSt19istreambufiteratorIwSt11chartraitsIwEEEiRT0S5mPKT*() {.
+proc ZSt10_GetloctxtIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEiRT0_S5_mPKT*() {.
     cdecl, importc: "_ZSt10_GetloctxtIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEiRT0_S5_mPKT_",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZSt10_RngabortPKc*() {.cdecl, importc: "_ZSt10_Rng_abortPKc",
-                            header: "orbis/LibcInternal.h".}
+proc ZSt10_Rng_abortPKc*() {.cdecl, importc: "_ZSt10_Rng_abortPKc",
+                             header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZSt10adopt_lock*() {.cdecl, importc: "_ZSt10adopt_lock",
                           header: "orbis/LibcInternal.h".}
@@ -5470,60 +5522,60 @@ proc ZSt10defer_lock*() {.cdecl, importc: "_ZSt10defer_lock",
 proc ZSt10unexpectedv*() {.cdecl, importc: "_ZSt10unexpectedv",
                            header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZSt11_Xbadallocv*() {.cdecl, importc: "_ZSt11_Xbad_allocv",
-                           header: "orbis/LibcInternal.h".}
+proc ZSt11_Xbad_allocv*() {.cdecl, importc: "_ZSt11_Xbad_allocv",
+                            header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZSt11setiosflagsNSt5_IosbIiE9FmtflagsE*() {.cdecl,
+proc ZSt11setiosflagsNSt5_IosbIiE9_FmtflagsE*() {.cdecl,
     importc: "_ZSt11setiosflagsNSt5_IosbIiE9_FmtflagsE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZSt11try_tolock*() {.cdecl, importc: "_ZSt11try_to_lock",
-                          header: "orbis/LibcInternal.h".}
+proc ZSt11try_to_lock*() {.cdecl, importc: "_ZSt11try_to_lock",
+                           header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZSt12setprecisioni*() {.cdecl, importc: "_ZSt12setprecisioni",
                              header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZSt13_Clcharnames*() {.cdecl, importc: "_ZSt13_Cl_charnames",
-                            header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc ZSt13_Syserrormapi*() {.cdecl, importc: "_ZSt13_Syserror_mapi",
+proc ZSt13_Cl_charnames*() {.cdecl, importc: "_ZSt13_Cl_charnames",
                              header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZSt13_XregexerrorNSt15regexconstants10errortypeE*() {.cdecl,
+proc ZSt13_Syserror_mapi*() {.cdecl, importc: "_ZSt13_Syserror_mapi",
+                              header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc ZSt13_Xregex_errorNSt15regex_constants10error_typeE*() {.cdecl,
     importc: "_ZSt13_Xregex_errorNSt15regex_constants10error_typeE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZSt13get_terminatev*() {.cdecl, importc: "_ZSt13get_terminatev",
                               header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZSt13resetiosflagsNSt5_IosbIiE9FmtflagsE*() {.cdecl,
+proc ZSt13resetiosflagsNSt5_IosbIiE9_FmtflagsE*() {.cdecl,
     importc: "_ZSt13resetiosflagsNSt5_IosbIiE9_FmtflagsE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZSt13set_terminatePFvvE*() {.cdecl, importc: "_ZSt13set_terminatePFvvE",
                                   header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZSt14_Clwcharnames*() {.cdecl, importc: "_ZSt14_Cl_wcharnames",
-                             header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc ZSt14_DebugmessagePKcS0j*() {.cdecl,
-                                   importc: "_ZSt14_Debug_messagePKcS0_j",
-                                   header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc ZSt14_Raisehandler*() {.cdecl, importc: "_ZSt14_Raise_handler",
-                             header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc ZSt14_Randomdevicev*() {.cdecl, importc: "_ZSt14_Random_devicev",
+proc ZSt14_Cl_wcharnames*() {.cdecl, importc: "_ZSt14_Cl_wcharnames",
                               header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZSt14_ThrowCerrori*() {.cdecl, importc: "_ZSt14_Throw_C_errori",
-                             header: "orbis/LibcInternal.h".}
+proc ZSt14_Debug_messagePKcS0_j*() {.cdecl,
+                                     importc: "_ZSt14_Debug_messagePKcS0_j",
+                                     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZSt14_XlengtherrorPKc*() {.cdecl, importc: "_ZSt14_Xlength_errorPKc",
-                                header: "orbis/LibcInternal.h".}
+proc ZSt14_Raise_handler*() {.cdecl, importc: "_ZSt14_Raise_handler",
+                              header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZSt14_XoutofrangePKc*() {.cdecl, importc: "_ZSt14_Xout_of_rangePKc",
+proc ZSt14_Random_devicev*() {.cdecl, importc: "_ZSt14_Random_devicev",
                                header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc ZSt14_Throw_C_errori*() {.cdecl, importc: "_ZSt14_Throw_C_errori",
+                               header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc ZSt14_Xlength_errorPKc*() {.cdecl, importc: "_ZSt14_Xlength_errorPKc",
+                                 header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc ZSt14_Xout_of_rangePKc*() {.cdecl, importc: "_ZSt14_Xout_of_rangePKc",
+                                 header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZSt14get_unexpectedv*() {.cdecl, importc: "_ZSt14get_unexpectedv",
                                header: "orbis/LibcInternal.h".}
@@ -5534,66 +5586,66 @@ proc ZSt14set_unexpectedPFvvE*() {.cdecl, importc: "_ZSt14set_unexpectedPFvvE",
 proc ZSt15_sceLibcLocinfoPKc*() {.cdecl, importc: "_ZSt15_sceLibcLocinfoPKc",
                                   header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZSt15_XruntimeerrorPKc*() {.cdecl, importc: "_ZSt15_Xruntime_errorPKc",
-                                 header: "orbis/LibcInternal.h".}
+proc ZSt15_Xruntime_errorPKc*() {.cdecl, importc: "_ZSt15_Xruntime_errorPKc",
+                                  header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZSt15future_categoryv*() {.cdecl, importc: "_ZSt15future_categoryv",
                                 header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZSt15get_newhandlerv*() {.cdecl, importc: "_ZSt15get_new_handlerv",
-                               header: "orbis/LibcInternal.h".}
+proc ZSt15get_new_handlerv*() {.cdecl, importc: "_ZSt15get_new_handlerv",
+                                header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZSt15set_newhandlerPFvvE*() {.cdecl, importc: "_ZSt15set_new_handlerPFvvE",
-                                   header: "orbis/LibcInternal.h".}
+proc ZSt15set_new_handlerPFvvE*() {.cdecl,
+                                    importc: "_ZSt15set_new_handlerPFvvE",
+                                    header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZSt15system_categoryv*() {.cdecl, importc: "_ZSt15system_categoryv",
                                 header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZSt16_ThrowCpperrori*() {.cdecl, importc: "_ZSt16_Throw_Cpp_errori",
-                               header: "orbis/LibcInternal.h".}
+proc ZSt16_Throw_Cpp_errori*() {.cdecl, importc: "_ZSt16_Throw_Cpp_errori",
+                                 header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZSt16_XoverflowerrorPKc*() {.cdecl, importc: "_ZSt16_Xoverflow_errorPKc",
-                                  header: "orbis/LibcInternal.h".}
+proc ZSt16_Xoverflow_errorPKc*() {.cdecl, importc: "_ZSt16_Xoverflow_errorPKc",
+                                   header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZSt16generic_categoryv*() {.cdecl, importc: "_ZSt16generic_categoryv",
                                  header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZSt17_Futureerrormapi*() {.cdecl, importc: "_ZSt17_Future_error_mapi",
-                                header: "orbis/LibcInternal.h".}
+proc ZSt17_Future_error_mapi*() {.cdecl, importc: "_ZSt17_Future_error_mapi",
+                                  header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZSt17iostream_categoryv*() {.cdecl, importc: "_ZSt17iostream_categoryv",
                                   header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZSt18_Stringcppunused*() {.cdecl, importc: "_ZSt18_String_cpp_unused",
-                                header: "orbis/LibcInternal.h".}
+proc ZSt18_String_cpp_unused*() {.cdecl, importc: "_ZSt18_String_cpp_unused",
+                                  header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZSt18_XinvalidargumentPKc*() {.cdecl,
-                                    importc: "_ZSt18_Xinvalid_argumentPKc",
-                                    header: "orbis/LibcInternal.h".}
+proc ZSt18_Xinvalid_argumentPKc*() {.cdecl,
+                                     importc: "_ZSt18_Xinvalid_argumentPKc",
+                                     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZSt18uncaught_exceptionv*() {.cdecl, importc: "_ZSt18uncaught_exceptionv",
                                    header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZSt19_ThrowfutureerrorRKSt10errorcode*() {.cdecl,
+proc ZSt19_Throw_future_errorRKSt10error_code*() {.cdecl,
     importc: "_ZSt19_Throw_future_errorRKSt10error_code",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZSt19_Xbadfunctioncallv*() {.cdecl, importc: "_ZSt19_Xbad_function_callv",
-                                  header: "orbis/LibcInternal.h".}
+proc ZSt19_Xbad_function_callv*() {.cdecl,
+                                    importc: "_ZSt19_Xbad_function_callv",
+                                    header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZSt21_sceLibcClassicLocale*() {.cdecl,
                                      importc: "_ZSt21_sceLibcClassicLocale",
                                      header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZSt22_Getfutureerrorwhati*() {.cdecl,
-                                    importc: "_ZSt22_Get_future_error_whati",
-                                    header: "orbis/LibcInternal.h".}
+proc ZSt22_Get_future_error_whati*() {.cdecl, importc: "_ZSt22_Get_future_error_whati",
+                                       header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZSt22_Randomdeviceentropyv*() {.cdecl,
-                                     importc: "_ZSt22_Random_device_entropyv",
-                                     header: "orbis/LibcInternal.h".}
+proc ZSt22_Random_device_entropyv*() {.cdecl, importc: "_ZSt22_Random_device_entropyv",
+                                       header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZSt25_RethrowfutureexceptionSt13exceptionptr*() {.cdecl,
+proc ZSt25_Rethrow_future_exceptionSt13exception_ptr*() {.cdecl,
     importc: "_ZSt25_Rethrow_future_exceptionSt13exception_ptr",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -5626,25 +5678,25 @@ proc ZSt6ignore*() {.cdecl, importc: "_ZSt6ignore",
 proc ZSt7_BADOFF*() {.cdecl, importc: "_ZSt7_BADOFF",
                       header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZSt7_FiopenPKcNSt5IosbIiE9OpenmodeEi*() {.cdecl,
+proc ZSt7_FiopenPKcNSt5_IosbIiE9_OpenmodeEi*() {.cdecl,
     importc: "_ZSt7_FiopenPKcNSt5_IosbIiE9_OpenmodeEi",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZSt7_FiopenPKwNSt5IosbIiE9OpenmodeEi*() {.cdecl,
+proc ZSt7_FiopenPKwNSt5_IosbIiE9_OpenmodeEi*() {.cdecl,
     importc: "_ZSt7_FiopenPKwNSt5_IosbIiE9_OpenmodeEi",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZSt7_MPAddPyy*() {.cdecl, importc: "_ZSt7_MP_AddPyy",
-                        header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc ZSt7_MPGetPy*() {.cdecl, importc: "_ZSt7_MP_GetPy",
-                       header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc ZSt7_MPMulPyyy*() {.cdecl, importc: "_ZSt7_MP_MulPyyy",
+proc ZSt7_MP_AddPyy*() {.cdecl, importc: "_ZSt7_MP_AddPyy",
                          header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZSt7_MPRemPyy*() {.cdecl, importc: "_ZSt7_MP_RemPyy",
+proc ZSt7_MP_GetPy*() {.cdecl, importc: "_ZSt7_MP_GetPy",
                         header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc ZSt7_MP_MulPyyy*() {.cdecl, importc: "_ZSt7_MP_MulPyyy",
+                          header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc ZSt7_MP_RemPyy*() {.cdecl, importc: "_ZSt7_MP_RemPyy",
+                         header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZSt7nothrow*() {.cdecl, importc: "_ZSt7nothrow",
                       header: "orbis/LibcInternal.h".}
@@ -5694,50 +5746,50 @@ proc ZTIl*() {.cdecl, importc: "_ZTIl", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZTIm*() {.cdecl, importc: "_ZTIm", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTIN10_cxxabiv116enumtypeinfoE*() {.cdecl,
+proc ZTIN10_cxxabiv116_enum_type_infoE*() {.cdecl,
     importc: "_ZTIN10__cxxabiv116__enum_type_infoE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTIN10_cxxabiv117arraytypeinfoE*() {.cdecl,
+proc ZTIN10_cxxabiv117_array_type_infoE*() {.cdecl,
     importc: "_ZTIN10__cxxabiv117__array_type_infoE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTIN10_cxxabiv117classtypeinfoE*() {.cdecl,
+proc ZTIN10_cxxabiv117_class_type_infoE*() {.cdecl,
     importc: "_ZTIN10__cxxabiv117__class_type_infoE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTIN10_cxxabiv117pbasetypeinfoE*() {.cdecl,
+proc ZTIN10_cxxabiv117_pbase_type_infoE*() {.cdecl,
     importc: "_ZTIN10__cxxabiv117__pbase_type_infoE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTIN10_cxxabiv119pointertypeinfoE*() {.cdecl,
+proc ZTIN10_cxxabiv119_pointer_type_infoE*() {.cdecl,
     importc: "_ZTIN10__cxxabiv119__pointer_type_infoE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTIN10_cxxabiv120functiontypeinfoE*() {.cdecl,
+proc ZTIN10_cxxabiv120_function_type_infoE*() {.cdecl,
     importc: "_ZTIN10__cxxabiv120__function_type_infoE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTIN10_cxxabiv120siclasstypeinfoE*() {.cdecl,
+proc ZTIN10_cxxabiv120_si_class_type_infoE*() {.cdecl,
     importc: "_ZTIN10__cxxabiv120__si_class_type_infoE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTIN10_cxxabiv121vmiclasstypeinfoE*() {.cdecl,
+proc ZTIN10_cxxabiv121_vmi_class_type_infoE*() {.cdecl,
     importc: "_ZTIN10__cxxabiv121__vmi_class_type_infoE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTIN10_cxxabiv123fundamentaltypeinfoE*() {.cdecl,
+proc ZTIN10_cxxabiv123_fundamental_type_infoE*() {.cdecl,
     importc: "_ZTIN10__cxxabiv123__fundamental_type_infoE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTIN10_cxxabiv129pointertomembertypeinfoE*() {.cdecl,
+proc ZTIN10_cxxabiv129_pointer_to_member_type_infoE*() {.cdecl,
     importc: "_ZTIN10__cxxabiv129__pointer_to_member_type_infoE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZTIN6Dinkum7threads10lock_errorE*() {.cdecl,
     importc: "_ZTIN6Dinkum7threads10lock_errorE", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTIN6Dinkum7threads21thread_resourceerrorE*() {.cdecl,
+proc ZTIN6Dinkum7threads21thread_resource_errorE*() {.cdecl,
     importc: "_ZTIN6Dinkum7threads21thread_resource_errorE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -5861,8 +5913,8 @@ proc ZTISt10moneypunctIwLb0EE*() {.cdecl, importc: "_ZTISt10moneypunctIwLb0EE",
 proc ZTISt10moneypunctIwLb1EE*() {.cdecl, importc: "_ZTISt10moneypunctIwLb1EE",
                                    header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTISt11_Facetbase*() {.cdecl, importc: "_ZTISt11_Facet_base",
-                            header: "orbis/LibcInternal.h".}
+proc ZTISt11_Facet_base*() {.cdecl, importc: "_ZTISt11_Facet_base",
+                             header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZTISt11logic_error*() {.cdecl, importc: "_ZTISt11logic_error",
                              header: "orbis/LibcInternal.h".}
@@ -5873,8 +5925,8 @@ proc ZTISt11range_error*() {.cdecl, importc: "_ZTISt11range_error",
 proc ZTISt11regex_error*() {.cdecl, importc: "_ZTISt11regex_error",
                              header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTISt12bad_weakptr*() {.cdecl, importc: "_ZTISt12bad_weak_ptr",
-                             header: "orbis/LibcInternal.h".}
+proc ZTISt12bad_weak_ptr*() {.cdecl, importc: "_ZTISt12bad_weak_ptr",
+                              header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZTISt12codecvt_base*() {.cdecl, importc: "_ZTISt12codecvt_base",
                               header: "orbis/LibcInternal.h".}
@@ -5888,8 +5940,8 @@ proc ZTISt12future_error*() {.cdecl, importc: "_ZTISt12future_error",
 proc ZTISt12length_error*() {.cdecl, importc: "_ZTISt12length_error",
                               header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTISt12out_ofrange*() {.cdecl, importc: "_ZTISt12out_of_range",
-                             header: "orbis/LibcInternal.h".}
+proc ZTISt12out_of_range*() {.cdecl, importc: "_ZTISt12out_of_range",
+                              header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZTISt12system_error*() {.cdecl, importc: "_ZTISt12system_error",
                               header: "orbis/LibcInternal.h".}
@@ -5897,19 +5949,19 @@ proc ZTISt12system_error*() {.cdecl, importc: "_ZTISt12system_error",
 proc ZTISt13bad_exception*() {.cdecl, importc: "_ZTISt13bad_exception",
                                header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTISt13basic_filebufIcSt11chartraitsIcEE*() {.cdecl,
+proc ZTISt13basic_filebufIcSt11char_traitsIcEE*() {.cdecl,
     importc: "_ZTISt13basic_filebufIcSt11char_traitsIcEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTISt13basic_filebufIwSt11chartraitsIwEE*() {.cdecl,
+proc ZTISt13basic_filebufIwSt11char_traitsIwEE*() {.cdecl,
     importc: "_ZTISt13basic_filebufIwSt11char_traitsIwEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTISt13basic_istreamIwSt11chartraitsIwEE*() {.cdecl,
+proc ZTISt13basic_istreamIwSt11char_traitsIwEE*() {.cdecl,
     importc: "_ZTISt13basic_istreamIwSt11char_traitsIwEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTISt13basic_ostreamIwSt11chartraitsIwEE*() {.cdecl,
+proc ZTISt13basic_ostreamIwSt11char_traitsIwEE*() {.cdecl,
     importc: "_ZTISt13basic_ostreamIwSt11char_traitsIwEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -5925,11 +5977,11 @@ proc ZTISt14error_category*() {.cdecl, importc: "_ZTISt14error_category",
 proc ZTISt14overflow_error*() {.cdecl, importc: "_ZTISt14overflow_error",
                                 header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTISt15basic_streambufIcSt11chartraitsIcEE*() {.cdecl,
+proc ZTISt15basic_streambufIcSt11char_traitsIcEE*() {.cdecl,
     importc: "_ZTISt15basic_streambufIcSt11char_traitsIcEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTISt15basic_streambufIwSt11chartraitsIwEE*() {.cdecl,
+proc ZTISt15basic_streambufIwSt11char_traitsIwEE*() {.cdecl,
     importc: "_ZTISt15basic_streambufIwSt11char_traitsIwEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -5942,24 +5994,24 @@ proc ZTISt16invalid_argument*() {.cdecl, importc: "_ZTISt16invalid_argument",
 proc ZTISt16nested_exception*() {.cdecl, importc: "_ZTISt16nested_exception",
                                   header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTISt17bad_functioncall*() {.cdecl, importc: "_ZTISt17bad_function_call",
-                                  header: "orbis/LibcInternal.h".}
+proc ZTISt17bad_function_call*() {.cdecl, importc: "_ZTISt17bad_function_call",
+                                   header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTISt20bad_arraynewlength*() {.cdecl,
-                                    importc: "_ZTISt20bad_array_new_length",
-                                    header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc ZTISt22_Futureerrorcategory*() {.cdecl, importc: "_ZTISt22_Future_error_category",
+proc ZTISt20bad_array_new_length*() {.cdecl,
+                                      importc: "_ZTISt20bad_array_new_length",
                                       header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTISt22_Systemerrorcategory*() {.cdecl, importc: "_ZTISt22_System_error_category",
-                                      header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc ZTISt23_Genericerrorcategory*() {.cdecl, importc: "_ZTISt23_Generic_error_category",
-                                       header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc ZTISt24_Iostreamerrorcategory*() {.cdecl, importc: "_ZTISt24_Iostream_error_category",
+proc ZTISt22_Future_error_category*() {.cdecl, importc: "_ZTISt22_Future_error_category",
                                         header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc ZTISt22_System_error_category*() {.cdecl, importc: "_ZTISt22_System_error_category",
+                                        header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc ZTISt23_Generic_error_category*() {.cdecl,
+    importc: "_ZTISt23_Generic_error_category", header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc ZTISt24_Iostream_error_category*() {.cdecl,
+    importc: "_ZTISt24_Iostream_error_category", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZTISt4_Pad*() {.cdecl, importc: "_ZTISt4_Pad",
                      header: "orbis/LibcInternal.h".}
@@ -5999,19 +6051,19 @@ proc ZTISt7collateIcE*() {.cdecl, importc: "_ZTISt7collateIcE",
 proc ZTISt7collateIwE*() {.cdecl, importc: "_ZTISt7collateIwE",
                            header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTISt7num_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE*() {.cdecl,
+proc ZTISt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE*() {.cdecl,
     importc: "_ZTISt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTISt7num_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE*() {.cdecl,
+proc ZTISt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE*() {.cdecl,
     importc: "_ZTISt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTISt7num_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE*() {.cdecl,
+proc ZTISt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE*() {.cdecl,
     importc: "_ZTISt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTISt7num_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE*() {.cdecl,
+proc ZTISt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE*() {.cdecl,
     importc: "_ZTISt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -6033,49 +6085,49 @@ proc ZTISt8numpunctIcE*() {.cdecl, importc: "_ZTISt8numpunctIcE",
 proc ZTISt8numpunctIwE*() {.cdecl, importc: "_ZTISt8numpunctIwE",
                             header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTISt8time_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE*() {.cdecl,
+proc ZTISt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE*() {.cdecl,
     importc: "_ZTISt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTISt8time_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE*() {.cdecl,
+proc ZTISt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE*() {.cdecl,
     importc: "_ZTISt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTISt8time_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE*() {.cdecl,
+proc ZTISt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE*() {.cdecl,
     importc: "_ZTISt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTISt8time_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE*() {.cdecl,
+proc ZTISt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE*() {.cdecl,
     importc: "_ZTISt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZTISt9bad_alloc*() {.cdecl, importc: "_ZTISt9bad_alloc",
                           header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTISt9basic_iosIcSt11chartraitsIcEE*() {.cdecl,
+proc ZTISt9basic_iosIcSt11char_traitsIcEE*() {.cdecl,
     importc: "_ZTISt9basic_iosIcSt11char_traitsIcEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTISt9basic_iosIwSt11chartraitsIwEE*() {.cdecl,
+proc ZTISt9basic_iosIwSt11char_traitsIwEE*() {.cdecl,
     importc: "_ZTISt9basic_iosIwSt11char_traitsIwEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZTISt9exception*() {.cdecl, importc: "_ZTISt9exception",
                           header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTISt9money_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE*() {.cdecl,
+proc ZTISt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE*() {.cdecl,
     importc: "_ZTISt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTISt9money_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE*() {.cdecl,
+proc ZTISt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE*() {.cdecl,
     importc: "_ZTISt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTISt9money_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE*() {.cdecl,
+proc ZTISt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE*() {.cdecl,
     importc: "_ZTISt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTISt9money_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE*() {.cdecl,
+proc ZTISt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE*() {.cdecl,
     importc: "_ZTISt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -6123,50 +6175,50 @@ proc ZTSl*() {.cdecl, importc: "_ZTSl", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZTSm*() {.cdecl, importc: "_ZTSm", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTSN10_cxxabiv116enumtypeinfoE*() {.cdecl,
+proc ZTSN10_cxxabiv116_enum_type_infoE*() {.cdecl,
     importc: "_ZTSN10__cxxabiv116__enum_type_infoE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTSN10_cxxabiv117arraytypeinfoE*() {.cdecl,
+proc ZTSN10_cxxabiv117_array_type_infoE*() {.cdecl,
     importc: "_ZTSN10__cxxabiv117__array_type_infoE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTSN10_cxxabiv117classtypeinfoE*() {.cdecl,
+proc ZTSN10_cxxabiv117_class_type_infoE*() {.cdecl,
     importc: "_ZTSN10__cxxabiv117__class_type_infoE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTSN10_cxxabiv117pbasetypeinfoE*() {.cdecl,
+proc ZTSN10_cxxabiv117_pbase_type_infoE*() {.cdecl,
     importc: "_ZTSN10__cxxabiv117__pbase_type_infoE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTSN10_cxxabiv119pointertypeinfoE*() {.cdecl,
+proc ZTSN10_cxxabiv119_pointer_type_infoE*() {.cdecl,
     importc: "_ZTSN10__cxxabiv119__pointer_type_infoE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTSN10_cxxabiv120functiontypeinfoE*() {.cdecl,
+proc ZTSN10_cxxabiv120_function_type_infoE*() {.cdecl,
     importc: "_ZTSN10__cxxabiv120__function_type_infoE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTSN10_cxxabiv120siclasstypeinfoE*() {.cdecl,
+proc ZTSN10_cxxabiv120_si_class_type_infoE*() {.cdecl,
     importc: "_ZTSN10__cxxabiv120__si_class_type_infoE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTSN10_cxxabiv121vmiclasstypeinfoE*() {.cdecl,
+proc ZTSN10_cxxabiv121_vmi_class_type_infoE*() {.cdecl,
     importc: "_ZTSN10__cxxabiv121__vmi_class_type_infoE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTSN10_cxxabiv123fundamentaltypeinfoE*() {.cdecl,
+proc ZTSN10_cxxabiv123_fundamental_type_infoE*() {.cdecl,
     importc: "_ZTSN10__cxxabiv123__fundamental_type_infoE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTSN10_cxxabiv129pointertomembertypeinfoE*() {.cdecl,
+proc ZTSN10_cxxabiv129_pointer_to_member_type_infoE*() {.cdecl,
     importc: "_ZTSN10__cxxabiv129__pointer_to_member_type_infoE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZTSN6Dinkum7threads10lock_errorE*() {.cdecl,
     importc: "_ZTSN6Dinkum7threads10lock_errorE", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTSN6Dinkum7threads21thread_resourceerrorE*() {.cdecl,
+proc ZTSN6Dinkum7threads21thread_resource_errorE*() {.cdecl,
     importc: "_ZTSN6Dinkum7threads21thread_resource_errorE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -6286,8 +6338,8 @@ proc ZTSSt10moneypunctIwLb0EE*() {.cdecl, importc: "_ZTSSt10moneypunctIwLb0EE",
 proc ZTSSt10moneypunctIwLb1EE*() {.cdecl, importc: "_ZTSSt10moneypunctIwLb1EE",
                                    header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTSSt11_Facetbase*() {.cdecl, importc: "_ZTSSt11_Facet_base",
-                            header: "orbis/LibcInternal.h".}
+proc ZTSSt11_Facet_base*() {.cdecl, importc: "_ZTSSt11_Facet_base",
+                             header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZTSSt11logic_error*() {.cdecl, importc: "_ZTSSt11logic_error",
                              header: "orbis/LibcInternal.h".}
@@ -6298,8 +6350,8 @@ proc ZTSSt11range_error*() {.cdecl, importc: "_ZTSSt11range_error",
 proc ZTSSt11regex_error*() {.cdecl, importc: "_ZTSSt11regex_error",
                              header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTSSt12bad_weakptr*() {.cdecl, importc: "_ZTSSt12bad_weak_ptr",
-                             header: "orbis/LibcInternal.h".}
+proc ZTSSt12bad_weak_ptr*() {.cdecl, importc: "_ZTSSt12bad_weak_ptr",
+                              header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZTSSt12codecvt_base*() {.cdecl, importc: "_ZTSSt12codecvt_base",
                               header: "orbis/LibcInternal.h".}
@@ -6313,8 +6365,8 @@ proc ZTSSt12future_error*() {.cdecl, importc: "_ZTSSt12future_error",
 proc ZTSSt12length_error*() {.cdecl, importc: "_ZTSSt12length_error",
                               header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTSSt12out_ofrange*() {.cdecl, importc: "_ZTSSt12out_of_range",
-                             header: "orbis/LibcInternal.h".}
+proc ZTSSt12out_of_range*() {.cdecl, importc: "_ZTSSt12out_of_range",
+                              header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZTSSt12system_error*() {.cdecl, importc: "_ZTSSt12system_error",
                               header: "orbis/LibcInternal.h".}
@@ -6322,19 +6374,19 @@ proc ZTSSt12system_error*() {.cdecl, importc: "_ZTSSt12system_error",
 proc ZTSSt13bad_exception*() {.cdecl, importc: "_ZTSSt13bad_exception",
                                header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTSSt13basic_filebufIcSt11chartraitsIcEE*() {.cdecl,
+proc ZTSSt13basic_filebufIcSt11char_traitsIcEE*() {.cdecl,
     importc: "_ZTSSt13basic_filebufIcSt11char_traitsIcEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTSSt13basic_filebufIwSt11chartraitsIwEE*() {.cdecl,
+proc ZTSSt13basic_filebufIwSt11char_traitsIwEE*() {.cdecl,
     importc: "_ZTSSt13basic_filebufIwSt11char_traitsIwEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTSSt13basic_istreamIwSt11chartraitsIwEE*() {.cdecl,
+proc ZTSSt13basic_istreamIwSt11char_traitsIwEE*() {.cdecl,
     importc: "_ZTSSt13basic_istreamIwSt11char_traitsIwEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTSSt13basic_ostreamIwSt11chartraitsIwEE*() {.cdecl,
+proc ZTSSt13basic_ostreamIwSt11char_traitsIwEE*() {.cdecl,
     importc: "_ZTSSt13basic_ostreamIwSt11char_traitsIwEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -6350,11 +6402,11 @@ proc ZTSSt14error_category*() {.cdecl, importc: "_ZTSSt14error_category",
 proc ZTSSt14overflow_error*() {.cdecl, importc: "_ZTSSt14overflow_error",
                                 header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTSSt15basic_streambufIcSt11chartraitsIcEE*() {.cdecl,
+proc ZTSSt15basic_streambufIcSt11char_traitsIcEE*() {.cdecl,
     importc: "_ZTSSt15basic_streambufIcSt11char_traitsIcEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTSSt15basic_streambufIwSt11chartraitsIwEE*() {.cdecl,
+proc ZTSSt15basic_streambufIwSt11char_traitsIwEE*() {.cdecl,
     importc: "_ZTSSt15basic_streambufIwSt11char_traitsIwEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -6367,24 +6419,24 @@ proc ZTSSt16invalid_argument*() {.cdecl, importc: "_ZTSSt16invalid_argument",
 proc ZTSSt16nested_exception*() {.cdecl, importc: "_ZTSSt16nested_exception",
                                   header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTSSt17bad_functioncall*() {.cdecl, importc: "_ZTSSt17bad_function_call",
-                                  header: "orbis/LibcInternal.h".}
+proc ZTSSt17bad_function_call*() {.cdecl, importc: "_ZTSSt17bad_function_call",
+                                   header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTSSt20bad_arraynewlength*() {.cdecl,
-                                    importc: "_ZTSSt20bad_array_new_length",
-                                    header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc ZTSSt22_Futureerrorcategory*() {.cdecl, importc: "_ZTSSt22_Future_error_category",
+proc ZTSSt20bad_array_new_length*() {.cdecl,
+                                      importc: "_ZTSSt20bad_array_new_length",
                                       header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTSSt22_Systemerrorcategory*() {.cdecl, importc: "_ZTSSt22_System_error_category",
-                                      header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc ZTSSt23_Genericerrorcategory*() {.cdecl, importc: "_ZTSSt23_Generic_error_category",
-                                       header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc ZTSSt24_Iostreamerrorcategory*() {.cdecl, importc: "_ZTSSt24_Iostream_error_category",
+proc ZTSSt22_Future_error_category*() {.cdecl, importc: "_ZTSSt22_Future_error_category",
                                         header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc ZTSSt22_System_error_category*() {.cdecl, importc: "_ZTSSt22_System_error_category",
+                                        header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc ZTSSt23_Generic_error_category*() {.cdecl,
+    importc: "_ZTSSt23_Generic_error_category", header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc ZTSSt24_Iostream_error_category*() {.cdecl,
+    importc: "_ZTSSt24_Iostream_error_category", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZTSSt4_Pad*() {.cdecl, importc: "_ZTSSt4_Pad",
                      header: "orbis/LibcInternal.h".}
@@ -6424,19 +6476,19 @@ proc ZTSSt7collateIcE*() {.cdecl, importc: "_ZTSSt7collateIcE",
 proc ZTSSt7collateIwE*() {.cdecl, importc: "_ZTSSt7collateIwE",
                            header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTSSt7num_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE*() {.cdecl,
+proc ZTSSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE*() {.cdecl,
     importc: "_ZTSSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTSSt7num_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE*() {.cdecl,
+proc ZTSSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE*() {.cdecl,
     importc: "_ZTSSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTSSt7num_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE*() {.cdecl,
+proc ZTSSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE*() {.cdecl,
     importc: "_ZTSSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTSSt7num_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE*() {.cdecl,
+proc ZTSSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE*() {.cdecl,
     importc: "_ZTSSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -6458,49 +6510,49 @@ proc ZTSSt8numpunctIcE*() {.cdecl, importc: "_ZTSSt8numpunctIcE",
 proc ZTSSt8numpunctIwE*() {.cdecl, importc: "_ZTSSt8numpunctIwE",
                             header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTSSt8time_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE*() {.cdecl,
+proc ZTSSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE*() {.cdecl,
     importc: "_ZTSSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTSSt8time_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE*() {.cdecl,
+proc ZTSSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE*() {.cdecl,
     importc: "_ZTSSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTSSt8time_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE*() {.cdecl,
+proc ZTSSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE*() {.cdecl,
     importc: "_ZTSSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTSSt8time_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE*() {.cdecl,
+proc ZTSSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE*() {.cdecl,
     importc: "_ZTSSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZTSSt9bad_alloc*() {.cdecl, importc: "_ZTSSt9bad_alloc",
                           header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTSSt9basic_iosIcSt11chartraitsIcEE*() {.cdecl,
+proc ZTSSt9basic_iosIcSt11char_traitsIcEE*() {.cdecl,
     importc: "_ZTSSt9basic_iosIcSt11char_traitsIcEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTSSt9basic_iosIwSt11chartraitsIwEE*() {.cdecl,
+proc ZTSSt9basic_iosIwSt11char_traitsIwEE*() {.cdecl,
     importc: "_ZTSSt9basic_iosIwSt11char_traitsIwEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZTSSt9exception*() {.cdecl, importc: "_ZTSSt9exception",
                           header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTSSt9money_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE*() {.cdecl,
+proc ZTSSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE*() {.cdecl,
     importc: "_ZTSSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTSSt9money_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE*() {.cdecl,
+proc ZTSSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE*() {.cdecl,
     importc: "_ZTSSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTSSt9money_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE*() {.cdecl,
+proc ZTSSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE*() {.cdecl,
     importc: "_ZTSSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTSSt9money_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE*() {.cdecl,
+proc ZTSSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE*() {.cdecl,
     importc: "_ZTSSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -6520,78 +6572,78 @@ proc ZTSx*() {.cdecl, importc: "_ZTSx", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZTSy*() {.cdecl, importc: "_ZTSy", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTv0_n24NSiD0Ev*() {.cdecl, importc: "_ZTv0_n24_NSiD0Ev",
-                          header: "orbis/LibcInternal.h".}
+proc ZTv0_n24_NSiD0Ev*() {.cdecl, importc: "_ZTv0_n24_NSiD0Ev",
+                           header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTv0_n24NSiD1Ev*() {.cdecl, importc: "_ZTv0_n24_NSiD1Ev",
-                          header: "orbis/LibcInternal.h".}
+proc ZTv0_n24_NSiD1Ev*() {.cdecl, importc: "_ZTv0_n24_NSiD1Ev",
+                           header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTv0_n24NSoD0Ev*() {.cdecl, importc: "_ZTv0_n24_NSoD0Ev",
-                          header: "orbis/LibcInternal.h".}
+proc ZTv0_n24_NSoD0Ev*() {.cdecl, importc: "_ZTv0_n24_NSoD0Ev",
+                           header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTv0_n24NSoD1Ev*() {.cdecl, importc: "_ZTv0_n24_NSoD1Ev",
-                          header: "orbis/LibcInternal.h".}
+proc ZTv0_n24_NSoD1Ev*() {.cdecl, importc: "_ZTv0_n24_NSoD1Ev",
+                           header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTv0_n24NSt13basicistreamIwSt11chartraitsIwEED0Ev*() {.cdecl,
+proc ZTv0_n24_NSt13basic_istreamIwSt11char_traitsIwEED0Ev*() {.cdecl,
     importc: "_ZTv0_n24_NSt13basic_istreamIwSt11char_traitsIwEED0Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTv0_n24NSt13basicistreamIwSt11chartraitsIwEED1Ev*() {.cdecl,
+proc ZTv0_n24_NSt13basic_istreamIwSt11char_traitsIwEED1Ev*() {.cdecl,
     importc: "_ZTv0_n24_NSt13basic_istreamIwSt11char_traitsIwEED1Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTv0_n24NSt13basicostreamIwSt11chartraitsIwEED0Ev*() {.cdecl,
+proc ZTv0_n24_NSt13basic_ostreamIwSt11char_traitsIwEED0Ev*() {.cdecl,
     importc: "_ZTv0_n24_NSt13basic_ostreamIwSt11char_traitsIwEED0Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTv0_n24NSt13basicostreamIwSt11chartraitsIwEED1Ev*() {.cdecl,
+proc ZTv0_n24_NSt13basic_ostreamIwSt11char_traitsIwEED1Ev*() {.cdecl,
     importc: "_ZTv0_n24_NSt13basic_ostreamIwSt11char_traitsIwEED1Ev",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTVN10_cxxabiv116enumtypeinfoE*() {.cdecl,
+proc ZTVN10_cxxabiv116_enum_type_infoE*() {.cdecl,
     importc: "_ZTVN10__cxxabiv116__enum_type_infoE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTVN10_cxxabiv117arraytypeinfoE*() {.cdecl,
+proc ZTVN10_cxxabiv117_array_type_infoE*() {.cdecl,
     importc: "_ZTVN10__cxxabiv117__array_type_infoE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTVN10_cxxabiv117classtypeinfoE*() {.cdecl,
+proc ZTVN10_cxxabiv117_class_type_infoE*() {.cdecl,
     importc: "_ZTVN10__cxxabiv117__class_type_infoE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTVN10_cxxabiv117pbasetypeinfoE*() {.cdecl,
+proc ZTVN10_cxxabiv117_pbase_type_infoE*() {.cdecl,
     importc: "_ZTVN10__cxxabiv117__pbase_type_infoE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTVN10_cxxabiv119pointertypeinfoE*() {.cdecl,
+proc ZTVN10_cxxabiv119_pointer_type_infoE*() {.cdecl,
     importc: "_ZTVN10__cxxabiv119__pointer_type_infoE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTVN10_cxxabiv120functiontypeinfoE*() {.cdecl,
+proc ZTVN10_cxxabiv120_function_type_infoE*() {.cdecl,
     importc: "_ZTVN10__cxxabiv120__function_type_infoE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTVN10_cxxabiv120siclasstypeinfoE*() {.cdecl,
+proc ZTVN10_cxxabiv120_si_class_type_infoE*() {.cdecl,
     importc: "_ZTVN10__cxxabiv120__si_class_type_infoE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTVN10_cxxabiv121vmiclasstypeinfoE*() {.cdecl,
+proc ZTVN10_cxxabiv121_vmi_class_type_infoE*() {.cdecl,
     importc: "_ZTVN10__cxxabiv121__vmi_class_type_infoE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTVN10_cxxabiv123fundamentaltypeinfoE*() {.cdecl,
+proc ZTVN10_cxxabiv123_fundamental_type_infoE*() {.cdecl,
     importc: "_ZTVN10__cxxabiv123__fundamental_type_infoE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTVN10_cxxabiv129pointertomembertypeinfoE*() {.cdecl,
+proc ZTVN10_cxxabiv129_pointer_to_member_type_infoE*() {.cdecl,
     importc: "_ZTVN10__cxxabiv129__pointer_to_member_type_infoE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZTVN6Dinkum7threads10lock_errorE*() {.cdecl,
     importc: "_ZTVN6Dinkum7threads10lock_errorE", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTVN6Dinkum7threads21thread_resourceerrorE*() {.cdecl,
+proc ZTVN6Dinkum7threads21thread_resource_errorE*() {.cdecl,
     importc: "_ZTVN6Dinkum7threads21thread_resource_errorE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -6629,8 +6681,8 @@ proc ZTVSt11range_error*() {.cdecl, importc: "_ZTVSt11range_error",
 proc ZTVSt11regex_error*() {.cdecl, importc: "_ZTVSt11regex_error",
                              header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTVSt12bad_weakptr*() {.cdecl, importc: "_ZTVSt12bad_weak_ptr",
-                             header: "orbis/LibcInternal.h".}
+proc ZTVSt12bad_weak_ptr*() {.cdecl, importc: "_ZTVSt12bad_weak_ptr",
+                              header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZTVSt12domain_error*() {.cdecl, importc: "_ZTVSt12domain_error",
                               header: "orbis/LibcInternal.h".}
@@ -6641,8 +6693,8 @@ proc ZTVSt12future_error*() {.cdecl, importc: "_ZTVSt12future_error",
 proc ZTVSt12length_error*() {.cdecl, importc: "_ZTVSt12length_error",
                               header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTVSt12out_ofrange*() {.cdecl, importc: "_ZTVSt12out_of_range",
-                             header: "orbis/LibcInternal.h".}
+proc ZTVSt12out_of_range*() {.cdecl, importc: "_ZTVSt12out_of_range",
+                              header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZTVSt12system_error*() {.cdecl, importc: "_ZTVSt12system_error",
                               header: "orbis/LibcInternal.h".}
@@ -6650,19 +6702,19 @@ proc ZTVSt12system_error*() {.cdecl, importc: "_ZTVSt12system_error",
 proc ZTVSt13bad_exception*() {.cdecl, importc: "_ZTVSt13bad_exception",
                                header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTVSt13basic_filebufIcSt11chartraitsIcEE*() {.cdecl,
+proc ZTVSt13basic_filebufIcSt11char_traitsIcEE*() {.cdecl,
     importc: "_ZTVSt13basic_filebufIcSt11char_traitsIcEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTVSt13basic_filebufIwSt11chartraitsIwEE*() {.cdecl,
+proc ZTVSt13basic_filebufIwSt11char_traitsIwEE*() {.cdecl,
     importc: "_ZTVSt13basic_filebufIwSt11char_traitsIwEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTVSt13basic_istreamIwSt11chartraitsIwEE*() {.cdecl,
+proc ZTVSt13basic_istreamIwSt11char_traitsIwEE*() {.cdecl,
     importc: "_ZTVSt13basic_istreamIwSt11char_traitsIwEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTVSt13basic_ostreamIwSt11chartraitsIwEE*() {.cdecl,
+proc ZTVSt13basic_ostreamIwSt11char_traitsIwEE*() {.cdecl,
     importc: "_ZTVSt13basic_ostreamIwSt11char_traitsIwEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -6684,24 +6736,24 @@ proc ZTVSt16invalid_argument*() {.cdecl, importc: "_ZTVSt16invalid_argument",
 proc ZTVSt16nested_exception*() {.cdecl, importc: "_ZTVSt16nested_exception",
                                   header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTVSt17bad_functioncall*() {.cdecl, importc: "_ZTVSt17bad_function_call",
-                                  header: "orbis/LibcInternal.h".}
+proc ZTVSt17bad_function_call*() {.cdecl, importc: "_ZTVSt17bad_function_call",
+                                   header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTVSt20bad_arraynewlength*() {.cdecl,
-                                    importc: "_ZTVSt20bad_array_new_length",
-                                    header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc ZTVSt22_Futureerrorcategory*() {.cdecl, importc: "_ZTVSt22_Future_error_category",
+proc ZTVSt20bad_array_new_length*() {.cdecl,
+                                      importc: "_ZTVSt20bad_array_new_length",
                                       header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTVSt22_Systemerrorcategory*() {.cdecl, importc: "_ZTVSt22_System_error_category",
-                                      header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc ZTVSt23_Genericerrorcategory*() {.cdecl, importc: "_ZTVSt23_Generic_error_category",
-                                       header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc ZTVSt24_Iostreamerrorcategory*() {.cdecl, importc: "_ZTVSt24_Iostream_error_category",
+proc ZTVSt22_Future_error_category*() {.cdecl, importc: "_ZTVSt22_Future_error_category",
                                         header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc ZTVSt22_System_error_category*() {.cdecl, importc: "_ZTVSt22_System_error_category",
+                                        header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc ZTVSt23_Generic_error_category*() {.cdecl,
+    importc: "_ZTVSt23_Generic_error_category", header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc ZTVSt24_Iostream_error_category*() {.cdecl,
+    importc: "_ZTVSt24_Iostream_error_category", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZTVSt4_Pad*() {.cdecl, importc: "_ZTVSt4_Pad",
                      header: "orbis/LibcInternal.h".}
@@ -6738,19 +6790,19 @@ proc ZTVSt7collateIcE*() {.cdecl, importc: "_ZTVSt7collateIcE",
 proc ZTVSt7collateIwE*() {.cdecl, importc: "_ZTVSt7collateIwE",
                            header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTVSt7num_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE*() {.cdecl,
+proc ZTVSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE*() {.cdecl,
     importc: "_ZTVSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTVSt7num_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE*() {.cdecl,
+proc ZTVSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE*() {.cdecl,
     importc: "_ZTVSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTVSt7num_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE*() {.cdecl,
+proc ZTVSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE*() {.cdecl,
     importc: "_ZTVSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTVSt7num_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE*() {.cdecl,
+proc ZTVSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE*() {.cdecl,
     importc: "_ZTVSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -6772,19 +6824,19 @@ proc ZTVSt8numpunctIcE*() {.cdecl, importc: "_ZTVSt8numpunctIcE",
 proc ZTVSt8numpunctIwE*() {.cdecl, importc: "_ZTVSt8numpunctIwE",
                             header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTVSt8time_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE*() {.cdecl,
+proc ZTVSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE*() {.cdecl,
     importc: "_ZTVSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTVSt8time_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE*() {.cdecl,
+proc ZTVSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE*() {.cdecl,
     importc: "_ZTVSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTVSt8time_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE*() {.cdecl,
+proc ZTVSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE*() {.cdecl,
     importc: "_ZTVSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTVSt8time_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE*() {.cdecl,
+proc ZTVSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE*() {.cdecl,
     importc: "_ZTVSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -6794,77 +6846,77 @@ proc ZTVSt9bad_alloc*() {.cdecl, importc: "_ZTVSt9bad_alloc",
 proc ZTVSt9exception*() {.cdecl, importc: "_ZTVSt9exception",
                           header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTVSt9money_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE*() {.cdecl,
+proc ZTVSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE*() {.cdecl,
     importc: "_ZTVSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTVSt9money_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE*() {.cdecl,
+proc ZTVSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE*() {.cdecl,
     importc: "_ZTVSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTVSt9money_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE*() {.cdecl,
+proc ZTVSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE*() {.cdecl,
     importc: "_ZTVSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZTVSt9money_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE*() {.cdecl,
+proc ZTVSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE*() {.cdecl,
     importc: "_ZTVSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ZTVSt9type_info*() {.cdecl, importc: "_ZTVSt9type_info",
                           header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZZNKSt7num_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE8GetffldEPcRS3S6RSt8iosbasePiE4Src*() {.
+proc ZZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE8_GetffldEPcRS3_S6_RSt8ios_basePiE4_Src*() {.
     cdecl, importc: "_ZZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE8_GetffldEPcRS3_S6_RSt8ios_basePiE4_Src",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZZNKSt7num_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE8GetifldEPcRS3S6NSt5IosbIiE9FmtflagsERKSt6localeE4Src*() {.
+proc ZZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE8_GetifldEPcRS3_S6_NSt5_IosbIiE9_FmtflagsERKSt6localeE4_Src*() {.
     cdecl, importc: "_ZZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE8_GetifldEPcRS3_S6_NSt5_IosbIiE9_FmtflagsERKSt6localeE4_Src",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZZNKSt7num_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE9GetffldxEPcRS3S6RSt8iosbasePiE4Src*() {.
+proc ZZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE9_GetffldxEPcRS3_S6_RSt8ios_basePiE4_Src*() {.
     cdecl, importc: "_ZZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE9_GetffldxEPcRS3_S6_RSt8ios_basePiE4_Src",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZZNKSt7num_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE8GetffldEPcRS3S6RSt8iosbasePiE4Src*() {.
+proc ZZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE8_GetffldEPcRS3_S6_RSt8ios_basePiE4_Src*() {.
     cdecl, importc: "_ZZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE8_GetffldEPcRS3_S6_RSt8ios_basePiE4_Src",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZZNKSt7num_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE8GetifldEPcRS3S6NSt5IosbIiE9FmtflagsERKSt6localeE4Src*() {.
+proc ZZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE8_GetifldEPcRS3_S6_NSt5_IosbIiE9_FmtflagsERKSt6localeE4_Src*() {.
     cdecl, importc: "_ZZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE8_GetifldEPcRS3_S6_NSt5_IosbIiE9_FmtflagsERKSt6localeE4_Src",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZZNKSt7num_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE9GetffldxEPcRS3S6RSt8iosbasePiE4Src*() {.
+proc ZZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE9_GetffldxEPcRS3_S6_RSt8ios_basePiE4_Src*() {.
     cdecl, importc: "_ZZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE9_GetffldxEPcRS3_S6_RSt8ios_basePiE4_Src",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZZNKSt9money_getIcSt19istreambufiteratorIcSt11chartraitsIcEEE8GetmfldERS3S5bRSt8iosbasePcE4Src*() {.
+proc ZZNKSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE8_GetmfldERS3_S5_bRSt8ios_basePcE4_Src*() {.
     cdecl, importc: "_ZZNKSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE8_GetmfldERS3_S5_bRSt8ios_basePcE4_Src",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZZNKSt9money_getIwSt19istreambufiteratorIwSt11chartraitsIwEEE8GetmfldERS3S5bRSt8iosbasePwE4Src*() {.
+proc ZZNKSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE8_GetmfldERS3_S5_bRSt8ios_basePwE4_Src*() {.
     cdecl, importc: "_ZZNKSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE8_GetmfldERS3_S5_bRSt8ios_basePwE4_Src",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZZNKSt9money_putIcSt19ostreambufiteratorIcSt11chartraitsIcEEE6doputES3bRSt8iosbasecRKSsE4Src*() {.
+proc ZZNKSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE6do_putES3_bRSt8ios_basecRKSsE4_Src*() {.
     cdecl, importc: "_ZZNKSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE6do_putES3_bRSt8ios_basecRKSsE4_Src",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZZNKSt9money_putIwSt19ostreambufiteratorIwSt11chartraitsIwEEE6doputES3bRSt8iosbasewRKSbIwS2SaIwEEE4Src*() {.
+proc ZZNKSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE6do_putES3_bRSt8ios_basewRKSbIwS2_SaIwEEE4_Src*() {.
     cdecl, importc: "_ZZNKSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE6do_putES3_bRSt8ios_basewRKSbIwS2_SaIwEEE4_Src",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZZNSt13basic_filebufIcSt11chartraitsIcEE5InitEP7sFILENS27InitflEE7Stinit*() {.
+proc ZZNSt13basic_filebufIcSt11char_traitsIcEE5_InitEP7_sFILENS2_7_InitflEE7_Stinit*() {.
     cdecl, importc: "_ZZNSt13basic_filebufIcSt11char_traitsIcEE5_InitEP7__sFILENS2_7_InitflEE7_Stinit",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ZZNSt13basic_filebufIwSt11chartraitsIwEE5InitEP7sFILENS27InitflEE7Stinit*() {.
+proc ZZNSt13basic_filebufIwSt11char_traitsIwEE5_InitEP7_sFILENS2_7_InitflEE7_Stinit*() {.
     cdecl, importc: "_ZZNSt13basic_filebufIwSt11char_traitsIwEE5_InitEP7__sFILENS2_7_InitflEE7_Stinit",
     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc abort*() {.cdecl, importc: "abort", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc abort_handlers*() {.cdecl, importc: "abort_handler_s",
-                         header: "orbis/LibcInternal.h".}
+proc abort_handler_s*() {.cdecl, importc: "abort_handler_s",
+                          header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc abs*() {.cdecl, importc: "abs", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -6900,8 +6952,8 @@ proc asinl*() {.cdecl, importc: "asinl", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc asprintf*() {.cdecl, importc: "asprintf", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc at_quickexit*() {.cdecl, importc: "at_quick_exit",
-                       header: "orbis/LibcInternal.h".}
+proc at_quick_exit*() {.cdecl, importc: "at_quick_exit",
+                        header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc atan*() {.cdecl, importc: "atan", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -7035,11 +7087,11 @@ proc erfl*() {.cdecl, importc: "erfl", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc err*() {.cdecl, importc: "err", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc err_setexit*() {.cdecl, importc: "err_set_exit",
-                      header: "orbis/LibcInternal.h".}
+proc err_set_exit*() {.cdecl, importc: "err_set_exit",
+                       header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc err_setfile*() {.cdecl, importc: "err_set_file",
-                      header: "orbis/LibcInternal.h".}
+proc err_set_file*() {.cdecl, importc: "err_set_file",
+                       header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc errc*() {.cdecl, importc: "errc", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -7301,8 +7353,8 @@ proc getopt*() {.cdecl, importc: "getopt", header: "orbis/LibcInternal.h".}
 proc getopt_long*() {.cdecl, importc: "getopt_long",
                       header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc getopt_longonly*() {.cdecl, importc: "getopt_long_only",
-                          header: "orbis/LibcInternal.h".}
+proc getopt_long_only*() {.cdecl, importc: "getopt_long_only",
+                           header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc getprogname*() {.cdecl, importc: "getprogname",
                       header: "orbis/LibcInternal.h".}
@@ -7327,8 +7379,8 @@ proc hypotf*() {.cdecl, importc: "hypotf", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc hypotl*() {.cdecl, importc: "hypotl", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc ignore_handlers*() {.cdecl, importc: "ignore_handler_s",
-                          header: "orbis/LibcInternal.h".}
+proc ignore_handler_s*() {.cdecl, importc: "ignore_handler_s",
+                           header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc ilogb*() {.cdecl, importc: "ilogb", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -7348,8 +7400,8 @@ proc inet_aton*() {.cdecl, importc: "inet_aton", header: "orbis/LibcInternal.h".
   ##  Empty Comment
 proc inet_ntoa*() {.cdecl, importc: "inet_ntoa", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc inet_ntoar*() {.cdecl, importc: "inet_ntoa_r",
-                     header: "orbis/LibcInternal.h".}
+proc inet_ntoa_r*() {.cdecl, importc: "inet_ntoa_r",
+                      header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc initstate*() {.cdecl, importc: "initstate", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -7529,11 +7581,11 @@ proc malloc_initialize*() {.cdecl, importc: "malloc_initialize",
 proc malloc_stats*() {.cdecl, importc: "malloc_stats",
                        header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc malloc_statsfast*() {.cdecl, importc: "malloc_stats_fast",
-                           header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc malloc_usablesize*() {.cdecl, importc: "malloc_usable_size",
+proc malloc_stats_fast*() {.cdecl, importc: "malloc_stats_fast",
                             header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc malloc_usable_size*() {.cdecl, importc: "malloc_usable_size",
+                             header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc mblen*() {.cdecl, importc: "mblen", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
@@ -7645,65 +7697,64 @@ proc posix_memalign*() {.cdecl, importc: "posix_memalign",
 proc posix_spawn*() {.cdecl, importc: "posix_spawn",
                       header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc posix_spawnfileactionsaddclose*() {.cdecl,
+proc posix_spawn_file_actions_addclose*() {.cdecl,
     importc: "posix_spawn_file_actions_addclose", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc posix_spawnfileactionsadddup2*() {.cdecl, importc: "posix_spawn_file_actions_adddup2",
+proc posix_spawn_file_actions_adddup2*() {.cdecl,
+    importc: "posix_spawn_file_actions_adddup2", header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc posix_spawn_file_actions_addopen*() {.cdecl,
+    importc: "posix_spawn_file_actions_addopen", header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc posix_spawn_file_actions_destroy*() {.cdecl,
+    importc: "posix_spawn_file_actions_destroy", header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc posix_spawn_file_actions_init*() {.cdecl, importc: "posix_spawn_file_actions_init",
                                         header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc posix_spawnfileactionsaddopen*() {.cdecl, importc: "posix_spawn_file_actions_addopen",
+proc posix_spawnattr_destroy*() {.cdecl, importc: "posix_spawnattr_destroy",
+                                  header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc posix_spawnattr_getflags*() {.cdecl, importc: "posix_spawnattr_getflags",
+                                   header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc posix_spawnattr_getpgroup*() {.cdecl, importc: "posix_spawnattr_getpgroup",
+                                    header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc posix_spawnattr_getschedparam*() {.cdecl, importc: "posix_spawnattr_getschedparam",
                                         header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc posix_spawnfileactionsdestroy*() {.cdecl, importc: "posix_spawn_file_actions_destroy",
+proc posix_spawnattr_getschedpolicy*() {.cdecl,
+    importc: "posix_spawnattr_getschedpolicy", header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc posix_spawnattr_getsigdefault*() {.cdecl, importc: "posix_spawnattr_getsigdefault",
                                         header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc posix_spawnfileactionsinit*() {.cdecl,
-                                     importc: "posix_spawn_file_actions_init",
+proc posix_spawnattr_getsigmask*() {.cdecl,
+                                     importc: "posix_spawnattr_getsigmask",
                                      header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc posix_spawnattrdestroy*() {.cdecl, importc: "posix_spawnattr_destroy",
-                                 header: "orbis/LibcInternal.h".}
+proc posix_spawnattr_init*() {.cdecl, importc: "posix_spawnattr_init",
+                               header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc posix_spawnattrgetflags*() {.cdecl, importc: "posix_spawnattr_getflags",
-                                  header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc posix_spawnattrgetpgroup*() {.cdecl, importc: "posix_spawnattr_getpgroup",
+proc posix_spawnattr_setflags*() {.cdecl, importc: "posix_spawnattr_setflags",
                                    header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc posix_spawnattrgetschedparam*() {.cdecl, importc: "posix_spawnattr_getschedparam",
-                                       header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc posix_spawnattrgetschedpolicy*() {.cdecl, importc: "posix_spawnattr_getschedpolicy",
-                                        header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc posix_spawnattrgetsigdefault*() {.cdecl, importc: "posix_spawnattr_getsigdefault",
-                                       header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc posix_spawnattrgetsigmask*() {.cdecl,
-                                    importc: "posix_spawnattr_getsigmask",
+proc posix_spawnattr_setpgroup*() {.cdecl, importc: "posix_spawnattr_setpgroup",
                                     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc posix_spawnattrinit*() {.cdecl, importc: "posix_spawnattr_init",
-                              header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc posix_spawnattrsetflags*() {.cdecl, importc: "posix_spawnattr_setflags",
-                                  header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc posix_spawnattrsetpgroup*() {.cdecl, importc: "posix_spawnattr_setpgroup",
-                                   header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc posix_spawnattrsetschedparam*() {.cdecl, importc: "posix_spawnattr_setschedparam",
-                                       header: "orbis/LibcInternal.h".}
-  ##  Empty Comment
-proc posix_spawnattrsetschedpolicy*() {.cdecl, importc: "posix_spawnattr_setschedpolicy",
+proc posix_spawnattr_setschedparam*() {.cdecl, importc: "posix_spawnattr_setschedparam",
                                         header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc posix_spawnattrsetsigdefault*() {.cdecl, importc: "posix_spawnattr_setsigdefault",
-                                       header: "orbis/LibcInternal.h".}
+proc posix_spawnattr_setschedpolicy*() {.cdecl,
+    importc: "posix_spawnattr_setschedpolicy", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc posix_spawnattrsetsigmask*() {.cdecl,
-                                    importc: "posix_spawnattr_setsigmask",
-                                    header: "orbis/LibcInternal.h".}
+proc posix_spawnattr_setsigdefault*() {.cdecl, importc: "posix_spawnattr_setsigdefault",
+                                        header: "orbis/LibcInternal.h".}
+  ##  Empty Comment
+proc posix_spawnattr_setsigmask*() {.cdecl,
+                                     importc: "posix_spawnattr_setsigmask",
+                                     header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc posix_spawnp*() {.cdecl, importc: "posix_spawnp",
                        header: "orbis/LibcInternal.h".}
@@ -7925,8 +7976,8 @@ proc seed48*() {.cdecl, importc: "seed48", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc seekdir*() {.cdecl, importc: "seekdir", header: "orbis/LibcInternal.h".}
   ##  Empty Comment
-proc set_constrainthandlers*() {.cdecl, importc: "set_constraint_handler_s",
-                                 header: "orbis/LibcInternal.h".}
+proc set_constraint_handler_s*() {.cdecl, importc: "set_constraint_handler_s",
+                                   header: "orbis/LibcInternal.h".}
   ##  Empty Comment
 proc setbuf*() {.cdecl, importc: "setbuf", header: "orbis/LibcInternal.h".}
   ##  Empty Comment

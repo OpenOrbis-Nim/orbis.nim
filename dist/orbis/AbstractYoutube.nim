@@ -1,12 +1,12 @@
-proc ZN15AbstractStorage10YoutubeAPI14SetAccessTokenERKSbIcSt11char_traitsIcENS8StlAllocIcEEE*() {.
+proc ZN15AbstractStorage10YoutubeAPI14SetAccessTokenERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage10YoutubeAPI14SetAccessTokenERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractYoutube.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage10YoutubeAPI5StartERKSbIcSt11char_traitsIcENS8StlAllocIcEEE*() {.
+proc ZN15AbstractStorage10YoutubeAPI5StartERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage10YoutubeAPI5StartERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractYoutube.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage10YoutubeAPI6FinishERiRSbIcSt11char_traitsIcENS8StlAllocIcEEE*() {.
+proc ZN15AbstractStorage10YoutubeAPI6FinishERiRSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage10YoutubeAPI6FinishERiRSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractYoutube.h".}
   ##  Empty Comment
@@ -38,15 +38,15 @@ proc ZN15AbstractStorage10YoutubeAPID2Ev*() {.cdecl,
     importc: "_ZN15AbstractStorage10YoutubeAPID2Ev",
     header: "orbis/AbstractYoutube.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage13YoutubeFolder10NewContentERKSbIcSt11char_traitsIcENS8StlAllocIcEEEPSt10sharedptrINS7ContentEE*() {.
+proc ZN15AbstractStorage13YoutubeFolder10NewContentERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEPSt10shared_ptrINS_7ContentEE*() {.
     cdecl, importc: "_ZN15AbstractStorage13YoutubeFolder10NewContentERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEPSt10shared_ptrINS_7ContentEE",
     header: "orbis/AbstractYoutube.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage13YoutubeFolder12RemoveFolderERKSbIcSt11char_traitsIcENS8StlAllocIcEEEb*() {.
+proc ZN15AbstractStorage13YoutubeFolder12RemoveFolderERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEb*() {.
     cdecl, importc: "_ZN15AbstractStorage13YoutubeFolder12RemoveFolderERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEb",
     header: "orbis/AbstractYoutube.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage13YoutubeFolder13RemoveContentERKSbIcSt11char_traitsIcENS8StlAllocIcEEE*() {.
+proc ZN15AbstractStorage13YoutubeFolder13RemoveContentERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage13YoutubeFolder13RemoveContentERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractYoutube.h".}
   ##  Empty Comment
@@ -62,15 +62,15 @@ proc ZN15AbstractStorage13YoutubeFolder6RemoveEb*() {.cdecl,
     importc: "_ZN15AbstractStorage13YoutubeFolder6RemoveEb",
     header: "orbis/AbstractYoutube.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage13YoutubeFolder9NewFolderERKSbIcSt11char_traitsIcENS8StlAllocIcEEEPSt10sharedptrINS6FolderEE*() {.
+proc ZN15AbstractStorage13YoutubeFolder9NewFolderERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEPSt10shared_ptrINS_6FolderEE*() {.
     cdecl, importc: "_ZN15AbstractStorage13YoutubeFolder9NewFolderERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEPSt10shared_ptrINS_6FolderEE",
     header: "orbis/AbstractYoutube.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage13YoutubeFolderC1ERKSbIcSt11char_traitsIcENS8StlAllocIcEEEb*() {.
+proc ZN15AbstractStorage13YoutubeFolderC1ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEb*() {.
     cdecl, importc: "_ZN15AbstractStorage13YoutubeFolderC1ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEb",
     header: "orbis/AbstractYoutube.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage13YoutubeFolderC2ERKSbIcSt11char_traitsIcENS8StlAllocIcEEEb*() {.
+proc ZN15AbstractStorage13YoutubeFolderC2ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEb*() {.
     cdecl, importc: "_ZN15AbstractStorage13YoutubeFolderC2ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEb",
     header: "orbis/AbstractYoutube.h".}
   ##  Empty Comment
@@ -90,7 +90,7 @@ proc ZN15AbstractStorage14YoutubeContent11SetMetadataEPN23sceMetadataReaderWrite
     cdecl, importc: "_ZN15AbstractStorage14YoutubeContent11SetMetadataEPN23sceMetadataReaderWriter8MetadataE",
     header: "orbis/AbstractYoutube.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14YoutubeContent12readExternalESt10shared_ptrINS7ContentEE*() {.
+proc ZN15AbstractStorage14YoutubeContent12readExternalESt10shared_ptrINS_7ContentEE*() {.
     cdecl, importc: "_ZN15AbstractStorage14YoutubeContent12readExternalESt10shared_ptrINS_7ContentEE",
     header: "orbis/AbstractYoutube.h".}
   ##  Empty Comment
@@ -98,7 +98,7 @@ proc ZN15AbstractStorage14YoutubeContent13ParseMetadataEPN23sceMetadataReaderWri
     cdecl, importc: "_ZN15AbstractStorage14YoutubeContent13ParseMetadataEPN23sceMetadataReaderWriter8MetadataES3_",
     header: "orbis/AbstractYoutube.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14YoutubeContent13writeExternalESt10shared_ptrINS7ContentEE*() {.
+proc ZN15AbstractStorage14YoutubeContent13writeExternalESt10shared_ptrINS_7ContentEE*() {.
     cdecl, importc: "_ZN15AbstractStorage14YoutubeContent13writeExternalESt10shared_ptrINS_7ContentEE",
     header: "orbis/AbstractYoutube.h".}
   ##  Empty Comment
@@ -118,15 +118,15 @@ proc ZN15AbstractStorage14YoutubeContent6RemoveEv*() {.cdecl,
     importc: "_ZN15AbstractStorage14YoutubeContent6RemoveEv",
     header: "orbis/AbstractYoutube.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14YoutubeContent6RenameERKSbIcSt11char_traitsIcENS8StlAllocIcEEE*() {.
+proc ZN15AbstractStorage14YoutubeContent6RenameERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage14YoutubeContent6RenameERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractYoutube.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14YoutubeContentC1ERKSbIcSt11char_traitsIcENS8StlAllocIcEEEb*() {.
+proc ZN15AbstractStorage14YoutubeContentC1ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEb*() {.
     cdecl, importc: "_ZN15AbstractStorage14YoutubeContentC1ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEb",
     header: "orbis/AbstractYoutube.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14YoutubeContentC2ERKSbIcSt11char_traitsIcENS8StlAllocIcEEEb*() {.
+proc ZN15AbstractStorage14YoutubeContentC2ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEb*() {.
     cdecl, importc: "_ZN15AbstractStorage14YoutubeContentC2ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEb",
     header: "orbis/AbstractYoutube.h".}
   ##  Empty Comment
@@ -146,7 +146,7 @@ proc ZN15AbstractStorage14YoutubeService13SearchStorageEv*() {.cdecl,
     importc: "_ZN15AbstractStorage14YoutubeService13SearchStorageEv",
     header: "orbis/AbstractYoutube.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14YoutubeService23create_storageinstanceERKSbIcSt11chartraitsIcENS8StlAllocIcEEE*() {.
+proc ZN15AbstractStorage14YoutubeService23create_storage_instanceERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage14YoutubeService23create_storage_instanceERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractYoutube.h".}
   ##  Empty Comment
@@ -178,47 +178,47 @@ proc ZN15AbstractStorage14YoutubeServiceD2Ev*() {.cdecl,
     importc: "_ZN15AbstractStorage14YoutubeServiceD2Ev",
     header: "orbis/AbstractYoutube.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14YoutubeStorage10GetContentERKSbIcSt11char_traitsIcENS8StlAllocIcEEEPSt10sharedptrINS7ContentEE*() {.
+proc ZN15AbstractStorage14YoutubeStorage10GetContentERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEPSt10shared_ptrINS_7ContentEE*() {.
     cdecl, importc: "_ZN15AbstractStorage14YoutubeStorage10GetContentERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEPSt10shared_ptrINS_7ContentEE",
     header: "orbis/AbstractYoutube.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14YoutubeStorage11DeserializeESt10shared_ptrINS7ContentEEPS1INS4ItemEE*() {.
+proc ZN15AbstractStorage14YoutubeStorage11DeserializeESt10shared_ptrINS_7ContentEEPS1_INS_4ItemEE*() {.
     cdecl, importc: "_ZN15AbstractStorage14YoutubeStorage11DeserializeESt10shared_ptrINS_7ContentEEPS1_INS_4ItemEE",
     header: "orbis/AbstractYoutube.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14YoutubeStorage13GetRootFolderEPSt10shared_ptrINS6FolderEE*() {.
+proc ZN15AbstractStorage14YoutubeStorage13GetRootFolderEPSt10shared_ptrINS_6FolderEE*() {.
     cdecl, importc: "_ZN15AbstractStorage14YoutubeStorage13GetRootFolderEPSt10shared_ptrINS_6FolderEE",
     header: "orbis/AbstractYoutube.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14YoutubeStorage15CreateRecursiveERKSbIcSt11char_traitsIcENS8StlAllocIcEEENS8ItemTypeEPSt10sharedptrINS4ItemEE*() {.
+proc ZN15AbstractStorage14YoutubeStorage15CreateRecursiveERKSbIcSt11char_traitsIcENS_8StlAllocIcEEENS_8ItemTypeEPSt10shared_ptrINS_4ItemEE*() {.
     cdecl, importc: "_ZN15AbstractStorage14YoutubeStorage15CreateRecursiveERKSbIcSt11char_traitsIcENS_8StlAllocIcEEENS_8ItemTypeEPSt10shared_ptrINS_4ItemEE",
     header: "orbis/AbstractYoutube.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14YoutubeStorage15RemoveRecursiveERKSbIcSt11char_traitsIcENS8StlAllocIcEEE*() {.
+proc ZN15AbstractStorage14YoutubeStorage15RemoveRecursiveERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage14YoutubeStorage15RemoveRecursiveERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractYoutube.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14YoutubeStorage7GetItemERKSbIcSt11char_traitsIcENS8StlAllocIcEEEPSt10sharedptrINS4ItemEE*() {.
+proc ZN15AbstractStorage14YoutubeStorage7GetItemERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEPSt10shared_ptrINS_4ItemEE*() {.
     cdecl, importc: "_ZN15AbstractStorage14YoutubeStorage7GetItemERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEPSt10shared_ptrINS_4ItemEE",
     header: "orbis/AbstractYoutube.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14YoutubeStorage7IsExistERKSbIcSt11char_traitsIcENS8StlAllocIcEEE*() {.
+proc ZN15AbstractStorage14YoutubeStorage7IsExistERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage14YoutubeStorage7IsExistERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractYoutube.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14YoutubeStorage9GetForderERKSbIcSt11char_traitsIcENS8StlAllocIcEEEPSt10sharedptrINS6FolderEE*() {.
+proc ZN15AbstractStorage14YoutubeStorage9GetForderERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEPSt10shared_ptrINS_6FolderEE*() {.
     cdecl, importc: "_ZN15AbstractStorage14YoutubeStorage9GetForderERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEPSt10shared_ptrINS_6FolderEE",
     header: "orbis/AbstractYoutube.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14YoutubeStorage9SerializeESt10shared_ptrINS7ContentEES1INS4ItemEE*() {.
+proc ZN15AbstractStorage14YoutubeStorage9SerializeESt10shared_ptrINS_7ContentEES1_INS_4ItemEE*() {.
     cdecl, importc: "_ZN15AbstractStorage14YoutubeStorage9SerializeESt10shared_ptrINS_7ContentEES1_INS_4ItemEE",
     header: "orbis/AbstractYoutube.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14YoutubeStorageC1ERKSbIcSt11char_traitsIcENS8StlAllocIcEEE*() {.
+proc ZN15AbstractStorage14YoutubeStorageC1ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage14YoutubeStorageC1ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractYoutube.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14YoutubeStorageC2ERKSbIcSt11char_traitsIcENS8StlAllocIcEEE*() {.
+proc ZN15AbstractStorage14YoutubeStorageC2ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage14YoutubeStorageC2ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractYoutube.h".}
   ##  Empty Comment

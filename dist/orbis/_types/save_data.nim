@@ -1,90 +1,90 @@
 import posix
 const
-  ORBIS_SAVEDATAMOUNTMODERDONLY* = 1
+  ORBIS_SAVE_DATA_MOUNT_MODE_RDONLY* = 1
 
 const
-  ORBIS_SAVEDATAMOUNTMODERDWR* = 2 ## Read/write-enabled
+  ORBIS_SAVE_DATA_MOUNT_MODE_RDWR* = 2 ## Read/write-enabled
 
 const
-  ORBIS_SAVEDATAMOUNTMODECREATE* = 4 ## Create new (error if save data directory already exists)
+  ORBIS_SAVE_DATA_MOUNT_MODE_CREATE* = 4 ## Create new (error if save data directory already exists)
 
 const
-  ORBIS_SAVEDATAMOUNTMODEDESTRUCTOFF* = 8 ## Turn off corrupt flag (not recommended)
+  ORBIS_SAVE_DATA_MOUNT_MODE_DESTRUCT_OFF* = 8 ## Turn off corrupt flag (not recommended)
 
 const
-  ORBIS_SAVEDATAMOUNTMODECOPYICON* = 16 ## Copy save_data.png in package as icon when newly creating save data
+  ORBIS_SAVE_DATA_MOUNT_MODE_COPY_ICON* = 16 ## Copy save_data.png in package as icon when newly creating save data
 
 const
-  ORBIS_SAVEDATAMOUNTMODECREATE2* = 32 ## Create new (mount save data directory if it already exists)
+  ORBIS_SAVE_DATA_MOUNT_MODE_CREATE2* = 32 ## Create new (mount save data directory if it already exists)
 
 const
-  ORBIS_SAVEDATAPARAMTYPEALL* = 0 ## Update all parameters
+  ORBIS_SAVE_DATA_PARAM_TYPE_ALL* = 0 ## Update all parameters
 
 const
-  ORBIS_SAVEDATAPARAMTYPETITLE* = 1 ## Update save data title only
+  ORBIS_SAVE_DATA_PARAM_TYPE_TITLE* = 1 ## Update save data title only
 
 const
-  ORBIS_SAVEDATAPARAMTYPESUBTITLE* = 2 ## Update save data subtitle only
+  ORBIS_SAVE_DATA_PARAM_TYPE_SUB_TITLE* = 2 ## Update save data subtitle only
 
 const
-  ORBIS_SAVEDATAPARAMTYPEDETAIL* = 3 ## Update save data detailed information only
+  ORBIS_SAVE_DATA_PARAM_TYPE_DETAIL* = 3 ## Update save data detailed information only
 
 const
-  ORBIS_SAVEDATAPARAMTYPEUSERPARAM* = 4 ## Update user parameter only
+  ORBIS_SAVE_DATA_PARAM_TYPE_USER_PARAM* = 4 ## Update user parameter only
 
 const
-  ORBIS_SAVEDATAMOUNTMAXCOUNT* = 16 ## Maximum number of instances of save data that can be mounted simultaneously
+  ORBIS_SAVE_DATA_MOUNT_MAX_COUNT* = 16 ## Maximum number of instances of save data that can be mounted simultaneously
 
 const
-  ORBIS_SAVEDATADIRNAMEMAXCOUNT* = 1024 ## Maximum number of save data directories
+  ORBIS_SAVE_DATA_DIRNAME_MAX_COUNT* = 1024 ## Maximum number of save data directories
 
 const
-  ORBIS_SAVEDATAICONWIDTH* = 228 ## Icon width
+  ORBIS_SAVE_DATA_ICON_WIDTH* = 228 ## Icon width
 
 const
-  ORBIS_SAVEDATAICONHEIGHT* = 128 ## Icon height
+  ORBIS_SAVE_DATA_ICON_HEIGHT* = 128 ## Icon height
 
 const
-  ORBIS_SAVEDATAICONFILEMAXSIZE* = 116736 ## Maximum size for an icon file
+  ORBIS_SAVE_DATA_ICON_FILE_MAXSIZE* = 116736 ## Maximum size for an icon file
 
 const
-  ORBIS_SAVEDATABLOCKSIZE* = 32768 ## Block size (bytes)
+  ORBIS_SAVE_DATA_BLOCK_SIZE* = 32768 ## Block size (bytes)
 
 const
-  ORBIS_SAVEDATABLOCKSMIN2* = 96 ## Minimum number of blocks
+  ORBIS_SAVE_DATA_BLOCKS_MIN2* = 96 ## Minimum number of blocks
 
 const
-  ORBIS_SAVEDATABLOCKSMAX* = 32768 ## Maximum number of blocks
+  ORBIS_SAVE_DATA_BLOCKS_MAX* = 32768 ## Maximum number of blocks
 
 const
-  ORBIS_SAVEDATAMEMORYMAXSIZE3* = 33554432 ## Maximum size for the data sections of the save data memory (maximum value for the total save data memory size of all users)
+  ORBIS_SAVE_DATA_MEMORY_MAXSIZE3* = 33554432 ## Maximum size for the data sections of the save data memory (maximum value for the total save data memory size of all users)
 
 const
-  ORBIS_SAVEDATAMEMORYSETUPMAXCOUNT* = 4 ## Maximum number of instances of save data memory that can be set up simultaneously
+  ORBIS_SAVE_DATA_MEMORY_SETUP_MAX_COUNT* = 4 ## Maximum number of instances of save data memory that can be set up simultaneously
 
 const
-  ORBIS_SAVEDATAMEMORYDATANUMMAXCOUNT* = 5 ## Maximum number of data that can be specified at the same time to the data sections of the save data memory
+  ORBIS_SAVE_DATA_MEMORY_DATANUM_MAX_COUNT* = 5 ## Maximum number of data that can be specified at the same time to the data sections of the save data memory
 
 const
-  ORBIS_SAVEDATATITLEIDDATASIZE* = 10 ## Save data title ID size
+  ORBIS_SAVE_DATA_TITLE_ID_DATA_SIZE* = 10 ## Save data title ID size
 
 const
-  ORBIS_SAVEDATADIRNAMEDATAMAXSIZE* = 32 ## Maximum size for a save data directory name
+  ORBIS_SAVE_DATA_DIRNAME_DATA_MAXSIZE* = 32 ## Maximum size for a save data directory name
 
 const
-  ORBIS_SAVEDATAMOUNTPOINTDATAMAXSIZE* = 16 ## Maximum size for a mount point name
+  ORBIS_SAVE_DATA_MOUNT_POINT_DATA_MAXSIZE* = 16 ## Maximum size for a mount point name
 
 const
-  ORBIS_SAVEDATAFINGERPRINTDATASIZE* = 65 ## Fingerprint size
+  ORBIS_SAVE_DATA_FINGERPRINT_DATA_SIZE* = 65 ## Fingerprint size
 
 const
-  ORBIS_SAVEDATATITLEMAXSIZE* = 128 ## Maximum size for a save data title name (NULL-terminated, UTF-8)
+  ORBIS_SAVE_DATA_TITLE_MAXSIZE* = 128 ## Maximum size for a save data title name (NULL-terminated, UTF-8)
 
 const
-  ORBIS_SAVEDATASUBTITLEMAXSIZE* = 128 ## Maximum size for a save data subtitle name (NULL-terminated, UTF-8)
+  ORBIS_SAVE_DATA_SUBTITLE_MAXSIZE* = 128 ## Maximum size for a save data subtitle name (NULL-terminated, UTF-8)
 
 const
-  ORBIS_SAVEDATADETAILMAXSIZE* = 1024 ## Maximum size for save data detailed information (NULL-terminated, UTF-8)
+  ORBIS_SAVE_DATA_DETAIL_MAXSIZE* = 1024 ## Maximum size for save data detailed information (NULL-terminated, UTF-8)
 
 type
   OrbisSaveDataFingerprint* {.importc: "OrbisSaveDataFingerprint",

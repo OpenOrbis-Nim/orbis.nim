@@ -1,8 +1,8 @@
-proc ZN15AbstractStorage12Serializable12readExternalESt10shared_ptrINS7ContentEE*() {.
+proc ZN15AbstractStorage12Serializable12readExternalESt10shared_ptrINS_7ContentEE*() {.
     cdecl, importc: "_ZN15AbstractStorage12Serializable12readExternalESt10shared_ptrINS_7ContentEE",
     header: "orbis/AbstractStorage.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage12Serializable13writeExternalESt10shared_ptrINS7ContentEE*() {.
+proc ZN15AbstractStorage12Serializable13writeExternalESt10shared_ptrINS_7ContentEE*() {.
     cdecl, importc: "_ZN15AbstractStorage12Serializable13writeExternalESt10shared_ptrINS_7ContentEE",
     header: "orbis/AbstractStorage.h".}
   ##  Empty Comment
@@ -22,7 +22,7 @@ proc ZN15AbstractStorage12SerializableD2Ev*() {.cdecl,
     importc: "_ZN15AbstractStorage12SerializableD2Ev",
     header: "orbis/AbstractStorage.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14StorageManager10GetStorageERKSbIcSt11char_traitsIcENS8StlAllocIcEEEPSt10sharedptrINS7StorageEE*() {.
+proc ZN15AbstractStorage14StorageManager10GetStorageERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEPSt10shared_ptrINS_7StorageEE*() {.
     cdecl, importc: "_ZN15AbstractStorage14StorageManager10GetStorageERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEPSt10shared_ptrINS_7StorageEE",
     header: "orbis/AbstractStorage.h".}
   ##  Empty Comment
@@ -42,11 +42,11 @@ proc ZN15AbstractStorage14StorageManager11GetInstanceEv*() {.cdecl,
     importc: "_ZN15AbstractStorage14StorageManager11GetInstanceEv",
     header: "orbis/AbstractStorage.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14StorageManager12NotifyCreateERKSbIcSt11char_traitsIcENS8StlAllocIcEEEb*() {.
+proc ZN15AbstractStorage14StorageManager12NotifyCreateERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEb*() {.
     cdecl, importc: "_ZN15AbstractStorage14StorageManager12NotifyCreateERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEb",
     header: "orbis/AbstractStorage.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14StorageManager12NotifyRemoveERKSbIcSt11char_traitsIcENS8StlAllocIcEEEb*() {.
+proc ZN15AbstractStorage14StorageManager12NotifyRemoveERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEb*() {.
     cdecl, importc: "_ZN15AbstractStorage14StorageManager12NotifyRemoveERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEb",
     header: "orbis/AbstractStorage.h".}
   ##  Empty Comment
@@ -54,11 +54,11 @@ proc ZN15AbstractStorage14StorageManager15ReleaseInstanceEv*() {.cdecl,
     importc: "_ZN15AbstractStorage14StorageManager15ReleaseInstanceEv",
     header: "orbis/AbstractStorage.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14StorageManager16get_storagenameERKSbIcSt11chartraitsIcENS8StlAllocIcEEE*() {.
+proc ZN15AbstractStorage14StorageManager16get_storage_nameERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage14StorageManager16get_storage_nameERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractStorage.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14StorageManager16NotifyWriteCloseERKSbIcSt11char_traitsIcENS8StlAllocIcEEE*() {.
+proc ZN15AbstractStorage14StorageManager16NotifyWriteCloseERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage14StorageManager16NotifyWriteCloseERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractStorage.h".}
   ##  Empty Comment
@@ -70,11 +70,11 @@ proc ZN15AbstractStorage14StorageManager16RegisterListenerEPNS_20StorageEventLis
     cdecl, importc: "_ZN15AbstractStorage14StorageManager16RegisterListenerEPNS_20StorageEventListenerE",
     header: "orbis/AbstractStorage.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14StorageManager17NotifySetMetadataERKSbIcSt11char_traitsIcENS8StlAllocIcEEE*() {.
+proc ZN15AbstractStorage14StorageManager17NotifySetMetadataERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage14StorageManager17NotifySetMetadataERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractStorage.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14StorageManager18GetStorageNameListEPSt6vectorISbIcSt11char_traitsIcENS8StlAllocIcEEESaIS6EE*() {.
+proc ZN15AbstractStorage14StorageManager18GetStorageNameListEPSt6vectorISbIcSt11char_traitsIcENS_8StlAllocIcEEESaIS6_EE*() {.
     cdecl, importc: "_ZN15AbstractStorage14StorageManager18GetStorageNameListEPSt6vectorISbIcSt11char_traitsIcENS_8StlAllocIcEEESaIS6_EE",
     header: "orbis/AbstractStorage.h".}
   ##  Empty Comment
@@ -86,15 +86,15 @@ proc ZN15AbstractStorage14StorageManager18UnregisterListenerEPKNS_20StorageEvent
     cdecl, importc: "_ZN15AbstractStorage14StorageManager18UnregisterListenerEPKNS_20StorageEventListenerE",
     header: "orbis/AbstractStorage.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14StorageManager20get_serviceinstanceENS11ServiceTypeE*() {.
+proc ZN15AbstractStorage14StorageManager20get_service_instanceENS_11ServiceTypeE*() {.
     cdecl, importc: "_ZN15AbstractStorage14StorageManager20get_service_instanceENS_11ServiceTypeE",
     header: "orbis/AbstractStorage.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14StorageManager21NotifyStorageAttachedERKSbIcSt11char_traitsIcENS8StlAllocIcEEENS11ServiceTypeE*() {.
+proc ZN15AbstractStorage14StorageManager21NotifyStorageAttachedERKSbIcSt11char_traitsIcENS_8StlAllocIcEEENS_11ServiceTypeE*() {.
     cdecl, importc: "_ZN15AbstractStorage14StorageManager21NotifyStorageAttachedERKSbIcSt11char_traitsIcENS_8StlAllocIcEEENS_11ServiceTypeE",
     header: "orbis/AbstractStorage.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage14StorageManager21NotifyStorageDetachedERKSbIcSt11char_traitsIcENS8StlAllocIcEEE*() {.
+proc ZN15AbstractStorage14StorageManager21NotifyStorageDetachedERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage14StorageManager21NotifyStorageDetachedERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractStorage.h".}
   ##  Empty Comment
@@ -134,7 +134,7 @@ proc ZN15AbstractStorage14StorageManagerD2Ev*() {.cdecl,
     importc: "_ZN15AbstractStorage14StorageManagerD2Ev",
     header: "orbis/AbstractStorage.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage15HttpTransaction15ReceiveResponseERSbIcSt11char_traitsIcENS8StlAllocIcEEERiS6*() {.
+proc ZN15AbstractStorage15HttpTransaction15ReceiveResponseERSbIcSt11char_traitsIcENS_8StlAllocIcEEERiS6*() {.
     cdecl, importc: "_ZN15AbstractStorage15HttpTransaction15ReceiveResponseERSbIcSt11char_traitsIcENS_8StlAllocIcEEERiS6_",
     header: "orbis/AbstractStorage.h".}
   ##  Empty Comment
@@ -178,11 +178,11 @@ proc ZN15AbstractStorage4Item14GetStorageNameEv*() {.cdecl,
     importc: "_ZN15AbstractStorage4Item14GetStorageNameEv",
     header: "orbis/AbstractStorage.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage4Item6RenameERKSbIcSt11char_traitsIcENS8StlAllocIcEEE*() {.
+proc ZN15AbstractStorage4Item6RenameERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage4Item6RenameERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractStorage.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage4Item7GetNameERKSbIcSt11char_traitsIcENS8StlAllocIcEEE*() {.
+proc ZN15AbstractStorage4Item7GetNameERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage4Item7GetNameERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractStorage.h".}
   ##  Empty Comment
@@ -190,11 +190,11 @@ proc ZN15AbstractStorage4Item7GetNameEv*() {.cdecl,
     importc: "_ZN15AbstractStorage4Item7GetNameEv",
     header: "orbis/AbstractStorage.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage4Item8set_metaERN23sceMetadataReaderWriter8MetadataERKSbIcSt11chartraitsIcENS8StlAllocIcEEESA*() {.
+proc ZN15AbstractStorage4Item8set_metaERN23sceMetadataReaderWriter8MetadataERKSbIcSt11char_traitsIcENS_8StlAllocIcEEESA*() {.
     cdecl, importc: "_ZN15AbstractStorage4Item8set_metaERN23sceMetadataReaderWriter8MetadataERKSbIcSt11char_traitsIcENS_8StlAllocIcEEESA_",
     header: "orbis/AbstractStorage.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage4ItemC2ERKSbIcSt11char_traitsIcENS8StlAllocIcEEE*() {.
+proc ZN15AbstractStorage4ItemC2ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage4ItemC2ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractStorage.h".}
   ##  Empty Comment
@@ -210,7 +210,7 @@ proc ZN15AbstractStorage4ItemD2Ev*() {.cdecl, importc: "_ZN15AbstractStorage4Ite
 proc ZN15AbstractStorage4ItemdlEPv*() {.cdecl, importc: "_ZN15AbstractStorage4ItemdlEPv",
                                         header: "orbis/AbstractStorage.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage6FolderC2ERKSbIcSt11char_traitsIcENS8StlAllocIcEEE*() {.
+proc ZN15AbstractStorage6FolderC2ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage6FolderC2ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractStorage.h".}
   ##  Empty Comment
@@ -230,7 +230,7 @@ proc ZN15AbstractStorage7AbsFreeEPv*() {.cdecl,
     importc: "_ZN15AbstractStorage7AbsFreeEPv",
     header: "orbis/AbstractStorage.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage7Content12GetExtensionERKSbIcSt11char_traitsIcENS8StlAllocIcEEE*() {.
+proc ZN15AbstractStorage7Content12GetExtensionERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage7Content12GetExtensionERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractStorage.h".}
   ##  Empty Comment
@@ -238,11 +238,11 @@ proc ZN15AbstractStorage7Content12GetMimeTypesEv*() {.cdecl,
     importc: "_ZN15AbstractStorage7Content12GetMimeTypesEv",
     header: "orbis/AbstractStorage.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage7Content6RenameERKSbIcSt11char_traitsIcENS8StlAllocIcEEE*() {.
+proc ZN15AbstractStorage7Content6RenameERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage7Content6RenameERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractStorage.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage7ContentC2ERKSbIcSt11char_traitsIcENS8StlAllocIcEEE*() {.
+proc ZN15AbstractStorage7ContentC2ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage7ContentC2ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractStorage.h".}
   ##  Empty Comment
@@ -258,15 +258,15 @@ proc ZN15AbstractStorage7ContentD2Ev*() {.cdecl,
     importc: "_ZN15AbstractStorage7ContentD2Ev",
     header: "orbis/AbstractStorage.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage7Service11NextStorageERSbIcSt11char_traitsIcENS8StlAllocIcEEE*() {.
+proc ZN15AbstractStorage7Service11NextStorageERSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage7Service11NextStorageERSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractStorage.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage7Service13CreateStorageERKSbIcSt11char_traitsIcENS8StlAllocIcEEEPSt10sharedptrINS7StorageEE*() {.
+proc ZN15AbstractStorage7Service13CreateStorageERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEPSt10shared_ptrINS_7StorageEE*() {.
     cdecl, importc: "_ZN15AbstractStorage7Service13CreateStorageERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEPSt10shared_ptrINS_7StorageEE",
     header: "orbis/AbstractStorage.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage7Service18clear_storagelistEv*() {.cdecl,
+proc ZN15AbstractStorage7Service18clear_storage_listEv*() {.cdecl,
     importc: "_ZN15AbstractStorage7Service18clear_storage_listEv",
     header: "orbis/AbstractStorage.h".}
   ##  Empty Comment
@@ -302,7 +302,7 @@ proc ZN15AbstractStorage7ServiceD2Ev*() {.cdecl,
     importc: "_ZN15AbstractStorage7ServiceD2Ev",
     header: "orbis/AbstractStorage.h".}
   ##  Empty Comment
-proc ZN15AbstractStorage7StorageC2ERKSbIcSt11char_traitsIcENS8StlAllocIcEEE*() {.
+proc ZN15AbstractStorage7StorageC2ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage7StorageC2ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractStorage.h".}
   ##  Empty Comment
@@ -318,11 +318,11 @@ proc ZN15AbstractStorage7StorageD2Ev*() {.cdecl,
     importc: "_ZN15AbstractStorage7StorageD2Ev",
     header: "orbis/AbstractStorage.h".}
   ##  Empty Comment
-proc ZNK15AbstractStorage4Item12GetThumbnailEPSt10shared_ptrINS7ContentEE*() {.
+proc ZNK15AbstractStorage4Item12GetThumbnailEPSt10shared_ptrINS_7ContentEE*() {.
     cdecl, importc: "_ZNK15AbstractStorage4Item12GetThumbnailEPSt10shared_ptrINS_7ContentEE",
     header: "orbis/AbstractStorage.h".}
   ##  Empty Comment
-proc ZNK15AbstractStorage4Item15CreateThumbnailEPvPSt10shared_ptrINS7ContentEE*() {.
+proc ZNK15AbstractStorage4Item15CreateThumbnailEPvPSt10shared_ptrINS_7ContentEE*() {.
     cdecl, importc: "_ZNK15AbstractStorage4Item15CreateThumbnailEPvPSt10shared_ptrINS_7ContentEE",
     header: "orbis/AbstractStorage.h".}
   ##  Empty Comment

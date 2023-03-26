@@ -7,22 +7,21 @@ proc cairo_destroy*() {.cdecl, importc: "cairo_destroy",
 proc cairo_fill*() {.cdecl, importc: "cairo_fill",
                      header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc cairo_formatstrideforwidth*() {.cdecl,
-                                     importc: "cairo_format_stride_for_width",
-                                     header: "orbis/WebKit2Secure.h".}
+proc cairo_format_stride_for_width*() {.cdecl, importc: "cairo_format_stride_for_width",
+                                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc cairo_imagesurfacecreatefordata*() {.cdecl,
+proc cairo_image_surface_create_for_data*() {.cdecl,
     importc: "cairo_image_surface_create_for_data",
     header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
 proc cairo_rectangle*() {.cdecl, importc: "cairo_rectangle",
                           header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc cairo_setsourcergba*() {.cdecl, importc: "cairo_set_source_rgba",
-                              header: "orbis/WebKit2Secure.h".}
+proc cairo_set_source_rgba*() {.cdecl, importc: "cairo_set_source_rgba",
+                                header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
-proc cairo_surfacedestroy*() {.cdecl, importc: "cairo_surface_destroy",
-                               header: "orbis/WebKit2Secure.h".}
+proc cairo_surface_destroy*() {.cdecl, importc: "cairo_surface_destroy",
+                                header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment
 proc JSCheckScriptSyntax*() {.cdecl, importc: "JSCheckScriptSyntax",
                               header: "orbis/WebKit2Secure.h".}

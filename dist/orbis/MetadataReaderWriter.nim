@@ -28,11 +28,11 @@ proc ZN23sceMetadataReaderWriter16extractThumbnailERKSsjRNS_9ThumbnailE*() {.
     cdecl, importc: "_ZN23sceMetadataReaderWriter16extractThumbnailERKSsjRNS_9ThumbnailE",
     header: "orbis/MetadataReaderWriter.h".}
   ##  Empty Comment
-proc ZN23sceMetadataReaderWriter17getParserInfoListERSt6vectorINS_10ParserInfoESaIS1EE*() {.
+proc ZN23sceMetadataReaderWriter17getParserInfoListERSt6vectorINS_10ParserInfoESaIS1_EE*() {.
     cdecl, importc: "_ZN23sceMetadataReaderWriter17getParserInfoListERSt6vectorINS_10ParserInfoESaIS1_EE",
     header: "orbis/MetadataReaderWriter.h".}
   ##  Empty Comment
-proc ZN23sceMetadataReaderWriter18registerParserInfoERKSt6vectorINS_10ParserInfoESaIS1EE*() {.
+proc ZN23sceMetadataReaderWriter18registerParserInfoERKSt6vectorINS_10ParserInfoESaIS1_EE*() {.
     cdecl, importc: "_ZN23sceMetadataReaderWriter18registerParserInfoERKSt6vectorINS_10ParserInfoESaIS1_EE",
     header: "orbis/MetadataReaderWriter.h".}
   ##  Empty Comment
@@ -99,7 +99,7 @@ proc ZN23sceMetadataReaderWriter8MetadataD2Ev*() {.cdecl,
     importc: "_ZN23sceMetadataReaderWriter8MetadataD2Ev",
     header: "orbis/MetadataReaderWriter.h".}
   ##  Empty Comment
-proc ZNK23sceMetadataReaderWriter8Metadata15checkWriteFieldEiRS0_S1Pb*() {.
+proc ZNK23sceMetadataReaderWriter8Metadata15checkWriteFieldEiRS0_S1_Pb*() {.
     cdecl, importc: "_ZNK23sceMetadataReaderWriter8Metadata15checkWriteFieldEiRS0_S1_Pb",
     header: "orbis/MetadataReaderWriter.h".}
   ##  Empty Comment

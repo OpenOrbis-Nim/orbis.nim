@@ -20,9 +20,9 @@ proc ZN4Manx7RunLoop7currentEv*() {.cdecl,
                                     importc: "_ZN4Manx7RunLoop7currentEv",
                                     header: "orbis/ManxWtf.h".}
   ##  Empty Comment
-proc pa_popmarker*() {.cdecl, importc: "pa_pop_marker",
-                       header: "orbis/ManxWtf.h".}
-  ##  Empty Comment
-proc pa_pushmarker*() {.cdecl, importc: "pa_push_marker",
+proc pa_pop_marker*() {.cdecl, importc: "pa_pop_marker",
                         header: "orbis/ManxWtf.h".}
+  ##  Empty Comment
+proc pa_push_marker*() {.cdecl, importc: "pa_push_marker",
+                         header: "orbis/ManxWtf.h".}
   ##  Empty Comment

@@ -30,7 +30,7 @@ proc ZN3sce4Json5Value10referArrayEv*() {.cdecl,
 proc ZN3sce4Json5Value10referValueEm*() {.cdecl,
     importc: "_ZN3sce4Json5Value10referValueEm", header: "orbis/Json.h".}
   ##  Empty Comment
-proc ZN3sce4Json5Value10referValueERKSbIcSt11char_traitsIcENS08StlAllocIcEEE*() {.
+proc ZN3sce4Json5Value10referValueERKSbIcSt11char_traitsIcENS0_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN3sce4Json5Value10referValueERKSbIcSt11char_traitsIcENS0_8StlAllocIcEEE",
     header: "orbis/Json.h".}
   ##  Empty Comment
@@ -70,11 +70,11 @@ proc ZN3sce4Json5Value13s_nullintegerE*() {.cdecl,
 proc ZN3sce4Json5Value14s_nulluintegerE*() {.cdecl,
     importc: "_ZN3sce4Json5Value14s_nulluintegerE", header: "orbis/Json.h".}
   ##  Empty Comment
-proc ZN3sce4Json5Value18serialize_internalERSbIcSt11chartraitsIcENS08StlAllocIcEEEPFiS7PvES8PS1*() {.
+proc ZN3sce4Json5Value18serialize_internalERSbIcSt11char_traitsIcENS0_8StlAllocIcEEEPFiS7_PvES8_PS1*() {.
     cdecl, importc: "_ZN3sce4Json5Value18serialize_internalERSbIcSt11char_traitsIcENS0_8StlAllocIcEEEPFiS7_PvES8_PS1_",
     header: "orbis/Json.h".}
   ##  Empty Comment
-proc ZN3sce4Json5Value21setNullAccessCallBackEPFRKS1_NS09ValueTypeEPS2PvES6*() {.
+proc ZN3sce4Json5Value21setNullAccessCallBackEPFRKS1_NS0_9ValueTypeEPS2_PvES6*() {.
     cdecl, importc: "_ZN3sce4Json5Value21setNullAccessCallBackEPFRKS1_NS0_9ValueTypeEPS2_PvES6_",
     header: "orbis/Json.h".}
   ##  Empty Comment
@@ -97,14 +97,15 @@ proc ZN3sce4Json5Value3setERKS1*() {.cdecl,
                                      importc: "_ZN3sce4Json5Value3setERKS1_",
                                      header: "orbis/Json.h".}
   ##  Empty Comment
-proc ZN3sce4Json5Value3setERKSbIcSt11char_traitsIcENS08StlAllocIcEEE*() {.cdecl, importc: "_ZN3sce4Json5Value3setERKSbIcSt11char_traitsIcENS0_8StlAllocIcEEE",
+proc ZN3sce4Json5Value3setERKSbIcSt11char_traitsIcENS0_8StlAllocIcEEE*() {.
+    cdecl, importc: "_ZN3sce4Json5Value3setERKSbIcSt11char_traitsIcENS0_8StlAllocIcEEE",
     header: "orbis/Json.h".}
   ##  Empty Comment
-proc ZN3sce4Json5Value3setERKSt3mapISbIcSt11char_traitsIcENS08StlAllocIcEEES1St4lessIS7ENS5ISt4pairIS7S1EEEE*() {.
+proc ZN3sce4Json5Value3setERKSt3mapISbIcSt11char_traitsIcENS0_8StlAllocIcEEES1_St4lessIS7_ENS5_ISt4pairIS7_S1_EEEE*() {.
     cdecl, importc: "_ZN3sce4Json5Value3setERKSt3mapISbIcSt11char_traitsIcENS0_8StlAllocIcEEES1_St4lessIS7_ENS5_ISt4pairIS7_S1_EEEE",
     header: "orbis/Json.h".}
   ##  Empty Comment
-proc ZN3sce4Json5Value3setERKSt4listIS1_NS08StlAllocIS1EEE*() {.cdecl,
+proc ZN3sce4Json5Value3setERKSt4listIS1_NS0_8StlAllocIS1_EEE*() {.cdecl,
     importc: "_ZN3sce4Json5Value3setERKSt4listIS1_NS0_8StlAllocIS1_EEE",
     header: "orbis/Json.h".}
   ##  Empty Comment
@@ -119,11 +120,11 @@ proc ZN3sce4Json5Value5clearEv*() {.cdecl,
 proc ZN3sce4Json5Value9referRealEv*() {.cdecl, importc: "_ZN3sce4Json5Value9referRealEv",
                                         header: "orbis/Json.h".}
   ##  Empty Comment
-proc ZN3sce4Json5Value9serializeERSbIcSt11char_traitsIcENS08StlAllocIcEEE*() {.
+proc ZN3sce4Json5Value9serializeERSbIcSt11char_traitsIcENS0_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN3sce4Json5Value9serializeERSbIcSt11char_traitsIcENS0_8StlAllocIcEEE",
     header: "orbis/Json.h".}
   ##  Empty Comment
-proc ZN3sce4Json5Value9serializeERSbIcSt11char_traitsIcENS08StlAllocIcEEEPFiS7PvES8*() {.
+proc ZN3sce4Json5Value9serializeERSbIcSt11char_traitsIcENS0_8StlAllocIcEEEPFiS7_PvES8*() {.
     cdecl, importc: "_ZN3sce4Json5Value9serializeERSbIcSt11char_traitsIcENS0_8StlAllocIcEEEPFiS7_PvES8_",
     header: "orbis/Json.h".}
   ##  Empty Comment
@@ -151,15 +152,15 @@ proc ZN3sce4Json5ValueC1ENS0_9ValueTypeE*() {.cdecl,
 proc ZN3sce4Json5ValueC1ERKS1*() {.cdecl, importc: "_ZN3sce4Json5ValueC1ERKS1_",
                                    header: "orbis/Json.h".}
   ##  Empty Comment
-proc ZN3sce4Json5ValueC1ERKSbIcSt11char_traitsIcENS08StlAllocIcEEE*() {.cdecl,
+proc ZN3sce4Json5ValueC1ERKSbIcSt11char_traitsIcENS0_8StlAllocIcEEE*() {.cdecl,
     importc: "_ZN3sce4Json5ValueC1ERKSbIcSt11char_traitsIcENS0_8StlAllocIcEEE",
     header: "orbis/Json.h".}
   ##  Empty Comment
-proc ZN3sce4Json5ValueC1ERKSt3mapISbIcSt11char_traitsIcENS08StlAllocIcEEES1St4lessIS7ENS5ISt4pairIS7S1EEEE*() {.
+proc ZN3sce4Json5ValueC1ERKSt3mapISbIcSt11char_traitsIcENS0_8StlAllocIcEEES1_St4lessIS7_ENS5_ISt4pairIS7_S1_EEEE*() {.
     cdecl, importc: "_ZN3sce4Json5ValueC1ERKSt3mapISbIcSt11char_traitsIcENS0_8StlAllocIcEEES1_St4lessIS7_ENS5_ISt4pairIS7_S1_EEEE",
     header: "orbis/Json.h".}
   ##  Empty Comment
-proc ZN3sce4Json5ValueC1ERKSt4listIS1_NS08StlAllocIS1EEE*() {.cdecl,
+proc ZN3sce4Json5ValueC1ERKSt4listIS1_NS0_8StlAllocIS1_EEE*() {.cdecl,
     importc: "_ZN3sce4Json5ValueC1ERKSt4listIS1_NS0_8StlAllocIS1_EEE",
     header: "orbis/Json.h".}
   ##  Empty Comment
@@ -184,15 +185,15 @@ proc ZN3sce4Json5ValueC2ENS0_9ValueTypeE*() {.cdecl,
 proc ZN3sce4Json5ValueC2ERKS1*() {.cdecl, importc: "_ZN3sce4Json5ValueC2ERKS1_",
                                    header: "orbis/Json.h".}
   ##  Empty Comment
-proc ZN3sce4Json5ValueC2ERKSbIcSt11char_traitsIcENS08StlAllocIcEEE*() {.cdecl,
+proc ZN3sce4Json5ValueC2ERKSbIcSt11char_traitsIcENS0_8StlAllocIcEEE*() {.cdecl,
     importc: "_ZN3sce4Json5ValueC2ERKSbIcSt11char_traitsIcENS0_8StlAllocIcEEE",
     header: "orbis/Json.h".}
   ##  Empty Comment
-proc ZN3sce4Json5ValueC2ERKSt3mapISbIcSt11char_traitsIcENS08StlAllocIcEEES1St4lessIS7ENS5ISt4pairIS7S1EEEE*() {.
+proc ZN3sce4Json5ValueC2ERKSt3mapISbIcSt11char_traitsIcENS0_8StlAllocIcEEES1_St4lessIS7_ENS5_ISt4pairIS7_S1_EEEE*() {.
     cdecl, importc: "_ZN3sce4Json5ValueC2ERKSt3mapISbIcSt11char_traitsIcENS0_8StlAllocIcEEES1_St4lessIS7_ENS5_ISt4pairIS7_S1_EEEE",
     header: "orbis/Json.h".}
   ##  Empty Comment
-proc ZN3sce4Json5ValueC2ERKSt4listIS1_NS08StlAllocIS1EEE*() {.cdecl,
+proc ZN3sce4Json5ValueC2ERKSt4listIS1_NS0_8StlAllocIS1_EEE*() {.cdecl,
     importc: "_ZN3sce4Json5ValueC2ERKSt4listIS1_NS0_8StlAllocIS1_EEE",
     header: "orbis/Json.h".}
   ##  Empty Comment
@@ -208,27 +209,27 @@ proc ZN3sce4Json5ValueD2Ev*() {.cdecl, importc: "_ZN3sce4Json5ValueD2Ev",
 proc ZN3sce4Json6MallocEm*() {.cdecl, importc: "_ZN3sce4Json6MallocEm",
                                header: "orbis/Json.h".}
   ##  Empty Comment
-proc ZN3sce4Json6Parser10parseArrayERNS0_5ValueERNS011InputStreamEPS2*() {.
+proc ZN3sce4Json6Parser10parseArrayERNS0_5ValueERNS0_11InputStreamEPS2*() {.
     cdecl, importc: "_ZN3sce4Json6Parser10parseArrayERNS0_5ValueERNS0_11InputStreamEPS2_",
     header: "orbis/Json.h".}
   ##  Empty Comment
-proc ZN3sce4Json6Parser10parseValueERNS0_5ValueERNS011InputStreamEPS2*() {.
+proc ZN3sce4Json6Parser10parseValueERNS0_5ValueERNS0_11InputStreamEPS2*() {.
     cdecl, importc: "_ZN3sce4Json6Parser10parseValueERNS0_5ValueERNS0_11InputStreamEPS2_",
     header: "orbis/Json.h".}
   ##  Empty Comment
-proc ZN3sce4Json6Parser11parseNumberERNS0_5ValueERNS011InputStreamEPS2*() {.
+proc ZN3sce4Json6Parser11parseNumberERNS0_5ValueERNS0_11InputStreamEPS2*() {.
     cdecl, importc: "_ZN3sce4Json6Parser11parseNumberERNS0_5ValueERNS0_11InputStreamEPS2_",
     header: "orbis/Json.h".}
   ##  Empty Comment
-proc ZN3sce4Json6Parser11parseObjectERNS0_5ValueERNS011InputStreamEPS2*() {.
+proc ZN3sce4Json6Parser11parseObjectERNS0_5ValueERNS0_11InputStreamEPS2*() {.
     cdecl, importc: "_ZN3sce4Json6Parser11parseObjectERNS0_5ValueERNS0_11InputStreamEPS2_",
     header: "orbis/Json.h".}
   ##  Empty Comment
-proc ZN3sce4Json6Parser11parseStringERNS0_5ValueERNS011InputStreamEPS2*() {.
+proc ZN3sce4Json6Parser11parseStringERNS0_5ValueERNS0_11InputStreamEPS2*() {.
     cdecl, importc: "_ZN3sce4Json6Parser11parseStringERNS0_5ValueERNS0_11InputStreamEPS2_",
     header: "orbis/Json.h".}
   ##  Empty Comment
-proc ZN3sce4Json6Parser11parseStringERSbIcSt11char_traitsIcENS08StlAllocIcEEERNS011InputStreamE*() {.
+proc ZN3sce4Json6Parser11parseStringERSbIcSt11char_traitsIcENS0_8StlAllocIcEEERNS0_11InputStreamE*() {.
     cdecl, importc: "_ZN3sce4Json6Parser11parseStringERSbIcSt11char_traitsIcENS0_8StlAllocIcEEERNS0_11InputStreamE",
     header: "orbis/Json.h".}
   ##  Empty Comment
@@ -236,7 +237,7 @@ proc ZN3sce4Json6Parser12parseQuadHexERNS0_11InputStreamE*() {.cdecl,
     importc: "_ZN3sce4Json6Parser12parseQuadHexERNS0_11InputStreamE",
     header: "orbis/Json.h".}
   ##  Empty Comment
-proc ZN3sce4Json6Parser14parseCodePointERSbIcSt11char_traitsIcENS08StlAllocIcEEERNS011InputStreamE*() {.
+proc ZN3sce4Json6Parser14parseCodePointERSbIcSt11char_traitsIcENS0_8StlAllocIcEEERNS0_11InputStreamE*() {.
     cdecl, importc: "_ZN3sce4Json6Parser14parseCodePointERSbIcSt11char_traitsIcENS0_8StlAllocIcEEERNS0_11InputStreamE",
     header: "orbis/Json.h".}
   ##  Empty Comment
@@ -295,11 +296,11 @@ proc ZNK3sce4Json5Value8getArrayEv*() {.cdecl, importc: "_ZNK3sce4Json5Value8get
 proc ZNK3sce4Json5Value8getValueEm*() {.cdecl, importc: "_ZNK3sce4Json5Value8getValueEm",
                                         header: "orbis/Json.h".}
   ##  Empty Comment
-proc ZNK3sce4Json5Value8getValueERKSbIcSt11char_traitsIcENS08StlAllocIcEEE*() {.
+proc ZNK3sce4Json5Value8getValueERKSbIcSt11char_traitsIcENS0_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZNK3sce4Json5Value8getValueERKSbIcSt11char_traitsIcENS0_8StlAllocIcEEE",
     header: "orbis/Json.h".}
   ##  Empty Comment
-proc ZNK3sce4Json5Value8toStringERSbIcSt11char_traitsIcENS08StlAllocIcEEE*() {.
+proc ZNK3sce4Json5Value8toStringERSbIcSt11char_traitsIcENS0_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZNK3sce4Json5Value8toStringERSbIcSt11char_traitsIcENS0_8StlAllocIcEEE",
     header: "orbis/Json.h".}
   ##  Empty Comment
@@ -318,6 +319,6 @@ proc ZNK3sce4Json5ValueixEm*() {.cdecl, importc: "_ZNK3sce4Json5ValueixEm",
 proc ZNK3sce4Json5ValueixEPKc*() {.cdecl, importc: "_ZNK3sce4Json5ValueixEPKc",
                                    header: "orbis/Json.h".}
   ##  Empty Comment
-proc ZNK3sce4Json5ValueixERKSbIcSt11char_traitsIcENS08StlAllocIcEEE*() {.cdecl, importc: "_ZNK3sce4Json5ValueixERKSbIcSt11char_traitsIcENS0_8StlAllocIcEEE",
+proc ZNK3sce4Json5ValueixERKSbIcSt11char_traitsIcENS0_8StlAllocIcEEE*() {.cdecl, importc: "_ZNK3sce4Json5ValueixERKSbIcSt11char_traitsIcENS0_8StlAllocIcEEE",
     header: "orbis/Json.h".}
   ##  Empty Comment

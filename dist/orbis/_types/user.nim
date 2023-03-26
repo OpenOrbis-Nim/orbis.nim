@@ -1,21 +1,21 @@
 const
-  ORBIS_USERSERVICEMAXLOGINUSERS* = 4 ## Maximum number of users that can be logged in at once
+  ORBIS_USER_SERVICE_MAX_LOGIN_USERS* = 4 ## Maximum number of users that can be logged in at once
 
 const
-  ORBIS_USERSERVICEMAXREGISTERUSERS* = 16 ## Maximum number of users that can be registered in the system
+  ORBIS_USER_SERVICE_MAX_REGISTER_USERS* = 16 ## Maximum number of users that can be registered in the system
 
 const
-  ORBIS_USERSERVICEMAXUSERNAMELENGTH* = 16 ## Maximum user name length
-  ORBIS_USERSERVICEUSERIDSYSTEM* = 0xFF
-  ORBIS_USERSERVICEUSERIDINVALID* = -1
+  ORBIS_USER_SERVICE_MAX_USER_NAME_LENGTH* = 16 ## Maximum user name length
+  ORBIS_USER_SERVICE_USER_ID_SYSTEM* = 0xFF
+  ORBIS_USER_SERVICE_USER_ID_INVALID* = -1
 
 type
   OrbisUserServiceUserId* = cint
 
 const
-  ORBIS_KERNELPRIOFIFOLOWEST* = 0x2FF
-  ORBIS_KERNELPRIOFIFONORMAL* = 0x2BC
-  ORBIS_KERNELPRIOFIFOHIGHEST* = 0x100
+  ORBIS_KERNEL_PRIO_FIFO_LOWEST* = 0x2FF
+  ORBIS_KERNEL_PRIO_FIFO_NORMAL* = 0x2BC
+  ORBIS_KERNEL_PRIO_FIFO_HIGHEST* = 0x100
 
 type                        ##  Login event
   OrbisUserServiceInitializeParams* {.importc: "OrbisUserServiceInitializeParams",
@@ -32,11 +32,13 @@ type                        ##  Login event
     userId* {.importc: "userId".}: array[16, OrbisUserServiceUserId] ## Maximum number of users that can be registered in the system
 
   OrbisUserServiceUserColor* {.size: sizeof(cint).} = enum
-    ORBIS_USERSERVICEUSERCOLORBLUE = 0, ORBIS_USERSERVICEUSERCOLORRED = 1,
-    ORBIS_USERSERVICEUSERCOLORGREEN = 2, ORBIS_USERSERVICEUSERCOLORPINK = 3
+    ORBIS_USER_SERVICE_USER_COLOR_BLUE = 0,
+    ORBIS_USER_SERVICE_USER_COLOR_RED = 1,
+    ORBIS_USER_SERVICE_USER_COLOR_GREEN = 2,
+    ORBIS_USER_SERVICE_USER_COLOR_PINK = 3
   OrbisUserServiceEventType* {.size: sizeof(cint).} = enum
-    SCE_USERSERVICEEVENTTYPELOGIN = 0, ##  Logout event
-    SCE_USERSERVICEEVENTTYPELOGOUT = 1
+    SCE_USER_SERVICE_EVENT_TYPE_LOGIN = 0, ##  Logout event
+    SCE_USER_SERVICE_EVENT_TYPE_LOGOUT = 1
   OrbisUserServiceEvent* {.importc: "OrbisUserServiceEvent",
                            header: "orbis/_types/user.h", bycopy.} = object
     event* {.importc: "event".}: OrbisUserServiceEventType

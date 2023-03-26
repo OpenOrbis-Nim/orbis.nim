@@ -18,7 +18,7 @@ proc ZN3NTF10initializeERKNS_18CreationParametersE*() {.cdecl,
     importc: "_ZN3NTF10initializeERKNS_18CreationParametersE",
     header: "orbis/OrbisCompat.h".}
   ##  Empty Comment
-proc ZN3NTF13URLRequestJob6createEPNS_17URLRequestMessageEPNS18URLRequestListenerE*() {.
+proc ZN3NTF13URLRequestJob6createEPNS_17URLRequestMessageEPNS_18URLRequestListenerE*() {.
     cdecl, importc: "_ZN3NTF13URLRequestJob6createEPNS_17URLRequestMessageEPNS_18URLRequestListenerE",
     header: "orbis/OrbisCompat.h".}
   ##  Empty Comment
@@ -263,86 +263,86 @@ proc ZN9JITBridge20shutdownFromCompilerEPS_b*() {.cdecl,
   ##  Empty Comment
 proc crc32*() {.cdecl, importc: "crc32", header: "orbis/OrbisCompat.h".}
   ##  Empty Comment
-proc curl_easycleanup*() {.cdecl, importc: "curl_easy_cleanup",
-                           header: "orbis/OrbisCompat.h".}
-  ##  Empty Comment
-proc curl_easygetinfo*() {.cdecl, importc: "curl_easy_getinfo",
-                           header: "orbis/OrbisCompat.h".}
-  ##  Empty Comment
-proc curl_easyinit*() {.cdecl, importc: "curl_easy_init",
-                        header: "orbis/OrbisCompat.h".}
-  ##  Empty Comment
-proc curl_easypause*() {.cdecl, importc: "curl_easy_pause",
-                         header: "orbis/OrbisCompat.h".}
-  ##  Empty Comment
-proc curl_easyperform*() {.cdecl, importc: "curl_easy_perform",
-                           header: "orbis/OrbisCompat.h".}
-  ##  Empty Comment
-proc curl_easyrecv*() {.cdecl, importc: "curl_easy_recv",
-                        header: "orbis/OrbisCompat.h".}
-  ##  Empty Comment
-proc curl_easyreset*() {.cdecl, importc: "curl_easy_reset",
-                         header: "orbis/OrbisCompat.h".}
-  ##  Empty Comment
-proc curl_easysend*() {.cdecl, importc: "curl_easy_send",
-                        header: "orbis/OrbisCompat.h".}
-  ##  Empty Comment
-proc curl_easysetopt*() {.cdecl, importc: "curl_easy_setopt",
-                          header: "orbis/OrbisCompat.h".}
-  ##  Empty Comment
-proc curl_easystrerror*() {.cdecl, importc: "curl_easy_strerror",
+proc curl_easy_cleanup*() {.cdecl, importc: "curl_easy_cleanup",
                             header: "orbis/OrbisCompat.h".}
   ##  Empty Comment
-proc curl_globalcleanup*() {.cdecl, importc: "curl_global_cleanup",
-                             header: "orbis/OrbisCompat.h".}
+proc curl_easy_getinfo*() {.cdecl, importc: "curl_easy_getinfo",
+                            header: "orbis/OrbisCompat.h".}
   ##  Empty Comment
-proc curl_globalinit*() {.cdecl, importc: "curl_global_init",
+proc curl_easy_init*() {.cdecl, importc: "curl_easy_init",
+                         header: "orbis/OrbisCompat.h".}
+  ##  Empty Comment
+proc curl_easy_pause*() {.cdecl, importc: "curl_easy_pause",
                           header: "orbis/OrbisCompat.h".}
   ##  Empty Comment
-proc curl_multiaddhandle*() {.cdecl, importc: "curl_multi_add_handle",
+proc curl_easy_perform*() {.cdecl, importc: "curl_easy_perform",
+                            header: "orbis/OrbisCompat.h".}
+  ##  Empty Comment
+proc curl_easy_recv*() {.cdecl, importc: "curl_easy_recv",
+                         header: "orbis/OrbisCompat.h".}
+  ##  Empty Comment
+proc curl_easy_reset*() {.cdecl, importc: "curl_easy_reset",
+                          header: "orbis/OrbisCompat.h".}
+  ##  Empty Comment
+proc curl_easy_send*() {.cdecl, importc: "curl_easy_send",
+                         header: "orbis/OrbisCompat.h".}
+  ##  Empty Comment
+proc curl_easy_setopt*() {.cdecl, importc: "curl_easy_setopt",
+                           header: "orbis/OrbisCompat.h".}
+  ##  Empty Comment
+proc curl_easy_strerror*() {.cdecl, importc: "curl_easy_strerror",
+                             header: "orbis/OrbisCompat.h".}
+  ##  Empty Comment
+proc curl_global_cleanup*() {.cdecl, importc: "curl_global_cleanup",
                               header: "orbis/OrbisCompat.h".}
   ##  Empty Comment
-proc curl_multicleanup*() {.cdecl, importc: "curl_multi_cleanup",
-                            header: "orbis/OrbisCompat.h".}
+proc curl_global_init*() {.cdecl, importc: "curl_global_init",
+                           header: "orbis/OrbisCompat.h".}
   ##  Empty Comment
-proc curl_multifdset*() {.cdecl, importc: "curl_multi_fdset",
-                          header: "orbis/OrbisCompat.h".}
+proc curl_multi_add_handle*() {.cdecl, importc: "curl_multi_add_handle",
+                                header: "orbis/OrbisCompat.h".}
   ##  Empty Comment
-proc curl_multiinforead*() {.cdecl, importc: "curl_multi_info_read",
+proc curl_multi_cleanup*() {.cdecl, importc: "curl_multi_cleanup",
                              header: "orbis/OrbisCompat.h".}
   ##  Empty Comment
-proc curl_multiinit*() {.cdecl, importc: "curl_multi_init",
-                         header: "orbis/OrbisCompat.h".}
-  ##  Empty Comment
-proc curl_multiperform*() {.cdecl, importc: "curl_multi_perform",
-                            header: "orbis/OrbisCompat.h".}
-  ##  Empty Comment
-proc curl_multiremovehandle*() {.cdecl, importc: "curl_multi_remove_handle",
-                                 header: "orbis/OrbisCompat.h".}
-  ##  Empty Comment
-proc curl_multisetopt*() {.cdecl, importc: "curl_multi_setopt",
+proc curl_multi_fdset*() {.cdecl, importc: "curl_multi_fdset",
                            header: "orbis/OrbisCompat.h".}
   ##  Empty Comment
-proc curl_multitimeout*() {.cdecl, importc: "curl_multi_timeout",
+proc curl_multi_info_read*() {.cdecl, importc: "curl_multi_info_read",
+                               header: "orbis/OrbisCompat.h".}
+  ##  Empty Comment
+proc curl_multi_init*() {.cdecl, importc: "curl_multi_init",
+                          header: "orbis/OrbisCompat.h".}
+  ##  Empty Comment
+proc curl_multi_perform*() {.cdecl, importc: "curl_multi_perform",
+                             header: "orbis/OrbisCompat.h".}
+  ##  Empty Comment
+proc curl_multi_remove_handle*() {.cdecl, importc: "curl_multi_remove_handle",
+                                   header: "orbis/OrbisCompat.h".}
+  ##  Empty Comment
+proc curl_multi_setopt*() {.cdecl, importc: "curl_multi_setopt",
                             header: "orbis/OrbisCompat.h".}
   ##  Empty Comment
-proc curl_sharecleanup*() {.cdecl, importc: "curl_share_cleanup",
+proc curl_multi_timeout*() {.cdecl, importc: "curl_multi_timeout",
+                             header: "orbis/OrbisCompat.h".}
+  ##  Empty Comment
+proc curl_share_cleanup*() {.cdecl, importc: "curl_share_cleanup",
+                             header: "orbis/OrbisCompat.h".}
+  ##  Empty Comment
+proc curl_share_init*() {.cdecl, importc: "curl_share_init",
+                          header: "orbis/OrbisCompat.h".}
+  ##  Empty Comment
+proc curl_share_setopt*() {.cdecl, importc: "curl_share_setopt",
                             header: "orbis/OrbisCompat.h".}
   ##  Empty Comment
-proc curl_shareinit*() {.cdecl, importc: "curl_share_init",
-                         header: "orbis/OrbisCompat.h".}
-  ##  Empty Comment
-proc curl_sharesetopt*() {.cdecl, importc: "curl_share_setopt",
-                           header: "orbis/OrbisCompat.h".}
-  ##  Empty Comment
-proc curl_slistappend*() {.cdecl, importc: "curl_slist_append",
-                           header: "orbis/OrbisCompat.h".}
-  ##  Empty Comment
-proc curl_slistfreeall*() {.cdecl, importc: "curl_slist_free_all",
+proc curl_slist_append*() {.cdecl, importc: "curl_slist_append",
                             header: "orbis/OrbisCompat.h".}
   ##  Empty Comment
-proc curl_versioninfo*() {.cdecl, importc: "curl_version_info",
-                           header: "orbis/OrbisCompat.h".}
+proc curl_slist_free_all*() {.cdecl, importc: "curl_slist_free_all",
+                              header: "orbis/OrbisCompat.h".}
+  ##  Empty Comment
+proc curl_version_info*() {.cdecl, importc: "curl_version_info",
+                            header: "orbis/OrbisCompat.h".}
   ##  Empty Comment
 proc deflate*() {.cdecl, importc: "deflate", header: "orbis/OrbisCompat.h".}
   ##  Empty Comment
@@ -373,11 +373,11 @@ proc inflateInit2*() {.cdecl, importc: "inflateInit2_",
 proc inflateReset*() {.cdecl, importc: "inflateReset",
                        header: "orbis/OrbisCompat.h".}
   ##  Empty Comment
-proc pa_popmarker*() {.cdecl, importc: "pa_pop_marker",
-                       header: "orbis/OrbisCompat.h".}
-  ##  Empty Comment
-proc pa_pushmarker*() {.cdecl, importc: "pa_push_marker",
+proc pa_pop_marker*() {.cdecl, importc: "pa_pop_marker",
                         header: "orbis/OrbisCompat.h".}
+  ##  Empty Comment
+proc pa_push_marker*() {.cdecl, importc: "pa_push_marker",
+                         header: "orbis/OrbisCompat.h".}
   ##  Empty Comment
 proc pa_sync*() {.cdecl, importc: "pa_sync", header: "orbis/OrbisCompat.h".}
   ##  Empty Comment
