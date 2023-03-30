@@ -103,13 +103,17 @@ encountered_files = {}
 def pathToNimImportName(cPath):
     return '"{}"'.format('/'.join(cPath[0:-2].split("\\")))
 
-def generateNimImport(importName, fix_path=True):
+def generateNimCode(code):
     code = """
 #@
-import {}
+{}
 @#
-    """.format(importName).strip() + "\n"
+    """.strip().format(code) + "\n;"
     return code
+
+def generateNimImport(importName, fix_path=True):
+    code = "import " + importName + "\n"
+    return generateNimCode(code)
 
 
 def getRelativeIncludePath(fullPath):
@@ -155,6 +159,7 @@ while idx < lines_length:
             out.append(line)
     idx += 1
 
+
 import_mappings = {
         "time.h" : "posix",
         "stdint.h" : None,
@@ -178,6 +183,12 @@ for file in mt.main_files.keys():
         nim_imports[import_name] = True
     
 out = [generateNimImport(import_name) for import_name in nim_imports.keys()] + out
+
+
+if "_types" not in base_filename and "orbis" in base_filename:
+    libname = "Sce" + base_filename[0:-2].replace("./orbis/", "")
+    libLinkCode = "{{.passl: \"-l{}\".}}".format(libname)
+    out = [generateNimCode(libLinkCode)] + out
 
 with open(filename, 'w') as fh:
     fh.write(''.join(out))
