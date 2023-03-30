@@ -1,3 +1,4 @@
+{.passl: "-lSceXml".}
 proc ZN3sce3Xml10SimpleDataC1EPKcm*() {.cdecl, importc: "_ZN3sce3Xml10SimpleDataC1EPKcm",
                                         header: "orbis/Xml.h".}
   ##  Empty Comment

@@ -1,3 +1,4 @@
+{.passl: "-lSceBackupRestoreUtil".}
 proc sceBackupRestoreUtilBackupData*() {.cdecl,
     importc: "sceBackupRestoreUtilBackupData",
     header: "orbis/BackupRestoreUtil.h".}

@@ -1,3 +1,4 @@
+{.passl: "-lSceSystemGesture".}
 proc sceSystemGestureAppendTouchRecognizer*() {.cdecl,
     importc: "sceSystemGestureAppendTouchRecognizer",
     header: "orbis/SystemGesture.h".}

@@ -1,4 +1,6 @@
+{.passl: "-lSceJpegDec".}
 import "_types/jpeg"
+
 proc sceJpegDecCreate*(a1: ptr OrbisJpegDecCreateParam; a2: pointer; a3: uint32;
                        a4: ptr OrbisJpegDecHandle): int32 {.cdecl,
     importc: "sceJpegDecCreate", header: "orbis/JpegDec.h".}

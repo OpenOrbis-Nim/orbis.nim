@@ -1,3 +1,4 @@
+{.passl: "-lSceNgs2".}
 proc sceNgs2CalcWaveformBlock*() {.cdecl, importc: "sceNgs2CalcWaveformBlock",
                                    header: "orbis/Ngs2.h".}
   ##  Empty Comment

@@ -1,3 +1,4 @@
+{.passl: "-lSceNpParty".}
 proc sceNpPartyCheckCallback*() {.cdecl, importc: "sceNpPartyCheckCallback",
                                   header: "orbis/NpParty.h".}
   ##  Empty Comment

@@ -1,3 +1,4 @@
+{.passl: "-lSceUpdateService".}
 proc sceUpsrvInitialize*() {.cdecl, importc: "sceUpsrvInitialize",
                              header: "orbis/UpdateService.h".}
   ##  Empty Comment

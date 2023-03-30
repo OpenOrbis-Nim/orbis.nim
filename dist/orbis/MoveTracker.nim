@@ -1,3 +1,4 @@
+{.passl: "-lSceMoveTracker".}
 proc sceMoveTrackerCalibrateReset*() {.cdecl,
                                        importc: "sceMoveTrackerCalibrateReset",
                                        header: "orbis/MoveTracker.h".}

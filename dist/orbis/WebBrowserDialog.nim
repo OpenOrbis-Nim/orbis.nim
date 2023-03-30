@@ -1,3 +1,4 @@
+{.passl: "-lSceWebBrowserDialog".}
 proc sceWebBrowserDialogClose*() {.cdecl, importc: "sceWebBrowserDialogClose",
                                    header: "orbis/WebBrowserDialog.h".}
   ##  Empty Comment

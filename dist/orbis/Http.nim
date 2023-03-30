@@ -1,4 +1,6 @@
+{.passl: "-lSceHttp".}
 import "_types/http"
+
 proc sceHttpAbortRequest*(reqId: cint): cint {.cdecl,
     importc: "sceHttpAbortRequest", header: "orbis/Http.h".}
   ##  Empty Comment

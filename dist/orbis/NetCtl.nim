@@ -1,3 +1,4 @@
+{.passl: "-lSceNetCtl".}
 const
   ORBIS_NET_CTL_INFO_DEVICE* = 1
   ORBIS_NET_CTL_INFO_ETHER_ADDR* = 2

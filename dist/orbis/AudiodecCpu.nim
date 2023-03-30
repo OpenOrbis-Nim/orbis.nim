@@ -1,3 +1,4 @@
+{.passl: "-lSceAudiodecCpu".}
 proc sceAudiodecCpuClearContext*() {.cdecl,
                                      importc: "sceAudiodecCpuClearContext",
                                      header: "orbis/AudiodecCpu.h".}

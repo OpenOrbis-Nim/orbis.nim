@@ -1,3 +1,4 @@
+{.passl: "-lSceVideoRecording".}
 proc sceVideoRecordingClose*() {.cdecl, importc: "sceVideoRecordingClose",
                                  header: "orbis/VideoRecording.h".}
   ##  Empty Comment

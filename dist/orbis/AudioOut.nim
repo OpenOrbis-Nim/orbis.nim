@@ -1,6 +1,10 @@
+{.passl: "-lSceAudioOut".}
 import "_types/audio_out"
+
 import "_types/user"
+
 import "_types/errors"
+
 proc sceAudioOutClose*(a1: int32): int32 {.cdecl, importc: "sceAudioOutClose",
     header: "orbis/AudioOut.h".}
   ##  Close the audio out handle & resource.

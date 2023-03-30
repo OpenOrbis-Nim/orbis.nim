@@ -1,3 +1,4 @@
+{.passl: "-lSceSysCore".}
 proc sceApplicationGetAppId*() {.cdecl, importc: "_sceApplicationGetAppId",
                                  header: "orbis/SysCore.h".}
   ##  Empty Comment

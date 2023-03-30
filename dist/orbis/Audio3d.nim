@@ -1,3 +1,4 @@
+{.passl: "-lSceAudio3d".}
 proc sceAudio3dAudioOutClose*() {.cdecl, importc: "sceAudio3dAudioOutClose",
                                   header: "orbis/Audio3d.h".}
   ##  Empty Comment

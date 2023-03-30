@@ -1,3 +1,4 @@
+{.passl: "-lSceContentExport".}
 proc sceContentExportCancel*() {.cdecl, importc: "sceContentExportCancel",
                                  header: "orbis/ContentExport.h".}
   ##  Empty Comment

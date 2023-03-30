@@ -1,3 +1,4 @@
+{.passl: "-lSceGameCustomDataDialog".}
 proc sceGameCustomDataDialogClose*() {.cdecl,
                                        importc: "sceGameCustomDataDialogClose",
                                        header: "orbis/GameCustomDataDialog.h".}

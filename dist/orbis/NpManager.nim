@@ -1,4 +1,6 @@
+{.passl: "-lSceNpManager".}
 import "_types/Np"
+
 proc sceNpIpcCreateMemoryFromKernel*() {.cdecl,
     importc: "_sceNpIpcCreateMemoryFromKernel", header: "orbis/NpManager.h".}
   ##  Empty Comment

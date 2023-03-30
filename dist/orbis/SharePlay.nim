@@ -1,3 +1,4 @@
+{.passl: "-lSceSharePlay".}
 proc sceSharePlayGetCurrentConnectionInfo*() {.cdecl,
     importc: "sceSharePlayGetCurrentConnectionInfo", header: "orbis/SharePlay.h".}
   ##  Empty Comment

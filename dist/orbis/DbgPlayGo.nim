@@ -1,3 +1,4 @@
+{.passl: "-lSceDbgPlayGo".}
 proc sceDbgPlayGoRequestNextChunk*() {.cdecl,
                                        importc: "sceDbgPlayGoRequestNextChunk",
                                        header: "orbis/DbgPlayGo.h".}

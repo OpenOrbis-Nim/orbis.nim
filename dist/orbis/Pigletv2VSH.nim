@@ -1,3 +1,4 @@
+{.passl: "-lScePigletv2VSH".}
 const
   SIZEOF_ORBIS_PGL_CONFIG* = 0x88
 

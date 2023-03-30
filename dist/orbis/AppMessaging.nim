@@ -1,3 +1,4 @@
+{.passl: "-lSceAppMessaging".}
 proc sceAppMessagingClearEventFlag*() {.cdecl, importc: "sceAppMessagingClearEventFlag",
                                         header: "orbis/AppMessaging.h".}
   ##  Empty Comment

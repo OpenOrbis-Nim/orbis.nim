@@ -1,4 +1,6 @@
+{.passl: "-lSceNet".}
 import "_types/net"
+
 proc sceNetAccept*(a1: OrbisNetId; a2: ptr OrbisNetSockaddr;
                    a3: ptr OrbisNetSocklen_t): OrbisNetId {.cdecl,
     importc: "sceNetAccept", header: "orbis/Net.h".}

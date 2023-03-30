@@ -1,4 +1,6 @@
+{.passl: "-lSceErrorDialog".}
 import "_types/error_dialog"
+
 proc sceErrorDialogClose*(): int32 {.cdecl, importc: "sceErrorDialogClose",
                                      header: "orbis/ErrorDialog.h".}
   ##  closes the opened error dialog

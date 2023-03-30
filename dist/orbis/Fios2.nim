@@ -1,3 +1,4 @@
+{.passl: "-lSceFios2".}
 proc sceFiosArchiveGetDecompressorThreadCount*() {.cdecl,
     importc: "sceFiosArchiveGetDecompressorThreadCount", header: "orbis/Fios2.h".}
   ##  Empty Comment

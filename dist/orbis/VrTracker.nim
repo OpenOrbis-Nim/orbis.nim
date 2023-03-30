@@ -1,3 +1,4 @@
+{.passl: "-lSceVrTracker".}
 proc sceVrTrackerCpuProcess*() {.cdecl, importc: "sceVrTrackerCpuProcess",
                                  header: "orbis/VrTracker.h".}
   ##  Empty Comment

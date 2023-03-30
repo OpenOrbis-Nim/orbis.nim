@@ -1,3 +1,4 @@
+{.passl: "-lSceWebKit2".}
 proc cairo_create*() {.cdecl, importc: "cairo_create", header: "orbis/WebKit2.h".}
   ##  Empty Comment
 proc cairo_destroy*() {.cdecl, importc: "cairo_destroy",

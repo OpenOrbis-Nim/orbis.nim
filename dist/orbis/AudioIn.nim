@@ -1,3 +1,4 @@
+{.passl: "-lSceAudioIn".}
 proc sceAudioInChangeAppModuleState*() {.cdecl,
     importc: "sceAudioInChangeAppModuleState", header: "orbis/AudioIn.h".}
   ##  Empty Comment

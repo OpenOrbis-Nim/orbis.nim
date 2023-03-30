@@ -1,3 +1,4 @@
+{.passl: "-lSceNpAuth".}
 proc sceNpAuthAbortRequest*() {.cdecl, importc: "sceNpAuthAbortRequest",
                                 header: "orbis/NpAuth.h".}
   ##  Empty Comment

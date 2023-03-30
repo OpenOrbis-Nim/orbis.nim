@@ -1,3 +1,4 @@
+{.passl: "-lSceRemoteplay".}
 proc sceRemoteplayApprove*() {.cdecl, importc: "sceRemoteplayApprove",
                                header: "orbis/Remoteplay.h".}
   ##  Empty Comment

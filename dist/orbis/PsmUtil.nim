@@ -1,3 +1,4 @@
+{.passl: "-lScePsmUtil".}
 proc scePsmUtilFinalize*() {.cdecl, importc: "scePsmUtilFinalize",
                              header: "orbis/PsmUtil.h".}
   ##  Empty Comment

@@ -1,3 +1,4 @@
+{.passl: "-lSceUlt".}
 proc sceUltConditionVariableCreate*() {.cdecl, importc: "_sceUltConditionVariableCreate",
                                         header: "orbis/Ult.h".}
   ##  Empty Comment

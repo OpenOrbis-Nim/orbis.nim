@@ -1,3 +1,4 @@
+{.passl: "-lSceNpSignaling".}
 proc sceNpSignalingActivateConnection*() {.cdecl,
     importc: "sceNpSignalingActivateConnection", header: "orbis/NpSignaling.h".}
   ##  Empty Comment

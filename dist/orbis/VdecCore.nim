@@ -1,3 +1,4 @@
+{.passl: "-lSceVdecCore".}
 proc sceVdecCoreCreateDecoder*() {.cdecl, importc: "sceVdecCoreCreateDecoder",
                                    header: "orbis/VdecCore.h".}
   ##  Empty Comment

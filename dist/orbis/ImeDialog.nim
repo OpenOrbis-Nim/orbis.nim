@@ -1,4 +1,6 @@
+{.passl: "-lSceImeDialog".}
 import "_types/ime_dialog"
+
 proc sceImeDialogAbort*() {.cdecl, importc: "sceImeDialogAbort",
                             header: "orbis/ImeDialog.h".}
   ##  Empty Comment

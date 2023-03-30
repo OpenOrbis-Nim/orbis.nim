@@ -1,3 +1,4 @@
+{.passl: "-lSceNpScore".}
 proc sceNpScoreAbortRequest*() {.cdecl, importc: "sceNpScoreAbortRequest",
                                  header: "orbis/NpScore.h".}
   ##  Empty Comment

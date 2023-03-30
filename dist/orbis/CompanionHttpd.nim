@@ -1,3 +1,4 @@
+{.passl: "-lSceCompanionHttpd".}
 proc sceCompanionHttpdAddHeader*() {.cdecl,
                                      importc: "sceCompanionHttpdAddHeader",
                                      header: "orbis/CompanionHttpd.h".}

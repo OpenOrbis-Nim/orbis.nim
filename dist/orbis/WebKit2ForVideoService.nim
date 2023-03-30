@@ -1,3 +1,4 @@
+{.passl: "-lSceWebKit2ForVideoService".}
 proc cairo_create*() {.cdecl, importc: "cairo_create",
                        header: "orbis/WebKit2ForVideoService.h".}
   ##  Empty Comment

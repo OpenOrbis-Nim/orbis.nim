@@ -1,3 +1,4 @@
+{.passl: "-lSceAt9Enc".}
 proc sceAt9EncClearContext*() {.cdecl, importc: "sceAt9EncClearContext",
                                 header: "orbis/At9Enc.h".}
   ##  Empty Comment

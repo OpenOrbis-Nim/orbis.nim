@@ -1,3 +1,4 @@
+{.passl: "-lSceAvPlayer".}
 proc sceAvPlayerAddSource*() {.cdecl, importc: "sceAvPlayerAddSource",
                                header: "orbis/AvPlayer.h".}
   ##  Empty Comment

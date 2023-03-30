@@ -1,3 +1,4 @@
+{.passl: "-lSceNpTus".}
 proc sceNpTssCreateNpTitleCtx*() {.cdecl, importc: "sceNpTssCreateNpTitleCtx",
                                    header: "orbis/NpTus.h".}
   ##  Empty Comment

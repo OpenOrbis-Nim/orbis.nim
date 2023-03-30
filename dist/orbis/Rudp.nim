@@ -1,3 +1,4 @@
+{.passl: "-lSceRudp".}
 proc sceRudpAccept*() {.cdecl, importc: "sceRudpAccept", header: "orbis/Rudp.h".}
   ##  Empty Comment
 proc sceRudpActivate*() {.cdecl, importc: "sceRudpActivate",

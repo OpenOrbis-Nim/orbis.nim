@@ -1,3 +1,4 @@
+{.passl: "-lSceAvSetting".}
 proc sceAvSettingAddCallbacksForLnc*() {.cdecl,
     importc: "sceAvSettingAddCallbacksForLnc", header: "orbis/AvSetting.h".}
   ##  Empty Comment

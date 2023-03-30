@@ -1,3 +1,4 @@
+{.passl: "-lSceConvertKeycode".}
 proc sceConvertKeycodeGetCharacter*() {.cdecl, importc: "sceConvertKeycodeGetCharacter",
                                         header: "orbis/ConvertKeycode.h".}
   ##  Empty Comment

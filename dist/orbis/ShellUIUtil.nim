@@ -1,3 +1,4 @@
+{.passl: "-lSceShellUIUtil".}
 proc sceShellUIUtilGetAppUrl*() {.cdecl, importc: "sceShellUIUtilGetAppUrl",
                                   header: "orbis/ShellUIUtil.h".}
   ##  Empty Comment

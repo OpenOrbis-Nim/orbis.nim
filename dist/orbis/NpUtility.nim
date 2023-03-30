@@ -1,3 +1,4 @@
+{.passl: "-lSceNpUtility".}
 proc sceNpAppInfoIntAbortRequest*() {.cdecl,
                                       importc: "sceNpAppInfoIntAbortRequest",
                                       header: "orbis/NpUtility.h".}

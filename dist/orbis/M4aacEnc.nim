@@ -1,3 +1,4 @@
+{.passl: "-lSceM4aacEnc".}
 proc sceM4aacEncClearContext*() {.cdecl, importc: "sceM4aacEncClearContext",
                                   header: "orbis/M4aacEnc.h".}
   ##  Empty Comment

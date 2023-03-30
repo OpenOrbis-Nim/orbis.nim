@@ -1,3 +1,4 @@
+{.passl: "-lSceVideoCoreServerInterface".}
 proc sceVideoCoreAbortRequest*() {.cdecl, importc: "sceVideoCoreAbortRequest",
                                    header: "orbis/VideoCoreServerInterface.h".}
   ##  Empty Comment

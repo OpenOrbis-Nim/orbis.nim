@@ -1,3 +1,4 @@
+{.passl: "-lSceManxWtf".}
 proc ZN4Manx27monotonicallyIncreasingTimeEv*() {.cdecl,
     importc: "_ZN4Manx27monotonicallyIncreasingTimeEv",
     header: "orbis/ManxWtf.h".}

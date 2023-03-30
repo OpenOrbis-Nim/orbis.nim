@@ -1,3 +1,4 @@
+{.passl: "-lSceZlib".}
 proc sceZlibFinalize*(): cint {.cdecl, importc: "sceZlibFinalize",
                                 header: "orbis/Zlib.h".}
   ##  do not call while you're decompressing something.

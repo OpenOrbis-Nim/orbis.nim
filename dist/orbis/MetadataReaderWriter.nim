@@ -1,3 +1,4 @@
+{.passl: "-lSceMetadataReaderWriter".}
 proc ZN23sceMetadataReaderWriter10initializeEv*() {.cdecl,
     importc: "_ZN23sceMetadataReaderWriter10initializeEv",
     header: "orbis/MetadataReaderWriter.h".}

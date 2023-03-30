@@ -1,3 +1,4 @@
+{.passl: "-lSceOrbisCompat".}
 proc ZN19JITSharedDataMemory15shared_mallinfoEv*() {.cdecl,
     importc: "_ZN19JITSharedDataMemory15shared_mallinfoEv",
     header: "orbis/OrbisCompat.h".}

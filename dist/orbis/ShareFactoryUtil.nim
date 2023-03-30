@@ -1,3 +1,4 @@
+{.passl: "-lSceShareFactoryUtil".}
 proc sceShareFactoryUtilBackToGameFromShareFactory*() {.cdecl,
     importc: "sceShareFactoryUtilBackToGameFromShareFactory",
     header: "orbis/ShareFactoryUtil.h".}

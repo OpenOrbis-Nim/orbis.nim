@@ -1,3 +1,4 @@
+{.passl: "-lSceDbgKeyboard".}
 proc sceDbgKeyboardClose*() {.cdecl, importc: "sceDbgKeyboardClose",
                               header: "orbis/DbgKeyboard.h".}
   ##  Empty Comment

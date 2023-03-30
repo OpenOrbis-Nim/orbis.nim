@@ -1,3 +1,4 @@
+{.passl: "-lSceSaveDataDialog".}
 proc sceSaveDataDialogClose*() {.cdecl, importc: "sceSaveDataDialogClose",
                                  header: "orbis/SaveDataDialog.h".}
   ##  Empty Comment

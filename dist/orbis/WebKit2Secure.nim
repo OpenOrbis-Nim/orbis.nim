@@ -1,3 +1,4 @@
+{.passl: "-lSceWebKit2Secure".}
 proc cairo_create*() {.cdecl, importc: "cairo_create",
                        header: "orbis/WebKit2Secure.h".}
   ##  Empty Comment

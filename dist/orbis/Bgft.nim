@@ -1,4 +1,6 @@
+{.passl: "-lSceBgft".}
 import "_types/bgft"
+
 type
   OrbisBgftTaskId* = cint
 

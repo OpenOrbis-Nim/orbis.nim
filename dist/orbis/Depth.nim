@@ -1,3 +1,4 @@
+{.passl: "-lSceDepth".}
 proc sceDepthGetCalibrationData*() {.cdecl,
                                      importc: "sceDepthGetCalibrationData",
                                      header: "orbis/Depth.h".}

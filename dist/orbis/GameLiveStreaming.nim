@@ -1,3 +1,4 @@
+{.passl: "-lSceGameLiveStreaming".}
 proc sceGameLiveStreamingApplySocialFeedbackMessageFilter*() {.cdecl,
     importc: "sceGameLiveStreamingApplySocialFeedbackMessageFilter",
     header: "orbis/GameLiveStreaming.h".}

@@ -1,6 +1,7 @@
 import posix
+
 const
-  ORBIS_SAVE_DATA_MOUNT_MODE_RDONLY* = 1
+  ORBIS_SAVE_DATA_MOUNT_MODE_RDONLY* = 1 ## Read-only
 
 const
   ORBIS_SAVE_DATA_MOUNT_MODE_RDWR* = 2 ## Read/write-enabled

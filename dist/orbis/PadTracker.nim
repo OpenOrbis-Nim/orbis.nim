@@ -1,3 +1,4 @@
+{.passl: "-lScePadTracker".}
 proc scePadTrackerCalibrate*() {.cdecl, importc: "scePadTrackerCalibrate",
                                  header: "orbis/PadTracker.h".}
   ##  Empty Comment

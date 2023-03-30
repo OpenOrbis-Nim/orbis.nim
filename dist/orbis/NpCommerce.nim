@@ -1,3 +1,4 @@
+{.passl: "-lSceNpCommerce".}
 proc sceNpCommerceDialogClose*() {.cdecl, importc: "sceNpCommerceDialogClose",
                                    header: "orbis/NpCommerce.h".}
   ##  Empty Comment

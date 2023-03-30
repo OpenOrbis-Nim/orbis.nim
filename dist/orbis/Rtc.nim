@@ -1,3 +1,4 @@
+{.passl: "-lSceRtc".}
 ##
 ##  @package sce_rtc
 ##  Documentation for the orbis Real Time Clock. by CrazyVoid

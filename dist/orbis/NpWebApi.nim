@@ -1,3 +1,4 @@
+{.passl: "-lSceNpWebApi".}
 proc sceNpWebApiAbortHandle*() {.cdecl, importc: "sceNpWebApiAbortHandle",
                                  header: "orbis/NpWebApi.h".}
   ##  Empty Comment

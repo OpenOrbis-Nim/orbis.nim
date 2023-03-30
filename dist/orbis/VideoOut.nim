@@ -1,7 +1,12 @@
+{.passl: "-lSceVideoOut".}
 import "_types/kernel"
+
 import "_types/user"
+
 import "_types/video"
+
 import "_types/errors"
+
 proc sceVideoOutOpen*(a1: OrbisUserServiceUserId; a2: cint; a3: cint;
                       a4: pointer): cint {.cdecl, importc: "sceVideoOutOpen",
     header: "orbis/VideoOut.h".}

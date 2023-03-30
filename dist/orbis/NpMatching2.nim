@@ -1,3 +1,4 @@
+{.passl: "-lSceNpMatching2".}
 proc sceNpMatching2AbortContextStart*() {.cdecl,
     importc: "sceNpMatching2AbortContextStart", header: "orbis/NpMatching2.h".}
   ##  Empty Comment

@@ -1,4 +1,5 @@
 import "rtc"
+
 type
   OrbisDialogResultStatus* {.size: sizeof(cint).} = enum
     ORBIS_DIALOG_OK = 0, ORBIS_DIALOG_CANCEL = 1, ORBIS_DIALOG_ABORD = 2

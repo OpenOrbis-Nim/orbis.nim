@@ -1,4 +1,6 @@
+{.passl: "-lSceNpTrophy".}
 import "_types/Np"
+
 proc sceNpTrophyAbortHandle*() {.cdecl, importc: "sceNpTrophyAbortHandle",
                                  header: "orbis/NpTrophy.h".}
   ##  Empty Comment

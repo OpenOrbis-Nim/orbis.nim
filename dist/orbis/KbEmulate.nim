@@ -1,3 +1,4 @@
+{.passl: "-lSceKbEmulate".}
 proc sceKeyboardPadEmulateClose*() {.cdecl,
                                      importc: "sceKeyboardPadEmulateClose",
                                      header: "orbis/KbEmulate.h".}

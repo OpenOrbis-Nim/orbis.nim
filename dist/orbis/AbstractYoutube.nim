@@ -1,3 +1,4 @@
+{.passl: "-lSceAbstractYoutube".}
 proc ZN15AbstractStorage10YoutubeAPI14SetAccessTokenERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage10YoutubeAPI14SetAccessTokenERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractYoutube.h".}

@@ -1,4 +1,6 @@
+{.passl: "-lScePngEnc".}
 import "_types/png"
+
 proc scePngEncCreate*(a1: ptr OrbisPngEncCreateParam; a2: pointer; a3: uint32;
                       a4: ptr OrbisPngEncHandle): int32 {.cdecl,
     importc: "scePngEncCreate", header: "orbis/PngEnc.h".}

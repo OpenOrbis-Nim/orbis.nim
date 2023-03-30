@@ -1,3 +1,4 @@
+{.passl: "-lSceMouse".}
 proc sceMouseClose*() {.cdecl, importc: "sceMouseClose", header: "orbis/Mouse.h".}
   ##  Empty Comment
 proc sceMouseInit*() {.cdecl, importc: "sceMouseInit", header: "orbis/Mouse.h".}

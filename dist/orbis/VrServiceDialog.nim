@@ -1,3 +1,4 @@
+{.passl: "-lSceVrServiceDialog".}
 proc sceVrServiceDialogClose*() {.cdecl, importc: "sceVrServiceDialogClose",
                                   header: "orbis/VrServiceDialog.h".}
   ##  Empty Comment

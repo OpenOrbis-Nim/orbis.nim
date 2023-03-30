@@ -1,3 +1,4 @@
+{.passl: "-lSceNetCtlApDialog".}
 proc sceNetCtlApDialogClose*() {.cdecl, importc: "sceNetCtlApDialogClose",
                                  header: "orbis/NetCtlApDialog.h".}
   ##  Empty Comment

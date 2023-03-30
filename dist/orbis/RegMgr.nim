@@ -1,3 +1,4 @@
+{.passl: "-lSceRegMgr".}
 proc sceRegMgrBackupNeedMem*() {.cdecl, importc: "sceRegMgrBackupNeedMem",
                                  header: "orbis/RegMgr.h".}
   ##  Empty Comment

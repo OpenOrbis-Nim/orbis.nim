@@ -1,3 +1,4 @@
+{.passl: "-lSceDeviceService".}
 proc sceDeviceServiceGetEventState*() {.cdecl, importc: "sceDeviceServiceGetEventState",
                                         header: "orbis/DeviceService.h".}
   ##  Empty Comment

@@ -1,3 +1,4 @@
+{.passl: "-lSceShareUtility".}
 proc sceShareUtilityAdvanceFromFileWithContentIdList*() {.cdecl,
     importc: "sceShareUtilityAdvanceFromFileWithContentIdList",
     header: "orbis/ShareUtility.h".}

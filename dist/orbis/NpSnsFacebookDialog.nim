@@ -1,3 +1,4 @@
+{.passl: "-lSceNpSnsFacebookDialog".}
 proc sceNpSnsFacebookDialogClose*() {.cdecl,
                                       importc: "sceNpSnsFacebookDialogClose",
                                       header: "orbis/NpSnsFacebookDialog.h".}

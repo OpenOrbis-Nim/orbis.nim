@@ -1,4 +1,6 @@
+{.passl: "-lSceSystemService".}
 import "_types/sys_service"
+
 proc sceSystemServiceHideSplashScreen*(): int32 {.cdecl,
     importc: "sceSystemServiceHideSplashScreen", header: "orbis/SystemService.h".}
 proc sceSystemServiceParamGetInt*(paramId: int32; value: ptr int32): int32 {.

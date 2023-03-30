@@ -1,3 +1,4 @@
+{.passl: "-lSceCoreIPC".}
 proc ZN3WTF10fastMallocEm*() {.cdecl, importc: "_ZN3WTF10fastMallocEm",
                                header: "orbis/CoreIPC.h".}
   ##  Empty Comment

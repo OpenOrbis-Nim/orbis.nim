@@ -1,3 +1,4 @@
+{.passl: "-lSceAbstractTwitter".}
 proc ZN15AbstractStorage10TwitterAPI6FinishERiRSbIcSt11char_traitsIcENS_8StlAllocIcEEE*() {.
     cdecl, importc: "_ZN15AbstractStorage10TwitterAPI6FinishERiRSbIcSt11char_traitsIcENS_8StlAllocIcEEE",
     header: "orbis/AbstractTwitter.h".}

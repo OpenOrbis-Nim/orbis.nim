@@ -1,3 +1,4 @@
+{.passl: "-lSceHmd".}
 proc sceHmdClose*() {.cdecl, importc: "sceHmdClose", header: "orbis/Hmd.h".}
   ##  Empty Comment
 proc sceHmdGet2DEyeOffset*() {.cdecl, importc: "sceHmdGet2DEyeOffset",

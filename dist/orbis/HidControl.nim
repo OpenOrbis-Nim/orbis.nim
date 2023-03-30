@@ -1,3 +1,4 @@
+{.passl: "-lSceHidControl".}
 proc sceHidControlDisconnectPort*() {.cdecl,
                                       importc: "sceHidControlDisconnectPort",
                                       header: "orbis/HidControl.h".}

@@ -1,3 +1,4 @@
+{.passl: "-lScePlayReady".}
 proc scePlayReadyApiStart*() {.cdecl, importc: "scePlayReadyApiStart",
                                header: "orbis/PlayReady.h".}
   ##  Empty Comment

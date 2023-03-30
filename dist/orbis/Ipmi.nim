@@ -1,3 +1,4 @@
+{.passl: "-lSceIpmi".}
 proc ZN4IPMI4impl10ClientImpl10disconnectEv*() {.cdecl,
     importc: "_ZN4IPMI4impl10ClientImpl10disconnectEv", header: "orbis/Ipmi.h".}
   ##  Empty Comment

@@ -1,3 +1,4 @@
+{.passl: "-lSceMusicCoreServerClientJsEx".}
 proc sceMusicCoreServerRegistEventCallback*() {.cdecl,
     importc: "sceMusicCoreServerRegistEventCallback",
     header: "orbis/MusicCoreServerClientJsEx.h".}

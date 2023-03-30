@@ -1,3 +1,4 @@
+{.passl: "-lSceImeBackend".}
 proc sceImeBackendAllConfirm*() {.cdecl, importc: "sceImeBackendAllConfirm",
                                   header: "orbis/ImeBackend.h".}
   ##  Empty Comment

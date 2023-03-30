@@ -1,3 +1,4 @@
+{.passl: "-lSceVideodec2".}
 proc sceVideodec2AllocateComputeQueue*() {.cdecl,
     importc: "sceVideodec2AllocateComputeQueue", header: "orbis/Videodec2.h".}
   ##  Empty Comment

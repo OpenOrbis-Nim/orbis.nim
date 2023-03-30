@@ -1,6 +1,16 @@
+{.passl: "-lScePad".}
 import "_types/pad"
+
 import "_types/errors"
+
 proc scePadInit*(): cint {.cdecl, importc: "scePadInit", header: "orbis/Pad.h".}
+  ## -
+                                                                                ##  OpenOrbis PS4 Toolchain - SCE Pad (Controller)
+                                                                                ##  -
+                                                                                ##  This file contains objects and functions for interfacing with the DualShock 4 (DS4) controller.
+                                                                                ##
+                                                                                ##  Special thanks to bigboss (psxdev) for reversing some of these.
+                                                                                ##
 proc scePadOpen*(userID: cint; `type`: cint; index: cint; param: pointer): cint {.
     cdecl, importc: "scePadOpen", header: "orbis/Pad.h".}
 proc scePadOpenExt*(userID: cint; `type`: cint; index: cint;

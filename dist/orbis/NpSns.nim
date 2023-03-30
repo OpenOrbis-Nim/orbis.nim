@@ -1,3 +1,4 @@
+{.passl: "-lSceNpSns".}
 proc sceNpSnsFacebookAbortRequest*() {.cdecl,
                                        importc: "sceNpSnsFacebookAbortRequest",
                                        header: "orbis/NpSns.h".}

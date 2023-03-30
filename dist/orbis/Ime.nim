@@ -1,3 +1,4 @@
+{.passl: "-lSceIme".}
 proc sceImeClose*() {.cdecl, importc: "sceImeClose", header: "orbis/Ime.h".}
   ##  Empty Comment
 proc sceImeConfigGet*() {.cdecl, importc: "sceImeConfigGet",

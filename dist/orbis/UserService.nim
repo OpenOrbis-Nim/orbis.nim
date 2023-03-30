@@ -1,5 +1,8 @@
+{.passl: "-lSceUserService".}
 import "_types/user"
+
 import "_types/errors"
+
 proc sceUserServiceGetInitialUser*(a1: ptr cint): cint {.cdecl,
     importc: "sceUserServiceGetInitialUser", header: "orbis/UserService.h".}
 proc sceUserServiceGetUserName*(a1: cint; a2: cstring; a3: csize_t): cint {.

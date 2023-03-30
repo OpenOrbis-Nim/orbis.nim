@@ -1,3 +1,4 @@
+{.passl: "-lSceMusicCoreServerClient".}
 proc sceMusicCoreServerForceKillCurrentCore*() {.cdecl,
     importc: "sceMusicCoreServerForceKillCurrentCore",
     header: "orbis/MusicCoreServerClient.h".}

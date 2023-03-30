@@ -1,3 +1,4 @@
+{.passl: "-lSceJson2".}
 proc ZN3sce4Json11Initializer10initializeEPKNS0_13InitParameterE*() {.cdecl,
     importc: "_ZN3sce4Json11Initializer10initializeEPKNS0_13InitParameterE",
     header: "orbis/Json2.h".}

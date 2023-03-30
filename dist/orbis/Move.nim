@@ -1,3 +1,4 @@
+{.passl: "-lSceMove".}
 proc sceMoveClose*() {.cdecl, importc: "sceMoveClose", header: "orbis/Move.h".}
   ##  Empty Comment
 proc sceMoveGetDeviceInfo*() {.cdecl, importc: "sceMoveGetDeviceInfo",

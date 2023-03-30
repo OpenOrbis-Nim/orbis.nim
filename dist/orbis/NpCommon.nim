@@ -1,3 +1,4 @@
+{.passl: "-lSceNpCommon".}
 proc ZN3sce2np12WorkerThread10ThreadMainEv*() {.cdecl,
     importc: "_ZN3sce2np12WorkerThread10ThreadMainEv",
     header: "orbis/NpCommon.h".}

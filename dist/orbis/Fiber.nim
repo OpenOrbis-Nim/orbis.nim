@@ -1,3 +1,4 @@
+{.passl: "-lSceFiber".}
 proc sceFiberAttachContextAndRun*() {.cdecl,
                                       importc: "_sceFiberAttachContextAndRun",
                                       header: "orbis/Fiber.h".}

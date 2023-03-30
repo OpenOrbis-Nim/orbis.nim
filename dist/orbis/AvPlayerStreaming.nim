@@ -1,3 +1,4 @@
+{.passl: "-lSceAvPlayerStreaming".}
 proc MvpHttpDeInit*() {.cdecl, importc: "MvpHttpDeInit",
                         header: "orbis/AvPlayerStreaming.h".}
   ##  Empty Comment

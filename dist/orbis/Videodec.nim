@@ -1,3 +1,4 @@
+{.passl: "-lSceVideodec".}
 proc sceVideodecCreateDecoder*() {.cdecl, importc: "sceVideodecCreateDecoder",
                                    header: "orbis/Videodec.h".}
   ##  Empty Comment

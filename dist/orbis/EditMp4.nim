@@ -1,3 +1,4 @@
+{.passl: "-lSceEditMp4".}
 proc sceEditMp4Abort*() {.cdecl, importc: "sceEditMp4Abort",
                           header: "orbis/EditMp4.h".}
   ##  Empty Comment

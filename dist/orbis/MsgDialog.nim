@@ -1,5 +1,8 @@
+{.passl: "-lSceMsgDialog".}
 import "_types/common_dialog"
+
 import "_types/msg_dialog"
+
 proc sceMsgDialogInitialize*(): int32 {.cdecl,
                                         importc: "sceMsgDialogInitialize",
                                         header: "orbis/MsgDialog.h".}

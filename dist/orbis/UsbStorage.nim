@@ -1,3 +1,4 @@
+{.passl: "-lSceUsbStorage".}
 proc sceUsbStorageGetDeviceInfo*() {.cdecl,
                                      importc: "sceUsbStorageGetDeviceInfo",
                                      header: "orbis/UsbStorage.h".}

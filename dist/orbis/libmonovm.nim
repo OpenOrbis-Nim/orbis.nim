@@ -1,3 +1,4 @@
+{.passl: "-lScelibmonovm".}
 type
   gboolean* = cint
   gint* = cint

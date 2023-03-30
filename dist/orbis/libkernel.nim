@@ -1,6 +1,10 @@
+{.passl: "-lScelibkernel".}
 import "_types/kernel"
+
 import "_types/pthread"
+
 import "_types/errors"
+
 var sceLibcHeapSize* {.importc: "sceLibcHeapSize", header: "orbis/libkernel.h".}: uint64
 
 var sce_libc_heap_delayed_alloc* {.importc: "sce_libc_heap_delayed_alloc",

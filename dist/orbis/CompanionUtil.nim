@@ -1,3 +1,4 @@
+{.passl: "-lSceCompanionUtil".}
 proc sceCompanionUtilGetEvent*() {.cdecl, importc: "sceCompanionUtilGetEvent",
                                    header: "orbis/CompanionUtil.h".}
   ##  Empty Comment

@@ -1,3 +1,4 @@
+{.passl: "-lSceSsl".}
 type
   SslPem* {.importc: "SslPem", header: "orbis/Ssl.h", bycopy.} = object
     `ptr`* {.importc: "ptr".}: cstring

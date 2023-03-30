@@ -1,3 +1,4 @@
+{.passl: "-lSceNpFriendListDialog".}
 proc sceNpFriendListDialogClose*() {.cdecl,
                                      importc: "sceNpFriendListDialogClose",
                                      header: "orbis/NpFriendListDialog.h".}

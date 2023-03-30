@@ -1,3 +1,4 @@
+{.passl: "-lSceContentDelete".}
 proc sceContentDeleteById*() {.cdecl, importc: "sceContentDeleteById",
                                header: "orbis/ContentDelete.h".}
   ##  Empty Comment

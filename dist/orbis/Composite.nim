@@ -1,3 +1,4 @@
+{.passl: "-lSceComposite".}
 proc sceCompositorCheckCrash*() {.cdecl, importc: "sceCompositorCheckCrash",
                                   header: "orbis/Composite.h".}
   ##  Empty Comment

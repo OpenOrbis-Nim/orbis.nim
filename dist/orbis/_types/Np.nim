@@ -1,4 +1,5 @@
 import "rtc"
+
 type
   OrbisNpTrophyDetails* {.importc: "OrbisNpTrophyDetails",
                           header: "orbis/_types/Np.h", bycopy.} = object

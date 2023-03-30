@@ -1,3 +1,4 @@
+{.passl: "-lSceDbgVideoOut".}
 proc sceDbgVideoOutAddOutputModeVr60Privilege*() {.cdecl,
     importc: "sceDbgVideoOutAddOutputModeVr60Privilege",
     header: "orbis/DbgVideoOut.h".}

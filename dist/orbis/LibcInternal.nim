@@ -1,3 +1,4 @@
+{.passl: "-lSceLibcInternal".}
 ##  [MAJOR ISSUE]
 ## 	Including libc.h or libcinternal.h conflicts with the freebsd9 headers pretty bad
 ## 	You should try to use standard includes like stdio, stdlib, assert, string etc

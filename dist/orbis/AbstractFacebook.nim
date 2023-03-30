@@ -1,3 +1,4 @@
+{.passl: "-lSceAbstractFacebook".}
 proc ZN15AbstractStorage14FacebookFolder10NewContentERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEPSt10shared_ptrINS_7ContentEE*() {.
     cdecl, importc: "_ZN15AbstractStorage14FacebookFolder10NewContentERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEPSt10shared_ptrINS_7ContentEE",
     header: "orbis/AbstractFacebook.h".}

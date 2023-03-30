@@ -1,3 +1,4 @@
+{.passl: "-lSceSigninDialog".}
 proc sceSigninDialogClose*() {.cdecl, importc: "sceSigninDialogClose",
                                header: "orbis/SigninDialog.h".}
   ##  Empty Comment

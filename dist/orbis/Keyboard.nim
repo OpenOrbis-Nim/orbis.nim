@@ -1,5 +1,8 @@
+{.passl: "-lSceKeyboard".}
 import "_types/keyboard"
+
 import "_types/errors"
+
 const
   SCE_SYSMODULE_KEYBOARD* = 0x106
 

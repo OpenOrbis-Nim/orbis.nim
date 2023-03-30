@@ -1,3 +1,4 @@
+{.passl: "-lSceImageUtil".}
 proc dso_handle*() {.cdecl, importc: "__dso_handle", header: "orbis/ImageUtil.h".}
   ##  Empty Comment
 proc jcopy_block_row*() {.cdecl, importc: "jcopy_block_row",

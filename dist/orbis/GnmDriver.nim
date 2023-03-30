@@ -1,4 +1,6 @@
+{.passl: "-lSceGnmDriver".}
 import "_types/gnm"
+
 proc sceGnmAddEqEvent*() {.cdecl, importc: "sceGnmAddEqEvent",
                            header: "orbis/GnmDriver.h".}
   ##  Empty Comment

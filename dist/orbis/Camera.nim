@@ -1,3 +1,4 @@
+{.passl: "-lSceCamera".}
 proc sceCameraAudioGetData*() {.cdecl, importc: "sceCameraAudioGetData",
                                 header: "orbis/Camera.h".}
   ##  Empty Comment

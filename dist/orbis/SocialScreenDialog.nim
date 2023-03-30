@@ -1,3 +1,4 @@
+{.passl: "-lSceSocialScreenDialog".}
 proc sceSocialScreenDialogGetResult*() {.cdecl,
     importc: "sceSocialScreenDialogGetResult",
     header: "orbis/SocialScreenDialog.h".}

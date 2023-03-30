@@ -1,3 +1,4 @@
+{.passl: "-lSceNpProfileDialog".}
 proc sceNpProfileDialogClose*() {.cdecl, importc: "sceNpProfileDialogClose",
                                   header: "orbis/NpProfileDialog.h".}
   ##  Empty Comment

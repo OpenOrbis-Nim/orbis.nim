@@ -1,3 +1,4 @@
+{.passl: "-lSceSocialScreen".}
 proc sceSocialScreenInitialize*() {.cdecl, importc: "sceSocialScreenInitialize",
                                     header: "orbis/SocialScreen.h".}
   ##  Empty Comment

@@ -1,3 +1,4 @@
+{.passl: "-lSceSysUtil".}
 proc sceSysUtilSendAddressingSystemNotification*() {.cdecl,
     importc: "sceSysUtilSendAddressingSystemNotification",
     header: "orbis/SysUtil.h".}

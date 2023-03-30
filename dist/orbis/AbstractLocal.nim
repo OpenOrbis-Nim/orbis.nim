@@ -1,3 +1,4 @@
+{.passl: "-lSceAbstractLocal".}
 proc ZN15AbstractStorage11LocalFolder10NewContentERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEPSt10shared_ptrINS_7ContentEE*() {.
     cdecl, importc: "_ZN15AbstractStorage11LocalFolder10NewContentERKSbIcSt11char_traitsIcENS_8StlAllocIcEEEPSt10shared_ptrINS_7ContentEE",
     header: "orbis/AbstractLocal.h".}

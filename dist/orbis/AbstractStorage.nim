@@ -1,3 +1,4 @@
+{.passl: "-lSceAbstractStorage".}
 proc ZN15AbstractStorage12Serializable12readExternalESt10shared_ptrINS_7ContentEE*() {.
     cdecl, importc: "_ZN15AbstractStorage12Serializable12readExternalESt10shared_ptrINS_7ContentEE",
     header: "orbis/AbstractStorage.h".}

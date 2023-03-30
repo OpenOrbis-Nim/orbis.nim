@@ -1,4 +1,6 @@
+{.passl: "-lSceCommonDialog".}
 import "_types/common_dialog"
+
 proc sceCommonDialogInitialize*(): int32 {.cdecl,
     importc: "sceCommonDialogInitialize", header: "orbis/CommonDialog.h".}
   ##  Initialize system dialog.

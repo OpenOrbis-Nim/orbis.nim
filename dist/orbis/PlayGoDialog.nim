@@ -1,3 +1,4 @@
+{.passl: "-lScePlayGoDialog".}
 proc scePlayGoDialogClose*() {.cdecl, importc: "scePlayGoDialogClose",
                                header: "orbis/PlayGoDialog.h".}
   ##  Empty Comment

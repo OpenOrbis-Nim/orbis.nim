@@ -1,4 +1,6 @@
+{.passl: "-lSceSaveData".}
 import "_types/save_data"
+
 proc sceSaveDataInitialize3*(initParams: int32): int32 {.cdecl,
     importc: "sceSaveDataInitialize3", header: "orbis/SaveData.h".}
 proc sceSaveDataMount*(a1: ptr OrbisSaveDataMount;

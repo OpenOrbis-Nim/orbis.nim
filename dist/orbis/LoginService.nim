@@ -1,3 +1,4 @@
+{.passl: "-lSceLoginService".}
 proc sceLoginServiceInitialize*() {.cdecl, importc: "sceLoginServiceInitialize",
                                     header: "orbis/LoginService.h".}
   ##  Empty Comment

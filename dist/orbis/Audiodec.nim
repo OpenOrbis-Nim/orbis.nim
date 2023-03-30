@@ -1,3 +1,4 @@
+{.passl: "-lSceAudiodec".}
 type
   OrbisAudiodecPcmItem* {.importc: "OrbisAudiodecPcmItem",
                           header: "orbis/Audiodec.h", bycopy.} = object

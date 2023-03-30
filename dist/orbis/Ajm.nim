@@ -1,3 +1,4 @@
+{.passl: "-lSceAjm".}
 proc sceAjmBatchCancel*() {.cdecl, importc: "sceAjmBatchCancel",
                             header: "orbis/Ajm.h".}
   ##  Empty Comment

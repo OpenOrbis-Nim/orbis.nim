@@ -1,3 +1,4 @@
+{.passl: "-lSceVoice".}
 proc sceVoiceConnectIPortToOPort*() {.cdecl,
                                       importc: "sceVoiceConnectIPortToOPort",
                                       header: "orbis/Voice.h".}

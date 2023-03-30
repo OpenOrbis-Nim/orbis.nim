@@ -1,3 +1,4 @@
+{.passl: "-lSceAppContent".}
 proc Z5dummyv*() {.cdecl, importc: "_Z5dummyv", header: "orbis/AppContent.h".}
   ##  Empty Comment
 proc sceAppContentAddcontDelete*() {.cdecl,

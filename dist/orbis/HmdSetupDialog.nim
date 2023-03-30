@@ -1,3 +1,4 @@
+{.passl: "-lSceHmdSetupDialog".}
 proc sceHmdSetupDialogClose*() {.cdecl, importc: "sceHmdSetupDialogClose",
                                  header: "orbis/HmdSetupDialog.h".}
   ##  Empty Comment

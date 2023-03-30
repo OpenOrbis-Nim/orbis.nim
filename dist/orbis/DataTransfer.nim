@@ -1,3 +1,4 @@
+{.passl: "-lSceDataTransfer".}
 proc sceDataTransferHostAbort*() {.cdecl, importc: "sceDataTransferHostAbort",
                                    header: "orbis/DataTransfer.h".}
 proc sceDataTransferHostLaunch*() {.cdecl, importc: "sceDataTransferHostLaunch",

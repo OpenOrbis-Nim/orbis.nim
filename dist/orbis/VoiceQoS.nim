@@ -1,3 +1,4 @@
+{.passl: "-lSceVoiceQoS".}
 proc sceVoiceQoSConnect*() {.cdecl, importc: "sceVoiceQoSConnect",
                              header: "orbis/VoiceQoS.h".}
   ##  Empty Comment
