@@ -51,6 +51,6 @@ for scrub_file in scrub_files:
     cleanPreprocessorOutput(outfile, infile)
     runC2Nim(outfile, libfile_header)
     target_directory = os.path.dirname(nimfile).replace("source", "dist")
-    target_directory = target_directory.replace("orbis/", "orbis/private/")
+    target_directory = target_directory.replace("orbis", "orbis/private")
     os.makedirs(target_directory, exist_ok=True)
     subprocess.run(["cp", nimfile, target_directory])
