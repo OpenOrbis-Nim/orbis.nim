@@ -1,4 +1,4 @@
-{.passl: "-lScelibkernel".}
+{.passl: "-lkernel".}
 import "_types/kernel"
 
 import "_types/pthread"

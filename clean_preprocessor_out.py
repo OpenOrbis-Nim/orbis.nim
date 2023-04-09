@@ -186,7 +186,11 @@ out = [generateNimImport(import_name) for import_name in nim_imports.keys()] + o
 
 
 if "_types" not in base_filename and "orbis" in base_filename:
-    libname = "Sce" + base_filename[0:-2].replace("./orbis/", "")
+    libname = base_filename[0:-2].replace("./orbis/", "")
+    if libname.startswith("lib"):
+        libname = libname[3:]
+    else:
+        libname = "Sce" + libname
     libLinkCode = "{{.passl: \"-l{}\".}}".format(libname)
     out = [generateNimCode(libLinkCode)] + out
 

@@ -1,4 +1,4 @@
-{.passl: "-lScelibmonocompiler".}
+{.passl: "-lmonocompiler".}
 proc mini_create_jit_domain_info*() {.cdecl,
                                       importc: "mini_create_jit_domain_info",
                                       header: "orbis/libmonocompiler.h".}

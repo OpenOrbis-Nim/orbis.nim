@@ -1,4 +1,4 @@
-{.passl: "-lScelibmonovmbridge".}
+{.passl: "-lmonovmbridge".}
 proc coil_signal_semaphore*() {.cdecl, importc: "coil_signal_semaphore",
                                 header: "orbis/libmonovmbridge.h".}
   ##  Empty Comment

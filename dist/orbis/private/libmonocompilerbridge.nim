@@ -1,4 +1,4 @@
-{.passl: "-lScelibmonocompilerbridge".}
+{.passl: "-lmonocompilerbridge".}
 proc comm_init*() {.cdecl, importc: "comm_init",
                     header: "orbis/libmonocompilerbridge.h".}
   ##  Empty Comment

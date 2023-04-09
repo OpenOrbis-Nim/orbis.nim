@@ -1,4 +1,4 @@
-{.passl: "-lScelibmonovm".}
+{.passl: "-lmonovm".}
 type
   gboolean* = cint
   gint* = cint
