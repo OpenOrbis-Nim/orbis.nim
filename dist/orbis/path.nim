@@ -34,9 +34,13 @@ static:
   assert removeDots("../../../../../") == "/"
   assert removeDots("../../def") == "/def"
 
-proc fromSandboxToAbsPath*(sandboxPath: string): string =
-  result = sandboxPath
+proc relativePathToAbs*(relativePath:string, root: string): string =
+  result = relativePath
   result = normalizedPath(result)
   result = removeDots(result)
-  result = absolutePath(result, root = "/")
-  result = joinPath(APP_MOUNT_PATH, result[1..^1])
+  result = absolutePath(result,"/")
+  result = joinPath(root, result[1..^1])
+  
+proc fromSandboxToAbsPath*(sandboxPath: string): string =
+  relativePathToAbs(sandboxPath, APP_MOUNT_PATH)
+
