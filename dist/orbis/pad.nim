@@ -54,7 +54,7 @@ type Controller* = ref object
   pad: cint
   userId: cint
   buttonState: array[BUTTON_COUNT, ButtonState]
-  buttonPressCount: array[BUTTON_COUNT, int]
+  buttonPressCount: array[BUTTON_COUNT, uint64]
   padData: OrbisPadData
 
 
