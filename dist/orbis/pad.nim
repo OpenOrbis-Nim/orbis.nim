@@ -1,7 +1,7 @@
 import "private/Pad"
 import "private/_types/pad"
 import "errors"
-
+import colors
 import std/setutils
 import std/enumutils
 
@@ -71,7 +71,17 @@ proc init*(ctrl: var Controller, userId: cint): cint =
     return pad
   ctrl.pad = pad
 
-proc updateButtonState(ctrl: var Controller; buttonIndex, oldValue, newValue: int) =
+proc updateColor*(ctrl: Controller, newColor: Color, alpha: uint8): cint =
+  var color: OrbisPadColor
+  var (r,g,b) = extractRGB(newColor)
+  color.r = r.uint8
+  color.g = g.uint8
+  color.b = b.uint8
+  color.a = alpha
+
+  scePadSetLightBar(ctrl.pad, color.addr)
+
+proc updateButtonState(ctrl: var Controller; buttonIndex: int; oldValue, newValue: uint64) =
   if oldValue == 0:
     if newValue != 0:
       ctrl.buttonState[buttonIndex] = PRESSED
@@ -81,7 +91,8 @@ proc updateButtonState(ctrl: var Controller; buttonIndex, oldValue, newValue: in
       ctrl.buttonState[buttonIndex] = RELEASED
   else:
       ctrl.buttonState[buttonIndex] = HELD
-proc updateButtonPressCount(ctrl: var Controller, buttonIndex : int, increment: bool): tuple[oldValue, newValue: int]  =
+
+proc updateButtonPressCount(ctrl: var Controller, buttonIndex : int, increment: bool): tuple[oldValue, newValue: uint64]  =
   result.oldValue = ctrl.buttonPressCount[buttonIndex]
   if increment:
     inc ctrl.buttonPressCount[buttonIndex]
@@ -106,4 +117,5 @@ proc held*(ctrl: Controller, button: OrbisPadButtons) : bool =
   return ctrl.buttonState[button.ord] == HELD
 
 proc released*(ctrl: Controller, button: OrbisPadButtons) : bool =
-  return ctrl.buttonState[button.ord] == RELEASED
+ return ctrl.buttonState[button.ord] == RELEASED
+
