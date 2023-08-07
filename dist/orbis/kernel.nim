@@ -1,4 +1,4 @@
-#import "orbis/private/libkernel"
+include "orbis/private/libkernel"
 import posix
 
 ##

@@ -2,6 +2,7 @@ import macros
 import strutils
 import bitops
 import "errors"
+import "procinfo"
 import "private/SaveData" as sd
 import "private/_types/save_data"
 
@@ -62,7 +63,7 @@ proc dirName(sd: SaveData): string =
 proc `fingerprint=`*(sd: var SaveData, fingerprint: string) =
   if fingerprint.len > 64:
     return 
-  sd.hFingerprint = fingerprint & repeat('\x00', 80 - 64)
+  sd.hFingerprint = fingerprint & repeat('\x00', 80 - fingerprint.len)
   sd.mount.fingerprint = sd.hFingerprint.cstring
 
 proc `fingerprint`(sd: SaveData): string = 
@@ -115,9 +116,19 @@ type SaveDataMounterResult* = tuple
 proc mount*(mounter: var SaveDataMounter): SaveDataMounterResult =
   if mounter.mounted:
     return (code: ORBIS_OK.uint32, mountPath: mounter.mountPath)
-
   var mountResult: OrbisSaveDataMountResult 
-  let errCode = sceSaveDataMount(addr(mounter.data.mount), addr(mountResult))
+  var errCode: int32
+  if mounter.data.titleId == APP_TITLE_ID:
+    # Use sce save data mount2
+    var mount: OrbisSaveDataMount2
+    let oMount = mounter.data.mount
+    mount.userId = oMount.userId
+    mount.blocks = oMount.blocks
+    mount.dirName = oMount.dirName
+    mount.mountMode = oMount.mountMode
+    errCode = sceSaveDataMount2(addr(mount), addr(mountResult))
+  else:
+    errCode = sceSaveDataMount(addr(mounter.data.mount), addr(mountResult))
 
   if errCode != ORBIS_OK:
     return (code: errCode.uint32, mountPath: "")

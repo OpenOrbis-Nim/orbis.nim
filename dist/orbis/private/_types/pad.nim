@@ -87,6 +87,13 @@ type
     b* {.importc: "b".}: uint8
     a* {.importc: "a".}: uint8
 
+  OrbisPadLightBlinkingParam* {.importc: "OrbisPadLightBlinkingParam",
+                                header: "orbis/_types/pad.h", bycopy.} = object
+    valid* {.importc: "valid".}: uint8
+    onTime* {.importc: "onTime".}: uint8
+    offTime* {.importc: "offTime".}: uint8
+    unk1* {.importc: "unk1".}: uint8
+
   OrbisPadVibeParam* {.importc: "OrbisPadVibeParam",
                        header: "orbis/_types/pad.h", bycopy.} = object
     lgMotor* {.importc: "lgMotor".}: uint8

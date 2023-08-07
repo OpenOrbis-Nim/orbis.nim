@@ -1,3 +1,8 @@
+const EVFILT_TIMER = -7
+const EVFILT_READ = -1
+const EVFILT_WRITE = -2
+const EVFILT_USER = -11
+const EVFILT_VNODE = -4
 const
   MAP_TYPE* = 0x0f
   ORBIS_KERNEL_EVFILT_TIMER* = EVFILT_TIMER
@@ -5,17 +10,17 @@ const
   ORBIS_KERNEL_EVFILT_WRITE* = EVFILT_WRITE
   ORBIS_KERNEL_EVFILT_USER* = EVFILT_USER
   ORBIS_KERNEL_EVFILT_FILE* = EVFILT_VNODE
-  ORBIS_KERNEL_EVFILT_GNM* = EVFILT_GRAPHICS_CORE
-  ORBIS_KERNEL_EVFILT_VIDEO_OUT* = EVFILT_DISPLAY
-  ORBIS_KERNEL_EVFILT_HRTIMER* = EVFILT_HRTIMER
-  ORBIS_KERNEL_EVNOTE_DELETE* = NOTE_DELETE
-  ORBIS_KERNEL_EVNOTE_WRITE* = NOTE_WRITE
-  ORBIS_KERNEL_EVNOTE_EXTEND* = NOTE_EXTEND
-  ORBIS_KERNEL_EVNOTE_ATTRIB* = NOTE_ATTRIB
-  ORBIS_KERNEL_EVNOTE_RENAME* = NOTE_RENAME
-  ORBIS_KERNEL_EVNOTE_REVOKE* = NOTE_REVOKE
-  ORBIS_KERNEL_EVFLAG_EOF* = EV_EOF
-  ORBIS_KERNEL_EVFLAG_ERROR* = EV_ERROR
+#  ORBIS_KERNEL_EVFILT_GNM* = EVFILT_GRAPHICS_CORE
+#  ORBIS_KERNEL_EVFILT_VIDEO_OUT* = EVFILT_DISPLAY
+#  ORBIS_KERNEL_EVFILT_HRTIMER* = EVFILT_HRTIMER
+#  ORBIS_KERNEL_EVNOTE_DELETE* = NOTE_DELETE
+#  ORBIS_KERNEL_EVNOTE_WRITE* = NOTE_WRITE
+#  ORBIS_KERNEL_EVNOTE_EXTEND* = NOTE_EXTEND
+#  ORBIS_KERNEL_EVNOTE_ATTRIB* = NOTE_ATTRIB
+#  ORBIS_KERNEL_EVNOTE_RENAME* = NOTE_RENAME
+#  ORBIS_KERNEL_EVNOTE_REVOKE* = NOTE_REVOKE
+#  ORBIS_KERNEL_EVFLAG_EOF* = EV_EOF
+#  ORBIS_KERNEL_EVFLAG_ERROR* = EV_ERROR
   ORBIS_KERNEL_EVF_ATTR_TH_FIFO* = 0x01
   ORBIS_KERNEL_EVF_ATTR_TH_PRIO* = 0x02
   ORBIS_KERNEL_EVF_ATTR_SINGLE* = 0x10
@@ -45,11 +50,11 @@ const
 
 type
   kevent* {.importc: "kevent", header: "orbis/_types/kernel.h", bycopy.} = object
-    ident* {.importc: "ident".}: uintptr_t ##  identifier for this event
+    ident* {.importc: "ident".}: uint64 ##  identifier for this event
     filter* {.importc: "filter".}: cshort ##  filter for event
     flags* {.importc: "flags".}: uint16
     fflags* {.importc: "fflags".}: uint32
-    data* {.importc: "data".}: intptr_t
+    data* {.importc: "data".}: int64
     udata* {.importc: "udata".}: pointer ##  opaque user data identifier
 
   OrbisKernelModuleSegmentInfo* {.importc: "OrbisKernelModuleSegmentInfo",
@@ -71,17 +76,17 @@ type
                                   header: "orbis/_types/kernel.h", bycopy.} = object
     sz* {.importc: "sz".}: csize_t
 
-  OrbisKernelTimeval* = timeval
+#  OrbisKernelTimeval* = timeval
   OrbisKernelUseconds* = cuint
   OrbisKernelModule* = uint32
   OrbisKernelEqueue* = uint64
   OrbisKernelEvent* = kevent
-  OrbisKernelEventFlag* = ptr OrbisKernelEventFlag
+#  OrbisKernelEventFlagPtr* = ptr OrbisKernelEventFlag
   OrbisKernelSemaOptParam* {.importc: "OrbisKernelSemaOptParam",
                              header: "orbis/_types/kernel.h", bycopy.} = object
     sz* {.importc: "sz".}: csize_t
 
-  OrbisKernelSema* = ptr OrbisKernelSema
+#  OrbisKernelSema* = ptr OrbisKernelSema
   OrbisKernelUuid* {.importc: "OrbisKernelUuid",
                      header: "orbis/_types/kernel.h", bycopy.} = object
     unk01* {.importc: "unk01".}: uint32
@@ -91,9 +96,9 @@ type
     unk05* {.importc: "unk05".}: uint8
     unk06* {.importc: "unk06".}: array[6, uint8]
 
-  OrbisKernelMode* = Mode
-  OrbisKernelStat* = stat
-  OrbisKernelTimespec* = timespec
+#  OrbisKernelMode* = Mode
+#  OrbisKernelStat* = stat
+#  OrbisKernelTimespec* = timespec
   OrbisKernelIovec* {.importc: "OrbisKernelIovec",
                       header: "orbis/_types/kernel.h", bycopy.} = object
     base* {.importc: "base".}: pointer
@@ -103,7 +108,7 @@ type
                                  header: "orbis/_types/kernel.h", bycopy.} = object
     unk01* {.importc: "unk01".}: pointer
     unk02* {.importc: "unk02".}: pointer
-    offset* {.importc: "offset".}: Off
+#    offset* {.importc: "offset".}: Off
     unk04* {.importc: "unk04".}: cint
     unk05* {.importc: "unk05".}: cint
     isFlexibleMemory* {.importc: "isFlexibleMemory", bitsize: 1.}: cuint

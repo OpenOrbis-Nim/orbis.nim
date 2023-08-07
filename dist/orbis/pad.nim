@@ -81,6 +81,17 @@ proc updateColor*(ctrl: Controller, newColor: Color, alpha: uint8): cint =
 
   scePadSetLightBar(ctrl.pad, color.addr)
 
+proc blinkColor*(ctrl: Controller, shouldBlink : bool, onTime: uint8 = 4, offTime: uint8 = 4): cint = 
+  var blinkParam: OrbisPadLightBlinkingParam
+  if shouldBlink:
+    blinkParam.valid = 1
+  else:
+    blinkParam.valid = 0
+
+  blinkParam.onTime = onTime
+  blinkParam.offTime = offTime
+  scePadSetLightBarBlinking(ctrl.pad, blinkParam.addr)
+
 proc updateButtonState(ctrl: var Controller; buttonIndex: int; oldValue, newValue: uint64) =
   if oldValue == 0:
     if newValue != 0:

@@ -1,5 +1,6 @@
-{.passl: "-lkernel".}
-import "_types/kernel"
+{.passl: "-lkernel_sys".}
+import posix
+include "_types/kernel"
 
 import "_types/pthread"
 
@@ -17,9 +18,8 @@ type
   Proc_Stats* {.importc: "Proc_Stats", header: "orbis/libkernel.h", bycopy.} = object
     lo_data* {.importc: "lo_data".}: cint ## 0x00
     td_tid* {.importc: "td_tid".}: cuint ## 0x08
-    user_cpu_usage_time* {.importc: "user_cpu_usage_time".}: OrbisKernelTimespec ## 0x18
-    system_cpu_usage_time* {.importc: "system_cpu_usage_time".}: OrbisKernelTimespec
-    ## 0x28
+#    user_cpu_usage_time* {.importc: "user_cpu_usage_time".}: OrbisKernelTimespec ## 0x18
+#    system_cpu_usage_time* {.importc: "system_cpu_usage_time".}: OrbisKernelTimespec
 
 
 proc sceKernelDebugOutText*(dbg_channel: cint; text: cstring): cint {.varargs,
@@ -57,19 +57,19 @@ proc sceKernelAddUserEventEdge*(a1: OrbisKernelEqueue; a2: cint): cint {.cdecl,
 proc sceKernelAddWriteEvent*(a1: OrbisKernelEqueue; a2: cint; a3: csize_t;
                              a4: pointer): cint {.cdecl,
     importc: "sceKernelAddWriteEvent", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc sceKernelAllocateDirectMemory*(a1: Off; a2: Off; a3: csize_t; a4: csize_t;
-                                    a5: cint; a6: ptr Off): cint {.cdecl,
-    importc: "sceKernelAllocateDirectMemory", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc sceKernelAllocateMainDirectMemory*(a1: csize_t; a2: csize_t; a3: cint;
-                                        a4: Off): int32 {.cdecl,
-    importc: "sceKernelAllocateMainDirectMemory", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc sceKernelAvailableDirectMemorySize*(a1: Off; a2: Off; a3: csize_t; a4: Off;
-    a5: csize_t): int32 {.cdecl, importc: "sceKernelAvailableDirectMemorySize",
-                          header: "orbis/libkernel.h".}
-  ##  Empty Comment
+##  Empty Comment
+#proc sceKernelAllocateDirectMemory*(a1: Off; a2: Off; a3: csize_t; a4: csize_t;
+#                                    a5: cint; a6: ptr Off): cint {.cdecl,
+#    importc: "sceKernelAllocateDirectMemory", header: "orbis/libkernel.h".}
+##  Empty Comment
+#proc sceKernelAllocateMainDirectMemory*(a1: csize_t; a2: csize_t; a3: cint;
+#                                        a4: Off): int32 {.cdecl,
+#    importc: "sceKernelAllocateMainDirectMemory", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc sceKernelAvailableDirectMemorySize*(a1: Off; a2: Off; a3: csize_t; a4: Off;
+#    a5: csize_t): int32 {.cdecl, importc: "sceKernelAvailableDirectMemorySize",
+#                          header: "orbis/libkernel.h".}
+#  ##  Empty Comment
 proc sceKernelAvailableFlexibleMemorySize*(a1: csize_t): int32 {.cdecl,
     importc: "sceKernelAvailableFlexibleMemorySize", header: "orbis/libkernel.h".}
   ##  Empty Comment
@@ -82,27 +82,27 @@ proc sceKernelBatchMap*() {.cdecl, importc: "sceKernelBatchMap",
 proc sceKernelBatchMap2*() {.cdecl, importc: "sceKernelBatchMap2",
                              header: "orbis/libkernel.h".}
   ##  Empty Comment
-proc sceKernelCancelEventFlag*(a1: OrbisKernelEventFlag; a2: uint64;
-                               a3: ptr cint): cint {.cdecl,
-    importc: "sceKernelCancelEventFlag", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc sceKernelCancelSema*(a1: OrbisKernelSema; a2: cint; a3: ptr cint): cint {.
-    cdecl, importc: "sceKernelCancelSema", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc sceKernelCheckedReleaseDirectMemory*(memstart: Off; memlen: csize_t) {.
-    cdecl, importc: "sceKernelCheckedReleaseDirectMemory",
-    header: "orbis/libkernel.h".}
-  ##  Empty Comment
+#proc sceKernelCancelEventFlag*(a1: OrbisKernelEventFlag; a2: uint64;
+#                               a3: ptr cint): cint {.cdecl,
+#    importc: "sceKernelCancelEventFlag", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc sceKernelCancelSema*(a1: OrbisKernelSema; a2: cint; a3: ptr cint): cint {.
+#    cdecl, importc: "sceKernelCancelSema", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc sceKernelCheckedReleaseDirectMemory*(memstart: Off; memlen: csize_t) {.
+#    cdecl, importc: "sceKernelCheckedReleaseDirectMemory",
+#    header: "orbis/libkernel.h".}
+#  ##  Empty Comment
 proc sceKernelCheckReachability*() {.cdecl,
                                      importc: "sceKernelCheckReachability",
                                      header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc sceKernelChmod*(path: cstring; mode: OrbisKernelMode): cint {.cdecl,
-    importc: "sceKernelChmod", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc sceKernelClearEventFlag*(a1: OrbisKernelEventFlag; a2: uint64): cint {.
-    cdecl, importc: "sceKernelClearEventFlag", header: "orbis/libkernel.h".}
-  ##  Empty Comment
+##  Empty Comment
+#proc sceKernelChmod*(path: cstring; mode: OrbisKernelMode): cint {.cdecl,
+#    importc: "sceKernelChmod", header: "orbis/libkernel.h".}
+##  Empty Comment
+#proc sceKernelClearEventFlag*(a1: OrbisKernelEventFlag; a2: uint64): cint {.
+#    cdecl, importc: "sceKernelClearEventFlag", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
 proc sceKernelClearGameDirectMemory*() {.cdecl,
     importc: "sceKernelClearGameDirectMemory", header: "orbis/libkernel.h".}
   ##  Empty Comment
@@ -129,16 +129,16 @@ proc sceKernelConvertUtcToLocaltime*() {.cdecl,
   ##  Empty Comment
 proc sceKernelCreateEqueue*(a1: ptr OrbisKernelEqueue; a2: cstring): cint {.
     cdecl, importc: "sceKernelCreateEqueue", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc sceKernelCreateEventFlag*(a1: ptr OrbisKernelEventFlag; a2: cstring;
-                               a3: uint32; a4: uint64;
-                               a5: ptr OrbisKernelEventFlagOptParam): cint {.
-    cdecl, importc: "sceKernelCreateEventFlag", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc sceKernelCreateSema*(a1: ptr OrbisKernelSema; a2: cstring; a3: uint32;
-                          a4: cint; a5: cint; a6: ptr OrbisKernelSemaOptParam): cint {.
-    cdecl, importc: "sceKernelCreateSema", header: "orbis/libkernel.h".}
-  ##  Empty Comment
+#  ##  Empty Comment
+#proc sceKernelCreateEventFlag*(a1: ptr OrbisKernelEventFlag; a2: cstring;
+#                               a3: uint32; a4: uint64;
+#                               a5: ptr OrbisKernelEventFlagOptParam): cint {.
+#    cdecl, importc: "sceKernelCreateEventFlag", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc sceKernelCreateSema*(a1: ptr OrbisKernelSema; a2: cstring; a3: uint32;
+#                          a4: cint; a5: cint; a6: ptr OrbisKernelSemaOptParam): cint {.
+#    cdecl, importc: "sceKernelCreateSema", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
 proc sceKernelDebugGetAppStatus*() {.cdecl,
                                      importc: "sceKernelDebugGetAppStatus",
                                      header: "orbis/libkernel.h".}
@@ -156,10 +156,10 @@ proc sceKernelDebugRaiseExceptionOnReleaseMode*() {.cdecl,
   ##  Empty Comment
 proc sceKernelDeleteEqueue*(a1: OrbisKernelEqueue): cint {.cdecl,
     importc: "sceKernelDeleteEqueue", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc sceKernelDeleteEventFlag*(a1: OrbisKernelEventFlag): cint {.cdecl,
-    importc: "sceKernelDeleteEventFlag", header: "orbis/libkernel.h".}
-  ##  Empty Comment
+#  ##  Empty Comment
+#proc sceKernelDeleteEventFlag*(a1: OrbisKernelEventFlag): cint {.cdecl,
+#    importc: "sceKernelDeleteEventFlag", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
 proc sceKernelDeleteFileEvent*(a1: OrbisKernelEqueue; a2: cint): cint {.cdecl,
     importc: "sceKernelDeleteFileEvent", header: "orbis/libkernel.h".}
   ##  Empty Comment
@@ -168,10 +168,10 @@ proc sceKernelDeleteHRTimerEvent*(a1: OrbisKernelEqueue; a2: cint): cint {.
   ##  Empty Comment
 proc sceKernelDeleteReadEvent*(a1: OrbisKernelEqueue; a2: cint): cint {.cdecl,
     importc: "sceKernelDeleteReadEvent", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc sceKernelDeleteSema*(a1: OrbisKernelSema): cint {.cdecl,
-    importc: "sceKernelDeleteSema", header: "orbis/libkernel.h".}
-  ##  Empty Comment
+#  ##  Empty Comment
+#proc sceKernelDeleteSema*(a1: OrbisKernelSema): cint {.cdecl,
+#    importc: "sceKernelDeleteSema", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
 proc sceKernelDeleteTimerEvent*(a1: OrbisKernelEqueue; a2: cint): cint {.cdecl,
     importc: "sceKernelDeleteTimerEvent", header: "orbis/libkernel.h".}
   ##  Empty Comment
@@ -180,10 +180,10 @@ proc sceKernelDeleteUserEvent*(a1: OrbisKernelEqueue; a2: cint): cint {.cdecl,
   ##  Empty Comment
 proc sceKernelDeleteWriteEvent*(a1: OrbisKernelEqueue; a2: cint): cint {.cdecl,
     importc: "sceKernelDeleteWriteEvent", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc sceKernelDirectMemoryQuery*(a1: Off; a2: cint; a3: pointer; a4: csize_t): int32 {.
-    cdecl, importc: "sceKernelDirectMemoryQuery", header: "orbis/libkernel.h".}
-  ##  Empty Comment
+#  ##  Empty Comment
+#proc sceKernelDirectMemoryQuery*(a1: Off; a2: cint; a3: pointer; a4: csize_t): int32 {.
+#    cdecl, importc: "sceKernelDirectMemoryQuery", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
 proc sceKernelDlsym*(handle: cint; symbol: cstring; address: ptr pointer): cint {.
     cdecl, importc: "sceKernelDlsym", header: "orbis/libkernel.h".}
   ##  Empty Comment
@@ -198,28 +198,28 @@ proc sceKernelEventLogPread*() {.cdecl, importc: "sceKernelEventLogPread",
   ##  Empty Comment
 proc sceKernelEventLogWrite*() {.cdecl, importc: "sceKernelEventLogWrite",
                                  header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc sceKernelFchmod*(a1: cint; a2: OrbisKernelMode): cint {.cdecl,
-    importc: "sceKernelFchmod", header: "orbis/libkernel.h".}
-  ##  Empty Comment
+##  Empty Comment
+#proc sceKernelFchmod*(a1: cint; a2: OrbisKernelMode): cint {.cdecl,
+#    importc: "sceKernelFchmod", header: "orbis/libkernel.h".}
+##  Empty Comment
 proc sceKernelFcntl*(a1: cint; a2: cint): cint {.varargs, cdecl,
     importc: "sceKernelFcntl", header: "orbis/libkernel.h".}
   ##  Empty Comment
 proc sceKernelFlock*() {.cdecl, importc: "sceKernelFlock",
                          header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc sceKernelFstat*(a1: cint; a2: ptr OrbisKernelStat): cint {.cdecl,
-    importc: "sceKernelFstat", header: "orbis/libkernel.h".}
-  ##  Get stats from a descriptor
+##  Empty Comment
+#proc sceKernelFstat*(a1: cint; a2: ptr OrbisKernelStat): cint {.cdecl,
+#    importc: "sceKernelFstat", header: "orbis/libkernel.h".}
+##  Get stats from a descriptor
 proc sceKernelFsync*(a1: cint): cint {.cdecl, importc: "sceKernelFsync",
                                        header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc sceKernelFtruncate*(a1: cint; a2: Off): cint {.cdecl,
-    importc: "sceKernelFtruncate", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc sceKernelFutimes*(a1: cint; a2: ptr OrbisKernelTimeval): cint {.cdecl,
-    importc: "sceKernelFutimes", header: "orbis/libkernel.h".}
-  ##  Empty Comment
+#  ##  Empty Comment
+#proc sceKernelFtruncate*(a1: cint; a2: Off): cint {.cdecl,
+#    importc: "sceKernelFtruncate", header: "orbis/libkernel.h".}
+##  Empty Comment
+#proc sceKernelFutimes*(a1: cint; a2: ptr OrbisKernelTimeval): cint {.cdecl,
+#    importc: "sceKernelFutimes", header: "orbis/libkernel.h".}
+##  Empty Comment
 proc sceKernelGetAllowedSdkVersionOnSystem*() {.cdecl,
     importc: "sceKernelGetAllowedSdkVersionOnSystem",
     header: "orbis/libkernel.h".}
@@ -259,7 +259,7 @@ proc sceKernelGetDirectMemoryType*(a1: Off; a2: ptr cint; a3: ptr Off;
 proc sceKernelGetdirentries*(a1: cint; a2: cstring; a3: cint; a4: ptr clong): cint {.
     cdecl, importc: "sceKernelGetdirentries", header: "orbis/libkernel.h".}
   ##  Empty Comment
-proc sceKernelGetEventData*(a1: ptr OrbisKernelEvent): intptr_t {.cdecl,
+proc sceKernelGetEventData*(a1: ptr OrbisKernelEvent): int64 {.cdecl,
     importc: "sceKernelGetEventData", header: "orbis/libkernel.h".}
   ##  Empty Comment
 proc sceKernelGetEventError*(a1: ptr OrbisKernelEvent): cint {.cdecl,
@@ -271,7 +271,7 @@ proc sceKernelGetEventFflags*(a1: ptr OrbisKernelEvent): cuint {.cdecl,
 proc sceKernelGetEventFilter*(a1: ptr OrbisKernelEvent): cint {.cdecl,
     importc: "sceKernelGetEventFilter", header: "orbis/libkernel.h".}
   ##  Empty Comment
-proc sceKernelGetEventId*(a1: ptr OrbisKernelEvent): uintptr_t {.cdecl,
+proc sceKernelGetEventId*(a1: ptr OrbisKernelEvent): uint64 {.cdecl,
     importc: "sceKernelGetEventId", header: "orbis/libkernel.h".}
   ##  Empty Comment
 proc sceKernelGetEventUserData*(a1: ptr OrbisKernelEvent): pointer {.cdecl,
@@ -340,10 +340,10 @@ proc sceKernelGetSystemSwBeta*() {.cdecl, importc: "sceKernelGetSystemSwBeta",
   ##  Empty Comment
 proc sceKernelGetSystemSwVersion*(version: ptr OrbisKernelSwVersion): cint {.
     cdecl, importc: "sceKernelGetSystemSwVersion", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc sceKernelGettimeofday*(timeValue: ptr OrbisKernelTimeval): cint {.cdecl,
-    importc: "sceKernelGettimeofday", header: "orbis/libkernel.h".}
-  ##  Empty Comment
+##  Empty Comment
+#proc sceKernelGettimeofday*(timeValue: ptr OrbisKernelTimeval): cint {.cdecl,
+#    importc: "sceKernelGettimeofday", header: "orbis/libkernel.h".}
+##  Empty Comment
 proc sceKernelGettimezone*() {.cdecl, importc: "sceKernelGettimezone",
                                header: "orbis/libkernel.h".}
   ##  Empty Comment
@@ -456,7 +456,7 @@ proc sceKernelJitMapSharedMemory*() {.cdecl,
                                       header: "orbis/libkernel.h".}
   ##  Empty Comment
 proc sceKernelLoadStartModule*(a1: cstring; a2: csize_t; a3: pointer;
-                               a4: uint32; a5: pointer; a6: pointer): uint32 {.
+                               a4: uint32; a5: pointer; a6: pointer): cint {.
     cdecl, importc: "sceKernelLoadStartModule", header: "orbis/libkernel.h".}
   ##  Empty Comment
 proc sceKernelLseek*(a1: cint; a2: Off; a3: cint): Off {.cdecl,
@@ -471,7 +471,7 @@ proc sceKernelLwfsLseek*(a1: cint; a2: Off; a3: cint): Off {.cdecl,
 proc sceKernelLwfsSetAttribute*(a1: cint; a2: cint): cint {.cdecl,
     importc: "sceKernelLwfsSetAttribute", header: "orbis/libkernel.h".}
   ##  Empty Comment
-proc sceKernelLwfsWrite*(a1: cint; a2: pointer; a3: csize_t): ssize_t {.cdecl,
+proc sceKernelLwfsWrite*(a1: cint; a2: pointer; a3: csize_t): int64 {.cdecl,
     importc: "sceKernelLwfsWrite", header: "orbis/libkernel.h".}
   ##  Empty Comment
 proc sceKernelMapDirectMemory*(a1: ptr pointer; a2: csize_t; a3: cint; a4: cint;
@@ -497,10 +497,10 @@ proc sceKernelMapNamedFlexibleMemory*(a1: ptr pointer; a2: csize_t; a3: cint;
 proc sceKernelMapNamedSystemFlexibleMemory*() {.cdecl,
     importc: "sceKernelMapNamedSystemFlexibleMemory",
     header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc sceKernelMkdir*(path: cstring; mode: OrbisKernelMode): cint {.cdecl,
-    importc: "sceKernelMkdir", header: "orbis/libkernel.h".}
-  ##  Empty Comment
+##  Empty Comment
+#proc sceKernelMkdir*(path: cstring; mode: OrbisKernelMode): cint {.cdecl,
+#    importc: "sceKernelMkdir", header: "orbis/libkernel.h".}
+##  Empty Comment
 proc sceKernelMlock*() {.cdecl, importc: "sceKernelMlock",
                          header: "orbis/libkernel.h".}
   ##  Empty Comment
@@ -528,27 +528,27 @@ proc sceKernelMunlockall*() {.cdecl, importc: "sceKernelMunlockall",
   ##  Empty Comment
 proc sceKernelMunmap*(a1: pointer; a2: csize_t): cint {.cdecl,
     importc: "sceKernelMunmap", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc sceKernelNanosleep*(a1: ptr OrbisKernelTimespec;
-                         a2: ptr OrbisKernelTimespec): cint {.cdecl,
-    importc: "sceKernelNanosleep", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc sceKernelOpen*(a1: cstring; a2: cint; a3: OrbisKernelMode): cint {.cdecl,
-    importc: "sceKernelOpen", header: "orbis/libkernel.h".}
-  ##  Empty Comment
+##  Empty Comment
+#proc sceKernelNanosleep*(a1: ptr OrbisKernelTimespec;
+#                         a2: ptr OrbisKernelTimespec): cint {.cdecl,
+#    importc: "sceKernelNanosleep", header: "orbis/libkernel.h".}
+##  Empty Comment
+#proc sceKernelOpen*(a1: cstring; a2: cint; a3: OrbisKernelMode): cint {.cdecl,
+#    importc: "sceKernelOpen", header: "orbis/libkernel.h".}
+##  Empty Comment
 proc sceKernelOpenEventFlag*(event: pointer; name: cstring): cint {.cdecl,
     importc: "sceKernelOpenEventFlag", header: "orbis/libkernel.h".}
   ##  Empty Comment
 proc sceKernelOpenSema*() {.cdecl, importc: "sceKernelOpenSema",
                             header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc sceKernelPollEventFlag*(a1: OrbisKernelEventFlag; a2: uint64; a3: uint32;
-                             a4: ptr uint64): cint {.cdecl,
-    importc: "sceKernelPollEventFlag", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc sceKernelPollSema*(a1: OrbisKernelSema; a2: cint): cint {.cdecl,
-    importc: "sceKernelPollSema", header: "orbis/libkernel.h".}
-  ##  Empty Comment
+#  ##  Empty Comment
+#proc sceKernelPollEventFlag*(a1: OrbisKernelEventFlag; a2: uint64; a3: uint32;
+#                             a4: ptr uint64): cint {.cdecl,
+#    importc: "sceKernelPollEventFlag", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc sceKernelPollSema*(a1: OrbisKernelSema; a2: cint): cint {.cdecl,
+#    importc: "sceKernelPollSema", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
 proc sceKernelPread*(a1: cint; a2: pointer; a3: csize_t; a4: Off): csize_t {.
     cdecl, importc: "sceKernelPread", header: "orbis/libkernel.h".}
   ##  Empty Comment
@@ -618,10 +618,10 @@ proc sceKernelSetBackupRestoreMode*() {.cdecl, importc: "sceKernelSetBackupResto
   ##  Empty Comment
 proc sceKernelSetCompressionAttribute*(a1: cint; a2: cint): cint {.cdecl,
     importc: "sceKernelSetCompressionAttribute", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc sceKernelSetEventFlag*(a1: OrbisKernelEventFlag; a2: uint64): cint {.cdecl,
-    importc: "sceKernelSetEventFlag", header: "orbis/libkernel.h".}
-  ##  Empty Comment
+#  ##  Empty Comment
+#proc sceKernelSetEventFlag*(a1: OrbisKernelEventFlag; a2: uint64): cint {.cdecl,
+#    importc: "sceKernelSetEventFlag", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
 proc sceKernelSetFsstParam*(a1: cint; a2: pointer): cint {.cdecl,
     importc: "sceKernelSetFsstParam", header: "orbis/libkernel.h".}
   ##  Empty Comment - 2nd arg is OrbisKernelCpumask (needs reversed)
@@ -648,16 +648,16 @@ proc sceKernelSetVirtualRangeName*(a1: pointer; a2: csize_t; a3: cstring): int32
   ##  Empty Comment
 proc sceKernelSetVmContainer*() {.cdecl, importc: "sceKernelSetVmContainer",
                                   header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc sceKernelSignalSema*(a1: OrbisKernelSema; a2: cint): cint {.cdecl,
-    importc: "sceKernelSignalSema", header: "orbis/libkernel.h".}
-  ##  Empty Comment
+#  ##  Empty Comment
+#proc sceKernelSignalSema*(a1: OrbisKernelSema; a2: cint): cint {.cdecl,
+#    importc: "sceKernelSignalSema", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
 proc sceKernelSleep*(a1: cuint): cint {.cdecl, importc: "sceKernelSleep",
                                         header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc sceKernelStat*(a1: cstring; a2: ptr OrbisKernelStat): cint {.cdecl,
-    importc: "sceKernelStat", header: "orbis/libkernel.h".}
-  ##  Empty Comment
+##  Empty Comment
+#proc sceKernelStat*(a1: cstring; a2: ptr OrbisKernelStat): cint {.cdecl,
+#    importc: "sceKernelStat", header: "orbis/libkernel.h".}
+##  Empty Comment
 proc sceKernelStopUnloadModule*(a1: OrbisKernelModule; a2: csize_t; a3: pointer;
                                 a4: uint32; a5: pointer; a6: ptr cint): cint {.
     cdecl, importc: "sceKernelStopUnloadModule", header: "orbis/libkernel.h".}
@@ -691,10 +691,10 @@ proc sceKernelUnlink*(a1: cstring): cint {.cdecl, importc: "sceKernelUnlink",
   ##  Empty Comment
 proc sceKernelUsleep*(a1: cuint): cint {.cdecl, importc: "sceKernelUsleep",
     header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc sceKernelUtimes*(a1: cstring; a2: ptr OrbisKernelTimeval): cint {.cdecl,
-    importc: "sceKernelUtimes", header: "orbis/libkernel.h".}
-  ##  Empty Comment
+##  Empty Comment
+#proc sceKernelUtimes*(a1: cstring; a2: ptr OrbisKernelTimeval): cint {.cdecl,
+#    importc: "sceKernelUtimes", header: "orbis/libkernel.h".}
+##  Empty Comment
 proc sceKernelUuidCreate*(a1: ptr OrbisKernelUuid): cint {.cdecl,
     importc: "sceKernelUuidCreate", header: "orbis/libkernel.h".}
   ##  Empty Comment
@@ -705,15 +705,15 @@ proc sceKernelVirtualQuery*(a1: pointer; a2: cint;
 proc sceKernelWaitEqueue*(a1: OrbisKernelEqueue; a2: ptr OrbisKernelEvent;
                           a3: cint; a4: ptr cint; a5: ptr OrbisKernelUseconds): cint {.
     cdecl, importc: "sceKernelWaitEqueue", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc sceKernelWaitEventFlag*(a1: OrbisKernelEventFlag; a2: uint64; a3: uint32;
-                             a4: ptr uint64; a5: ptr OrbisKernelUseconds): cint {.
-    cdecl, importc: "sceKernelWaitEventFlag", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc sceKernelWaitSema*(a1: OrbisKernelSema; a2: cint;
-                        a3: ptr OrbisKernelUseconds): cint {.cdecl,
-    importc: "sceKernelWaitSema", header: "orbis/libkernel.h".}
-  ##  Empty Comment
+#  ##  Empty Comment
+#proc sceKernelWaitEventFlag*(a1: OrbisKernelEventFlag; a2: uint64; a3: uint32;
+#                             a4: ptr uint64; a5: ptr OrbisKernelUseconds): cint {.
+#    cdecl, importc: "sceKernelWaitEventFlag", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc sceKernelWaitSema*(a1: OrbisKernelSema; a2: cint;
+#                        a3: ptr OrbisKernelUseconds): cint {.cdecl,
+#    importc: "sceKernelWaitSema", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
 proc sceKernelWrite*(a1: cint; a2: pointer; a3: csize_t): csize_t {.cdecl,
     importc: "sceKernelWrite", header: "orbis/libkernel.h".}
   ##  Empty Comment
@@ -725,23 +725,23 @@ proc sceLibcMspaceCreateForMonoMutex*() {.cdecl,
   ##  Empty Comment
 proc scePthreadAtfork*() {.cdecl, importc: "scePthreadAtfork",
                            header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadAttrDestroy*(a1: ptr OrbisPthreadAttr): cint {.cdecl,
-    importc: "scePthreadAttrDestroy", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadAttrGet*(a1: OrbisPthread; a2: ptr OrbisPthreadAttr): cint {.
-    cdecl, importc: "scePthreadAttrGet", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadAttrGetaffinity*(a1: ptr OrbisPthreadAttr; a2: pointer): cint {.
-    cdecl, importc: "scePthreadAttrGetaffinity", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadAttrGetdetachstate*(a1: ptr OrbisPthreadAttr; a2: ptr cint): cint {.
-    cdecl, importc: "scePthreadAttrGetdetachstate", header: "orbis/libkernel.h".}
-  ##  void* is OrbisKernelCpumask, need to port OrbisKernelCpumask for above.. -cv
-                                                                                 ##  Empty Comment
-proc scePthreadAttrGetguardsize*(a1: ptr OrbisPthreadAttr; a2: ptr csize_t): cint {.
-    cdecl, importc: "scePthreadAttrGetguardsize", header: "orbis/libkernel.h".}
-  ##  Empty Comment
+#  ##  Empty Comment
+#proc scePthreadAttrDestroy*(a1: ptr OrbisPthreadAttr): cint {.cdecl,
+#    importc: "scePthreadAttrDestroy", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadAttrGet*(a1: OrbisPthread; a2: ptr OrbisPthreadAttr): cint {.
+#    cdecl, importc: "scePthreadAttrGet", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadAttrGetaffinity*(a1: ptr OrbisPthreadAttr; a2: pointer): cint {.
+#    cdecl, importc: "scePthreadAttrGetaffinity", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadAttrGetdetachstate*(a1: ptr OrbisPthreadAttr; a2: ptr cint): cint {.
+#    cdecl, importc: "scePthreadAttrGetdetachstate", header: "orbis/libkernel.h".}
+#  ##  void* is OrbisKernelCpumask, need to port OrbisKernelCpumask for above.. -cv
+#                                                                                 ##  Empty Comment
+#proc scePthreadAttrGetguardsize*(a1: ptr OrbisPthreadAttr; a2: ptr csize_t): cint {.
+#    cdecl, importc: "scePthreadAttrGetguardsize", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
 proc scePthreadAttrGetinheritsched*() {.cdecl, importc: "scePthreadAttrGetinheritsched",
                                         header: "orbis/libkernel.h".}
   ##  Empty Comment
@@ -755,370 +755,370 @@ proc scePthreadAttrGetschedpolicy*() {.cdecl,
   ##  Empty Comment
 proc scePthreadAttrGetscope*() {.cdecl, importc: "scePthreadAttrGetscope",
                                  header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadAttrGetstack*(a1: ptr OrbisPthreadAttr; a2: ptr pointer;
-                             a3: ptr csize_t): cint {.cdecl,
-    importc: "scePthreadAttrGetstack", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadAttrGetstackaddr*(a1: ptr OrbisPthreadAttr; a2: ptr pointer): cint {.
-    cdecl, importc: "scePthreadAttrGetstackaddr", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadAttrGetstacksize*(a1: ptr OrbisPthreadAttr; a2: ptr csize_t): cint {.
-    cdecl, importc: "scePthreadAttrGetstacksize", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadAttrInit*(a1: ptr OrbisPthreadAttr): cint {.cdecl,
-    importc: "scePthreadAttrInit", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadAttrSetaffinity*(a1: ptr OrbisPthreadAttr; a2: uint64): cint {.
-    cdecl, importc: "scePthreadAttrSetaffinity", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadAttrSetcreatesuspend*() {.cdecl,
-    importc: "scePthreadAttrSetcreatesuspend", header: "orbis/libkernel.h".}
-  ##  void (2nd arg) is OrbisKernelCpumask, need to por OrbisKernelCpumask -cv
-                                                                            ##  Empty Comment
-proc scePthreadAttrSetdetachstate*(a1: ptr OrbisPthreadAttr; a2: cint): cint {.
-    cdecl, importc: "scePthreadAttrSetdetachstate", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadAttrSetguardsize*(a1: ptr OrbisPthreadAttr; a2: csize_t): cint {.
-    cdecl, importc: "scePthreadAttrSetguardsize", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadAttrSetinheritsched*(a1: ptr OrbisPthreadAttr; a2: cint) {.cdecl,
-    importc: "scePthreadAttrSetinheritsched", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadAttrSetschedparam*(a1: ptr OrbisPthreadAttr; a2: ptr sched_param) {.
-    cdecl, importc: "scePthreadAttrSetschedparam", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadAttrSetschedpolicy*() {.cdecl,
-                                       importc: "scePthreadAttrSetschedpolicy",
-                                       header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadAttrSetscope*() {.cdecl, importc: "scePthreadAttrSetscope",
-                                 header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadAttrSetstack*(a1: ptr OrbisPthreadAttr; a2: pointer; a3: csize_t): cint {.
-    cdecl, importc: "scePthreadAttrSetstack", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadAttrSetstackaddr*(a1: ptr OrbisPthreadAttr; a2: pointer): cint {.
-    cdecl, importc: "scePthreadAttrSetstackaddr", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadAttrSetstacksize*(a1: ptr OrbisPthreadAttr; a2: csize_t): cint {.
-    cdecl, importc: "scePthreadAttrSetstacksize", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadBarrierattrDestroy*(a1: ptr OrbisPthreadBarrierattr): cint {.
-    cdecl, importc: "scePthreadBarrierattrDestroy", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadBarrierattrGetpshared*() {.cdecl,
-    importc: "scePthreadBarrierattrGetpshared", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadBarrierattrInit*(a1: ptr OrbisPthreadBarrierattr): cint {.cdecl,
-    importc: "scePthreadBarrierattrInit", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadBarrierattrSetpshared*() {.cdecl,
-    importc: "scePthreadBarrierattrSetpshared", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadBarrierDestroy*(a1: ptr OrbisPthreadBarrier): cint {.cdecl,
-    importc: "scePthreadBarrierDestroy", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadBarrierInit*(a1: ptr OrbisPthreadBarrier;
-                            a2: ptr OrbisPthreadBarrierattr; a3: cuint;
-                            a4: cstring): cint {.cdecl,
-    importc: "scePthreadBarrierInit", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadBarrierWait*(a1: ptr OrbisPthreadBarrier): cint {.cdecl,
-    importc: "scePthreadBarrierWait", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadCancel*(a1: OrbisPthread): cint {.cdecl,
-    importc: "scePthreadCancel", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadCondattrDestroy*(a1: ptr OrbisPthreadCondattr): cint {.cdecl,
-    importc: "scePthreadCondattrDestroy", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadCondattrGetclock*() {.cdecl,
-                                     importc: "scePthreadCondattrGetclock",
-                                     header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadCondattrGetpshared*() {.cdecl,
-                                       importc: "scePthreadCondattrGetpshared",
-                                       header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadCondattrInit*(a1: ptr OrbisPthreadCondattr): cint {.cdecl,
-    importc: "scePthreadCondattrInit", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadCondattrSetclock*() {.cdecl,
-                                     importc: "scePthreadCondattrSetclock",
-                                     header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadCondattrSetpshared*() {.cdecl,
-                                       importc: "scePthreadCondattrSetpshared",
-                                       header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadCondBroadcast*(a1: ptr OrbisPthreadCond): cint {.cdecl,
-    importc: "scePthreadCondBroadcast", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadCondDestroy*(a1: ptr OrbisPthreadCond): cint {.cdecl,
-    importc: "scePthreadCondDestroy", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadCondInit*(a1: ptr OrbisPthreadCond; a2: ptr OrbisPthreadCondattr;
-                         a3: cstring): cint {.cdecl,
-    importc: "scePthreadCondInit", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadCondSignal*(a1: ptr OrbisPthreadCond): cint {.cdecl,
-    importc: "scePthreadCondSignal", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadCondSignalto*(a1: ptr OrbisPthreadCond; a2: OrbisPthread): cint {.
-    cdecl, importc: "scePthreadCondSignalto", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadCondTimedwait*(a1: ptr OrbisPthreadCond;
-                              a2: ptr OrbisPthreadMutex; a3: OrbisKernelUseconds): cint {.
-    cdecl, importc: "scePthreadCondTimedwait", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadCondWait*(a1: ptr OrbisPthreadCond; a2: ptr OrbisPthreadMutex): cint {.
-    cdecl, importc: "scePthreadCondWait", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadCreate*(a1: ptr OrbisPthread; a2: ptr OrbisPthreadAttr;
-                       F: proc (a1: pointer): pointer {.cdecl.}; a4: pointer;
-                       a5: cstring): cint {.cdecl, importc: "scePthreadCreate",
-    header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadDetach*(a1: OrbisPthread): cint {.cdecl,
-    importc: "scePthreadDetach", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadEqual*(a1: OrbisPthread; a2: OrbisPthread): cint {.cdecl,
-    importc: "scePthreadEqual", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadExit*(a1: pointer) {.cdecl, importc: "scePthreadExit",
-                                    header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadGetaffinity*(a1: OrbisPthread; a2: ptr uint64) {.cdecl,
-    importc: "scePthreadGetaffinity", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadGetconcurrency*() {.cdecl, importc: "scePthreadGetconcurrency",
-                                   header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadGetcpuclockid*(a1: OrbisPthread; a2: ptr ClockId): cint {.cdecl,
-    importc: "scePthreadGetcpuclockid", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadGetname*(a1: OrbisPthread; a2: cstring): cint {.cdecl,
-    importc: "scePthreadGetname", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadGetprio*(a1: OrbisPthread; a2: ptr cint): cint {.cdecl,
-    importc: "scePthreadGetprio", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadGetschedparam*() {.cdecl, importc: "scePthreadGetschedparam",
-                                  header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadGetspecific*(a1: OrbisPthreadKey): pointer {.cdecl,
-    importc: "scePthreadGetspecific", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadGetthreadid*(): cint {.cdecl, importc: "scePthreadGetthreadid",
-                                      header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadJoin*(a1: OrbisPthread; a2: ptr pointer): cint {.cdecl,
-    importc: "scePthreadJoin", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadKeyCreate*(a1: ptr OrbisPthreadKey;
-                          destructor: proc (a1: pointer) {.cdecl.}): cint {.
-    cdecl, importc: "scePthreadKeyCreate", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadKeyDelete*(a1: OrbisPthreadKey): cint {.cdecl,
-    importc: "scePthreadKeyDelete", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadMain*() {.cdecl, importc: "scePthreadMain",
-                         header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadMulti*() {.cdecl, importc: "scePthreadMulti",
-                          header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadMutexattrDestroy*(a1: ptr OrbisPthreadMutexattr): cint {.cdecl,
-    importc: "scePthreadMutexattrDestroy", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadMutexattrGetkind*() {.cdecl,
-                                     importc: "scePthreadMutexattrGetkind",
-                                     header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadMutexattrGetprioceiling*(a1: ptr OrbisPthreadMutexattr;
-                                        a2: ptr cint): cint {.cdecl,
-    importc: "scePthreadMutexattrGetprioceiling", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadMutexattrGetprotocol*(a1: ptr OrbisPthreadMutexattr; a2: ptr cint): cint {.
-    cdecl, importc: "scePthreadMutexattrGetprotocol",
-    header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadMutexattrGetpshared*() {.cdecl, importc: "scePthreadMutexattrGetpshared",
-                                        header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadMutexattrGettype*(a1: ptr OrbisPthreadMutexattr; a2: ptr cint): cint {.
-    cdecl, importc: "scePthreadMutexattrGettype", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadMutexattrInit*(a1: ptr OrbisPthreadMutexattr): cint {.cdecl,
-    importc: "scePthreadMutexattrInit", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadMutexattrSetkind*() {.cdecl,
-                                     importc: "scePthreadMutexattrSetkind",
-                                     header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadMutexattrSetprioceiling*(a1: ptr OrbisPthreadMutexattr; a2: cint): cint {.
-    cdecl, importc: "scePthreadMutexattrSetprioceiling",
-    header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadMutexattrSetprotocol*(a1: ptr OrbisPthreadMutexattr; a2: cint): cint {.
-    cdecl, importc: "scePthreadMutexattrSetprotocol",
-    header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadMutexattrSetpshared*() {.cdecl, importc: "scePthreadMutexattrSetpshared",
-                                        header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadMutexattrSettype*(a1: ptr OrbisPthreadMutexattr; a2: cint): cint {.
-    cdecl, importc: "scePthreadMutexattrSettype", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadMutexDestroy*(a1: ptr OrbisPthreadMutex): cint {.cdecl,
-    importc: "scePthreadMutexDestroy", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadMutexGetprioceiling*(a1: ptr OrbisPthreadMutex; a2: ptr cint): cint {.
-    cdecl, importc: "scePthreadMutexGetprioceiling", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadMutexGetspinloops*() {.cdecl,
-                                      importc: "scePthreadMutexGetspinloops",
-                                      header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadMutexGetyieldloops*() {.cdecl,
-                                       importc: "scePthreadMutexGetyieldloops",
-                                       header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadMutexInit*(a1: ptr OrbisPthreadMutex;
-                          a2: ptr OrbisPthreadMutexattr; a3: cstring): cint {.
-    cdecl, importc: "scePthreadMutexInit", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadMutexIsowned*() {.cdecl, importc: "scePthreadMutexIsowned",
-                                 header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadMutexLock*(a1: ptr OrbisPthreadMutex): cint {.cdecl,
-    importc: "scePthreadMutexLock", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadMutexSetprioceiling*(a1: ptr OrbisPthreadMutex; a2: cint;
-                                    a3: ptr cint): cint {.cdecl,
-    importc: "scePthreadMutexSetprioceiling", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadMutexSetspinloops*() {.cdecl,
-                                      importc: "scePthreadMutexSetspinloops",
-                                      header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadMutexSetyieldloops*() {.cdecl,
-                                       importc: "scePthreadMutexSetyieldloops",
-                                       header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadMutexTimedlock*(a1: ptr OrbisPthreadMutex;
-                               a2: OrbisKernelUseconds): cint {.cdecl,
-    importc: "scePthreadMutexTimedlock", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadMutexTrylock*(a1: ptr OrbisPthreadMutex): cint {.cdecl,
-    importc: "scePthreadMutexTrylock", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadMutexUnlock*(a1: ptr OrbisPthreadMutex): cint {.cdecl,
-    importc: "scePthreadMutexUnlock", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadOnce*(a1: ptr OrbisPthreadOnce; init: proc () {.cdecl.}): cint {.
-    cdecl, importc: "scePthreadOnce", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadRename*(a1: OrbisPthread; a2: cstring): cint {.cdecl,
-    importc: "scePthreadRename", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadResume*() {.cdecl, importc: "scePthreadResume",
-                           header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadResumeAll*() {.cdecl, importc: "scePthreadResumeAll",
-                              header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadRwlockattrDestroy*(a1: ptr OrbisPthreadRwlockattr): cint {.cdecl,
-    importc: "scePthreadRwlockattrDestroy", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadRwlockattrGetpshared*() {.cdecl,
-    importc: "scePthreadRwlockattrGetpshared", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadRwlockattrInit*(a1: ptr OrbisPthreadRwlockattr): cint {.cdecl,
-    importc: "scePthreadRwlockattrInit", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadRwlockattrSetpshared*() {.cdecl,
-    importc: "scePthreadRwlockattrSetpshared", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadRwlockDestroy*(a1: ptr OrbisPthreadRwlock): cint {.cdecl,
-    importc: "scePthreadRwlockDestroy", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadRwlockInit*(a1: ptr OrbisPthreadRwlock;
-                           a2: ptr OrbisPthreadRwlockattr; a3: cstring): cint {.
-    cdecl, importc: "scePthreadRwlockInit", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadRwlockRdlock*(a1: ptr OrbisPthreadRwlock): cint {.cdecl,
-    importc: "scePthreadRwlockRdlock", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadRwlockTimedrdlock*(a1: ptr OrbisPthreadRwlock;
-                                  a2: OrbisKernelUseconds): cint {.cdecl,
-    importc: "scePthreadRwlockTimedrdlock", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadRwlockTimedwrlock*(a1: ptr OrbisPthreadRwlock;
-                                  a2: OrbisKernelUseconds): cint {.cdecl,
-    importc: "scePthreadRwlockTimedwrlock", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadRwlockTryrdlock*(a1: ptr OrbisPthreadRwlock): cint {.cdecl,
-    importc: "scePthreadRwlockTryrdlock", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadRwlockTrywrlock*(a1: ptr OrbisPthreadRwlock): cint {.cdecl,
-    importc: "scePthreadRwlockTrywrlock", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadRwlockUnlock*(a1: ptr OrbisPthreadRwlock): cint {.cdecl,
-    importc: "scePthreadRwlockUnlock", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadRwlockWrlock*(a1: ptr OrbisPthreadRwlock): cint {.cdecl,
-    importc: "scePthreadRwlockWrlock", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadSelf*(): OrbisPthread {.cdecl, importc: "scePthreadSelf",
-                                       header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadSetaffinity*() {.cdecl, importc: "scePthreadSetaffinity",
-                                header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadSetBesteffort*() {.cdecl, importc: "scePthreadSetBesteffort",
-                                  header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadSetcancelstate*(a1: cint; a2: ptr cint): cint {.cdecl,
-    importc: "scePthreadSetcancelstate", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadSetcanceltype*(a1: cint; a2: ptr cint): cint {.cdecl,
-    importc: "scePthreadSetcanceltype", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadSetconcurrency*() {.cdecl, importc: "scePthreadSetconcurrency",
-                                   header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadSetName*() {.cdecl, importc: "scePthreadSetName",
-                            header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadSetprio*(a1: OrbisPthread; a2: cint): cint {.cdecl,
-    importc: "scePthreadSetprio", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadSetschedparam*() {.cdecl, importc: "scePthreadSetschedparam",
-                                  header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadSetspecific*(a1: OrbisPthreadKey; a2: pointer): cint {.cdecl,
-    importc: "scePthreadSetspecific", header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadSingle*() {.cdecl, importc: "scePthreadSingle",
-                           header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadSuspend*() {.cdecl, importc: "scePthreadSuspend",
-                            header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadSuspendAll*() {.cdecl, importc: "scePthreadSuspendAll",
-                               header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadTestcancel*() {.cdecl, importc: "scePthreadTestcancel",
-                               header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadTimedjoin*() {.cdecl, importc: "scePthreadTimedjoin",
-                              header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc scePthreadYield*() {.cdecl, importc: "scePthreadYield",
-                          header: "orbis/libkernel.h".}
-  ##  Empty Comment
-proc ioctl*(fd: cint; request: culong): cint {.varargs, cdecl, importc: "ioctl",
-    header: "orbis/libkernel.h".}
-  ##  Empty Comment
+#  ##  Empty Comment
+#proc scePthreadAttrGetstack*(a1: ptr OrbisPthreadAttr; a2: ptr pointer;
+#                             a3: ptr csize_t): cint {.cdecl,
+#    importc: "scePthreadAttrGetstack", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadAttrGetstackaddr*(a1: ptr OrbisPthreadAttr; a2: ptr pointer): cint {.
+#    cdecl, importc: "scePthreadAttrGetstackaddr", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadAttrGetstacksize*(a1: ptr OrbisPthreadAttr; a2: ptr csize_t): cint {.
+#    cdecl, importc: "scePthreadAttrGetstacksize", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadAttrInit*(a1: ptr OrbisPthreadAttr): cint {.cdecl,
+#    importc: "scePthreadAttrInit", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadAttrSetaffinity*(a1: ptr OrbisPthreadAttr; a2: uint64): cint {.
+#    cdecl, importc: "scePthreadAttrSetaffinity", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadAttrSetcreatesuspend*() {.cdecl,
+#    importc: "scePthreadAttrSetcreatesuspend", header: "orbis/libkernel.h".}
+#  ##  void (2nd arg) is OrbisKernelCpumask, need to por OrbisKernelCpumask -cv
+#                                                                            ##  Empty Comment
+#proc scePthreadAttrSetdetachstate*(a1: ptr OrbisPthreadAttr; a2: cint): cint {.
+#    cdecl, importc: "scePthreadAttrSetdetachstate", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadAttrSetguardsize*(a1: ptr OrbisPthreadAttr; a2: csize_t): cint {.
+#    cdecl, importc: "scePthreadAttrSetguardsize", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadAttrSetinheritsched*(a1: ptr OrbisPthreadAttr; a2: cint) {.cdecl,
+#    importc: "scePthreadAttrSetinheritsched", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadAttrSetschedparam*(a1: ptr OrbisPthreadAttr; a2: ptr sched_param) {.
+#    cdecl, importc: "scePthreadAttrSetschedparam", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadAttrSetschedpolicy*() {.cdecl,
+#                                       importc: "scePthreadAttrSetschedpolicy",
+#                                       header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadAttrSetscope*() {.cdecl, importc: "scePthreadAttrSetscope",
+#                                 header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadAttrSetstack*(a1: ptr OrbisPthreadAttr; a2: pointer; a3: csize_t): cint {.
+#    cdecl, importc: "scePthreadAttrSetstack", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadAttrSetstackaddr*(a1: ptr OrbisPthreadAttr; a2: pointer): cint {.
+#    cdecl, importc: "scePthreadAttrSetstackaddr", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadAttrSetstacksize*(a1: ptr OrbisPthreadAttr; a2: csize_t): cint {.
+#    cdecl, importc: "scePthreadAttrSetstacksize", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadBarrierattrDestroy*(a1: ptr OrbisPthreadBarrierattr): cint {.
+#    cdecl, importc: "scePthreadBarrierattrDestroy", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadBarrierattrGetpshared*() {.cdecl,
+#    importc: "scePthreadBarrierattrGetpshared", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadBarrierattrInit*(a1: ptr OrbisPthreadBarrierattr): cint {.cdecl,
+#    importc: "scePthreadBarrierattrInit", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadBarrierattrSetpshared*() {.cdecl,
+#    importc: "scePthreadBarrierattrSetpshared", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadBarrierDestroy*(a1: ptr OrbisPthreadBarrier): cint {.cdecl,
+#    importc: "scePthreadBarrierDestroy", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadBarrierInit*(a1: ptr OrbisPthreadBarrier;
+#                            a2: ptr OrbisPthreadBarrierattr; a3: cuint;
+#                            a4: cstring): cint {.cdecl,
+#    importc: "scePthreadBarrierInit", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadBarrierWait*(a1: ptr OrbisPthreadBarrier): cint {.cdecl,
+#    importc: "scePthreadBarrierWait", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadCancel*(a1: OrbisPthread): cint {.cdecl,
+#    importc: "scePthreadCancel", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadCondattrDestroy*(a1: ptr OrbisPthreadCondattr): cint {.cdecl,
+#    importc: "scePthreadCondattrDestroy", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadCondattrGetclock*() {.cdecl,
+#                                     importc: "scePthreadCondattrGetclock",
+#                                     header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadCondattrGetpshared*() {.cdecl,
+#                                       importc: "scePthreadCondattrGetpshared",
+#                                       header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadCondattrInit*(a1: ptr OrbisPthreadCondattr): cint {.cdecl,
+#    importc: "scePthreadCondattrInit", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadCondattrSetclock*() {.cdecl,
+#                                     importc: "scePthreadCondattrSetclock",
+#                                     header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadCondattrSetpshared*() {.cdecl,
+#                                       importc: "scePthreadCondattrSetpshared",
+#                                       header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadCondBroadcast*(a1: ptr OrbisPthreadCond): cint {.cdecl,
+#    importc: "scePthreadCondBroadcast", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadCondDestroy*(a1: ptr OrbisPthreadCond): cint {.cdecl,
+#    importc: "scePthreadCondDestroy", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadCondInit*(a1: ptr OrbisPthreadCond; a2: ptr OrbisPthreadCondattr;
+#                         a3: cstring): cint {.cdecl,
+#    importc: "scePthreadCondInit", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadCondSignal*(a1: ptr OrbisPthreadCond): cint {.cdecl,
+#    importc: "scePthreadCondSignal", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadCondSignalto*(a1: ptr OrbisPthreadCond; a2: OrbisPthread): cint {.
+#    cdecl, importc: "scePthreadCondSignalto", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadCondTimedwait*(a1: ptr OrbisPthreadCond;
+#                              a2: ptr OrbisPthreadMutex; a3: OrbisKernelUseconds): cint {.
+#    cdecl, importc: "scePthreadCondTimedwait", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadCondWait*(a1: ptr OrbisPthreadCond; a2: ptr OrbisPthreadMutex): cint {.
+#    cdecl, importc: "scePthreadCondWait", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadCreate*(a1: ptr OrbisPthread; a2: ptr OrbisPthreadAttr;
+#                       F: proc (a1: pointer): pointer {.cdecl.}; a4: pointer;
+#                       a5: cstring): cint {.cdecl, importc: "scePthreadCreate",
+#    header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadDetach*(a1: OrbisPthread): cint {.cdecl,
+#    importc: "scePthreadDetach", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadEqual*(a1: OrbisPthread; a2: OrbisPthread): cint {.cdecl,
+#    importc: "scePthreadEqual", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadExit*(a1: pointer) {.cdecl, importc: "scePthreadExit",
+#                                    header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadGetaffinity*(a1: OrbisPthread; a2: ptr uint64) {.cdecl,
+#    importc: "scePthreadGetaffinity", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadGetconcurrency*() {.cdecl, importc: "scePthreadGetconcurrency",
+#                                   header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadGetcpuclockid*(a1: OrbisPthread; a2: ptr ClockId): cint {.cdecl,
+#    importc: "scePthreadGetcpuclockid", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadGetname*(a1: OrbisPthread; a2: cstring): cint {.cdecl,
+#    importc: "scePthreadGetname", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadGetprio*(a1: OrbisPthread; a2: ptr cint): cint {.cdecl,
+#    importc: "scePthreadGetprio", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadGetschedparam*() {.cdecl, importc: "scePthreadGetschedparam",
+#                                  header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadGetspecific*(a1: OrbisPthreadKey): pointer {.cdecl,
+#    importc: "scePthreadGetspecific", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadGetthreadid*(): cint {.cdecl, importc: "scePthreadGetthreadid",
+#                                      header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadJoin*(a1: OrbisPthread; a2: ptr pointer): cint {.cdecl,
+#    importc: "scePthreadJoin", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadKeyCreate*(a1: ptr OrbisPthreadKey;
+#                          destructor: proc (a1: pointer) {.cdecl.}): cint {.
+#    cdecl, importc: "scePthreadKeyCreate", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadKeyDelete*(a1: OrbisPthreadKey): cint {.cdecl,
+#    importc: "scePthreadKeyDelete", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadMain*() {.cdecl, importc: "scePthreadMain",
+#                         header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadMulti*() {.cdecl, importc: "scePthreadMulti",
+#                          header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadMutexattrDestroy*(a1: ptr OrbisPthreadMutexattr): cint {.cdecl,
+#    importc: "scePthreadMutexattrDestroy", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadMutexattrGetkind*() {.cdecl,
+#                                     importc: "scePthreadMutexattrGetkind",
+#                                     header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadMutexattrGetprioceiling*(a1: ptr OrbisPthreadMutexattr;
+#                                        a2: ptr cint): cint {.cdecl,
+#    importc: "scePthreadMutexattrGetprioceiling", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadMutexattrGetprotocol*(a1: ptr OrbisPthreadMutexattr; a2: ptr cint): cint {.
+#    cdecl, importc: "scePthreadMutexattrGetprotocol",
+#    header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadMutexattrGetpshared*() {.cdecl, importc: "scePthreadMutexattrGetpshared",
+#                                        header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadMutexattrGettype*(a1: ptr OrbisPthreadMutexattr; a2: ptr cint): cint {.
+#    cdecl, importc: "scePthreadMutexattrGettype", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadMutexattrInit*(a1: ptr OrbisPthreadMutexattr): cint {.cdecl,
+#    importc: "scePthreadMutexattrInit", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadMutexattrSetkind*() {.cdecl,
+#                                     importc: "scePthreadMutexattrSetkind",
+#                                     header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadMutexattrSetprioceiling*(a1: ptr OrbisPthreadMutexattr; a2: cint): cint {.
+#    cdecl, importc: "scePthreadMutexattrSetprioceiling",
+#    header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadMutexattrSetprotocol*(a1: ptr OrbisPthreadMutexattr; a2: cint): cint {.
+#    cdecl, importc: "scePthreadMutexattrSetprotocol",
+#    header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadMutexattrSetpshared*() {.cdecl, importc: "scePthreadMutexattrSetpshared",
+#                                        header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadMutexattrSettype*(a1: ptr OrbisPthreadMutexattr; a2: cint): cint {.
+#    cdecl, importc: "scePthreadMutexattrSettype", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadMutexDestroy*(a1: ptr OrbisPthreadMutex): cint {.cdecl,
+#    importc: "scePthreadMutexDestroy", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadMutexGetprioceiling*(a1: ptr OrbisPthreadMutex; a2: ptr cint): cint {.
+#    cdecl, importc: "scePthreadMutexGetprioceiling", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadMutexGetspinloops*() {.cdecl,
+#                                      importc: "scePthreadMutexGetspinloops",
+#                                      header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadMutexGetyieldloops*() {.cdecl,
+#                                       importc: "scePthreadMutexGetyieldloops",
+#                                       header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadMutexInit*(a1: ptr OrbisPthreadMutex;
+#                          a2: ptr OrbisPthreadMutexattr; a3: cstring): cint {.
+#    cdecl, importc: "scePthreadMutexInit", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadMutexIsowned*() {.cdecl, importc: "scePthreadMutexIsowned",
+#                                 header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadMutexLock*(a1: ptr OrbisPthreadMutex): cint {.cdecl,
+#    importc: "scePthreadMutexLock", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadMutexSetprioceiling*(a1: ptr OrbisPthreadMutex; a2: cint;
+#                                    a3: ptr cint): cint {.cdecl,
+#    importc: "scePthreadMutexSetprioceiling", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadMutexSetspinloops*() {.cdecl,
+#                                      importc: "scePthreadMutexSetspinloops",
+#                                      header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadMutexSetyieldloops*() {.cdecl,
+#                                       importc: "scePthreadMutexSetyieldloops",
+#                                       header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadMutexTimedlock*(a1: ptr OrbisPthreadMutex;
+#                               a2: OrbisKernelUseconds): cint {.cdecl,
+#    importc: "scePthreadMutexTimedlock", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadMutexTrylock*(a1: ptr OrbisPthreadMutex): cint {.cdecl,
+#    importc: "scePthreadMutexTrylock", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadMutexUnlock*(a1: ptr OrbisPthreadMutex): cint {.cdecl,
+#    importc: "scePthreadMutexUnlock", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadOnce*(a1: ptr OrbisPthreadOnce; init: proc () {.cdecl.}): cint {.
+#    cdecl, importc: "scePthreadOnce", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadRename*(a1: OrbisPthread; a2: cstring): cint {.cdecl,
+#    importc: "scePthreadRename", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadResume*() {.cdecl, importc: "scePthreadResume",
+#                           header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadResumeAll*() {.cdecl, importc: "scePthreadResumeAll",
+#                              header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadRwlockattrDestroy*(a1: ptr OrbisPthreadRwlockattr): cint {.cdecl,
+#    importc: "scePthreadRwlockattrDestroy", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadRwlockattrGetpshared*() {.cdecl,
+#    importc: "scePthreadRwlockattrGetpshared", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadRwlockattrInit*(a1: ptr OrbisPthreadRwlockattr): cint {.cdecl,
+#    importc: "scePthreadRwlockattrInit", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadRwlockattrSetpshared*() {.cdecl,
+#    importc: "scePthreadRwlockattrSetpshared", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadRwlockDestroy*(a1: ptr OrbisPthreadRwlock): cint {.cdecl,
+#    importc: "scePthreadRwlockDestroy", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadRwlockInit*(a1: ptr OrbisPthreadRwlock;
+#                           a2: ptr OrbisPthreadRwlockattr; a3: cstring): cint {.
+#    cdecl, importc: "scePthreadRwlockInit", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadRwlockRdlock*(a1: ptr OrbisPthreadRwlock): cint {.cdecl,
+#    importc: "scePthreadRwlockRdlock", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadRwlockTimedrdlock*(a1: ptr OrbisPthreadRwlock;
+#                                  a2: OrbisKernelUseconds): cint {.cdecl,
+#    importc: "scePthreadRwlockTimedrdlock", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadRwlockTimedwrlock*(a1: ptr OrbisPthreadRwlock;
+#                                  a2: OrbisKernelUseconds): cint {.cdecl,
+#    importc: "scePthreadRwlockTimedwrlock", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadRwlockTryrdlock*(a1: ptr OrbisPthreadRwlock): cint {.cdecl,
+#    importc: "scePthreadRwlockTryrdlock", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadRwlockTrywrlock*(a1: ptr OrbisPthreadRwlock): cint {.cdecl,
+#    importc: "scePthreadRwlockTrywrlock", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadRwlockUnlock*(a1: ptr OrbisPthreadRwlock): cint {.cdecl,
+#    importc: "scePthreadRwlockUnlock", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadRwlockWrlock*(a1: ptr OrbisPthreadRwlock): cint {.cdecl,
+#    importc: "scePthreadRwlockWrlock", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadSelf*(): OrbisPthread {.cdecl, importc: "scePthreadSelf",
+#                                       header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadSetaffinity*() {.cdecl, importc: "scePthreadSetaffinity",
+#                                header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadSetBesteffort*() {.cdecl, importc: "scePthreadSetBesteffort",
+#                                  header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadSetcancelstate*(a1: cint; a2: ptr cint): cint {.cdecl,
+#    importc: "scePthreadSetcancelstate", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadSetcanceltype*(a1: cint; a2: ptr cint): cint {.cdecl,
+#    importc: "scePthreadSetcanceltype", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadSetconcurrency*() {.cdecl, importc: "scePthreadSetconcurrency",
+#                                   header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadSetName*() {.cdecl, importc: "scePthreadSetName",
+#                            header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadSetprio*(a1: OrbisPthread; a2: cint): cint {.cdecl,
+#    importc: "scePthreadSetprio", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadSetschedparam*() {.cdecl, importc: "scePthreadSetschedparam",
+#                                  header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadSetspecific*(a1: OrbisPthreadKey; a2: pointer): cint {.cdecl,
+#    importc: "scePthreadSetspecific", header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadSingle*() {.cdecl, importc: "scePthreadSingle",
+#                           header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadSuspend*() {.cdecl, importc: "scePthreadSuspend",
+#                            header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadSuspendAll*() {.cdecl, importc: "scePthreadSuspendAll",
+#                               header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadTestcancel*() {.cdecl, importc: "scePthreadTestcancel",
+#                               header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadTimedjoin*() {.cdecl, importc: "scePthreadTimedjoin",
+#                              header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc scePthreadYield*() {.cdecl, importc: "scePthreadYield",
+#                          header: "orbis/libkernel.h".}
+#  ##  Empty Comment
+#proc ioctl*(fd: cint; request: culong): cint {.varargs, cdecl, importc: "ioctl",
+#    header: "orbis/libkernel.h".}
+#  ##  Empty Comment

@@ -26,6 +26,9 @@ proc scePadResetLightBar*(handle: cint): cint {.cdecl,
     importc: "scePadResetLightBar", header: "orbis/Pad.h".}
 proc scePadSetLightBar*(handle: cint; inputColor: ptr OrbisPadColor): cint {.
     cdecl, importc: "scePadSetLightBar", header: "orbis/Pad.h".}
+proc scePadSetLightBarBlinking*(handle: cint;
+                                inputColor: ptr OrbisPadLightBlinkingParam): cint {.
+    cdecl, importc: "scePadSetLightBarBlinking", header: "orbis/Pad.h".}
 proc scePadGetControllerInformation*(handle: cint; info: ptr OrbisPadInformation): cint {.
     cdecl, importc: "scePadGetControllerInformation", header: "orbis/Pad.h".}
 proc scePadGetExtControllerInformation*(handle: cint;
@@ -144,11 +147,10 @@ proc scePadSetForceIntercepted*() {.cdecl, importc: "scePadSetForceIntercepted",
                                     header: "orbis/Pad.h".}
 proc scePadSetLightBarBaseBrightness*() {.cdecl,
     importc: "scePadSetLightBarBaseBrightness", header: "orbis/Pad.h".}
-proc scePadSetLightBarBlinking*() {.cdecl, importc: "scePadSetLightBarBlinking",
-                                    header: "orbis/Pad.h".}
 proc scePadSetLightBarForTracker*() {.cdecl,
                                       importc: "scePadSetLightBarForTracker",
                                       header: "orbis/Pad.h".}
+  ##  void scePadSetLightBarBlinking();
 proc scePadSetLoginUserNumber*() {.cdecl, importc: "scePadSetLoginUserNumber",
                                    header: "orbis/Pad.h".}
 proc scePadSetMotionSensorState*() {.cdecl,

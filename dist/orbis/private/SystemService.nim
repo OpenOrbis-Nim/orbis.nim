@@ -9,6 +9,8 @@ proc sceSystemServiceParamGetInt*(paramId: int32; value: ptr int32): int32 {.
 proc sceSystemServiceParamGetString*(paramId: int32; buf: cstring;
                                      bufSize: csize_t): int32 {.cdecl,
     importc: "sceSystemServiceParamGetString", header: "orbis/SystemService.h".}
+proc sceLncUtilGetAppId*(titleId: cstring): int32 {.cdecl,
+    importc: "sceLncUtilGetAppId", header: "orbis/SystemService.h".}
 proc sceSystemServiceGetAppIdOfBigApp*(): int32 {.cdecl,
     importc: "sceSystemServiceGetAppIdOfBigApp", header: "orbis/SystemService.h".}
 proc sceSystemServiceGetAppIdOfMiniApp*(): int32 {.cdecl,
@@ -17,6 +19,9 @@ proc sceSystemServiceGetAppIdOfMiniApp*(): int32 {.cdecl,
 proc sceSystemServiceKillApp*(appid: uint32; opt: cint; `method`: cint;
                               reason: cint): int32 {.cdecl,
     importc: "sceSystemServiceKillApp", header: "orbis/SystemService.h".}
+# proc sceSystemServiceGetAppStatus*(app_id: uint32; data: pointer): int32 {.
+#    cdecl, importc: "sceSystemServiceGetAppStatus",
+#    header: "orbis/SystemService.h".}
 proc sceSystemServiceAcquireFb0*() {.cdecl,
                                      importc: "sceSystemServiceAcquireFb0",
                                      header: "orbis/SystemService.h".}
@@ -70,12 +75,10 @@ proc sceSystemServiceEnableSuspendConfirmationDialog*() {.cdecl,
 proc sceSystemServiceGetAppFocusedAppStatus*() {.cdecl,
     importc: "sceSystemServiceGetAppFocusedAppStatus",
     header: "orbis/SystemService.h".}
-proc sceSystemServiceGetAppStatus*() {.cdecl,
-                                       importc: "sceSystemServiceGetAppStatus",
-                                       header: "orbis/SystemService.h".}
 proc sceSystemServiceGetAppType*() {.cdecl,
                                      importc: "sceSystemServiceGetAppType",
                                      header: "orbis/SystemService.h".}
+  ##  void sceSystemServiceGetAppStatus();
 proc sceSystemServiceGetDisplaySafeAreaInfo*() {.cdecl,
     importc: "sceSystemServiceGetDisplaySafeAreaInfo",
     header: "orbis/SystemService.h".}

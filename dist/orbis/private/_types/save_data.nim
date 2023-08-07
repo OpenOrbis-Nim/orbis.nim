@@ -1,5 +1,4 @@
 import posix
-
 const
   ORBIS_SAVE_DATA_MOUNT_MODE_RDONLY* = 1 ## Read-only
 
@@ -134,8 +133,8 @@ type
                          header: "orbis/_types/save_data.h", bycopy.} = object
     userId* {.importc: "userId".}: int32
     unknown1* {.importc: "unknown1".}: int32
-    titleId* {.importc: "titleId".}: ptr OrbisSaveDataTitleId
-    dirName* {.importc: "dirName".}: ptr OrbisSaveDataDirName
+    titleId* {.importc: "titleId".}: cstring
+    dirName* {.importc: "dirName".}: cstring
     unused* {.importc: "unused".}: uint32
     reserved* {.importc: "reserved".}: array[32, uint8]
     unknown2* {.importc: "unknown2".}: int32
@@ -154,7 +153,7 @@ type
                          header: "orbis/_types/save_data.h", bycopy.} = object
     userId* {.importc: "userId".}: int32
     unk1* {.importc: "unk1".}: uint32
-    dirName* {.importc: "dirName".}: ptr OrbisSaveDataDirName
+    dirName* {.importc: "dirName".}: cstring
     blocks* {.importc: "blocks".}: uint64
     mountMode* {.importc: "mountMode".}: uint32
     reserved* {.importc: "reserved".}: array[32, uint8]
