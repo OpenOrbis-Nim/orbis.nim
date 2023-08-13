@@ -9,14 +9,15 @@ proc ioctl*(fd: cint; request: culong): cint {.varargs, cdecl, importc: "ioctl",
   ##  Empty Comment
 
 proc generateSealedKey*(data: var array[96, byte]): cint =
+  # the call will damage the stack
+  var dummy: array[0x30, byte]
+  var sealedKey: array[0x60, byte]
+  # Keep it here just in case
   var fd = open("/dev/sbl_srv", O_RDWR);
   if fd == -1:
     return -1
   defer: discard close(fd)
   # This dummy data must be here or
-  # the call will damage the stack
-  var dummy: array[0x30, byte]
-  var sealedKey: array[0x60, byte]
   if ioctl(fd, 0x40845303, sealedKey.addr) == -1:
     return -1
   for idx in 0..<0x60:
